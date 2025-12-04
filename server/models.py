@@ -17,6 +17,7 @@ class Events(Enum):
     UpdateStage = "updateStage"
     UpdateScores = "updateScores"
     UpdateDifficulties = "updateDifficulties"
+    UpdateQuestionDuration = "updateQuestionDuration"
     CorrectAnswer = "correctAnswer"
 
 class PlayerInfo(BaseModel):
@@ -41,6 +42,7 @@ class Room:
         self.player_index = 0
         self.players = {}
         self.current_question: Question = None
+        self.question_duration = 15 # seconds
         self.current_stage: Stages = Stages.Lobby.value
         self.easy = True
         self.medium = True

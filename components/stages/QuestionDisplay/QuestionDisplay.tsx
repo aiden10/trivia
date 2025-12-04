@@ -9,6 +9,7 @@ import PlayerList from '@/components/PlayerList';
 
 export default function QuestionDisplay() {
     const { question, host, questionDuration, submitUpdateStage } = useGameContext();
+    const [ remainingTime, setRemainingTime ] = useState(questionDuration);
     const [ canGuess, setCanGuess ] = useState(true);
 
     useEffect(() => {
@@ -20,6 +21,22 @@ export default function QuestionDisplay() {
 
         return () => clearTimeout(timer);
     }, [host, questionDuration, submitUpdateStage]);
+
+    useEffect(() => {
+        setRemainingTime(questionDuration);
+        
+        const interval = setInterval(() => {
+            setRemainingTime(prev => {
+                if (prev <= 1) {
+                    clearInterval(interval);
+                    return 0;
+                }
+                return prev - 1;
+            });
+        }, 1000);
+
+        return () => clearInterval(interval);
+    }, [questionDuration]);
 
     return <div>
         <h1>{question?.body}</h1>
@@ -34,6 +51,7 @@ export default function QuestionDisplay() {
                 />
             })}
         </div>
+        <p>{remainingTime}s</p>
         <PlayerList />
     </div>
 }

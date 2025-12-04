@@ -33,6 +33,7 @@ interface GameContextType {
     submitUpdateStage: (newStage: Stages) => void;
     submitUpdateQuestion: () => void;
     submitUpdateDifficulties: (easy: boolean, medium: boolean, hard: boolean) => void;
+    submitUpdateQuestionDuration: (duration: number) => void;
     submitCorrectAnswer: () => void;
     
     // Utility
@@ -70,6 +71,7 @@ export const GameProvider: React.FC<GameProviderProps> = ({ children }) => {
         setPlayers,
         setStage,
         setQuestion,
+        setQuestionDuration,
         name,
         players,
         playerID,
@@ -157,6 +159,7 @@ export const GameProvider: React.FC<GameProviderProps> = ({ children }) => {
         submitUpdateQuestion: emitters.submitUpdateQuestion,
         submitCorrectAnswer: emitters.submitCorrectAnswer,
         submitUpdateDifficulties: emitters.submitUpdateDifficulties,
+        submitUpdateQuestionDuration: emitters.submitUpdateQuestionDuration,
         getPlayerData
     };
 

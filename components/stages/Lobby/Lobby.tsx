@@ -3,7 +3,15 @@ import { Stages } from "@/shared/types";
 import { useState } from "react";
 
 export default function Lobby() {
-    const { host, setQuestionDuration, setWinningScore, submitUpdateDifficulties, submitUpdateStage } = useGameContext();
+    const { 
+        host, 
+        setQuestionDuration, 
+        setWinningScore, 
+        submitUpdateDifficulties, 
+        submitUpdateStage, 
+        submitUpdateQuestionDuration 
+    } = useGameContext();
+
     const [easy, setEasy] = useState(true);
     const [medium, setMedium] = useState(true);
     const [hard, setHard] = useState(true);
@@ -19,6 +27,7 @@ export default function Lobby() {
         const value = parseInt(e.target.value);
         if (!isNaN(value)) {
             setQuestionDuration(value);
+            submitUpdateQuestionDuration(value);
         }
     };
 

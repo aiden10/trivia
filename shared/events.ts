@@ -24,16 +24,14 @@ interface EventResponses {
     updateStage: {
         newStage: Stages;
     };
-    // restart: {
-    //     easy: boolean;
-    //     medium: boolean;
-    //     hard: boolean;
-    // };
     updateQuestion: {
         body: string;
         value: number;
         options: string[];
         answer: string;
+    };
+    updateQuestionDuration: {
+        duration: number;
     };
     correctAnswer: {
         playerID: number;
@@ -47,6 +45,7 @@ export interface EventDependencies {
     setPlayers: React.Dispatch<React.SetStateAction<Player[]>>;
     setStage: (stage: Stages) => void;
     setQuestion: (newQuestion: Question) => void;
+    setQuestionDuration: (newDuration: number) => void;
     name: string;
     players: Player[];
     playerID: number;
@@ -61,6 +60,7 @@ export enum Events {
     UpdateScores = "updateScores",
     UpdateStage = "updateStage",
     UpdateDifficulties = "updateDifficulties",
+    UpdateQuestionDuration = "updateQuestionDuration",
     Restart = "restart",
     CorrectAnswer = "correctAnswer"
 };
@@ -135,6 +135,10 @@ export const createEventHandlers = (deps: EventDependencies) => ({
         }
     },
 
+    handleUpdateQuestionDuration: (eventData: EventResponses[Events.UpdateQuestionDuration]) => {
+        deps.setQuestionDuration(eventData.duration);
+    },
+
     handleRestart: () => {
         deps.setPlayers(prev => prev.map(p => ({ ...p, score: 0 })));
         deps.setStage(Stages.Lobby);
@@ -188,6 +192,15 @@ export const createEventEmitters = (socket: WebSocket | null, deps: EventDepende
             socket.send(JSON.stringify({
                 type: Events.UpdateDifficulties,
                 data: {easy: easy, medium: medium, hard: hard}
+            }));
+        }
+    },
+    
+    submitUpdateQuestionDuration: (duration: number) => {
+        if (socket) {
+            socket.send(JSON.stringify({
+                type: Events.UpdateQuestionDuration,
+                data: {duration: duration}
             }));
         }
     },

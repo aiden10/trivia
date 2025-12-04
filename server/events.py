@@ -48,3 +48,11 @@ async def handle_update_difficulties(message, room: Room):
     if data["hard"]: room.hard = True
     # a bit weird but this just sets a new question and sends it to all players
     await handle_update_question(room)
+
+async def handle_update_duration(message, room: Room):
+    data = message["data"]
+    room.question_duration = data["duration"]
+    await broadcast({
+        "type": Events.UpdateQuestionDuration.value,
+        "data": {"duration": data["duration"]}
+    }, room)
