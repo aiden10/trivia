@@ -1,0 +1,8 @@
+
+// for prod
+// export const SOCKET_URL = "wss://aiden.photo/ws"
+// export const CREATE_ROOM_ENDPOINT = "https://aiden.photo/rooms/create"
+export const SOCKET_URL = "http://localhost:8000/ws"
+export const CREATE_ROOM_ENDPOINT = "http://localhost:8000/rooms/create"
+export const CORRECT_GUESS_REWARD = 5
+export const CORRECT_GUESS_RECIPIENT_REWARD = 10
