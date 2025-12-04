@@ -46,7 +46,7 @@ async def websocket_endpoint(websocket: WebSocket, room_id: str):
         player = Player(player_info["name"], room.player_index, websocket)
         
         host = len(room.players) == 0
-        print(f'{player_info["name"]} host: {host}')
+        print(f'stage: {room.current_stage}')
         await websocket.send_text(json.dumps({
             "type": Events.Join.value,
             "data": {

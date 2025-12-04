@@ -24,7 +24,7 @@ async def handle_update_question(room: Room):
         "type": Events.UpdateQuestion.value,
         "data": {"body": new_question.body, "value": new_question.value, "options": new_question.options, "answer": new_question.answer}
     }, room)    
-    
+
 async def handle_correct_answer(message, room: Room):
     data = message["data"]
     room.players[data["playerID"]].score += data["value"]
@@ -35,7 +35,7 @@ async def handle_correct_answer(message, room: Room):
 
 async def handle_update_stage(message, room: Room):
     data = message["data"]
-    room.current_stage = Stages(data["newStage"])
+    room.current_stage = Stages(data["newStage"]).value
     await broadcast({
         "type": Events.UpdateStage.value,
         "data": {"newStage": data["newStage"]}

@@ -1,4 +1,3 @@
-
 'use client'
 
 import { useState, useEffect } from 'react';
@@ -37,21 +36,38 @@ export default function QuestionDisplay() {
 
         return () => clearInterval(interval);
     }, [questionDuration]);
+    
+    const progressPercentage = (remainingTime / questionDuration) * 100;
 
-    return <div>
-        <h1>{question?.body}</h1>
-        <h2>{question?.value}</h2>
-        <div className='grid-cols-2 grid-rows-2 gap-5'>
-            {question?.options.map((option, index) => {
-                return <Option 
-                    key={index}
-                    option={option} 
-                    canGuess={canGuess}
-                    setCanGuess={setCanGuess}
-                />
-            })}
+        return <div className='w-full flex flex-col min-h-screen gap-y-5 p-4'>
+        <div className='w-full justify-center items-center flex flex-col md:gap-8 gap-12'>
+            <h1 className='main-text-color text-2xl md:text-4xl w-full p-4 text-center drop-shadow-[0_1.5px_1.5px_rgba(0,0,0,0.3)] font-semibold
+            bg-indigo-500 border-4 border-black rounded-sm'>{question?.body}</h1>
+            <h2 className='main-text-color text-2xl bg-indigo-800 border-4 border-cyan-50 min-w-[200px] text-center p-2'>{question?.value} pts</h2>
+            
+            <div className='grid grid-cols-2 md:grid-cols-2 gap-4 w-full max-w-4xl'>
+                {question?.options.map((option, index) => {
+                    return <Option 
+                        key={index}
+                        option={option} 
+                        canGuess={canGuess}
+                        setCanGuess={setCanGuess}
+                    />
+                })}
+            </div>
+            
+            <div className='flex flex-col items-center w-full max-w-4xl gap-2'>
+                <p className='main-text-color text-2xl'>{remainingTime}s</p>
+                <div className='w-full h-1 bg-gray-700 rounded-full overflow-hidden'>
+                    <div 
+                        className='h-full bg-white transition-all duration-1000 ease-linear'
+                        style={{ width: `${progressPercentage}%` }}
+                    />
+                </div>
+            </div>
         </div>
-        <p>{remainingTime}s</p>
-        <PlayerList />
+        <div className='w-full max-w-4xl mx-auto mt-10'>
+            <PlayerList />
+        </div>
     </div>
 }

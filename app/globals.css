@@ -1,1 +1,16 @@
 @import "tailwindcss";
+
+@layer components {
+  .btn-primary {
+    @apply p-5 bg-blue-600 hover:opacity-75 rounded-md text-white text-lg md:text-xl 
+           border-4 border-black px-6 py-3 transition-opacity hover:cursor-pointer;
+  }
+  .input-primary {
+    @apply bg-blue-600 p-2 hover:opacity-85 text-cyan-50 text-[24px]
+            text-shadow-[0_0.9px_0.9px_rgba(0,0,0,0.7)] 
+            border-4 rounded-md focus:outline-none focus:border-white border-black;
+  }
+  .main-text-color {
+    @apply text-cyan-50
+  }
+}

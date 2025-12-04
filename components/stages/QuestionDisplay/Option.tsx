@@ -31,7 +31,7 @@ export default function Option({ option, canGuess, setCanGuess }: OptionProps) {
     };
 
     return <button
-        className='hover:opacity-75 hover:cursor-pointer p-3 disabled:cursor-not-allowed disabled:opacity-50 bg-amber-50'
+        className='btn-primary h-full md:h-fit w-full'
         disabled={!canGuess}
         onClick={handleGuess}>
         {option}
