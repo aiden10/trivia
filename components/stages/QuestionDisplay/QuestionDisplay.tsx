@@ -10,6 +10,7 @@ export default function QuestionDisplay() {
     const { question, host, questionDuration, submitUpdateStage } = useGameContext();
     const [ remainingTime, setRemainingTime ] = useState(questionDuration);
     const [ canGuess, setCanGuess ] = useState(true);
+    const [ feedback, setFeedback ] = useState<'correct' | 'incorrect' | null>(null);
 
     useEffect(() => {
         if (!host) return;
@@ -23,6 +24,8 @@ export default function QuestionDisplay() {
 
     useEffect(() => {
         setRemainingTime(questionDuration);
+        setCanGuess(true);
+        setFeedback(null);
         
         const interval = setInterval(() => {
             setRemainingTime(prev => {
@@ -35,11 +38,11 @@ export default function QuestionDisplay() {
         }, 1000);
 
         return () => clearInterval(interval);
-    }, [questionDuration]);
+    }, [questionDuration, question]);
     
     const progressPercentage = (remainingTime / questionDuration) * 100;
 
-        return <div className='w-full flex flex-col min-h-screen gap-y-5 p-4'>
+    return <div className='w-full flex flex-col min-h-screen gap-y-5 p-4'>
         <div className='w-full justify-center items-center flex flex-col md:gap-8 gap-12'>
             <h1 className='main-text-color text-2xl md:text-4xl w-full p-4 text-center drop-shadow-[0_1.5px_1.5px_rgba(0,0,0,0.3)] font-semibold
             bg-indigo-500 border-4 border-black rounded-sm'>{question?.body}</h1>
@@ -52,6 +55,7 @@ export default function QuestionDisplay() {
                         option={option} 
                         canGuess={canGuess}
                         setCanGuess={setCanGuess}
+                        setFeedback={setFeedback}
                     />
                 })}
             </div>
@@ -64,6 +68,16 @@ export default function QuestionDisplay() {
                         style={{ width: `${progressPercentage}%` }}
                     />
                 </div>
+                
+                {feedback && (
+                    <p className={`text-3xl font-bold mt-2 ${
+                        feedback === 'correct' 
+                            ? 'text-emerald-600' 
+                            : 'text-rose-700'
+                    }`}>
+                        {feedback === 'correct' ? 'correct!' : 'incorrect'}
+                    </p>
+                )}
             </div>
         </div>
         <div className='w-full max-w-4xl mx-auto mt-10'>
