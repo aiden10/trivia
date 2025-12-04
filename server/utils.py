@@ -3,7 +3,7 @@ import csv
 import random
 import string
 from fastapi import WebSocket
-from server.models import *
+from models import *
 
 EASY_VALUE = 5
 MEDIUM_VALUE = 10

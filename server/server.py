@@ -3,9 +3,9 @@ import json
 from fastapi import FastAPI, WebSocket, WebSocketDisconnect
 from fastapi.responses import JSONResponse
 from fastapi.middleware.cors import CORSMiddleware
-from server.models import Room, Player, Events
-from server.utils import broadcast, generate_room_id, get_question
-from server.events import handle_restart, handle_update_question, handle_update_stage, handle_correct_answer, handle_update_difficulties
+from models import Room, Player, Events
+from utils import broadcast, generate_room_id, get_question
+from events import handle_restart, handle_update_question, handle_update_stage, handle_correct_answer, handle_update_difficulties
 
 origins = [
     "http://localhost",

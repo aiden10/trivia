@@ -1,6 +1,6 @@
 
-from server.utils import *
-from server.models import * 
+from utils import *
+from models import * 
 
 async def handle_restart(message, room: Room):
     data = message["data"]
