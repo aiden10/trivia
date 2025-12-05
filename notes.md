@@ -35,4 +35,26 @@ sudo systemctl daemon-reload
 sudo systemctl enable trivia
 sudo systemctl start trivia
 ```
+# nginx Config
+```
+server {
+    server_name trivia.aiden.photo;
 
+    location / {
+        proxy_pass http://127.0.0.1:9000;
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+    }
+
+    location /ws {
+        proxy_pass http://127.0.0.1:9000;
+        proxy_http_version 1.1;
+        proxy_set_header Upgrade $http_upgrade;
+        proxy_set_header Connection "upgrade";
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+    }
+
+    listen 80;
+}
+```

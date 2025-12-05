@@ -1,23 +1,74 @@
-
 'use client'
 
 import { useGameContext } from "@/shared/GameContext";
 import Leaderboard from "./Leaderboard";
+import { useState } from "react";
 
 export default function ResultsStage() {
     const { host, submitRestart, submitUpdateDifficulties } = useGameContext();
+    const [easy, setEasy] = useState(true);
+    const [medium, setMedium] = useState(true);
+    const [hard, setHard] = useState(true);
 
-    return <div className="flex flex-col gap-y-10">
+    return <div className="flex flex-col gap-y-10 p-4 items-center">
         <Leaderboard/>
-        <div className={`flex flex-row ${host? "visible" : "invisible"} md:gap-x-5 gap-x-2 items-center md:max-w-1/2`}>
-            <button className="p-1 hover:cursor-pointer hover:opacity-75 bg-blue-600 border-4 rounded-md md:text-[24px]"
-                onClick={() => submitRestart(true, true, true)}
-            >
-                New Game
-            </button>
-            <p className="md:text-[24px] p-1">easy:</p>
-            <p className="md:text-[24px] p-1">medium:</p>
-            <p className="md:text-[24px] p-1">hard:</p>
-        </div>
+        
+        {host && (
+            <div className="flex flex-col gap-4 w-full max-w-md">
+                <div className="bg-indigo-800 border-black border-4 rounded-lg p-4 space-y-3">
+                    <label className="text-white text-lg font-semibold">
+                        difficulty levels
+                    </label>
+                    
+                    <div className="space-y-2">
+                        <label className="flex items-center gap-3 text-white">
+                            <input
+                                type="checkbox"
+                                checked={easy}
+                                onChange={(e) => {
+                                    setEasy(e.target.checked);
+                                    submitUpdateDifficulties(e.target.checked, medium, hard);
+                                }}
+                                className="w-5 h-5"
+                            />
+                            <span>easy (5 points)</span>
+                        </label>
+
+                        <label className="flex items-center gap-3 text-white">
+                            <input
+                                type="checkbox"
+                                checked={medium}
+                                onChange={(e) => {
+                                    setMedium(e.target.checked);
+                                    submitUpdateDifficulties(easy, e.target.checked, hard);
+                                }}
+                                className="w-5 h-5"
+                            />
+                            <span>medium (10 points)</span>
+                        </label>
+
+                        <label className="flex items-center gap-3 text-white">
+                            <input
+                                type="checkbox"
+                                checked={hard}
+                                onChange={(e) => {
+                                    setHard(e.target.checked);
+                                    submitUpdateDifficulties(easy, medium, e.target.checked);
+                                }}
+                                className="w-5 h-5"
+                            />
+                            <span>hard (15 points)</span>
+                        </label>
+                    </div>
+                </div>
+
+                <button 
+                    className="btn-primary w-full text-2xl py-4"
+                    onClick={() => submitRestart(easy, medium, hard)}
+                >
+                    new game
+                </button>
+            </div>
+        )}
     </div>
 }
