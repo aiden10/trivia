@@ -35,6 +35,14 @@ sudo systemctl daemon-reload
 sudo systemctl enable trivia
 sudo systemctl start trivia
 ```
+
+## Restarting
+``` sudo systemctl restart trivia ```
+
+## Viewing Logs
+``` journalctl -u trivia.service -f ```
+
+
 # nginx Config
 ```
 server {
