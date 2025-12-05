@@ -43,9 +43,9 @@ async def handle_update_stage(message, room: Room):
 
 async def handle_update_difficulties(message, room: Room):
     data = message["data"]
-    if data["easy"]: room.easy = True
-    if data["medium"]: room.medium = True
-    if data["hard"]: room.hard = True
+    room.easy = data["easy"]
+    room.medium = data["medium"]
+    room.hard = data["hard"]
     # a bit weird but this just sets a new question and sends it to all players
     await handle_update_question(room)
 

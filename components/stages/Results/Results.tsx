@@ -12,7 +12,6 @@ export default function ResultsStage() {
 
     return <div className="flex flex-col gap-y-10 p-4 items-center">
         <Leaderboard/>
-        
         {host && (
             <div className="flex flex-col gap-4 w-full max-w-md">
                 <div className="bg-indigo-800 border-black border-4 rounded-lg p-4 space-y-3">

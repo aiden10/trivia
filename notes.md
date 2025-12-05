@@ -66,3 +66,7 @@ server {
     listen 80;
 }
 ```
+
+# Todo
+- Skip to reveal after all players guessed
+    - This is a bit more difficult because I only track when players guess correctly 

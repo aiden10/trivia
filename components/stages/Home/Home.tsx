@@ -9,7 +9,8 @@ export default function Home() {
     
     return (
         <div className='flex flex-col items-center justify-center w-screen h-screen bg-indigo-700 gap-8'>
-            <h1 className='text-6xl md:text-7xl text-cyan-50 mb-8 drop-shadow-[0_1.5px_1.5px_rgba(0,0,0,0.3)] font-semibold'>wwtbam</h1>
+            <h1 className='text-6xl md:text-7xl text-cyan-50 mb-8 drop-shadow-[0_1.5px_1.5px_rgba(0,0,0,0.3)] 
+            font-semibold'>mTrivia</h1>
             
             {/* Create Room Section */}
             <div className='flex flex-col items-center gap-4 w-full max-w-2xl px-4'>

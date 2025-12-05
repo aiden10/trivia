@@ -105,7 +105,6 @@ export const createEventHandlers = (deps: EventDependencies) => ({
             options: eventData.options,
             answer: eventData.answer
         });
-        console.log(eventData.answer);
     },
 
     handleUpdateScores: (eventData: EventResponses[Events.UpdateScores]) => {

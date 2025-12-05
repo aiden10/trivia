@@ -2,19 +2,6 @@
 import React from 'react';
 import { useGameContext } from '@/shared/GameContext';
 
-const getTrophyIcon = (position: number) => {
-    switch (position) {
-    case 1:
-        return '🏆';
-    case 2:
-        return '🥈';
-    case 3:
-        return '🥉';
-    default:
-        return null;
-    }
-};
-
 interface LeaderboardProps {
     title?: string;
     showPositions?: boolean;
@@ -36,7 +23,7 @@ export default function Leaderboard({ title = "Leaderboard", showPositions = tru
     const displayPlayers = maxPlayers ? sortedPlayers.slice(0, maxPlayers) : sortedPlayers;
 
     return (
-        <div className="bg-white rounded-md overflow-hidden">
+        <div className="bg-white rounded-md overflow-hidden w-full">
             {/* Header */}
             <div className="bg-blue-600 border-4 border-black text-white p-4">
                 <h2 className="text-2xl font-bold text-center">{title}</h2>
@@ -50,7 +37,6 @@ export default function Leaderboard({ title = "Leaderboard", showPositions = tru
                 {displayPlayers.map((player, index) => {
                     const position = index + 1;
                     const isCurrentPlayer = player.playerID === playerID;
-                    const trophy = getTrophyIcon(position);
                 
                     return (
                         <div
@@ -58,7 +44,6 @@ export default function Leaderboard({ title = "Leaderboard", showPositions = tru
                             className={`
                                 flex items-center justify-between p-4 transition-all duration-200 hover:shadow-md bg-amber-50
                                 border-4 border-black border-t-0
-                                ${isCurrentPlayer ? 'border-blue-500' : ''}
                                 ${compact ? 'p-3' : 'p-4'}
                             `}
                             >
@@ -67,11 +52,7 @@ export default function Leaderboard({ title = "Leaderboard", showPositions = tru
                                 {/* Position */}
                                 {showPositions && (
                                 <div className="flex items-center justify-center w-8 h-8">
-                                    {trophy ? (
-                                        <span className="text-2xl">{trophy}</span>
-                                    ) : (
-                                        <span className="text-lg font-bold text-gray-500">#{position}</span>
-                                    )}
+                                    <span className="text-lg font-bold text-gray-500">#{position}</span>
                                 </div>
                                 )}
                                 

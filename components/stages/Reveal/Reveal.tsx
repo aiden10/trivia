@@ -1,30 +1,38 @@
-
 'use client'
 
 import { useGameContext } from '@/shared/GameContext';
 import { Stages } from '@/shared/types';
-import { useEffect, useState } from 'react';
+import { useEffect, useState, useRef } from 'react';
 import { Question } from '@/shared/types';
 import PlayerList from '@/components/PlayerList';
 
 export default function Reveal() {
     const { host, question, players, winningScore, submitUpdateStage, submitUpdateQuestion } = useGameContext();
     const [revealQuestion] = useState<Question | null>(question);
+    const endTimeRef = useRef<number>(Date.now() + 4000);
+    
     useEffect(() => {
         if (!host) return;
         
-        const timer = setTimeout(() => {
-            const winner = players.find(player => player.score >= winningScore);
+        endTimeRef.current = Date.now() + 4000;
+        
+        const interval = setInterval(() => {
+            const timeLeft = Math.max(0, endTimeRef.current - Date.now());
             
-            if (winner) {
-                submitUpdateStage(Stages.Results);
-            } else {
-                submitUpdateQuestion();
-                submitUpdateStage(Stages.QuestionDisplay);
+            if (timeLeft === 0) {
+                clearInterval(interval);
+                const winner = players.find(player => player.score >= winningScore);
+                
+                if (winner) {
+                    submitUpdateStage(Stages.Results);
+                } else {
+                    submitUpdateQuestion();
+                    submitUpdateStage(Stages.QuestionDisplay);
+                }
             }
-        }, 5000);
+        }, 100);
 
-        return () => clearTimeout(timer);
+        return () => clearInterval(interval);
     }, [host, players, winningScore, submitUpdateStage, submitUpdateQuestion]);
 
     return <div className='w-full flex flex-col min-h-screen gap-y-16 p-4'>

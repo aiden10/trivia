@@ -56,7 +56,7 @@ export default function Lobby() {
                             type="number"
                             min="5"
                             max="9999"
-                            placeholder="150"
+                            placeholder="100"
                             step={5}
                             onChange={handleWinningScoreChange}
                             disabled={!host}
@@ -71,10 +71,10 @@ export default function Lobby() {
                         </label>
                         <input
                             type="number"
-                            min="3"
+                            min="1"
                             max="120"
                             placeholder="15"
-                            step={5}
+                            step={1}
                             onChange={handleDurationChange}
                             disabled={!host}
                             className={`bg-indigo-700 text-white rounded px-3 py-2 w-full ${!host && 'opacity-50 cursor-not-allowed'}`}
