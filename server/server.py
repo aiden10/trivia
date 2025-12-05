@@ -10,6 +10,7 @@ from events import handle_restart, handle_update_question, handle_update_stage, 
 origins = [
     "http://localhost",
     "http://localhost:3000",
+    "https://mtrivia.vercel.app"
 ]
 
 app = FastAPI()
