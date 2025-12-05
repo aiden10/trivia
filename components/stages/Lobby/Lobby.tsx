@@ -1,8 +1,8 @@
 import { useGameContext } from "@/shared/GameContext"
 import { Stages } from "@/shared/types";
-import { useState } from "react";
 import { useRouter } from "next/navigation";
 import PlayerList from "@/components/PlayerList";
+import GameSettings from "@/components/GameSettings";
 
 export default function Lobby() {
     const { 
@@ -14,24 +14,19 @@ export default function Lobby() {
         submitUpdateQuestionDuration 
     } = useGameContext();
 
-    const [easy, setEasy] = useState(true);
-    const [medium, setMedium] = useState(true);
-    const [hard, setHard] = useState(true);
     const router = useRouter();
 
-    const handleWinningScoreChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-        const value = parseInt(e.target.value);
-        if (!isNaN(value)) {
-            setWinningScore(value);
-        }
+    const handleWinningScoreChange = (value: number) => {
+        setWinningScore(value);
     };
 
-    const handleDurationChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-        const value = parseInt(e.target.value);
-        if (!isNaN(value)) {
-            setQuestionDuration(value);
-            submitUpdateQuestionDuration(value);
-        }
+    const handleDurationChange = (value: number) => {
+        setQuestionDuration(value);
+        submitUpdateQuestionDuration(value);
+    };
+
+    const handleDifficultyChange = (easy: boolean, medium: boolean, hard: boolean) => {
+        submitUpdateDifficulties(easy, medium, hard);
     };
 
     return <div className="flex flex-col items-center gap-6 p-4 min-h-screen">
@@ -47,91 +42,14 @@ export default function Lobby() {
                     {host ? "settings" : "waiting for host..."}
                 </h2>
                 
-                <div className="bg-indigo-800 border-black border-4 rounded-lg p-4 md:p-6 space-y-4">
-                    <div className="flex flex-col gap-2">
-                        <label className={`text-white text-lg font-semibold ${!host && 'opacity-50'}`}>
-                            winning score
-                        </label>
-                        <input
-                            type="number"
-                            min="5"
-                            max="9999"
-                            placeholder="100"
-                            step={5}
-                            onChange={handleWinningScoreChange}
-                            disabled={!host}
-                            className={`bg-indigo-700 text-white rounded px-3 py-2 w-full ${!host && 'opacity-50 cursor-not-allowed'}`}
-                        />
-                    </div>
-
-                    {/* Question Duration */}
-                    <div className="flex flex-col gap-2">
-                        <label className={`text-white text-lg font-semibold ${!host && 'opacity-50'}`}>
-                            question duration (seconds)
-                        </label>
-                        <input
-                            type="number"
-                            min="1"
-                            max="120"
-                            placeholder="15"
-                            step={1}
-                            onChange={handleDurationChange}
-                            disabled={!host}
-                            className={`bg-indigo-700 text-white rounded px-3 py-2 w-full ${!host && 'opacity-50 cursor-not-allowed'}`}
-                        />
-                    </div>
-
-                    {/* Difficulty Checkboxes */}
-                    <div className="flex flex-col gap-2">
-                        <label className="text-white text-lg font-semibold mb-1">
-                            difficulty levels
-                        </label>
-                        
-                        <div className="space-y-2">
-                            <label className={`flex items-center gap-3 text-white ${!host && 'opacity-50'}`}>
-                                <input
-                                    type="checkbox"
-                                    checked={easy}
-                                    onChange={(e) => {
-                                        setEasy(e.target.checked);
-                                        submitUpdateDifficulties(e.target.checked, medium, hard);
-                                    }}
-                                    disabled={!host}
-                                    className="w-5 h-5"
-                                />
-                                <span>easy (5 points)</span>
-                            </label>
-
-                            <label className={`flex items-center gap-3 text-white ${!host && 'opacity-50'}`}>
-                                <input
-                                    type="checkbox"
-                                    checked={medium}
-                                    onChange={(e) => {
-                                        setMedium(e.target.checked);
-                                        submitUpdateDifficulties(easy, e.target.checked, hard);
-                                    }}
-                                    disabled={!host}
-                                    className="w-5 h-5"
-                                />
-                                <span>medium (10 points)</span>
-                            </label>
-
-                            <label className={`flex items-center gap-3 text-white ${!host && 'opacity-50'}`}>
-                                <input
-                                    type="checkbox"
-                                    checked={hard}
-                                    onChange={(e) => {
-                                        setHard(e.target.checked);
-                                        submitUpdateDifficulties(easy, medium, e.target.checked);
-                                    }}
-                                    disabled={!host}
-                                    className="w-5 h-5"
-                                />
-                                <span>hard (15 points)</span>
-                            </label>
-                        </div>
-                    </div>
-                </div>
+                <GameSettings
+                    host={host}
+                    showWinningScore={true}
+                    showQuestionDuration={true}
+                    onWinningScoreChange={handleWinningScoreChange}
+                    onQuestionDurationChange={handleDurationChange}
+                    onDifficultyChange={handleDifficultyChange}
+                />
             </div>
             {host && (
                 <button

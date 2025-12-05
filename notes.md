@@ -29,7 +29,7 @@ WantedBy=multi-user.target
 ``` vi /etc/systemd/system/trivia.service ```
 Then paste contents into file
 
-Start service
+## Starting Service
 ``` 
 sudo systemctl daemon-reload
 sudo systemctl enable trivia
@@ -70,3 +70,4 @@ server {
 # Todo
 - Skip to reveal after all players guessed
     - This is a bit more difficult because I only track when players guess correctly 
+- Some questions have more than 4 options due to weird formatting

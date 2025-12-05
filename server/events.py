@@ -12,6 +12,7 @@ async def handle_restart(message, room: Room):
     for player in room.players.values():
         player.score = 0
 
+    await handle_update_question(room)
     await broadcast({
         "type": Events.Restart.value,
         "data": {}

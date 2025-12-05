@@ -140,7 +140,7 @@ export const createEventHandlers = (deps: EventDependencies) => ({
 
     handleRestart: () => {
         deps.setPlayers(prev => prev.map(p => ({ ...p, score: 0 })));
-        deps.setStage(Stages.Lobby);
+        deps.setStage(Stages.QuestionDisplay);
     },
 
     handleCorrectAnswer: (eventData: EventResponses[Events.CorrectAnswer]) => {        
