@@ -22,7 +22,7 @@ export default function Lobby() {
     return (
         <div className="flex flex-col items-center gap-6 p-4 min-h-screen">
             <svg 
-                className="w-4 h-4 md:w-8 md:h-8 absolute left-0 top-0 m-2 md:m-4 hover:cursor-pointer hover:opacity-50 fill-white"
+                className="w-4 h-4 md:w-8 md:h-8 absolute left-0 top-0 m-2 md:m-4 hover:cursor-pointer hover:opacity-50 fill-black"
                 onClick={() => router.push('/')}
                 xmlns="http://www.w3.org/2000/svg" 
                 viewBox="0 0 122.88 108.06"

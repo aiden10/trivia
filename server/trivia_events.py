@@ -1,5 +1,8 @@
 from .utils import broadcast, send_state, get_question
 from .models import Room, TriviaEvents, TriviaStages, QUESTION_VALUE, TriviaCategories
+from rapidfuzz import process, fuzz
+
+FUZZY_THRESHOLD = 60
 
 async def handle_restart(message: dict, room: Room):
     """Reset the game - clear scores and get a new question."""
@@ -28,8 +31,18 @@ async def handle_guess(message: dict, room: Room):
         return
     
     accepted_answers = [a.lower().strip() for a in room.gamemode_state.current_question.answers]
+    result = process.extractOne(
+        guess, 
+        accepted_answers, 
+        scorer=fuzz.token_set_ratio
+    )
+    is_correct = False
+    if result:
+        _, score, _ = result
+        if score >= FUZZY_THRESHOLD:
+            is_correct = True
     
-    if guess in accepted_answers and player.can_score:
+    if is_correct and player.can_score:
         player.score += QUESTION_VALUE
         player.can_score = False
         

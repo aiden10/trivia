@@ -9,15 +9,6 @@ interface TriviaSettingsProps {
     onSettingsChange: (settings: TriviaSettingsType) => void;
 }
 
-const CATEGORY_LABELS: Record<string, string> = {
-    [TriviaCategories.History]: "History",
-    [TriviaCategories.Literature]: "Literature", 
-    [TriviaCategories.Geography]: "Geography",
-    [TriviaCategories.Movies]: "Movies",
-    [TriviaCategories.Games]: "Games",
-    [TriviaCategories.PopCulture]: "Pop Culture",
-};
-
 export default function TriviaSettings({
     host,
     initialCategories = [],
@@ -28,6 +19,16 @@ export default function TriviaSettings({
     const [selectedCategories, setSelectedCategories] = useState<string[]>(initialCategories);
     const [duration, setDuration] = useState(initialDuration);
     const [winningScore, setWinningScore] = useState(initialWinningScore);
+
+    const formatCategoryLabel = (category: string) => {
+        return category
+            .split('_')
+            .map(word => {
+                if (word === 'and') return '&';
+                return word.charAt(0).toUpperCase() + word.slice(1);
+            })
+            .join(' ');
+    };
 
     useEffect(() => {
         if (initialCategories.length > 0) {
@@ -126,7 +127,7 @@ export default function TriviaSettings({
                                 disabled={!host}
                                 className="w-5 h-5"
                             />
-                            <span>{CATEGORY_LABELS[category]}</span>
+                            <span>{formatCategoryLabel(category)}</span>
                         </label>
                     ))}
                 </div>

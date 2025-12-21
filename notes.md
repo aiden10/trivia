@@ -94,12 +94,4 @@ Maybe make it so that players get some points if their question was answered wit
 ## Lobby
 The host would be able to denote who begins as the PP as well as the max number of questions
 
-# Refactoring
-Refactor current setup to support different gamemodes
-
-## Client
-Creating a room is done not for any particular gamemode
-    You make a room, then you can select the gamemode
-Separate components into folders for each gamemode
-Client events also have to be separated
-
+Show total amount of questions currently selected

@@ -12,7 +12,6 @@ export enum GameModes {
     Trivia = "trivia",
 }
 
-// === Room State (matches server Room.to_dict()) ===
 export interface RoomState {
     roomId: string;
     hostId: number;
@@ -21,7 +20,6 @@ export interface RoomState {
     gamemodeState: TriviaState | null; 
 }
 
-// === Trivia Types ===
 export enum TriviaStages {
     Lobby = 0,
     QuestionDisplay = 1,
@@ -34,8 +32,15 @@ export enum TriviaCategories {
     Literature = "literature",
     Geography = "geography",
     Movies = "movies",
-    Games = "games",
+    Games = "video_games_and_board_games",
     PopCulture = "pop_culture",
+    Science = "science_and_nature",
+    Music = "music",
+    Sports = "sports",
+    FoodDrink = "food_and_drink",
+    TV = "television",
+    Art = "art_and_architecture",
+    Miscellaneous = "miscellaneous",
 }
 
 export interface TriviaSettings {
