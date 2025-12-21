@@ -1,59 +1,37 @@
 
-from utils import *
-from models import * 
+from .utils import *
+from .models import * 
 
-async def handle_restart(message, room: Room):
-    data = message["data"]
-    room.current_question = None
-    room.easy = data["easy"]
-    room.medium = data["medium"]
-    room.hard = data["hard"]
+async def handle_update_gamemode(message: dict, room: Room):
+    """Switch the room's gamemode and initialize appropriate state."""
+    data = message.get("data", {})
+    gamemode = data.get("gamemode", GameModes.Default.value)
     
-    for player in room.players.values():
-        player.score = 0
-
-    await handle_update_question(room)
+    room.gamemode = gamemode
+    
+    if gamemode == GameModes.Trivia.value:
+        room.gamemode_state = TriviaState(
+            current_stage=TriviaStages.Lobby.value,
+            question_duration=15,
+            categories=[category for category in TriviaCategories]
+        )
+        room.gamemode_state.current_question = get_question(room)
+    else:
+        room.gamemode_state = None
+    
     await broadcast({
-        "type": Events.Restart.value,
-        "data": {}
+        "type": Events.UpdateGameMode.value,
+        "state": room.to_dict()
     }, room)
 
-async def handle_update_question(room: Room):
-    new_question = get_question(room)
-    room.current_question = new_question
-    await broadcast({
-        "type": Events.UpdateQuestion.value,
-        "data": {"body": new_question.body, "value": new_question.value, "options": new_question.options, "answer": new_question.answer}
-    }, room)    
-
-async def handle_correct_answer(message, room: Room):
-    data = message["data"]
-    room.players[data["playerID"]].score += data["value"]
-    await broadcast({
-        "type": Events.CorrectAnswer.value,
-        "data": {"playerID": data["playerID"], "value": data["value"]}
-    }, room)
-
-async def handle_update_stage(message, room: Room):
-    data = message["data"]
-    room.current_stage = Stages(data["newStage"]).value
-    await broadcast({
-        "type": Events.UpdateStage.value,
-        "data": {"newStage": data["newStage"]}
-    }, room)
-
-async def handle_update_difficulties(message, room: Room):
-    data = message["data"]
-    room.easy = data["easy"]
-    room.medium = data["medium"]
-    room.hard = data["hard"]
-    # a bit weird but this just sets a new question and sends it to all players
-    await handle_update_question(room)
-
-async def handle_update_duration(message, room: Room):
-    data = message["data"]
-    room.question_duration = data["duration"]
-    await broadcast({
-        "type": Events.UpdateQuestionDuration.value,
-        "data": {"duration": data["duration"]}
-    }, room)
+async def handle_message(message: dict, room: Room):
+    data = message.get("data", {})
+    if "message" in data:
+        sender = room.players[data["sender"]].name
+        message_text = data["message"]
+        room.messages.append({"sender": sender, "message": message_text})
+        await broadcast({
+            "type": Events.ChatMessage.value,
+            "message": message_text,
+            "sender": sender
+        })

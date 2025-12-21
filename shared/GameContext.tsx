@@ -1,26 +1,18 @@
-
 'use client'
 
 import React, { createContext, useContext, useState, useEffect, ReactNode } from 'react';
-import { Stages, Player, Question } from './types';
-import { createEventHandlers, createEventEmitters, EventDependencies, Events } from './events';
+import { Player, GameModes, RoomState, TriviaStages, TriviaSettings } from './types';
+import { Events, createGenericEventHandlers, createGenericEventEmitters } from './events';
+import { TriviaEvents, createTriviaEventHandlers, createTriviaEventEmitters } from './trivia/events';
 
 interface GameContextType {
-    // State
+    // Core State
     roomID: string;
     setRoomID: (id: string) => void;
     name: string;
     setName: (newName: string) => void;
-    question: Question | null;
-    setQuestion: (newQuestion: Question) => void;
-    questionDuration: number;
-    setQuestionDuration: (newDurection: number) => void;
-    winningScore: number;
-    setWinningScore: (newWinningScore: number) => void;
     host: boolean;
     setHost: (host: boolean) => void;
-    stage: Stages;
-    setStage: (stage: Stages) => void;
     players: Player[];
     setPlayers: React.Dispatch<React.SetStateAction<Player[]>>;
     playerID: number;
@@ -28,13 +20,21 @@ interface GameContextType {
     socket: WebSocket | null;
     setSocket: (socket: WebSocket | null) => void;
     
-    // Events
-    submitRestart: (easy: boolean, medium: boolean, hard: boolean) => void;
-    submitUpdateStage: (newStage: Stages) => void;
+    // Gamemode State
+    gamemode: GameModes;
+    setGamemode: (mode: GameModes) => void;
+    roomState: RoomState | null;
+    setRoomState: (state: RoomState) => void;
+    
+    // Generic Events
+    submitUpdateGameMode: (gamemode: GameModes) => void;
+    
+    // Trivia Events
+    submitGuess: (guess: string) => void;
+    submitUpdateStage: (newStage: TriviaStages) => void;
     submitUpdateQuestion: () => void;
-    submitUpdateDifficulties: (easy: boolean, medium: boolean, hard: boolean) => void;
-    submitUpdateQuestionDuration: (duration: number) => void;
-    submitCorrectAnswer: () => void;
+    submitUpdateSettings: (settings: TriviaSettings) => void;
+    submitRestart: () => void;
     
     // Utility
     getPlayerData: (id: number) => Player | undefined;
@@ -55,112 +55,136 @@ interface GameProviderProps {
 }
 
 export const GameProvider: React.FC<GameProviderProps> = ({ children }) => {
+    // Core State
     const [roomID, setRoomID] = useState("");
     const [name, setName] = useState("");
-    const [question, setQuestion] = useState<Question | null>(null);
-    const [questionDuration, setQuestionDuration] = useState(15);
-    const [winningScore, setWinningScore] = useState(100);
     const [host, setHost] = useState(false);
-    const [stage, setStage] = useState<Stages>(Stages.Lobby);
     const [players, setPlayers] = useState<Player[]>([]);
     const [playerID, setPlayerID] = useState(0);
     const [socket, setSocket] = useState<WebSocket | null>(null);
-    const deps: EventDependencies = {
+    
+    // Gamemode State
+    const [gamemode, setGamemode] = useState<GameModes>(GameModes.Default);
+    const [roomState, setRoomState] = useState<RoomState | null>(null);
+
+    // Create event handlers and emitters
+    const genericHandlers = createGenericEventHandlers({
         setPlayerID,
         setHost,
         setPlayers,
-        setStage,
-        setQuestion,
-        setQuestionDuration,
+        setGamemode,
+        setRoomState,
         name,
-        players,
+    });
+
+    const genericEmitters = createGenericEventEmitters(socket);
+
+    const triviaHandlers = createTriviaEventHandlers({
+        setPlayers,
+        setRoomState,
+        roomState,
+    });
+
+    const triviaEmitters = createTriviaEventEmitters(socket, {
         playerID,
-        question
-    };
+        roomState,
+    });
 
-    const emitters = createEventEmitters(socket, deps);
-    const handlers = createEventHandlers(deps);
-
+    // Initialize random name
     useEffect(() => {
         const randomName = `Guest#${Math.floor(Math.random() * 5000 + 1)}`;
         setName(randomName);
     }, []);
 
+    // WebSocket message handler
     useEffect(() => {
         if (!socket) return;
 
         const handleMessage = (event: MessageEvent) => {
             const message = JSON.parse(event.data);
-            
-            switch (message.type) {
+            const { type, data, state } = message;
+
+            // Generic events
+            switch (type) {
                 case Events.Join:
-                    handlers.handleJoin(message.data);
-                    break;
+                    genericHandlers.handleJoin(data, state);
+                    return;
                 case Events.OtherJoin:
-                    handlers.handleOtherJoin(message.data);
-                    break;
+                    genericHandlers.handleOtherJoin(data);
+                    return;
                 case Events.Quit:
-                    handlers.handleQuit(message.data);
-                    break;
-                case Events.UpdateScores:
-                    handlers.handleUpdateScores(message.data);
-                    break;
-                case Events.UpdateStage:
-                    handlers.handleUpdateStage(message.data);
-                    break;
-                case Events.Restart:
-                    handlers.handleRestart();
-                    break;
-                case Events.UpdateQuestion:
-                    handlers.handleUpdateQuestion(message.data);
-                    break;
-                case Events.CorrectAnswer:
-                    handlers.handleCorrectAnswer(message.data);
-                    break;
-                default:
-                    console.warn('Unknown message type:', message.type);
+                    genericHandlers.handleQuit(data);
+                    return;
+                case Events.UpdateGameMode:
+                    genericHandlers.handleUpdateGameMode(state);
+                    return;
+                case Events.Error:
+                    console.error('Server error:', data?.message);
+                    return;
             }
+
+            // Trivia events
+            switch (type) {
+                case TriviaEvents.UpdateStage:
+                case TriviaEvents.UpdateQuestion:
+                case TriviaEvents.UpdateSettings:
+                    triviaHandlers.handleStateUpdate(state);
+                    return;
+                case TriviaEvents.CorrectAnswer:
+                    triviaHandlers.handleCorrectAnswer(data);
+                    return;
+                case TriviaEvents.IncorrectAnswer:
+                    triviaHandlers.handleIncorrectAnswer(data);
+                    return;
+                case TriviaEvents.Restart:
+                    triviaHandlers.handleRestart(state);
+                    return;
+            }
+
+            console.warn('Unknown message type:', type);
         };
 
         socket.addEventListener('message', handleMessage);
-    
-        return () => {
-            socket.removeEventListener('message', handleMessage);
-        };
-    }, [socket]);
+        return () => socket.removeEventListener('message', handleMessage);
+    }, [socket, name, roomState]);
 
     const getPlayerData = (id: number): Player | undefined => {
         return players.find(player => player.playerID === id);
     };
 
     const value: GameContextType = {
+        // Core State
         roomID,
         setRoomID,
         name,
         setName,
-        question,
-        setQuestion,
-        questionDuration,
-        setQuestionDuration,
-        winningScore,
-        setWinningScore,
         host,
         setHost,
-        stage,
-        setStage,
         players,
         setPlayers,
         playerID,
         setPlayerID,
         socket,
         setSocket,
-        submitRestart: emitters.submitRestart,
-        submitUpdateStage: emitters.submitUpdateStage,
-        submitUpdateQuestion: emitters.submitUpdateQuestion,
-        submitCorrectAnswer: emitters.submitCorrectAnswer,
-        submitUpdateDifficulties: emitters.submitUpdateDifficulties,
-        submitUpdateQuestionDuration: emitters.submitUpdateQuestionDuration,
-        getPlayerData
+        
+        // Gamemode State
+        gamemode,
+        setGamemode,
+        roomState,
+        setRoomState,
+        
+        // Generic Events
+        submitUpdateGameMode: genericEmitters.submitUpdateGameMode,
+        
+        // Trivia Events
+        submitGuess: triviaEmitters.submitGuess,
+        submitUpdateStage: triviaEmitters.submitUpdateStage,
+        submitUpdateQuestion: triviaEmitters.submitUpdateQuestion,
+        submitUpdateSettings: triviaEmitters.submitUpdateSettings,
+        submitRestart: triviaEmitters.submitRestart,
+        
+        // Utility
+        getPlayerData,
     };
 
     return (

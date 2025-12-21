@@ -34,9 +34,13 @@ export default function NameSelect() {
     );
 
     if (hasJoined && !isConnected) {
-        return <div>Connecting...</div>;
+        return (
+            <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
+                <div className="w-16 h-16 border-4 border-white border-t-transparent rounded-full animate-spin"></div>
+            </div>
+        );
     }
-
+    
     if (!hasJoined) {
         return (
             <div className={`absolute inset-0 bg-indigo-700 z-10 ${visible}`}>

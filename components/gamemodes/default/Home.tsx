@@ -10,7 +10,7 @@ export default function Home() {
     return (
         <div className='flex flex-col items-center justify-center w-screen h-screen bg-indigo-700 gap-8'>
             <h1 className='text-6xl md:text-7xl text-cyan-50 mb-8 drop-shadow-[0_1.5px_1.5px_rgba(0,0,0,0.3)] 
-            font-semibold'>mTrivia</h1>
+            font-semibold'>Room Based Games</h1>
             
             {/* Create Room Section */}
             <div className='flex flex-col items-center gap-4 w-full max-w-2xl px-4'>
@@ -19,11 +19,10 @@ export default function Home() {
                     onClick={async () => {
                         const id = (await createRoom()).room_id;
                         setRoomID(id);
-                        console.log(`ROOM ID: ${id}`);
-                        router.push(`/game/${id}`)
+                        router.push(`/game/${id}`);
                     }}
                 >
-                    create room
+                    Create Room
                 </button>
             </div>
             
@@ -31,12 +30,11 @@ export default function Home() {
             <div className='flex flex-col items-center gap-4 w-full max-w-2xl px-4'>
                 <div className='flex flex-col items-center w-full'>
                     <p className='text-cyan-50 text-[24px] md:text-[28px] mb-2 drop-shadow-[0_0.5px_0.5px_rgba(0,0,0,0.7)]
-                    font-semibold'>room id</p>
+                    font-semibold'>Room Code</p>
                     <input
                         type="text"
-                        className='text-center input-primary w-full'
-                        defaultValue={""}
-                        placeholder='room code'
+                        className='text-center input-primary w-full uppercase'
+                        placeholder='ABCD'
                         onInput={(e) => setRoomID(e.currentTarget.value)}
                     />
                 </div>
@@ -45,7 +43,7 @@ export default function Home() {
                     disabled={roomID === ""}
                     onClick={() => router.push(`/game/${roomID}`)}
                 >
-                    join room
+                    Join Room
                 </button>
             </div>
         </div>

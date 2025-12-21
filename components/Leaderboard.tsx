@@ -19,7 +19,6 @@ export default function Leaderboard({ title = "Leaderboard", showPositions = tru
         return a.playerName.localeCompare(b.playerName);
     });
 
-    // Limit players if maxPlayers is specified
     const displayPlayers = maxPlayers ? sortedPlayers.slice(0, maxPlayers) : sortedPlayers;
 
     return (
@@ -56,36 +55,31 @@ export default function Leaderboard({ title = "Leaderboard", showPositions = tru
                                 </div>
                                 )}
                                 
-                                {/* Player info */}
+                            {/* Player info */}
                             <div>
-                            <div className="flex items-center space-x-2">
-                                <h3 className={`font-semibold ${compact ? 'text-base' : 'text-lg'}`}>
-                                    {player.playerName}
-                                </h3>
-                                {isCurrentPlayer && (
-                                <span className="bg-indigo-300 text-white text-xs px-2 py-1 rounded-full">
-                                    You
-                                </span>
+                                <div className="flex items-center space-x-2">
+                                    <h3 className={`font-semibold ${compact ? 'text-base' : 'text-lg'}`}>
+                                        {player.playerName}
+                                    </h3>
+                                    {isCurrentPlayer && (
+                                    <span className="bg-blue-600 text-white text-xs px-2 py-1 rounded-full">
+                                        You
+                                    </span>
+                                    )}
+                                </div>
+                                {!compact && position <= 3 && (
+                                    <p className="text-sm text-gray-600">
+                                    {position === 1 ? 'Winner!' : 
+                                    position === 2 ? 'Second place' : 
+                                    'Third place'}
+                                    </p>
                                 )}
-                            </div>
-                            {!compact && position <= 3 && (
-                                <p className="text-sm text-gray-600">
-                                {position === 1 ? 'Winner' : 
-                                position === 2 ? 'Runner-up' : 
-                                'Third place'}
-                                </p>
-                            )}
                             </div>
                     </div>
 
                     {/* Right side - Score */}
                     <div className="text-right">
-                            <div className={`font-bold ${compact ? 'text-lg' : 'text-xl'} ${
-                                position === 1 ? 'text-yellow-600' :
-                                position === 2 ? 'text-gray-600' :
-                                position === 3 ? 'text-orange-600' :
-                                'text-gray-800'
-                            }`}>
+                            <div className={`font-bold ${compact ? 'text-lg' : 'text-xl'} 'text-gray-800'`}>
                                 {player.score}
                             </div>
                             <div className="text-sm text-gray-500">
@@ -97,7 +91,6 @@ export default function Leaderboard({ title = "Leaderboard", showPositions = tru
                 })}
             </div>
 
-            {/* Footer with additional info */}
             {maxPlayers && sortedPlayers.length > maxPlayers && (
                 <div className="bg-gray-50 p-3 text-center">
                     <p className="text-sm text-gray-600">
@@ -106,7 +99,6 @@ export default function Leaderboard({ title = "Leaderboard", showPositions = tru
                 </div>
             )}
 
-            {/* Current player's position if not in top results */}
             {maxPlayers && 
             sortedPlayers.length > maxPlayers && 
             !displayPlayers.some(p => p.playerID === playerID) && (

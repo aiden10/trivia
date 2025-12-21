@@ -12,12 +12,22 @@ export default function PlayerList() {
     return (
         <div className="flex-col bg-blue-600 rounded-md text-shadow-[0_0.9px_0.9px_rgba(0,0,0,0.7)] border-black border-4">
             {sortedPlayers.map((player, index) => (
-                <div key={index} className=" flex flex-row justify-between items-center py-2 px-4">
-                    <div className="flex items-center gap-2">
-                        <span className="text-[24px] font-bold text-black">#{index + 1}</span>
-                        <h2 className="text-[24px] text-cyan-100 ml-2">{player.playerName}</h2>
+                <div key={index} className={`flex flex-row justify-between items-center py-2 px-4 transition-colors ${
+                    player.guessedCorrectly ? 'bg-green-300/75' : ''
+                }`}>
+                    <div className="flex flex-col gap-1">
+                        <div className="flex items-center gap-2">
+                            <span className="text-[24px] font-bold text-black/50">#{index + 1}</span>
+                            <h2 className="text-[24px] text-cyan-100 ml-2">{player.playerName}</h2>
+                        </div>
+                        {!player.guessedCorrectly && player.guess && (
+                            <p className="text-md text-white/50 italic ml-12">
+                                {player.guess}
+                            </p>
+                        )}
                     </div>
-                    <h1 className="text-[24px] font-bold text-sky-600 md:ml-5">{player.score}</h1>
+
+                    <h1 className="text-[24px] font-bold text-white/80 md:ml-5">{player.score}</h1>
                 </div>
             ))}
         </div>

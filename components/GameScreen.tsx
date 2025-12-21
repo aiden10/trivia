@@ -1,22 +1,28 @@
-
-import { useGameContext } from "@/shared/GameContext"
-import { Stages } from "@/shared/types";
-import Lobby from "./stages/Lobby/Lobby";
-import QuestionDisplay from "./stages/QuestionDisplay/QuestionDisplay";
-import Reveal from "./stages/Reveal/Reveal";
-import Results from "./stages/Results/Results";
+import { useGameContext } from "@/shared/GameContext";
+import { GameModes } from "@/shared/types";
 import NameSelect from "./NameSelect";
+import DefaultScreen from "./gamemodes/default/DefaultScreen";
+import TriviaScreen from "./gamemodes/trivia/TriviaScreen";
 
 export default function GameScreen() {
-    const { stage } = useGameContext();
+    const { gamemode } = useGameContext();
 
-return <div>
-        <NameSelect/>
-        <div className="bg-indigo-700 min-h-screen w-full p-4">
-            {stage == Stages.Lobby && <Lobby />}
-            {stage == Stages.QuestionDisplay && <QuestionDisplay />}
-            {stage == Stages.Reveal && <Reveal />}
-            {stage == Stages.Results && <Results />}
+    const renderGamemodeScreen = () => {
+        switch (gamemode) {
+            case GameModes.Trivia:
+                return <TriviaScreen />;
+            case GameModes.Default:
+            default:
+                return <DefaultScreen />;
+        }
+    };
+
+    return (
+        <div>
+            <NameSelect />
+            <div className="bg-indigo-700 min-h-screen w-full p-4">
+                {renderGamemodeScreen()}
+            </div>
         </div>
-    </div>
+    );
 }

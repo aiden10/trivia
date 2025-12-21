@@ -1,11 +1,17 @@
-
 import json
 from fastapi import FastAPI, WebSocket, WebSocketDisconnect
 from fastapi.responses import JSONResponse
 from fastapi.middleware.cors import CORSMiddleware
-from models import Room, Player, Events
-from utils import broadcast, generate_room_id, get_question
-from events import handle_restart, handle_update_question, handle_update_stage, handle_correct_answer, handle_update_difficulties
+from .models import Room, Player, Events, TriviaEvents, GameModes, CreateRoomBody
+from .utils import broadcast, generate_room_id
+from .events import handle_message, handle_update_gamemode
+from .trivia_events import (
+    handle_restart,
+    handle_guess,
+    handle_update_stage,
+    handle_update_question,
+    handle_update_settings
+)
 
 origins = [
     "http://localhost",
@@ -22,7 +28,41 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-rooms = {}
+rooms: dict[str, Room] = {}
+
+async def handle_generic_event(message: dict, room: Room, player: Player) -> bool:
+    """
+    Handle generic (non-gamemode-specific) events.
+    Returns True if the event was handled, False otherwise.
+    """
+    event_type = message.get("type")
+    
+    match event_type:
+        case Events.UpdateGameMode.value:
+            await handle_update_gamemode(message, room)
+            return True
+        case Events.ChatMessage.value:
+            await handle_message(message, room)
+            return True
+    return False
+
+
+async def handle_trivia_event(message: dict, room: Room):
+    """Handle trivia-specific events."""
+    event_type = message.get("type")
+    
+    match event_type:
+        case TriviaEvents.Restart.value:
+            await handle_restart(message, room)
+        case TriviaEvents.UpdateQuestion.value:
+            await handle_update_question(room)
+        case TriviaEvents.UpdateStage.value:
+            await handle_update_stage(message, room)
+        case TriviaEvents.HandleGuess.value:
+            await handle_guess(message, room)
+        case TriviaEvents.UpdateSettings.value:
+            await handle_update_settings(message, room)
+
 
 @app.websocket("/ws/{room_id}")
 async def websocket_endpoint(websocket: WebSocket, room_id: str):
@@ -31,35 +71,33 @@ async def websocket_endpoint(websocket: WebSocket, room_id: str):
     room: Room = None
     
     try:
-        if room_id.lower() in rooms:
-            room = rooms[room_id.lower()]
-        else:
+        room_key = room_id.lower()
+        if room_key not in rooms:
             await websocket.send_text(json.dumps({
                 "type": "error", 
                 "message": "Room not found"
             }))
-            
+            await websocket.close()
             return
+        
+        room = rooms[room_key]
 
         player_info_data = await websocket.receive_text()
         player_info = json.loads(player_info_data)
         
         player = Player(player_info["name"], room.player_index, websocket)
+        is_host = len(room.players) == 0
         
-        host = len(room.players) == 0
-        print(f'stage: {room.current_stage}')
+        if is_host:
+            room.host_id = room.player_index
+        
         await websocket.send_text(json.dumps({
             "type": Events.Join.value,
             "data": {
                 "playerID": room.player_index,
-                "host": host,
-                "existingPlayers": [{"playerID": p.id, "playerName": p.name, "score": p.score} for p in room.players.values()],
-                "stage": room.current_stage,
-                "questionBody": room.current_question.body,
-                "questionValue": room.current_question.value,
-                "questionOptions": room.current_question.options,
-                "questionAnswer": room.current_question.answer,
-            }
+                "host": is_host,
+            },
+            "state": room.to_dict()
         }))
         
         await broadcast({
@@ -77,17 +115,14 @@ async def websocket_endpoint(websocket: WebSocket, room_id: str):
             request_data = await websocket.receive_text()
             message = json.loads(request_data)
             
-            match message["type"]:
-                case Events.Restart.value:
-                    await handle_restart(message, room)
-                case Events.UpdateQuestion.value:
-                    await handle_update_question(room)
-                case Events.UpdateStage.value:
-                    await handle_update_stage(message, room)
-                case Events.CorrectAnswer.value:
-                    await handle_correct_answer(message, room)
-                case Events.UpdateDifficulties.value:
-                    await handle_update_difficulties(message, room)
+            # try to handle as a generic event first
+            handled = await handle_generic_event(message, room, player)
+            
+            # If not a generic event, route to gamemode-specific handler
+            if not handled:
+                match room.gamemode:
+                    case GameModes.Trivia.value:
+                        await handle_trivia_event(message, room)
 
     except WebSocketDisconnect:
         if player and room:
@@ -100,24 +135,44 @@ async def websocket_endpoint(websocket: WebSocket, room_id: str):
                 }, room)
                 
                 if len(room.players) == 0:
-                    print("Room closed")
-                    rooms.pop(room_id, None)
-            print(f"players: {len(room.players.values())}")
+                    print(f"Room {room_id} closed - no players remaining")
+                    rooms.pop(room_id.lower(), None)
+            
+            print(f"Room {room_id}: {len(room.players)} players remaining")
     
     except Exception as e:
         print(f"WebSocket error: {e}")
+        import traceback
+        traceback.print_exc()
+
 
 @app.post("/rooms/create")
-async def create_room():    
-    room_id = generate_room_id()
-    new_room = Room(room_id)
-    new_room.current_question = get_question(new_room)
+async def create_room(create_room_body: CreateRoomBody):    
+    room_id = generate_room_id(rooms)
+    new_room = Room(room_id, create_room_body.password)
     rooms[room_id] = new_room
     return JSONResponse(
         content={"room_id": room_id}, 
         status_code=200
     )
 
+
 @app.get("/rooms")
 async def get_rooms():
-    return {"rooms": rooms}
+    return {
+        "rooms": {
+            room_id: room.to_dict() 
+            for room_id, room in rooms.items()
+        }
+    }
+
+
+@app.get("/rooms/{room_id}")
+async def get_room(room_id: str):
+    room_key = room_id.lower()
+    if room_key in rooms:
+        return {"room": rooms[room_key].to_dict()}
+    return JSONResponse(
+        content={"error": "Room not found"},
+        status_code=404
+    )
