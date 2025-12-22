@@ -54,7 +54,7 @@ export default function TriviaSettings({
         const value = parseInt(e.target.value);
         if (!isNaN(value) && value > 0) {
             setDuration(value);
-            onSettingsChange({ duration: value });
+            onSettingsChange({ questionDuration: value });
         }
     };
 
