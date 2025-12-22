@@ -7,7 +7,6 @@ import PeopleSettings from "../PeopleSettings";
 export default function Results() {
     const { 
         host, 
-        roomState,
         submitTriviaRestart,
         submitTriviaUpdateSettings,
     } = useGameContext();

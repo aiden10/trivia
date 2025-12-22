@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { PeopleProperties, PeopleSettings as PeopleSettingsType } from "@/shared/types";
 
 interface PeopleSettingsProps {

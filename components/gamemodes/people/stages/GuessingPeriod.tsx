@@ -54,9 +54,9 @@ export default function GuessingPeriod() {
         }, 100);
 
         return () => clearInterval(interval);
-    }, [currentProperties, host, submitPGUpdateStage]);
+    }, [currentProperties, host, submitPGUpdateStage, submitPGUpdateProperties]);
 
-    const handleSelect = (id: string, label: string) => {
+    const handleSelect = (id: string) => {
         submitPGGuess(id);
     };
 
