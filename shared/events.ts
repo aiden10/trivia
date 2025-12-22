@@ -24,7 +24,6 @@ export interface QuitResponse {
     playerID: number;
 }
 
-// === Generic Event Handlers ===
 export interface GenericEventDeps {
     setPlayerID: (id: number) => void;
     setHost: (host: boolean) => void;
@@ -45,7 +44,8 @@ export const createGenericEventHandlers = (deps: GenericEventDeps) => ({
             playerID: p.playerID,
             playerName: p.playerName,
             score: p.score,
-            guess: "",
+            guess: p.guess,
+            correctGuesses: p.correctGuesses,
             guessedCorrectly: false
         }));
         
@@ -54,6 +54,7 @@ export const createGenericEventHandlers = (deps: GenericEventDeps) => ({
             playerName: deps.name,
             score: 0,
             guess: "",
+            correctGuesses: [],
             guessedCorrectly: false
         };
         
@@ -67,6 +68,7 @@ export const createGenericEventHandlers = (deps: GenericEventDeps) => ({
             playerName: data.playerName,
             score: 0,
             guess: "",
+            correctGuesses: [],
             guessedCorrectly: false
         };
         deps.setPlayers(prev => [...prev, newPlayer]);
@@ -82,7 +84,6 @@ export const createGenericEventHandlers = (deps: GenericEventDeps) => ({
     },
 });
 
-// === Generic Event Emitters ===
 export const createGenericEventEmitters = (socket: WebSocket | null) => ({
     submitUpdateGameMode: (gamemode: GameModes) => {
         if (socket) {

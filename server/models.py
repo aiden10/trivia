@@ -2,16 +2,24 @@ from pydantic import BaseModel
 from fastapi import WebSocket
 from enum import Enum
 from typing import Optional
+
 QUESTION_VALUE = 10
 
 class GameModes(Enum):
     Default = "default"
     Trivia = "trivia"
+    PeopleGuesser = "people"
 
 class TriviaStages(Enum):
     Lobby = 0
     QuestionDisplay = 1
     Reveal = 2
+    Results = 3
+
+class PeopleStages(Enum):
+    Lobby = 0
+    PropertiesDisplay = 1
+    GuessingPeriod = 2
     Results = 3
 
 class Events(Enum):
@@ -31,6 +39,15 @@ class TriviaEvents(Enum):
     IncorrectAnswer = "incorrectAnswer_trivia"
     Restart = "restart_trivia"
 
+class PeopleEvents(Enum):
+    UpdateStage = "updateStage_people"
+    UpdateProperties = "updateProperties_people"
+    UpdateSettings = "updateSettings_people"
+    HandleGuess = "handleGuess_people"
+    CorrectAnswer = "correctAnswer_people"
+    IncorrectAnswer = "incorrectAnswer_people"
+    Restart = "restart_people"
+
 class TriviaCategories(Enum):
     History = "history"
     Literature = "literature"
@@ -45,7 +62,23 @@ class TriviaCategories(Enum):
     TV = "television"            
     Art = "art_and_architecture" 
     Miscellaneous = "miscellaneous"
-    
+
+class PeopleProperties(Enum):
+    Male = "male"
+    Female = "female"
+    Asia = "asia"
+    NorthAmerica = "north_america"
+    SouthAmerica = "south_america"
+    Europe = "europe"
+    Africa = "africa"
+    Oceania = "oceania"
+    Athlete = "athlete"
+    Actor = "actor"
+    Politician = "politician"
+    Musician = "musician"
+    Scientist = "scientist"
+    Author = "author"
+
 class TriviaQuestion(BaseModel):
     body: str
     answers: list[str]
@@ -62,23 +95,53 @@ class TriviaState(BaseModel):
     question_duration: int = 15
     show_incorrect: bool = True
     winning_score: int = 100
-    categories: list[TriviaCategories] = []
+    categories: list[TriviaCategories] = [c for c in TriviaCategories]
     
     def to_dict(self) -> dict:
         return {
             "currentQuestion": self.current_question.to_dict() if self.current_question else None,
             "currentStage": self.current_stage,
-            "questionDuration": self.question_duration,
             "showIncorrect": self.show_incorrect,
-            "categories": [c.value for c in self.categories],
-            "questionValue": QUESTION_VALUE,
-            "winningScore": self.winning_score
+            "settings": {
+                "questionDuration": self.question_duration,
+                "categories": [c.value for c in self.categories],
+                "questionValue": QUESTION_VALUE,
+                "winningScore": self.winning_score
+            }
+        }
+        
+class PeopleState(BaseModel):
+    current_properties: list[PeopleProperties] = []
+    current_stage: int = PeopleStages.Lobby.value
+    question_duration: int = 15
+    show_incorrect: bool = True
+    winning_score: int = 150
+    properties: list[PeopleProperties] = [p for p in PeopleProperties]
+    combination_lower_bound: int = 2
+    combination_upper_bound: int = 2
+    already_guessed: list[str] = []
+    
+    def to_dict(self) -> dict:
+        return {
+            "currentProperties": [cp.value for cp in self.current_properties],
+            "currentStage": self.current_stage,
+            "settings": {
+                "questionDuration": self.question_duration,
+                "showIncorrect": self.show_incorrect,
+                "properties": [p.value for p in self.properties],
+                "questionValue": QUESTION_VALUE,
+                "winningScore": self.winning_score,
+                "combinationLowerBound": self.combination_lower_bound,
+                "combinationUpperBound": self.combination_upper_bound,
+            }
         }
 
 class Player:
     def __init__(self, name: str, id: int, socket: WebSocket):
         self.name = name
         self.id = id
+        self.guess = ""
+        self.correct_guesses = []
         self.score = 0
         self.can_score = True
         self.socket = socket
@@ -88,6 +151,8 @@ class Player:
             "playerID": self.id,
             "playerName": self.name,
             "score": self.score,
+            "guess": self.guess,
+            "correctGuesses": self.correct_guesses
         }
 
 class CreateRoomBody(BaseModel):
@@ -100,7 +165,8 @@ class Room:
         self.host_id = 0
         self.players: dict[int, Player] = {}
         self.gamemode: str = GameModes.Default.value
-        self.gamemode_state: Optional[TriviaState] = None
+        self.trivia_state: Optional[TriviaState] = None
+        self.people_state: Optional[PeopleState] = None
         self.password = password
         self.messages = []
 
@@ -110,5 +176,6 @@ class Room:
             "hostId": self.host_id,
             "players": [p.to_dict() for p in self.players.values()],
             "gamemode": self.gamemode,
-            "gamemodeState": self.gamemode_state.to_dict() if self.gamemode_state else None,
+            "triviaState": self.trivia_state.to_dict() if self.trivia_state else None,
+            "peopleState": self.people_state.to_dict() if self.people_state else None,
         }

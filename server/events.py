@@ -10,14 +10,14 @@ async def handle_update_gamemode(message: dict, room: Room):
     room.gamemode = gamemode
     
     if gamemode == GameModes.Trivia.value:
-        room.gamemode_state = TriviaState(
-            current_stage=TriviaStages.Lobby.value,
-            question_duration=15,
-            categories=[category for category in TriviaCategories]
-        )
-        room.gamemode_state.current_question = get_question(room)
-    else:
-        room.gamemode_state = None
+        room.trivia_state = TriviaState()
+        room.people_state = None
+        room.trivia_state.current_question = get_question(room)
+    
+    if gamemode == GameModes.PeopleGuesser.value:
+        room.people_state = PeopleState()
+        room.trivia_state = None
+        room.people_state.current_properties = get_properties(room)
     
     await broadcast({
         "type": Events.UpdateGameMode.value,

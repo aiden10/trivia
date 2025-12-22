@@ -3,6 +3,7 @@ import { GameModes } from "@/shared/types";
 import NameSelect from "./NameSelect";
 import DefaultScreen from "./gamemodes/default/DefaultScreen";
 import TriviaScreen from "./gamemodes/trivia/TriviaScreen";
+import PeopleScreen from "./gamemodes/people/PeopleScreen";
 
 export default function GameScreen() {
     const { gamemode } = useGameContext();
@@ -11,6 +12,8 @@ export default function GameScreen() {
         switch (gamemode) {
             case GameModes.Trivia:
                 return <TriviaScreen />;
+            case GameModes.PeopleGuesser:
+                return <PeopleScreen />;
             case GameModes.Default:
             default:
                 return <DefaultScreen />;

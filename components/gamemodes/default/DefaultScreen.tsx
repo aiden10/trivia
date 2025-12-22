@@ -1,5 +1,5 @@
 import { useGameContext } from "@/shared/GameContext";
-import { GameModes } from "@/shared/types";
+import { GamemodeOptions } from "@/shared/types";
 import PlayerList from "@/components/PlayerList";
 import { useRouter } from "next/navigation";
 
@@ -7,18 +7,10 @@ export default function DefaultScreen() {
     const { host, submitUpdateGameMode } = useGameContext();
     const router = useRouter();
 
-    const gamemodeOptions = [
-        { 
-            id: GameModes.Trivia, 
-            name: "Trivia", 
-            description: "Answer questions by typing your guess" 
-        },
-    ];
-
     return (
         <div className="flex flex-col items-center gap-6 p-4 min-h-screen">
             <svg 
-                className="w-4 h-4 md:w-8 md:h-8 absolute left-0 top-0 m-2 md:m-4 hover:cursor-pointer hover:opacity-50"
+                className="w-4 h-4 md:w-8 md:h-8 absolute left-0 top-0 m-2 md:m-4 hover:cursor-pointer hover:opacity-50 fill-white"
                 onClick={() => router.push('/')}
                 xmlns="http://www.w3.org/2000/svg" 
                 viewBox="0 0 122.88 108.06"
@@ -27,7 +19,7 @@ export default function DefaultScreen() {
             </svg>
 
             <h1 className="text-3xl md:text-4xl font-bold text-white mb-4">
-                Select a Gamemode
+                Gamemodes
             </h1>
 
             <div className="w-full max-w-2xl">
@@ -37,7 +29,7 @@ export default function DefaultScreen() {
             <div className="w-full max-w-2xl mt-6">
                 {host ? (
                     <div className="grid gap-4">
-                        {gamemodeOptions.map((gm) => (
+                        {GamemodeOptions.map((gm) => (
                             <button
                                 key={gm.id}
                                 onClick={() => submitUpdateGameMode(gm.id)}

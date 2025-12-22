@@ -1,22 +1,22 @@
 import { useGameContext } from "@/shared/GameContext";
-import { TriviaStages, TriviaSettings as TriviaSettingsType } from "@/shared/types";
+import { PeopleStages, PeopleSettings as PeopleSettingsType } from "@/shared/types";
 import { useRouter } from "next/navigation";
 import PlayerList from "@/components/PlayerList";
-import TriviaSettings from "../TriviaSettings";
+import PeopleSettings from "../PeopleSettings";
 
 export default function Lobby() {
     const { 
         host, 
-        submitTriviaUpdateStage, 
-        submitTriviaUpdateSettings,
+        submitPGUpdateStage, 
+        submitPGUpdateSettings,
     } = useGameContext();
 
     const router = useRouter();
 
-    const handleSettingsChange = (settings: TriviaSettingsType) => {
-        submitTriviaUpdateSettings(settings);
+    const handleSettingsChange = (settings: PeopleSettingsType) => {
+        submitPGUpdateSettings(settings);
     };
-
+    
     return (
         <div className="flex flex-col items-center gap-6 p-4 min-h-screen">
             <svg 
@@ -28,7 +28,7 @@ export default function Lobby() {
                 <path d="M63.94,24.28a14.28,14.28,0,0,0-20.36-20L4.1,44.42a14.27,14.27,0,0,0,0,20l38.69,39.35a14.27,14.27,0,0,0,20.35-20L48.06,68.41l60.66-.29a14.27,14.27,0,1,0-.23-28.54l-59.85.28,15.3-15.58Z"/>
             </svg>
             
-            <h1 className="text-3xl font-bold text-white">Trivia</h1>
+            <h1 className="text-3xl font-bold text-white">PeopleGuesser</h1>
             
             <div className="w-full max-w-4xl gap-6">
                 <PlayerList />
@@ -38,7 +38,7 @@ export default function Lobby() {
                         {host ? "Settings" : "Waiting for host..."}
                     </h2>
                     
-                    <TriviaSettings
+                    <PeopleSettings
                         host={host}
                         onSettingsChange={handleSettingsChange}
                     />
@@ -46,7 +46,7 @@ export default function Lobby() {
                 
                 {host && (
                     <button
-                        onClick={() => submitTriviaUpdateStage(TriviaStages.QuestionDisplay)}    
+                        onClick={() => submitPGUpdateStage(PeopleStages.PropertiesDisplay)}    
                         className="btn-primary w-full text-2xl py-4 mt-4"
                     >
                         Start Game

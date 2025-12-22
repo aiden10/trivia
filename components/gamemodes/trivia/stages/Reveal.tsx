@@ -4,19 +4,20 @@ import { useGameContext } from '@/shared/GameContext';
 import { TriviaStages } from '@/shared/types';
 import { useEffect, useRef } from 'react';
 import PlayerList from '@/components/PlayerList';
+import { capitalizeWords } from '@/shared/utils';
 
 export default function Reveal() {
     const { 
         host, 
         roomState,
         players, 
-        submitUpdateStage, 
-        submitUpdateQuestion,
+        submitTriviaUpdateStage, 
+        submitTriviaUpdateQuestion,
     } = useGameContext();
 
-    const triviaState = roomState?.gamemodeState;
+    const triviaState = roomState?.triviaState;
     const question = triviaState?.currentQuestion;
-    const winningScore = triviaState?.winningScore ?? 100;
+    const winningScore = triviaState?.settings.winningScore ?? 100;
     
     const endTimeRef = useRef<number>(Date.now() + 4000);
 
@@ -33,16 +34,16 @@ export default function Reveal() {
                 const winner = players.find(player => player.score >= winningScore);
                 
                 if (winner) {
-                    submitUpdateStage(TriviaStages.Results);
+                    submitTriviaUpdateStage(TriviaStages.Results);
                 } else {
-                    submitUpdateQuestion();
-                    submitUpdateStage(TriviaStages.QuestionDisplay);
+                    submitTriviaUpdateQuestion();
+                    submitTriviaUpdateStage(TriviaStages.QuestionDisplay);
                 }
             }
         }, 100);
 
         return () => clearInterval(interval);
-    }, [host, players, winningScore, submitUpdateStage, submitUpdateQuestion]);
+    }, [host, players, winningScore, submitTriviaUpdateStage, submitTriviaUpdateQuestion]);
 
     return (
         <div className='w-full flex flex-col min-h-screen gap-y-16 p-4'>
@@ -61,7 +62,7 @@ export default function Reveal() {
                     </h1>
                     <h2 className='main-text-color text-[32px] bg-indigo-400 w-full p-4 text-center 
                         drop-shadow-[0_1.5px_1.5px_rgba(0,0,0,0.3)] font-semibold'>
-                        {question?.answer}
+                        {capitalizeWords(question?.answer || '')}
                     </h2>
                     <p className="text-indigo-200 text-center mt-2 text-sm">
                         (Different spellings/variations are accepted)

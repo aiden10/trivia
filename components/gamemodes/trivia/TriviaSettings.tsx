@@ -78,7 +78,7 @@ export default function TriviaSettings({
                     min="5"
                     max="120"
                     value={duration}
-                    step={5}
+                    step={1}
                     onChange={handleDurationChange}
                     disabled={!host}
                     className={`bg-indigo-700 text-white rounded px-3 py-2 w-full

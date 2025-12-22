@@ -2,11 +2,12 @@
 import { TriviaSettings as TriviaSettingsType } from "@/shared/types";
 import { useGameContext } from "@/shared/GameContext";
 import Leaderboard from "../../../Leaderboard";
-import TriviaSettings from "../TriviaSettings";
+import PeopleSettings from "../PeopleSettings";
 
 export default function Results() {
     const { 
         host, 
+        roomState,
         submitTriviaRestart,
         submitTriviaUpdateSettings,
     } = useGameContext();
@@ -21,7 +22,7 @@ export default function Results() {
             
             {host ? (
                 <div className="flex flex-col gap-4 w-full max-w-md">
-                    <TriviaSettings
+                    <PeopleSettings
                         host={host}
                         onSettingsChange={handleSettingsChange}
                     />

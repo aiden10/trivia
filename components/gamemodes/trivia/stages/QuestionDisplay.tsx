@@ -11,13 +11,13 @@ export default function QuestionDisplay() {
         roomState, 
         playerID,
         players,
-        submitUpdateStage, 
-        submitGuess,
+        submitTriviaUpdateStage, 
+        submitTriviaGuess,
     } = useGameContext();
 
-    const triviaState = roomState?.gamemodeState;
+    const triviaState = roomState?.triviaState;
     const question = triviaState?.currentQuestion;
-    const questionDuration = triviaState?.questionDuration ?? 15;
+    const questionDuration = triviaState?.settings.questionDuration ?? 15;
 
     const [remainingTime, setRemainingTime] = useState(questionDuration);
     const [guess, setGuess] = useState("");
@@ -50,19 +50,19 @@ export default function QuestionDisplay() {
             if (timeLeft === 0) {
                 clearInterval(interval);
                 if (host) {
-                    submitUpdateStage(TriviaStages.Reveal);
+                    submitTriviaUpdateStage(TriviaStages.Reveal);
                 }
             }
         }, 100);
 
         return () => clearInterval(interval);
-    }, [question?.body, host, submitUpdateStage]);
+    }, [question?.body, host, submitTriviaUpdateStage]);
 
     const handleSubmitGuess = (e: React.FormEvent) => {
         e.preventDefault();
         if (!guess.trim() || guessedCorrectly) return;
         
-        submitGuess(guess.trim());
+        submitTriviaGuess(guess.trim());
         setGuess("");
     };
 
@@ -96,9 +96,10 @@ export default function QuestionDisplay() {
                                 value={guess}
                                 onChange={(e) => setGuess(e.target.value)}
                                 placeholder="Type your answer..."
+                                autoFocus
                                 className="w-full text-center text-2xl p-4 rounded-lg border-4 
                                     bg-indigo-600 text-white placeholder-indigo-300
-                                    focus:outline-none focus:border-cyan-300"
+                                    focus:outline-none focus:border-white"
                             />
                             
                             <button

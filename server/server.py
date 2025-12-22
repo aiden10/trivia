@@ -2,21 +2,29 @@ import json
 from fastapi import FastAPI, WebSocket, WebSocketDisconnect
 from fastapi.responses import JSONResponse
 from fastapi.middleware.cors import CORSMiddleware
-from .models import Room, Player, Events, TriviaEvents, GameModes, CreateRoomBody
+from .models import Room, Player, Events, TriviaEvents, GameModes, CreateRoomBody, PeopleEvents
 from .utils import broadcast, generate_room_id
 from .events import handle_message, handle_update_gamemode
 from .trivia_events import (
-    handle_restart,
-    handle_guess,
-    handle_update_stage,
-    handle_update_question,
-    handle_update_settings
+    handle_restart as handle_trivia_restart,
+    handle_guess as handle_trivia_guess,
+    handle_update_stage as handle_trivia_update_stage,
+    handle_update_question as handle_trivia_update_question,
+    handle_update_settings as handle_trivia_update_settings
+)
+from .people_events import (
+    handle_restart as handle_people_restart,
+    handle_guess as handle_people_guess,
+    handle_update_stage as handle_people_update_stage,
+    handle_update_properties as handle_people_update_properties,
+    handle_update_settings as handle_people_update_settings
 )
 
 origins = [
     "http://localhost",
     "http://localhost:3000",
-    "https://mtrivia.vercel.app"
+    "https://mtrivia.vercel.app",
+    "*"
 ]
 
 app = FastAPI()
@@ -53,15 +61,30 @@ async def handle_trivia_event(message: dict, room: Room):
     
     match event_type:
         case TriviaEvents.Restart.value:
-            await handle_restart(message, room)
+            await handle_trivia_restart(message, room)
         case TriviaEvents.UpdateQuestion.value:
-            await handle_update_question(room)
+            await handle_trivia_update_question(room)
         case TriviaEvents.UpdateStage.value:
-            await handle_update_stage(message, room)
+            await handle_trivia_update_stage(message, room)
         case TriviaEvents.HandleGuess.value:
-            await handle_guess(message, room)
+            await handle_trivia_guess(message, room)
         case TriviaEvents.UpdateSettings.value:
-            await handle_update_settings(message, room)
+            await handle_trivia_update_settings(message, room)
+
+
+async def handle_people_event(message: dict, room: Room):
+    event_type = message.get("type")
+    match event_type:
+        case PeopleEvents.Restart.value:
+            await handle_people_restart(message, room)
+        case PeopleEvents.UpdateProperties.value:
+            await handle_people_update_properties(room)
+        case PeopleEvents.UpdateStage.value:
+            await handle_people_update_stage(message, room)
+        case PeopleEvents.HandleGuess.value:
+            await handle_people_guess(message, room)
+        case PeopleEvents.UpdateSettings.value:
+            await handle_people_update_settings(message, room)
 
 
 @app.websocket("/ws/{room_id}")
@@ -123,6 +146,8 @@ async def websocket_endpoint(websocket: WebSocket, room_id: str):
                 match room.gamemode:
                     case GameModes.Trivia.value:
                         await handle_trivia_event(message, room)
+                    case GameModes.PeopleGuesser.value:
+                        await handle_people_event(message, room)
 
     except WebSocketDisconnect:
         if player and room:

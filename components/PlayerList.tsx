@@ -15,7 +15,7 @@ export default function PlayerList() {
                 <div key={index} className={`flex flex-row justify-between items-center py-2 px-4 transition-colors ${
                     player.guessedCorrectly ? 'bg-green-300/75' : ''
                 }`}>
-                    <div className="flex flex-col gap-1">
+                    <div className="flex flex-col gap-1 flex-1">
                         <div className="flex items-center gap-2">
                             <span className="text-[24px] font-bold text-black/50">#{index + 1}</span>
                             <h2 className="text-[24px] text-cyan-100 ml-2">{player.playerName}</h2>
@@ -24,6 +24,19 @@ export default function PlayerList() {
                             <p className="text-md text-white/50 italic ml-12">
                                 {player.guess}
                             </p>
+                        )}
+                        {player.correctGuesses && player.correctGuesses.length > 0 && (
+                            <div className="ml-12 mt-1 flex flex-wrap gap-1">
+                                {player.correctGuesses.map((correctGuess, i) => (
+                                    <span 
+                                        key={i}
+                                        className="px-2 py-0.5 bg-emerald-600/80 text-white rounded-full 
+                                            text-xs font-medium border border-emerald-400"
+                                    >
+                                        ✓ {correctGuess}
+                                    </span>
+                                ))}
+                            </div>
                         )}
                     </div>
 

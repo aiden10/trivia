@@ -1,9 +1,10 @@
 'use client'
 
 import React, { createContext, useContext, useState, useEffect, ReactNode } from 'react';
-import { Player, GameModes, RoomState, TriviaStages, TriviaSettings } from './types';
+import { Player, GameModes, RoomState, TriviaStages, TriviaSettings, PeopleStages, PeopleSettings } from './types';
 import { Events, createGenericEventHandlers, createGenericEventEmitters } from './events';
 import { TriviaEvents, createTriviaEventHandlers, createTriviaEventEmitters } from './trivia/events';
+import { PeopleEvents, createPeopleEventEmitters, createPeopleEventHandlers } from './people/events';
 
 interface GameContextType {
     // Core State
@@ -30,12 +31,19 @@ interface GameContextType {
     submitUpdateGameMode: (gamemode: GameModes) => void;
     
     // Trivia Events
-    submitGuess: (guess: string) => void;
-    submitUpdateStage: (newStage: TriviaStages) => void;
-    submitUpdateQuestion: () => void;
-    submitUpdateSettings: (settings: TriviaSettings) => void;
-    submitRestart: () => void;
+    submitTriviaGuess: (guess: string) => void;
+    submitTriviaUpdateStage: (newStage: TriviaStages) => void;
+    submitTriviaUpdateQuestion: () => void;
+    submitTriviaUpdateSettings: (settings: TriviaSettings) => void;
+    submitTriviaRestart: () => void;
     
+    // PeopleGuesser Events
+    submitPGGuess: (id: string) => void;
+    submitPGUpdateStage: (newStage: PeopleStages) => void;
+    submitPGUpdateProperties: () => void;
+    submitPGUpdateSettings: (settings: PeopleSettings) => void;
+    submitPGRestart: () => void;
+
     // Utility
     getPlayerData: (id: number) => Player | undefined;
 }
@@ -67,7 +75,6 @@ export const GameProvider: React.FC<GameProviderProps> = ({ children }) => {
     const [gamemode, setGamemode] = useState<GameModes>(GameModes.Default);
     const [roomState, setRoomState] = useState<RoomState | null>(null);
 
-    // Create event handlers and emitters
     const genericHandlers = createGenericEventHandlers({
         setPlayerID,
         setHost,
@@ -83,6 +90,7 @@ export const GameProvider: React.FC<GameProviderProps> = ({ children }) => {
         setPlayers,
         setRoomState,
         roomState,
+        playerID
     });
 
     const triviaEmitters = createTriviaEventEmitters(socket, {
@@ -90,13 +98,23 @@ export const GameProvider: React.FC<GameProviderProps> = ({ children }) => {
         roomState,
     });
 
-    // Initialize random name
+    const peopleHandlers = createPeopleEventHandlers({
+        setPlayers,
+        setRoomState,
+        roomState,
+        playerID
+    });
+
+    const peopleEmitters = createPeopleEventEmitters(socket, {
+        playerID,
+        roomState,
+    });
+
     useEffect(() => {
         const randomName = `Guest#${Math.floor(Math.random() * 5000 + 1)}`;
         setName(randomName);
     }, []);
 
-    // WebSocket message handler
     useEffect(() => {
         if (!socket) return;
 
@@ -104,7 +122,6 @@ export const GameProvider: React.FC<GameProviderProps> = ({ children }) => {
             const message = JSON.parse(event.data);
             const { type, data, state } = message;
 
-            // Generic events
             switch (type) {
                 case Events.Join:
                     genericHandlers.handleJoin(data, state);
@@ -123,7 +140,6 @@ export const GameProvider: React.FC<GameProviderProps> = ({ children }) => {
                     return;
             }
 
-            // Trivia events
             switch (type) {
                 case TriviaEvents.UpdateStage:
                 case TriviaEvents.UpdateQuestion:
@@ -138,6 +154,23 @@ export const GameProvider: React.FC<GameProviderProps> = ({ children }) => {
                     return;
                 case TriviaEvents.Restart:
                     triviaHandlers.handleRestart(state);
+                    return;
+            }
+            
+            switch (type) {
+                case PeopleEvents.UpdateStage:
+                case PeopleEvents.UpdateProperties:
+                case PeopleEvents.UpdateSettings:
+                    peopleHandlers.handleStateUpdate(state);
+                    return;
+                case PeopleEvents.CorrectAnswer:
+                    peopleHandlers.handleCorrectAnswer(data);
+                    return;
+                case PeopleEvents.IncorrectAnswer:
+                    peopleHandlers.handleIncorrectAnswer(data);
+                    return;
+                case PeopleEvents.Restart:
+                    peopleHandlers.handleRestart(state);
                     return;
             }
 
@@ -177,12 +210,19 @@ export const GameProvider: React.FC<GameProviderProps> = ({ children }) => {
         submitUpdateGameMode: genericEmitters.submitUpdateGameMode,
         
         // Trivia Events
-        submitGuess: triviaEmitters.submitGuess,
-        submitUpdateStage: triviaEmitters.submitUpdateStage,
-        submitUpdateQuestion: triviaEmitters.submitUpdateQuestion,
-        submitUpdateSettings: triviaEmitters.submitUpdateSettings,
-        submitRestart: triviaEmitters.submitRestart,
+        submitTriviaGuess: triviaEmitters.submitGuess,
+        submitTriviaUpdateStage: triviaEmitters.submitUpdateStage,
+        submitTriviaUpdateQuestion: triviaEmitters.submitUpdateQuestion,
+        submitTriviaUpdateSettings: triviaEmitters.submitUpdateSettings,
+        submitTriviaRestart: triviaEmitters.submitRestart,
         
+        // PeopleGuesser Events
+        submitPGGuess: peopleEmitters.submitGuess,
+        submitPGUpdateStage: peopleEmitters.submitUpdateStage,
+        submitPGUpdateProperties: peopleEmitters.submitUpdateProperties,
+        submitPGUpdateSettings: peopleEmitters.submitUpdateSettings,
+        submitPGRestart: peopleEmitters.submitRestart,
+
         // Utility
         getPlayerData,
     };

@@ -3,19 +3,29 @@ import random
 import string
 import os
 import time
+import redis
+import requests
 from pydantic import BaseModel
 from google import genai
 from google.genai import types
 from dotenv import load_dotenv
 from pathlib import Path
 from fastapi import WebSocket
-from models import Room, TriviaQuestion, TriviaCategories
+from .models import Room, TriviaQuestion, TriviaCategories, PeopleProperties
 
 MAIN_QUESTIONS_FILE = Path(__file__).parent / "questions.json"
 CATEGORIES_DIR = Path(__file__).parent / "categories"
 env_path = Path(__file__).parent / ".env"
 load_dotenv(dotenv_path=env_path)
 QUESTIONS = {}
+
+redis_client = redis.Redis(
+    host=os.getenv("REDIS_ENDPOINT"),
+    port=19579,
+    decode_responses=True,
+    username="default",
+    password=os.getenv("REDIS_PASSWORD"),
+)
 
 def load_questions_for_category(category: TriviaCategories) -> list[dict]:
     """Load questions from a category JSON file."""
@@ -52,10 +62,10 @@ async def send_state(room: Room, event: str):
 
 def get_question(room: Room) -> TriviaQuestion:
     """Get a random question based on room's selected categories."""
-    if room.gamemode_state and room.gamemode_state.categories:
+    if room.trivia_state and room.trivia_state.categories:
         possible_questions = []
-        for category in room.gamemode_state.categories:
-            possible_questions.extend(QUESTIONS[category.value])
+        for category in room.trivia_state.categories:
+            possible_questions.extend(QUESTIONS[category.value].values())
         
         if possible_questions:
             chosen = random.choice(possible_questions)
@@ -68,6 +78,25 @@ def get_question(room: Room) -> TriviaQuestion:
         body="Error: Failed to load question",
         answers=[]
     )
+
+def get_properties(room: Room) -> list[PeopleProperties]:
+    """Get a random properties based on room's bounds."""
+    if room.people_state and room.people_state.properties:
+        lower = room.people_state.combination_lower_bound
+        upper = room.people_state.combination_upper_bound
+        
+        if lower > upper:
+            size = lower
+        elif lower == upper:
+            size = lower
+        else:
+            size = random.randint(lower, upper)
+        
+        size = min(size, len(room.people_state.properties))
+        
+        return random.sample(room.people_state.properties, size)
+    
+    return []
 
 def generate_room_id(rooms) -> str:
     id = ''.join(random.choices(string.ascii_lowercase, k=4))
@@ -87,7 +116,6 @@ class BatchResponse(BaseModel):
 CATEGORY_LIST = [c.value for c in TriviaCategories]
 
 def categorize_questions():
-    # Use the unified GenAI client
     client = genai.Client(api_key=os.getenv("GEMINI_KEY"))
     
     with open("questions.json", "r", encoding="utf-8") as f:
@@ -95,7 +123,6 @@ def categorize_questions():
 
     output_file = "cleaned_questions.jsonl"
     
-    # RESUME LOGIC: Check which IDs are already in the output file
     already_processed_ids = set()
     if os.path.exists(output_file):
         with open(output_file, "r", encoding="utf-8") as f:
@@ -198,6 +225,25 @@ def reformat_questions():
 
         with open("formatted_questions.json", "w", encoding="utf-8") as out:
             json.dump(reformatted_questions, out)
+            
+def is_subclass_of_category(specific_occ_id: str, target_gen_id: str) -> bool:
+    cached_parents = redis_client.smembers(f"occ:{specific_occ_id}")
+    if cached_parents:
+        return target_gen_id in cached_parents
 
-# load_all_questions()
-populate_categories()
+    query = f"""
+    ASK {{
+      wd:{specific_occ_id} wdt:P279* wd:{target_gen_id} .
+    }}
+    """
+    url = "https://query.wikidata.org/sparql"
+    headers = {'User-Agent': 'MyTriviaApp/1.0', 'Accept': 'application/sparql-results+json'}
+    
+    response = requests.get(url, params={'query': query}, headers=headers)
+    if response.json().get("boolean"):
+        redis_client.sadd(f"occ:{specific_occ_id}", target_gen_id)
+        return True
+    
+    return False
+
+load_all_questions()

@@ -8,7 +8,7 @@ import Results from "./stages/Results";
 export default function TriviaScreen() {
     const { roomState } = useGameContext();
     
-    const currentStage = roomState?.gamemodeState?.currentStage ?? TriviaStages.Lobby;
+    const currentStage = roomState?.triviaState?.currentStage ?? TriviaStages.Lobby;
 
     return (
         <>

@@ -2,17 +2,19 @@ from .utils import broadcast, send_state, get_question
 from .models import Room, TriviaEvents, TriviaStages, QUESTION_VALUE, TriviaCategories
 from rapidfuzz import process, fuzz
 
-FUZZY_THRESHOLD = 60
+FUZZY_THRESHOLD = 70
 
 async def handle_restart(message: dict, room: Room):
     """Reset the game - clear scores and get a new question."""
     for player in room.players.values():
         player.score = 0
+        player.guess = ""
+        player.correct_guesses = []
         player.can_score = True
 
-    if room.gamemode_state:
-        room.gamemode_state.current_question = get_question(room)
-        room.gamemode_state.current_stage = TriviaStages.QuestionDisplay.value
+    if room.trivia_state:
+        room.trivia_state.current_question = get_question(room)
+        room.trivia_state.current_stage = TriviaStages.QuestionDisplay.value
     
     await send_state(room, TriviaEvents.Restart.value)
 
@@ -27,10 +29,10 @@ async def handle_guess(message: dict, room: Room):
     
     player = room.players[guesser_id]
     
-    if not room.gamemode_state or not room.gamemode_state.current_question:
+    if not room.trivia_state or not room.trivia_state.current_question:
         return
-    
-    accepted_answers = [a.lower().strip() for a in room.gamemode_state.current_question.answers]
+    player.guess = guess
+    accepted_answers = [a.lower().strip() for a in room.trivia_state.current_question.answers]
     result = process.extractOne(
         guess, 
         accepted_answers, 
@@ -68,20 +70,21 @@ async def handle_update_stage(message: dict, room: Room):
     data = message.get("data", {})
     new_stage = data.get("newStage", 0)
     
-    if room.gamemode_state:
-        room.gamemode_state.current_stage = new_stage
+    if room.trivia_state:
+        room.trivia_state.current_stage = new_stage
     
     # Reset can_score for all players when going to a new question
     if new_stage == TriviaStages.QuestionDisplay.value:
         for p in room.players.values():
+            p.guess = ""
             p.can_score = True
     
     await send_state(room, TriviaEvents.UpdateStage.value)
 
 async def handle_update_question(room: Room):
     """Get and broadcast a new question."""
-    if room.gamemode_state:
-        room.gamemode_state.current_question = get_question(room)
+    if room.trivia_state:
+        room.trivia_state.current_question = get_question(room)
     
     await send_state(room, TriviaEvents.UpdateQuestion.value)
 
@@ -89,7 +92,7 @@ async def handle_update_settings(message: dict, room: Room):
     """Update trivia game settings."""
     data = message.get("data", {})
     
-    if not room.gamemode_state:
+    if not room.trivia_state:
         return
     
     if "categories" in data:
@@ -100,13 +103,13 @@ async def handle_update_settings(message: dict, room: Room):
                 categories.append(TriviaCategories(cat_str))
             except ValueError:
                 pass
-        room.gamemode_state.categories = categories
-        room.gamemode_state.current_question = get_question(room)
+        room.trivia_state.categories = categories
+        room.trivia_state.current_question = get_question(room)
     
     if "duration" in data:
-        room.gamemode_state.question_duration = data["duration"]
+        room.trivia_state.question_duration = data["duration"]
     
     if "winningScore" in data:
-        room.gamemode_state.winning_score = data["winningScore"]
+        room.trivia_state.winning_score = data["winningScore"]
     
     await send_state(room, TriviaEvents.UpdateSettings.value)

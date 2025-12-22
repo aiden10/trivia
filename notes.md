@@ -95,3 +95,16 @@ Maybe make it so that players get some points if their question was answered wit
 The host would be able to denote who begins as the PP as well as the max number of questions
 
 Show total amount of questions currently selected
+Show question category
+
+# Trivia
+This can be expanded to include images of things or people. Could also include songs using the Deezer API. Wikipedia would be good for images, but it also has way too many obscure pages, and if I wanted categories for these, then it would need to be categorized as well. Songs would have a similar issue because even if you pick categories, there are way too many. With songs though I could maybe use the Spotify API too to determine if a song is popular enough to include. 
+
+## Images
+Use PageImages and get random wikipedia page available in more than 10-15 languages. 
+
+# Person Guesser
+A gamemode where you're given a list of features or properties and need to guess people who have those same features. Not sure where I'd get such a dataset from. 
+
+
+Good UI example: https://really.boring.website

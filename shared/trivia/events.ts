@@ -1,4 +1,5 @@
 import { Player, TriviaStages, TriviaSettings, RoomState } from "@/shared/types";
+import { playSound } from "../utils";
 
 // === Trivia-specific Events ===
 export enum TriviaEvents {
@@ -15,6 +16,7 @@ export interface TriviaEventDeps {
     setPlayers: React.Dispatch<React.SetStateAction<Player[]>>;
     setRoomState: (state: RoomState) => void;
     roomState: RoomState | null;
+    playerID: number;
 }
 
 export const createTriviaEventHandlers = (deps: TriviaEventDeps) => ({
@@ -27,19 +29,21 @@ export const createTriviaEventHandlers = (deps: TriviaEventDeps) => ({
                 return prev.map(p => {
                     const serverPlayer = state.players.find(sp => sp.playerID === p.playerID);
                     if (serverPlayer) {
-                        return { ...p, score: serverPlayer.score };
+                        return { ...p, score: serverPlayer.score,  guess: serverPlayer.guess, correctGuesses: serverPlayer.correctGuesses };
                     }
                     return p;
                 });
             });
         }
         
-        if (state.gamemodeState?.currentStage === TriviaStages.QuestionDisplay) {
+        if (state.triviaState?.currentStage === TriviaStages.QuestionDisplay || state.triviaState?.currentStage === TriviaStages.Reveal) {
             deps.setPlayers(prev => prev.map(p => ({ ...p, guess: "", guessedCorrectly: false})));
         }
     },
 
     handleCorrectAnswer: (data: {playerID: number; value: number}) => {
+        if (deps.playerID === data.playerID) playSound("correct.wav");
+
         deps.setPlayers(prev => prev.map(player => {
             if (player.playerID === data.playerID) {
                 return {
