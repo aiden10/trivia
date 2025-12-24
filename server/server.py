@@ -1,4 +1,5 @@
 import json
+import random
 from fastapi import FastAPI, WebSocket, WebSocketDisconnect
 from fastapi.responses import JSONResponse
 from fastapi.middleware.cors import CORSMiddleware
@@ -158,6 +159,12 @@ async def websocket_endpoint(websocket: WebSocket, room_id: str):
                     "type": Events.Quit.value,
                     "data": {"playerID": player.id}
                 }, room)
+                
+                if player.id == room.host_id and len(room.players) > 0:
+                    await broadcast({
+                        "type": Events.UpdateHost.value,
+                        "data": {"newHostID": random.choice(room.players.keys())}
+                    })
                 
                 if len(room.players) == 0:
                     print(f"Room {room_id} closed - no players remaining")

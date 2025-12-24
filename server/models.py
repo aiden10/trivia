@@ -28,6 +28,7 @@ class Events(Enum):
     OtherJoin = "otherJoin"
     UpdateGameMode = "updateGameMode"
     UpdateScores = "updateScores"
+    UpdateHost = "updateHost"
     ChatMessage = "chatMessage"
 
 class TriviaEvents(Enum):

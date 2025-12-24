@@ -82,6 +82,7 @@ export const GameProvider: React.FC<GameProviderProps> = ({ children }) => {
         setGamemode,
         setRoomState,
         name,
+        playerID
     });
 
     const genericEmitters = createGenericEventEmitters(socket);
@@ -135,6 +136,8 @@ export const GameProvider: React.FC<GameProviderProps> = ({ children }) => {
                 case Events.UpdateGameMode:
                     genericHandlers.handleUpdateGameMode(state);
                     return;
+                case Events.UpdateHost:
+                    genericHandlers.handleUpdateHost(data);
                 case Events.Error:
                     console.log('Server error:', data?.message);
                     return;

@@ -107,5 +107,5 @@ Use PageImages and get random wikipedia page available in more than 10-15 langua
 A gamemode where you're given a list of features or properties and need to guess people who have those same features. Not sure where I'd get such a dataset from. 
 
 # TODO
-- Host should transfer to another player when host leaves
 - Chat window
+- Trivia categories labels on mobile 

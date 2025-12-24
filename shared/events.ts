@@ -1,15 +1,14 @@
 import { Player, RoomState, GameModes } from './types';
 
-// === Generic Events (not gamemode-specific) ===
 export enum Events {
     Join = "join",
     OtherJoin = "otherJoin",
     Quit = "quit",
     UpdateGameMode = "updateGameMode",
+    UpdateHost = "updateHost",
     Error = "error",
 }
 
-// === Event Response Types ===
 export interface JoinResponse {
     playerID: number;
     host: boolean;
@@ -31,6 +30,7 @@ export interface GenericEventDeps {
     setGamemode: (mode: GameModes) => void;
     setRoomState: (state: RoomState) => void;
     name: string;
+    playerID: number;
 }
 
 export const createGenericEventHandlers = (deps: GenericEventDeps) => ({
@@ -81,6 +81,10 @@ export const createGenericEventHandlers = (deps: GenericEventDeps) => ({
     handleUpdateGameMode: (state: RoomState) => {
         deps.setRoomState(state);
         deps.setGamemode(state.gamemode as GameModes);
+    },
+
+    handleUpdateHost: (data: {newHostID: number}) => {
+        if (data.newHostID === deps.playerID) deps.setHost(true);
     },
 });
 
