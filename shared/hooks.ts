@@ -1,12 +1,12 @@
-
 'use client'
 
-import { useEffect, useRef } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { useGameContext } from './GameContext';
 import { SOCKET_URL } from './constants';
 
 export const useWebSocket = (roomId: string, playerName: string) => {
     const { setSocket, socket } = useGameContext();
+    const [error, setError] = useState<string | null>(null);
     const reconnectAttempts = useRef(0);
     const maxReconnectAttempts = 5;
     const reconnectDelay = 1000;
@@ -26,11 +26,22 @@ export const useWebSocket = (roomId: string, playerName: string) => {
                 setSocket(ws);
             };
 
+            ws.onmessage = (event) => {
+                const message = JSON.parse(event.data);
+                if (message.type === "error") {
+                    setError(message.message);
+                    ws.close(1000, 'Room not found');
+                }
+            };
+
             ws.onclose = (event) => {
                 console.log('WebSocket disconnected:', event.reason);
                 setSocket(null);
                 
-                // Attempt to reconnect if not a clean close
+                if (event.reason === 'Room not found') {
+                    return;
+                }
+                
                 if (event.code !== 1000 && reconnectAttempts.current < maxReconnectAttempts) {
                     setTimeout(() => {
                         reconnectAttempts.current++;
@@ -58,16 +69,13 @@ export const useWebSocket = (roomId: string, playerName: string) => {
         return () => {
             if (socket) {
                 socket.close(1000, 'Component unmounting');
-                setSocket(null);
             }
         };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [roomId, playerName]);
 
-    const disconnect = () => {
-        if (socket) {
-            socket.close(1000, 'Manual disconnect');
-            setSocket(null);
-        }
+    return { 
+        isConnected: socket !== null && socket.readyState === WebSocket.OPEN,
+        error 
     };
-    return { connect, disconnect, isConnected: socket?.readyState === WebSocket.OPEN };
 };

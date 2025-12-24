@@ -8,8 +8,8 @@ export default function Home() {
     const router = useRouter();
     
     return (
-        <div className='flex flex-col items-center w-screen h-screen bg-dots gap-8'>
-            <h1 className='title font-bartle md:mt-12 mt-8'>ROOM GAMES</h1>
+        <div className='flex flex-col items-center w-screen h-screen bg-dots gap-8 md:justify-center justify-normal'>
+            <h1 className='title font-bartle md:text-[80px] text-[48px] md:mt-0 mt-16'>ROOM GAMES</h1>
             
             {/* Create Room Section */}
             <div className='flex flex-col items-center gap-4 md:w-1/2 w-full px-4'>

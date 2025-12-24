@@ -80,23 +80,46 @@ def get_question(room: Room) -> TriviaQuestion:
     )
 
 def get_properties(room: Room) -> list[PeopleProperties]:
-    """Get a random properties based on room's bounds."""
-    if room.people_state and room.people_state.properties:
-        lower = room.people_state.combination_lower_bound
-        upper = room.people_state.combination_upper_bound
-        
-        if lower > upper:
-            size = lower
-        elif lower == upper:
-            size = lower
-        else:
-            size = random.randint(lower, upper)
-        
-        size = min(size, len(room.people_state.properties))
-        
-        return random.sample(room.people_state.properties, size)
+    if not room.people_state or not room.people_state.properties:
+        return []
     
-    return []
+    lower = room.people_state.combination_lower_bound
+    upper = room.people_state.combination_upper_bound
+    
+    if lower > upper:
+        size = lower
+    elif lower == upper:
+        size = lower
+    else:
+        size = random.randint(lower, upper)
+    
+    size = min(size, len(room.people_state.properties))
+    
+    genders = {PeopleProperties.Male, PeopleProperties.Female}
+    continents = {
+        PeopleProperties.Asia, PeopleProperties.NorthAmerica, 
+        PeopleProperties.SouthAmerica, PeopleProperties.Europe, 
+        PeopleProperties.Africa, PeopleProperties.Oceania
+    }
+    
+    available = list(room.people_state.properties)
+    selected: list[PeopleProperties] = []
+    
+    for _ in range(size):
+        if not available:
+            break
+        
+        choice = random.choice(available)
+        selected.append(choice)
+        available.remove(choice)
+        
+        if choice in genders:
+            available = [p for p in available if p not in genders]
+        
+        if choice in continents:
+            available = [p for p in available if p not in continents]
+    
+    return selected
 
 def generate_room_id(rooms) -> str:
     id = ''.join(random.choices(string.ascii_lowercase, k=4))

@@ -45,18 +45,36 @@ export default function TriviaSettings({
     };
 
     const handleDurationChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-        const value = parseInt(e.target.value);
-        if (!isNaN(value) && value > 0) {
+        const rawValue = e.target.value;
+        
+        if (rawValue === "") {
+            setDuration(0);
+            return;
+        }
+        
+        const value = parseInt(rawValue);
+        if (!isNaN(value) && value >= 0) {
             setDuration(value);
-            onSettingsChange({ questionDuration: value });
+            if (value > 0) {
+                onSettingsChange({ questionDuration: value });
+            }
         }
     };
 
     const handleWinningScoreChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-        const value = parseInt(e.target.value);
-        if (!isNaN(value) && value > 0) {
+        const rawValue = e.target.value;
+        
+        if (rawValue === "") {
+            setWinningScore(0);
+            return;
+        }
+        
+        const value = parseInt(rawValue);
+        if (!isNaN(value) && value >= 0) {
             setWinningScore(value);
-            onSettingsChange({ winningScore: value });
+            if (value > 0) {
+                onSettingsChange({ winningScore: value });
+            }
         }
     };
 
@@ -86,7 +104,7 @@ export default function TriviaSettings({
                 </label>
                 <input
                     type="number"
-                    min="10"
+                    min="1"
                     max="1000"
                     value={winningScore}
                     step={10}

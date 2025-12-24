@@ -41,34 +41,62 @@ export default function PeopleSettings({
     };
 
     const handleDurationChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-        const value = parseInt(e.target.value);
-        if (!isNaN(value) && value > 0) {
+        const rawValue = e.target.value;
+        if (rawValue === "") {
+            setDuration(0);
+            return;
+        }
+        const value = parseInt(rawValue);
+        if (!isNaN(value) && value >= 0) {
             setDuration(value);
-            onSettingsChange({ duration: value });
+            if (value > 0) {
+                onSettingsChange({ duration: value });
+            }
         }
     };
 
     const handleWinningScoreChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-        const value = parseInt(e.target.value);
-        if (!isNaN(value) && value > 0) {
+        const rawValue = e.target.value;
+        if (rawValue === "") {
+            setWinningScore(0);
+            return;
+        }
+        const value = parseInt(rawValue);
+        if (!isNaN(value) && value >= 0) {
             setWinningScore(value);
-            onSettingsChange({ winningScore: value });
+            if (value > 0) {
+                onSettingsChange({ winningScore: value });
+            }
         }
     };
 
     const handleLowerBoundChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-        const value = parseInt(e.target.value);
-        if (!isNaN(value) && value > 0) {
+        const rawValue = e.target.value;
+        if (rawValue === "") {
+            setLowerBound(0);
+            return;
+        }
+        const value = parseInt(rawValue);
+        if (!isNaN(value) && value >= 0) {
             setLowerBound(value);
-            onSettingsChange({ combinationLowerBound: value });
+            if (value > 0) {
+                onSettingsChange({ combinationLowerBound: value });
+            }
         }
     };
 
     const handleUpperBoundChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-        const value = parseInt(e.target.value);
-        if (!isNaN(value) && value > 0) {
+        const rawValue = e.target.value;
+        if (rawValue === "") {
+            setUpperBound(0);
+            return;
+        }
+        const value = parseInt(rawValue);
+        if (!isNaN(value) && value >= 0) {
             setUpperBound(value);
-            onSettingsChange({ combinationUpperBound: value });
+            if (value > 0) {
+                onSettingsChange({ combinationUpperBound: value });
+            }
         }
     };
 
@@ -98,7 +126,7 @@ export default function PeopleSettings({
                 </label>
                 <input
                     type="number"
-                    min="10"
+                    min="1"
                     max="1000"
                     value={winningScore}
                     step={10}

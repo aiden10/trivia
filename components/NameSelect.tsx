@@ -26,10 +26,25 @@ export default function NameSelect() {
         setTempName(prev => (prev === "" ? name : prev));
     }, [name]);
     
-    const { isConnected } = useWebSocket(
+    const { isConnected, error } = useWebSocket(
         hasJoined ? roomID : "", 
         hasJoined ? tempName : ""
     );
+    
+    if (error) {
+        return (
+            <div className="fixed inset-0 bg-stone-900 bg-dots z-10 overflow-hidden flex flex-col items-center justify-center gap-12 px-4">
+                <h1 className="title font-bartle bg-dots px-4 py-2 mb-0">Room Not Found</h1>
+                <p className="text-white/75 text-xl font-inter uppercase bg-red-900/20 p-4 italic">room <b>{roomID}</b> does not exist</p>
+                <button
+                    className="btn-primary uppercase md:w-1/2 w-full"
+                    onClick={() => window.location.href = '/'}
+                >
+                    Back to Home
+                </button>
+            </div>
+        );
+    }
 
     if (hasJoined && !isConnected) {
         return (

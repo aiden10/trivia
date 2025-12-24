@@ -136,7 +136,7 @@ export const GameProvider: React.FC<GameProviderProps> = ({ children }) => {
                     genericHandlers.handleUpdateGameMode(state);
                     return;
                 case Events.Error:
-                    console.error('Server error:', data?.message);
+                    console.log('Server error:', data?.message);
                     return;
             }
 
