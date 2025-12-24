@@ -1,23 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=BBH+Bartle:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 @import "tailwindcss";
+
+@theme {
+  --font-inter: "Inter", sans-serif;
+  --font-bartle: "BBH Bartle", serif;
+  --font-opensans: "Open Sans", sans-serif;
+}
 
 @layer base {
   html, body {
-    @apply bg-indigo-700;
+    @apply bg-stone-900;
     overscroll-behavior: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+  }
+  
+  body {
+    position: relative;
   }
 }
 
 @layer components {
   .btn-primary {
-    @apply p-5 bg-blue-600 hover:opacity-75 rounded-md text-white text-lg md:text-xl 
-           border-4 border-black px-6 py-3 transition-opacity hover:cursor-pointer;
+    @apply bg-neutral-900 text-white text-lg md:text-xl font-inter text-left 
+           border-2 border-white p-3 transition-all duration-500 hover:cursor-pointer
+           bg-no-repeat bg-left;
+    background-image: linear-gradient(rgba(255,255,255,0.15), rgba(255,255,255,0.15));
+    background-size: 0% 100%;
   }
+  .btn-primary:hover {
+    background-size: 100% 100%;
+  }
+
   .input-primary {
-    @apply bg-blue-600 p-2 hover:opacity-85 text-cyan-50 text-[24px]
-            text-shadow-[0_0.9px_0.9px_rgba(0,0,0,0.7)] 
-            border-4 rounded-md focus:outline-none focus:border-white border-black;
+    @apply bg-neutral-900 p-3 text-white text-[24px]
+            border-2 focus:outline-none focus:border-white border-white/75
+            transition-all duration-500 font-inter font-light
+            bg-no-repeat bg-left;
+    background-image: linear-gradient(rgba(255,255,255,0.1), rgba(255,255,255,0.1));
+    background-size: 0% 100%;
   }
-  .main-text-color {
-    @apply text-cyan-50
+  .input-primary:hover, .input-primary:focus {
+    background-size: 100% 100%;
+  }
+  .title {
+    @apply text-[28px] md:text-[44px] text-white md:mb-8 mb-0 font-semibold bg-black/75 p-2 md:m-0 m-4;
+  }
+  .heading1 {
+    @apply text-white text-2xl md:text-4xl w-full p-4 text-center font-semibold bg-neutral-900 border-2 border-white font-inter;
+  }
+  .heading2 {
+    @apply md:text-[32px] text-[24px] font-bold text-white mb-3 font-bartle bg-black/25;
+  }
+  .game-screen {
+    @apply flex flex-col items-center gap-6 p-4 min-h-screen pt-24 md:pt-6;
+  }
+  .settings-group {
+    @apply bg-neutral-900 border-white border-2 p-4 md:p-6 space-y-4;
+  }
+  .settings-label {
+    @apply text-white text-lg font-inter uppercase bg-black/75 p-2 mb-1 md:text-[24px] text-[12px] border-b-2 
+    border-white/50 transition-all duration-500 hover:border-white/80;
+  }
+  .settings-input {
+    @apply bg-neutral-900 text-white p-2 w-full font-inter text-[24px] focus:outline-none
+    focus:border-white border-white/75 border-2;
+  }
+  .settings-checkbox {
+    @apply appearance-none w-6 h-6 border-2 border-white cursor-pointer relative transition-all;
+    @apply checked:bg-white;
+  }
+
+  .settings-checkbox::after {
+    content: '';
+    @apply absolute inset-0 opacity-0 transition-opacity;
+    background-color: #000000; 
+    mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='4' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='20 6 9 17 4 12'%3E%3C/polyline%3E%3C/svg%3E");
+    mask-size: 80%;
+    mask-repeat: no-repeat;
+    mask-position: center;
+  }
+  .settings-checkbox:checked::after {
+    @apply opacity-100;
+  }
+  .bg-lines {
+    background-image:
+      linear-gradient(135deg,
+        rgba(255,255,255,0.07) 25%, transparent 25%,
+        transparent 50%, rgba(255,255,255,0.07) 50%,
+        rgba(255,255,255,0.07) 75%, transparent 75%, transparent);
+    background-size: 18px 18px, 28px 28px;
+  }
+  .bg-dots {
+    background-image:
+      radial-gradient(circle at 2px 2px, rgba(255,255,255,0.08) 1.5px, transparent 0);
+    background-size: 8px 8px;
   }
 }

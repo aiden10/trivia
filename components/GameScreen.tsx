@@ -23,7 +23,7 @@ export default function GameScreen() {
     return (
         <div>
             <NameSelect />
-            <div className="bg-indigo-700 min-h-screen w-full p-4">
+            <div className="bg-stone-900 min-h-screen w-full">
                 {renderGamemodeScreen()}
             </div>
         </div>

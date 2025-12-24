@@ -1,9 +1,8 @@
 'use client'
 
 import { useGameContext } from '@/shared/GameContext';
-import { PeopleStages } from '@/shared/types';
+import { PeopleStages, PeopleProperties } from '@/shared/types';
 import { useEffect, useRef } from 'react';
-import PlayerList from '@/components/PlayerList';
 import { capitalizeWords } from '@/shared/utils';
 
 export default function PropertiesDisplay() {
@@ -39,20 +38,59 @@ export default function PropertiesDisplay() {
         return () => clearInterval(interval);
     }, [host, players, winningScore, submitPGUpdateStage]);
 
+    const continents = [
+        PeopleProperties.Asia,
+        PeopleProperties.NorthAmerica,
+        PeopleProperties.SouthAmerica,
+        PeopleProperties.Europe,
+        PeopleProperties.Africa,
+        PeopleProperties.Oceania
+    ];
+
+    const genders = [PeopleProperties.Male, PeopleProperties.Female];
+
+    const occupations = [
+        PeopleProperties.Athlete,
+        PeopleProperties.Actor,
+        PeopleProperties.Politician,
+        PeopleProperties.Musician,
+        PeopleProperties.Scientist,
+        PeopleProperties.Author
+    ];
+
+    const selectedContinents = properties.filter(p => continents.includes(p));
+    const selectedGenders = properties.filter(p => genders.includes(p));
+    const selectedOccupations = properties.filter(p => occupations.includes(p));
+
     return (
-        <div className='w-full flex flex-col min-h-screen gap-y-16 p-4'>
+        <div className='w-full flex flex-col min-h-screen gap-y-8 p-4 bg-lines'>
             <div className='w-full justify-center items-center flex flex-col gap-16'>
                 {/* Properties */}
-                <h1 className='main-text-color text-2xl md:text-4xl w-full p-4 text-center 
-                    drop-shadow-[0_1.5px_1.5px_rgba(0,0,0,0.3)] font-semibold
-                    bg-indigo-500 border-4 border-black rounded-sm'>
+                <h1 className='title font-bartle bg-dots'>
                     {properties.map(p => capitalizeWords(p.replace(/_/g, ' '))).join(', ')}
                 </h1>
             </div>
 
-            <div className='w-full max-w-4xl mx-auto mt-10'>
-                <PlayerList />
-            </div>        
+            {/* Continents */}
+            {selectedContinents.map(continent => (
+                <p key={continent} className='heading1 font-bartle'>
+                    The person must have held citizenship from the continent of {capitalizeWords(continent.replace(/_/g, ' '))} at some point during their life
+                </p>
+            ))}
+
+            {/* Genders */}
+            {selectedGenders.map(gender => (
+                <p key={gender} className='heading1 font-bartle'>
+                    The person must be {capitalizeWords(gender)}
+                </p>
+            ))}
+
+            {/* Occupations */}
+            {selectedOccupations.map(occupation => (
+                <p key={occupation} className='heading1 font-bartle'>
+                    The person must have been {occupation === PeopleProperties.Athlete ? 'an' : 'a'} {capitalizeWords(occupation)} at some point during their life
+                </p>
+            ))}
         </div>
     );
 }

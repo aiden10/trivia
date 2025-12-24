@@ -3,6 +3,7 @@
 import { useState, useEffect, useRef } from 'react';
 import { useGameContext } from '@/shared/GameContext';
 import { TriviaStages } from '@/shared/types';
+import Timer from '@/components/Timer';
 import PlayerList from '@/components/PlayerList';
 
 export default function QuestionDisplay() {
@@ -66,15 +67,11 @@ export default function QuestionDisplay() {
         setGuess("");
     };
 
-    const progressPercentage = (remainingTime / questionDuration) * 100;
-
     return (
-        <div className='w-full flex flex-col min-h-screen gap-y-5 p-4'>
-            <div className='w-full justify-center items-center flex flex-col md:gap-8 gap-12'>
+        <div className='w-full flex flex-col min-h-screen gap-y-5 p-4 bg-lines'>
+            <div className='w-full justify-center items-center flex flex-col md:gap-8 gap-12 mt-4'>
                 {/* Question */}
-                <h1 className='main-text-color text-2xl md:text-4xl w-full p-4 text-center 
-                    drop-shadow-[0_1.5px_1.5px_rgba(0,0,0,0.3)] font-semibold
-                    bg-indigo-500 border-4 border-black rounded-sm'>
+                <h1 className='heading1 bg-dots'>
                     {question?.body}
                 </h1>
 
@@ -95,17 +92,15 @@ export default function QuestionDisplay() {
                                 type="text"
                                 value={guess}
                                 onChange={(e) => setGuess(e.target.value)}
-                                placeholder="Type your answer..."
+                                placeholder="type your answer..."
                                 autoFocus
-                                className="w-full text-center text-2xl p-4 rounded-lg border-4 
-                                    bg-indigo-600 text-white placeholder-indigo-300
-                                    focus:outline-none focus:border-white"
+                                className="input-primary"
                             />
                             
                             <button
                                 type="submit"
                                 disabled={!guess.trim()}
-                                className="btn-primary w-full text-xl py-3 disabled:opacity-50"
+                                className="btn-primary w-full text-xl py-3 disabled:opacity-50 uppercase"
                             >
                                 Submit Guess
                             </button>
@@ -113,16 +108,7 @@ export default function QuestionDisplay() {
                     </form>
                 )}
 
-                {/* Timer */}
-                <div className='flex flex-col items-center w-full max-w-4xl gap-2'>
-                    <p className='main-text-color text-2xl'>{remainingTime}s</p>
-                    <div className='w-full h-1 bg-gray-700 rounded-full overflow-hidden'>
-                        <div 
-                            className='h-full bg-white transition-all duration-100 ease-linear'
-                            style={{ width: `${progressPercentage}%` }}
-                        />
-                    </div>
-                </div>
+                <Timer remainingTime={remainingTime} duration={questionDuration}/>
             </div>
 
             <div className='w-full max-w-4xl mx-auto mt-10'>

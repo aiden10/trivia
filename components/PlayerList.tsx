@@ -10,28 +10,28 @@ export default function PlayerList() {
     });
 
     return (
-        <div className="flex-col bg-blue-600 rounded-md text-shadow-[0_0.9px_0.9px_rgba(0,0,0,0.7)] border-black border-4">
+        <div className="flex-col bg-neutral-900 border-white border-2 bg-dots font-inter font-light">
             {sortedPlayers.map((player, index) => (
                 <div key={index} className={`flex flex-row justify-between items-center py-2 px-4 transition-colors ${
-                    player.guessedCorrectly ? 'bg-green-300/75' : ''
+                    player.guessedCorrectly ? 'bg-emerald-900/75' : ''
                 }`}>
-                    <div className="flex flex-col gap-1 flex-1">
+                    <div className="flex flex-col flex-1">
                         <div className="flex items-center gap-2">
-                            <span className="text-[24px] font-bold text-black/50">#{index + 1}</span>
-                            <h2 className="text-[24px] text-cyan-100 ml-2">{player.playerName}</h2>
+                            <span className="text-[24px] font-bold text-white">#{index + 1}</span>
+                            <h2 className="text-[24px] text-white ml-2">{player.playerName}</h2>
                         </div>
                         {!player.guessedCorrectly && player.guess && (
-                            <p className="text-md text-white/50 italic ml-12">
+                            <p className="text-md text-white/80 italic ml-12 font-inter font-thin">
                                 {player.guess}
                             </p>
                         )}
                         {player.correctGuesses && player.correctGuesses.length > 0 && (
-                            <div className="ml-12 mt-1 flex flex-wrap gap-1">
+                            <div className="ml-6 mt-1 flex flex-wrap gap-1">
                                 {player.correctGuesses.map((correctGuess, i) => (
                                     <span 
                                         key={i}
-                                        className="px-2 py-0.5 bg-emerald-600/80 text-white rounded-full 
-                                            text-xs font-medium border border-emerald-400"
+                                        className="px-2 py-0.5 bg-emerald-900/75 text-white
+                                            text-xs font-medium border border-emerald-800"
                                     >
                                         ✓ {correctGuess}
                                     </span>
@@ -40,7 +40,7 @@ export default function PlayerList() {
                         )}
                     </div>
 
-                    <h1 className="text-[24px] font-bold text-white/80 md:ml-5">{player.score}</h1>
+                    <h1 className="text-[24px] text-white/80 md:ml-5">{player.score}</h1>
                 </div>
             ))}
         </div>

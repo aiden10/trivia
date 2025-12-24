@@ -8,14 +8,13 @@ export default function Home() {
     const router = useRouter();
     
     return (
-        <div className='flex flex-col items-center justify-center w-screen h-screen bg-indigo-700 gap-8'>
-            <h1 className='text-6xl md:text-7xl text-cyan-50 mb-8 drop-shadow-[0_1.5px_1.5px_rgba(0,0,0,0.3)] 
-            font-semibold'>Room Based Games</h1>
+        <div className='flex flex-col items-center w-screen h-screen bg-dots gap-8'>
+            <h1 className='title font-bartle md:mt-12 mt-8'>ROOM GAMES</h1>
             
             {/* Create Room Section */}
-            <div className='flex flex-col items-center gap-4 w-full max-w-2xl px-4'>
+            <div className='flex flex-col items-center gap-4 md:w-1/2 w-full px-4'>
                 <button 
-                    className='btn-primary w-full'
+                    className='btn-primary w-full uppercase'
                     onClick={async () => {
                         const id = (await createRoom()).room_id;
                         setRoomID(id);
@@ -27,19 +26,20 @@ export default function Home() {
             </div>
             
             {/* Join Room Section */}
-            <div className='flex flex-col items-center gap-4 w-full max-w-2xl px-4'>
-                <div className='flex flex-col items-center w-full'>
-                    <p className='text-cyan-50 text-[24px] md:text-[28px] mb-2 drop-shadow-[0_0.5px_0.5px_rgba(0,0,0,0.7)]
-                    font-semibold'>Room Code</p>
+            <div className='flex flex-col items-center gap-4 md:w-1/2 w-full px-4'>
+                <div className='flex flex-col w-full'>
+                    <p className='text-white uppercase bg-white/50 font-inter text-[24px]
+                     md:text-[28px] mb-2 text-right px-2 font-light
+                    '>Room Code</p>
                     <input
                         type="text"
-                        className='text-center input-primary w-full uppercase'
-                        placeholder='ABCD'
+                        className='input-primary w-full uppercase'
+                        placeholder='abcd'
                         onInput={(e) => setRoomID(e.currentTarget.value)}
                     />
                 </div>
                 <button
-                    className='btn-primary w-full'
+                    className='btn-primary w-full uppercase'
                     disabled={roomID === ""}
                     onClick={() => router.push(`/game/${roomID}`)}
                 >

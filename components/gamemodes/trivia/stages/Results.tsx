@@ -3,6 +3,7 @@ import { TriviaSettings as TriviaSettingsType } from "@/shared/types";
 import { useGameContext } from "@/shared/GameContext";
 import Leaderboard from "../../../Leaderboard";
 import TriviaSettings from "../TriviaSettings";
+import Back from "@/components/Back";
 
 export default function Results() {
     const { 
@@ -16,18 +17,21 @@ export default function Results() {
     };
 
     return (
-        <div className="flex flex-col gap-y-10 p-4 items-center">
+        <div className="game-screen bg-lines">
+            <Back inRoom={true}/>
+            <h1 className="title font-bartle bg-dots">Results</h1>
+
             <Leaderboard />
             
             {host ? (
-                <div className="flex flex-col gap-4 w-full max-w-md">
+                <div className="flex flex-col gap-4 md:w-2/3 w-full">
                     <TriviaSettings
                         host={host}
                         onSettingsChange={handleSettingsChange}
                     />
 
                     <button 
-                        className="btn-primary w-full text-2xl py-4"
+                        className="btn-primary w-full text-2xl py-4 uppercase"
                         onClick={() => submitTriviaRestart()}
                     >
                         New Game

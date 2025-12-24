@@ -81,19 +81,16 @@ export function showToast(message: string, opts: ToastOptions = {}) {
     toast.setAttribute('role', 'status');
 
     let bgColor = '';
-    let borderColor = '';
+    let borderColor = '#FFFF';
     switch (type) {
         case 'success':
-            bgColor = '#059669'; // emerald-600
-            borderColor = '#34d399'; // emerald-400
+            bgColor = '#14532d'; // emerald-900
             break;
         case 'error':
-            bgColor = '#dc2626'; // red-600
-            borderColor = '#f87171'; // red-400
+            bgColor = '#450a0a'; // red-950
             break;
         default:
-            bgColor = '#4338ca'; // indigo-700
-            borderColor = '#818cf8'; // indigo-400
+            bgColor = '#171717'; // neutral-900
             break;
     }
 
@@ -102,7 +99,6 @@ export function showToast(message: string, opts: ToastOptions = {}) {
         min-width: 180px;
         max-width: 340px;
         padding: 12px 16px;
-        border-radius: 8px;
         border: 3px solid ${borderColor};
         background: ${bgColor};
         color: #ecfeff;

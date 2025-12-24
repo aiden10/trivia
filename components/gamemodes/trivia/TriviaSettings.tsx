@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { TriviaCategories, TriviaSettings as TriviaSettingsType } from "@/shared/types";
 
 interface TriviaSettingsProps {
@@ -11,7 +11,7 @@ interface TriviaSettingsProps {
 
 export default function TriviaSettings({
     host,
-    initialCategories = [],
+    initialCategories = Object.values(TriviaCategories),
     initialDuration = 15,
     initialWinningScore = 100,
     onSettingsChange,
@@ -29,12 +29,6 @@ export default function TriviaSettings({
             })
             .join(' ');
     };
-
-    useEffect(() => {
-        if (initialCategories.length > 0) {
-            setSelectedCategories(initialCategories);
-        }
-    }, [initialCategories]);
 
     const handleCategoryToggle = (category: string, checked: boolean) => {
         // Prevent deselecting if it's the last one
@@ -67,10 +61,10 @@ export default function TriviaSettings({
     };
 
     return (
-        <div className="bg-indigo-800 border-black border-4 rounded-lg p-4 md:p-6 space-y-4">
+        <div className="settings-group bg-lines">
             {/* Question Duration */}
             <div className="flex flex-col gap-2">
-                <label className={`text-white text-lg font-semibold ${!host && 'opacity-50'}`}>
+                <label className={`settings-label ${!host && 'opacity-50'}`}>
                     question duration (seconds)
                 </label>
                 <input
@@ -81,16 +75,13 @@ export default function TriviaSettings({
                     step={1}
                     onChange={handleDurationChange}
                     disabled={!host}
-                    className={`bg-indigo-700 text-white rounded px-3 py-2 w-full
-                        [appearance:textfield] [&::-webkit-outer-spin-button]:appearance-none 
-                        [&::-webkit-inner-spin-button]:appearance-none
-                        ${!host && 'opacity-50 cursor-not-allowed'}`}
+                    className={`settings-input ${!host && 'opacity-50 cursor-not-allowed'}`}
                 />
             </div>
 
             {/* Winning Score */}
             <div className="flex flex-col gap-2">
-                <label className={`text-white text-lg font-semibold ${!host && 'opacity-50'}`}>
+                <label className={`settings-label ${!host && 'opacity-50'}`}>
                     winning score
                 </label>
                 <input
@@ -101,31 +92,28 @@ export default function TriviaSettings({
                     step={10}
                     onChange={handleWinningScoreChange}
                     disabled={!host}
-                    className={`bg-indigo-700 text-white rounded px-3 py-2 w-full
-                        [appearance:textfield] [&::-webkit-outer-spin-button]:appearance-none 
-                        [&::-webkit-inner-spin-button]:appearance-none
-                        ${!host && 'opacity-50 cursor-not-allowed'}`}
+                    className={`settings-input ${!host && 'opacity-50 cursor-not-allowed'}`}
                 />
             </div>
 
             {/* Categories */}
             <div className="flex flex-col gap-2">
-                <label className={`text-white text-lg font-semibold mb-1 ${!host && 'opacity-50'}`}>
+                <label className={`settings-label ${!host && 'opacity-50'}`}>
                     categories (select at least one)
                 </label>
                 
-                <div className="grid grid-cols-2 gap-2">
+                <div className="grid grid-cols-2 gap-2 bg-neutral-900 bg-dots p-4">
                     {Object.values(TriviaCategories).map((category) => (
                         <label 
                             key={category}
-                            className={`flex items-center gap-3 text-white ${!host && 'opacity-50'}`}
+                            className={`flex items-center gap-3 settings-label ${!host && 'opacity-50'}`}
                         >
                             <input
                                 type="checkbox"
                                 checked={selectedCategories.includes(category)}
                                 onChange={(e) => handleCategoryToggle(category, e.target.checked)}
                                 disabled={!host}
-                                className="w-5 h-5"
+                                className="settings-checkbox"
                             />
                             <span>{formatCategoryLabel(category)}</span>
                         </label>

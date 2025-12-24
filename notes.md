@@ -106,5 +106,10 @@ Use PageImages and get random wikipedia page available in more than 10-15 langua
 # Person Guesser
 A gamemode where you're given a list of features or properties and need to guess people who have those same features. Not sure where I'd get such a dataset from. 
 
+# TODO
+- Add button to go back to gamemode selection on results screen
+- Fix settings, currently unable to remove first digit
+- Improve PeopleGuesser property combinations
+- Joining non-existent rooms
 
 Good UI example: https://really.boring.website

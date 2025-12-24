@@ -6,6 +6,7 @@ import { PeopleStages } from '@/shared/types';
 import { capitalizeWords } from '@/shared/utils';
 import PlayerList from '@/components/PlayerList';
 import WikidataSearch from '../WikidataSearch';
+import Timer from '@/components/Timer';
 
 export default function GuessingPeriod() {
     const { 
@@ -60,29 +61,25 @@ export default function GuessingPeriod() {
         submitPGGuess(id);
     };
 
-    const progressPercentage = (remainingTime / duration) * 100;
-
     return (
-        <div className='w-full flex flex-col min-h-screen gap-y-5 p-4'>
+        <div className='w-full flex flex-col min-h-screen gap-y-5 p-4 bg-lines'>
             <div className='w-full justify-center items-center flex flex-col md:gap-8 gap-12'>
                 {/* Properties Display */}
-                <h1 className='main-text-color text-2xl md:text-4xl w-full p-4 text-center 
-                    drop-shadow-[0_1.5px_1.5px_rgba(0,0,0,0.3)] font-semibold
-                    bg-indigo-500 border-4 border-black rounded-sm'>
+                <h1 className='heading1 bg-dots uppercase'>
                     {currentProperties?.map(p => capitalizeWords(p.replace(/_/g, ' '))).join(', ')}
                 </h1>
 
                 {/* Correct Guesses */}
                 {currentPlayer?.correctGuesses && currentPlayer.correctGuesses.length > 0 && (
                     <div className="w-full max-w-2xl">
-                        <p className="text-indigo-200 text-sm mb-2 text-center">Your correct guesses:</p>
+                        <p className="text-white text-md mb-2 text-center font-inter uppercase bg-black/50 p-2">Your correct guesses</p>
                         <div className="flex flex-wrap gap-2 justify-center">
                             {currentPlayer.correctGuesses.map((correctGuess, i) => (
                                 <span 
                                     key={i}
-                                    className="px-3 py-1.5 bg-emerald-600 text-white rounded-full 
-                                        text-sm font-medium border-2 border-emerald-400
-                                        shadow-md"
+                                    className="px-3 py-1.5 bg-emerald-900 text-white 
+                                        text-sm font-medium border-2 border-emerald-600
+                                        shadow-md font-inter"
                                 >
                                     ✓ {correctGuess}
                                 </span>
@@ -96,17 +93,7 @@ export default function GuessingPeriod() {
                     onSelect={handleSelect} 
                     placeholder="Search for a person..."
                 />
-
-                {/* Timer */}
-                <div className='flex flex-col items-center w-full max-w-4xl gap-2'>
-                    <p className='main-text-color text-2xl'>{remainingTime}s</p>
-                    <div className='w-full h-1 bg-gray-700 rounded-full overflow-hidden'>
-                        <div 
-                            className='h-full bg-white transition-all duration-100 ease-linear'
-                            style={{ width: `${progressPercentage}%` }}
-                        />
-                    </div>
-                </div>
+                <Timer remainingTime={remainingTime} duration={duration}/>
             </div>
 
             <div className='w-full max-w-4xl mx-auto mt-10'>

@@ -46,31 +46,28 @@ export default function Reveal() {
     }, [host, players, winningScore, submitTriviaUpdateStage, submitTriviaUpdateQuestion]);
 
     return (
-        <div className='w-full flex flex-col min-h-screen gap-y-16 p-4'>
-            <div className='w-full justify-center items-center flex flex-col gap-16'>
+        <div className='w-full flex flex-col min-h-screen gap-y-16 p-4 bg-lines'>
+            <div className='w-full justify-center items-center flex flex-col gap-16 mt-4'>
                 {/* Question */}
-                <h1 className='main-text-color text-2xl md:text-4xl w-full p-4 text-center 
-                    drop-shadow-[0_1.5px_1.5px_rgba(0,0,0,0.3)] font-semibold
-                    bg-indigo-500 border-4 border-black rounded-sm'>
+                <h1 className='heading1 bg-dots'>
                     {question?.body}
                 </h1>
 
                 {/* Answer Display */}
                 <div className='flex flex-col w-full md:w-1/2'>
-                    <h1 className='bg-indigo-950 p-2 main-text-color w-full text-[14px] font-semibold'>
+                    <h1 className='bg-white p-2 text-black w-full text-[14px] font-semibold font-inter'>
                         ANSWER
                     </h1>
-                    <h2 className='main-text-color text-[32px] bg-indigo-400 w-full p-4 text-center 
-                        drop-shadow-[0_1.5px_1.5px_rgba(0,0,0,0.3)] font-semibold'>
+                    <h2 className='heading1'>
                         {capitalizeWords(question?.answer || '')}
                     </h2>
-                    <p className="text-indigo-200 text-center mt-2 text-sm">
-                        (Different spellings/variations are accepted)
+                    <p className="text-white/75 text-center mt-2 text-md font-inter font-thin italic">
+                        different spellings/variations are accepted
                     </p>
                 </div>
             </div>
 
-            <div className='w-full max-w-4xl mx-auto mt-10'>
+            <div className='w-full max-w-4xl mx-auto'>
                 <PlayerList />
             </div>        
         </div>

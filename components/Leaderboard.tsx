@@ -3,13 +3,12 @@ import React from 'react';
 import { useGameContext } from '@/shared/GameContext';
 
 interface LeaderboardProps {
-    title?: string;
     showPositions?: boolean;
     maxPlayers?: number;
     compact?: boolean;
 }
 
-export default function Leaderboard({ title = "Leaderboard", showPositions = true, maxPlayers, compact = false }: LeaderboardProps) {
+export default function Leaderboard({ showPositions = true, maxPlayers, compact = false }: LeaderboardProps) {
     const { players, playerID } = useGameContext();
     
     const sortedPlayers = [...players].sort((a, b) => {
@@ -22,11 +21,10 @@ export default function Leaderboard({ title = "Leaderboard", showPositions = tru
     const displayPlayers = maxPlayers ? sortedPlayers.slice(0, maxPlayers) : sortedPlayers;
 
     return (
-        <div className="bg-white rounded-md overflow-hidden w-full">
+        <div className="overflow-hidden md:w-2/3 w-full font-inter">
             {/* Header */}
-            <div className="bg-blue-600 border-4 border-black text-white p-4">
-                <h2 className="text-2xl font-bold text-center">{title}</h2>
-                <p className="text-center text-white font-bold text-sm">
+            <div className="bg-neutral-900 border-2 border-white text-white p-4">
+                <p className="text-center text-white font-bold text-md font-inter">
                 {players.length} {players.length === 1 ? 'player' : 'players'}
                 </p>
             </div>
@@ -41,8 +39,8 @@ export default function Leaderboard({ title = "Leaderboard", showPositions = tru
                         <div
                             key={player.playerID}
                             className={`
-                                flex items-center justify-between p-4 transition-all duration-200 hover:shadow-md bg-amber-50
-                                border-4 border-black border-t-0
+                                flex items-center justify-between p-4 transition-all duration-200 hover:shadow-md bg-stone-800
+                                border-2 border-white border-t-0
                                 ${compact ? 'p-3' : 'p-4'}
                             `}
                             >
@@ -51,24 +49,24 @@ export default function Leaderboard({ title = "Leaderboard", showPositions = tru
                                 {/* Position */}
                                 {showPositions && (
                                 <div className="flex items-center justify-center w-8 h-8">
-                                    <span className="text-lg font-bold text-gray-500">#{position}</span>
+                                    <span className="text-lg font-bold text-white">#{position}</span>
                                 </div>
                                 )}
                                 
                             {/* Player info */}
                             <div>
                                 <div className="flex items-center space-x-2">
-                                    <h3 className={`font-semibold ${compact ? 'text-base' : 'text-lg'}`}>
+                                    <h3 className={`font-semibold text-white ${compact ? 'text-base' : 'text-lg'}`}>
                                         {player.playerName}
                                     </h3>
                                     {isCurrentPlayer && (
-                                    <span className="bg-blue-600 text-white text-xs px-2 py-1 rounded-full">
+                                    <span className="bg-white text-xs px-2 py-1 rounded-sm">
                                         You
                                     </span>
                                     )}
                                 </div>
                                 {!compact && position <= 3 && (
-                                    <p className="text-sm text-gray-600">
+                                    <p className="text-sm text-white">
                                     {position === 1 ? 'Winner!' : 
                                     position === 2 ? 'Second place' : 
                                     'Third place'}
@@ -79,10 +77,10 @@ export default function Leaderboard({ title = "Leaderboard", showPositions = tru
 
                     {/* Right side - Score */}
                     <div className="text-right">
-                            <div className={`font-bold ${compact ? 'text-lg' : 'text-xl'} 'text-gray-800'`}>
+                            <div className={`font-bold text-white ${compact ? 'text-lg' : 'text-xl'}`}>
                                 {player.score}
                             </div>
-                            <div className="text-sm text-gray-500">
+                            <div className="text-sm text-white">
                                 {player.score === 1 ? 'point' : 'points'}
                             </div>
                         </div>
@@ -93,30 +91,9 @@ export default function Leaderboard({ title = "Leaderboard", showPositions = tru
 
             {maxPlayers && sortedPlayers.length > maxPlayers && (
                 <div className="bg-gray-50 p-3 text-center">
-                    <p className="text-sm text-gray-600">
+                    <p className="text-sm text-white">
                         Showing top {maxPlayers} of {sortedPlayers.length} players
                     </p>
-                </div>
-            )}
-
-            {maxPlayers && 
-            sortedPlayers.length > maxPlayers && 
-            !displayPlayers.some(p => p.playerID === playerID) && (
-                <div className="bg-blue-50 border-t-2 border-blue-200 p-3">
-                {(() => {
-                    const currentPlayerIndex = sortedPlayers.findIndex(p => p.playerID === playerID);
-                    const currentPlayer = sortedPlayers[currentPlayerIndex];
-                    return currentPlayer ? (
-                    <div className="flex items-center justify-between text-sm">
-                        <span className="font-medium text-blue-800">
-                            Your position: #{currentPlayerIndex + 1}
-                        </span>
-                        <span className="font-bold text-blue-800">
-                            {currentPlayer.score} points
-                        </span>
-                    </div>
-                    ) : null;
-                })()}
                 </div>
             )}
         </div>

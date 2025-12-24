@@ -15,7 +15,7 @@ interface WikidataSearchProps {
     disabled?: boolean;
 }
 
-export default function WikidataSearch({ onSelect, placeholder = "Search for a person...", disabled = false }: WikidataSearchProps) {
+export default function WikidataSearch({ onSelect, placeholder = "search for a person...", disabled = false }: WikidataSearchProps) {
     const [query, setQuery] = useState("");
     const [results, setResults] = useState<WikidataResult[]>([]);
     const [isLoading, setIsLoading] = useState(false);
@@ -120,34 +120,32 @@ export default function WikidataSearch({ onSelect, placeholder = "Search for a p
                     placeholder={placeholder}
                     disabled={disabled}
                     autoFocus
-                    className="w-full text-center text-2xl p-4 rounded-lg border-4 
-                        bg-indigo-600 text-white placeholder-indigo-300
-                        focus:outline-none focus:border-white disabled:opacity-50"
+                    className="w-full input-primary"
                 />
                 {isLoading && (
                     <div className="absolute right-4 top-1/2 -translate-y-1/2">
-                        <div className="w-5 h-5 border-2 border-indigo-300 border-t-white rounded-full animate-spin" />
+                        <div className="w-5 h-5 border-2 border-white border-t-white rounded-full animate-spin" />
                     </div>
                 )}
             </div>
 
             {/* Dropdown Results */}
             {showDropdown && (
-                <ul className="absolute z-50 w-full mt-2 bg-indigo-800 border-4 border-indigo-400 
-                    rounded-lg shadow-xl max-h-72 overflow-y-auto">
+                <ul className="absolute z-50 w-full mt-2 bg-neutral-900 border-4 
+                border-white shadow-xl max-h-72 overflow-y-auto font-inter">
                     {results.map((result, index) => (
                         <li key={result.id}>
                             <button
                                 type="button"
                                 onClick={() => handleSelect(result)}
                                 onMouseEnter={() => setSelectedIndex(index)}
-                                className={`w-full text-left px-4 py-3 transition-colors border-b border-indigo-600 last:border-b-0 ${
-                                    selectedIndex === index ? 'bg-indigo-600' : 'hover:bg-indigo-600'
+                                className={`w-full text-left px-4 py-3 transition-colors border-b border-stone-800 last:border-b-0 hover:cursor-pointer ${
+                                    selectedIndex === index ? 'bg-stone-600' : 'hover:bg-white/50 hover:bg-dots'
                                 }`}
                             >
                                 <p className="text-white font-semibold text-lg">{result.label}</p>
                                 {result.description && (
-                                    <p className="text-indigo-300 text-sm truncate">{result.description}</p>
+                                    <p className="text-white text-sm truncate">{result.description}</p>
                                 )}
                             </button>
                         </li>

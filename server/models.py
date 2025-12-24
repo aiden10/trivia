@@ -53,7 +53,7 @@ class TriviaCategories(Enum):
     Literature = "literature"
     Geography = "geography"
     Movies = "movies"
-    Games = "video_games_and_board_games"
+    Games = "games"
     PopCulture = "pop_culture"
     Science = "science_and_nature"
     Music = "music"             
