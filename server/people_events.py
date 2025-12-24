@@ -1,7 +1,7 @@
 
 import requests
-from .utils import broadcast, send_state, get_properties, is_subclass_of_category
-from .models import Room, PeopleEvents, PeopleStages, PeopleProperties, QUESTION_VALUE
+from utils import broadcast, send_state, get_properties, is_subclass_of_category
+from models import Room, PeopleEvents, PeopleStages, PeopleProperties, QUESTION_VALUE
 
 async def handle_restart(message: dict, room: Room):
     for player in room.players.values():

@@ -108,3 +108,4 @@ A gamemode where you're given a list of features or properties and need to guess
 
 # TODO
 - Host should transfer to another player when host leaves
+- Chat window

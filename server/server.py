@@ -2,17 +2,17 @@ import json
 from fastapi import FastAPI, WebSocket, WebSocketDisconnect
 from fastapi.responses import JSONResponse
 from fastapi.middleware.cors import CORSMiddleware
-from .models import Room, Player, Events, TriviaEvents, GameModes, CreateRoomBody, PeopleEvents
-from .utils import broadcast, generate_room_id
-from .events import handle_message, handle_update_gamemode
-from .trivia_events import (
+from models import Room, Player, Events, TriviaEvents, GameModes, CreateRoomBody, PeopleEvents
+from utils import broadcast, generate_room_id
+from events import handle_message, handle_update_gamemode
+from trivia_events import (
     handle_restart as handle_trivia_restart,
     handle_guess as handle_trivia_guess,
     handle_update_stage as handle_trivia_update_stage,
     handle_update_question as handle_trivia_update_question,
     handle_update_settings as handle_trivia_update_settings
 )
-from .people_events import (
+from people_events import (
     handle_restart as handle_people_restart,
     handle_guess as handle_people_guess,
     handle_update_stage as handle_people_update_stage,

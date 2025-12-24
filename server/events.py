@@ -1,6 +1,6 @@
 
-from .utils import *
-from .models import * 
+from utils import *
+from models import * 
 
 async def handle_update_gamemode(message: dict, room: Room):
     """Switch the room's gamemode and initialize appropriate state."""
