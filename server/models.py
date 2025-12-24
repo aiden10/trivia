@@ -9,6 +9,7 @@ class GameModes(Enum):
     Default = "default"
     Trivia = "trivia"
     PeopleGuesser = "people"
+    Rotanika = "rotanika"
 
 class TriviaStages(Enum):
     Lobby = 0
@@ -19,6 +20,12 @@ class TriviaStages(Enum):
 class PeopleStages(Enum):
     Lobby = 0
     PropertiesDisplay = 1
+    GuessingPeriod = 2
+    Results = 3
+    
+class RotanikaStages(Enum):
+    Lobby = 0
+    Picking = 1
     GuessingPeriod = 2
     Results = 3
 
@@ -48,6 +55,15 @@ class PeopleEvents(Enum):
     CorrectAnswer = "correctAnswer_people"
     IncorrectAnswer = "incorrectAnswer_people"
     Restart = "restart_people"
+    
+class RotanikaEvents(Enum):
+    UpdateStage = "updateStage_rotanika"
+    SetSecret = "setSecret_rotanika"
+    AskQuestion = "askQuestion_rotanika"
+    AnswerQuestion = "answerQuestion_rotanika"
+    UpdateSettings = "updateSettings_rotanika"
+    GuessResult = "guessResult_rotanika"
+    Restart = "restart_rotanika"
 
 class TriviaCategories(Enum):
     History = "history"
@@ -88,6 +104,22 @@ class TriviaQuestion(BaseModel):
         return {
             "body": self.body,
             "answer": self.answers[0] if len(self.answers) > 0 else ""
+        }
+        
+class RotanikaQuestion(BaseModel):
+    text: str
+    answer: Optional[str] = None  # 'yes', 'no', 'unsure', or None
+    is_deciding: bool = False
+    asked_by: int = 0
+    turn_number: int = 0
+
+    def to_dict(self) -> dict:
+        return {
+            "text": self.text,
+            "answer": self.answer,
+            "isDeciding": self.is_deciding,
+            "askedBy": self.asked_by,
+            "turnNumber": self.turn_number
         }
 
 class TriviaState(BaseModel):
@@ -136,6 +168,39 @@ class PeopleState(BaseModel):
                 "combinationUpperBound": self.combination_upper_bound,
             }
         }
+        
+class RotanikaState(BaseModel):
+    current_stage: int = RotanikaStages.Lobby.value
+    picker_id: int = 0
+    secret_thing: Optional[str] = None
+    questions: list[RotanikaQuestion] = []
+    current_asker: int = 0
+    current_question: Optional[str] = None
+    waiting_for_answer: bool = False
+    min_questions: int = 5
+    max_questions: int = 20
+    winner: Optional[int] = None
+    win_reason: Optional[str] = None  # 'guessed', 'maxReached', 'minNotReached'
+    guesser_ids: list[int] = []  # Players who can ask questions (non-pickers)
+    current_guesser_index: int = 0
+
+    def to_dict(self) -> dict:
+        return {
+            "currentStage": self.current_stage,
+            "pickerId": self.picker_id,
+            "secretThing": self.secret_thing,
+            "questions": [q.to_dict() for q in self.questions],
+            "currentAsker": self.current_asker,
+            "currentQuestion": self.current_question,
+            "waitingForAnswer": self.waiting_for_answer,
+            "winner": self.winner,
+            "winReason": self.win_reason,
+            "settings": {
+                "minQuestions": self.min_questions,
+                "maxQuestions": self.max_questions,
+                "pickerId": self.picker_id
+            }
+        }
 
 class Player:
     def __init__(self, name: str, id: int, socket: WebSocket):
@@ -168,6 +233,7 @@ class Room:
         self.gamemode: str = GameModes.Default.value
         self.trivia_state: Optional[TriviaState] = None
         self.people_state: Optional[PeopleState] = None
+        self.rotanika_state: Optional[RotanikaState] = None
         self.password = password
         self.messages = []
 
@@ -176,7 +242,9 @@ class Room:
             "roomId": self.id,
             "hostId": self.host_id,
             "players": [p.to_dict() for p in self.players.values()],
+            "messages": self.messages,
             "gamemode": self.gamemode,
             "triviaState": self.trivia_state.to_dict() if self.trivia_state else None,
             "peopleState": self.people_state.to_dict() if self.people_state else None,
+            "rotanikaState": self.rotanika_state.to_dict() if self.rotanika_state else None,
         }

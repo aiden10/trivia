@@ -11,7 +11,8 @@ export interface Player {
 export enum GameModes {
     Default = "default",
     Trivia = "trivia",
-    PeopleGuesser = "people"
+    PeopleGuesser = "people",
+    Rotanika = "rotanika"
 }
 
 export const GamemodeOptions: Array<{ id: GameModes; name: string; description: string }> = [
@@ -24,6 +25,11 @@ export const GamemodeOptions: Array<{ id: GameModes; name: string; description: 
         id: GameModes.PeopleGuesser,
         name: "PeopleGuesser",
         description: "Guess people who have specific properties"
+    },
+    {
+        id: GameModes.Rotanika,
+        name: "Rotanika",
+        description: "20 Questions style game - guess what the picker is thinking of"
     }
 ];
 
@@ -34,6 +40,7 @@ export interface RoomState {
     gamemode: string;
     triviaState: TriviaState | null; 
     peopleState: PeopleState | null;
+    rotanikaState: RotanikaState | null;
 }
 
 export enum TriviaStages {
@@ -46,6 +53,13 @@ export enum TriviaStages {
 export enum PeopleStages {
     Lobby = 0,
     PropertiesDisplay = 1,
+    GuessingPeriod = 2,
+    Results = 3,
+}
+
+export enum RotanikaStages {
+    Lobby = 0,
+    Picking = 1,
     GuessingPeriod = 2,
     Results = 3,
 }
@@ -98,9 +112,23 @@ export interface PeopleSettings {
     combinationUpperBound?: number;
 }
 
+export interface RotanikaSettings {
+    minQuestions?: number;
+    maxQuestions?: number;
+    pickerId?: number;
+}
+
 export interface TriviaQuestion {
     body: string;
     answer: string;
+}
+
+export interface RotanikaQuestion {
+    text: string;
+    answer: 'yes' | 'no' | 'unsure' | null;
+    isDeciding: boolean;
+    askedBy: number;
+    turnNumber: number;
 }
 
 export interface TriviaState {
@@ -114,4 +142,17 @@ export interface PeopleState {
     currentStage: number;
     correctValue: number;
     settings: PeopleSettings;
+}
+
+export interface RotanikaState {
+    currentStage: number;
+    pickerId: number;
+    secretThing: string | null;
+    questions: RotanikaQuestion[];
+    currentAsker: number;
+    currentQuestion: string | null;
+    waitingForAnswer: boolean;
+    settings: RotanikaSettings;
+    winner: number | null;
+    winReason: 'guessed' | 'maxReached' | 'minNotReached' | null;
 }

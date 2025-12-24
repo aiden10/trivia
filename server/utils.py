@@ -11,7 +11,7 @@ from google.genai import types
 from dotenv import load_dotenv
 from pathlib import Path
 from fastapi import WebSocket
-from models import Room, TriviaQuestion, TriviaCategories, PeopleProperties
+from .models import Room, TriviaQuestion, TriviaCategories, PeopleProperties
 
 MAIN_QUESTIONS_FILE = Path(__file__).parent / "questions.json"
 CATEGORIES_DIR = Path(__file__).parent / "categories"

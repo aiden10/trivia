@@ -1,6 +1,6 @@
 
-from utils import *
-from models import * 
+from .utils import *
+from .models import * 
 
 async def handle_update_gamemode(message: dict, room: Room):
     """Switch the room's gamemode and initialize appropriate state."""
@@ -11,13 +11,14 @@ async def handle_update_gamemode(message: dict, room: Room):
     
     if gamemode == GameModes.Trivia.value:
         room.trivia_state = TriviaState()
-        room.people_state = None
         room.trivia_state.current_question = get_question(room)
     
     if gamemode == GameModes.PeopleGuesser.value:
         room.people_state = PeopleState()
-        room.trivia_state = None
         room.people_state.current_properties = get_properties(room)
+        
+    if gamemode == GameModes.Rotanika.value:
+        room.rotanika_state = RotanikaState()
     
     await broadcast({
         "type": Events.UpdateGameMode.value,

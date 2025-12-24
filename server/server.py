@@ -3,22 +3,30 @@ import random
 from fastapi import FastAPI, WebSocket, WebSocketDisconnect
 from fastapi.responses import JSONResponse
 from fastapi.middleware.cors import CORSMiddleware
-from models import Room, Player, Events, TriviaEvents, GameModes, CreateRoomBody, PeopleEvents
-from utils import broadcast, generate_room_id
-from events import handle_message, handle_update_gamemode
-from trivia_events import (
+from .models import Room, Player, Events, TriviaEvents, GameModes, CreateRoomBody, PeopleEvents, RotanikaEvents
+from .utils import broadcast, generate_room_id
+from .events import handle_message, handle_update_gamemode
+from .trivia_events import (
     handle_restart as handle_trivia_restart,
     handle_guess as handle_trivia_guess,
     handle_update_stage as handle_trivia_update_stage,
     handle_update_question as handle_trivia_update_question,
     handle_update_settings as handle_trivia_update_settings
 )
-from people_events import (
+from .people_events import (
     handle_restart as handle_people_restart,
     handle_guess as handle_people_guess,
     handle_update_stage as handle_people_update_stage,
     handle_update_properties as handle_people_update_properties,
     handle_update_settings as handle_people_update_settings
+)
+from .rotanika_events import (
+    handle_restart as handle_rotanika_restart,
+    handle_update_stage as handle_rotanika_update_stage,
+    handle_set_secret as handle_rotanika_set_secret,
+    handle_ask_question as handle_rotanika_ask_question,
+    handle_answer_question as handle_rotanika_answer_question,
+    handle_update_settings as handle_rotanika_update_settings
 )
 
 origins = [
@@ -87,6 +95,21 @@ async def handle_people_event(message: dict, room: Room):
         case PeopleEvents.UpdateSettings.value:
             await handle_people_update_settings(message, room)
 
+async def handle_rotanika_event(message: dict, room: Room):
+    event_type = message.get("type")
+    match event_type:
+        case RotanikaEvents.Restart.value:
+            await handle_rotanika_restart(message, room)
+        case RotanikaEvents.UpdateStage.value:
+            await handle_rotanika_update_stage(message, room)
+        case RotanikaEvents.SetSecret.value:
+            await handle_rotanika_set_secret(message, room)
+        case RotanikaEvents.AskQuestion.value:
+            await handle_rotanika_ask_question(message, room)
+        case RotanikaEvents.AnswerQuestion.value:
+            await handle_rotanika_answer_question(message, room)
+        case RotanikaEvents.UpdateSettings.value:
+            await handle_rotanika_update_settings(message, room)
 
 @app.websocket("/ws/{room_id}")
 async def websocket_endpoint(websocket: WebSocket, room_id: str):
@@ -149,6 +172,8 @@ async def websocket_endpoint(websocket: WebSocket, room_id: str):
                         await handle_trivia_event(message, room)
                     case GameModes.PeopleGuesser.value:
                         await handle_people_event(message, room)
+                    case GameModes.Rotanika.value:
+                        await handle_rotanika_event(message, room)
 
     except WebSocketDisconnect:
         if player and room:
@@ -161,10 +186,12 @@ async def websocket_endpoint(websocket: WebSocket, room_id: str):
                 }, room)
                 
                 if player.id == room.host_id and len(room.players) > 0:
+                    new_host = random.choice(list(room.players.keys()))
                     await broadcast({
                         "type": Events.UpdateHost.value,
-                        "data": {"newHostID": random.choice(room.players.keys())}
-                    })
+                        "data": {"newHostID": new_host}
+                    }, room)
+                    room.host_id = new_host
                 
                 if len(room.players) == 0:
                     print(f"Room {room_id} closed - no players remaining")

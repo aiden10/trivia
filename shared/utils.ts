@@ -127,6 +127,7 @@ export function showToast(message: string, opts: ToastOptions = {}) {
         line-height: 1;
         padding: 0;
         transition: color 150ms ease;
+        display: none;
     `;
     close.onmouseenter = () => close.style.color = '#fff';
     close.onmouseleave = () => close.style.color = 'rgba(236, 254, 255, 0.8)';

@@ -44,37 +44,17 @@ export default function TriviaSettings({
         onSettingsChange({ categories: newCategories });
     };
 
-    const handleDurationChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-        const rawValue = e.target.value;
-        
-        if (rawValue === "") {
-            setDuration(0);
-            return;
-        }
-        
-        const value = parseInt(rawValue);
-        if (!isNaN(value) && value >= 0) {
-            setDuration(value);
-            if (value > 0) {
-                onSettingsChange({ questionDuration: value });
-            }
+    const handleDurationChange = (value: number) => {
+        setDuration(value);
+        if (host) {
+            onSettingsChange({ questionDuration: value });
         }
     };
 
-    const handleWinningScoreChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-        const rawValue = e.target.value;
-        
-        if (rawValue === "") {
-            setWinningScore(0);
-            return;
-        }
-        
-        const value = parseInt(rawValue);
-        if (!isNaN(value) && value >= 0) {
-            setWinningScore(value);
-            if (value > 0) {
-                onSettingsChange({ winningScore: value });
-            }
+    const handleWinningScoreChange = (value: number) => {
+        setWinningScore(value);
+        if (host) {
+            onSettingsChange({ winningScore: value });
         }
     };
 
@@ -82,42 +62,59 @@ export default function TriviaSettings({
         <div className="settings-group bg-lines">
             {/* Question Duration */}
             <div className="flex flex-col gap-2">
-                <label className={`settings-label ${!host && 'opacity-50'}`}>
-                    question duration (seconds)
+                <label className="settings-label group relative cursor-help">
+                    Question Duration: {duration} seconds
+                    <span className="absolute bottom-full left-0 mb-2 hidden group-hover:block 
+                        bg-black text-white text-sm p-2 rounded max-w-xs z-10">
+                        How long players have to answer each question
+                    </span>
                 </label>
-                <input
-                    type="number"
-                    min="5"
-                    max="120"
-                    value={duration}
-                    step={1}
-                    onChange={handleDurationChange}
-                    disabled={!host}
-                    className={`settings-input ${!host && 'opacity-50 cursor-not-allowed'}`}
-                />
+                {host ? (
+                    <input
+                        type="range"
+                        min={5}
+                        max={120}
+                        value={duration}
+                        onChange={(e) => handleDurationChange(parseInt(e.target.value))}
+                        className="w-full accent-white"
+                    />
+                ) : (
+                    <p className="text-white/70 font-inter">{duration} seconds</p>
+                )}
             </div>
 
             {/* Winning Score */}
             <div className="flex flex-col gap-2">
-                <label className={`settings-label ${!host && 'opacity-50'}`}>
-                    winning score
+                <label className="settings-label group relative cursor-help">
+                    Winning Score: {winningScore}
+                    <span className="absolute bottom-full left-0 mb-2 hidden group-hover:block 
+                        bg-black text-white text-sm p-2 rounded max-w-xs z-10">
+                        Score needed to win the game
+                    </span>
                 </label>
-                <input
-                    type="number"
-                    min="1"
-                    max="1000"
-                    value={winningScore}
-                    step={10}
-                    onChange={handleWinningScoreChange}
-                    disabled={!host}
-                    className={`settings-input ${!host && 'opacity-50 cursor-not-allowed'}`}
-                />
+                {host ? (
+                    <input
+                        type="range"
+                        min={10}
+                        max={1000}
+                        step={10}
+                        value={winningScore}
+                        onChange={(e) => handleWinningScoreChange(parseInt(e.target.value))}
+                        className="w-full accent-white"
+                    />
+                ) : (
+                    <p className="text-white/70 font-inter">{winningScore}</p>
+                )}
             </div>
 
             {/* Categories */}
             <div className="flex flex-col gap-2">
-                <label className={`settings-label ${!host && 'opacity-50'}`}>
-                    categories (select at least one)
+                <label className="settings-label group relative cursor-help">
+                    Categories (select at least one)
+                    <span className="absolute bottom-full left-0 mb-2 hidden group-hover:block 
+                        bg-black text-white text-sm p-2 rounded max-w-xs z-10">
+                        Select which question categories to include
+                    </span>
                 </label>
                 
                 <div className="grid grid-cols-2 gap-2 bg-neutral-900 bg-dots p-4">
