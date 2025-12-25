@@ -138,6 +138,7 @@ class TriviaState(BaseModel):
     show_incorrect: bool = True
     winning_score: int = 100
     categories: list[TriviaCategories] = [c for c in TriviaCategories]
+    image_categories: list[ImageCategories] = [c for c in ImageCategories]
     
     def to_dict(self) -> dict:
         return {
