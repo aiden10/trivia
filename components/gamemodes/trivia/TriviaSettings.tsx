@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { TriviaCategories, TriviaSettings as TriviaSettingsType, CONTINENTS, GENDERS, OCCUPATIONS } from "@/shared/types";
+import { TriviaCategories, TriviaSettings as TriviaSettingsType } from "@/shared/types";
 
 interface TriviaSettingsProps {
     host: boolean;
