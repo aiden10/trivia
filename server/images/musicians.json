@@ -1,0 +1,922 @@
+{
+    "Q254": {
+        "name": "Wolfgang Amadeus Mozart",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Wolfgang-amadeus-mozart%201.jpg"
+    },
+    "Q1268": {
+        "name": "Fr\u00e9d\u00e9ric Chopin",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Frederic%20Chopin%20photo.jpeg"
+    },
+    "Q392": {
+        "name": "Bob Dylan",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Bob%20Dylan%20-%20Azkena%20Rock%20Festival%202010%202.jpg"
+    },
+    "Q34086": {
+        "name": "Justin Bieber",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Justin%20Bieber%20in%202015.jpg"
+    },
+    "Q35900": {
+        "name": "Omar Khayy\u00e1m",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Omar%20Khayyam2.JPG"
+    },
+    "Q37150": {
+        "name": "Lana Del Rey",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Lana%20Primavera%20%281%29.jpg"
+    },
+    "Q2599": {
+        "name": "Paul McCartney",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Paul%20McCartney%20in%20October%202018.jpg"
+    },
+    "Q37175": {
+        "name": "Johnny Depp",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Johnny%20Depp%202020.jpg"
+    },
+    "Q47162": {
+        "name": "Romain Rolland",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Romain%20Rolland%201915.jpg"
+    },
+    "Q1413": {
+        "name": "Nero",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Nero%20Palatino%20Inv618.jpg"
+    },
+    "Q5383": {
+        "name": "David Bowie",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/David-Bowie%20Chicago%202002-08-08%20photoby%20Adam-Bielawski-cropped.jpg"
+    },
+    "Q23215": {
+        "name": "Adele",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Adele%202016.jpg"
+    },
+    "Q1276": {
+        "name": "Leonard Cohen",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Leonard%20Cohen%2C%201988%2001.jpg"
+    },
+    "Q41594": {
+        "name": "Christina Aguilera",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Christina%20Aguilera%20%282006%29.jpg"
+    },
+    "Q82110": {
+        "name": "Steven Seagal",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Steven%20Seagal%20at%20Russia%20Expo.jpg"
+    },
+    "Q34460": {
+        "name": "Gwyneth Paltrow",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Gwyneth%20Paltrow%20avp%20Iron%20Man%203%20Paris.jpg"
+    },
+    "Q15897": {
+        "name": "Amy Winehouse",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Amy%20Winehouse%20f5048439.jpg"
+    },
+    "Q2643": {
+        "name": "George Harrison",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/George%20Harrison%201974%20%28cropped%29.jpg"
+    },
+    "Q23365": {
+        "name": "Jeremy Renner",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Jeremy%20Renner%20at%20TIFF%202025%20%28cropped%29.jpg"
+    },
+    "Q43416": {
+        "name": "Keanu Reeves",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Keanu%20Reeves%20at%20TIFF%202025%2002%20%28Cropped%29.jpg"
+    },
+    "Q2808": {
+        "name": "Elton John",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Elton%20John%202023.jpg"
+    },
+    "Q14277": {
+        "name": "William Herschel",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/William%20Herschel01.jpg"
+    },
+    "Q7345": {
+        "name": "Dan Brown",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/N%C3%A1v%C5%A1t%C4%9Bva%20Dana%20Browna%20v%20NK%20%C4%8CR%2017.%20-%2018.%202025%2003%20%28cropped%29.jpg"
+    },
+    "Q131814": {
+        "name": "Tina Turner",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Tina%20Turner%2050th%20Anniversary%20Tour.jpg"
+    },
+    "Q127330": {
+        "name": "Frank Zappa",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Zappa.jpg"
+    },
+    "Q165219": {
+        "name": "Robert Downey Jr.",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Robert%20Downey%20Jr%202014%20Comic%20Con%20%28cropped%29.jpg"
+    },
+    "Q11930": {
+        "name": "Kevin Costner",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kevin%20Costner%202016.jpg"
+    },
+    "Q71206": {
+        "name": "Bette Davis",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/BetteDavis1935.jpg"
+    },
+    "Q133151": {
+        "name": "Ozzy Osbourne",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/OzzyChangingHands02-20-2010.jpg"
+    },
+    "Q182658": {
+        "name": "Harper Lee",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Harper%20Lee%20Medal%20%28cropped%29.jpg"
+    },
+    "Q2071": {
+        "name": "David Lynch",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/David%20Lynch%20at%20the%201990%20Emmy%20Awards.jpg"
+    },
+    "Q81520": {
+        "name": "Pierce Brosnan",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/PierceBrosnan-byPhilipRomano.jpg"
+    },
+    "Q47664": {
+        "name": "Catherine Zeta-Jones",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Catherine%20Zeta-Jones%20VF%202012%20Shankbone.jpg"
+    },
+    "Q131725": {
+        "name": "Joan Baez",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Joan%20Baez%20at%20The%20Egg%20%28Albany%2C%20NY%29%2C%20March%202016%20%28cropped%29.jpg"
+    },
+    "Q1450": {
+        "name": "Bruno Mars",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Bruno%20Mars%20b%26w%20%28cropped%29.jpg"
+    },
+    "Q83326": {
+        "name": "B\u00e9la Bart\u00f3k",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/B%C3%A9la%20Bart%C3%B3k%201943.jpg"
+    },
+    "Q93341": {
+        "name": "Miles Davis",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Miles%20Davis%20%28Three%20Deuces%2C%20New%20York%2C%20N.Y.%201947%29.jpg"
+    },
+    "Q164119": {
+        "name": "Mark Wahlberg",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Mark%20Wahlberg%202021.jpg"
+    },
+    "Q19198": {
+        "name": "Chester Bennington",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Linkin%20Park-Rock%20im%20Park%202014-%20by%202eight%203SC0327.jpg"
+    },
+    "Q49034": {
+        "name": "Hedy Lamarr",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Hedy%20Lamarr%20in%20The%20Heavenly%20Body%201944.jpg"
+    },
+    "Q485508": {
+        "name": "Charles Manson",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/MansonB33920%208-14-17%20%28cropped%29.jpg"
+    },
+    "Q70326": {
+        "name": "Pierre Beaumarchais",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/D%27apr%C3%A8s%20Jean-Marc%20Nattier%2C%20Portrait%20de%20Pierre-Augustin%20Caron%20de%20Beaumarchais%20%28Biblioth%C3%A8que-mus%C3%A9e%20de%20la%20Com%C3%A9die-Fran%C3%A7aise%29%20-001.jpg"
+    },
+    "Q47122": {
+        "name": "Enrique Iglesias",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Enrique%20Iglesias%20%286891751264%29.jpg"
+    },
+    "Q47447": {
+        "name": "Ed Sheeran",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Ed%20Sheeran-6886%20%28cropped%29.jpg"
+    },
+    "Q6711": {
+        "name": "Allen Ginsberg",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Allen%20Ginsberg%201979%20-%20cropped.jpg"
+    },
+    "Q23848": {
+        "name": "Ennio Morricone",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Ennio%20Morricone%20Cannes%202007.jpg"
+    },
+    "Q132952": {
+        "name": "Adam Sandler",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Adam%20Sandler%202025.jpg"
+    },
+    "Q48173": {
+        "name": "Bed\u0159ich Smetana",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/FriedrichSmetana.jpg"
+    },
+    "Q13894": {
+        "name": "Richard Strauss",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Postcard-1910%20Strauss%20Richard.jpg"
+    },
+    "Q104358": {
+        "name": "Billie Holiday",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Portrait%20of%20Billie%20Holiday%20and%20Mister%2C%20Downbeat%2C%20New%20York%2C%20N.Y.%2C%20ca.%20Feb.%201947%20%28LOC%2C%205020400274%2C%20cropped%29.jpg"
+    },
+    "Q144622": {
+        "name": "Phil Collins",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Phil%20Collins%20-%20Royal%20Albert%20Hall%20-%20Wednesday%207th%20June%202017%20PhilCollinsRAH070617-3%20%2835215802836%29%20%28cropped%29.jpg"
+    },
+    "Q164004": {
+        "name": "Alexander Borodin",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Borodin.jpg"
+    },
+    "Q25820": {
+        "name": "Thomas Young",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Thomas%20Young%20by%20Briggs.jpg"
+    },
+    "Q160318": {
+        "name": "Norodom Sihanouk",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Norodom%20Sihanouk%20%28c.%201952%2C%20colourized%29.jpg"
+    },
+    "Q505476": {
+        "name": "Avicii",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Avicii%202014%20003.jpg"
+    },
+    "Q202589": {
+        "name": "Cillian Murphy",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/CillianMurphy-TIFF2025-01-Cropped%20%28cropped%29.png"
+    },
+    "Q162005": {
+        "name": "Paul Allen",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Paul%20G.%20Allen%20%28cropped%29.jpg"
+    },
+    "Q342604": {
+        "name": "Idris Elba",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Idris%20Elba%20in%202024%20%28cropped%29.jpg"
+    },
+    "Q49017": {
+        "name": "Hugh Laurie",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Hugh%20Laurie%20Actors%20Guild.jpg"
+    },
+    "Q182642": {
+        "name": "John Glenn",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/John%20Glenn%20Low%20Res%20crop.jpg"
+    },
+    "Q180374": {
+        "name": "Frank Gehry",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Frank%20Gehry%2C%20Viljo%20Revell%20Centenary%20reception%2C%202010%20%28S2311%20fl2969%20it0089%29%20%28cropped%29.jpg"
+    },
+    "Q41074": {
+        "name": "Ram Narayan",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Ram%20Narayan%20in%20Delhi%202010.jpg"
+    },
+    "Q113581": {
+        "name": "Conchita Wurst",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Conchita%20Amadeus%20Awards%202017%20%28cropped%29.jpg"
+    },
+    "Q188459": {
+        "name": "Goldie Hawn",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Goldie%20Hawn%20%2846604499774%29.jpg"
+    },
+    "Q94123": {
+        "name": "Jack Lemmon",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Jack%20Lemmon%20-%201968.jpg"
+    },
+    "Q94882": {
+        "name": "Emir Kusturica",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kusturica%202024.jpg"
+    },
+    "Q295803": {
+        "name": "Tom Hiddleston",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Tom%20Hiddleston%20at%20the%202024%20Toronto%20International%20Film%20Festival%20%28cropped%29.jpg"
+    },
+    "Q189080": {
+        "name": "Lou Reed",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Lou%20Reed%20at%20the%20Hop%20Farm%20Music%20Festival.jpg"
+    },
+    "Q16345": {
+        "name": "Leonard Nimoy",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Leonard%20Nimoy%20Mission%20Impossible.jpg"
+    },
+    "Q106099": {
+        "name": "Jeanne Moreau",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Jeanne%20Moreau%20%282009%29.jpg"
+    },
+    "Q487473": {
+        "name": "Toto Cutugno",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Toto%20cutugno.png"
+    },
+    "Q908933": {
+        "name": "Donna Summer",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Donna%20Summer%20%281977%20Casablanca%20publicity%20headshot%29.jpg"
+    },
+    "Q165467": {
+        "name": "Jimmy Page",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Jimmy%20Page%20early.jpg"
+    },
+    "Q235478": {
+        "name": "Shelley Duvall",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Shelley%20Duvall%20%28December%201977%29%20%28cropped%29.jpg"
+    },
+    "Q3626950": {
+        "name": "Zayn Malik",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Zayn%20Wiki%20%28cropped%29.jpg"
+    },
+    "Q103578": {
+        "name": "Macaulay Culkin",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Macaulay%20Culkin%20-%20Home%20Alone%2035th.jpg"
+    },
+    "Q103946": {
+        "name": "Kiefer Sutherland",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kiefer%20Sutherland%202%20SDCC%202014.jpg"
+    },
+    "Q557": {
+        "name": "Patti Smith",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Patti%20Smith-63233.jpg"
+    },
+    "Q7013": {
+        "name": "Lena Meyer-Landrut",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Lena%20Meyer-Landrut01cropped.jpg"
+    },
+    "Q103767": {
+        "name": "Charlie Parker",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Portrait%20of%20Charlie%20Parker%20in%201947.jpg"
+    },
+    "Q47878": {
+        "name": "Sid Vicious",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Sid%20Vicious%201978%20%28cropped%29.jpg"
+    },
+    "Q137042": {
+        "name": "Nat King Cole",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Nat%20King%20Cole%20%28Gottlieb%2001511%29.jpg"
+    },
+    "Q214642": {
+        "name": "Paul Auster",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Paul%20Auster%20BBF%202010%20Shankbone.jpg"
+    },
+    "Q172035": {
+        "name": "Colin Farrell",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/2025%20Colin%20Farrell%20-%202%20%28cropped%29.jpg"
+    },
+    "Q180727": {
+        "name": "John Cage",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Opdracht%20GPD%20componist%20John%20Cage%20%2C%20kop%2C%20Bestanddeelnr%20934-2728.jpg"
+    },
+    "Q207817": {
+        "name": "Amir Khosrow",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Amir%20Khusrow%201975%20stamp%20of%20India.jpg"
+    },
+    "Q5977": {
+        "name": "Buddy Holly",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Buddy%20Holly%20cropped.JPG"
+    },
+    "Q153172": {
+        "name": "Vangelis",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Vangelis%2C%2026%20July%202012.jpg"
+    },
+    "Q636": {
+        "name": "Kate Bush",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kate%20Bush%20Hounds%20of%20Love%20%281985%20EMI%20publicity%20photo%29%2002%20%28cropped%29.jpg"
+    },
+    "Q205721": {
+        "name": "Joni Mitchell",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Joni%20Mitchell%202021%20Kennedy%20Center%20Honors%20%28cropped%29.jpg"
+    },
+    "Q102813": {
+        "name": "Yul Brynner",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Yul%20Brynner%20Anna%20and%20the%20King%20television%201972.JPG"
+    },
+    "Q154216": {
+        "name": "Cat Stevens",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Yusuf%20Islam%20BBC2%20Folk%20Awards.jpg"
+    },
+    "Q304123": {
+        "name": "Audrey Tautou",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Audrey%20Tautou%20janvier%202016.jpg"
+    },
+    "Q76546": {
+        "name": "Erich K\u00e4stner",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Erich%20K%C3%A4stner%201961.jpg"
+    },
+    "Q485310": {
+        "name": "Neil Patrick Harris",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/NeilPatrickHarris-byPhilipRomano.jpg"
+    },
+    "Q1698": {
+        "name": "Serge Gainsbourg",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Serge%20Gainsbourg%20par%20Claude%20Truong-Ngoc%201981.jpg"
+    },
+    "Q7833": {
+        "name": "Boris Vian",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Boris%20Vian.jpg"
+    },
+    "Q108283": {
+        "name": "Alan Arkin",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Alan%20Arkin%20-%201975.jpg"
+    },
+    "Q131259": {
+        "name": "Alexander Rybak",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Alexander%20Rybak%20001.jpg"
+    },
+    "Q168847": {
+        "name": "Brittany Murphy",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Brittany%20Murphy.jpg"
+    },
+    "Q219631": {
+        "name": "Adam Levine",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/AdamLevine2011.jpg"
+    },
+    "Q5104": {
+        "name": "Miranda Cosgrove Havs",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Miranda%20Cosgrove%20NickRewind%202022.jpg"
+    },
+    "Q15880": {
+        "name": "Roger Taylor",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Queen%20And%20Adam%20Lambert%20-%20The%20O2%20-%20Tuesday%2012th%20December%202017%20QueenO2121217-47%20%2839066610085%29%20Cropped.jpg"
+    },
+    "Q20178": {
+        "name": "Joe Pesci",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/JoePesci-2009.jpg"
+    },
+    "Q106775": {
+        "name": "Richard Harris",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Richard%20Harris%201985%20%281%29.jpg"
+    },
+    "Q192410": {
+        "name": "Jennifer Hudson",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Jennifer-hudson-gesf-2018-8400%20%28cropped%29.jpg"
+    },
+    "Q193509": {
+        "name": "Taylor Momsen",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/The%20Pretty%20Reckless%20Rockfest%202017%202.jpg"
+    },
+    "Q180710": {
+        "name": "Anna Nicole Smith",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Anna%20Nicole%20Smith%20crop%20%28cropped%29%20%28cropped%29.jpg"
+    },
+    "Q3454165": {
+        "name": "Kevin Bacon",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kevin%20Bacon%20The%20Best%20You%20Can-55%20%28cropped%29.jpg"
+    },
+    "Q13003": {
+        "name": "Arturo Toscanini",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Toscanini%208.jpg"
+    },
+    "Q152245": {
+        "name": "Prince Albert of Saxe-Coburg and Gotha",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Portrait%20of%20Prince%20Albert%20%28by%20Roger%20Fenton%29%20%E2%80%93%20Royal%20Collection%20%E2%80%93%20unframed%20%28detail%29%20FXD.jpg"
+    },
+    "Q156280": {
+        "name": "Leopold Mozart",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Leopold%20Mozart.jpg"
+    },
+    "Q189534": {
+        "name": "Arvo P\u00e4rt",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Arvo%20P%C3%A4rt.jpg"
+    },
+    "Q11885": {
+        "name": "Axl Rose",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Axl%20Rose%202018%20%28cropped%29.jpg"
+    },
+    "Q49086": {
+        "name": "Simon Wiesenthal",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Simon%20Wiesenthal%20%281982%29.jpg"
+    },
+    "Q49575": {
+        "name": "Dizzy Gillespie",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Portrait%20of%20Dizzy%20Gillespie%2C%20Famous%20Door%2C%20New%20York%2C%20N.Y.%2C%20ca.%20June%201946%20%28cropped%29.jpg"
+    },
+    "Q82222": {
+        "name": "Little Richard",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Little%20Richard%20in%202007%20%28cropped%29.jpg"
+    },
+    "Q181995": {
+        "name": "Adolphe Sax",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Adolphe%20Sax%201860s.jpg"
+    },
+    "Q151593": {
+        "name": "Olivier Messiaen",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Lezing%20Franse%20compoist%20Olivier%20Messiaen%20in%20Koninklijk%20Conservatorium%20in%20Den%20Haa%2C%20Bestanddeelnr%20933-8262.jpg"
+    },
+    "Q183458": {
+        "name": "Andrea del Verrocchio",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Andr%C3%A9%20Verrochio.jpg"
+    },
+    "Q201562": {
+        "name": "Hayley Williams",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/ParamoreO2200423%20%2858%20of%2088%29%20%2852833506157%29%20%28cropped%29.jpg"
+    },
+    "Q23517": {
+        "name": "Ricky Gervais",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/GervaisBlooms021218-21%20%2844341159690%29%20%28cropped%29.jpg"
+    },
+    "Q151312": {
+        "name": "Frederik IX of Denmark",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Frederik%20IX%20%28cropped%29%20-%20Det%20Kongelige%20Bibliotek%20%28KE062449%29.jpg"
+    },
+    "Q361642": {
+        "name": "Marek Grechuta",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Marek%20Grechuta.jpg"
+    },
+    "Q190116": {
+        "name": "Benvenuto Cellini",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Cellini%2C%20Benvenuto%20%C3%96NB.jpg"
+    },
+    "Q16473": {
+        "name": "Steve Martin",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Steve%20Martin%20by%20David%20Shankbone.jpg"
+    },
+    "Q569003": {
+        "name": "Brian Eno",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Brian%20Eno%202015.png"
+    },
+    "Q202735": {
+        "name": "Billy Bob Thornton",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Billy%20Bob%20Thornton%202017%20%28cropped%29.jpg"
+    },
+    "Q212026": {
+        "name": "Mira Sorvino",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Mira%20Sorvino%20Wien%202013%20b.jpg"
+    },
+    "Q311271": {
+        "name": "John Lithgow",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/John%20Lithgow%20at%20Met%20Opera%20Opening%20in%202008.jpg"
+    },
+    "Q154556": {
+        "name": "Karlheinz Stockhausen",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Stockhausen%20March%202004%20excerpt.jpg"
+    },
+    "Q156193": {
+        "name": "Pierre Boulez",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Pierre%20Boulez%20%281968%29.jpg"
+    },
+    "Q360531": {
+        "name": "Mahershala Ali",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Mahershala%20Ali%20%2829953410761%29.jpg"
+    },
+    "Q191755": {
+        "name": "Jim Jarmusch",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Jim%20Jarmusch-9078.jpg"
+    },
+    "Q228904": {
+        "name": "Hattie McDaniel",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Studio%20publicity%20Hattie%20McDaniel.jpg"
+    },
+    "Q15902": {
+        "name": "Amy Macdonald",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Amy%20Macdonald%202010%202.JPG"
+    },
+    "Q105682": {
+        "name": "Tom Felton",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Tom%20Felton%20at%20the%202025%20Toronto%20International%20Film%20Festival%20%28cropped%29.jpg"
+    },
+    "Q78514": {
+        "name": "Franz Werfel",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Werfel.jpg"
+    },
+    "Q313013": {
+        "name": "Brian Wilson",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Brian%20Wilson%20of%20the%20Beach%20Boys%20in%20West%20Los%20Angeles%201990%20photographed%20by%20Ithaka%20Darin%20Pappas.jpg"
+    },
+    "Q110462": {
+        "name": "Julie Delpy",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Julie%20Delpy%20%282019%29.jpg"
+    },
+    "Q154145": {
+        "name": "Gabriel Marcel",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Gabriel%20Marcel%20en%201969.jpg"
+    },
+    "Q154852": {
+        "name": "Till Lindemann",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Till%20Lindemann%20P.R.Brown.JPG"
+    },
+    "Q216766": {
+        "name": "Francisco I. Madero",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Francisco%20I%20Madero.jpg"
+    },
+    "Q14313": {
+        "name": "Pharrell Williams",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Pharrell%20Williams%202024%20%2854133384149%29.jpg"
+    },
+    "Q106514": {
+        "name": "River Phoenix",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/River%20Phoenix.png"
+    },
+    "Q190933": {
+        "name": "Anton Webern",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Anton%20Webern%20%281883%E2%80%931945%29%201927%20%C2%A9%20Georg%20Fayer%20%281891%E2%80%931950%29%20OeNB%2010450290.png"
+    },
+    "Q192103": {
+        "name": "John Deacon",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Bass%20player%20queen.jpg"
+    },
+    "Q193459": {
+        "name": "Noel Gallagher",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Glastonbury2022%20%28235%20of%20413%29%20%2852181386307%29%20%28cropped%29.jpg"
+    },
+    "Q4131386": {
+        "name": "Polina Gagarina",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/20150517%20ESC%202015%20Polina%20Gagarina%201464%20%28cropped%29.jpg"
+    },
+    "Q21621919": {
+        "name": "Post Malone",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Post%20Malone%20July%202021%20%28cropped%29.jpg"
+    },
+    "Q80513": {
+        "name": "Saint Cecilia",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Vouet%2C%20Simon%20-%20Saint%20Cecilia%20-%20c.%201626.jpg"
+    },
+    "Q108597": {
+        "name": "Dave Brubeck",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/DaveBrubeckbyPabloSecca2.png"
+    },
+    "Q270935": {
+        "name": "Chris Cornell",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/ChrisCornell2013.jpg"
+    },
+    "Q294531": {
+        "name": "Neil Diamond",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Neil%20Diamond%202.jpg"
+    },
+    "Q25186": {
+        "name": "Gus Van Sant",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Gus%20Van%20Sant%20at%2082nd%20Venice%20International%20Film%20Festival-1.jpg"
+    },
+    "Q78475": {
+        "name": "Alban Berg",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Alban%20Berg%20%281885%E2%80%931935%29%20~1930%20%C2%A9%20Max%20Fenichel%20%281885%E2%80%931942%29.jpg"
+    },
+    "Q319578": {
+        "name": "Chinmoy Kumar Ghose",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Sri-Chinmoy-meditate-2.jpg"
+    },
+    "Q111074": {
+        "name": "John Barry",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/John-barry-2006.jpg"
+    },
+    "Q125133": {
+        "name": "V\u00edctor Jara",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Victor-Jara-in-Helsinki-1969%20%28cropped%292.jpg"
+    },
+    "Q185343": {
+        "name": "Mark Knopfler",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Mar-Knopfler-Pensa-Blue.jpg"
+    },
+    "Q192668": {
+        "name": "Nick Cave",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Nick%20Cave%20%282021%29.jpg"
+    },
+    "Q216563": {
+        "name": "Paul Anka",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Paul%20Anka%201995.jpg"
+    },
+    "Q272579": {
+        "name": "Glynis Johns",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Glynis%20Johns%20-%20still%20%28cropped%29.jpg"
+    },
+    "Q23858": {
+        "name": "John Belushi",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/John%20Belushi%20at%20the%2032nd%20Annual%20Radio%20and%20Television%20Correspondents%20Association%20Dinner%20-%20NARA%20-%2030805929.jpg"
+    },
+    "Q313027": {
+        "name": "Jean Anthelme Brillat-Savarin",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Le%20Vachez%20Collection%20-%20Jean%20Anthelme%20Brillat-Savarin%20%281755-1826%29.jpg"
+    },
+    "Q156810": {
+        "name": "Martha Argerich",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Martha%20Argerich%20en%20el%20Centro%20Cultural%20Kirchner%20-%2019788929535.jpg"
+    },
+    "Q179257": {
+        "name": "Timbaland",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Timbaland%20%2847903248821%29%20%28cropped%29.jpg"
+    },
+    "Q217787": {
+        "name": "Carole King",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/CaroleKingHWOFDec2012.jpg"
+    },
+    "Q223745": {
+        "name": "Guy Pearce",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/GuyPearce07TIFF.jpg"
+    },
+    "Q294583": {
+        "name": "Sam Shepard",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Sam%20Shepard%20Stealth%20crop.jpg"
+    },
+    "Q295593": {
+        "name": "Lionel Barrymore",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Lionel%20Barrymore.jpg"
+    },
+    "Q19810390": {
+        "name": "Charlie Puth",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Life%E2%80%99s%20Good%20%EC%BA%A0%ED%8E%98%EC%9D%B8%20%EC%98%81%EC%83%81%201%EC%96%B5%EB%B7%B0%20%EB%8F%8C%ED%8C%8C%20%28cropped%29.jpg"
+    },
+    "Q3008": {
+        "name": "Mike Oldfield",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Mike%20Oldfield%20NOTP%202006.jpg"
+    },
+    "Q313124": {
+        "name": "Prajadhipok",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/King%20Prajadhipok%20portrait%20photograph.jpg"
+    },
+    "Q465826": {
+        "name": "Rekh\u0101",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Rekha%20grace%20Filmfare%20Glamour%20%26%20Style%20Awards%202016%20%2822%29%20%28cropped%29.jpg"
+    },
+    "Q367094": {
+        "name": "Andy Dick",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Andy%20Dick%202012%20Shankbone%202.JPG"
+    },
+    "Q155407": {
+        "name": "Jean-Michel Basquiat",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Basquiat1984.tif"
+    },
+    "Q202859": {
+        "name": "Flea",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flea%20at%20Prudential%20Center.jpg"
+    },
+    "Q205230": {
+        "name": "Ian Gillan",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Deep%20Purple%20-%20inFinite%20-%20The%20Long%20Goodbye%20Tour%20-%20Barclaycard%20Arena%20Hamburg%202017%2022.jpg"
+    },
+    "Q207335": {
+        "name": "Pete Best",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Pete%20Best2005.jpg"
+    },
+    "Q216896": {
+        "name": "L. Ron Hubbard",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/L.%20Ron%20Hubbard%20in%201950%20-%20Restoration.jpg"
+    },
+    "Q229669": {
+        "name": "Malin Akerman",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Malin%20%C3%85kerman%20Eurovision%20Song%20Contest%202024%20Final%20Malm%C3%B6.jpg"
+    },
+    "Q305975": {
+        "name": "Abbas Ibn Firnas",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Ibn%20Firnas%27%20statue.jpg"
+    },
+    "Q17403494": {
+        "name": "Meghan Trainor",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/150426%20Meghan%20Trainor.jpg"
+    },
+    "Q93349": {
+        "name": "Bessie Smith",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Bessiesmith-2.jpg"
+    },
+    "Q151814": {
+        "name": "Sarah Brightman",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Sarah%20Brightman%20%28cropped%29.jpg"
+    },
+    "Q154331": {
+        "name": "Gy\u00f6rgy Ligeti",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Gy%C3%B6rgy%20Ligeti%20%281984%29.jpg"
+    },
+    "Q155079": {
+        "name": "Missy Elliott",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Missy%20Elliot.jpg"
+    },
+    "Q203229": {
+        "name": "Fran\u00e7ois-Andr\u00e9 Danican Philidor",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Andr%C3%A9%20Danicant%20Philidor.jpg"
+    },
+    "Q216051": {
+        "name": "Charlie Watts",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Charlie%20Watts%20on%20drums%20The%20ABC%20%26%20D%20of%20Boogie%20Woogie%20%282010%29%20%28cropped%29.jpg"
+    },
+    "Q15306031": {
+        "name": "Awkwafina",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Awkwafina%20by%20Gage%20Skidmore.jpg"
+    },
+    "Q192359": {
+        "name": "Jo\u00e3o Gilberto",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Jo%C3%A3o%20Gilberto.jpg"
+    },
+    "Q202304": {
+        "name": "Jason Segel",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Jason%20Segel%20Sundance%202017.jpg"
+    },
+    "Q206466": {
+        "name": "Mahalia Jackson",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Mahalia%20Jackson%201962%2C%20van%20Vechten%2C%20LC-USZ62-91314%20%28cropped%29.jpg"
+    },
+    "Q233937": {
+        "name": "Nancy Sinatra",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Nancy%20Sinatra.JPG"
+    },
+    "Q298658": {
+        "name": "David Spade",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/David%20Spade%201.jpg"
+    },
+    "Q1239933": {
+        "name": "Donald Glover",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Donald%20Glover%20TIFF%202015.jpg"
+    },
+    "Q26308335": {
+        "name": "Finn Wolfhard",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Stranger%20Things%20cast%202025%20%282%29%20%28cropped%29.png"
+    },
+    "Q11362": {
+        "name": "Avempace",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Ibn%20B%C4%81jja%2C%20Sayr%20mulhimah%20min%20al-Sharq%20wa-al-Gharb.png"
+    },
+    "Q36020": {
+        "name": "Su Shi",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Su%20shi.jpg"
+    },
+    "Q313281": {
+        "name": "Michel Legrand",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Michel%20Legrand%20Cabourg%202015.jpg"
+    },
+    "Q313605": {
+        "name": "Wang Wei",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Wang%20Wei.jpg"
+    },
+    "Q152768": {
+        "name": "Daniel Barenboim",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Verleihung%20Konrad-Adenauer-Preis%20der%20Stadt%20K%C3%B6ln%202019%20an%20Daniel%20Barenboim-9447.jpg"
+    },
+    "Q156815": {
+        "name": "Mohammed Rafi",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Mohammed%20Rafi%202016%20postcard%20of%20India%20crop-flip.jpg"
+    },
+    "Q191819": {
+        "name": "George Martin",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/George%20Martin%20-%20backstage%20at%20LOVE.jpg"
+    },
+    "Q192094": {
+        "name": "Steve Harris",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Iron%20Maiden%20%40%20Bluesfest%20July%206%202010%20%282%29.jpg"
+    },
+    "Q212762": {
+        "name": "Burt Bacharach",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Burt%20Bacharach%201972.JPG"
+    },
+    "Q214813": {
+        "name": "Am\u00e1lia Rodrigues",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Am%C3%A1lia%20Rodrigues%20%28%27Fado%20et%20Flamenco%27%2C%20Columbia%2C%201956%29%2C%20cropped.png"
+    },
+    "Q20514446": {
+        "name": "RM",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/RM%20at%20W%20Korea%20Love%20Your%20W%2C%20November%202023.jpg"
+    },
+    "Q370560": {
+        "name": "David Crosby",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/CrosbyDavid1983%20%28cropped%29.jpg"
+    },
+    "Q489107": {
+        "name": "Slaven Bili\u0107",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Slaven%20Bili%C4%87.jpg"
+    },
+    "Q508049": {
+        "name": "Ezra Miller",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Justice%20League%20Japan%20Premiere%20Red%20Carpet-%20Ezra%20Miller%20%2839215775482%29%20%28cropped%202%29.jpg"
+    },
+    "Q189936": {
+        "name": "The Game",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/The%20Game%202016.jpg"
+    },
+    "Q195371": {
+        "name": "Cantinflas",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Cantiflas%20em%20%27O%20Professor%27%20%281972%29%20%28cropped%29.tiff"
+    },
+    "Q214665": {
+        "name": "Nino Rota",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Nino%20Rota.jpg"
+    },
+    "Q223161": {
+        "name": "Aphex Twin",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Aphex%20Twin%202.jpg"
+    },
+    "Q450429": {
+        "name": "Grace Jones",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Grace%20Jones%20at%20Carriageworks%20%28Vivid%29%20-%201st%20June%202015%2008.jpg"
+    },
+    "Q229056": {
+        "name": "Minnie Driver",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Minnie%20Driver%202025.jpg"
+    },
+    "Q230218": {
+        "name": "Shirley Jones",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/The%20Partridge%20Family%20Shirley%20Jones%201972.jpg"
+    },
+    "Q44333953": {
+        "name": "Bad Bunny",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Bad%20Bunny%202019%20by%20Glenn%20Francis%20%28cropped%29.jpg"
+    },
+    "Q44414": {
+        "name": "Trey Parker",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Trey%20Parker%20by%20Gage%20Skidmore.jpg"
+    },
+    "Q356140": {
+        "name": "Ben E. King",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Ben%20E%20King%20Performing%20on%20the%20Final%20Day%20of%20the%202006%20Summerfest.jpg"
+    },
+    "Q158813": {
+        "name": "Mike Huckabee",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Mike%20Huckabee%2C%20official%20portrait%20%282025%29.jpg"
+    },
+    "Q486786": {
+        "name": "Daron Malakian",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/DM-photo.jpg"
+    },
+    "Q381884": {
+        "name": "Sergey Lazarev",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/ESC2016%20-%20Russia%20Meet%20%26%20Greet%2008%20%28crop%29.jpg"
+    },
+    "Q200883": {
+        "name": "Robert Moog",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Bob%20Moog3.jpg"
+    },
+    "Q212906": {
+        "name": "Natasha Bedingfield",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Natasha%20Bedingfield%202012%20Shankbone%203.JPG"
+    },
+    "Q213229": {
+        "name": "Robert Trujillo",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Robert%20Trujillo%202025%20Marvel%20Stadium%20%283%29.jpg"
+    },
+    "Q216179": {
+        "name": "Bryan Ferry",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Bryan%20ferry%20VieillesCharrues2007.JPG"
+    },
+    "Q21091691": {
+        "name": "Alex Iwobi",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Marco%20Silva%20giving%20advice%20on%2014092024%20%281%29.jpg"
+    }
+}

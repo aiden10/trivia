@@ -101,6 +101,11 @@ export enum ImageCategories {
     Dishes = "dishes",
     Basketball = "basketball",
     Philosophers = "philosophers",
+    Attractions = "attractions",
+    Flags = "flags",
+    Paintings = "paintings",
+    Musicians = "musicians",
+    Characters = "characters"
 }
 
 export const TEXT_CATEGORIES = Object.values(TriviaCategories);

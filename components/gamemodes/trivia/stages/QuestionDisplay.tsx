@@ -5,7 +5,6 @@ import { useGameContext } from '@/shared/GameContext';
 import { TriviaStages } from '@/shared/types';
 import Timer from '@/components/Timer';
 import PlayerList from '@/components/PlayerList';
-import Image from 'next/image';
 
 export default function QuestionDisplay() {
     const { 
@@ -81,7 +80,7 @@ export default function QuestionDisplay() {
 
                 {/* Image */}
                 {hasImage && question?.image && (
-                    <div className="relative w-full max-w-[50%] aspect-square bg-neutral-800 border-2 border-white overflow-hidden">
+                    <div className="relative w-full max-h-[400px] aspect-square bg-neutral-800 border-2 border-white overflow-hidden">
                         {!imageLoaded && (
                             <div className="absolute inset-0 flex items-center justify-center">
                                 <div className="animate-pulse text-white/50 font-inter">Loading...</div>

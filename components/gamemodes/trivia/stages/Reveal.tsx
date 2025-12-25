@@ -36,8 +36,8 @@ export default function Reveal() {
                 if (winner) {
                     submitTriviaUpdateStage(TriviaStages.Results);
                 } else {
-                    submitTriviaUpdateQuestion();
                     submitTriviaUpdateStage(TriviaStages.QuestionDisplay);
+                    submitTriviaUpdateQuestion();
                 }
             }
         }, 100);

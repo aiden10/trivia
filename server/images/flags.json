@@ -1,0 +1,834 @@
+{
+    "Q127974": {
+        "name": "Ukraine",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Ukraine.svg"
+    },
+    "Q42537": {
+        "name": "the United States of America",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20the%20United%20States%20%28Web%20Colors%29.svg"
+    },
+    "Q16611": {
+        "name": "Russia",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Russia.svg"
+    },
+    "Q43175": {
+        "name": "Japan",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Japan.svg"
+    },
+    "Q41673": {
+        "name": "India",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20India.svg"
+    },
+    "Q42876": {
+        "name": "Italy",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Italy.svg"
+    },
+    "Q48160": {
+        "name": "Germany",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Germany.svg"
+    },
+    "Q82236": {
+        "name": "Azerbaijan",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Azerbaijan.svg"
+    },
+    "Q43192": {
+        "name": "France",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20France.svg"
+    },
+    "Q42436": {
+        "name": "Poland",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Poland.svg"
+    },
+    "Q48409": {
+        "name": "Albania",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Albania.svg"
+    },
+    "Q79874": {
+        "name": "Afghanistan",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20the%20Taliban.svg"
+    },
+    "Q81952": {
+        "name": "Turkey",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Turkey.svg"
+    },
+    "Q101472": {
+        "name": "Indonesia",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Indonesia.svg"
+    },
+    "Q131147": {
+        "name": "China",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20the%20People%27s%20Republic%20of%20China.svg"
+    },
+    "Q128480": {
+        "name": "Israel",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Israel.svg"
+    },
+    "Q46835": {
+        "name": "Austria",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Austria.svg"
+    },
+    "Q127179": {
+        "name": "Bangladesh",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Bangladesh.svg"
+    },
+    "Q127296": {
+        "name": "South Korea",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20South%20Korea.svg"
+    },
+    "Q12990": {
+        "name": "Belgium",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Belgium%20%28civil%29.svg"
+    },
+    "Q47891": {
+        "name": "Finland",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Finland.svg"
+    },
+    "Q81676": {
+        "name": "Australia",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Australia%20%28converted%29.svg"
+    },
+    "Q33213": {
+        "name": "Armenia",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Armenia.svg"
+    },
+    "Q46585": {
+        "name": "the Netherlands",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20the%20Netherlands.svg"
+    },
+    "Q81526": {
+        "name": "Andorra",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Andorra.svg"
+    },
+    "Q81970": {
+        "name": "Hungary",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Hungary.svg"
+    },
+    "Q82194": {
+        "name": "Brazil",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Brazil.svg"
+    },
+    "Q160872": {
+        "name": "Chile",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Chile.svg"
+    },
+    "Q60149": {
+        "name": "Denmark",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Denmark.svg"
+    },
+    "Q80110": {
+        "name": "Canada",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Canada%20%28Pantone%29.svg"
+    },
+    "Q121688": {
+        "name": "Spain",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Spain.svg"
+    },
+    "Q130774": {
+        "name": "Argentina",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Argentina.svg"
+    },
+    "Q93335": {
+        "name": "Iceland",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Iceland.svg"
+    },
+    "Q131204": {
+        "name": "Vietnam",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Vietnam.svg"
+    },
+    "Q83392": {
+        "name": "Algeria",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Algeria.svg"
+    },
+    "Q126622": {
+        "name": "Iran",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Iran.svg"
+    },
+    "Q225360": {
+        "name": "Bulgaria",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Bulgaria%20%28digital%29.svg"
+    },
+    "Q81471": {
+        "name": "Estonia",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Estonia.svg"
+    },
+    "Q82205": {
+        "name": "Ireland",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Ireland.svg"
+    },
+    "Q26491": {
+        "name": "Georgia",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Georgia.svg"
+    },
+    "Q81477": {
+        "name": "Lithuania",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Lithuania.svg"
+    },
+    "Q83149": {
+        "name": "Norway",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Norway.svg"
+    },
+    "Q83278": {
+        "name": "the United Kingdom",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20the%20United%20Kingdom%20%281-2%29.svg"
+    },
+    "Q122462": {
+        "name": "Mexico",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Mexico.svg"
+    },
+    "Q127155": {
+        "name": "the Czech Republic",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20the%20Czech%20Republic.svg"
+    },
+    "Q134521": {
+        "name": "Bhutan",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Bhutan.svg"
+    },
+    "Q159741": {
+        "name": "Nepal",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Nepal.svg"
+    },
+    "Q160250": {
+        "name": "South \u00c1frica",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20South%20Africa.svg"
+    },
+    "Q160877": {
+        "name": "Saudi Arabia",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Saudi%20Arabia.svg"
+    },
+    "Q81286": {
+        "name": "Sweden",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Sweden.svg"
+    },
+    "Q124329": {
+        "name": "Angola",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Angola.svg"
+    },
+    "Q128347": {
+        "name": "Pakistan",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Pakistan%20%28bordered%29.svg"
+    },
+    "Q159865": {
+        "name": "Morocco",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Morocco.svg"
+    },
+    "Q34599": {
+        "name": "Libya",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Libya.svg"
+    },
+    "Q46008": {
+        "name": "Laos",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Laos.svg"
+    },
+    "Q101769": {
+        "name": "Gabon",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Gabon.svg"
+    },
+    "Q103064": {
+        "name": "North Korea",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20North%20Korea.svg"
+    },
+    "Q124020": {
+        "name": "Switzerland",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Switzerland.svg"
+    },
+    "Q129132": {
+        "name": "Greece",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Greece.svg"
+    },
+    "Q130481": {
+        "name": "Bahrain",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Bahrain.svg"
+    },
+    "Q134627": {
+        "name": "the Philippines",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20the%20Philippines.svg"
+    },
+    "Q134885": {
+        "name": "Thailand",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Thailand.svg"
+    },
+    "Q160260": {
+        "name": "New Zealand",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20New%20Zealand.svg"
+    },
+    "Q160676": {
+        "name": "Ghana",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Ghana.svg"
+    },
+    "Q30768": {
+        "name": "East Timor",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20East%20Timor.svg"
+    },
+    "Q130811": {
+        "name": "Romania",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Romania.svg"
+    },
+    "Q131650": {
+        "name": "Kazakhstan",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Kazakhstan.svg"
+    },
+    "Q132633": {
+        "name": "Belarus",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Belarus.svg"
+    },
+    "Q160425": {
+        "name": "Colombia",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Colombia.svg"
+    },
+    "Q102184": {
+        "name": "Djibouti",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Djibouti.svg"
+    },
+    "Q103055": {
+        "name": "Liechtenstein",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Liechtenstein.svg"
+    },
+    "Q130449": {
+        "name": "Latvia",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Latvia.svg"
+    },
+    "Q483774": {
+        "name": "Uzbekistan",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Uzbekistan.svg"
+    },
+    "Q154823": {
+        "name": "Sri Lanka",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Sri%20Lanka.svg"
+    },
+    "Q162033": {
+        "name": "Bosnia and Herzegovina",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Bosnia%20and%20Herzegovina.svg"
+    },
+    "Q165641": {
+        "name": "Kyrgyzstan",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Kyrgyzstan.svg"
+    },
+    "Q128812": {
+        "name": "Portugal",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Portugal%20%28official%29.svg"
+    },
+    "Q130442": {
+        "name": "Benin",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Benin.svg"
+    },
+    "Q130458": {
+        "name": "Egypt",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Egypt.svg"
+    },
+    "Q131469": {
+        "name": "Malta",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Malta.svg"
+    },
+    "Q133015": {
+        "name": "Croatia",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Croatia.svg"
+    },
+    "Q133022": {
+        "name": "Luxembourg",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Luxembourg.svg"
+    },
+    "Q134247": {
+        "name": "the United Arab Emirates",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20the%20United%20Arab%20Emirates.svg"
+    },
+    "Q134252": {
+        "name": "Burkina Faso",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Burkina%20Faso.svg"
+    },
+    "Q159746": {
+        "name": "Monaco",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Monaco.svg"
+    },
+    "Q160124": {
+        "name": "Tajikistan",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Tajikistan.svg"
+    },
+    "Q162781": {
+        "name": "Iraq",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Iraq.svg"
+    },
+    "Q162999": {
+        "name": "Cambodia",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Cambodia.svg"
+    },
+    "Q163753": {
+        "name": "Myanmar",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Myanmar.svg"
+    },
+    "Q168935": {
+        "name": "Malaysia",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Malaysia.svg"
+    },
+    "Q36005": {
+        "name": "Lebanon",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Lebanon.svg"
+    },
+    "Q45136": {
+        "name": "Syria",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Syria%20%282025-%29.svg"
+    },
+    "Q130807": {
+        "name": "Slovenia",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Slovenia.svg"
+    },
+    "Q162068": {
+        "name": "Ethiopia",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Ethiopia.svg"
+    },
+    "Q165542": {
+        "name": "Ecuador",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Ecuador.svg"
+    },
+    "Q165545": {
+        "name": "Kuwait",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Kuwait.svg"
+    },
+    "Q165552": {
+        "name": "Mongolia",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Mongolia.svg"
+    },
+    "Q165905": {
+        "name": "Kenya",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Kenya.svg"
+    },
+    "Q170064": {
+        "name": "Jordan",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Jordan.svg"
+    },
+    "Q178179": {
+        "name": "Guatemala",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Guatemala.svg"
+    },
+    "Q4633": {
+        "name": "Cyprus",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Cyprus%20%281960%E2%80%932006%29.svg"
+    },
+    "Q41327": {
+        "name": "Turkmenistan",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Turkmenistan.svg"
+    },
+    "Q102198": {
+        "name": "Sudan",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Sudan.svg"
+    },
+    "Q102392": {
+        "name": "Scotland",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Scotland.svg"
+    },
+    "Q102953": {
+        "name": "Guinea-Bissau",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Guinea-Bissau.svg"
+    },
+    "Q103001": {
+        "name": "Malawi",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Malawi.svg"
+    },
+    "Q104969": {
+        "name": "Lesotho",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Lesotho.svg"
+    },
+    "Q134874": {
+        "name": "Bolivia",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Bandera%20de%20Bolivia%20%28Estado%29.svg"
+    },
+    "Q135014": {
+        "name": "the Gambia",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20The%20Gambia.svg"
+    },
+    "Q160242": {
+        "name": "Botswana",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Botswana.svg"
+    },
+    "Q162699": {
+        "name": "Yemen",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Yemen.svg"
+    },
+    "Q162980": {
+        "name": "Montenegro",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Montenegro.svg"
+    },
+    "Q164584": {
+        "name": "the Democratic Republic of the Congo",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20the%20Democratic%20Republic%20of%20the%20Congo.svg"
+    },
+    "Q165500": {
+        "name": "Guinea",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Guinea.svg"
+    },
+    "Q165872": {
+        "name": "Brunei",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Brunei.svg"
+    },
+    "Q167584": {
+        "name": "Moldova",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Moldova.svg"
+    },
+    "Q172530": {
+        "name": "Qatar",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Qatar.svg"
+    },
+    "Q483659": {
+        "name": "Singapore",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Singapore.svg"
+    },
+    "Q103447": {
+        "name": "The Bahamas",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20the%20Bahamas.svg"
+    },
+    "Q104351": {
+        "name": "Barbados",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Barbados.svg"
+    },
+    "Q135034": {
+        "name": "Antigua and Barbuda",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Antigua%20and%20Barbuda.svg"
+    },
+    "Q159872": {
+        "name": "Cameroon",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Cameroon.svg"
+    },
+    "Q160255": {
+        "name": "Peru",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Peru%20%28state%29.svg"
+    },
+    "Q160861": {
+        "name": "Slovakia",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Slovakia.svg"
+    },
+    "Q163333": {
+        "name": "the Republic of the Congo",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20the%20Republic%20of%20the%20Congo.svg"
+    },
+    "Q163832": {
+        "name": "Serbia",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Serbia.svg"
+    },
+    "Q165230": {
+        "name": "the Soviet Union",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20the%20Soviet%20Union.svg"
+    },
+    "Q165538": {
+        "name": "Venezuela",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Venezuela.svg"
+    },
+    "Q167119": {
+        "name": "North Macedonia",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20North%20Macedonia.svg"
+    },
+    "Q168941": {
+        "name": "Panama",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Panama.svg"
+    },
+    "Q169903": {
+        "name": "Mali",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Mali.svg"
+    },
+    "Q171103": {
+        "name": "Uruguay",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Uruguay.svg"
+    },
+    "Q171124": {
+        "name": "Guyana",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Guyana.svg"
+    },
+    "Q79198": {
+        "name": "Vatican City",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Vatican%20City%20%282023%E2%80%93present%29.svg"
+    },
+    "Q102939": {
+        "name": "Honduras",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Honduras%20%282022%E2%80%93present%29.svg"
+    },
+    "Q102967": {
+        "name": "Ivory Coast",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20C%C3%B4te%20d%27Ivoire.svg"
+    },
+    "Q102993": {
+        "name": "Eswatini",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Eswatini.svg"
+    },
+    "Q162789": {
+        "name": "Tunisia",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Tunisia.svg"
+    },
+    "Q163008": {
+        "name": "Cuba",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Cuba.svg"
+    },
+    "Q165811": {
+        "name": "Chad",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Chad.svg"
+    },
+    "Q165822": {
+        "name": "Namibia",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Namibia.svg"
+    },
+    "Q170795": {
+        "name": "Liberia",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Liberia.svg"
+    },
+    "Q102944": {
+        "name": "Cape Verde",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Cape%20Verde.svg"
+    },
+    "Q102960": {
+        "name": "Nigeria",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Nigeria.svg"
+    },
+    "Q102977": {
+        "name": "Mauritania",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Mauritania.svg"
+    },
+    "Q103084": {
+        "name": "Burundi",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Burundi.svg"
+    },
+    "Q134933": {
+        "name": "Senegal",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Senegal.svg"
+    },
+    "Q159986": {
+        "name": "Zimbabwe",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Zimbabwe.svg"
+    },
+    "Q165550": {
+        "name": "Oman",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Oman.svg"
+    },
+    "Q165775": {
+        "name": "the Central African Republic",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20the%20Central%20African%20Republic.svg"
+    },
+    "Q169441": {
+        "name": "Maldives",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Maldives.svg"
+    },
+    "Q170289": {
+        "name": "Costa Rica",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Costa%20Rica%20%28state%29.svg"
+    },
+    "Q170465": {
+        "name": "Paraguay",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Paraguay.svg"
+    },
+    "Q170555": {
+        "name": "Eritrea",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Eritrea.svg"
+    },
+    "Q191731": {
+        "name": "Palestine",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Palestine.svg"
+    },
+    "Q484249": {
+        "name": "Mozambique",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Mozambique.svg"
+    },
+    "Q102987": {
+        "name": "Haiti",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Haiti.svg"
+    },
+    "Q169192": {
+        "name": "Belize",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Belize.svg"
+    },
+    "Q103046": {
+        "name": "Niger",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Niger.svg"
+    },
+    "Q103414": {
+        "name": "Grenada",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Grenada.svg"
+    },
+    "Q168711": {
+        "name": "Kosovo",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Kosovo.svg"
+    },
+    "Q168917": {
+        "name": "the Comoros",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20the%20Comoros.svg"
+    },
+    "Q170543": {
+        "name": "Rwanda",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Rwanda.svg"
+    },
+    "Q170814": {
+        "name": "Zambia",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Zambia.svg"
+    },
+    "Q103019": {
+        "name": "Madagascar",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Madagascar.svg"
+    },
+    "Q103037": {
+        "name": "Uganda",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Uganda.svg"
+    },
+    "Q159538": {
+        "name": "Somalia",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Somalia.svg"
+    },
+    "Q168925": {
+        "name": "San Marino",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20San%20Marino.svg"
+    },
+    "Q170554": {
+        "name": "Equatorial Guinea",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Equatorial%20Guinea.svg"
+    },
+    "Q103070": {
+        "name": "Togo",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Togo%20%283-2%29.svg"
+    },
+    "Q171117": {
+        "name": "England",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20England.svg"
+    },
+    "Q172517": {
+        "name": "Jamaica",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Jamaica.svg"
+    },
+    "Q172533": {
+        "name": "Nicaragua",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Nicaragua.svg"
+    },
+    "Q173554": {
+        "name": "El Salvador",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20El%20Salvador.svg"
+    },
+    "Q180725": {
+        "name": "Suriname",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Suriname.svg"
+    },
+    "Q117758": {
+        "name": "Kiribati",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Kiribati.svg"
+    },
+    "Q173548": {
+        "name": "Mauritius",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Mauritius.svg"
+    },
+    "Q182514": {
+        "name": "Fiji",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Fiji.svg"
+    },
+    "Q184283": {
+        "name": "Trinidad and Tobago",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Trinidad%20and%20Tobago.svg"
+    },
+    "Q185277": {
+        "name": "Bandeira de Nauru",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Nauru.svg"
+    },
+    "Q168912": {
+        "name": "Sierra Leone",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Sierra%20Leone.svg"
+    },
+    "Q169907": {
+        "name": "S\u00e3o Tom\u00e9 and Pr\u00edncipe",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20S%C3%A3o%20Tom%C3%A9%20and%20Pr%C3%ADncipe.svg"
+    },
+    "Q173201": {
+        "name": "Seychelles",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Seychelles.svg"
+    },
+    "Q184265": {
+        "name": "Dominican Republic",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20the%20Dominican%20Republic.svg"
+    },
+    "Q170809": {
+        "name": "Tanzania",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Tanzania.svg"
+    },
+    "Q179383": {
+        "name": "Dominica",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Dominica.svg"
+    },
+    "Q182782": {
+        "name": "South Sudan",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20South%20Sudan.svg"
+    },
+    "Q184268": {
+        "name": "Greenland",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Greenland.svg"
+    },
+    "Q185271": {
+        "name": "Papua New Guinea",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Papua%20New%20Guinea.svg"
+    },
+    "Q186456": {
+        "name": "Hong Kong",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Hong%20Kong.svg"
+    },
+    "Q190648": {
+        "name": "the Federated States of Micronesia",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20the%20Federated%20States%20of%20Micronesia.svg"
+    },
+    "Q199621": {
+        "name": "Abkhazia",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20the%20Republic%20of%20Abkhazia.svg"
+    },
+    "Q4575": {
+        "name": "the Faroe Islands",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20the%20Faroe%20Islands.svg"
+    },
+    "Q75374": {
+        "name": "the Solomon Islands",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20the%20Solomon%20Islands.svg"
+    },
+    "Q188477": {
+        "name": "Samoa",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Samoa.svg"
+    },
+    "Q188609": {
+        "name": "Palau",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Palau.svg"
+    },
+    "Q105643": {
+        "name": "Tuvalu",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Tuvalu.svg"
+    },
+    "Q181120": {
+        "name": "Saint Kitts and Nevis",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Saint%20Kitts%20and%20Nevis.svg"
+    },
+    "Q185285": {
+        "name": "Vanuatu",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Vanuatu.svg"
+    },
+    "Q185692": {
+        "name": "Wales",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Wales.svg"
+    },
+    "Q184596": {
+        "name": "Saint Lucia",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Saint%20Lucia.svg"
+    },
+    "Q188072": {
+        "name": "Tonga",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Tonga.svg"
+    },
+    "Q199961": {
+        "name": "Transnistria",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Transnistria%20%28state%29.svg"
+    },
+    "Q200260": {
+        "name": "the Marshall Islands",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20the%20Marshall%20Islands.svg"
+    },
+    "Q375554": {
+        "name": "the Sahrawi Arab Democratic Republic",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20the%20Sahrawi%20Arab%20Democratic%20Republic.svg"
+    },
+    "Q184584": {
+        "name": "Saint Vincent and the Grenadines",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Saint%20Vincent%20and%20the%20Grenadines.svg"
+    },
+    "Q173535": {
+        "name": "the Republic of China",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20the%20Republic%20of%20China.svg"
+    },
+    "Q186226": {
+        "name": "the Isle of Man",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20the%20Isle%20of%20Man.svg"
+    }
+}

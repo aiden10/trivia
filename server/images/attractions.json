@@ -1,0 +1,1394 @@
+{
+    "Q237": {
+        "name": "Vatican City",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/0%20Basilique%20Saint-Pierre%20-%20Rome%20%281%29.JPG"
+    },
+    "Q5806": {
+        "name": "Mecca",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Makkah%20Montage.jpg"
+    },
+    "Q12501": {
+        "name": "Great Wall of China",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/The%20Great%20Wall%20of%20China%20at%20Jinshanling-edit.jpg"
+    },
+    "Q243": {
+        "name": "Eiffel Tower",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Tour%20Eiffel%20Wikimedia%20Commons.jpg"
+    },
+    "Q7296": {
+        "name": "Mount Kilimanjaro",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Mt.%20Kilimanjaro%2012.2006.jpg"
+    },
+    "Q9141": {
+        "name": "Taj Mahal",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Taj%20Mahal%2C%20Agra%2C%20India%20edit3.jpg"
+    },
+    "Q9202": {
+        "name": "Statue of Liberty",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Statue%20of%20Liberty%207.jpg"
+    },
+    "Q676203": {
+        "name": "Machu Picchu",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Machu%20Picchu%2C%202023%20%28012%29.jpg"
+    },
+    "Q12506": {
+        "name": "Hagia Sophia",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Hagia%20Sophia%20Mars%202013.jpg"
+    },
+    "Q39231": {
+        "name": "Mount Fuji",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kodaki%20fuji%20frm%20shojinko%20refurb.jpg"
+    },
+    "Q10285": {
+        "name": "Colosseum",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Colosseo%202020.jpg"
+    },
+    "Q35525": {
+        "name": "White House",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/WhiteHouseSouthFacade.JPG"
+    },
+    "Q5086": {
+        "name": "Berlin Wall",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Berlin%20Wall%20Potsdamer%20Platz%20November%201975%20looking%20east%20crop.jpg"
+    },
+    "Q16520": {
+        "name": "Busan",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Busan%20montage.png"
+    },
+    "Q12495": {
+        "name": "Burj Khalifa",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Dubai%20skyline%202015%20%28crop%29.jpg"
+    },
+    "Q39671": {
+        "name": "Stonehenge",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Stonehenge%20Total.jpg"
+    },
+    "Q34221": {
+        "name": "Niagara Falls",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Niagara%20Falls%20USA%20Canada%20from%20Skylon%20Tower%20on%202002-05-28%2C%20full%20size.jpg"
+    },
+    "Q43473": {
+        "name": "Angkor Wat",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Angkor%20wat%20temple.jpg"
+    },
+    "Q524": {
+        "name": "Mount Vesuvius",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Il%20cratere%20del%20Vulcano%20-%20panoramio.jpg"
+    },
+    "Q35342": {
+        "name": "Titicaca",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/00%201635%20Reed%20Islands%20of%20Lake%20Titicaca.jpg"
+    },
+    "Q10288": {
+        "name": "Parthenon",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/The%20Parthenon%20in%20Athens.jpg"
+    },
+    "Q38095": {
+        "name": "Galapagos Islands",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Gal%C3%A1pagos%20Islands%20ESA23188644.jpeg"
+    },
+    "Q12512": {
+        "name": "St. Peter's Basilica",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Basilica%20di%20San%20Pietro%20in%20Vaticano%20September%202015-1a.jpg"
+    },
+    "Q2981": {
+        "name": "Notre-Dame de Paris",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Notre-Dame%20de%20Paris%202013-07-24.jpg"
+    },
+    "Q37200": {
+        "name": "Great Pyramid of Giza",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kheops-Pyramid.jpg"
+    },
+    "Q16990": {
+        "name": "Mount Etna",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/View%20of%20Mount%20Etna%20from%20Reggio%20Calabria%20-%20Italy%20-%2010%20Feb.%202017%20-%20%281%29.jpg"
+    },
+    "Q9188": {
+        "name": "Empire State Building",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Empire%20State%20Building%20%28aerial%20view%29.jpg"
+    },
+    "Q5788": {
+        "name": "Petra",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/The%20Treasury%2C%20Petra%2C%20Jordan5.jpg"
+    },
+    "Q351": {
+        "name": "Yellowstone National Park",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Grand%20Prismatic%20Spring%202013.jpg"
+    },
+    "Q44440": {
+        "name": "Golden Gate Bridge",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/GoldenGateBridge-001.jpg"
+    },
+    "Q72303": {
+        "name": "Mount Ararat",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Mount%20Ararat%20and%20the%20Araratian%20plain%20%28cropped%29.jpg"
+    },
+    "Q5859": {
+        "name": "Chichen Itza",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Chichen%20Itza%203.jpg"
+    },
+    "Q217265": {
+        "name": "Cappadocia",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Cappadocia%20Aerial%20View%20%286998755984%29.jpg"
+    },
+    "Q130514": {
+        "name": "Luxor",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Luxor%2C%20Egypt%2C%20Boats%20on%20Nile%20River.jpg"
+    },
+    "Q80290": {
+        "name": "Forbidden City",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/%E6%99%AF%E5%B1%B1%E5%85%AC%E5%9B%AD%20%2820315852831%29-%20cropped.jpg"
+    },
+    "Q12192963": {
+        "name": "Al-Aqsa Mosque",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Jerusalem-2013-Temple%20Mount-Al-Aqsa%20Mosque%20%28NE%20exposure%29.jpg"
+    },
+    "Q11208": {
+        "name": "The Pentagon",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/The%20Pentagon%2C%20Headquarters%20of%20the%20US%20Department%20of%20Defense%20%28cropped%29.jpg"
+    },
+    "Q36332": {
+        "name": "Igua\u00e7u Falls",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/00%201854%20Iguaz%C3%BA-Wasserf%C3%A4lle%20-%20S%C3%BCdamerika.jpg"
+    },
+    "Q45178": {
+        "name": "Sydney Opera House",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Sydney%20Opera%20House%20Sails.jpg"
+    },
+    "Q29294": {
+        "name": "Willis Tower",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Willis%20Tower%20From%20Lake.jpg"
+    },
+    "Q42798": {
+        "name": "Borobudur",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Pradaksina.jpg"
+    },
+    "Q41116": {
+        "name": "Red Square",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Red%20Square%20-%20Moscow%202024.jpg"
+    },
+    "Q47611": {
+        "name": "Ephesus",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Ephesus%20Celsus%20Library%20Fa%C3%A7ade.jpg"
+    },
+    "Q5955": {
+        "name": "Altai Mountains",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Berg%20Belucha.jpg"
+    },
+    "Q133274": {
+        "name": "Kremlin",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Moscow%2005-2012%20Kremlin%2022.jpg"
+    },
+    "Q550": {
+        "name": "avenue des Champs-\u00c9lys\u00e9es",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Avenue%20des%20Champs-%C3%89lys%C3%A9es%2C%20Paris%203%20October%202010.jpg"
+    },
+    "Q42182": {
+        "name": "Buckingham Palace",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Buckingham%20Palace%2C%20London%20-%20April%202009.jpg"
+    },
+    "Q80299": {
+        "name": "Angel Falls",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/SaltoAngel4.jpg"
+    },
+    "Q131013": {
+        "name": "Acropolis of Athens",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Attica%2006-13%20Athens%2050%20View%20from%20Philopappos%20-%20Acropolis%20Hill.jpg"
+    },
+    "Q47476": {
+        "name": "Alhambra",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Alhambra%20detail.jpg"
+    },
+    "Q5933": {
+        "name": "Westminster Abbey",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Westminster-Abbey.JPG"
+    },
+    "Q79961": {
+        "name": "Christ the Redeemer",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Christ%20the%20Redeemer%20-%20Cristo%20Redentor.jpg"
+    },
+    "Q126307": {
+        "name": "Lake Van",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Lakevanlandsat.jpeg"
+    },
+    "Q4152": {
+        "name": "Neuschwanstein Castle",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Schloss%20Neuschwanstein%202013.jpg"
+    },
+    "Q80541": {
+        "name": "Sultan Ahmed Mosque",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Exterior%20of%20Sultan%20Ahmed%20I%20Mosque%20in%20Istanbul%2C%20Turkey%20002.jpg"
+    },
+    "Q2943": {
+        "name": "Sistine Chapel",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Sistina-interno.jpg"
+    },
+    "Q47672": {
+        "name": "Terracotta Army",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/51714-Terracota-Army.jpg"
+    },
+    "Q62378": {
+        "name": "Tower of London",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Tower%20of%20London%20viewed%20from%20the%20River%20Thames.jpg"
+    },
+    "Q83063": {
+        "name": "Petronas Towers",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kuala%20Lumpur%20-%20panoramio%20%2818%29.jpg"
+    },
+    "Q180402": {
+        "name": "Yosemite National Park",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Half%20Dome%20with%20Eastern%20Yosemite%20Valley%20%2850MP%29.jpg"
+    },
+    "Q83125": {
+        "name": "Tower Bridge",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/London%20-%20London%20Tower%20Bridge%20-%20140806%20171049.jpg"
+    },
+    "Q160409": {
+        "name": "Central Park",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Southwest%20corner%20of%20Central%20Park%2C%20looking%20east%2C%20NYC.jpg"
+    },
+    "Q82425": {
+        "name": "Brandenburg Gate",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Brandenburger%20Tor%20morgens.jpg"
+    },
+    "Q4176": {
+        "name": "Cologne Cathedral",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/K%C3%B6lner%20Dom%20von%20Osten.jpg"
+    },
+    "Q42646": {
+        "name": "Windsor Castle",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Windsor%20Castle%20at%20Sunset%20-%20Nov%202006.jpg"
+    },
+    "Q175582": {
+        "name": "Egyptian pyramids",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/All%20Gizah%20Pyramids.jpg"
+    },
+    "Q190128": {
+        "name": "Ha Long Bay",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Halong%20ensemble%20%28colour%20corrected%29.jpg"
+    },
+    "Q57357": {
+        "name": "Hadrian's Wall",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Section%20of%20Hadrian%27s%20Wall%201.jpg"
+    },
+    "Q125006": {
+        "name": "Brooklyn Bridge",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/New%20York%20City%20%28New%20York%2C%20USA%29%2C%20Brooklyn%20Bridge%20--%202012%20--%206630.jpg"
+    },
+    "Q71229": {
+        "name": "Potala Palace",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Potala.jpg"
+    },
+    "Q41225": {
+        "name": "Big Ben",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Clock%20Tower%20-%20Palace%20of%20Westminster%2C%20London%20-%20May%202007.jpg"
+    },
+    "Q130958": {
+        "name": "The Great Sphinx",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Great%20Sphinx%20of%20Giza%20May%202015.JPG"
+    },
+    "Q134821": {
+        "name": "Western Wall",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/16-03-30-Klagemauer%20Jerusalem%20RalfR-DSCF7673.jpg"
+    },
+    "Q134883": {
+        "name": "CN Tower",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/CN%20Tower%20from%20Puente%20de%20Luz%2C%20Toronto%2C%20Ontario%2C%202025-08-25%2001.jpg"
+    },
+    "Q160112": {
+        "name": "Museo del Prado",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Museo%20del%20Prado%202016%20%2825185969599%29.jpg"
+    },
+    "Q118388": {
+        "name": "Death Valley",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Badwater%20Desolation.jpg"
+    },
+    "Q40758": {
+        "name": "Damavand",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/981012-Damavand-South-IMG%209861-2.jpg"
+    },
+    "Q99309": {
+        "name": "Pantheon",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Rome%20Pantheon%20front.jpg"
+    },
+    "Q160659": {
+        "name": "London Eye",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/London-Eye-2009.JPG"
+    },
+    "Q104674": {
+        "name": "Ben Nevis",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Ben%20nevis.jpg"
+    },
+    "Q129846": {
+        "name": "St. Basil's Cathedral",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/00%200568%20Saint%20Basil%27s%20Cathedral%20-%20Moscow.jpg"
+    },
+    "Q987729": {
+        "name": "La D\u00e9fense",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/La%20D%C3%A9fense%20Collage.jpg"
+    },
+    "Q18068": {
+        "name": "Milan Cathedral",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/20110724%20Milan%20Cathedral%205260.jpg"
+    },
+    "Q170495": {
+        "name": "Topkap\u0131 Palace",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Topkapi%20Palace%20Seen%20From%20Harem.JPG"
+    },
+    "Q181185": {
+        "name": "Disneyland",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Christmas%20for%20Sleeping%20Beauty%20Castle%20%2828017248690%29.jpg"
+    },
+    "Q23308": {
+        "name": "British Library",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/British%20Library%20%2B%20St%20Pancras%207527-31hug.jpg"
+    },
+    "Q187702": {
+        "name": "Church of the Holy Sepulchre",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/The%20Church%20of%20the%20Holy%20Sepulchre-Jerusalem.JPG"
+    },
+    "Q71719": {
+        "name": "Hollywood Walk of Fame",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Stan%20Freberg%20Walk%20of%20fame.jpg"
+    },
+    "Q106187": {
+        "name": "Giant's Causeway",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Giant%27s%20Causeway%20%2836834542085%29.jpg"
+    },
+    "Q151897": {
+        "name": "Reichstag",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Reichstagsgeb%C3%A4ude%20von%20Westen.jpg"
+    },
+    "Q11245": {
+        "name": "One World Trade Center",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/One%20World%20Trade%20Center%2C%20New%20York%20%2833224081040%29.jpg"
+    },
+    "Q99236": {
+        "name": "Millau Viaduct",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/00%200237%20Millau%20-%20D%C3%A9partement%20Aveyron.jpg"
+    },
+    "Q129143": {
+        "name": "Trafalgar Square",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Trafalgar%20Square%2C%20London%202%20-%20Jun%202009.jpg"
+    },
+    "Q172822": {
+        "name": "Hoover Dam",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Hoover%20dam%20%2829484580111%29.jpg"
+    },
+    "Q11812902": {
+        "name": "Serengeti National Park",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Serengeti-Landscape-2012.JPG"
+    },
+    "Q11259": {
+        "name": "Times Square",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/New%20york%20times%20square-terabass.jpg"
+    },
+    "Q180212": {
+        "name": "Roman Forum",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Foro%20Romano%20Musei%20Capitolini%20Roma.jpg"
+    },
+    "Q153494": {
+        "name": "Rothenburg ob der Tauber",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Rothenburg%20BW%204.JPG"
+    },
+    "Q173527": {
+        "name": "Knossos",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Knossos%20-%20North%20Portico%2002.jpg"
+    },
+    "Q178114": {
+        "name": "Washington Monument",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Washington%20Monument%202022.jpg"
+    },
+    "Q172125": {
+        "name": "Lascaux",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Lascaux%20painting.jpg"
+    },
+    "Q178643": {
+        "name": "S\u00fcleymaniye Mosque",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/S%C3%BCleymaniyeMosqueIstanbul%20%28cropped%29.jpg"
+    },
+    "Q274131": {
+        "name": "Everglades National Park",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Sunset%20over%20the%20River%20of%20Grass%2C%20NPSphoto%2C%20G.Gardner%20%289255157507%29.jpg"
+    },
+    "Q183536": {
+        "name": "Tokyo Tower",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Tokyo%20Tower%202023.jpg"
+    },
+    "Q185382": {
+        "name": "Trevi Fountain",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Trevi%20Fountain%2C%20Rome%2C%20Italy%202%20-%20May%202007.jpg"
+    },
+    "Q131354": {
+        "name": "Alcatraz Island",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Alcatraz%20Island%20as%20seen%20from%20the%20East.jpg"
+    },
+    "Q152072": {
+        "name": "Manneken Pis",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Bruxelles%20Manneken%20Pis.jpg"
+    },
+    "Q172988": {
+        "name": "St Mark's Basilica",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Venice%20-%20St.%20Marc%27s%20Basilica%2001.jpg"
+    },
+    "Q186115": {
+        "name": "Montmartre",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/View%20from%20Notre-Dame%20de%20Paris%2C%2024%20June%202014%20004.jpg"
+    },
+    "Q193369": {
+        "name": "Prague Castle",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Castillo%20de%20Praga%2C%20Praga%2C%20Rep%C3%BAblica%20Checa%2C%202022-07-02%2C%20DD%20209.jpg"
+    },
+    "Q76122": {
+        "name": "Salar de Uyuni",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Salar%20de%20Uyuni%20-%20panoramio%20%2810%29.jpg"
+    },
+    "Q489902": {
+        "name": "N\u00f6rdlingen",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/N%C3%B6rdlingenRathausGasthausSonne.jpg"
+    },
+    "Q36698440": {
+        "name": "Ch\u00e2teau de Montsoreau-Museum of Contemporary Art",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Chateau%20de%20montsoreau%20museum%20of%20contemporary%20art%20map%203D.jpg"
+    },
+    "Q272153": {
+        "name": "Sigiriya",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Beauty%20of%20Sigiriya%20by%20Binuka.jpg"
+    },
+    "Q830054": {
+        "name": "Saint Sophia Cathedral",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/80-391-0151%20Kyiv%20St.Sophia%27s%20Cathedral%20RB%2018%202%20%28cropped%29.jpg"
+    },
+    "Q205131": {
+        "name": "Leshan Giant Buddha",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Leshan%20Giant%20Buddha%2C%2020161102.jpg"
+    },
+    "Q80852": {
+        "name": "Shanghai World Financial Center",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/%E4%B8%8A%E6%B5%B7%E5%9B%BD%E9%99%85%E9%87%91%E8%9E%8D%E4%B8%AD%E5%BF%83.jpg"
+    },
+    "Q181324": {
+        "name": "Ostankino Tower",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/%D0%9E%D1%81%D1%82%D0%B0%D0%BD%D0%BA%D0%B8%D0%BD%D1%81%D0%BA%D0%B0%D1%8F%20%D0%B1%D0%B0%D1%88%D0%BD%D1%8F%20%D0%B2%D0%B5%D1%87%D0%B5%D1%80%D0%BE%D0%BC.jpg"
+    },
+    "Q189764": {
+        "name": "Pont du Gard",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Pont%20du%20Gard%20BLS.jpg"
+    },
+    "Q192988": {
+        "name": "Royal Observatory",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Royal%20observatory%20greenwich.jpg"
+    },
+    "Q201469": {
+        "name": "Solomon R. Guggenheim Museum",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/NYC%20-%20Guggenheim%20Museum.jpg"
+    },
+    "Q208559": {
+        "name": "Drottningholm Palace",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Drottningholm%20Palace%20%28by%20Pudelek%29%203.jpg"
+    },
+    "Q190063": {
+        "name": "\u00eele de la Cit\u00e9",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Paris%20Notre%20Dame%20DSC00732.jpg"
+    },
+    "Q192017": {
+        "name": "Monument Valley",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Monumentvalleyviewfromnorth.jpg"
+    },
+    "Q4484": {
+        "name": "15 July Martyrs Bridge",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Istanbul%20asv2020-02%20img58%2015July%20Martyrs%20Bridge.jpg"
+    },
+    "Q91274": {
+        "name": "Galata Tower",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Istanbul%20asv2020-02%20img48%20Galata%20Tower.jpg"
+    },
+    "Q151356": {
+        "name": "Fernsehturm Berlin",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Weltzeituhr%20mit%20Fernsehturm%20-%20Alexanderplatz.jpg"
+    },
+    "Q189883": {
+        "name": "Doge's Palace",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/%28Venice%29%20Doge%27s%20Palace%20facing%20the%20sea.jpg"
+    },
+    "Q28785": {
+        "name": "Sacr\u00e9-C\u0153ur",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Le%20sacre%20coeur.jpg"
+    },
+    "Q42892": {
+        "name": "Colico",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Colico%201.jpg"
+    },
+    "Q202175": {
+        "name": "Ellis Island",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Ellis%20island%20air%20photo.jpg"
+    },
+    "Q212065": {
+        "name": "Edinburgh Castle",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Edinburgh%20Castle%20from%20the%20Grassmarket.jpg"
+    },
+    "Q215003": {
+        "name": "Bel\u00e9m Tower",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Belem%20Tower%20-%20April%202019%20%282%29.jpg"
+    },
+    "Q546010": {
+        "name": "Ani",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Ani%20seen%20from%20Armenia.jpg"
+    },
+    "Q43032": {
+        "name": "Bellano",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Bellano%20veduta.jpg"
+    },
+    "Q55019": {
+        "name": "Covent Garden",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/%E6%9F%AF%E8%8A%AC%E5%9C%92%20%2840400019900%29.jpg"
+    },
+    "Q151963": {
+        "name": "Museum Island",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Berlin%20Museumsinsel%20Fernsehturm.jpg"
+    },
+    "Q235242": {
+        "name": "Piet\u00e0 (Michelangelo)",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Michelangelo%27s%20Pieta%205450%20cropncleaned%20edit.jpg"
+    },
+    "Q274120": {
+        "name": "Niagara Falls",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Niagara%20Falls%20Skyline.jpg"
+    },
+    "Q672936": {
+        "name": "Rysy",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Rysy%2C%20szczyt.jpg"
+    },
+    "Q214619": {
+        "name": "The Little Mermaid",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Petite%20sir%C3%A8ne%20de%20Copenhague%20%28conforme%20%C3%A0%20la%20loi%20danoise%29.JPG"
+    },
+    "Q223385": {
+        "name": "Cueva de las Manos",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/SantaCruz-CuevaManos-P2210651b.jpg"
+    },
+    "Q658437": {
+        "name": "Imbros",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Gokceada5.JPG"
+    },
+    "Q1244337": {
+        "name": "Canaima National Park",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Canaima%2034.JPG"
+    },
+    "Q151030": {
+        "name": "Moulin Rouge",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Moulin%20Rouge%2C%2017%20April%202011.jpg"
+    },
+    "Q206859": {
+        "name": "Walt Disney World Resort",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Magic%20Kingdom%20castle.jpg"
+    },
+    "Q62149": {
+        "name": "Juventus Stadium",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Juventus%20v%20Real%20Madrid%2C%20Champions%20League%2C%20Stadium%2C%20Turin%2C%202013.jpg"
+    },
+    "Q916943": {
+        "name": "Brihadisvara Temple",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Le%20temple%20de%20Brihadishwara%20%28Tanjore%2C%20Inde%29%20%2814354574611%29.jpg"
+    },
+    "Q1601986": {
+        "name": "The Motherland Calls",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/%D0%92%D0%BE%D0%BB%D0%B3%D0%BE%D0%B3%D1%80%D0%B0%D0%B4.%20%D0%9C%D0%B0%D0%BC%D0%B5%D0%B2%20%D0%BA%D1%83%D1%80%D0%B3%D0%B0%D0%BD.%20%D0%A0%D0%BE%D0%B4%D0%B8%D0%BD%D0%B0-%D0%BC%D0%B0%D1%82%D1%8C%20%D0%B7%D0%BE%D0%B2%D0%B5%D1%82.jpg"
+    },
+    "Q207028": {
+        "name": "Mariinsky Theatre",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/%D0%A1%D0%B0%D0%BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3%2C%20%D0%9C%D0%B0%D1%80%D0%B8%D0%B8%D0%BD%D1%81%D0%BA%D0%B8%D0%B9%20%D1%82%D0%B5%D0%B0%D1%82%D1%80%2C%20%D1%84%D0%B0%D1%81%D0%B0%D0%B4%20%28edited%20version%29.jpg"
+    },
+    "Q213559": {
+        "name": "Lincoln Memorial",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Aerial%20view%20of%20Lincoln%20Memorial%20-%20east%20side%20EDIT.jpeg"
+    },
+    "Q215255": {
+        "name": "Piccadilly Circus",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Picadilly%20Circus%2C%20London%20%289308789313%29.jpg"
+    },
+    "Q217527": {
+        "name": "Piazza San Marco",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Piazza%20San%20Marco%20%28Venice%29%20at%20night-msu-2021-6449-.jpg"
+    },
+    "Q309243": {
+        "name": "Grand Canal",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Panorama%20of%20Canal%20Grande%20and%20Ponte%20di%20Rialto%2C%20Venice%20-%20September%202017.jpg"
+    },
+    "Q39092": {
+        "name": "Piantedo",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Madonna%20di%20Valpozzo.jpg"
+    },
+    "Q154828": {
+        "name": "Berlin Zoological Garden",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Giraffe-berlin-zoo.jpg"
+    },
+    "Q207808": {
+        "name": "Circus Maximus",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Circus%20Maximus%202025.jpg"
+    },
+    "Q223207": {
+        "name": "Oriental Pearl Tower",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Oriental%20Pearl%20Tower%202012.jpg"
+    },
+    "Q18769666": {
+        "name": "Keukenhof",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/NL-keukenhof-12.jpg"
+    },
+    "Q42790": {
+        "name": "Ballabio",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Panoramic%20view%20on%20Ballabio%20from%20the%20summit%20of%20Monte%20Melma.jpg"
+    },
+    "Q52517": {
+        "name": "Bridge of Sighs",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Antonio%20Contin%20-%20Ponte%20dei%20sospiri%20%28Venice%29.jpg"
+    },
+    "Q223969": {
+        "name": "Arches National Park",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Delicate%20Arch%20-%20Arches%20National%20Park%20%2828744386992%29.jpg"
+    },
+    "Q309458": {
+        "name": "Jardin du Luxembourg",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/LuxembourgMontparnasse%202.jpg"
+    },
+    "Q43282": {
+        "name": "Alexander Nevsky Cathedral",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/AlexanderNevskyCathedral-Sofia-6.jpg"
+    },
+    "Q52505": {
+        "name": "Rialto Bridge",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Rialto%202025%204.jpg"
+    },
+    "Q109858": {
+        "name": "Fifth Avenue",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Photograph%20of%20Fifth%20Avenue%20from%20the%20Metropolitan%E2%80%94New%20York%20City.jpg"
+    },
+    "Q154563": {
+        "name": "Berlin Cathedral",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Berliner%20Dom%20von%20Humboldt-Box.jpg"
+    },
+    "Q690323": {
+        "name": "High Tatras",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Panorama%20High%20Tatras%20from%20Poprad.jpg"
+    },
+    "Q738015": {
+        "name": "Helsinki Cathedral",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Lutheran%20Cathedral%20Helsinki.jpg"
+    },
+    "Q68689": {
+        "name": "Checkpoint Charlie",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Checkpoint%20Charlie%20Berlin.jpg"
+    },
+    "Q126804": {
+        "name": "Mount Erciyes",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Turkey.Mount%20Erciyes01.jpg"
+    },
+    "Q192721": {
+        "name": "C\u1ee7 Chi tunnels",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/VietnamCuChiTunnels.jpg"
+    },
+    "Q207486": {
+        "name": "Basilica of San Francesco d'Assisi",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/BasilicaDiSanFrancescoAssisiMar262024%2002.jpg"
+    },
+    "Q207945": {
+        "name": "Monastery of Saint John of Rila",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Rila%20Monastery%2C%20August%202013.jpg"
+    },
+    "Q211823": {
+        "name": "Lake Tuz",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Lake%20Tuz.jpg"
+    },
+    "Q191161": {
+        "name": "30 St Mary Axe",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/30%20St%20Mary%20Axe%20from%20Leadenhall%20Street.jpg"
+    },
+    "Q192687": {
+        "name": "Downing Street",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Downing%20Street.jpg"
+    },
+    "Q11290": {
+        "name": "Grand Central Terminal",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/NYC%20GC.jpg"
+    },
+    "Q40183": {
+        "name": "Novate Mezzola",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Novate%20Mezzola%20-%20chiesa%20della%20Santissima%20Trinit%C3%A0.jpg"
+    },
+    "Q40660": {
+        "name": "Dubino",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Stazione%20di%20Dubino%20%28SO%29.jpg"
+    },
+    "Q47416": {
+        "name": "Sorico",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Soricocentro.jpg"
+    },
+    "Q152783": {
+        "name": "Alexanderplatz",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Berlin%20-%20Alexanderplatz1.jpg"
+    },
+    "Q208633": {
+        "name": "Ponte Vecchio",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Ponte%20Vecchio%20sobre%20el%20r%C3%ADo%20Arno%2C%20Florencia%2C%20Italia%2C%202022-09-19%2C%20DD%2002.jpg"
+    },
+    "Q7784788": {
+        "name": "Yavuz Sultan Selim Bridge",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Yavuz%20Sultan%20Selim%20Bridge1.JPG"
+    },
+    "Q9468": {
+        "name": "Dholavira",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Dholavira%20archaeological%20site.jpg"
+    },
+    "Q11277": {
+        "name": "Rockefeller Center",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/GE%20Building%20by%20David%20Shankbone.JPG"
+    },
+    "Q46313": {
+        "name": "Buda Castle",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/20190502%20Zamek%20w%20Budapeszcie%200647%201862%20DxO.jpg"
+    },
+    "Q208811": {
+        "name": "Panathenaic Stadium",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/GR-athen-panathinaiko-stadion.jpg"
+    },
+    "Q239477": {
+        "name": "Cliffs of Moher",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/CliffsofMoher%20001.jpg"
+    },
+    "Q323767": {
+        "name": "Montparnasse Tower",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Remote%20view%20of%20the%20Tour%20Montparnasse%20%26%20Eiffel%20Tower%20in%202005.jpg"
+    },
+    "Q332474": {
+        "name": "Harrods",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/HarrodsDay.jpg"
+    },
+    "Q148554": {
+        "name": "National Museum of Natural History",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/National%20Museum%20of%20Natural%20History.jpg"
+    },
+    "Q157229": {
+        "name": "Church of Our Lady",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/100130%20150006%20Dresden%20Frauenkirche%20winter%20blue%20sky-2.jpg"
+    },
+    "Q431381": {
+        "name": "Meteor Crater",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Meteor%20Crater%20-%20Arizona.jpg"
+    },
+    "Q463400": {
+        "name": "Piazza Navona",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/PiazzaNavonaPanoramicaVerticale.jpg"
+    },
+    "Q339503": {
+        "name": "Newgrange",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Irelands%20history.jpg"
+    },
+    "Q215208": {
+        "name": "Church of the Savior on Blood",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/%D0%A1%D0%BE%D0%B1%D0%BE%D1%80%20%D0%92%D0%BE%D1%81%D0%BA%D1%80%D0%B5%D1%81%D0%B5%D0%BD%D0%B8%D1%8F%20%D0%A5%D1%80%D0%B8%D1%81%D1%82%D0%BE%D0%B2%D0%B0%201.jpg"
+    },
+    "Q503368": {
+        "name": "Carrauntoohil",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Carrauntoohil%202016.JPG"
+    },
+    "Q505954": {
+        "name": "Grand Bazaar",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/%D0%92%D0%BE%D1%80%D0%BE%D1%82%D0%B0%20Beyaz%C4%B1t%20.jpg"
+    },
+    "Q729370": {
+        "name": "Prague Astronomical Clock",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Astronomical%20Clock%20%288341899828%29.jpg"
+    },
+    "Q41135": {
+        "name": "Ming tombs",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Mingchangling201910.jpg"
+    },
+    "Q335277": {
+        "name": "Pont Neuf",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/The%20western%20sides%20of%20the%20%C3%8Ele%20de%20la%20Cit%C3%A9%20and%20the%20Pont%20Neuf%2C%2014%20July%202008.jpg"
+    },
+    "Q143463": {
+        "name": "Palais des Papes",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Avignon%2C%20Palais%20des%20Papes%20by%20JM%20Rosier.jpg"
+    },
+    "Q152660": {
+        "name": "Sequoia National Park",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Sequoia%20National%20Park%2C%20California%20%282011%29.jpg"
+    },
+    "Q171517": {
+        "name": "Royal Palace of Madrid",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Palacio%20Real%20de%20Madrid%20Julio%202016%20%28cropped%29.jpg"
+    },
+    "Q404571": {
+        "name": "Kazan Cathedral",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Spb%2006-2012%20Nevsky%20various%2002.jpg"
+    },
+    "Q848397": {
+        "name": "Maiden's Tower",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Istanbul%20asv2020-02%20img53%20Maiden%27s%20Tower.jpg"
+    },
+    "Q1020776": {
+        "name": "Cabo San Lucas",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Cabo%20San%20Lucas%20bay.jpg"
+    },
+    "Q23868": {
+        "name": "Brest Fortress",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/BrestFortress7.JPG"
+    },
+    "Q390306": {
+        "name": "Liberty Bell",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Liberty%20Bell%202008.jpg"
+    },
+    "Q482485": {
+        "name": "Gyeongbokgung",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/%EA%B4%91%ED%99%94%EB%AC%B8%20%EC%9B%94%EB%8C%80.jpg"
+    },
+    "Q736587": {
+        "name": "Peter and Paul Cathedral",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/PeterandPaulFortress2.JPG"
+    },
+    "Q750444": {
+        "name": "Stockholm Palace",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Stockholms%20slott%20%28Stockholm%20Palace%29%20%2824831039126%29.jpg"
+    },
+    "Q380384": {
+        "name": "Pashupatinath Temple",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/2023%20January%20night%20aarti%20at%20Pashupatinath%20Temple%2C%20Kathmandu%2002.jpg"
+    },
+    "Q387256": {
+        "name": "\u015aniardwy",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Jezioro%20%C5%9Aniardwy%2C%20widok%20z%20Nied%C5%BAwiedziego%20Rogu%20%282017%29.jpg"
+    },
+    "Q1045876": {
+        "name": "Wat Phra Kaew",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%A8%E0%B8%A3%E0%B8%B5%E0%B8%A3%E0%B8%B1%E0%B8%95%E0%B8%99%E0%B8%A8%E0%B8%B2%E0%B8%AA%E0%B8%94%E0%B8%B2%E0%B8%A3%E0%B8%B2%E0%B8%A1%20%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B9%81%E0%B8%81%E0%B9%89%E0%B8%A7%20%E0%B8%81%E0%B8%A3%E0%B8%B8%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%9E%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%99%E0%B8%84%E0%B8%A3%20-%20Wat%20Phra%20Kaew%2C%20Temple%20of%20Emerald%20Buddha%2C%20Bangkok%2C%20Thailand.jpg"
+    },
+    "Q1074318": {
+        "name": "National Museum of China",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/62684-Beijing-Tiananmen-Square%20%2828609003992%29.jpg"
+    },
+    "Q5605": {
+        "name": "Vistula Lagoon",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Vistula%20Lagoon.jpg"
+    },
+    "Q308926": {
+        "name": "Antelope Canyon",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/USA%20Antelope-Canyon.jpg"
+    },
+    "Q147875": {
+        "name": "Tsar Bell",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Moskau-Grosse-Glocke%20Mai%2008.jpg"
+    },
+    "Q180376": {
+        "name": "Hollywood Sign",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Hollywood%20Sign%20%28Zuschnitt%29.jpg"
+    },
+    "Q506234": {
+        "name": "Altare della Patria",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Altare%20della%20Patria%20%28Roma%29.jpg"
+    },
+    "Q724970": {
+        "name": "Wat Arun",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Wat%20Arun%20from%20Chao%20Phraya%20River.jpg"
+    },
+    "Q756098": {
+        "name": "Royal Castle in Warsaw",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Warszawa-Zamek%20Kr%C3%B3lewski.jpg"
+    },
+    "Q756268": {
+        "name": "Stirling Castle",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Stirlingcastle.jpg"
+    },
+    "Q375634": {
+        "name": "Sinharaja Forest Reserve",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/SL%20Sinharaja%20Forest%20asv2020-01%20img08.jpg"
+    },
+    "Q644677": {
+        "name": "\u015eehzade Mosque",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Princova%20me%C5%A1ita.jpg"
+    },
+    "Q1097": {
+        "name": "Berlin Central Station",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Berlin%20Hauptbahnhof%20Ostseite%20HDR.jpg"
+    },
+    "Q5317": {
+        "name": "Space Needle",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Seattle%2C%20October%206%2C%202023%20-%2060.jpg"
+    },
+    "Q43280": {
+        "name": "Oslo Opera House",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Full%20Opera%20by%20night.jpg"
+    },
+    "Q123017": {
+        "name": "Carrow Road",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/NCFC%20Geoffrey%20Watling%20City%20Stand%20Apr07.JPG"
+    },
+    "Q155107": {
+        "name": "Zwinger",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Zwinger%20Dresden%20Innenhof.jpg"
+    },
+    "Q725883": {
+        "name": "Maya Ruins of Tulum",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Tulum%202006%202.jpg"
+    },
+    "Q850042": {
+        "name": "Uppsala Cathedral",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Uppsala%20domkyrka%2C%20flygbild%20%28cropped%29.jpg"
+    },
+    "Q369967": {
+        "name": "Fatih Sultan Mehmet Bridge",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Istanbul%20Bosporusbr%C3%BCcke%20II.JPG"
+    },
+    "Q643520": {
+        "name": "place Vend\u00f4me",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Place%20Vend%C3%B4me%20vue%20a%C3%A9rienne.png"
+    },
+    "Q652464": {
+        "name": "Kolomenskoye",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Moscow%20Kolomenskoye%20Ascension%20Church%20%2816%29.jpg"
+    },
+    "Q48108": {
+        "name": "Vi\u00f1ales Valley",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Vi%C3%B1ales%20Valley.jpg"
+    },
+    "Q99327": {
+        "name": "Falkirk Wheel",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/FalkirkWheelSide%202004%20SeanMcClean.jpg"
+    },
+    "Q744406": {
+        "name": "Library of Celsus",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Ephesus%20Celsus%20Library%20Fa%C3%A7ade.jpg"
+    },
+    "Q748910": {
+        "name": "Dormition Cathedral",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Dormition%20%28Kremlin%29.JPG"
+    },
+    "Q911720": {
+        "name": "New Mosque",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Mezquita%20Nueva%2C%20Estambul%2C%20Turqu%C3%ADa%2C%202024-09-29%2C%20DD%2039-41%20HDR.jpg"
+    },
+    "Q2635530": {
+        "name": "Tomb of Cyrus the Great",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Pasargad%20Tomb%20Cyrus3.jpg"
+    },
+    "Q102327045": {
+        "name": "Arecibo Observatory",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Arecibo%20radio%20telescope%20SJU%2006%202019%206144.jpg"
+    },
+    "Q549498": {
+        "name": "GUM",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/%D0%93%D0%A3%D0%9C%20%281%29.jpg"
+    },
+    "Q581641": {
+        "name": "Divri\u011fi Great Mosque and Hospital",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Divrigi%2CMoschee-Kale.jpg"
+    },
+    "Q619558": {
+        "name": "Portman Road",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Cobbold%20Stand%2C%20Ipswich%20Town%20Football%20Club%208418.jpg"
+    },
+    "Q820002": {
+        "name": "Mamayev Kurgan",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Mamaev%20kurgan%20%28%D0%9E%D0%9A%D0%9D%29.JPG"
+    },
+    "Q848072": {
+        "name": "Spanish Steps",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Scalinata%20della%20Trinit%C3%A0%20dei%20Monti.jpg"
+    },
+    "Q641556": {
+        "name": "Verona Arena",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Italy%20-%20Verona%20-%20Arena.jpg"
+    },
+    "Q239935": {
+        "name": "City of Arts and Sciences",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Valencia%2C%20Ciudad%20de%20las%20Ciencias%20y%20de%20las%20Artes.jpg"
+    },
+    "Q275128": {
+        "name": "Caernarfon Castle",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Castell%20Caernarfon%20yn%20y%20cyfnos%20yn%202023%20-%20Castell%20Caernarfon%2C%20Gwynedd%2C%20Wales%20at%20Dusk%20-%202023%2010.png"
+    },
+    "Q687629": {
+        "name": "Batu Caves",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Batu%20Caves%20stairs%202022-05.jpg"
+    },
+    "Q736676": {
+        "name": "Hagia Irene",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Hagia%20Irene%2C%20Istanbul%20%2852112279404%29%20%28cropped%29.jpg"
+    },
+    "Q843997": {
+        "name": "Tokyo Disneyland",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Tokyo%20Disneyland%20Cinderella%20Castle%202023-07-02.jpg"
+    },
+    "Q15124814": {
+        "name": "Piazza di Spagna",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Scalinata%20della%20Trinit%C3%A0%20dei%20Monti.jpg"
+    },
+    "Q242772": {
+        "name": "Toughsheet Community Stadium",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Reebokstadium%20inside.jpg"
+    },
+    "Q258348": {
+        "name": "Jemaa el-Fnaa",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/MoroccoMarrakech%20DjemaaElFna..jpg"
+    },
+    "Q81523": {
+        "name": "Galata Bridge",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Galata%20Bridge%20From%20Tower.JPG"
+    },
+    "Q176380": {
+        "name": "Ortak\u00f6y Mosque",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Istanbul%20asv2020-02%20img61%20Ortak%C3%B6y%20Mosque.jpg"
+    },
+    "Q630135": {
+        "name": "Gardens by the Bay",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Supertree%20Grove%2C%20Gardens%20by%20the%20Bay%2C%20Singapore%20-%2020120712-02.jpg"
+    },
+    "Q637248": {
+        "name": "Naples National Archaeological Museum",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Museo%20Archeologico%20Nazionale%20di%20Napoli%20-%20panoramio%20%281%29.jpg"
+    },
+    "Q714783": {
+        "name": "Gripsholm Castle",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Gripsholms%20slott%20view2.jpg"
+    },
+    "Q722125": {
+        "name": "Sky Tower",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Auckland%20Sky%20Tower%20closeup.jpg"
+    },
+    "Q756189": {
+        "name": "Fatih Istanbul Mosque",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/FatihMosque.jpg"
+    },
+    "Q810684": {
+        "name": "Basilica of Our Lady of the Pillar",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Zaragoza%20-%20Basilica%20de%20Nuestra%20Se%C3%B1ora%20del%20Pilar%2001.jpg"
+    },
+    "Q844124": {
+        "name": "White House",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/%D0%94%D0%BE%D0%BC%20%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D1%81%D1%82%D0%B2%D0%B0%20%D0%A0%D0%A4.jpg"
+    },
+    "Q855493": {
+        "name": "Exhibition of achievements of national economy",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/VDNKh%20%28All-Russian%20Exhibition%20Center%29%20IMG%2020241022%20104315%20MP.jpg"
+    },
+    "Q25220": {
+        "name": "Swiss Alps",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Muttbach.jpg"
+    },
+    "Q40129": {
+        "name": "Marina Bay",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Marina-bay-at%20night%20singapore-May%201%202009.jpg"
+    },
+    "Q155921": {
+        "name": "Bletchley Park",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Bletchley%20Park%20Mansion.jpg"
+    },
+    "Q163246": {
+        "name": "Morskie Oko",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Przelecz%20pod%20chlopkiem.jpg"
+    },
+    "Q648483": {
+        "name": "Stockholm City Hall",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Stockholms%20stadshus%20september%202011.jpg"
+    },
+    "Q493117": {
+        "name": "Fisherman's Bastion",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Hal%C3%A1szb%C3%A1stya%20%C3%A9p%C3%BClete%20d%C3%ADszl%C3%A9pcs%C5%91vel%20%28103.%20sz%C3%A1m%C3%BA%20m%C5%B1eml%C3%A9k%29%2028.jpg"
+    },
+    "Q689454": {
+        "name": "Danevirke",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Danewerk.jpg"
+    },
+    "Q745608": {
+        "name": "Las Vegas Strip",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Las%20Vegas%2063.jpg"
+    },
+    "Q925688": {
+        "name": "Uluda\u011f",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Uludag.JPG"
+    },
+    "Q1043631": {
+        "name": "Murtala Muhammed International Airport",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/MMIA%20Intl%20Terminal%202019.jpg"
+    },
+    "Q1335201": {
+        "name": "St Martin-in-the-Fields",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/St%20martin%20in%20the%20fields%20exterior.jpg"
+    },
+    "Q216846": {
+        "name": "Great Geysir",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Geysir%2C%20Geysir%20geothermal%20field%2C%202019.jpg"
+    },
+    "Q344348": {
+        "name": "\u0130stiklal Avenue",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Istiklal%20caddesi%202.jpg"
+    },
+    "Q650981": {
+        "name": "B\u0103ile Herculane",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Hotel%20Roman%2C%20Baile%20Herculane.JPG"
+    },
+    "Q752407": {
+        "name": "Singapore Flyer",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Dikaiosp%20210819%206963.jpg"
+    },
+    "Q1522557": {
+        "name": "Lake Retba",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/RetbaLakeShore.jpg"
+    },
+    "Q201902": {
+        "name": "Mole Antonelliana",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Mole%20Antonelliana%2002.jpg"
+    },
+    "Q312812": {
+        "name": "Jaffa Gate",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Jaffa%20Gate%20Jerusalem.jpg"
+    },
+    "Q493126": {
+        "name": "Hundertwasserhaus",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Wien%20-%20Hundertwasserhaus%20%2804%29.JPG"
+    },
+    "Q823685": {
+        "name": "Santa Maria sopra Minerva",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Santa%20Maria%20sopra%20Minerva.jpg"
+    },
+    "Q917830": {
+        "name": "Cathedral of the Archangel",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Cathedral%20of%20the%20Archangel%20in%20Moscow%2001%20by%20shakko.jpg"
+    },
+    "Q941276": {
+        "name": "Warwick Castle",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Warwick%20Castle%20May%202016.jpg"
+    },
+    "Q946428": {
+        "name": "Alexander Nevsky Lavra",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/RUS-2016-Aerial-SPB-Alexander%20Nevsky%20Lavra.jpg"
+    },
+    "Q956911": {
+        "name": "Otrar",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Ovidio%20Guaita%2016.jpg"
+    },
+    "Q1140434": {
+        "name": "Solovetsky Monastery",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Solovetsky%20Monastery%20drone%201.jpg"
+    },
+    "Q1144576": {
+        "name": "Little Hagia Sophia",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Sergius%20and%20Bacchus.jpg"
+    },
+    "Q1268562": {
+        "name": "Kailasa Temple, Ellora",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Ellora%20Cave%2016%20si0308.jpg"
+    },
+    "Q1334825": {
+        "name": "Pelion",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Pilion%20with%20monastery%20pau.JPG"
+    },
+    "Q3176133": {
+        "name": "Louvre Abu Dhabi",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/LouvreAD%20tree.jpg"
+    },
+    "Q90801": {
+        "name": "Rumelihisar\u0131",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Twierdza%20Rumeli%20Istambu%C5%82%20RB1.jpg"
+    },
+    "Q269373": {
+        "name": "Arbat Street",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Arbat%20Street%20in%20MSK.jpg"
+    },
+    "Q395367": {
+        "name": "Ancient Agora of Athens",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/AncientAgoraofAthensColour.jpg"
+    },
+    "Q501726": {
+        "name": "Dune of Pilat",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Sommet%20de%20la%20Dune%20du%20Pilat.jpg"
+    },
+    "Q545360": {
+        "name": "Graceland",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Graceland%20front.jpg"
+    },
+    "Q573920": {
+        "name": "Jasna G\u00f3ra Monastery",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Jasna%20G%C3%B3ra%20i%20otoczenie%2006.jpg"
+    },
+    "Q635559": {
+        "name": "Golden Gate Park",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/California-06241%20-%20In%20front%20of%20museum%20%2820449897948%29.jpg"
+    },
+    "Q668641": {
+        "name": "Spice Bazaar",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Istanbul%20spice%20bazaar%2002.jpg"
+    },
+    "Q868616": {
+        "name": "Hollywood Boulevard",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Hollywood%20Walk%20of%20Fame.jpg"
+    },
+    "Q1123956": {
+        "name": "Sukur",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Sukur%20Cultural%20Landscape%20%283%29.jpg"
+    },
+    "Q1334148": {
+        "name": "Lake E\u011firdir",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Lake%20Egirdir.jpg"
+    },
+    "Q1621200": {
+        "name": "Tsarskoye Selo",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/RUS-2016-Pushkin-Catherine%20Park-Catherine%20Palace%20%28facade%29.jpg"
+    },
+    "Q289175": {
+        "name": "Temple of the Tooth",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/SL%20Kandy%20asv2020-01%20img33%20Sacred%20Tooth%20Temple.jpg"
+    },
+    "Q648226": {
+        "name": "Kalmar Castle",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kalmar%20slott%20frontal.jpg"
+    },
+    "Q540237": {
+        "name": "Fountains Abbey",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Fountains%20Abbey%20view02%202005-08-27.jpg"
+    },
+    "Q858794": {
+        "name": "Old Faithful",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Yellowstone%20National%20Park%20%28WY%2C%20USA%29%2C%20Old%20Faithful%20Geyser%20--%202022%20--%202599.jpg"
+    },
+    "Q948747": {
+        "name": "Nemrut",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Nemrut%20Vulcano.jpg"
+    },
+    "Q1131807": {
+        "name": "El Retiro Park",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/June%20Parc%20Retiro%20Madrid%20-%20Mythos%20Spain%20Photography%202014%20-%20panoramio%20%288%29.jpg"
+    },
+    "Q1136137": {
+        "name": "National September 11 Memorial & Museum",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/9-11%20Memorial%20and%20Museum%20%2828815276064%29.jpg"
+    },
+    "Q1137511": {
+        "name": "R\u00fcstem Pasha Mosque",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/R%C3%BCstem%20Pasha%20Mosque%20in%202024%205321.jpg"
+    },
+    "Q1370087": {
+        "name": "Grand Kremlin Palace",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Moscow%2009-13%20img20%20Grand%20Kremlin%20Palace.jpg"
+    },
+    "Q1419157": {
+        "name": "S\u00fcmela Monastery",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Sumela%20Monastery%20%282674159860%29.jpg"
+    },
+    "Q81650": {
+        "name": "Anadoluhisar\u0131",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Anadolu%20Hisar%C4%B1%20in%202024%20%28cropped%29.jpg"
+    },
+    "Q225459": {
+        "name": "K\u00f6nigsberg Cathedral",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kaliningrad%2005-2017%20img04%20Kant%20Island.jpg"
+    },
+    "Q287165": {
+        "name": "Meiji Jing\u016b",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Courtyard%20of%20Meiji%20Shrine%2020190717.jpg"
+    },
+    "Q69134": {
+        "name": "N Seoul Tower",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Namsan%20Park%20and%20Seoul%20Tower%20%284615642044%29.jpg"
+    },
+    "Q521935": {
+        "name": "Seven Sisters",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Seven%20sisters%20in%20Moscow.jpg"
+    },
+    "Q528079": {
+        "name": "Tian Tan Buddha",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Tian%20Tan%20Buddha%20by%20Beria.jpg"
+    },
+    "Q584366": {
+        "name": "Mnajdra",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/02005%20Mnajdra%20Temples%2C%20copper%20age%2C%202800%20BC.jpg"
+    },
+    "Q827268": {
+        "name": "Sydney Tower",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/SydneyAMPTower%20gobeirne.jpg"
+    },
+    "Q859413": {
+        "name": "Big Sur",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Big%20Sur%20June%202008.jpg"
+    },
+    "Q911734": {
+        "name": "Y\u0131ld\u0131z Palace",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/%C4%B0stanbul%205716.jpg"
+    },
+    "Q939811": {
+        "name": "Tabernas Desert",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Almeria%2002.jpg"
+    },
+    "Q952924": {
+        "name": "Aqueduct of Valens",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Unkapan%C4%B1%20-%C4%B0stanbul%20-%20panoramio.jpg"
+    },
+    "Q1344889": {
+        "name": "Somerset House",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Somerset%20House%2C%20Strand.jpg"
+    },
+    "Q32339": {
+        "name": "Bursa Grand Mosque",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/71%20Bursa%20la%20Grande%20Moschea%20%28Edited%29.jpg"
+    },
+    "Q38580": {
+        "name": "Cascata delle Marmore",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/George%20Augustus%20Wallis%20%281761-1847%29%20-%20The%20Marble%20Falls%2C%20Terni%20-%20PD.29-1997%20-%20Fitzwilliam%20Museum.jpg"
+    },
+    "Q515253": {
+        "name": "Tanah Lot",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Bali%20-%20Pura%20Tanah%20Lot%2C%2020220827%201005%201141.jpg"
+    },
+    "Q615183": {
+        "name": "Sens\u014d-ji Temple",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Sensoji%202023.jpg"
+    },
+    "Q621498": {
+        "name": "Osun-Osogbo Grove",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Templo%20Osun3.jpg"
+    },
+    "Q657118": {
+        "name": "Riddarholm Church",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Riddarholmskyrkan%20juni%202005.jpg"
+    },
+    "Q667507": {
+        "name": "Lake Powell",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Lake%20Powell%20by%20Sentinel-2.jpg"
+    },
+    "Q794349": {
+        "name": "Beylerbeyi Palace",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Bosfor%20B17-35.jpg"
+    },
+    "Q829418": {
+        "name": "Besakih",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Pura%20Besakih%20Sunrise%2001.jpg"
+    },
+    "Q1144973": {
+        "name": "Stadium MK",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/StadiumMKEnglandU21.jpg"
+    },
+    "Q1367167": {
+        "name": "Golden Gate",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Golden%20Gate%20Jerusalem%202009.JPG"
+    },
+    "Q1486703": {
+        "name": "Taq-i Kisra",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/001125-TaqKasra-Iraq-IMG%207914-2.jpg"
+    },
+    "Q1517884": {
+        "name": "National Palace",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Calle%20frente%20al%20zocalo.JPG"
+    },
+    "Q1756286": {
+        "name": "Gammelstad Church Town",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Gammelstad.jpg"
+    },
+    "Q2249546": {
+        "name": "Ortak\u00f6y",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Istanbul%20asv2020-02%20img61%20Ortak%C3%B6y%20Mosque.jpg"
+    },
+    "Q3142395": {
+        "name": "Hyatt Regency Paris Etoile",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Hyatt%20Regency%20Paris%20%C3%89toile%2C%207%20February%202014.jpg"
+    }
+}

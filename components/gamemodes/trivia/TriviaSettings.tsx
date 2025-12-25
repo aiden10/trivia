@@ -73,6 +73,24 @@ export default function TriviaSettings({
         onSettingsChange({ imageCategories: newCategories });
     };
 
+    const handleUnselectAllText = () => {
+        // Only unselect if there are image categories selected
+        if (selectedImageCategories.length === 0) {
+            return;
+        }
+        setSelectedCategories([]);
+        onSettingsChange({ categories: [] });
+    };
+
+    const handleUnselectAllImages = () => {
+        // Only unselect if there are text categories selected
+        if (selectedCategories.length === 0) {
+            return;
+        }
+        setSelectedImageCategories([]);
+        onSettingsChange({ imageCategories: [] });
+    };
+
     const handleDurationChange = (value: number) => {
         setDuration(value);
         if (host) {
@@ -136,12 +154,23 @@ export default function TriviaSettings({
 
             {/* Text Categories */}
             <div className="flex flex-col gap-2">
-                <label className="settings-label group relative cursor-help">
-                    Text Questions
-                    <span className="tooltip">
-                        Standard trivia questions
-                    </span>
-                </label>
+                <div className="flex items-center justify-between">
+                    <label className="settings-label group relative cursor-help">
+                        Text Questions
+                        <span className="tooltip">
+                            Standard trivia questions
+                        </span>
+                    </label>
+                    {host && (
+                        <button
+                            onClick={handleUnselectAllText}
+                            disabled={selectedCategories.length === 0 || selectedImageCategories.length === 0}
+                            className="btn-primary text-sm px-3 py-1 disabled:opacity-50 disabled:cursor-not-allowed"
+                        >
+                            Unselect All
+                        </button>
+                    )}
+                </div>
                 
                 <div className="grid grid-cols-2 gap-2 bg-neutral-900 bg-dots p-4">
                     {Object.values(TriviaCategories).map((category) => (
@@ -164,12 +193,23 @@ export default function TriviaSettings({
 
             {/* Image Categories */}
             <div className="flex flex-col gap-2">
-                <label className="settings-label group relative cursor-help">
-                    Image Questions
-                    <span className="tooltip">
-                        Identify people or things from images
-                    </span>
-                </label>
+                <div className="flex items-center justify-between">
+                    <label className="settings-label group relative cursor-help">
+                        Image Questions
+                        <span className="tooltip">
+                            Identify people or things from images
+                        </span>
+                    </label>
+                    {host && (
+                        <button
+                            onClick={handleUnselectAllImages}
+                            disabled={selectedImageCategories.length === 0 || selectedCategories.length === 0}
+                            className="btn-primary text-sm px-3 py-1 disabled:opacity-50 disabled:cursor-not-allowed"
+                        >
+                            Unselect All
+                        </button>
+                    )}
+                </div>
                 
                 <div className="grid grid-cols-2 gap-2 bg-neutral-900 bg-dots p-4">
                     {IMAGE_CATEGORIES.map((category) => (

@@ -401,7 +401,7 @@ def fetch_wikidata_trivia(category_id, category_name, is_person=False, min_sitel
     
     print(f"Saved to {filename}")
 
-fetch_wikidata_trivia("Q4964182", "philosophers", is_person=True, min_sitelinks=65)
+# fetch_wikidata_trivia("Q15632617", "fictional", is_person=False, min_sitelinks=20)
 
 load_all_questions()
 load_all_images()

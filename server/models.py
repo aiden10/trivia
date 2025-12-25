@@ -84,8 +84,13 @@ class ImageCategories(Enum):
     Dishes = "dishes"
     Basketball = "basketball"
     Philosophers = "philosophers"
+    Attractions = "attractions"
+    Flags = "flags"
+    Paintings = "paintings"
+    Musicians = "musicians"
+    Characters = "characters"
     
-NON_PEOPLE_IMAGE_CATEGORIES = {"dishes"}
+NON_PEOPLE_IMAGE_CATEGORIES = {"dishes", "attractions", "flags", "paintings"}
 
 class PeopleProperties(Enum):
     Male = "male"
