@@ -1,5 +1,6 @@
 'use client'
 
+import { useGameContext } from '@/shared/GameContext';
 import { RotanikaQuestion, Player } from '@/shared/types';
 
 interface QuestionLogProps {
@@ -8,6 +9,14 @@ interface QuestionLogProps {
 }
 
 export default function QuestionLog({ questions, players }: QuestionLogProps) {
+    const { playerID, roomState } = useGameContext();
+    
+    const rotanikaState = roomState?.rotanikaState;
+    const pickerId = rotanikaState?.pickerId;
+    const isPicker = playerID === pickerId;
+    const currentAsker = rotanikaState?.currentAsker;
+    const isMyTurn = playerID === currentAsker;
+
     const getPlayerName = (id: number) => {
         return players.find(p => p.playerID === id)?.playerName ?? 'Unknown';
     };
@@ -53,8 +62,9 @@ export default function QuestionLog({ questions, players }: QuestionLogProps) {
             <h3 className="text-white font-inter uppercase text-sm p-3 border-b border-white/30 bg-black/50">
                 Question Log
             </h3>
-            <div className="max-h-1/4 overflow-y-auto">
-                {questions.map((q, index) => (
+            <div className={`overflow-y-auto ${isPicker ? 'md:max-h-[50vh] min-h-[50vh] max-h-[60vh]' : 'md:max-h-[30vh] min-h-[30vh] max-h-[45vh]'}
+            ${isMyTurn? 'min-h-[60vh]' : 'min-h-[45vh]'}`}>
+                {[...questions].reverse().map((q, index) => (
                     <div 
                         key={index}
                         className={`p-3 border-l-4 transition-all duration-500 ${getAnswerStyles(q.answer)} 

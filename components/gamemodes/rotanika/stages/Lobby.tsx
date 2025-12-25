@@ -40,7 +40,7 @@ export default function Lobby() {
                 {host && (
                     <>
                         {!canStart && (
-                            <p className="text-amber-400/75 text-center mt-4 font-inter font-light italic">
+                            <p className="text-amber-400/75 text-center mt-4 font-inter font-light italic bg-amber-400/30 py-2 ">
                                 Need at least 2 players to start
                             </p>
                         )}

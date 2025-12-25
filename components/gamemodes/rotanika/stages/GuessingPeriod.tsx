@@ -41,7 +41,7 @@ export default function GuessingPeriod() {
     };
 
     return (
-        <div className="game-screen bg-lines">
+        <div className="game-screen bg-lines pt-8">
             <div className="w-full max-w-4xl flex flex-col gap-6">
                 {/* Header */}
                 <div className="flex justify-between items-center bg-neutral-900 p-4 border-2 border-white">
@@ -112,7 +112,7 @@ export default function GuessingPeriod() {
 
                 {/* Question Input for Current Asker */}
                 {!waitingForAnswer && isMyTurn && !isPicker && (
-                    <div className="bg-neutral-900 border-2 border-white p-6">
+                    <div className="bg-neutral-900 border-2 border-white p-6 bg-dots">
                         <p className="text-white text-lg mb-4 font-inter">
                             It is your turn to ask a question
                         </p>
@@ -150,7 +150,7 @@ export default function GuessingPeriod() {
                                     isDeciding ? 'bg-purple-900 border-purple-500' : ''
                                 }`}
                             >
-                                {isDeciding ? 'Make Final Guess' : 'Ask Question'}
+                                {isDeciding ? 'Make Guess' : 'Ask Question'}
                             </button>
                         </form>
                     </div>

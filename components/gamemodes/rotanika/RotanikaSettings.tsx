@@ -66,8 +66,7 @@ export default function RotanikaSettings({ host, onSettingsChange }: RotanikaSet
             <div className="flex flex-col gap-2">
                 <label className="settings-label group relative cursor-help">
                     Minimum Questions: {minQuestions}
-                    <span className="absolute bottom-full left-0 mb-2 hidden group-hover:block 
-                        bg-black text-white text-sm p-2 rounded max-w-xs z-10">
+                    <span className="tooltip">
                         If guessed before this many questions, only the guesser wins
                     </span>
                 </label>
@@ -89,8 +88,7 @@ export default function RotanikaSettings({ host, onSettingsChange }: RotanikaSet
             <div className="flex flex-col gap-2">
                 <label className="settings-label group relative cursor-help">
                     Maximum Questions: {maxQuestions}
-                    <span className="absolute bottom-full left-0 mb-2 hidden group-hover:block 
-                        bg-black text-white text-sm p-2 rounded max-w-xs z-10">
+                    <span className="tooltip">
                         If not guessed by this many questions, the picker loses
                     </span>
                 </label>

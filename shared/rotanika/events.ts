@@ -1,4 +1,4 @@
-import { Player, RotanikaStages, RotanikaSettings, RoomState, RotanikaQuestion } from "@/shared/types";
+import { Player, RotanikaStages, RotanikaSettings, RoomState } from "@/shared/types";
 import { playSound } from "../utils";
 
 export enum RotanikaEvents {

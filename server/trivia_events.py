@@ -79,6 +79,12 @@ async def handle_update_stage(message: dict, room: Room):
             p.guess = ""
             p.can_score = True
     
+    if new_stage == TriviaStages.Results:
+        for p in room.players.values():
+            p.guess = ""
+            p.correct_guesses = []
+            p.score = 0
+    
     await send_state(room, TriviaEvents.UpdateStage.value)
 
 async def handle_update_question(room: Room):

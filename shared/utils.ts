@@ -85,6 +85,7 @@ export function showToast(message: string, opts: ToastOptions = {}) {
     switch (type) {
         case 'success':
             bgColor = '#14532d'; // emerald-900
+            borderColor = '#10b981';
             break;
         case 'error':
             bgColor = '#450a0a'; // red-950

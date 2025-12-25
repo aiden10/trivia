@@ -26,7 +26,8 @@ from rotanika_events import (
     handle_set_secret as handle_rotanika_set_secret,
     handle_ask_question as handle_rotanika_ask_question,
     handle_answer_question as handle_rotanika_answer_question,
-    handle_update_settings as handle_rotanika_update_settings
+    handle_update_settings as handle_rotanika_update_settings,
+    handle_player_disconnect as handle_rotanika_player_disconnect
 )
 
 origins = [
@@ -179,7 +180,9 @@ async def websocket_endpoint(websocket: WebSocket, room_id: str):
         if player and room:
             if player.id in room.players:
                 room.players.pop(player.id)
-                
+                if room.gamemode == GameModes.Rotanika.value:
+                    await handle_rotanika_player_disconnect(room, player.id)
+
                 await broadcast({
                     "type": Events.Quit.value,
                     "data": {"playerID": player.id}

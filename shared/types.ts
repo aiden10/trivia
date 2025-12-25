@@ -97,6 +97,26 @@ export enum TriviaCategories {
     Miscellaneous = "miscellaneous",
 }
 
+export const CONTINENTS = [
+    PeopleProperties.Asia,
+    PeopleProperties.NorthAmerica,
+    PeopleProperties.SouthAmerica,
+    PeopleProperties.Europe,
+    PeopleProperties.Africa,
+    PeopleProperties.Oceania
+];
+
+export const GENDERS = [PeopleProperties.Male, PeopleProperties.Female];
+
+export const OCCUPATIONS = [
+    PeopleProperties.Athlete,
+    PeopleProperties.Actor,
+    PeopleProperties.Politician,
+    PeopleProperties.Musician,
+    PeopleProperties.Scientist,
+    PeopleProperties.Author
+];
+
 export interface TriviaSettings {
     categories?: string[];
     questionDuration?: number;

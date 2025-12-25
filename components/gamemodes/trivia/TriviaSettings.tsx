@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { TriviaCategories, TriviaSettings as TriviaSettingsType } from "@/shared/types";
+import { TriviaCategories, TriviaSettings as TriviaSettingsType, CONTINENTS, GENDERS, OCCUPATIONS } from "@/shared/types";
 
 interface TriviaSettingsProps {
     host: boolean;
@@ -75,8 +75,7 @@ export default function TriviaSettings({
             <div className="flex flex-col gap-2">
                 <label className="settings-label group relative cursor-help">
                     Question Duration: {duration} seconds
-                    <span className="absolute bottom-full left-0 mb-2 hidden group-hover:block 
-                        bg-black text-white text-sm p-2 rounded max-w-xs z-10">
+                    <span className="tooltip">
                         How long players have to answer each question
                     </span>
                 </label>
@@ -98,8 +97,7 @@ export default function TriviaSettings({
             <div className="flex flex-col gap-2">
                 <label className="settings-label group relative cursor-help">
                     Winning Score: {winningScore}
-                    <span className="absolute bottom-full left-0 mb-2 hidden group-hover:block 
-                        bg-black text-white text-sm p-2 rounded max-w-xs z-10">
+                    <span className="tooltip">
                         Score needed to win the game
                     </span>
                 </label>
@@ -122,8 +120,7 @@ export default function TriviaSettings({
             <div className="flex flex-col gap-2">
                 <label className="settings-label group relative cursor-help">
                     Categories (select at least one)
-                    <span className="absolute bottom-full left-0 mb-2 hidden group-hover:block 
-                        bg-black text-white text-sm p-2 rounded max-w-xs z-10">
+                    <span className="tooltip">
                         Select which question categories to include
                     </span>
                 </label>

@@ -1,7 +1,7 @@
 'use client'
 
 import { useGameContext } from '@/shared/GameContext';
-import { PeopleStages, PeopleProperties } from '@/shared/types';
+import { PeopleStages, PeopleProperties, CONTINENTS, GENDERS, OCCUPATIONS } from '@/shared/types';
 import { useEffect, useRef } from 'react';
 import { capitalizeWords } from '@/shared/utils';
 
@@ -38,29 +38,9 @@ export default function PropertiesDisplay() {
         return () => clearInterval(interval);
     }, [host, players, winningScore, submitPGUpdateStage]);
 
-    const continents = [
-        PeopleProperties.Asia,
-        PeopleProperties.NorthAmerica,
-        PeopleProperties.SouthAmerica,
-        PeopleProperties.Europe,
-        PeopleProperties.Africa,
-        PeopleProperties.Oceania
-    ];
-
-    const genders = [PeopleProperties.Male, PeopleProperties.Female];
-
-    const occupations = [
-        PeopleProperties.Athlete,
-        PeopleProperties.Actor,
-        PeopleProperties.Politician,
-        PeopleProperties.Musician,
-        PeopleProperties.Scientist,
-        PeopleProperties.Author
-    ];
-
-    const selectedContinents = properties.filter(p => continents.includes(p));
-    const selectedGenders = properties.filter(p => genders.includes(p));
-    const selectedOccupations = properties.filter(p => occupations.includes(p));
+    const selectedContinents = properties.filter(p => CONTINENTS.includes(p));
+    const selectedGenders = properties.filter(p => GENDERS.includes(p));
+    const selectedOccupations = properties.filter(p => OCCUPATIONS.includes(p));
 
     return (
         <div className='w-full flex flex-col min-h-screen gap-y-8 p-4 bg-lines'>

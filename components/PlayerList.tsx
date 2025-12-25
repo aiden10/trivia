@@ -30,8 +30,8 @@ export default function PlayerList() {
                                 {player.correctGuesses.map((correctGuess, i) => (
                                     <span 
                                         key={i}
-                                        className="px-2 py-0.5 bg-emerald-900/75 text-white
-                                            text-xs font-medium border border-emerald-800"
+                                        className="px-2 py-0.5 bg-emerald-900 text-white
+                                            text-xs font-medium border border-emerald-500"
                                     >
                                         ✓ {correctGuess}
                                     </span>

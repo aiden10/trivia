@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { PeopleProperties, PeopleSettings as PeopleSettingsType } from "@/shared/types";
+import { PeopleProperties, PeopleSettings as PeopleSettingsType, CONTINENTS, GENDERS, OCCUPATIONS } from "@/shared/types";
 
 interface PeopleSettingsProps {
     host: boolean;
@@ -25,6 +25,13 @@ export default function PeopleSettings({
     const [winningScore, setWinningScore] = useState(initialWinningScore);
     const [lowerBound, setLowerBound] = useState(initialLowerBound);
     const [upperBound, setUpperBound] = useState(initialUpperBound);
+
+    const formatPropertyLabel = (property: string) => {
+        return property
+            .split('_')
+            .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+            .join(' ');
+    };
 
     const handlePropertyToggle = (property: string, checked: boolean) => {
         // Prevent deselecting if it's the last one
@@ -74,8 +81,7 @@ export default function PeopleSettings({
             <div className="flex flex-col gap-2">
                 <label className="settings-label group relative cursor-help">
                     Question Duration: {duration} seconds
-                    <span className="absolute bottom-full left-0 mb-2 hidden group-hover:block 
-                        bg-black text-white text-sm p-2 rounded max-w-xs z-10">
+                    <span className="tooltip">
                         How long players have to guess people
                     </span>
                 </label>
@@ -97,8 +103,7 @@ export default function PeopleSettings({
             <div className="flex flex-col gap-2">
                 <label className="settings-label group relative cursor-help">
                     Winning Score: {winningScore}
-                    <span className="absolute bottom-full left-0 mb-2 hidden group-hover:block 
-                        bg-black text-white text-sm p-2 rounded max-w-xs z-10">
+                    <span className="tooltip">
                         Score needed to win the game
                     </span>
                 </label>
@@ -121,8 +126,7 @@ export default function PeopleSettings({
             <div className="flex flex-col gap-2">
                 <label className="settings-label group relative cursor-help">
                     Combinations Lower Bound: {lowerBound}
-                    <span className="absolute bottom-full left-0 mb-2 hidden group-hover:block 
-                        bg-black text-white text-sm p-2 rounded max-w-xs z-10">
+                    <span className="tooltip">
                         Minimum number of properties that will be combined
                     </span>
                 </label>
@@ -144,8 +148,7 @@ export default function PeopleSettings({
             <div className="flex flex-col gap-2">
                 <label className="settings-label group relative cursor-help">
                     Combinations Upper Bound: {upperBound}
-                    <span className="absolute bottom-full left-0 mb-2 hidden group-hover:block 
-                        bg-black text-white text-sm p-2 rounded max-w-xs z-10">
+                    <span className="tooltip">
                         Maximum number of properties that will be combined
                     </span>
                 </label>
@@ -163,18 +166,17 @@ export default function PeopleSettings({
                 )}
             </div>
 
-            {/* Properties */}
+            {/* Genders */}
             <div className="flex flex-col gap-2">
                 <label className="settings-label group relative cursor-help">
-                    Properties (select at least one)
-                    <span className="absolute bottom-full left-0 mb-2 hidden group-hover:block 
-                        bg-black text-white text-sm p-2 rounded max-w-xs z-10">
-                        Select which properties to include in the game
+                    Genders
+                    <span className="tooltip">
+                        Must be of this gender
                     </span>
                 </label>
                 
                 <div className="grid grid-cols-2 gap-2 bg-neutral-900 bg-dots p-4">
-                    {Object.values(PeopleProperties).map((property) => (
+                    {GENDERS.map((property) => (
                         <label 
                             key={property}
                             className={`flex items-center gap-3 settings-label ${!host && 'opacity-50'}`}
@@ -186,7 +188,63 @@ export default function PeopleSettings({
                                 disabled={!host}
                                 className="settings-checkbox"
                             />
-                            <span>{property}</span>
+                            <span>{formatPropertyLabel(property)}</span>
+                        </label>
+                    ))}
+                </div>
+            </div>
+
+            {/* Continents */}
+            <div className="flex flex-col gap-2">
+                <label className="settings-label group relative cursor-help">
+                    Continents
+                    <span className="tooltip">
+                        Must have been a citizen in a country in the continent at some point during their life 
+                    </span>
+                </label>
+                
+                <div className="grid grid-cols-2 gap-2 bg-neutral-900 bg-dots p-4">
+                    {CONTINENTS.map((property) => (
+                        <label 
+                            key={property}
+                            className={`flex items-center gap-3 settings-label ${!host && 'opacity-50'}`}
+                        >
+                            <input
+                                type="checkbox"
+                                checked={selectedProperties.includes(property)}
+                                onChange={(e) => handlePropertyToggle(property, e.target.checked)}
+                                disabled={!host}
+                                className="settings-checkbox"
+                            />
+                            <span>{formatPropertyLabel(property)}</span>
+                        </label>
+                    ))}
+                </div>
+            </div>
+
+            {/* Occupations */}
+            <div className="flex flex-col gap-2">
+                <label className="settings-label group relative cursor-help">
+                    Occupations
+                    <span className="tooltip">
+                        Must have had this occupation at some point during their life
+                    </span>
+                </label>
+                
+                <div className="grid grid-cols-2 gap-2 bg-neutral-900 bg-dots p-4">
+                    {OCCUPATIONS.map((property) => (
+                        <label 
+                            key={property}
+                            className={`flex items-center gap-3 settings-label ${!host && 'opacity-50'}`}
+                        >
+                            <input
+                                type="checkbox"
+                                checked={selectedProperties.includes(property)}
+                                onChange={(e) => handlePropertyToggle(property, e.target.checked)}
+                                disabled={!host}
+                                className="settings-checkbox"
+                            />
+                            <span>{formatPropertyLabel(property)}</span>
                         </label>
                     ))}
                 </div>

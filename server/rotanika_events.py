@@ -164,10 +164,6 @@ async def handle_answer_question(message: dict, room: Room):
         return
     
     # Move to next asker
-    room.rotanika_state.guesser_ids = [
-        pid for pid in list(room.players.keys()) if pid != room.rotanika_state.picker_id
-    ]
-
     room.rotanika_state.current_guesser_index = (
         (room.rotanika_state.current_guesser_index + 1) % 
         len(room.rotanika_state.guesser_ids)
@@ -193,3 +189,39 @@ async def handle_update_settings(message: dict, room: Room):
         room.rotanika_state.picker_id = data["pickerId"]
     
     await send_state(room, RotanikaEvents.UpdateSettings.value)
+    
+async def handle_player_disconnect(room: Room, player_id: int):
+    """Handle a player disconnecting during a Rotanika game."""
+    if not room.rotanika_state:
+        return
+    
+    # If picker leaves or only 1 player, reset to lobby
+    if player_id == room.rotanika_state.picker_id or len(room.players) == 1:
+        room.rotanika_state.current_stage = RotanikaStages.Lobby.value
+        room.rotanika_state.secret_thing = None
+        room.rotanika_state.questions = []
+        room.rotanika_state.current_question = None
+        room.rotanika_state.waiting_for_answer = False
+        await send_state(room, RotanikaEvents.UpdateStage.value)
+        return
+    
+    # If in guessing period and someone leaves
+    if room.rotanika_state.current_stage == RotanikaStages.GuessingPeriod.value:
+        # Update guesser list to remove disconnected player
+        room.rotanika_state.guesser_ids = [
+            pid for pid in list(room.players.keys()) if pid != room.rotanika_state.picker_id
+        ]
+        
+        # If current asker left, move to next asker
+        if player_id == room.rotanika_state.current_asker:
+            if room.rotanika_state.guesser_ids:
+                # Find the next valid asker
+                try:
+                    current_index = room.rotanika_state.guesser_ids.index(player_id)
+                except ValueError:
+                    current_index = room.rotanika_state.current_guesser_index
+                
+                room.rotanika_state.current_guesser_index = current_index % len(room.rotanika_state.guesser_ids)
+                room.rotanika_state.current_asker = room.rotanika_state.guesser_ids[room.rotanika_state.current_guesser_index]
+                
+                await send_state(room, RotanikaEvents.UpdateStage.value)

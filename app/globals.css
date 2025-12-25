@@ -87,6 +87,9 @@
   .settings-checkbox:checked::after {
     @apply opacity-100;
   }
+  .tooltip {
+    @apply absolute bottom-full left-0 mb-1 hidden group-hover:block bg-black text-white text-sm p-2 max-w-xs z-10;
+  }
   .bg-lines {
     background-image:
       linear-gradient(135deg,

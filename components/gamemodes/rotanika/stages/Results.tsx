@@ -1,5 +1,6 @@
 import { useGameContext } from "@/shared/GameContext";
 import { RotanikaSettings as RotanikaSettingsType } from "@/shared/types";
+import QuestionLog from "../QuestionLog";
 import RotanikaSettings from "../RotanikaSettings";
 import Back from "@/components/Back";
 
@@ -85,7 +86,7 @@ export default function Results() {
                     </p>
                 </div>
             </div>
-            
+            <QuestionLog questions={questions} players={players}/>
             {host ? (
                 <div className="flex flex-col gap-4 md:w-2/3 w-full">
                     <RotanikaSettings
