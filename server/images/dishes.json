@@ -1,0 +1,838 @@
+{
+    "Q6663": {
+        "name": "hamburger",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/NCI%20Visuals%20Food%20Hamburger.jpg"
+    },
+    "Q491517": {
+        "name": "samosa",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Samosachutney.jpg"
+    },
+    "Q187495": {
+        "name": "baklava",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Bakllava%20me%20arra.jpg"
+    },
+    "Q188788": {
+        "name": "falafel",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Falafel%20beim%20Isarinselfest%20M%C3%BCnchen%202.jpg"
+    },
+    "Q271555": {
+        "name": "biryani",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Dum%20Biryani%20Plate.jpg"
+    },
+    "Q20034": {
+        "name": "lasagna",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Meaty%20Lasagna%208of8%20%288736299782%29.jpg"
+    },
+    "Q205762": {
+        "name": "goulash",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/2009-09-gulasch-p%C3%B6rk%C3%B6lt-paprikas-3.jpg"
+    },
+    "Q375": {
+        "name": "waffle",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Gaufre%20molle.jpg"
+    },
+    "Q197973": {
+        "name": "French toast",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/FrenchToast.JPG"
+    },
+    "Q44541": {
+        "name": "pancake",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Banana%20on%20pancake.jpg"
+    },
+    "Q281278": {
+        "name": "Olivier salad",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/2023%20Sa%C5%82atka%20jarzynowa%20%281%29.jpg"
+    },
+    "Q192892": {
+        "name": "ayran",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Fresh%20ayran.jpg"
+    },
+    "Q12200": {
+        "name": "cr\u00eape",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Crepes%20dsc07085.jpg"
+    },
+    "Q182339": {
+        "name": "Turkish delight",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Turkish%20delight.jpg"
+    },
+    "Q876624": {
+        "name": "carbonara",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Espaguetis%20carbonara.jpg"
+    },
+    "Q827654": {
+        "name": "lassi",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Fatfreelassi.jpg"
+    },
+    "Q390823": {
+        "name": "burrito",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Breakfast%20burritos.jpg"
+    },
+    "Q52406": {
+        "name": "muesli",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Muesli.jpg"
+    },
+    "Q648352": {
+        "name": "bibimbap",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Korean.food-Bibimbap-02.jpg"
+    },
+    "Q863794": {
+        "name": "chili",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Bowl%20of%20chili.jpg"
+    },
+    "Q152981": {
+        "name": "potato pancake",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Potato%20pancakes.jpg"
+    },
+    "Q865004": {
+        "name": "tajine",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Une%20femme%20d%27Alger%20en%20d%C3%A9shabill%C3%A9%20portant%20un%20tajine%20-%20XVII%20si%C3%A8cle.jpg"
+    },
+    "Q495360": {
+        "name": "gimbap",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Gimbap%20%28pixabay%29.jpg"
+    },
+    "Q747457": {
+        "name": "empanada",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Empanadas%20argentinas%20de%20jam%C3%B3n%20y%20queso%20con%20or%C3%A9gano%20y%20tomate%2C%20pinceladas%20con%20huevo%20batido.jpg"
+    },
+    "Q262796": {
+        "name": "manti",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Manty%20%283968046229%29.jpg"
+    },
+    "Q523224": {
+        "name": "cooked rice",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Meshi%20001.jpg"
+    },
+    "Q941004": {
+        "name": "fufu",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Fufu%201.jpg"
+    },
+    "Q1076874": {
+        "name": "fried rice",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Malapascua%2C%20Vegetable%20fried%20rice%2C%20Philippines.jpg"
+    },
+    "Q30186": {
+        "name": "chocolate cake",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Chocolate%20fudge%20cake.jpg"
+    },
+    "Q828043": {
+        "name": "bouillabaisse",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Bullabessa.jpg"
+    },
+    "Q865325": {
+        "name": "quesadilla",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Quesadilles%20de%20Blanes%20amb%20salses.jpg"
+    },
+    "Q876096": {
+        "name": "enchilada",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Festival%20de%20la%20Enchilada%2059.jpg"
+    },
+    "Q905527": {
+        "name": "takoyaki",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Takoyaki%20by%20yomi955.jpg"
+    },
+    "Q152834": {
+        "name": "fruit salad",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Fruktsallad%20%28Fruit%20salad%29.jpg"
+    },
+    "Q1147853": {
+        "name": "tamale",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Tamales%20Mexicanos%20sweet%20corn%20tamales%2001.jpg"
+    },
+    "Q209304": {
+        "name": "gado-gado",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Gado-gado%20in%20Jakarta.JPG"
+    },
+    "Q367225": {
+        "name": "pea soup",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Erwtensoep%20roggebrood%20katenspek.jpg"
+    },
+    "Q1432724": {
+        "name": "sujuk",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Sucuk-1.jpg"
+    },
+    "Q575790": {
+        "name": "l\u00e1ngos",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Hungarian%20L%C3%A1ngos.jpg"
+    },
+    "Q1190475": {
+        "name": "tteokbokki",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Korean.snacks-Tteokbokki-08.jpg"
+    },
+    "Q1414887": {
+        "name": "Lamajun",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Lahmacun.jpg"
+    },
+    "Q1057256": {
+        "name": "ossobuco",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Ossobuco.jpg"
+    },
+    "Q12491": {
+        "name": "mille-feuille",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Mille-feuille%2020100916.jpg"
+    },
+    "Q642702": {
+        "name": "arepa",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Arepitas%20Food%20Macro.jpg"
+    },
+    "Q1827035": {
+        "name": "lentil soup",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Mercimek%20%C3%A7orbasi.jpg"
+    },
+    "Q141293": {
+        "name": "dondurma",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Dondurma%20with%20kabak.jpg"
+    },
+    "Q209486": {
+        "name": "Ni\u00e7ard salad",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Salade%20ni%C3%A7oise%20%287545098258%29.jpg"
+    },
+    "Q500724": {
+        "name": "Pizza Margherita",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Pizza-napoletana.jpg"
+    },
+    "Q656071": {
+        "name": "carrot cake",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Rueblitorte.jpg"
+    },
+    "Q1364509": {
+        "name": "jambalaya",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Jambalaya%20%2830750226186%29.jpg"
+    },
+    "Q20065": {
+        "name": "sp\u00e4tzle",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Sp%C3%A4tzle.jpg"
+    },
+    "Q130097": {
+        "name": "pemmican",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Pemmican%20ball.jpg"
+    },
+    "Q590076": {
+        "name": "Hawaiian pizza",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Hawaiian%20pizza%201.jpg"
+    },
+    "Q2478703": {
+        "name": "khichri",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Masala%20Khichadi.jpg"
+    },
+    "Q1142841": {
+        "name": "tonkatsu",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Tonkatsu%20of%20Kimukatsu.jpg"
+    },
+    "Q2056399": {
+        "name": "past\u0131rma",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Turkish%20pastirma.jpg"
+    },
+    "Q860465": {
+        "name": "roast beef",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/NCI%20Visuals%20Food%20Meal%20Dinner.jpg"
+    },
+    "Q878189": {
+        "name": "feijoada",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Feijoada%20%C3%A0%20brasileira%201.jpg"
+    },
+    "Q1473422": {
+        "name": "Ful medames",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Ful%20medames%20salad.jpg"
+    },
+    "Q612661": {
+        "name": "kalakukko",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kalakukko%20%28opened%29.jpg"
+    },
+    "Q1197104": {
+        "name": "koshari",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Egyptian%20food%20Koshary.jpg"
+    },
+    "Q2317875": {
+        "name": "basbousa",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Basboosa.jpg"
+    },
+    "Q1435874": {
+        "name": "ugali",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Ugali%20and%20cabbage.jpg"
+    },
+    "Q136922": {
+        "name": "a\u015fure",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/A%C5%9Fure%20%281%29%20%28cropped%29.JPG"
+    },
+    "Q316849": {
+        "name": "tarte flamb\u00e9e",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Franchettis%20Gasthaus%20%2B%20Kitchen%20-%202021-02-05%20-%20Sarah%20Stierch%2006.jpg"
+    },
+    "Q1133127": {
+        "name": "corn dog",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Corn%20dog%20001.jpg"
+    },
+    "Q1284887": {
+        "name": "red velvet cake",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Red%20Velvet%20Cake%20Waldorf%20Astoria.jpg"
+    },
+    "Q1726195": {
+        "name": "Syrniki",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Syrniki6.jpg"
+    },
+    "Q2082064": {
+        "name": "Consomm\u00e9",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Bruehe-2.jpg"
+    },
+    "Q720230": {
+        "name": "rojak",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Mamak%20rojak.jpg"
+    },
+    "Q2339814": {
+        "name": "s'more",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/HersheySmore.jpg"
+    },
+    "Q1195276": {
+        "name": "birthday cake",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Wikidata%27s%2010th%20birthday%20cake%2C%20Kerala.jpg"
+    },
+    "Q1703796": {
+        "name": "H\u00e1karl",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/H%C3%A1karl2.jpg"
+    },
+    "Q997633": {
+        "name": "amatriciana sauce",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Bucatini%20amatriciana%20Roma%202019.jpg"
+    },
+    "Q5702275": {
+        "name": "unleavened bread",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Rotala.jpg"
+    },
+    "Q11343150": {
+        "name": "mehallabiyya",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Turkish%20muhallebi.jpg"
+    },
+    "Q713869": {
+        "name": "grass jelly",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Cincau.jpg"
+    },
+    "Q862557": {
+        "name": "osechi",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Japanese%20Osechi.jpg"
+    },
+    "Q1093380": {
+        "name": "club sandwich",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Club-sandwich.jpg"
+    },
+    "Q703313": {
+        "name": "sour rye soup",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Zur.jpg"
+    },
+    "Q715040": {
+        "name": "japchae",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Korean.food-Chapchae-01.jpg"
+    },
+    "Q995376": {
+        "name": "Fabada asturiana",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Fabada%20con%20compangu.jpg"
+    },
+    "Q1061604": {
+        "name": "chana masala",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Choleindia.jpg"
+    },
+    "Q3629971": {
+        "name": "Pav bhaji",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Pav%20Bhaji.jpg"
+    },
+    "Q7208574": {
+        "name": "poke",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Shoyu%20and%20onion%20poke.jpg"
+    },
+    "Q586307": {
+        "name": "lokma",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Lokma%20Galata%20Bridge.JPG"
+    },
+    "Q867426": {
+        "name": "Cendol",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Jakarta%20street-side%20Es%20Cendol%204.jpg"
+    },
+    "Q1146771": {
+        "name": "gefilte fish",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Gefilte%20Fish.jpg"
+    },
+    "Q2915859": {
+        "name": "Fettuccine Alfredo",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Fetuccine%20Alfredo.jpg"
+    },
+    "Q5016033": {
+        "name": "cacio e pepe",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Cacio%20e%20pepe.jpg"
+    },
+    "Q284983": {
+        "name": "mandu",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Jjinmandu%20%28steamed%20dumplings%29.jpg"
+    },
+    "Q600438": {
+        "name": "Mititei",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Mititei%20la%20gratar.jpg"
+    },
+    "Q923729": {
+        "name": "galantine",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Wachtelgalantine%20mit%20Taubenbrust%20Sonnora%202003.jpg"
+    },
+    "Q1139527": {
+        "name": "California roll",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/California%20Sushi%20mit%20Kaviar%20%2826545022496%29.jpg"
+    },
+    "Q1202255": {
+        "name": "Loco moco",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Loco%20moco%20%2832605169782%29.jpg"
+    },
+    "Q1244010": {
+        "name": "Saganaki",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Saganaki.jpg"
+    },
+    "Q1920415": {
+        "name": "menemen",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Menemen%20%2849657982813%29.jpg"
+    },
+    "Q2023763": {
+        "name": "Jin deui",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Onde-onde%20isi%20kacang.JPG"
+    },
+    "Q5571808": {
+        "name": "rag\u00f9",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Tordelli%20al%20rag%C3%B9.JPG"
+    },
+    "Q6493": {
+        "name": "Labskaus",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Labskaus.jpg"
+    },
+    "Q213105": {
+        "name": "biangbiang noodles",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Biang%20Biang%20Mian.jpg"
+    },
+    "Q481774": {
+        "name": "amuse-bouche",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Parmesan%20Pannacotta%20-%20Amuse%20Bouche%20-%20Lake%20House%20Restaurant%2C%20Daylesford.jpg"
+    },
+    "Q702104": {
+        "name": "stuffed peppers",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Schiattapignata.JPG"
+    },
+    "Q13434162": {
+        "name": "sarma",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Japrak%201.jpg"
+    },
+    "Q2899201": {
+        "name": "rousong",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Fragrance%20Pork%20Floss.jpg"
+    },
+    "Q70241": {
+        "name": "cold borscht",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Lurid%20borscht.jpg"
+    },
+    "Q2635144": {
+        "name": "sorrel soup",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Borscz%20zelenyj%20ukr.jpg"
+    },
+    "Q3104777": {
+        "name": "Ghapama",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Ghapama.jpg"
+    },
+    "Q3848253": {
+        "name": "stroganina",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Dish%20Stroganina%20.jpg"
+    },
+    "Q171983": {
+        "name": "dhokla",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Dhokla%20prepared%20at%20home%2C%20Gurgaon%2C%20India.jpg"
+    },
+    "Q888832": {
+        "name": "bobotie",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Bobotie-01.jpg"
+    },
+    "Q1068574": {
+        "name": "chawanmushi",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Chawan-mushi.JPG"
+    },
+    "Q1559248": {
+        "name": "ribollita",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Ribollita%20toscana.JPG"
+    },
+    "Q2445410": {
+        "name": "Hyderabadi biryani",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Chicken%20Hyderabadi%20Biryani.JPG"
+    },
+    "Q1815839": {
+        "name": "pissaladi\u00e8re",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Pissaladiera.jpg"
+    },
+    "Q1052236": {
+        "name": "pasta salad",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Pasta%20salad%20closeup.JPG"
+    },
+    "Q681770": {
+        "name": "Frankfurter W\u00fcrstchen",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Frankfurter%20wuerstchen.jpg"
+    },
+    "Q1135831": {
+        "name": "Rogan josh",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Rogan%20josh02.jpg"
+    },
+    "Q1452513": {
+        "name": "pincho",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Pinchos%20bermeo%202.JPG"
+    },
+    "Q1753265": {
+        "name": "skordalia",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Skordalia.jpg"
+    },
+    "Q1853883": {
+        "name": "ostkaka",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Ostkaka.jpg"
+    },
+    "Q2142880": {
+        "name": "rump steak",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Rump%20steak.jpg"
+    },
+    "Q91908928": {
+        "name": "Pizza quattro formaggi",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Pizza%20quattro%20formaggi%20at%20restaurant%2C%20Chalk%20Farm%20Road%2C%20London.jpg"
+    },
+    "Q1200514": {
+        "name": "moules-frites",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Moules%20Frites.jpg"
+    },
+    "Q1268122": {
+        "name": "duxelles",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Duxelles.jpg"
+    },
+    "Q1397036": {
+        "name": "farofa",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Farofa%20brazil.jpg"
+    },
+    "Q1561248": {
+        "name": "lamian",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Chinese%20noodles.JPG"
+    },
+    "Q2485491": {
+        "name": "mitraillette",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Mitraillette%20%28fast%20food%29.jpg"
+    },
+    "Q2548949": {
+        "name": "vine leaf roll",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Sarma.jpg"
+    },
+    "Q2060858": {
+        "name": "Cachupa",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Cachupa%202.jpg"
+    },
+    "Q3075310": {
+        "name": "stock",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/13-08-31-wien-redaktionstreffen-EuT-by-Bi-frie-166.jpg"
+    },
+    "Q7565043": {
+        "name": "soup joumou",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Soup%20joumou.jpg"
+    },
+    "Q50634": {
+        "name": "Bun cha",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/B%C3%BAn%20ch%E1%BA%A3%20H%C3%A0ng%20M%C3%A0nh.jpg"
+    },
+    "Q578473": {
+        "name": "kapsalon",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kapsalon%20Amstelveen.jpg"
+    },
+    "Q610130": {
+        "name": "charoset",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Olve%20haroset.jpg"
+    },
+    "Q868158": {
+        "name": "cocido",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Cozido%20de%20gr%C3%A3o.jpg"
+    },
+    "Q1352897": {
+        "name": "unadon",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Tokyo%20Chikuyotei%20Unadon01s2100.jpg"
+    },
+    "Q2631681": {
+        "name": "dressed herring",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Selidi%20pod%20shuboi.jpg"
+    },
+    "Q7000528": {
+        "name": "nettle soup",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/St%20John%20Restaurant%2C%20Smithfield%2C%20London%20%283445306202%29.jpg"
+    },
+    "Q496999": {
+        "name": "hotteok",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Korean%20snack-Hotteok-01.jpg"
+    },
+    "Q839910": {
+        "name": "pi\u015fmaniye",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Pismaniye%201%20%28Piotr%20Kuczynski%29.jpg"
+    },
+    "Q1069097": {
+        "name": "chelow kabab",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kababi%20alborz2.jpg"
+    },
+    "Q1141370": {
+        "name": "Monkey brains",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Monkey%20brains.jpg"
+    },
+    "Q1420442": {
+        "name": "Lohikeitto",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Lohikeitto.jpg"
+    },
+    "Q1505500": {
+        "name": "tavukg\u00f6\u011fs\u00fc",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Tavuk%20G%C3%B6%C4%9Fs%C3%BC.JPG"
+    },
+    "Q1555816": {
+        "name": "Piperade",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Pip%C3%A9rade.jpg"
+    },
+    "Q1721014": {
+        "name": "red curry",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kaeng%20phet%20mu.jpg"
+    },
+    "Q3085085": {
+        "name": "hallaca",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Hallacas%20con%20pan%20de%20jamon%2C%20plato%20Venezuelano.jpg"
+    },
+    "Q531184": {
+        "name": "coronation chicken",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Coronation%20Chicken.jpg"
+    },
+    "Q1059273": {
+        "name": "chakalaka",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Chakalaka.jpg"
+    },
+    "Q1141574": {
+        "name": "crostini",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Crostini%20by%20Charles%20Haynes.jpg"
+    },
+    "Q1275331": {
+        "name": "oxtail",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Raw%20oxtail-01.jpg"
+    },
+    "Q2402333": {
+        "name": "Buddha's delight",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Boeddha%27s%20Delight.jpg"
+    },
+    "Q2565922": {
+        "name": "Ema datshi",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Bhutanese%20hemadatsi.jpg"
+    },
+    "Q2632589": {
+        "name": "lazanki",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Skryliai.JPG"
+    },
+    "Q2746599": {
+        "name": "tumpeng",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Nasi%20Tumpeng.jpg"
+    },
+    "Q1585409": {
+        "name": "harees",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Armenian%20Harisa.JPG"
+    },
+    "Q1683716": {
+        "name": "lontong",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Lontong.jpg"
+    },
+    "Q3606603": {
+        "name": "Agliata",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Fried%20cauliflower%20with%20agliata.jpg"
+    },
+    "Q5092519": {
+        "name": "cherry pie",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Cherry%20pie%20with%20lattice%2C%20February%202008.jpg"
+    },
+    "Q7572829": {
+        "name": "spaghetti with meatballs",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Spaghetti%20and%20meatballs%201.jpg"
+    },
+    "Q11853198": {
+        "name": "dishwasher salmon",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/2008-08-05ExtremeCooking010.jpg"
+    },
+    "Q203886": {
+        "name": "tzimmes",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/TzimmesS.jpg"
+    },
+    "Q473271": {
+        "name": "pepernoot",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Pepernoten001.jpg"
+    },
+    "Q957776": {
+        "name": "Migas",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Migas.PNG"
+    },
+    "Q15906640": {
+        "name": "Napoleon cake",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/TortNapoleon%28kuski%29.jpg"
+    },
+    "Q683495": {
+        "name": "g\u00e2teau Basque",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/G%C3%A2teau%20Basque%20in%20Gastroteka%20Bimendi%202020-05%20ac.jpg"
+    },
+    "Q1105512": {
+        "name": "Lula kebab",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Lula%20kebab.jpg"
+    },
+    "Q1934690": {
+        "name": "sea cucumber as food",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Sea%20Cucumber%20with%20Scallions.jpeg"
+    },
+    "Q2101181": {
+        "name": "polbo \u00e1 feira",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Raci%C3%B3nPulpo.jpg"
+    },
+    "Q1138371": {
+        "name": "crab cake",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Garnished%20crabcake.jpg"
+    },
+    "Q1243795": {
+        "name": "Tuna pot",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Marmitako.JPG"
+    },
+    "Q1293258": {
+        "name": "bakmi",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Bakmi%20Bangka%202.jpg"
+    },
+    "Q2395693": {
+        "name": "forshmak",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Forshmak.jpg"
+    },
+    "Q2634430": {
+        "name": "Curd rice",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Curd%20Rice.jpg"
+    },
+    "Q3236175": {
+        "name": "nasi uduk",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Nasi%20uduk%20netherlands.jpg"
+    },
+    "Q3497556": {
+        "name": "karn\u0131yar\u0131k",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Meal%20in%20Turkey.jpg"
+    },
+    "Q3678059": {
+        "name": "\u00e7\u0131lb\u0131r",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/%C3%87%C4%B1lb%C4%B1r%20with%20duck-fat%20saut%C3%A9ed%20Ramps%20%2814826584557%29.jpg"
+    },
+    "Q4293923": {
+        "name": "mimosa salad",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/-salat-mimoza-klas-mimoza-salat-klassicheskii-s-syrom%201500855758%201%20max.jpg"
+    },
+    "Q4803469": {
+        "name": "asam pedas",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Ikan%20Asam%20Padeh%20Padang.jpg"
+    },
+    "Q5261363": {
+        "name": "pecel",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Pecel%20Hariadhi.JPG"
+    },
+    "Q5262436": {
+        "name": "Onde-onde",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Onde-onde.jpg"
+    },
+    "Q55629806": {
+        "name": "phat kaphrao",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kraphao%20mu%20khai%20dao.jpg"
+    },
+    "Q7124456": {
+        "name": "pagpag",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Filipino%20Pagpag.jpg"
+    },
+    "Q8077757": {
+        "name": "\u00e7oban salad",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Bira%20ve%20%C3%A7oban%20salata.jpg"
+    },
+    "Q12849581": {
+        "name": "\u00e7\u00f6rek",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/%C3%87%C3%B6rek%20in%20a%20plate.jpg"
+    },
+    "Q170883": {
+        "name": "Noon Chai",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/The%20Great%20Kashmiri%20Salt%20tea.png"
+    },
+    "Q356346": {
+        "name": "Rumford's Soup",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Rumfordsuppe.jpg"
+    },
+    "Q596215": {
+        "name": "refried beans",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Frijoles%20refritos.jpg"
+    },
+    "Q703147": {
+        "name": "hwajeon",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Korean%20pancake-Jindallae%20hwajeon-03.jpg"
+    },
+    "Q722002": {
+        "name": "paprikash",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Paprikahuhn.jpg"
+    },
+    "Q742173": {
+        "name": "peixinhos da horta",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Peixinhos%20da%20horta.jpg"
+    },
+    "Q924689": {
+        "name": "soto ayam",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Soto%20ayam.JPG"
+    },
+    "Q16706914": {
+        "name": "Mett",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Mettbroetchen.jpg"
+    },
+    "Q1095315": {
+        "name": "toum",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Toum.jpg"
+    },
+    "Q1757401": {
+        "name": "Svi\u00f0",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Svi%C3%B0.jpg"
+    },
+    "Q1868851": {
+        "name": "Lomo saltado",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Lomo-saltado-perudelights.jpg"
+    },
+    "Q1152783": {
+        "name": "klen\u00e4t",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kleina.jpg"
+    },
+    "Q2625025": {
+        "name": "Zosui",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kinoko%20Zosui%2C%20at%20Restaurant%20Gusto%20%282012.02.26%29.jpg"
+    },
+    "Q2974872": {
+        "name": "Jugging",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Civet%20de%20Marcassin.JPG"
+    },
+    "Q3083513": {
+        "name": "Garbure",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Garbure%20%281%29.jpg"
+    },
+    "Q3234931": {
+        "name": "otak-otak",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Otak-otak%20Jakarta.JPG"
+    },
+    "Q3269818": {
+        "name": "nasi kuning",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Nasi%20Kuning%20Telur.jpg"
+    },
+    "Q4189615": {
+        "name": "nagasari",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Nagasari.jpg"
+    },
+    "Q4823701": {
+        "name": "\u015fekerpare",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Wasserweltfest%202012%20-%20T%C3%BCrkische%20Mehlspeise.jpg"
+    },
+    "Q5574228": {
+        "name": "Gnetum africanum",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Gnetum%20africanum.jpg"
+    },
+    "Q6778637": {
+        "name": "stuffed tomatoes",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Tomates%20farcies%20maison%20de%20Mina%20Biennier.jpg"
+    },
+    "Q7799573": {
+        "name": "g\u1ecfi cu\u1ed1n",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Summer%20roll.jpg"
+    },
+    "Q12033864": {
+        "name": "lok\u0161a",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Lokse.JPG"
+    }
+}

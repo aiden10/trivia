@@ -79,6 +79,13 @@ class TriviaCategories(Enum):
     TV = "television"            
     Art = "art_and_architecture" 
     Miscellaneous = "miscellaneous"
+    
+class ImageCategories(Enum):
+    Dishes = "dishes"
+    Basketball = "basketball"
+    Philosophers = "philosophers"
+    
+NON_PEOPLE_IMAGE_CATEGORIES = {"dishes"}
 
 class PeopleProperties(Enum):
     Male = "male"
@@ -99,11 +106,13 @@ class PeopleProperties(Enum):
 class TriviaQuestion(BaseModel):
     body: str
     answers: list[str]
+    image: Optional[str] = None
 
     def to_dict(self) -> dict:
         return {
             "body": self.body,
-            "answer": self.answers[0] if len(self.answers) > 0 else ""
+            "answer": self.answers[0] if len(self.answers) > 0 else "",
+            "image": self.image
         }
         
 class RotanikaQuestion(BaseModel):
@@ -138,6 +147,7 @@ class TriviaState(BaseModel):
             "settings": {
                 "questionDuration": self.question_duration,
                 "categories": [c.value for c in self.categories],
+                "imageCategories": [c.value for c in self.image_categories],
                 "questionValue": QUESTION_VALUE,
                 "winningScore": self.winning_score
             }

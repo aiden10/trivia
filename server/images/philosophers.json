@@ -1,0 +1,1870 @@
+{
+    "Q868": {
+        "name": "Aristotle",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Aristotle%20Altemps%20Inv8575.jpg"
+    },
+    "Q4604": {
+        "name": "Confucius",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Confucius%2C%20fresco%20from%20a%20Western%20Han%20tomb%20of%20Dongping%20County%2C%20Shandong%20province%2C%20China.jpg"
+    },
+    "Q9061": {
+        "name": "Karl Marx",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Karl%20Marx%20001%20restored.jpg"
+    },
+    "Q935": {
+        "name": "Isaac Newton",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/GodfreyKneller-IsaacNewton-1689.jpg"
+    },
+    "Q859": {
+        "name": "Plato",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Plato%20Silanion%20Musei%20Capitolini%20MC1377.jpg"
+    },
+    "Q1001": {
+        "name": "Mahatma Gandhi",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Mahatma-Gandhi%2C%20studio%2C%201931.jpg"
+    },
+    "Q913": {
+        "name": "Socrates",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Socrates%20Louvre.jpg"
+    },
+    "Q1035": {
+        "name": "Charles Darwin",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Charles%20Darwin%20portrait.jpg"
+    },
+    "Q5879": {
+        "name": "Johann Wolfgang von Goethe",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Goethe%20%28Stieler%201828%29.jpg"
+    },
+    "Q7243": {
+        "name": "Leo Tolstoy",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/L.N.Tolstoy%20Prokudin-Gorsky.jpg"
+    },
+    "Q9441": {
+        "name": "The Buddha",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Buddha%20in%20Sarnath%20Museum%20%28Dhammajak%20Mutra%29.jpg"
+    },
+    "Q307": {
+        "name": "Galileo Galilei",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Galileo.arp.300pix.jpg"
+    },
+    "Q9068": {
+        "name": "Voltaire",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Nicolas%20de%20Largilli%C3%A8re%20-%20Portrait%20de%20Voltaire%20%281694-1778%29%20en%201718%20-%20P208%20-%20Mus%C3%A9e%20Carnavalet%20-%202.jpg"
+    },
+    "Q9554": {
+        "name": "Martin Luther",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Lucas%20Cranach%20d.%C3%84.%20-%20Martin%20Luther%2C%201528%20%28Veste%20Coburg%29.jpg"
+    },
+    "Q9358": {
+        "name": "Friedrich Nietzsche",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Nietzsche187a.jpg"
+    },
+    "Q9312": {
+        "name": "Immanuel Kant",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Immanuel%20Kant%20-%20Gemaelde%202.jpg"
+    },
+    "Q991": {
+        "name": "Fyodor Dostoyevsky",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Vasily%20Perov%20-%20%D0%9F%D0%BE%D1%80%D1%82%D1%80%D0%B5%D1%82%20%D0%A4.%D0%9C.%D0%94%D0%BE%D1%81%D1%82%D0%BE%D0%B5%D0%B2%D1%81%D0%BA%D0%BE%D0%B3%D0%BE%20-%20Google%20Art%20Project.jpg"
+    },
+    "Q9191": {
+        "name": "Ren\u00e9 Descartes",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Frans%20Hals%20-%20Portret%20van%20Ren%C3%A9%20Descartes.jpg"
+    },
+    "Q7241": {
+        "name": "Rabindranath Tagore",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Rabindranath%20Tagore%20in%201909.jpg"
+    },
+    "Q8739": {
+        "name": "Archimedes",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Retrato%20de%20un%20erudito%20%28%C2%BFArqu%C3%ADmedes%3F%29%2C%20por%20Domenico%20Fetti.jpg"
+    },
+    "Q450675": {
+        "name": "Pope Francis",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Pope%20Francis%20Korea%20Haemi%20Castle%2019.jpg"
+    },
+    "Q6527": {
+        "name": "Jean-Jacques Rousseau",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Jean-Jacques%20Rousseau%20%28painted%20portrait%29.jpg"
+    },
+    "Q5816": {
+        "name": "Mao Zedong",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Mao%20Tse%20Tung.jpg"
+    },
+    "Q1399": {
+        "name": "Niccol\u00f2 Machiavelli",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Portrait%20of%20Niccol%C3%B2%20Machiavelli%20by%20Santi%20di%20Tito.jpg"
+    },
+    "Q8018": {
+        "name": "Augustine of Hippo",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Cappella%20Palatina%20%28Palermo%29%2016%2007%202019%2014.jpg"
+    },
+    "Q11812": {
+        "name": "Thomas Jefferson",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Official%20Presidential%20portrait%20of%20Thomas%20Jefferson%20%28by%20Rembrandt%20Peale%2C%201800%29%28cropped%29.jpg"
+    },
+    "Q9381": {
+        "name": "Adam Smith",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/AdamSmith.jpg"
+    },
+    "Q619": {
+        "name": "Nicolaus Copernicus",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Nikolaus%20Kopernikus%20MOT.jpg"
+    },
+    "Q9333": {
+        "name": "Laozi",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Zhang%20Lu-Laozi%20Riding%20an%20Ox%20%28cropped%29.jpg"
+    },
+    "Q10261": {
+        "name": "Pythagoras",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kapitolinischer%20Pythagoras.jpg"
+    },
+    "Q34670": {
+        "name": "Albert Camus",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Albert%20Camus%2C%20gagnant%20de%20prix%20Nobel%2C%20portrait%20en%20buste%2C%20pos%C3%A9%20au%20bureau%2C%20faisant%20face%20%C3%A0%20gauche%2C%20cigarette%20de%20tabagisme.jpg"
+    },
+    "Q9353": {
+        "name": "John Locke",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/JohnLocke.png"
+    },
+    "Q9047": {
+        "name": "Gottfried Wilhelm Leibniz",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Christoph%20Bernhard%20Francke%20-%20Bildnis%20des%20Philosophen%20Leibniz%20%28ca.%201695%29.jpg"
+    },
+    "Q9438": {
+        "name": "Thomas Aquinas",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/St-thomas-aquinasFXD.jpg"
+    },
+    "Q989": {
+        "name": "John Paul II",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Pope%20John%20Paul%20II%20smile.jpg"
+    },
+    "Q1541": {
+        "name": "Cicero",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Bust%20of%20Cicero%20%281st-cent.%20BC%29%20-%20Palazzo%20Nuovo%20-%20Musei%20Capitolini%20-%20Rome%202016.jpg"
+    },
+    "Q2494": {
+        "name": "Benedict XVI",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Papst%20Benedikt%20XVI%20in%20Berlin%202011.jpg"
+    },
+    "Q9364": {
+        "name": "Jean-Paul Sartre",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flickr%20-%20Government%20Press%20Office%20%28GPO%29%20-%20Jean%20Paul%20Sartre%20and%20Simone%20De%20Beauvoir%20welcomed%20by%20Avraham%20Shlonsky%20and%20Leah%20Goldberg%20%28cropped%29.jpg"
+    },
+    "Q34787": {
+        "name": "Friedrich Engels",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Friedrich%20Engels%20portrait%20%28cropped%29.jpg"
+    },
+    "Q1290": {
+        "name": "Blaise Pascal",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Blaise%20Pascal%20Versailles.JPG"
+    },
+    "Q8011": {
+        "name": "Avicenna",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Pursina.jpg"
+    },
+    "Q9235": {
+        "name": "Georg Wilhelm Friedrich Hegel",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/1831%20Schlesinger%20Philosoph%20Georg%20Friedrich%20Wilhelm%20Hegel%20anagoria.JPG"
+    },
+    "Q37388": {
+        "name": "Francis Bacon",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Somer%20Francis%20Bacon.jpg"
+    },
+    "Q9049": {
+        "name": "Noam Chomsky",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Noam%20Chomsky%20portrait%202015.jpg"
+    },
+    "Q33760": {
+        "name": "Bertrand Russell",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Bertrand%20Russell%20photo.jpg"
+    },
+    "Q7231": {
+        "name": "Rosa Luxemburg",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Rosa%20Luxemburg.jpg"
+    },
+    "Q9021": {
+        "name": "Max Planck",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Max%20Planck.png"
+    },
+    "Q8963": {
+        "name": "Johannes Kepler",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Johannes%20Kepler%20by%20Hans%20von%20Aachen.jpg"
+    },
+    "Q22670": {
+        "name": "Friedrich Schiller",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Friedrich%20Schiller%20by%20Ludovike%20Simanowiz.jpg"
+    },
+    "Q33391": {
+        "name": "Leon Trotsky",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/%D0%9B%D0%B5%D0%B2%20%D0%94%D0%B0%D0%B2%D0%B8%D0%B4%D0%BE%D0%B2%D0%B8%D1%87%20%D0%A2%D1%80%D0%BE%D1%86%D0%BA%D0%B8%D0%B9.jpg"
+    },
+    "Q7197": {
+        "name": "Simone de Beauvoir",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Simone%20de%20Beauvoir2.png"
+    },
+    "Q9317": {
+        "name": "John Maynard Keynes",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Keynes%201933.jpg"
+    },
+    "Q35802": {
+        "name": "Benedictus de Spinoza",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Spinoza.jpg"
+    },
+    "Q1430": {
+        "name": "Marcus Aurelius",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Marcus%20Aurelius%20Louvre%20MR561%20n02.jpg"
+    },
+    "Q5683": {
+        "name": "Geoffrey Chaucer",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Portrait%20of%20Geoffrey%20Chaucer%20%284671380%29%20%28cropped%29%2002.jpg"
+    },
+    "Q38193": {
+        "name": "Arthur Schopenhauer",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Arthur%20Schopenhauer%20by%20J%20Sch%C3%A4fer%2C%201859b.jpg"
+    },
+    "Q11813": {
+        "name": "James Madison",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/James%20Madison.jpg"
+    },
+    "Q5264": {
+        "name": "Hippocrates",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Hippocrates%20rubens.jpg"
+    },
+    "Q9387": {
+        "name": "Max Weber",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Max%20Weber%20in%201918.png"
+    },
+    "Q6512": {
+        "name": "S\u00f8ren Kierkegaard",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/S%C3%B8ren%20Kierkegaard%20%281813-1855%29%20-%20%28cropped%29.jpg"
+    },
+    "Q9391": {
+        "name": "Ludwig Wittgenstein",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Ludwig%20Wittgenstein.jpg"
+    },
+    "Q2908": {
+        "name": "Antoine de Saint-Exup\u00e9ry",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Antoine%20de%20Saint-Exup%C3%A9ry.jpg"
+    },
+    "Q6197": {
+        "name": "Horace",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Quintus%20Horatius%20Flaccus.jpg"
+    },
+    "Q43423": {
+        "name": "Aesop",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Aesop%20pushkin01.jpg"
+    },
+    "Q35900": {
+        "name": "Omar Khayy\u00e1m",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Omar%20Khayyam2.JPG"
+    },
+    "Q37151": {
+        "name": "Sun Tzu",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Enchoen27n3200.jpg"
+    },
+    "Q41513": {
+        "name": "William Blake",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/William%20Blake%20by%20Thomas%20Phillips.jpg"
+    },
+    "Q9038": {
+        "name": "Al-Khwarizmi",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Madrid%20-%20Ciudad%20Universitaria%2C%20Monumento%20a%20Muhammad%20al-Juarismi%20%28cropped%29.jpg"
+    },
+    "Q9294": {
+        "name": "Ibn Khaldun",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Bust%20of%20Ibn%20Khaldun%20%28Casbah%20of%20Bejaia%2C%20Algeria%29.jpg"
+    },
+    "Q41166": {
+        "name": "Jonathan Swift",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Jonathan%20Swift%20by%20Charles%20Jervas%20detail.jpg"
+    },
+    "Q1401": {
+        "name": "Petrarch",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Altichiero%2C%20ritratto%20di%20Francesco%20Petrarca.jpg"
+    },
+    "Q25973": {
+        "name": "Hermann Hesse",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Hermann%20Hesse%202.jpg"
+    },
+    "Q41585": {
+        "name": "David Hilbert",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Hilbert.jpg"
+    },
+    "Q36303": {
+        "name": "Thales",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Illustrerad%20Verldshistoria%20band%20I%20Ill%20107.svg"
+    },
+    "Q37621": {
+        "name": "Thomas Hobbes",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Thomas%20Hobbes%20%28portrait%29.jpg"
+    },
+    "Q47737": {
+        "name": "Kahlil Gibran",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kahlil%20Gibran%201913.jpg"
+    },
+    "Q37160": {
+        "name": "David Hume",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/David%20Hume%20Ramsay.jpg"
+    },
+    "Q41523": {
+        "name": "Plutarch",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Plutarch%20head%20only.jpg"
+    },
+    "Q81731": {
+        "name": "Murasaki Shikibu",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Murasaki-Shikibu-composing-Genji-Monogatari.png"
+    },
+    "Q15975": {
+        "name": "Montesquieu",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Montesquieu%201.png"
+    },
+    "Q2054": {
+        "name": "Seneca",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Duble%20herma%20of%20Socrates%20and%20Seneca%20Antikensammlung%20Berlin%2007.jpg"
+    },
+    "Q48305": {
+        "name": "Euripides",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Euripides%20Pio-Clementino%20Inv302.jpg"
+    },
+    "Q38082": {
+        "name": "Lewis Carroll",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/LewisCarrollSelfPhoto.jpg"
+    },
+    "Q43347": {
+        "name": "Rumi",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Mevlana-celaleddin-i-rumi-1.jpg"
+    },
+    "Q43499": {
+        "name": "Erasmus",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Holbein-erasmus.jpg"
+    },
+    "Q48226": {
+        "name": "Ralph Waldo Emerson",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Ralph%20Waldo%20Emerson%20ca1857%20retouched.jpg"
+    },
+    "Q12807": {
+        "name": "Umberto Eco",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Italiaanse%20schrijver%20Umberto%20Eco%20%2C%20kop%2C%20Bestanddeelnr%20932-9758.jpg"
+    },
+    "Q36330": {
+        "name": "Giordano Bruno",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Portrait%20of%20Giordano%20Bruno%20in%20%22Opere%22%20Wellcome%20L0015152%20%28cropped%29.jpg"
+    },
+    "Q8573": {
+        "name": "Sun Yat-sen",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/%E5%AD%99%E4%B8%AD%E5%B1%B1%E8%82%96%E5%83%8F.jpg"
+    },
+    "Q41980": {
+        "name": "Democritus",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Unknown%20greek%20pushkin.jpg"
+    },
+    "Q448": {
+        "name": "Denis Diderot",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Denis%20Diderot%20-%20Alix%20-%20Vanloo.png"
+    },
+    "Q43216": {
+        "name": "Epicurus",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Epikouros%20BM%201843.jpg"
+    },
+    "Q50020": {
+        "name": "John Stuart Mill",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/John%20Stuart%20Mill%20by%20London%20Stereoscopic%20Company%2C%20c1870.jpg"
+    },
+    "Q231690": {
+        "name": "B. R. Ambedkar",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Dr.%20Bhimrao%20Ambedkar.jpg"
+    },
+    "Q41155": {
+        "name": "Heraclitus",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Ca%27%20Rezzonico%20-%20Eraclito%201705%20-%20Giuseppe%20Torretti.jpg"
+    },
+    "Q48301": {
+        "name": "Martin Heidegger",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Heidegger%202%20%281960%29.jpg"
+    },
+    "Q36233": {
+        "name": "V\u00e1clav Havel",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/V%C3%A1clav%20Havel%20cut%20out.jpg"
+    },
+    "Q131149": {
+        "name": "Henry David Thoreau",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Benjamin%20D.%20Maxham%20-%20Henry%20David%20Thoreau%20-%20Restored%20-%20greyscale%20-%20straightened.jpg"
+    },
+    "Q9546": {
+        "name": "Al-Ghazali",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Al-Ghazali.png"
+    },
+    "Q9372": {
+        "name": "Sima Qian",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Si%20maqian.jpg"
+    },
+    "Q81447": {
+        "name": "Aldous Huxley",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Aldous%20Huxley%201947.png"
+    },
+    "Q41568": {
+        "name": "Michel de Montaigne",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Montaigne-Dumonstier.jpg"
+    },
+    "Q34943": {
+        "name": "Ptolemy",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/PSM%20V78%20D326%20Ptolemy.png"
+    },
+    "Q27645": {
+        "name": "mia califa",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Bakunin%20Nadar.jpg"
+    },
+    "Q9045": {
+        "name": "Chanakya",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Chanakya%20artistic%20depiction.jpg"
+    },
+    "Q42156": {
+        "name": "Henri Bergson",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Henri%20Bergson%2002.jpg"
+    },
+    "Q131333": {
+        "name": "George Eliot",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/George%20Eliot%2C%20por%20Fran%C3%A7ois%20D%27Albert%20Durade.jpg"
+    },
+    "Q47478": {
+        "name": "Swami Vivekananda",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Swami%20Vivekananda%201893%20Scanned%20Image.jpg"
+    },
+    "Q126462": {
+        "name": "Thomas Paine",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Thomas%20Paine%20rev1.jpg"
+    },
+    "Q134958": {
+        "name": "Taras Shevchenko",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/%D0%A2.%20%D0%93.%20%D0%A8%D0%B5%D0%B2%D1%87%D0%B5%D0%BD%D0%BA%D0%BE.%20%D0%9A%D0%B2%D1%96%D1%82%D0%B5%D0%BD%D1%8C%201859.jpg"
+    },
+    "Q42544": {
+        "name": "Thomas More",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Hans%20Holbein%2C%20the%20Younger%20-%20Sir%20Thomas%20More%20-%20Google%20Art%20Project.jpg"
+    },
+    "Q49747": {
+        "name": "Q49747",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Picture%20of%20Maurice%20Maeterlinck.jpg"
+    },
+    "Q12718": {
+        "name": "Auguste Comte",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Portrait%20dAuguste%20Comte%20%28maison%20dA.%20Comte%2C%20Paris%29%20%282424895050%29.jpg"
+    },
+    "Q39837": {
+        "name": "Averroes",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Statue%20of%20Averroes%20in%20C%C3%B3rdoba%2C%20Spain.jpg"
+    },
+    "Q8778": {
+        "name": "Galen",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Galenus.jpg"
+    },
+    "Q81082": {
+        "name": "Henri Poincar\u00e9",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Henri%20Poincar%C3%A9-2.jpg"
+    },
+    "Q39803": {
+        "name": "Mario Vargas Llosa",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Mario%20Vargas%20Llosa%20%28crop%202%29.jpg"
+    },
+    "Q81244": {
+        "name": "Karl Popper",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Karl%20Popper.jpg"
+    },
+    "Q44481": {
+        "name": "Pierre-Simon Laplace",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Pierre-Simon%2C%20marquis%20de%20Laplace%20%281745-1827%29%20-%20Gu%C3%A9rin.jpg"
+    },
+    "Q82778": {
+        "name": "Pliny the Elder",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Grande%20Illustrazione%20del%20Lombardo%20Veneto%20Vol%203%20Plinio%20Secondo%20300dpi.jpg"
+    },
+    "Q101638": {
+        "name": "Mary Wollstonecraft",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Mary%20Wollstonecraft%20by%20John%20Opie%20%28c.%201797%29.jpg"
+    },
+    "Q129772": {
+        "name": "Xenophon",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Bust%20of%20Xenophon.jpg"
+    },
+    "Q15948": {
+        "name": "\u00c9mile Durkheim",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/%C3%89mile%20Durkheim.jpg"
+    },
+    "Q42247": {
+        "name": "Sully Prudhomme",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Sully%20Prudhomme%2C%20Ren%C3%A9-Fran%C3%A7ois-Armand%2C%20BNF%20Gallica.jpg"
+    },
+    "Q83003": {
+        "name": "Antonio Gramsci",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Gramsci.png"
+    },
+    "Q132524": {
+        "name": "Ayn Rand",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Ayn%20Rand%20%281943%20Talbot%20portrait%29.jpg"
+    },
+    "Q44272": {
+        "name": "Michel Foucault",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Michel%20Foucault%201974%20Brasil.jpg"
+    },
+    "Q79969": {
+        "name": "Emma Goldman",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Emma%20Goldman%20seated.jpg"
+    },
+    "Q165792": {
+        "name": "Edmund Burke",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Sir%20Joshua%20Reynolds%20-%20Edmund%20Burke%2C%201729%20-%201797.%20Statesman%2C%20orator%20and%20author%20-%20PG%202362%20-%20National%20Galleries%20of%20Scotland.jpg"
+    },
+    "Q1267": {
+        "name": "Dag Hammarskj\u00f6ld",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Dag%20Hammarskj%C3%B6ld.jpg"
+    },
+    "Q60025": {
+        "name": "Hannah Arendt",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Hannah%20Arendt%20auf%20dem%201.%20Kulturkritikerkongress%2C%20Barbara%20Niggl%20Radloff%2C%20FM-2019-1-5-9-16%20%28cropped%29.jpg"
+    },
+    "Q47154": {
+        "name": "Lucretius",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Lucretius1.png"
+    },
+    "Q9397": {
+        "name": "Zhu Xi",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Zhu%20xi.jpg"
+    },
+    "Q125249": {
+        "name": "William James",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/William%20James%20by%20Alice%20M.%20Boughton%2C%20c.%201907%2C%20platinum%20print%2C%20from%20the%20National%20Portrait%20Gallery%20-%20NPG-NPG%2087%2037James-000001%20%28cropped%29.jpg"
+    },
+    "Q59180": {
+        "name": "Diogenes of Sinope",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Diogenes-statue-Sinop-enhanced.jpg"
+    },
+    "Q82409": {
+        "name": "Samuel Taylor Coleridge",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Samuel%20Taylor%20Coleridge%20at%20age%2042.jpg"
+    },
+    "Q164047": {
+        "name": "Alexander Pope",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Alexander%20Pope%20by%20Michael%20Dahl.jpg"
+    },
+    "Q49325": {
+        "name": "Albert Schweitzer",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Bundesarchiv%20Bild%20183-D0116-0041-019%2C%20Albert%20Schweitzer.jpg"
+    },
+    "Q151403": {
+        "name": "Thomas Carlyle",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Thomas%20Carlyle%20by%20Sir%20John%20Everett%20Millais%2C%201st%20Bt.jpg"
+    },
+    "Q675": {
+        "name": "Andr\u00e9-Marie Amp\u00e8re",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Ampere%20portrait%20at%20the%20Musee%20Poleymieux.jpg"
+    },
+    "Q46739": {
+        "name": "Octavio Paz",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Paz0.jpg"
+    },
+    "Q144535": {
+        "name": "Herbert Spencer",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Herbert%20Spencer.jpg"
+    },
+    "Q171195": {
+        "name": "Nagarjuna",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Nagarjuna%20at%20Samye%20Ling%20Monastery.JPG"
+    },
+    "Q179126": {
+        "name": "John Ruskin",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/John%20Ruskin%201863.jpg"
+    },
+    "Q183167": {
+        "name": "G. K. Chesterton",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Gilbert%20Chesterton.jpg"
+    },
+    "Q133337": {
+        "name": "Solon",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Ignoto%2C%20c.d.%20solone%2C%20replica%20del%2090%20dc%20ca%20da%20orig.%20greco%20del%20110%20ac.%20ca%2C%206143.JPG"
+    },
+    "Q183144": {
+        "name": "Epictetus",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Epictetus%20from%20L.%20Annaei%20Senecae%20philosophi%20Opera%2C%201605%2C%20title%20page%20detail.png"
+    },
+    "Q5752": {
+        "name": "Peter Kropotkin",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kropotkin1.jpg"
+    },
+    "Q46633": {
+        "name": "Charles Babbage",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Babbage1.jpg"
+    },
+    "Q131248": {
+        "name": "Lee Kuan Yew",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Lee%20Kuan%20Yew.jpg"
+    },
+    "Q43393": {
+        "name": "Robert Boyle",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/The%20Shannon%20Portrait%20of%20the%20Hon%20Robert%20Boyle.jpg"
+    },
+    "Q76420": {
+        "name": "Georg Cantor",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Georg%20Cantor2.jpg"
+    },
+    "Q140694": {
+        "name": "Alexis de Tocqueville",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Alexis%20de%20Tocqueville%20%28Th%C3%A9odore%20Chass%C3%A9riau%20-%20Versailles%29.jpg"
+    },
+    "Q172599": {
+        "name": "Giacomo Leopardi",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Giacomo%20Leopardi%20Morelli.jpg"
+    },
+    "Q183126": {
+        "name": "Ramakrishna",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Ramakrishna.jpg"
+    },
+    "Q60684": {
+        "name": "Novalis",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Novalis-1.jpg"
+    },
+    "Q45936": {
+        "name": "Strabo",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Strabo.jpg"
+    },
+    "Q102585": {
+        "name": "Johann Gottlieb Fichte",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Johann%20Gottlieb%20Fichte%20by%20Friedrich%20Bury.jpg"
+    },
+    "Q125551": {
+        "name": "Parmenides",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Busto%20di%20Parmenide%20%28cropped%29.jpg"
+    },
+    "Q153232": {
+        "name": "Jean Le Rond d'Alembert",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Jean%20Le%20Rond%20d%27Alembert%2C%20by%20French%20school.jpg"
+    },
+    "Q11903": {
+        "name": "Hypatia",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Hipatia67.jpg"
+    },
+    "Q41488": {
+        "name": "Wole Soyinka",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/WoleSoyinka2015%20%28cropped%29.jpg"
+    },
+    "Q185": {
+        "name": "Q185",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Larry%20Sanger%202023%20at%201%2003%2040.jpg"
+    },
+    "Q83041": {
+        "name": "Anaxagoras",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Anaxagoras%20Lebiedzki%20Rahl.jpg"
+    },
+    "Q127398": {
+        "name": "Moshe ben Maimon",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Maim%C3%B2nides.jpg"
+    },
+    "Q41257": {
+        "name": "Heinrich Hertz",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/HEINRICH%20HERTZ.JPG"
+    },
+    "Q43182": {
+        "name": "Eratosthenes",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Eratosthenes.jpg"
+    },
+    "Q41390": {
+        "name": "Kurt G\u00f6del",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Young%20Kurt%20G%C3%B6del%20as%20a%20student%20in%201925.jpg"
+    },
+    "Q42458": {
+        "name": "Anaximander",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Anaximander.jpg"
+    },
+    "Q70991": {
+        "name": "Hildegard of Bingen",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Hildegard%20von%20Bingen.jpg"
+    },
+    "Q1325": {
+        "name": "Friedrich Hayek",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Friedrich%20Hayek%20portrait.jpg"
+    },
+    "Q58720": {
+        "name": "Mikhail Lomonosov",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/M.V.%20Lomonosov%20by%20L.Miropolskiy%20after%20G.C.Prenner%20%281787%2C%20RAN%29.jpg"
+    },
+    "Q82049": {
+        "name": "George Berkeley",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/George%20Berkeley%20by%20Jonh%20Smibert.jpg"
+    },
+    "Q484141": {
+        "name": "Muhammad Iqbal",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Iqbal%202.jpg"
+    },
+    "Q155855": {
+        "name": "Karel \u010capek",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Karel%20%C4%8Capek%20podepisuje%20prvn%C3%AD%20v%C3%BDtisky%20Pov%C4%9Btron%C4%9B%2C%20Pestr%C3%BD%20t%C3%BDden%2027.1.1934.jpg"
+    },
+    "Q180081": {
+        "name": "Cato the Elder",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Marcus%20Porcius%20Cato.jpeg"
+    },
+    "Q184366": {
+        "name": "Thomas Henry Huxley",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/T.H.Huxley%28Woodburytype%29.jpg"
+    },
+    "Q76430": {
+        "name": "Carl von Clausewitz",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Clausewitz.jpg"
+    },
+    "Q83375": {
+        "name": "Empedocles",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Empedocles.%20Line%20engraving%2C%201580.%20Wellcome%20V0001766.jpg"
+    },
+    "Q131805": {
+        "name": "John Dewey",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/John%20Dewey%2C%20sem%20data.tif"
+    },
+    "Q34628": {
+        "name": "Gotthold Ephraim Lessing",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Gotthold%20Ephraim%20Lessing%20Kunstsammlung%20Uni%20Leipzig.jpg"
+    },
+    "Q169243": {
+        "name": "Protagoras",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Salvator%20Rosa%20-%20D%C3%A9mocrite%20et%20Protagoras.jpg"
+    },
+    "Q174880": {
+        "name": "Teresa of \u00c1vila",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Santa%20Teresa%20de%20Jes%C3%BAs%20%28Museo%20del%20Prado%29.jpg"
+    },
+    "Q179266": {
+        "name": "Jiddu Krishnamurti",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Jiddu%20Krishnamurti%2001.jpg"
+    },
+    "Q76422": {
+        "name": "Ludwig Feuerbach",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Feuerbach%20Ludwig.jpg"
+    },
+    "Q83428": {
+        "name": "Paracelsus",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Paracelsus.jpg"
+    },
+    "Q123867": {
+        "name": "Marquis de Sade",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Marquis%20de%20sade.jpg"
+    },
+    "Q11826": {
+        "name": "Al-Biruni",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Al-Biruni%20Portrait.jpg"
+    },
+    "Q18391": {
+        "name": "Elie Wiesel",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Elie%20Wiesel%202012%20Shankbone.JPG"
+    },
+    "Q173481": {
+        "name": "Fernando Pessoa",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/216%202310-Fernando-Pessoa.jpg"
+    },
+    "Q57085": {
+        "name": "Erich Fromm",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Erich%20Fromm%201974%20%28cropped%292.jpg"
+    },
+    "Q188903": {
+        "name": "Mencius",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Half%20Portraits%20of%20the%20Great%20Sage%20and%20Virtuous%20Men%20of%20Old%20-%20Meng%20Ke%20%28%E5%AD%9F%E8%BB%BB%29.jpg"
+    },
+    "Q132489": {
+        "name": "Amartya Sen",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Amartya%20Sen%202012.jpg"
+    },
+    "Q5749": {
+        "name": "Pierre-Joseph Proudhon",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Portrait%20Pierre-Joseph%20Proudhon%20%28cropped%29.jpg"
+    },
+    "Q41239": {
+        "name": "Konstantin Tsiolkovsky",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/%D0%9A%D0%BE%D0%BD%D1%81%D1%82%D0%B0%D0%BD%D1%82%D0%B8%D0%BD%20%D0%A6%D0%B8%D0%BE%D0%BB%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B8%D0%B9.jpg"
+    },
+    "Q11104": {
+        "name": "Ibn al-Haytham",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Ibn%20Al-Haytham%20portrait.jpg"
+    },
+    "Q177847": {
+        "name": "Lucian of Samosata",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Lucianus.jpg"
+    },
+    "Q178903": {
+        "name": "Alexander Hamilton",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Google%20Arts%20Project%20-%20Alexander%20Hamilton%20%281792%20portrait%29%20by%20John%20Trumbull.jpg"
+    },
+    "Q60887": {
+        "name": "Jeremy Bentham",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Jeremy%20Bentham%20by%20Henry%20William%20Pickersgill%20detail.jpg"
+    },
+    "Q43977": {
+        "name": "Jan Hus",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Jan%20hus%201.jpg"
+    },
+    "Q46830": {
+        "name": "Robert Hooke",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Portrait%20of%20a%20Mathematician%201680c.jpg"
+    },
+    "Q48246": {
+        "name": "Ernst Haeckel",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Ernst%20Haeckel%201860.jpg"
+    },
+    "Q28935729": {
+        "name": "JD Vance",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/January%202025%20Official%20Vice%20Presidential%20Portrait%20of%20JD%20Vance.jpg"
+    },
+    "Q12908": {
+        "name": "George Soros",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/George%20Soros%20-%20May%2031%2C%202017.jpg"
+    },
+    "Q4295": {
+        "name": "Peter Abelard",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Abelard.jpg"
+    },
+    "Q80321": {
+        "name": "Halld\u00f3r Laxness",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Halld%C3%B3r%20Kiljan%20Laxness%201955.jpg"
+    },
+    "Q123190": {
+        "name": "Jean Piaget",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Jean%20Piaget%20in%20Ann%20Arbor%20%28cropped%29.png"
+    },
+    "Q155547": {
+        "name": "Johann Gottfried Herder",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Johann%20Gottfried%20Herder%202.jpg"
+    },
+    "Q155845": {
+        "name": "Chinua Achebe",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Chinua%20Achebe%2C%201966%20%28cropped%29.jpg"
+    },
+    "Q152388": {
+        "name": "Theodor W. Adorno",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Theodor%20W.%20Adorno.jpg"
+    },
+    "Q6530": {
+        "name": "Stanis\u0142aw Lem",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/St%20Lem%20resize.jpg"
+    },
+    "Q134189": {
+        "name": "Plotinus",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Paolo%20Monti%20-%20Servizio%20fotografico%20%28Roma%2C%201969%29%20-%20BEIC%206353762.jpg"
+    },
+    "Q170512": {
+        "name": "Apuleius",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Apuleuis.jpg"
+    },
+    "Q174929": {
+        "name": "Tertullian",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Tertullian2.png"
+    },
+    "Q47695": {
+        "name": "Rudolf Christoph Eucken",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Eucken-im-Alter.png"
+    },
+    "Q164765": {
+        "name": "Alexander Blok",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Konstantin%20Somov%2C%20Alexander%20Blok%2C%201907%2C%20Tretyakov%20Gallery%209641.png"
+    },
+    "Q58586": {
+        "name": "Edmund Husserl",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Edmund%20Husserl%201910s.jpg"
+    },
+    "Q128126": {
+        "name": "Claude L\u00e9vi-Strauss",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Levi-strauss%20260%20%28cropped2%29.jpg"
+    },
+    "Q131671": {
+        "name": "Xenophanes",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Xenophanes%20in%20Thomas%20Stanley%20History%20of%20Philosophy.jpg"
+    },
+    "Q12735": {
+        "name": "John Amos Comenius",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Jan%20Amos%20Comenius%20%28Komensky%29%20%281592-1670%29.%20Tsjechisch%20humanist%20en%20pedagoog.%20Als%20voorganger%20van%20de%20Moravische%20of%20Boheemse%20Broedergemeente%20verdreven%20en%20sedert%201656%20gevestigd%20te%20Amsterdam%20Rijksmuseum%20SK-A-2161.jpeg"
+    },
+    "Q61078": {
+        "name": "Walter Benjamin",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Walter%20Benjamin%20vers%201928.jpg"
+    },
+    "Q160362": {
+        "name": "Theophrastus",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Teofrasto%20Orto%20botanico%20head.jpg"
+    },
+    "Q184750": {
+        "name": "Slavoj \u017di\u017eek",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Slavoj%20%C5%BDi%C5%BEek%202015%20%28cropped%29.jpg"
+    },
+    "Q187336": {
+        "name": "Giuseppe Mazzini",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Giuseppe%20Mazzini.jpg"
+    },
+    "Q76509": {
+        "name": "Karl Jaspers",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Karl%20Jaspers%201946.jpg"
+    },
+    "Q43689": {
+        "name": "Ambrose",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/AmbroseOfMilan.jpg"
+    },
+    "Q43936": {
+        "name": "William of Ockham",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/William%20of%20Ockham.png"
+    },
+    "Q47434": {
+        "name": "Edmond Halley",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Edmond%20Halley%20072.jpg"
+    },
+    "Q47739": {
+        "name": "Zhuangzi",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Zhuangzi.png"
+    },
+    "Q192207": {
+        "name": "Aurobindo Ghosh",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Sri%20aurobindo.jpg"
+    },
+    "Q130631": {
+        "name": "Jacques Derrida",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Chinmoy%20Guha%20with%20Derrida%20%28cropped%29.jpg"
+    },
+    "Q132157": {
+        "name": "Zeno of Elea",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Portretbuste%20van%20Zeno%20van%20Elea%20Paradigmata%20graphices%20variorum%20artificum%20%28serietitel%29%2C%20RP-P-1907-4495.jpg"
+    },
+    "Q169234": {
+        "name": "Abu Bakr al-Razi",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Portrait%20of%20Rhazes%20%28al-Razi%29%20%28AD%20865%20-%20925%29%20Wellcome%20L0005053%20%28cropped%29.jpg"
+    },
+    "Q183372": {
+        "name": "Alfred North Whitehead",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/ANWhitehead.jpg"
+    },
+    "Q75889": {
+        "name": "Friedrich H\u00f6lderlin",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/FK%20Hiemer%20-%20Friedrich%20H%C3%B6lderlin%20%28Pastell%201792%29.jpg"
+    },
+    "Q77888": {
+        "name": "Wilhelm von Humboldt",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/W.v.Humboldt.jpg"
+    },
+    "Q78492": {
+        "name": "Tom\u00e1\u0161 Garrigue Masaryk",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/MasarykFotoPrvniPoselstviTGM.jpg"
+    },
+    "Q160270": {
+        "name": "David Ricardo",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Portrait%20of%20David%20Ricardo%20by%20Thomas%20Phillips.jpg"
+    },
+    "Q160460": {
+        "name": "Farabi",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Farabi.jpg"
+    },
+    "Q167852": {
+        "name": "Jabir ibn Hayyan",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Man%20Florence%2C%20Ashburnham%201166%20fol%2012r.jpg"
+    },
+    "Q171091": {
+        "name": "Philip K. Dick",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Philip%20K%20Dick%20in%20early%201960s%20%28photo%20by%20Arthur%20Knight%29%2002%20%28cropped%29.jpg"
+    },
+    "Q76357": {
+        "name": "J\u00fcrgen Habermas",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/JuergenHabermas%20retouched.jpg"
+    },
+    "Q33941": {
+        "name": "Julian",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Gold%20Solidus%20of%20Julian%20the%20Apostate%2C%20Sirmium.jpg"
+    },
+    "Q180967": {
+        "name": "\u0100di Shankara",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Raja%20Ravi%20Varma%20-%20Sankaracharya.jpg"
+    },
+    "Q123386": {
+        "name": "Isabelle de Charri\u00e8re",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Isabelle%20Agneta%20van%20Tuyll%20van%20Serooskerken%2C%20by%20Maurice%20Quentin%20de%20La%20Tour.jpg"
+    },
+    "Q134661": {
+        "name": "Q134661",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Photo%20of%20George%20Boole%20standing.png"
+    },
+    "Q180989": {
+        "name": "Jane Addams",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/ADDAMS%2C%20JANE%2021664v%20%28cropped2%29.jpg"
+    },
+    "Q200639": {
+        "name": "Paul Val\u00e9ry",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Paul%20Val%C3%A9ry%20-%20photo%20Henri%20Manuel.jpg"
+    },
+    "Q157309": {
+        "name": "Simone Weil",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Simone%20Weil%201943.jpg"
+    },
+    "Q131545": {
+        "name": "Harry Houdini",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Harry%20Houdini%20by%20LaPine%20Studios%2C%201915.png"
+    },
+    "Q171677": {
+        "name": "Roger Bacon",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Roger-bacon-statue.jpg"
+    },
+    "Q185085": {
+        "name": "Miguel de Unamuno",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Miguel%20de%20Unamuno%20Meurisse%201925.jpg"
+    },
+    "Q60059": {
+        "name": "Albertus Magnus",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Tommaso%20da%20modena%2C%20ritratti%20di%20domenicani%20%28vescovo%29%201352%20150cm%2C%20treviso%2C%20ex%20convento%20di%20san%20niccol%C3%B2%2C%20sala%20del%20capitolo.jpg"
+    },
+    "Q78496": {
+        "name": "Konrad Lorenz",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Konrad%20Lorenz.JPG"
+    },
+    "Q43939": {
+        "name": "Anselm of Canterbury",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Anselm-CanterburyVit.jpg"
+    },
+    "Q44258": {
+        "name": "Basil of Caesarea",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Sf%20Vasile%20cel%20Mare%20%281652%29.png"
+    },
+    "Q234908": {
+        "name": "Nizami Ganjavi",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Nizami%20Rug%20Crop.jpg"
+    },
+    "Q102851": {
+        "name": "Boethius",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Boethius%20initial%20consolation%20philosophy.jpg"
+    },
+    "Q152824": {
+        "name": "Susan Sontag",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Susan%20Sontag%201979%20%C2%A9Lynn%20Gilbert%20%28headshot%29.jpg"
+    },
+    "Q154959": {
+        "name": "Hugo Grotius",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Portret%20van%20Hugo%20de%20Groot%20%281583-1645%29%20Rijksmuseum%20SK-A-581.jpeg"
+    },
+    "Q171303": {
+        "name": "Zeno of Citium",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Paolo%20Monti%20-%20Servizio%20fotografico%20%28Napoli%2C%201969%29%20-%20BEIC%206353768.jpg"
+    },
+    "Q60070": {
+        "name": "Friedrich Wilhelm Joseph Schelling",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Friedrich%20Wilhelm%20Joseph%20Schelling%2C%201848%20daguerreotype%20-%20cropped.jpg"
+    },
+    "Q80612": {
+        "name": "Anaximenes of Miletus",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Anaximenes.jpg"
+    },
+    "Q193803": {
+        "name": "Roger Penrose",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Roger%20Penrose%209560.JPG"
+    },
+    "Q5912": {
+        "name": "Marcel Duchamp",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Marcel%20Duchamp%2001.jpg"
+    },
+    "Q188411": {
+        "name": "Bernard of Clairvaux",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Bernhard%20von%20Clairvaux%20%28Initiale-B%29.jpg"
+    },
+    "Q93996": {
+        "name": "Ernst Mach",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Ernst-Mach-1900.jpg"
+    },
+    "Q84296": {
+        "name": "Ludwig Boltzmann",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Boltzmann-Ludwig.jpg"
+    },
+    "Q159636": {
+        "name": "Joseph Priestley",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Priestley.jpg"
+    },
+    "Q153670": {
+        "name": "Primo Levi",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Primo%20Levi.jpg"
+    },
+    "Q12658": {
+        "name": "Wilhelm Ostwald",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Ostwald.jpg"
+    },
+    "Q19008": {
+        "name": "Arthur Balfour",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/A.J.%20Balfour%20LCCN2014682753%20%28cropped%29.jpg"
+    },
+    "Q75814": {
+        "name": "Wilhelm Wundt",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Wilhelm%20Wundt.jpg"
+    },
+    "Q76725": {
+        "name": "Max Stirner",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Max%20Stirner-k.jpg"
+    },
+    "Q57112": {
+        "name": "Oswald Spengler",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Bundesarchiv%20Bild%20183-R06610%2C%20Oswald%20Spengler.jpg"
+    },
+    "Q229264": {
+        "name": "Georges-Louis Leclerc, Comte de Buffon",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Georges-Louis%20Leclerc%20de%20Buffon.jpg"
+    },
+    "Q154545": {
+        "name": "L\u00e9opold S\u00e9dar Senghor",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/L%C3%A9opold%20S%C3%A9dar%20Senghor.jpg"
+    },
+    "Q25820": {
+        "name": "Thomas Young",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Thomas%20Young%20by%20Briggs.jpg"
+    },
+    "Q193344": {
+        "name": "Miyamoto Musashi",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Miyamoto%20Musashi-Portrait-Edo-period.png"
+    },
+    "Q123041": {
+        "name": "Germaine de Sta\u00ebl",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Marie%20El%C3%A9onore%20Godefroid%20-%20Portrait%20of%20Mme%20de%20Sta%C3%ABl.jpg"
+    },
+    "Q46420": {
+        "name": "Ibn Arabi",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Ibn%20Arabi.jpg"
+    },
+    "Q57095": {
+        "name": "Emanuel Lasker",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Bundesarchiv%20Bild%20102-14194%2C%20Emanuel%20Lasker.jpg"
+    },
+    "Q193871": {
+        "name": "Marshall McLuhan",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Marshall%20McLuhan.jpg"
+    },
+    "Q201538": {
+        "name": "Edward Said",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Edward%20Said%20and%20Daniel%20Barenboim%20in%20Sevilla%2C%202002%20%28Said%29.jpg"
+    },
+    "Q219368": {
+        "name": "Judith Butler",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Judith%20Butler%20al%20CCCB%202018%20%28cropped%29.jpg"
+    },
+    "Q164823": {
+        "name": "Girolamo Savonarola",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Girolamo%20Savonarola.jpg"
+    },
+    "Q185832": {
+        "name": "Emmanuel Swedenborg",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Emanuel%20Swedenborg%2C%201688-1772%2C%20%C3%A4mbetsman%20%28Per%20Krafft%20d.%C3%A4.%29%20-%20Nationalmuseum%20-%2015710.tif"
+    },
+    "Q60030": {
+        "name": "Herbert Marcuse",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Herbert%20Marcuse%20in%20Newton%2C%20Massachusetts%201955.jpeg"
+    },
+    "Q57087": {
+        "name": "Adrian VI",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Portrait%20of%20Pope%20Adrian%20VI%20%28after%20Jan%20van%20Scorel%29.jpg"
+    },
+    "Q102289": {
+        "name": "Buckminster Fuller",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/BuckminsterFuller1.jpg"
+    },
+    "Q2484404": {
+        "name": "Yuval Noah Harari",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/MKr364751%20Yuval%20Noah%20Harari%20%28Frankfurter%20Buchmesse%202024%29.jpg"
+    },
+    "Q171969": {
+        "name": "Georges Cuvier",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Georges%20Cuvier%203.jpg"
+    },
+    "Q179149": {
+        "name": "Antisthenes",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Antisthenes%20BM%201838.jpg"
+    },
+    "Q182046": {
+        "name": "Leon Battista Alberti",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/CdM%2C%20presunto%20autoritratto%20di%20leon%20battista%20alberti%2Cblack%20ground.jpg"
+    },
+    "Q312458": {
+        "name": "Jami",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Jami%20poet.jpg"
+    },
+    "Q52937": {
+        "name": "Christina of Sweden",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Swedish%20queen%20Drottning%20Kristina%20portrait%20by%20S%C3%A9bastien%20Bourdon%20stor.jpg"
+    },
+    "Q213195": {
+        "name": "B. F. Skinner",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/B.F.%20Skinner%20at%20Harvard%20circa%201950%20%28cropped%29.jpg"
+    },
+    "Q153020": {
+        "name": "Jos\u00e9 Ortega y Gasset",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Jos%C3%A9%20Ortega%20y%20Gasset%20%28cropped%29.jpg"
+    },
+    "Q37217": {
+        "name": "Fyodor Tyutchev",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Tiutchev.jpg"
+    },
+    "Q179109": {
+        "name": "Roland Barthes",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Roland%20Barthes%201969.jpg"
+    },
+    "Q184226": {
+        "name": "Gilles Deleuze",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/AVT%20Gilles-Deleuze%206342.webp"
+    },
+    "Q60024": {
+        "name": "Hermann von Helmholtz",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Hermann%20von%20Helmholtz.jpg"
+    },
+    "Q47180": {
+        "name": "Petronius",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Petronius%20Arbiter%20by%20Bodart%201707.jpg"
+    },
+    "Q78484": {
+        "name": "Rudolf Steiner",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Steiner%20um%201905.jpg"
+    },
+    "Q214622": {
+        "name": "Nikos Kazantzakis",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Nikos%20Kazantzakis.jpg"
+    },
+    "Q156349": {
+        "name": "Sarvepalli Radhakrishnan",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Radhakrishnan.jpg"
+    },
+    "Q11031": {
+        "name": "Vilfredo Pareto",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Vilfredo%20Pareto%201870s2.jpg"
+    },
+    "Q166876": {
+        "name": "Isidore of Seville",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Isidore%20de%20S%C3%A9ville.jpg"
+    },
+    "Q170472": {
+        "name": "Origen",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Origen3.jpg"
+    },
+    "Q179759": {
+        "name": "Al-Kindi",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Al-Kindi%20Portrait.jpg"
+    },
+    "Q182847": {
+        "name": "Jean Baudrillard",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/WikipediaBaudrillard20040612-cropped.png"
+    },
+    "Q201221": {
+        "name": "Alexander Herzen",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Personnalit%C3%A9s%20des%20arts%20et%20des%20lettres%20-%20Alexandre%20Herzen.jpg"
+    },
+    "Q132845": {
+        "name": "Adrian IV",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Adrian%20IV%2C%20servus%20servorum%20dei%20%28cropped%29.png"
+    },
+    "Q156268": {
+        "name": "Pierre Bourdieu",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Pierre%20Bourdieu%20%281%29.jpg"
+    },
+    "Q167561": {
+        "name": "Eugene IV",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/PapstEugen.jpg"
+    },
+    "Q172383": {
+        "name": "Sylvester II",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Meister%20der%20Reichenauer%20Schule%20002%20%28cropped%29.jpg"
+    },
+    "Q185381": {
+        "name": "Arnold J. Toynbee",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Arnold%20J.%20Toynbee%20Anefo.jpg"
+    },
+    "Q192111": {
+        "name": "Yun Ch'iho",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Yun%20%D0%A1hiho.jpg"
+    },
+    "Q192348": {
+        "name": "Benedetto Croce",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Benedetto%20Croce%2001.jpg"
+    },
+    "Q193405": {
+        "name": "Emil Cioran",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Cioran%20in%20Romania.jpg"
+    },
+    "Q229190": {
+        "name": "Catherine of Siena",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Santa%20Catalina%20de%20Siena%2C%20Pedro%20de%20Villegas%20Marmolejo.jpg"
+    },
+    "Q231680": {
+        "name": "Patanjali",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Stamp%20of%20India%20-%202009%20-%20Colnect%20159916%20-%20Maharshi%20Patanjali.jpeg"
+    },
+    "Q160456": {
+        "name": "Angela Davis",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Angela%20Davis%20in%202019.jpg"
+    },
+    "Q7104": {
+        "name": "Baron d'Holbach",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Paul%20Heinrich%20Dietrich%20Baron%20d%27Holbach%20Roslin.jpg"
+    },
+    "Q172544": {
+        "name": "John Rawls",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/John%20Rawls%20%281971%20photo%20portrait%29.jpg"
+    },
+    "Q179374": {
+        "name": "Robert Owen",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Robert%20Owen%20by%20William%20Henry%20Brooke.jpg"
+    },
+    "Q192885": {
+        "name": "Vissarion Belinsky",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kirill%20Gorbunov%2C%20Vissarion%20Belinsky%2C%201843%2C%20Tretyakov%20Gallery%203270.jpg"
+    },
+    "Q237833": {
+        "name": "George Santayana",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/George%20Santayana.jpg"
+    },
+    "Q154751": {
+        "name": "Nicholas of Cusa",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Nicholas%20of%20Cusa.jpg"
+    },
+    "Q157155": {
+        "name": "Ernest Renan",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Ernest%20Renan%201876-84.jpg"
+    },
+    "Q165589": {
+        "name": "Leucippus",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Pinacoteca%20Querini%20Stampalia%20-%20Leucippus%20-%20Luca%20Giordano.jpg"
+    },
+    "Q173893": {
+        "name": "John Wycliffe",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Wycliffe%20by%20Kirby.jpg"
+    },
+    "Q180819": {
+        "name": "Lev Vygotsky",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Lev-Semyonovich-Vygotsky-1896-1934.jpg"
+    },
+    "Q186123": {
+        "name": "Francis Fukuyama",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Francis%20Fukuyama%20no%20Fronteiras%20do%20Pensamento%20S%C3%A3o%20Paulo%20%2828022453222%29%20%28cropped%29.jpg"
+    },
+    "Q76325": {
+        "name": "Philipp Melanchthon",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/PhilippMelanchthon.jpg"
+    },
+    "Q312549": {
+        "name": "Paramahansa Yogananda",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Paramahansa%20Yogananda.jpg"
+    },
+    "Q312551": {
+        "name": "Kabir",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kabir.jpg"
+    },
+    "Q51884": {
+        "name": "John of Damascus",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Ioann%20Damaskin%20ikona.jpg"
+    },
+    "Q184530": {
+        "name": "Gerolamo Cardano",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Girolamo%20Cardano.%20Stipple%20engraving%20by%20R.%20Cooper.%20Wellcome%20V0001004.jpg"
+    },
+    "Q76326": {
+        "name": "Dietrich Bonhoeffer",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Bundesarchiv%20Bild%20146-1987-074-16%2C%20Dietrich%20Bonhoeffer.jpg"
+    },
+    "Q302910": {
+        "name": "Ng\u0169g\u0129 wa Thiong'o",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Ng%C5%A9g%C4%A9%20wa%20Thiong%27o%202019%20%2848139052733%29.jpg"
+    },
+    "Q57554": {
+        "name": "Georg Christoph Lichtenberg",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Georg%20Christoph%20Lichtenberg.jpg"
+    },
+    "Q84233": {
+        "name": "Ludwig von Mises",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Ludwig%20von%20Mises.jpg"
+    },
+    "Q84423": {
+        "name": "Martin Buber",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Martin%20Buber%20portrait.jpg"
+    },
+    "Q101866": {
+        "name": "Gregory VIII",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/B%20Gregor%20VIII.jpg"
+    },
+    "Q178709": {
+        "name": "Giambattista Vico",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Giovan%20Battista%20Vico.jpg"
+    },
+    "Q43746": {
+        "name": "Bonaventure",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Fran%C3%A7ois%2C%20Claude%20%28dit%20Fr%C3%A8re%20Luc%29%20-%20Saint%20Bonaventure.jpg"
+    },
+    "Q82934": {
+        "name": "Claude Henri de Rouvroy, comte de Saint-Simon",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Claude%20Henri%20de%20Rouvroy.jpg"
+    },
+    "Q205162": {
+        "name": "Isaiah Berlin",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/IsaiahBerlin1983.jpg"
+    },
+    "Q234816": {
+        "name": "Christine de Pizan",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Christine%20de%20Pisan%20-%20cathedra.jpg"
+    },
+    "Q183509": {
+        "name": "Ilya Prigogine",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Ilya%20Prigogine%201977c.jpg"
+    },
+    "Q187520": {
+        "name": "Charles Sanders Peirce",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Charles%20Sanders%20Peirce.jpg"
+    },
+    "Q71029": {
+        "name": "Hermann Weyl",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Hermann%20Weyl%20ETH-Bib%20Portr%2000890.jpg"
+    },
+    "Q76356": {
+        "name": "Hans-Georg Gadamer",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Hans%20Gadamer.png"
+    },
+    "Q190089": {
+        "name": "Duns Scotus",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Scoto%20%28Duns%20Scoto%29%20-%20Studiolo%20di%20Federico%20da%20Montefeltro.jpg"
+    },
+    "Q191850": {
+        "name": "Tommaso Campanella",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Cozza%20Tommaso%20Campanella.jpg"
+    },
+    "Q297726": {
+        "name": "Hippolyte Taine",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Hippolyte%20taine.jpg"
+    },
+    "Q153248": {
+        "name": "Marguerite Duras",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Identite-Duras-1960-Sacem.png"
+    },
+    "Q13107337": {
+        "name": "Giorgi Marghvilashvili",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Prasidenten%20Margvelashvili%20%28cropped%29.jpg"
+    },
+    "Q181707": {
+        "name": "Charles Fourier",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Fran%C3%A7oise%20Foliot%20-%20Jean%20Gigoux%20-%20Portrait%20de%20Charles%20Fourrier%20%28cropped%29%20%281%29.jpg"
+    },
+    "Q182128": {
+        "name": "Giovanni Pico della Mirandola",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Pico1.jpg"
+    },
+    "Q186709": {
+        "name": "Nikolai Bukharin",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Bucharin.bra.jpg"
+    },
+    "Q76556": {
+        "name": "Richard Dedekind",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Dedekind.jpeg"
+    },
+    "Q190302": {
+        "name": "Claude Adrien Helv\u00e9tius",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Portrait%20de%20Claude%20Adrien%20Helvetius%2C%20Collection%20des%20Grands%20Hommes%2C%20G.4189%283%29.jpg"
+    },
+    "Q200392": {
+        "name": "Maria Gaetana Agnesi",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Maria%20Gaetana%20Agnesi.jpg"
+    },
+    "Q206972": {
+        "name": "Olympe de Gouges",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Marie-Olympe-de-Gouges.jpg"
+    },
+    "Q224029": {
+        "name": "Andr\u00e9 Maurois",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Maurois%20Harcourt%201936.jpg"
+    },
+    "Q234898": {
+        "name": "A. C. Bhaktivedanta Swami Prabhupada",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Prabhupada%20on%20a%20morning%20walk%20in%20Germany%201974.jpg"
+    },
+    "Q172248": {
+        "name": "Marcus Junius Brutus",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Portrait%20Brutus%20Massimo.jpg"
+    },
+    "Q180727": {
+        "name": "John Cage",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Opdracht%20GPD%20componist%20John%20Cage%20%2C%20kop%2C%20Bestanddeelnr%20934-2728.jpg"
+    },
+    "Q183848": {
+        "name": "Alija Izetbegovi\u0107",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Alija%20Izetbegovic%20%28cropped%29.jpg"
+    },
+    "Q42063": {
+        "name": "Xuanzang",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Xuanzang%20w.jpg"
+    },
+    "Q76749": {
+        "name": "Edith Stein",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Edith%20Stein%20%28ca.%201938-1939%29.jpg"
+    },
+    "Q207817": {
+        "name": "Amir Khosrow",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Amir%20Khusrow%201975%20stamp%20of%20India.jpg"
+    },
+    "Q84238": {
+        "name": "Peter Drucker",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Drucker5789.jpg"
+    },
+    "Q215022": {
+        "name": "Arthur Eddington",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Arthur%20Stanley%20Eddington.jpg"
+    },
+    "Q222134": {
+        "name": "Ted Kaczynski",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Boston%20Public%20Library%20Anti-Slavery%20Collection%20%28IA%20utterextinctiono1832ivim%29.pdf"
+    },
+    "Q288441": {
+        "name": "Ramana Maharshi",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Sri%20Ramana%20Maharshi%20-%20Portrait%20-%20G.%20G%20Welling%20-%201948.jpg"
+    },
+    "Q182123": {
+        "name": "Irenaeus",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/San%20Ireneo%2C%20vitral%20%28cropped%29.jpg"
+    },
+    "Q185548": {
+        "name": "Jostein Gaarder",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Jostein%20Gaarder%20Leipziger%20Buchmesse%202017%20%28cropped%29.jpg"
+    },
+    "Q76548": {
+        "name": "Meister Eckhart",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Eckharts%20wirtschaft.jpg"
+    },
+    "Q76849": {
+        "name": "Georg Simmel",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Simmel%2001.JPG"
+    },
+    "Q188883": {
+        "name": "Clement of Alexandria",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Clement%20alexandrin.jpg"
+    },
+    "Q189454": {
+        "name": "Helena Blavatsky",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Povedano%20-%20Helena%20P.%20Blavatsky.png"
+    },
+    "Q189597": {
+        "name": "Philo of Alexandria",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Philon.jpg"
+    },
+    "Q192331": {
+        "name": "Nikolay Chernyshevsky",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Nikolaj%20G.%20%C4%8Cerny%C5%A1evskij%201888.jpg"
+    },
+    "Q193660": {
+        "name": "Ramon Llull",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Ramon%20Llull.jpg"
+    },
+    "Q213393": {
+        "name": "John Wesley",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Portrait%20of%20John%20Wesley%20%28by%20George%20Romney%29.jpg"
+    },
+    "Q220976": {
+        "name": "Thomas \u00e0 Kempis",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Portret%20van%20Thomas%20%C3%A0%20Kempis%2C%20RP-P-OB-26.661.jpg"
+    },
+    "Q152441": {
+        "name": "Janusz Korczak",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Janusz%20Korczak%20%28cropped%29.jpg"
+    },
+    "Q13529": {
+        "name": "Alfred Marshall",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Alfred%20Marshall.jpg"
+    },
+    "Q6353": {
+        "name": "Gerardus Mercator",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Mercator.jpg"
+    },
+    "Q188569": {
+        "name": "William Godwin",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/William%20Godwin%20by%20Henry%20William%20Pickersgill.jpg"
+    },
+    "Q203922": {
+        "name": "Mani",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Mani%2C%20the%20prophet.jpg"
+    },
+    "Q206119": {
+        "name": "Marcus Terentius Varro",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Marco%20Terenzio%20Varrone.jpg"
+    },
+    "Q310791": {
+        "name": "Jules Michelet",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Jules%20Michelet%20par%20Thomas%20Couture.jpg"
+    },
+    "Q78494": {
+        "name": "Arthur Koestler",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Arthur%20Koestler%20%281969%29.jpg"
+    },
+    "Q360512": {
+        "name": "Baltasar Graci\u00e1n",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Graci%C3%A1n%20Graus%20%28detalle%29.jpg"
+    },
+    "Q115483": {
+        "name": "Max Frisch",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/ETH-BIB-Max%20Frisch-Com%20C20-015-023-001.tif"
+    },
+    "Q170871": {
+        "name": "Innocent V",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/InnocenzoV.jpg"
+    },
+    "Q182905": {
+        "name": "Georgi Plekhanov",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Georgi%20Valentinovich%20Plekhanov%2C%20ca.%201917.jpg"
+    },
+    "Q183074": {
+        "name": "Sor Juana In\u00e9s de la Cruz",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Sor%20Juana%20In%C3%A9s%20de%20la%20Cruz%2C%201732%20-%20Fray%20Miguel%20de%20Herrera.jpg"
+    },
+    "Q184169": {
+        "name": "Louis Althusser",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Louis%20Althusser%20sketch%20%288420987781%29%20%28cropped%29.jpg"
+    },
+    "Q191026": {
+        "name": "Francis Galton",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Sir%20Francis%20Galton%2C%201890s.jpg"
+    },
+    "Q192374": {
+        "name": "Marsilio Ficino",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Marsilio%20Ficino%20-%20Angel%20Appearing%20to%20Zacharias%20%28detail%29.jpg"
+    },
+    "Q192706": {
+        "name": "William Gilbert",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/William%20Gilbert.jpg"
+    },
+    "Q76521": {
+        "name": "Max Scheler",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Max%20Scheler.jpg"
+    },
+    "Q312976": {
+        "name": "Tulsidas",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Goswami%20Tulsidas%20Awadhi%20Hindi%20Poet.jpg"
+    },
+    "Q154014": {
+        "name": "Georg B\u00fcchner",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Georg%20B%C3%BCchner.png"
+    },
+    "Q157271": {
+        "name": "Friedrich Schlegel",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Franz%20Gareis%20Portrait%20Friedrich%20Schlegel.jpg"
+    },
+    "Q184656": {
+        "name": "Nikolai Berdyaev",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/NBerdyaev.jpg"
+    },
+    "Q189506": {
+        "name": "Aristippus",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Aristippus.jpg"
+    },
+    "Q201477": {
+        "name": "Jean-Antoine-Nicolas de Caritat de Condorcet",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Nicolas%20de%20Condorcet.PNG"
+    },
+    "Q302835": {
+        "name": "Nasir al-Din al-Tusi",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Nasir%20al-Din%20Tusi.jpg"
+    },
+    "Q316371": {
+        "name": "Vladimir Vernadsky",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/1934-V%20I%20Vernadsky.jpg"
+    },
+    "Q214816": {
+        "name": "Pierre Bayle",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Pierre%20Bayle%20by%20Louis%20Ferdinand%20Elle.jpg"
+    },
+    "Q159876": {
+        "name": "Julia Kristeva",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Julia%20Kristeva%20%C3%A0%20Paris%20en%202008.jpg"
+    },
+    "Q503340": {
+        "name": "Ali-Shir Nava'i",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Amir%20Ali-Shir%20Nava%27i%20before%20Sultan%20Husayn%20Bayqara%20in%201486%20Herat.jpg"
+    },
+    "Q13515": {
+        "name": "Fr\u00e9d\u00e9ric Bastiat",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Bastiat.jpg"
+    },
+    "Q172916": {
+        "name": "John XXI",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Papa%20Jo%C3%A3o%20XXI%20-%20Galeria%20dos%20Arcebispos%20de%20Braga.png"
+    },
+    "Q185150": {
+        "name": "Eudoxus of Cnidus",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Eudoxus%20of%20Cnidus%20homocentric%20spheres%20model.png"
+    },
+    "Q189564": {
+        "name": "Pierre Teilhard de Chardin",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/TeilhardP%201955.jpg"
+    },
+    "Q193670": {
+        "name": "Frantz Fanon",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Photograph%20of%20Frantz%20Fanon%20from%20Black%20Skin%20White%20Masks%20%281967%29%20dust%20jacket.webp"
+    },
+    "Q76707": {
+        "name": "Wilhelm Eduard Weber",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Wilhelm%20Eduard%20Weber%20IIa.jpg"
+    },
+    "Q309854": {
+        "name": "Joseph de Maistre",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Jmaistre.jpg"
+    },
+    "Q76727": {
+        "name": "Ernst J\u00fcnger",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Ernst%20J%C3%BCnger%20vers%201920%20%28cropped%29.jpg"
+    },
+    "Q158060": {
+        "name": "W. E. B. Du Bois",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/W.E.B.%20Du%20Bois%20by%20James%20E.%20Purdy%2C%201907%20%28cropped%29.jpg"
+    },
+    "Q296047": {
+        "name": "Sam Harris",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Sam%20Harris%202016%20%28cropped%29.jpg"
+    },
+    "Q41590": {
+        "name": "Mircea Eliade",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Expozi%C8%9Bie%20Mircea%20Eliade%2C%20fragment%20%28cropped%29.jpg"
+    },
+    "Q191107": {
+        "name": "Clare of Assisi",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Simone%20Martini%20047.jpg"
+    },
+    "Q207359": {
+        "name": "Georges Bataille",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Georges%20Bataille%20vers%201943.jpg"
+    },
+    "Q208993": {
+        "name": "Nicholas Roerich",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/N%20Roerich.jpg"
+    },
+    "Q44490": {
+        "name": "John Henry Newman",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/John%20Henry%20Newman%20by%20Sir%20John%20Everett%20Millais%2C%201st%20Bt.jpg"
+    },
+    "Q310002": {
+        "name": "Fran\u00e7ois F\u00e9nelon",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Fran%C3%A7ois%20de%20Salignac%20de%20la%20Mothe-F%C3%A9nelon.PNG"
+    },
+    "Q211539": {
+        "name": "Peter Singer",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Peter%20Singer%202017%20%28cropped%29.jpg"
+    },
+    "Q213614": {
+        "name": "Cyrano de Bergerac",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Savinien%20de%20Cyrano%20de%20Bergerac.JPG"
+    },
+    "Q106775": {
+        "name": "Richard Harris",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Richard%20Harris%201985%20%281%29.jpg"
+    },
+    "Q123089": {
+        "name": "Benjamin Constant",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Henri-Benjamin%20Constant%20de%20Rebecque.png"
+    },
+    "Q151523": {
+        "name": "Georg Luk\u00e1cs",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Luk%C3%A1cs%20Gy%C3%B6rgy.jpg"
+    },
+    "Q235451": {
+        "name": "Vandana Shiva",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Save%20The%20World%20Awards%202009%20show03%20-%20Vandana%20Shiva.jpg"
+    },
+    "Q438839": {
+        "name": "Alexander Dugin",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Aleksandr%20Dugin%2013981126000.jpg"
+    },
+    "Q7103": {
+        "name": "Sophie Germain",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Germain%20-%20%C5%92uvres%20philosophiques%2C%201896%20%28Illustration%20page%204%29.jpg"
+    },
+    "Q185117": {
+        "name": "Justin Martyr",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Justin%20Martyr.jpg"
+    },
+    "Q185375": {
+        "name": "Mikhail Bakhtin",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Mikhail%20bakhtin.jpg"
+    },
+    "Q203445": {
+        "name": "Porphyry",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Portrait%20of%20Porphyry%20of%20Tyre%20from%20Les%20vrais%20pourtraits%20et%20vies%20des%20hommes%20illustres%20grecz%2C%20latins%20et%20payens.jpg"
+    },
+    "Q59138": {
+        "name": "Diogenes La\u00ebrtius",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Diogenes%20Laertius.jpg"
+    },
+    "Q75786": {
+        "name": "Eduard Bernstein",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Bernstein%20Eduard%201895.jpg"
+    },
+    "Q76586": {
+        "name": "Karl Kautsky",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Karl%20Kautsky.jpg"
+    },
+    "Q215263": {
+        "name": "Daniel Dennett",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Daniel%20Dennett%202.jpg"
+    },
+    "Q216072": {
+        "name": "Xunzi",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Portrait%20of%20Xun%20Zi.jpg"
+    },
+    "Q158092": {
+        "name": "Zygmunt Bauman",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Zigmunt%20Bauman%20na%2020%20Forumi%20vydavciv%28Cropped%29.jpg"
+    },
+    "Q191095": {
+        "name": "Edward Sapir",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Edward%20Sapir.jpg"
+    },
+    "Q192124": {
+        "name": "Muhammad ibn Jarir al-Tabari",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/%D8%A7%D9%84%D8%B7%D8%A8%D8%B1%D9%8A.png"
+    },
+    "Q194091": {
+        "name": "Attar of Nishapur",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Miniature%20of%20Attar%20by%20Hossein%20Behzad.jpg"
+    },
+    "Q76857": {
+        "name": "Franz Boas",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/FranzBoas.jpg"
+    },
+    "Q272411": {
+        "name": "Mozi",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/%D0%A4%D0%B8%D0%BB%D0%BE%D1%81%D0%BE%D1%84%20%D0%9C%D0%BE-%D0%A6%D0%B7%D1%8B.jpg"
+    },
+    "Q290227": {
+        "name": "\u00c9tienne de La Bo\u00e9tie",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Statue%20d%27%C3%89tienne%20de%20La%20Bo%C3%A9tie.JPG"
+    },
+    "Q5376037": {
+        "name": "Waleed Al-Husseini",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Waleed%20al-Husseini%20ICFEC.png"
+    },
+    "Q170076": {
+        "name": "Jean Dubuffet",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Paolo%20Monti%20-%20Serie%20fotografica%20%28Italia%2C%201960%29%20-%20BEIC%206363665%20dettaglio.jpg"
+    },
+    "Q187172": {
+        "name": "Bodhidharma",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/BodhidharmaYoshitoshi1887.jpg"
+    },
+    "Q197206": {
+        "name": "Zhang Heng",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Zhang%20Heng.jpg"
+    },
+    "Q76519": {
+        "name": "Rudolf Carnap",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Rudolf%20Carnap%201895.jpeg"
+    },
+    "Q76576": {
+        "name": "Friedrich Schleiermacher",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Friedrich%20Daniel%20Ernst%20Schleiermacher.jpg"
+    },
+    "Q312967": {
+        "name": "Guru Gobind Singh",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Guru%20Gobind%20Singh.jpg"
+    },
+    "Q333411": {
+        "name": "Ilia Chavchavadze",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Ilia%20Tchavtchavadze.jpg"
+    },
+    "Q84412": {
+        "name": "Wilhelm Reich",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Wilhelm%20Reich.jpg"
+    },
+    "Q232505": {
+        "name": "Enheduanna",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Enheduanna%2C%20daughter%20of%20Sargon%20of%20Akkad.jpg"
+    }
+}

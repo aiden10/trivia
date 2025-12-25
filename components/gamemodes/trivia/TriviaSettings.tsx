@@ -1,9 +1,10 @@
 import { useState } from "react";
-import { TriviaCategories, TriviaSettings as TriviaSettingsType } from "@/shared/types";
+import { TriviaCategories, IMAGE_CATEGORIES, TriviaSettings as TriviaSettingsType } from "@/shared/types";
 
 interface TriviaSettingsProps {
     host: boolean;
     initialCategories?: string[];
+    initialImageCategories?: string[];
     initialDuration?: number;
     initialWinningScore?: number;
     onSettingsChange: (settings: TriviaSettingsType) => void;
@@ -12,11 +13,13 @@ interface TriviaSettingsProps {
 export default function TriviaSettings({
     host,
     initialCategories = Object.values(TriviaCategories),
+    initialImageCategories = [],
     initialDuration = 15,
     initialWinningScore = 100,
     onSettingsChange,
 }: TriviaSettingsProps) {
     const [selectedCategories, setSelectedCategories] = useState<string[]>(initialCategories);
+    const [selectedImageCategories, setSelectedImageCategories] = useState<string[]>(initialImageCategories);
     const [duration, setDuration] = useState(initialDuration);
     const [winningScore, setWinningScore] = useState(initialWinningScore);
 
@@ -42,8 +45,9 @@ export default function TriviaSettings({
     };
 
     const handleCategoryToggle = (category: string, checked: boolean) => {
-        // Prevent deselecting if it's the last one
-        if (!checked && selectedCategories.length === 1) {
+        // Prevent deselecting if it's the last one (across both categories)
+        const totalSelected = selectedCategories.length + selectedImageCategories.length;
+        if (!checked && totalSelected === 1) {
             return;
         }
 
@@ -53,6 +57,20 @@ export default function TriviaSettings({
         
         setSelectedCategories(newCategories);
         onSettingsChange({ categories: newCategories });
+    };
+
+    const handleImageCategoryToggle = (category: string, checked: boolean) => {
+        const totalSelected = selectedCategories.length + selectedImageCategories.length;
+        if (!checked && totalSelected === 1) {
+            return;
+        }
+
+        const newCategories = checked
+            ? [...selectedImageCategories, category]
+            : selectedImageCategories.filter(c => c !== category);
+        
+        setSelectedImageCategories(newCategories);
+        onSettingsChange({ imageCategories: newCategories });
     };
 
     const handleDurationChange = (value: number) => {
@@ -116,12 +134,12 @@ export default function TriviaSettings({
                 )}
             </div>
 
-            {/* Categories */}
+            {/* Text Categories */}
             <div className="flex flex-col gap-2">
                 <label className="settings-label group relative cursor-help">
-                    Categories (select at least one)
+                    Text Questions
                     <span className="tooltip">
-                        Select which question categories to include
+                        Standard trivia questions
                     </span>
                 </label>
                 
@@ -135,6 +153,34 @@ export default function TriviaSettings({
                                 type="checkbox"
                                 checked={selectedCategories.includes(category)}
                                 onChange={(e) => handleCategoryToggle(category, e.target.checked)}
+                                disabled={!host}
+                                className="settings-checkbox"
+                            />
+                            <span>{formatCategoryLabel(category)}</span>
+                        </label>
+                    ))}
+                </div>
+            </div>
+
+            {/* Image Categories */}
+            <div className="flex flex-col gap-2">
+                <label className="settings-label group relative cursor-help">
+                    Image Questions
+                    <span className="tooltip">
+                        Identify people or things from images
+                    </span>
+                </label>
+                
+                <div className="grid grid-cols-2 gap-2 bg-neutral-900 bg-dots p-4">
+                    {IMAGE_CATEGORIES.map((category) => (
+                        <label 
+                            key={category}
+                            className={`flex items-center gap-3 settings-label ${!host && 'opacity-50'}`}
+                        >
+                            <input
+                                type="checkbox"
+                                checked={selectedImageCategories.includes(category)}
+                                onChange={(e) => handleImageCategoryToggle(category, e.target.checked)}
                                 disabled={!host}
                                 className="settings-checkbox"
                             />

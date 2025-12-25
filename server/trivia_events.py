@@ -1,5 +1,5 @@
 from utils import broadcast, send_state, get_question
-from models import Room, TriviaEvents, TriviaStages, QUESTION_VALUE, TriviaCategories
+from models import Room, TriviaEvents, TriviaStages, QUESTION_VALUE, TriviaCategories, ImageCategories
 from rapidfuzz import process, fuzz
 
 FUZZY_THRESHOLD = 70
@@ -110,6 +110,17 @@ async def handle_update_settings(message: dict, room: Room):
             except ValueError:
                 pass
         room.trivia_state.categories = categories
+        room.trivia_state.current_question = get_question(room)
+    
+    if "imageCategories" in data:
+        image_categories_str = data.get("imageCategories", [])
+        image_categories = []
+        for cat_str in image_categories_str:
+            try:
+                image_categories.append(ImageCategories(cat_str))
+            except ValueError:
+                pass
+        room.trivia_state.image_categories = image_categories
         room.trivia_state.current_question = get_question(room)
     
     if "duration" in data:

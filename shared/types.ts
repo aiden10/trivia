@@ -97,6 +97,15 @@ export enum TriviaCategories {
     Miscellaneous = "miscellaneous",
 }
 
+export enum ImageCategories {
+    Dishes = "dishes",
+    Basketball = "basketball",
+    Philosophers = "philosophers",
+}
+
+export const TEXT_CATEGORIES = Object.values(TriviaCategories);
+export const IMAGE_CATEGORIES = Object.values(ImageCategories);
+
 export const CONTINENTS = [
     PeopleProperties.Asia,
     PeopleProperties.NorthAmerica,
@@ -119,6 +128,7 @@ export const OCCUPATIONS = [
 
 export interface TriviaSettings {
     categories?: string[];
+    imageCategories?: string[];
     questionDuration?: number;
     winningScore?: number;
     questionValue?: number;
@@ -141,6 +151,7 @@ export interface RotanikaSettings {
 export interface TriviaQuestion {
     body: string;
     answer: string;
+    image?: string | null;
 }
 
 export interface RotanikaQuestion {

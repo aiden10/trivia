@@ -5,6 +5,7 @@ import { useGameContext } from '@/shared/GameContext';
 import { TriviaStages } from '@/shared/types';
 import Timer from '@/components/Timer';
 import PlayerList from '@/components/PlayerList';
+import Image from 'next/image';
 
 export default function QuestionDisplay() {
     const { 
@@ -19,9 +20,11 @@ export default function QuestionDisplay() {
     const triviaState = roomState?.triviaState;
     const question = triviaState?.currentQuestion;
     const questionDuration = triviaState?.settings.questionDuration ?? 15;
+    const hasImage = !!question?.image;
 
     const [remainingTime, setRemainingTime] = useState(questionDuration);
     const [guess, setGuess] = useState("");
+    const [imageLoaded, setImageLoaded] = useState(false);
     
     const endTimeRef = useRef<number>(Date.now() + (questionDuration * 1000));
     const questionIdRef = useRef(question?.body);
@@ -33,14 +36,15 @@ export default function QuestionDisplay() {
 
     // Reset state when question changes
     useEffect(() => {
-        if (questionIdRef.current !== question?.body) {
+        if (questionIdRef.current !== question?.body || (hasImage && question?.image)) {
             questionIdRef.current = question?.body;
             endTimeRef.current = Date.now() + (questionDuration * 1000);
             setRemainingTime(questionDuration);
             setGuess("");
+            setImageLoaded(false);
             inputRef.current?.focus();
         }
-    }, [question?.body, questionDuration]);
+    }, [question?.body, question?.image, questionDuration, hasImage]);
 
     // Timer countdown
     useEffect(() => {
@@ -69,11 +73,30 @@ export default function QuestionDisplay() {
 
     return (
         <div className='w-full flex flex-col min-h-screen gap-y-5 p-4 bg-lines'>
-            <div className='w-full justify-center items-center flex flex-col md:gap-8 gap-12 mt-4'>
+            <div className='w-full justify-center items-center flex flex-col md:gap-8 gap-6 mt-4'>
                 {/* Question */}
                 <h1 className='heading1 bg-dots'>
                     {question?.body}
                 </h1>
+
+                {/* Image */}
+                {hasImage && question?.image && (
+                    <div className="relative w-full max-w-[50%] aspect-square bg-neutral-800 border-2 border-white overflow-hidden">
+                        {!imageLoaded && (
+                            <div className="absolute inset-0 flex items-center justify-center">
+                                <div className="animate-pulse text-white/50 font-inter">Loading...</div>
+                            </div>
+                        )}
+                        <img
+                            src={question.image}
+                            alt="Question image"
+                            className={`w-full h-full object-contain transition-opacity duration-300 ${
+                                imageLoaded ? 'opacity-100' : 'opacity-0'
+                            }`}
+                            onLoad={() => setImageLoaded(true)}
+                        />
+                    </div>
+                )}
 
                 {/* Correct feedback */}
                 {guessedCorrectly && (

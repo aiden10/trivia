@@ -11,13 +11,15 @@ from google.genai import types
 from dotenv import load_dotenv
 from pathlib import Path
 from fastapi import WebSocket
-from models import Room, TriviaQuestion, TriviaCategories, PeopleProperties
+from models import Room, TriviaQuestion, TriviaCategories, ImageCategories, PeopleProperties, NON_PEOPLE_IMAGE_CATEGORIES
 
 MAIN_QUESTIONS_FILE = Path(__file__).parent / "questions.json"
 CATEGORIES_DIR = Path(__file__).parent / "categories"
+IMAGES_DIR = Path(__file__).parent / "images"
 env_path = Path(__file__).parent / ".env"
 load_dotenv(dotenv_path=env_path)
 QUESTIONS = {}
+IMAGE_QUESTIONS = {}
 
 redis_client = redis.Redis(
     host=os.getenv("REDIS_ENDPOINT"),
@@ -39,6 +41,29 @@ def load_all_questions():
     """Load all questions from all category files."""
     for category in TriviaCategories:
         QUESTIONS[category.value] = load_questions_for_category(category)
+        
+def load_images_for_category(category: ImageCategories) -> dict:
+    """Load image questions from a category JSON file."""
+    file_path = IMAGES_DIR / f"{category.value}.json"
+    if file_path.exists():
+        with open(file_path, "r", encoding="utf-8") as f:
+            return json.load(f)
+    return {}
+
+def load_all_images():
+    """Load all image questions from all image category files."""
+    for category in ImageCategories:
+        IMAGE_QUESTIONS[category.value] = load_images_for_category(category)
+        
+def get_name_variations(full_name: str) -> list[str]:
+    answers = [full_name.lower()]
+    
+    parts = full_name.split()
+    
+    if len(parts) > 1:
+        answers.append(parts[-1].lower())
+    
+    return list(set(answers))
 
 async def broadcast(data: dict, room: Room, sender: WebSocket = None):
     if not room.players:
@@ -61,23 +86,59 @@ async def send_state(room: Room, event: str):
     }, room)
 
 def get_question(room: Room) -> TriviaQuestion:
-    """Get a random question based on room's selected categories."""
-    if room.trivia_state and room.trivia_state.categories:
-        possible_questions = []
+    """Get a random question based on room's selected categories (text or image)."""
+    if not room.trivia_state:
+        return TriviaQuestion(body="Error: No trivia state", answers=[])
+    
+    text_questions = []
+    image_questions = []
+    
+    # Text-based questions
+    if room.trivia_state.categories:
         for category in room.trivia_state.categories:
-            possible_questions.extend(QUESTIONS[category.value].values())
-        
-        if possible_questions:
-            chosen = random.choice(possible_questions)
-            return TriviaQuestion(
-                body=chosen.get("q", chosen.get("body", "")),
-                answers=chosen.get("a", chosen.get("answers", []))
-            )
-        
-    return TriviaQuestion(
-        body="Error: Failed to load question",
-        answers=[]
-    )
+            if category.value in QUESTIONS:
+                for q in QUESTIONS[category.value].values():
+                    text_questions.append(q)
+    
+    # Image-based questions
+    if room.trivia_state.image_categories:
+        for category in room.trivia_state.image_categories:
+            if category.value in IMAGE_QUESTIONS:
+                for item_id, item in IMAGE_QUESTIONS[category.value].items():
+                    image_questions.append({
+                        "name": item["name"],
+                        "image": item["image"],
+                        "category": category.value
+                    })
+    
+    all_questions = []
+    
+    for q in text_questions:
+        all_questions.append(("text", q))
+    
+    for q in image_questions:
+        all_questions.append(("image", q))
+    
+    if not all_questions:
+        return TriviaQuestion(body="Error: No questions available", answers=[])
+    
+    question_type, chosen = random.choice(all_questions)
+    
+    if question_type == "text":
+        return TriviaQuestion(
+            body=chosen.get("q", chosen.get("body", "")),
+            answers=chosen.get("a", chosen.get("answers", [])),
+            image=None
+        )
+    else:
+        is_person_category = chosen["category"] not in NON_PEOPLE_IMAGE_CATEGORIES
+        question_text = "Who is this?" if is_person_category else "What is this?"
+
+        return TriviaQuestion(
+            body=question_text,
+            answers=get_name_variations(chosen["name"]),
+            image=chosen["image"]
+        )
 
 def get_properties(room: Room) -> list[PeopleProperties]:
     if not room.people_state or not room.people_state.properties:
@@ -269,4 +330,78 @@ def is_subclass_of_category(specific_occ_id: str, target_gen_id: str) -> bool:
     
     return False
 
+def fetch_wikidata_trivia(category_id, category_name, is_person=False, min_sitelinks=15):
+    url = "https://query.wikidata.org/sparql"
+    results_dict = {}
+    limit = 100
+    offset = 0
+    
+    headers = {
+        'User-Agent': 'mTrivia/1.0',
+        'Accept': 'application/sparql-results+json'
+    }
+
+    if not os.path.exists('images'):
+        os.makedirs('images')
+
+    while True:
+        print(f"Fetching {category_name}: items {offset} to {offset + limit}...")
+        
+        if is_person:
+            category_filter = f"""
+                ?item wdt:P31 wd:Q5;
+                      wdt:P106 wd:{category_id}.
+            """
+        else:
+            category_filter = f"?item wdt:P31 wd:{category_id}."
+
+        query = f"""
+        SELECT ?item ?itemLabel ?image ?sitelinks WHERE {{
+          {category_filter}
+          ?item wdt:P18 ?image.
+          ?item wikibase:sitelinks ?sitelinks.
+          FILTER(?sitelinks > {min_sitelinks})
+          SERVICE wikibase:label {{ bd:serviceParam wikibase:language "en". }}
+        }}
+        ORDER BY DESC(?sitelinks)
+        LIMIT {limit}
+        OFFSET {offset}
+        """
+
+        try:
+            response = requests.get(url, params={'query': query, 'format': 'json'}, headers=headers)
+            response.raise_for_status()
+            data = response.json()
+            
+            bindings = data.get('results', {}).get('bindings', [])
+            
+            if not bindings:
+                print(f"Finished. Total items found: {len(results_dict)}")
+                break
+
+            for row in bindings:
+                item_id = row['item']['value'].split('/')[-1]
+                if item_id == row['itemLabel']['value']: 
+                    continue
+                results_dict[item_id] = {
+                    "name": row['itemLabel']['value'],
+                    "image": row['image']['value']
+                }
+
+            offset += limit
+            time.sleep(1)
+
+        except Exception as e:
+            print(f"Error fetching data at offset {offset}: {e}")
+            break
+
+    filename = f"images/{category_name}.json"
+    with open(filename, 'w', encoding='utf-8') as f:
+        json.dump(results_dict, f, indent=4)
+    
+    print(f"Saved to {filename}")
+
+fetch_wikidata_trivia("Q4964182", "philosophers", is_person=True, min_sitelinks=65)
+
 load_all_questions()
+load_all_images()
