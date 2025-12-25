@@ -63,8 +63,8 @@
     @apply bg-neutral-900 border-white border-2 p-4 md:p-6 space-y-4;
   }
   .settings-label {
-    @apply text-white text-lg font-inter uppercase bg-black/75 p-2 mb-1 md:text-[24px] text-[12px] border-b-2 
-    border-white/50 transition-all duration-500 hover:border-white/80;
+    @apply text-white text-lg font-inter uppercase bg-black/75 p-2 mb-1 border-b-2 
+    border-white/50 transition-all duration-500 hover:border-white/80 md:text-[24px] text-[12px];
   }
   .settings-input {
     @apply bg-neutral-900 text-white p-2 w-full font-inter text-[24px] focus:outline-none

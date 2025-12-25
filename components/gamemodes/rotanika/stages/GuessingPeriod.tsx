@@ -114,7 +114,7 @@ export default function GuessingPeriod() {
                 {!waitingForAnswer && isMyTurn && !isPicker && (
                     <div className="bg-neutral-900 border-2 border-white p-6">
                         <p className="text-white text-lg mb-4 font-inter">
-                            It's your turn to ask a question
+                            It is your turn to ask a question
                         </p>
                         
                         <form onSubmit={handleSubmitQuestion} className="flex flex-col gap-4">

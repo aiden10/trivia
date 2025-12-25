@@ -41,7 +41,7 @@ export default function Picking() {
                         <p className="text-white text-lg text-center font-inter">
                             Think of a person or thing for others to guess.
                             <br />
-                            Make sure it's something that can be guessed, but not too easily!
+                            Make sure it is something that can be guessed, but not too easily!
                         </p>
                         
                         <form onSubmit={handleSubmitSecret} className="w-full">

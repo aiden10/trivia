@@ -129,4 +129,3 @@ Use PageImages and get random wikipedia page available in more than 10-15 langua
 - Pressing join on the name select should request the current room state so it has the up to date stage
     Maybe also keep track of the time left on the server so clients always see an accurate countdown
 - Chat window
-- Trivia categories labels on mobile 

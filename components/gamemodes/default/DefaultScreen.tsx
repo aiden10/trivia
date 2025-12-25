@@ -32,7 +32,7 @@ export default function DefaultScreen() {
                     </div>
                 ) : (
                     <div className="text-center">
-                        <h2 className="text-2xl font-bold text-white">
+                        <h2 className="text-2xl font-bold text-white animate-pulse">
                             Waiting for host to select a gamemode...
                         </h2>
                     </div>

@@ -1,5 +1,5 @@
-from .utils import broadcast, send_state, get_question
-from .models import Room, TriviaEvents, TriviaStages, QUESTION_VALUE, TriviaCategories
+from utils import broadcast, send_state, get_question
+from models import Room, TriviaEvents, TriviaStages, QUESTION_VALUE, TriviaCategories
 from rapidfuzz import process, fuzz
 
 FUZZY_THRESHOLD = 70

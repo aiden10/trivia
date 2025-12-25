@@ -21,6 +21,17 @@ export default function TriviaSettings({
     const [winningScore, setWinningScore] = useState(initialWinningScore);
 
     const formatCategoryLabel = (category: string) => {
+        const shortNames: Record<string, string> = {
+            'art_and_architecture': 'Art & Arch.',
+            'miscellaneous': 'Misc.',
+            'science_and_nature': 'Science',
+            'food_and_drink': 'Food & Drink',
+        };
+        
+        if (shortNames[category]) {
+            return shortNames[category];
+        }
+
         return category
             .split('_')
             .map(word => {
