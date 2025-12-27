@@ -72,70 +72,83 @@ export default function QuestionDisplay() {
 
     return (
         <div className='w-full flex flex-col min-h-screen gap-y-5 p-4 bg-lines'>
-            <div className='w-full justify-center items-center flex flex-col md:gap-8 gap-6 mt-4'>
-                {/* Question */}
-                <h1 className='heading1 bg-dots'>
-                    {question?.body}
-                </h1>
+            <div className={`w-full max-w-8xl mx-auto ${hasImage ? 'md:flex md:flex-row md:gap-8 md:items-start' : 'flex flex-col'}`}>
+                <div className='w-full md:flex-1 flex flex-col gap-4 mt-4'>
+                    {/* Question */}
+                    <h1 className='heading1 bg-dots text-center'>
+                        {question?.body}
+                    </h1>
 
-                {/* Image */}
-                {hasImage && question?.image && (
-                    <div className="relative w-full max-h-[400px] aspect-square bg-neutral-800 border-2 border-white overflow-hidden">
-                        {!imageLoaded && (
-                            <div className="absolute inset-0 flex items-center justify-center">
-                                <div className="animate-pulse text-white/50 font-inter">Loading...</div>
+                    {/* Timer */}
+                    <Timer remainingTime={remainingTime} duration={questionDuration}/>
+
+                    {/* Image */}
+                    {hasImage && question?.image && (
+                        <div className="relative w-full max-h-[300px] aspect-square bg-neutral-800 border-2 border-white overflow-hidden">
+                            {!imageLoaded && (
+                                <div className="absolute inset-0 flex items-center justify-center">
+                                    <div className="animate-pulse text-white/50 font-inter">Loading...</div>
+                                </div>
+                            )}
+                            <img
+                                src={question.image}
+                                alt="Question image"
+                                className={`w-full h-full object-contain transition-opacity duration-300 ${
+                                    imageLoaded ? 'opacity-100' : 'opacity-0'
+                                }`}
+                                onLoad={() => setImageLoaded(true)}
+                            />
+                        </div>
+                    )}
+
+                    {/* Correct feedback */}
+                    {guessedCorrectly && (
+                        <h2 className="main-text-color text-2xl bg-emerald-700 border-4 border-emerald-400 
+                            text-center p-2 text-emerald-400">
+                            You guessed it!
+                        </h2>
+                    )}
+
+                    {/* Answer Input */}
+                    {!guessedCorrectly && (
+                        <form onSubmit={handleSubmitGuess} className="w-full">
+                            <div className="flex flex-col gap-4">
+                                <input
+                                    ref={inputRef}
+                                    type="text"
+                                    value={guess}
+                                    onChange={(e) => setGuess(e.target.value)}
+                                    placeholder="type your answer..."
+                                    autoFocus
+                                    className="input-primary"
+                                />
+                                
+                                <button
+                                    type="submit"
+                                    disabled={!guess.trim()}
+                                    className="btn-primary w-full text-xl py-3 disabled:opacity-50 uppercase"
+                                >
+                                    Submit Guess
+                                </button>
                             </div>
-                        )}
-                        <img
-                            src={question.image}
-                            alt="Question image"
-                            className={`w-full h-full object-contain transition-opacity duration-300 ${
-                                imageLoaded ? 'opacity-100' : 'opacity-0'
-                            }`}
-                            onLoad={() => setImageLoaded(true)}
-                        />
+                        </form>
+                    )}
+                </div>
+
+                {/* PlayerList - positioned on right when image shown */}
+                {hasImage && (
+                    <div className='w-full md:w-96 md:flex-shrink-0 mt-6 md:mt-4 md:min-h-screen bg-neutral-900 border-white border-2 bg-dots'>
+                        <PlayerList />
                     </div>
                 )}
-
-                {/* Correct feedback */}
-                {guessedCorrectly && (
-                    <h2 className="main-text-color text-2xl bg-emerald-700 border-4 border-emerald-400 
-                        min-w-[200px] text-center p-2 text-emerald-400">
-                        You guessed it!
-                    </h2>
-                )}
-
-                {/* Answer Input */}
-                {!guessedCorrectly && (
-                    <form onSubmit={handleSubmitGuess} className="w-full max-w-2xl">
-                        <div className="flex flex-col gap-4">
-                            <input
-                                ref={inputRef}
-                                type="text"
-                                value={guess}
-                                onChange={(e) => setGuess(e.target.value)}
-                                placeholder="type your answer..."
-                                autoFocus
-                                className="input-primary"
-                            />
-                            
-                            <button
-                                type="submit"
-                                disabled={!guess.trim()}
-                                className="btn-primary w-full text-xl py-3 disabled:opacity-50 uppercase"
-                            >
-                                Submit Guess
-                            </button>
-                        </div>
-                    </form>
-                )}
-
-                <Timer remainingTime={remainingTime} duration={questionDuration}/>
             </div>
 
-            <div className='w-full max-w-4xl mx-auto mt-10'>
-                <PlayerList />
-            </div>
+            {/* PlayerList */}
+            {!hasImage && (
+                <div className='w-full max-w-6xl mx-auto mt-4'>
+                    <PlayerList />
+                </div>
+            )}
         </div>
     );
 }

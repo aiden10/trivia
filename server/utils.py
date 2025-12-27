@@ -11,7 +11,7 @@ from google.genai import types
 from dotenv import load_dotenv
 from pathlib import Path
 from fastapi import WebSocket
-from models import Room, TriviaQuestion, TriviaCategories, ImageCategories, PeopleProperties, NON_PEOPLE_IMAGE_CATEGORIES
+from models import Room, TriviaQuestion, TriviaCategories, ImageCategories, PeopleProperties, IMAGE_PROMPTS, PEOPLE_CATEGORIES
 
 MAIN_QUESTIONS_FILE = Path(__file__).parent / "questions.json"
 CATEGORIES_DIR = Path(__file__).parent / "categories"
@@ -55,7 +55,9 @@ def load_all_images():
     for category in ImageCategories:
         IMAGE_QUESTIONS[category.value] = load_images_for_category(category)
         
-def get_name_variations(full_name: str) -> list[str]:
+def get_name_variations(full_name: str, category: str) -> list[str]:
+    if category not in PEOPLE_CATEGORIES:
+        return full_name
     answers = [full_name.lower()]
     
     parts = full_name.split()
@@ -131,12 +133,12 @@ def get_question(room: Room) -> TriviaQuestion:
             image=None
         )
     else:
-        is_person_category = chosen["category"] not in NON_PEOPLE_IMAGE_CATEGORIES
-        question_text = "Who is this?" if is_person_category else "What is this?"
+        is_person_category = chosen["category"] not in IMAGE_PROMPTS
+        question_text = IMAGE_PROMPTS[chosen["category"]] if is_person_category else "What is this?"
 
         return TriviaQuestion(
             body=question_text,
-            answers=get_name_variations(chosen["name"]),
+            answers=get_name_variations(chosen["name"], chosen["category"]),
             image=chosen["image"]
         )
 

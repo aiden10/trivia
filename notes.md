@@ -74,10 +74,7 @@ If answer contains more than one word, allow acronyms
 
 # Trivia
 This can be expanded to include images of things or people. Could also include songs using the Deezer API. Wikipedia would be good for images, but it also has way too many obscure pages, and if I wanted categories for these, then it would need to be categorized as well. Songs would have a similar issue because even if you pick categories, there are way too many. With songs though I could maybe use the Spotify API too to determine if a song is popular enough to include. 
-
-## Images
-Use PageImages and get random wikipedia page available in more than 10-15 languages. Could also get images from specific categories from Wikipedia like certain kinds of foods or sports players. This should still be under the trivia gamemode, but just as a separate category. 
-
+    
 # People Guesser Bomb Party
 Instead of everyone guessing as many as they can, players take turns guessing a person who has the specific properties on their turn. I think I'd try to have the UI still mainly text based instead of showing players in a circle with an arrow. A grid with different sized cells which contain information about: prompt (properties), lives left of other players, your lives left, who's next, and above that would be the search bar. On mobile it can resize to have more rows and less columns.  
 
@@ -86,4 +83,6 @@ Instead of everyone guessing as many as they can, players take turns guessing a 
 - Pressing join on the name select should request the current room state so it has the up to date stage
     Maybe also keep track of the time left on the server so clients always see an accurate countdown
 - Chat window
+- Move player list to side when image is shown in trivia
+- Lobby
 

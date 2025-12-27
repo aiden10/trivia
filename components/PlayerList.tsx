@@ -10,7 +10,8 @@ export default function PlayerList() {
     });
 
     return (
-        <div className="flex-col bg-neutral-900 border-white border-2 bg-dots font-inter font-light">
+        <div className="flex flex-col bg-neutral-900 border-white border-2 bg-dots font-inter 
+         font-light max-h-[60vh] md:max-h-[50vh] overflow-y-auto">
             {sortedPlayers.map((player, index) => (
                 <div key={index} className={`flex flex-row justify-between items-center py-2 px-4 transition-colors ${
                     player.guessedCorrectly ? 'bg-emerald-900/75' : ''

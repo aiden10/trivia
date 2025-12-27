@@ -90,7 +90,23 @@ class ImageCategories(Enum):
     Musicians = "musicians"
     Characters = "characters"
     
-NON_PEOPLE_IMAGE_CATEGORIES = {"dishes", "attractions", "flags", "paintings"}
+IMAGE_PROMPTS = {
+    ImageCategories.Dishes.value: "What is this dish?",
+    ImageCategories.Basketball.value: "Who is this basketball player?",
+    ImageCategories.Philosophers.value: "Who is this philosopher?",
+    ImageCategories.Flags.value: "What country's flag is this?",
+    ImageCategories.Attractions.value: "What is this attraction?",
+    ImageCategories.Paintings.value: "What is this painting?",
+    ImageCategories.Characters.value: "Who is this character?",
+    ImageCategories.Musicians.value: "Who is this artist?",
+}
+
+PEOPLE_CATEGORIES = [
+    ImageCategories.Basketball.value, 
+    ImageCategories.Philosophers.value, 
+    ImageCategories.Characters.value,
+    ImageCategories.Musicians.value
+]
 
 class PeopleProperties(Enum):
     Male = "male"
