@@ -57,7 +57,7 @@ def load_all_images():
         
 def get_name_variations(full_name: str, category: str) -> list[str]:
     if category not in PEOPLE_CATEGORIES:
-        return full_name
+        return [full_name.lower()]
     answers = [full_name.lower()]
     
     parts = full_name.split()
