@@ -18,7 +18,7 @@ export enum GameModes {
 export const GamemodeOptions: Array<{ id: GameModes; name: string; description: string }> = [
     { 
         id: GameModes.Trivia, 
-        name: "OpenTrivia", 
+        name: "TriviaQA", 
         description: "Uses questions from the OpenTriviaQA dataset and fuzzy logic to check guesses" 
     },
     {
@@ -28,8 +28,8 @@ export const GamemodeOptions: Array<{ id: GameModes; name: string; description: 
     },
     {
         id: GameModes.Rotanika,
-        name: "Rotanika",
-        description: "20 Questions style game - guess what the picker is thinking of"
+        name: "20Q",
+        description: "20 Questions game - guess what the picker is thinking of using yes/no questions"
     }
 ];
 
