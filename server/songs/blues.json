@@ -1,0 +1,345 @@
+[
+    {
+        "name": "The Thrill Is Gone",
+        "artist": "B.B. King",
+        "album": "Completely Well",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/3/4/5/0/345a462834b448fd76c5deaa78b8f453.mp3?hdnea=exp=1767349133~acl=/api/1/1/3/4/5/0/345a462834b448fd76c5deaa78b8f453.mp3*~data=user_id=0,application_id=42~hmac=55abf7cb9c1b583888f25a9c988ce5e1290d02dcf7aa34edbd5527b107cfc581",
+        "image_id": "a01e85774ccfb1bda013c7a4a535125b"
+    },
+    {
+        "name": "I'd Rather Go Blind",
+        "artist": "Etta James",
+        "album": "Gospel Blues",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/4/5/1/0/4518654a1a96f6cfa4f29f23bf16a908.mp3?hdnea=exp=1767349134~acl=/api/1/1/4/5/1/0/4518654a1a96f6cfa4f29f23bf16a908.mp3*~data=user_id=0,application_id=42~hmac=f6dfa3c46dc6f4bccb998dc92aab8f235c5467dce76b6881305130e461683d51",
+        "image_id": "3f259bfde4d54157e38936961eecdc91"
+    },
+    {
+        "name": "From Eden",
+        "artist": "Hozier",
+        "album": "Hozier",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/3/6/e/0/36eb742b997f295ba4b3261df31c9cb6.mp3?hdnea=exp=1767349134~acl=/api/1/1/3/6/e/0/36eb742b997f295ba4b3261df31c9cb6.mp3*~data=user_id=0,application_id=42~hmac=0575576a8c4680a6f0035562834927bfd6a711cb5d9c37d006c15c874f8a2675",
+        "image_id": "f579acf05571d8a49f8143debd53726b"
+    },
+    {
+        "name": "Gravity",
+        "artist": "John Mayer",
+        "album": "Continuum",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/0/b/5/0/0b511de9488934f1b185c9ba177ea503.mp3?hdnea=exp=1767349134~acl=/api/1/1/0/b/5/0/0b511de9488934f1b185c9ba177ea503.mp3*~data=user_id=0,application_id=42~hmac=fa4d35c5404d8c9f1bcc98ef0be9a345268c4c77685eea70216888b720ccb211",
+        "image_id": "a49f22668c3f7f26d9de7fcc93537742"
+    },
+    {
+        "name": "Slow Dancing in a Burning Room",
+        "artist": "John Mayer",
+        "album": "Continuum",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/1/e/e/0/1eef0580c12d7eec86409a1d155e1dc9.mp3?hdnea=exp=1767349135~acl=/api/1/1/1/e/e/0/1eef0580c12d7eec86409a1d155e1dc9.mp3*~data=user_id=0,application_id=42~hmac=53d04704e07daf4fe9194af402845b60bab04149151efc56f440ab8b5c241e56",
+        "image_id": "a49f22668c3f7f26d9de7fcc93537742"
+    },
+    {
+        "name": "Still Got The Blues",
+        "artist": "Gary Moore",
+        "album": "Still Got The Blues",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/3/e/4/0/3e46e306a9c84d7b7f2389394ecbe63e.mp3?hdnea=exp=1767349135~acl=/api/1/1/3/e/4/0/3e46e306a9c84d7b7f2389394ecbe63e.mp3*~data=user_id=0,application_id=42~hmac=f331ab256f4c14d92b5272211a4bf563a50e1cb7012ffd30ba06de457e974607",
+        "image_id": "e5ca9ba4e56c7e8a69791f6b194399d3"
+    },
+    {
+        "name": "Magnolia",
+        "artist": "J.J. Cale",
+        "album": "Naturally",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/c/3/b/0/c3b44381f8d5b6d4a0d0ba43d436a62c.mp3?hdnea=exp=1767349135~acl=/api/1/1/c/3/b/0/c3b44381f8d5b6d4a0d0ba43d436a62c.mp3*~data=user_id=0,application_id=42~hmac=6c97d0ba0368fbd8fe7a988bb4d87f5ced7c9e5460a4bb5d4deb319a4ec54750",
+        "image_id": "cd3ff7fe7f298d2f61127bb074647770"
+    },
+    {
+        "name": "Stormy Weather",
+        "artist": "Etta James",
+        "album": "At Last!",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/e/0/a/0/e0a3971cb756d9f26bade8bb0aa86f06.mp3?hdnea=exp=1767349136~acl=/api/1/1/e/0/a/0/e0a3971cb756d9f26bade8bb0aa86f06.mp3*~data=user_id=0,application_id=42~hmac=6bb9823c35f40664c8d7a516a4d074b459c2093fbfd09f183f77e1a066ef4d6a",
+        "image_id": "793a7368c289b642ed327f92414d097f"
+    },
+    {
+        "name": "A Sunday Kind Of Love",
+        "artist": "Etta James",
+        "album": "At Last!",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/8/4/f/0/84f3cf6e4c4b7274b5fee9f33b7131d6.mp3?hdnea=exp=1767349136~acl=/api/1/1/8/4/f/0/84f3cf6e4c4b7274b5fee9f33b7131d6.mp3*~data=user_id=0,application_id=42~hmac=6b2a53577657f275ed43a5f88b5c627c89c957cfba1d38598b9b195fa16ae55d",
+        "image_id": "793a7368c289b642ed327f92414d097f"
+    },
+    {
+        "name": "Smokestack Lightnin'",
+        "artist": "Howlin' Wolf",
+        "album": "Chess Pieces: The Very Best Of Chess Records",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/d/a/2/0/da2757231f6e53c6f4c193521420b5b2.mp3?hdnea=exp=1767349137~acl=/api/1/1/d/a/2/0/da2757231f6e53c6f4c193521420b5b2.mp3*~data=user_id=0,application_id=42~hmac=db431d0fbce5b03371a0d94c7a1bf9d5f2f06bcad0ed00ba2f347f1fd4b52d2e",
+        "image_id": "7e2871d3eadc090848e900edf58f0fc7"
+    },
+    {
+        "name": "Mannish Boy",
+        "artist": "Muddy Waters",
+        "album": "Hard Again",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/9/a/6/0/9a683549c7747561448546abc40527d3.mp3?hdnea=exp=1767349137~acl=/api/1/1/9/a/6/0/9a683549c7747561448546abc40527d3.mp3*~data=user_id=0,application_id=42~hmac=5bdd7aa223d3f0d45670592d2ed6a059f69760e0547963b15a07aedeecedf0a2",
+        "image_id": "922d268e5b89bf65c61f658e499f8bf5"
+    },
+    {
+        "name": "Cold, Cold Feeling",
+        "artist": "Albert Collins",
+        "album": "Ice Pickin'",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/d/8/7/0/d871f5377f838d5f66f0cde27b859565.mp3?hdnea=exp=1767349137~acl=/api/1/1/d/8/7/0/d871f5377f838d5f66f0cde27b859565.mp3*~data=user_id=0,application_id=42~hmac=43f23d02ba627c33c98e460c0cd9ea163bfaaa7b01e47ee7682202fbdbc5dbd2",
+        "image_id": "27d8c5095077e800313ebf7e34051199"
+    },
+    {
+        "name": "The Other Woman",
+        "artist": "Lana Del Rey",
+        "album": "Ultraviolence (Deluxe)",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/d/1/0/0/d10bd3121a8d914b1459e3d442bad0ab.mp3?hdnea=exp=1767349138~acl=/api/1/1/d/1/0/0/d10bd3121a8d914b1459e3d442bad0ab.mp3*~data=user_id=0,application_id=42~hmac=5bfac2ec4516a45ef8d3b436ab5b93481e0d5582f05fbc3c072e43a18edf9e90",
+        "image_id": "b68adb6788dfa09a314f594aec287850"
+    },
+    {
+        "name": "Roadhouse Blues",
+        "artist": "The Doors",
+        "album": "Morrison Hotel",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/2/8/7/0/287b138c0f634f892de5c2632afb736f.mp3?hdnea=exp=1767349138~acl=/api/1/1/2/8/7/0/287b138c0f634f892de5c2632afb736f.mp3*~data=user_id=0,application_id=42~hmac=af41cc0bc67e7b87eacd00f1b2cbe4df45015e1714f41854393cd206c78d0583",
+        "image_id": "2be2843b0de8959b6d1aedfff018a4b3"
+    },
+    {
+        "name": "Pride and Joy",
+        "artist": "Stevie Ray Vaughan & Double Trouble",
+        "album": "Texas Flood (Legacy Edition)",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/e/b/6/0/eb6b5f79d0b107bb47591a2c46ced676.mp3?hdnea=exp=1767349139~acl=/api/1/1/e/b/6/0/eb6b5f79d0b107bb47591a2c46ced676.mp3*~data=user_id=0,application_id=42~hmac=b1856e8a244ec2b8ee6e6846701f7f63695d0b0cb23c5099610ee9b97bbe69e5",
+        "image_id": "dd0ffcb12349bc30351037441a20bacf"
+    },
+    {
+        "name": "Parisienne Walkways (Live At Royal Albert Hall, London / 1993)",
+        "artist": "Gary Moore",
+        "album": "The Blues Collection",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/3/f/e/0/3fed485429fbe73b7fc4ab73c275016e.mp3?hdnea=exp=1767349139~acl=/api/1/1/3/f/e/0/3fed485429fbe73b7fc4ab73c275016e.mp3*~data=user_id=0,application_id=42~hmac=e6b5dbd16d3efe62aebf66270b6677faf86da9482f29e188a7be6d68afd370a0",
+        "image_id": "02d863be62bf09d6be460b089fbdc185"
+    },
+    {
+        "name": "Give Me One Reason",
+        "artist": "Tracy Chapman",
+        "album": "New Beginning",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/d/7/0/0/d70a6c1352c13d7eec4f6315f3ad3d00.mp3?hdnea=exp=1767349139~acl=/api/1/1/d/7/0/0/d70a6c1352c13d7eec4f6315f3ad3d00.mp3*~data=user_id=0,application_id=42~hmac=9b0b517e98d821f3107de46806d8db44f74e34b568394e819b6ee09ba893562b",
+        "image_id": "f34b4d8e8b5795adde5ce91e78a830e7"
+    },
+    {
+        "name": "Boom Boom",
+        "artist": "John Lee Hooker",
+        "album": "Blues Greats: John Lee Hooker",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/0/0/2/0/002e5beea191d0adfe3030fdc2de9b0c.mp3?hdnea=exp=1767349140~acl=/api/1/1/0/0/2/0/002e5beea191d0adfe3030fdc2de9b0c.mp3*~data=user_id=0,application_id=42~hmac=436e2db251c431d17f52b93b3845f771eb6424e4c18c82cc85bd5f13a076030e",
+        "image_id": "c06611649674254da26a4675c37c3fa1"
+    },
+    {
+        "name": "Ain't No Sunshine",
+        "artist": "Bill Withers",
+        "album": "Just As I Am",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/f/1/a/0/f1ab5f45e10298bb0d2f637eaea67e06.mp3?hdnea=exp=1767349140~acl=/api/1/1/f/1/a/0/f1ab5f45e10298bb0d2f637eaea67e06.mp3*~data=user_id=0,application_id=42~hmac=4cfa867218eafb1c1872923ab0e7eac04acbdae7b4434e8661973d57b0df8fda",
+        "image_id": "0a582ace7dda823714f8eaaa74ab9505"
+    },
+    {
+        "name": "I Want Someone Badly",
+        "artist": "Jeff Buckley",
+        "album": "Grace (Legacy Edition)",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/f/3/3/0/f33d3c0995d7e7f20f22f420801e3942.mp3?hdnea=exp=1767349141~acl=/api/1/1/f/3/3/0/f33d3c0995d7e7f20f22f420801e3942.mp3*~data=user_id=0,application_id=42~hmac=79d07cc44d9ae80d586407b985e5769e25a00d1026ae95e8b564e8b09d73bc63",
+        "image_id": "ce93d7074206c429ecb4eac1d3e34d90"
+    },
+    {
+        "name": "Red House",
+        "artist": "Jimi Hendrix",
+        "album": "Experience Hendrix: The Best Of Jimi Hendrix",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/e/6/7/0/e6767c3bc8e990765e7727a2972d2a39.mp3?hdnea=exp=1767349141~acl=/api/1/1/e/6/7/0/e6767c3bc8e990765e7727a2972d2a39.mp3*~data=user_id=0,application_id=42~hmac=c61ad8759744b37770d9b10c7669821e8b8b160a99cfdbf20e5c6d5534b82252",
+        "image_id": "021ddfb48a222859aa12da805116ca8d"
+    },
+    {
+        "name": "Spoonful",
+        "artist": "Howlin' Wolf",
+        "album": "Best of Blues - From Mississipi to Chicago",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/2/b/5/0/2b576284d3100b6ff3d73dbfb3908449.mp3?hdnea=exp=1767349141~acl=/api/1/1/2/b/5/0/2b576284d3100b6ff3d73dbfb3908449.mp3*~data=user_id=0,application_id=42~hmac=bae164544539440be1277bdccd1baf9c56cf85ddd25c5589388da32b66bebd38",
+        "image_id": "d4e6c261481f37050e8e4644b70b1ca6"
+    },
+    {
+        "name": "Wonderful Tonight",
+        "artist": "Eric Clapton",
+        "album": "The Cream Of Clapton",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/e/5/2/0/e52393f6e85e13def3525d8e53be036e.mp3?hdnea=exp=1767349142~acl=/api/1/1/e/5/2/0/e52393f6e85e13def3525d8e53be036e.mp3*~data=user_id=0,application_id=42~hmac=78df9f193471ab9abad32c0f6c052b2e173d3b0e580d6c0a56f5c0586c50159d",
+        "image_id": "196eaf4d3f7437f744a71d867a543dbb"
+    },
+    {
+        "name": "Fade To Black",
+        "artist": "Dire Straits",
+        "album": "On Every Street",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/f/5/0/0/f50ccba6c42b742a9603a49cb5c2d189.mp3?hdnea=exp=1767349142~acl=/api/1/1/f/5/0/0/f50ccba6c42b742a9603a49cb5c2d189.mp3*~data=user_id=0,application_id=42~hmac=ed4089d3b1d991ebed9f0a0e213fe05d994f65ea14f10628cc8c79fcf85a90f4",
+        "image_id": "defd81a4cae726db4eddccad922f35f7"
+    },
+    {
+        "name": "Blues Boys Tune",
+        "artist": "B.B. King",
+        "album": "Blues On The Bayou",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/5/a/f/0/5afdd6afddd55201420873ed1e6ed4f0.mp3?hdnea=exp=1767349143~acl=/api/1/1/5/a/f/0/5afdd6afddd55201420873ed1e6ed4f0.mp3*~data=user_id=0,application_id=42~hmac=540d13cb0dff5eb16384f0f275b622e7eee257d98390eacec13087704d20f3a4",
+        "image_id": "e7f45152ff7439f57131e57670bf5945"
+    },
+    {
+        "name": "I'd Rather Go Blind (Album Version)",
+        "artist": "Beyonc\u00e9",
+        "album": "Music From The Motion Picture Cadillac Records",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/0/c/8/0/0c8188315ebdb3a554f561cbeda82823.mp3?hdnea=exp=1767349143~acl=/api/1/1/0/c/8/0/0c8188315ebdb3a554f561cbeda82823.mp3*~data=user_id=0,application_id=42~hmac=b9f9bf3b2fb9a8c532a436878b6ea07faf8a308a617bb8338d7d16c2f63539b1",
+        "image_id": "7ff7e997178e0fd5bb1780d18f6c2dca"
+    },
+    {
+        "name": "I Hope That I Don't Fall In Love With You",
+        "artist": "Tom Waits",
+        "album": "Anthology Of Tom Waits",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/9/2/1/0/921f32cb10d4d740f09f948a5a0d0114.mp3?hdnea=exp=1767349143~acl=/api/1/1/9/2/1/0/921f32cb10d4d740f09f948a5a0d0114.mp3*~data=user_id=0,application_id=42~hmac=036fce773379611da3cd9f3695c8fbc186be0d1ac62cb30ad09feb9d9b3b424d",
+        "image_id": "9a24d114e28e9f3f26e8cfc1f973a3f0"
+    },
+    {
+        "name": "At Last",
+        "artist": "Etta James",
+        "album": "At Last!",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/a/1/d/0/a1d0a9c9c56a2aa462c54e9ff4d6ea12.mp3?hdnea=exp=1767349144~acl=/api/1/1/a/1/d/0/a1d0a9c9c56a2aa462c54e9ff4d6ea12.mp3*~data=user_id=0,application_id=42~hmac=d9bdf92ab0b8eb37d149c06c81f22db27d2c2c0cd62785df32a6f557959bdfff",
+        "image_id": "793a7368c289b642ed327f92414d097f"
+    },
+    {
+        "name": "Going Down",
+        "artist": "Freddie King",
+        "album": "Getting Ready... (World)",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/6/e/0/0/6e0f5524d046b5fa2edfd9d245022282.mp3?hdnea=exp=1767349144~acl=/api/1/1/6/e/0/0/6e0f5524d046b5fa2edfd9d245022282.mp3*~data=user_id=0,application_id=42~hmac=8c7fdcdbff3850fc574cf5a93d558d7952191b6e10bf5fd9828733c1fdcf4b22",
+        "image_id": "5db0926102589208b0fd14b2b1694452"
+    },
+    {
+        "name": "Chains And Things",
+        "artist": "B.B. King",
+        "album": "Indianola Mississippi Seeds",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/d/1/c/0/d1cd7698f9afea268a5bddba2d7b919a.mp3?hdnea=exp=1767349145~acl=/api/1/1/d/1/c/0/d1cd7698f9afea268a5bddba2d7b919a.mp3*~data=user_id=0,application_id=42~hmac=e2c68d2f0b88deb7c293b78f071c960d115b52757c95d7f1d0be06cd59ce98cb",
+        "image_id": "c1c81857413668f14b9a9048b7979a80"
+    },
+    {
+        "name": "Hit the Road Jack",
+        "artist": "Ray Charles",
+        "album": "Ray Charles, The Very Best Of",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/8/1/8/0/818fcab147a5b531cf8cc12de4cb2eaa.mp3?hdnea=exp=1767349145~acl=/api/1/1/8/1/8/0/818fcab147a5b531cf8cc12de4cb2eaa.mp3*~data=user_id=0,application_id=42~hmac=cc597d964dfe443b36df2ca407ed8c102ca8580d852b46ec0165369ebb209f46",
+        "image_id": "606741e24e4109ba36979153a95ed4de"
+    },
+    {
+        "name": "Texas Flood",
+        "artist": "Stevie Ray Vaughan & Double Trouble",
+        "album": "Texas Flood (Legacy Edition)",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/9/3/9/0/93956ceaa24611fa8c278601d34c4a23.mp3?hdnea=exp=1767349145~acl=/api/1/1/9/3/9/0/93956ceaa24611fa8c278601d34c4a23.mp3*~data=user_id=0,application_id=42~hmac=c2512524270eda88e68df2adf4c688c8f50bc3f65d7356bdb342821cd997a56a",
+        "image_id": "dd0ffcb12349bc30351037441a20bacf"
+    },
+    {
+        "name": "Tears in Heaven",
+        "artist": "Eric Clapton",
+        "album": "Rush (Music from the Motion Picture Soundtrack)",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/d/c/8/0/dc89a87bbef42ed137db40fb2c26c356.mp3?hdnea=exp=1767349146~acl=/api/1/1/d/c/8/0/dc89a87bbef42ed137db40fb2c26c356.mp3*~data=user_id=0,application_id=42~hmac=803f85fb5ed805a8995d105779ab7b93fc05ca045682363adcdd4cef2a574ca8",
+        "image_id": "fd6aed0c25c5f38220561d4d6cd04d8a"
+    },
+    {
+        "name": "Born Under A Bad Sign",
+        "artist": "Albert King",
+        "album": "King Of The Blues Guitar (Reissue)",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/b/5/b/0/b5b4163ca1f7e7f94cf16ce4bc96c81c.mp3?hdnea=exp=1767349146~acl=/api/1/1/b/5/b/0/b5b4163ca1f7e7f94cf16ce4bc96c81c.mp3*~data=user_id=0,application_id=42~hmac=4d2391322f14da4144c7dfc4f3b30ffe2d1e0187cc8a0c409ed4fa54c7ee7606",
+        "image_id": "9f2598b2d48eb88671a5620f375ffb0f"
+    },
+    {
+        "name": "Where Did You Sleep Last Night",
+        "artist": "Leadbelly",
+        "album": "Midnight Special",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/9/e/7/0/9e7775471bcade2631abef8ddaa22356.mp3?hdnea=exp=1767349147~acl=/api/1/1/9/e/7/0/9e7775471bcade2631abef8ddaa22356.mp3*~data=user_id=0,application_id=42~hmac=9f5214418d8210322444d07e1d7e5a65cd00d4f720d23a8e843e0a93544a6609",
+        "image_id": "6f0c139b52aab21f0f68cc23550b15a8"
+    },
+    {
+        "name": "Christmas Card From A Hooker In Minneapolis",
+        "artist": "Tom Waits",
+        "album": "Blue Valentine (Remastered)",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/3/e/e/0/3ee7bc32874c157bb3348fcb3b84d0be.mp3?hdnea=exp=1767349147~acl=/api/1/1/3/e/e/0/3ee7bc32874c157bb3348fcb3b84d0be.mp3*~data=user_id=0,application_id=42~hmac=1fef20a51d66cd03669d7b6c41e3f5cf710dc92db9dc98927906bbd8a5cb7866",
+        "image_id": "d997af82bef43088b1e02dc01f8fc9e0"
+    },
+    {
+        "name": "Vultures",
+        "artist": "John Mayer",
+        "album": "Continuum",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/0/e/d/0/0ed8f208f44d27a2e77258355130fa36.mp3?hdnea=exp=1767349147~acl=/api/1/1/0/e/d/0/0ed8f208f44d27a2e77258355130fa36.mp3*~data=user_id=0,application_id=42~hmac=1cf8d0f00ad557952bbe4aae9dfde90fc6d3dd1cf5d837fa7a65b1276b44d4f2",
+        "image_id": "a49f22668c3f7f26d9de7fcc93537742"
+    },
+    {
+        "name": "T-Bone Blues Special",
+        "artist": "T-Bone Walker",
+        "album": "Stormy Monday",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/1/b/b/0/1bb94692fb36a50805ed2596490a16d3.mp3?hdnea=exp=1767349148~acl=/api/1/1/1/b/b/0/1bb94692fb36a50805ed2596490a16d3.mp3*~data=user_id=0,application_id=42~hmac=b6dc7f4f55527281797d7e2666c2ac1cf81600d68a195aeb0dd52efbef83f800",
+        "image_id": "d3507eb512be5e51f55aa5b664e7da21"
+    },
+    {
+        "name": "Call Me The Breeze",
+        "artist": "J.J. Cale",
+        "album": "The Definitive Collection",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/5/9/9/0/59938035e16c499d64e3799fbca8a0b4.mp3?hdnea=exp=1767349148~acl=/api/1/1/5/9/9/0/59938035e16c499d64e3799fbca8a0b4.mp3*~data=user_id=0,application_id=42~hmac=9af06762170ce65294c4804217fd3ea059c5d40ced779d28c15cff0c304aab24",
+        "image_id": "e64632a3fad4cec4f6af7e6d720b316c"
+    },
+    {
+        "name": "Call The Doctor",
+        "artist": "J.J. Cale",
+        "album": "Naturally",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/6/7/2/0/6729b008f10d3feed9a8a7a44aa1375b.mp3?hdnea=exp=1767349148~acl=/api/1/1/6/7/2/0/6729b008f10d3feed9a8a7a44aa1375b.mp3*~data=user_id=0,application_id=42~hmac=553884f84c2f2046b00afbd2412b49363f2972bb6f1969cf7387011bc5db45ec",
+        "image_id": "cd3ff7fe7f298d2f61127bb074647770"
+    },
+    {
+        "name": "The Sky Is Crying",
+        "artist": "Elmore James",
+        "album": "Shake Your Money Maker: The Best Of The Fire Sessions",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/a/3/d/0/a3d1b443fe359993018f3aec57c557aa.mp3?hdnea=exp=1767349149~acl=/api/1/1/a/3/d/0/a3d1b443fe359993018f3aec57c557aa.mp3*~data=user_id=0,application_id=42~hmac=4acf064e545e9cf01dee05074a61e59cc919eab2d87705bf9cdf9915aa26f1ae",
+        "image_id": "09d2262e15d922cd1d2ef78b75b8aba2"
+    },
+    {
+        "name": "Come Rain or Come Shine",
+        "artist": "Ray Charles",
+        "album": "Ray Charles, The Very Best Of",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/8/9/5/0/895fb6925afa0d32d90b607986c567c4.mp3?hdnea=exp=1767349149~acl=/api/1/1/8/9/5/0/895fb6925afa0d32d90b607986c567c4.mp3*~data=user_id=0,application_id=42~hmac=608fced341303c6cc96617bc049964bde4759c12bceb2c3faff98c9b0d865ca4",
+        "image_id": "606741e24e4109ba36979153a95ed4de"
+    },
+    {
+        "name": "Cars Hiss by My Window",
+        "artist": "The Doors",
+        "album": "L.A. Woman",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/c/6/d/0/c6de382c20776b0a5394acf56655fbff.mp3?hdnea=exp=1767349150~acl=/api/1/1/c/6/d/0/c6de382c20776b0a5394acf56655fbff.mp3*~data=user_id=0,application_id=42~hmac=464e088481b0b77cf97c736e106ec707c6d0f78d41d935c4743c2bf30e5a95f1",
+        "image_id": "91fd29601c59b7713f911e9d7a5ea605"
+    },
+    {
+        "name": "Woke Up This Morning (Chosen One Mix / Theme to the HBO series The Sopranos)",
+        "artist": "Alabama 3",
+        "album": "Woke Up This Morning",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/f/8/7/0/f877e2d011a048db34221caeb6f75cee.mp3?hdnea=exp=1767349150~acl=/api/1/1/f/8/7/0/f877e2d011a048db34221caeb6f75cee.mp3*~data=user_id=0,application_id=42~hmac=863ade45475009f4fa93e708c45416c7a5618007c4b70ee4bfe30f912d2fb725",
+        "image_id": "7c0f6e6d58e40c5c83b7b6d35e117e98"
+    },
+    {
+        "name": "What A Wonderful World",
+        "artist": "Louis Armstrong",
+        "album": "What A Wonderful World",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/5/a/d/0/5ad49dba15f54a267bdbca418584b67a.mp3?hdnea=exp=1767349151~acl=/api/1/1/5/a/d/0/5ad49dba15f54a267bdbca418584b67a.mp3*~data=user_id=0,application_id=42~hmac=aceec77338f6e2a9b768cd672ff43445654b707f51ed4174e70d3569ee863012",
+        "image_id": "e521bade4db2c78dbda6c334905f6ea9"
+    },
+    {
+        "name": "Don't Know Why",
+        "artist": "Norah Jones",
+        "album": "Classic Jones",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/9/8/6/0/9863b94e0b467c48d270ebbefae31966.mp3?hdnea=exp=1767349151~acl=/api/1/1/9/8/6/0/9863b94e0b467c48d270ebbefae31966.mp3*~data=user_id=0,application_id=42~hmac=14386468cbadc205e8db2d4283361bfd1f9d73502c478f9e27793966e1209fcd",
+        "image_id": "fb68bc6ca6299bfad51995a860588e5d"
+    },
+    {
+        "name": "One Bourbon, One Scotch, One Beer (2007 Remastered Version)",
+        "artist": "John Lee Hooker",
+        "album": "Chill Out",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/7/9/e/0/79ea1f9bb061c2beac92404100a3578a.mp3?hdnea=exp=1767349151~acl=/api/1/1/7/9/e/0/79ea1f9bb061c2beac92404100a3578a.mp3*~data=user_id=0,application_id=42~hmac=2ffccb2eeb48a36702dcb3302662c30181c8357b0514c01d7dc8a65355891308",
+        "image_id": "373bdfbb1df4f36300670a599ac4eec9"
+    },
+    {
+        "name": "I'm Your Hoochie Coochie Man",
+        "artist": "Muddy Waters",
+        "album": "I'm Ready",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/a/e/a/0/aea948a3fd0ae7446c0225e7a139f1bd.mp3?hdnea=exp=1767349152~acl=/api/1/1/a/e/a/0/aea948a3fd0ae7446c0225e7a139f1bd.mp3*~data=user_id=0,application_id=42~hmac=f5565e760d220f13047bc68a849efa51372a59d646b35dffcf96db5d53d7af6b",
+        "image_id": "d313592847ef8906cdf5be4fa2ac199b"
+    },
+    {
+        "name": "Hound Dog",
+        "artist": "Big Mama Thornton",
+        "album": "Ball N' Chain",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/b/7/c/0/b7c615de052bb80551dd4de33dd892da.mp3?hdnea=exp=1767349152~acl=/api/1/1/b/7/c/0/b7c615de052bb80551dd4de33dd892da.mp3*~data=user_id=0,application_id=42~hmac=14ec1a329e39c685e0acda2fee9f07065bd4cd87d3552ec6da481b7fe519d68b",
+        "image_id": "c3654159e49c6e140f3adccc0c5b6eec"
+    }
+]

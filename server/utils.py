@@ -403,7 +403,94 @@ def fetch_wikidata_trivia(category_id, category_name, is_person=False, min_sitel
     
     print(f"Saved to {filename}")
 
-# fetch_wikidata_trivia("Q15632617", "fictional", is_person=False, min_sitelinks=20)
+def get_top_tracks():
+    done = ["rock", "electronic"]
+    api_key = os.getenv("LAST_FM_KEY")
+    tags = []
+    with open("songs/tags.json") as f:
+        tags = json.load(f)["toptags"]["tag"]
+    
+    for tag in tags:
+        tag_name = tag["name"]
+        if tag_name in done: 
+            continue
+        
+        print(f'{tag_name}')
+        page = 1
+        total_pages = 50
+        all_tracks = []
+        
+        while True and page < total_pages:
+            tag_param = tag_name.replace(' ', '')
+            LAST_FM_URL = f"http://ws.audioscrobbler.com/2.0/?method=tag.gettoptracks&tag={tag_param}&api_key={api_key}&format=json&page={page}"
+            print(f'URL: {LAST_FM_URL}')
+            
+            try:
+                res = requests.post(LAST_FM_URL, headers={"User-Agent": "SongGuesser"})
+                data = res.json()
+                total_pages = int(data["tracks"]["@attr"]["totalPages"])
+                print(f"{total_pages} total pages")
+                if "tracks" not in data or "track" not in data["tracks"]:
+                    print(f"No more tracks found for {tag_name}")
+                    break
+                
+                tracks = data["tracks"]["track"]
+                
+                if not tracks:
+                    print(f"Empty track list at page {page}")
+                    break
+                
+                for track in tracks:
+                    all_tracks.append({"name": track["name"], "artist": track["artist"]["name"]})
+                
+                page += 1
+                print(f'page {page}')
+                time.sleep(1)
+                
+            except Exception as e:
+                print(f"Error fetching page {page} for {tag_name}: {e}")
+                break
+        
+        with open(f"songs/{tag_name.lower().replace(' ', '_')}.json", "w", encoding="utf-8") as out:
+            json.dump(all_tracks, out, indent=4)
 
-load_all_questions()
-load_all_images()
+def get_song_previews():
+    todo = ["techno", "thrash_metal"]
+    SONGS_FOLDER =  Path(__file__).parent / "songs"
+    for i, song_file in enumerate(SONGS_FOLDER.glob("*.json")):
+        print(f"file {i+1}/{len(list(SONGS_FOLDER.iterdir()))}")
+        if song_file.stem not in todo:
+            continue
+        with open(song_file, "r", encoding="utf-8") as f:
+            songs = json.load(f)
+            updated_songs = []
+            for i, song in enumerate(songs):
+                print(f"{song_file.stem.upper()} | {i+1}/{len(songs)}")
+                name = song["name"]
+                artist = song["artist"]
+                DEEZER_SEARCH_URL = f"https://api.deezer.com/search?q=artist:\"{artist}\" track:\"{name}\""
+                res = requests.get(DEEZER_SEARCH_URL)
+                if res.json()["total"] == 0:
+                    print(f"failed to find {name} by {artist}")
+                    continue
+                
+                first_result = res.json()["data"][0]
+                print(f"found: {first_result['title']}")
+                updated_songs.append({
+                    "name": first_result["title"],
+                    "artist": first_result["artist"]["name"],
+                    "album": first_result["album"]["title"],
+                    "preview": first_result["preview"],
+                    "image_id": first_result["md5_image"]
+                    # image format: https://cdn-images.dzcdn.net/images/cover/{image_id}/{height}{width}-000000-80-0-0.jpg
+                })
+                
+                time.sleep(0.1)
+                
+            with open(song_file, "w", encoding='utf-8') as out:
+                json.dump(updated_songs, out, indent=4)
+            
+            print(f"finished {song_file.name}")
+
+# load_all_questions()
+# load_all_images()

@@ -66,23 +66,31 @@ server {
     listen 80;
 }
 ```
-
 # Trivia
-Remake to use larger, categorized dataset
-Use fuzzy logic to compare strings to answers, if above matching threshold, answer is correct
-If answer contains more than one word, allow acronyms
+Use last.fm to get 500-1000 most popular songs from a particular genre, then use Deezer to get preview links from each song. Store data in JSON files. Allow either artist, album, or song name to be accepted as answers and use fuzzy matching but with a higher threshold (85-90%). Could get:
+- 5 points for guessing song name
+- 5 points for guessing artist
+- 10 points for guessing album
 
-# Trivia
-This can be expanded to include images of things or people. Could also include songs using the Deezer API. Wikipedia would be good for images, but it also has way too many obscure pages, and if I wanted categories for these, then it would need to be categorized as well. Songs would have a similar issue because even if you pick categories, there are way too many. With songs though I could maybe use the Spotify API too to determine if a song is popular enough to include. 
-    
 # People Guesser Bomb Party
 Instead of everyone guessing as many as they can, players take turns guessing a person who has the specific properties on their turn. I think I'd try to have the UI still mainly text based instead of showing players in a circle with an arrow. A grid with different sized cells which contain information about: prompt (properties), lives left of other players, your lives left, who's next, and above that would be the search bar. On mobile it can resize to have more rows and less columns.  
+
+# Codenames with pictures
+Basically just codenames but instead of words being on the grid, it's images. Maybe the spymaster can draw a picture as the hint or give a word. 
 
 # TODO
 - Game rules somewhere 
 - Pressing join on the name select should request the current room state so it has the up to date stage
     Maybe also keep track of the time left on the server so clients always see an accurate countdown
 - Chat window
-- Move player list to side when image is shown in trivia
-- Lobby
-
+- Show public rooms
+- Fix 20Q Results screen
+    Also make question log wider
+- Trivia should automatically advance when all players have guessed correctly
+- Scores and guesses not properly resetting after game ends 
+- Clean trivia answers (remove disambiguation and try to prevent exact matches of words from the question itself) 
+- Show question quantities 
+- Revamp "winning" aspect of 20Q
+- Ignore words in parentheses when checking song answers
+- Show correct answers during Reveal
+- Prevent softlocks in trivia and person guesser if host leaves

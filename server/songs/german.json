@@ -1,0 +1,345 @@
+[
+    {
+        "name": "Sonne",
+        "artist": "Rammstein",
+        "album": "Mutter",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/7/d/4/0/7d416d9e18429664bbbc702ec6fab8d7.mp3?hdnea=exp=1767350178~acl=/api/1/1/7/d/4/0/7d416d9e18429664bbbc702ec6fab8d7.mp3*~data=user_id=0,application_id=42~hmac=ec8613da781ae8526c5b01a83e09baaf1e81a22e17b3067f03dacfa99e4d60f8",
+        "image_id": "6eabee34f76bd01d2562469d41c63c4d"
+    },
+    {
+        "name": "Du hast",
+        "artist": "Rammstein",
+        "album": "Sehnsucht",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/8/2/5/0/825a70167777b61271be768dc54b9a96.mp3?hdnea=exp=1767350178~acl=/api/1/1/8/2/5/0/825a70167777b61271be768dc54b9a96.mp3*~data=user_id=0,application_id=42~hmac=0b44b4d7dadf99945a72641c10cd70d2dfcdd54e7b9c2f633691565777c22cad",
+        "image_id": "e24ae59ad933185bd6689d388eb0f256"
+    },
+    {
+        "name": "Schei\u00dfe",
+        "artist": "Lady Gaga",
+        "album": "BORN THIS WAY THE TENTH ANNIVERSARY",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/a/7/6/0/a763a37caa583d96c30a32eed3023d62.mp3?hdnea=exp=1767350178~acl=/api/1/1/a/7/6/0/a763a37caa583d96c30a32eed3023d62.mp3*~data=user_id=0,application_id=42~hmac=11516eeb91afddbb5e138d98d857b8188bf5e34a26d1d48d69d5ca66022d8232",
+        "image_id": "978f47c36f2b688992c88c0dcae211a0"
+    },
+    {
+        "name": "Nur ein Wort",
+        "artist": "Wir sind Helden",
+        "album": "Die Gr\u00f6\u00dften Hits Aller Zeiten",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/e/c/3/0/ec3cfc3f9aa9d0e6ebd868eae6fee933.mp3?hdnea=exp=1767350179~acl=/api/1/1/e/c/3/0/ec3cfc3f9aa9d0e6ebd868eae6fee933.mp3*~data=user_id=0,application_id=42~hmac=62cf7c56fd18d79e0bc219e322ce29f13fadb0d852ea8db75d949ce4f0a25871",
+        "image_id": "aba864b464e53ee031f5149b6adb6a05"
+    },
+    {
+        "name": "Alles neu",
+        "artist": "Peter Fox",
+        "album": "Stadtaffe",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/4/2/0/0/420ce03ba7e333c9f6b2fa7f13e4eb61.mp3?hdnea=exp=1767350179~acl=/api/1/1/4/2/0/0/420ce03ba7e333c9f6b2fa7f13e4eb61.mp3*~data=user_id=0,application_id=42~hmac=88a661701a65326e678ef1eef53aed021c0c7981eb49d0446a9b2746d47a6c1e",
+        "image_id": "6ace32e7503ad1dcf9177de09a248c11"
+    },
+    {
+        "name": "Engel",
+        "artist": "Rammstein",
+        "album": "Sehnsucht",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/7/0/c/0/70c7c14b159fdcc7ebd232c500d7d0e1.mp3?hdnea=exp=1767350180~acl=/api/1/1/7/0/c/0/70c7c14b159fdcc7ebd232c500d7d0e1.mp3*~data=user_id=0,application_id=42~hmac=f6c8838b6350728cc2ec4e60eb6a9bd1d1640f9093171860bd54a3e2e4587a36",
+        "image_id": "e24ae59ad933185bd6689d388eb0f256"
+    },
+    {
+        "name": "Feuer frei!",
+        "artist": "Rammstein",
+        "album": "Mutter",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/b/5/f/0/b5f4d462efed8aa83b93cb0b7b86e51e.mp3?hdnea=exp=1767350180~acl=/api/1/1/b/5/f/0/b5f4d462efed8aa83b93cb0b7b86e51e.mp3*~data=user_id=0,application_id=42~hmac=ac11d2d234ef7db288782295f75150ff2635bd564de27f0bf34eb598ece8a809",
+        "image_id": "6eabee34f76bd01d2562469d41c63c4d"
+    },
+    {
+        "name": "Rein raus",
+        "artist": "Rammstein",
+        "album": "Mutter",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/f/d/4/0/fd4087d2225ec34aacd5e7dfaf247e4a.mp3?hdnea=exp=1767350180~acl=/api/1/1/f/d/4/0/fd4087d2225ec34aacd5e7dfaf247e4a.mp3*~data=user_id=0,application_id=42~hmac=42a1d8a7950982afefadefd69552936fb54316511b0fd28b25dbe6e8c931791b",
+        "image_id": "6eabee34f76bd01d2562469d41c63c4d"
+    },
+    {
+        "name": "Junge",
+        "artist": "Die \u00c4rzte",
+        "album": "Jazz ist anders",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/2/a/c/0/2ac4e2e8743896fd1be81d4281855544.mp3?hdnea=exp=1767350181~acl=/api/1/1/2/a/c/0/2ac4e2e8743896fd1be81d4281855544.mp3*~data=user_id=0,application_id=42~hmac=56c8cd172160cbe19f94f68de6a02f27a66a6595c4a12f1a63aa558c1079d44e",
+        "image_id": "84b8b9f4d730082452e5f14515a985f8"
+    },
+    {
+        "name": "Moskau",
+        "artist": "Dschinghis Khan",
+        "album": "Moskau - Das Neue Best Of Album",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/8/7/1/0/8718720967b63101c7baa5935e0165f9.mp3?hdnea=exp=1767350181~acl=/api/1/1/8/7/1/0/8718720967b63101c7baa5935e0165f9.mp3*~data=user_id=0,application_id=42~hmac=1b1d5a7f394f625a9094f8f88a8a9238a598416bcb519f7c7ca8b44922368d2f",
+        "image_id": "58e50ff71735b3ca889d25f8363d68dd"
+    },
+    {
+        "name": "Amerika",
+        "artist": "Rammstein",
+        "album": "Reise, Reise",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/a/8/8/0/a885686d8618a2654680e87b1cba5699.mp3?hdnea=exp=1767350181~acl=/api/1/1/a/8/8/0/a885686d8618a2654680e87b1cba5699.mp3*~data=user_id=0,application_id=42~hmac=bb17ee3e1882be5c6e7ba838c7301c135aecc5d858f777e73ccd82af88e37d8a",
+        "image_id": "633b009c486f17d1aef7fef6b1151201"
+    },
+    {
+        "name": "Denkmal",
+        "artist": "Wir sind Helden",
+        "album": "Gartenarbeit",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/b/0/6/0/b066de1a26b1cbdf2333fcf817c96c76.mp3?hdnea=exp=1767350182~acl=/api/1/1/b/0/6/0/b066de1a26b1cbdf2333fcf817c96c76.mp3*~data=user_id=0,application_id=42~hmac=b43de9a0aa8c04cc7f96c78f8b13767f48177c8afb9cc753f99ec1a3309522c4",
+        "image_id": "d4175f3691ad0233f3811e7e81fba418"
+    },
+    {
+        "name": "Ich will",
+        "artist": "Rammstein",
+        "album": "Mutter",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/0/0/8/0/0086e36fe91474d6469c0ea41b25f135.mp3?hdnea=exp=1767350182~acl=/api/1/1/0/0/8/0/0086e36fe91474d6469c0ea41b25f135.mp3*~data=user_id=0,application_id=42~hmac=42a75a61d0e787b3acb3d840dde61f88d334e058f85e784d632916eb2d859098",
+        "image_id": "6eabee34f76bd01d2562469d41c63c4d"
+    },
+    {
+        "name": "Ein Kompliment (MTV Unplugged In New York)",
+        "artist": "Sportfreunde Stiller",
+        "album": "MTV Unplugged In New York (Complete Version)",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/c/d/6/0/cd6204362313b7cdf977e956ab6b1f2e.mp3?hdnea=exp=1767350183~acl=/api/1/1/c/d/6/0/cd6204362313b7cdf977e956ab6b1f2e.mp3*~data=user_id=0,application_id=42~hmac=bfd3e48befd583d2e4ff3ac62916b947ca8c2fbd0ea3d84739c66c36483641a7",
+        "image_id": "dd6ebb0d74dd6b604416e615cd49ed3f"
+    },
+    {
+        "name": "Ding",
+        "artist": "Seeed",
+        "album": "Next!",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/9/2/7/0/927da267621c79e1a1de00185a48fd40.mp3?hdnea=exp=1767350183~acl=/api/1/1/9/2/7/0/927da267621c79e1a1de00185a48fd40.mp3*~data=user_id=0,application_id=42~hmac=5a8615696bbf05eb5601c68f7e5cb281a2894c119c9b78dea0ead9a2ed591e4c",
+        "image_id": "b285919694326222f0fb12a200c852bc"
+    },
+    {
+        "name": "Allein Allein",
+        "artist": "Polarkreis 18",
+        "album": "The Colour Of Snow (Digital Version)",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/f/9/4/0/f94f36f4c1751e5c6d67bdf3aa29e035.mp3?hdnea=exp=1767350183~acl=/api/1/1/f/9/4/0/f94f36f4c1751e5c6d67bdf3aa29e035.mp3*~data=user_id=0,application_id=42~hmac=8bbb9ef8d02874409c5610e5bbaac26ec18e1caa026a5368abe34650d4464e16",
+        "image_id": "99ad56ce630eb79e8728769f4e788287"
+    },
+    {
+        "name": "Haus am See",
+        "artist": "Peter Fox",
+        "album": "Stadtaffe",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/0/3/e/0/03eb472d8f54ec3b5b6c53891aa51f00.mp3?hdnea=exp=1767350184~acl=/api/1/1/0/3/e/0/03eb472d8f54ec3b5b6c53891aa51f00.mp3*~data=user_id=0,application_id=42~hmac=661956b580904c61a3d07acd7b87a31f6094afb9743f0b07d2890a4b3ead35a4",
+        "image_id": "6ace32e7503ad1dcf9177de09a248c11"
+    },
+    {
+        "name": "Stadt",
+        "artist": "Cassandra Steen",
+        "album": "Darum leben wir",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/8/e/5/0/8e5fc7799ecbcb490c6f7cc4797db998.mp3?hdnea=exp=1767350184~acl=/api/1/1/8/e/5/0/8e5fc7799ecbcb490c6f7cc4797db998.mp3*~data=user_id=0,application_id=42~hmac=8a17e899c68c26d5d8b1f6ca6b8ddf29a0fc2d7fd7a40638d00a43efa0ab0698",
+        "image_id": "d7566b0e43c8600e144eece6293b2d19"
+    },
+    {
+        "name": "Mein Herz brennt",
+        "artist": "Rammstein",
+        "album": "Mutter",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/5/f/2/0/5f20a11300d4fc71b130096ce97a8c35.mp3?hdnea=exp=1767350185~acl=/api/1/1/5/f/2/0/5f20a11300d4fc71b130096ce97a8c35.mp3*~data=user_id=0,application_id=42~hmac=0229b21da661095ef6c87bda1e4403a87d51268b044a23ccd7605869c7b10059",
+        "image_id": "6eabee34f76bd01d2562469d41c63c4d"
+    },
+    {
+        "name": "Schwarz zu blau",
+        "artist": "Peter Fox",
+        "album": "Stadtaffe",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/1/e/c/0/1ec7a74454be05e20e5fd4e6934bf29f.mp3?hdnea=exp=1767350185~acl=/api/1/1/1/e/c/0/1ec7a74454be05e20e5fd4e6934bf29f.mp3*~data=user_id=0,application_id=42~hmac=d5582ab28b008d4f47f63d25596090891610b5c8c71a6518140ba39c650b59b6",
+        "image_id": "6ace32e7503ad1dcf9177de09a248c11"
+    },
+    {
+        "name": "Labyrinth",
+        "artist": "OOMPH!",
+        "album": "Truth Or Dare",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/4/a/f/0/4af50b15ee1c1329210cbe015a5c6ca5.mp3?hdnea=exp=1767350185~acl=/api/1/1/4/a/f/0/4af50b15ee1c1329210cbe015a5c6ca5.mp3*~data=user_id=0,application_id=42~hmac=b9163c1b9585ac42b15b0cd414409a99d2989cd1fbaaa7a4b57fc31bbf6adf59",
+        "image_id": "9b1d806d5ac3de1931a567ffec8b0658"
+    },
+    {
+        "name": "Pussy",
+        "artist": "Rammstein",
+        "album": "Made In Germany 1995 - 2011 (Special Edition)",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/c/3/5/0/c35d0b34a90fcdc523aedd4101089630.mp3?hdnea=exp=1767350186~acl=/api/1/1/c/3/5/0/c35d0b34a90fcdc523aedd4101089630.mp3*~data=user_id=0,application_id=42~hmac=aa48f5655c3a3c6d79b881404844dca4bd809f524e558645e17f0cc819c0dd4e",
+        "image_id": "53c332c3e0196d3abac1840421e84184"
+    },
+    {
+        "name": "Reise, Reise",
+        "artist": "Rammstein",
+        "album": "Reise, Reise",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/4/3/b/0/43b37c6dc1a082fc49bb06a7ef22059f.mp3?hdnea=exp=1767350186~acl=/api/1/1/4/3/b/0/43b37c6dc1a082fc49bb06a7ef22059f.mp3*~data=user_id=0,application_id=42~hmac=0792deaf47d79248044411664bb23fa59cf9647cc95e2cfdef0de6d871754cb2",
+        "image_id": "633b009c486f17d1aef7fef6b1151201"
+    },
+    {
+        "name": "Mein Land",
+        "artist": "Rammstein",
+        "album": "Rarit\u00e4ten (1994 - 2012)",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/f/6/b/0/f6b365d321e3e1f3b4d37c09f80791dc.mp3?hdnea=exp=1767350186~acl=/api/1/1/f/6/b/0/f6b365d321e3e1f3b4d37c09f80791dc.mp3*~data=user_id=0,application_id=42~hmac=61f3b34d3aa3a4e41ef295da2e6ed8172f370ff9ed789ac32ee451d451b712e5",
+        "image_id": "0bcd70a356dd3ce035ac69d0d6493722"
+    },
+    {
+        "name": "Nur noch kurz die Welt retten",
+        "artist": "Tim Bendzko",
+        "album": "Nur noch kurz die Welt retten",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/2/b/3/0/2b35f72c56bf77260c97238409bd334a.mp3?hdnea=exp=1767350187~acl=/api/1/1/2/b/3/0/2b35f72c56bf77260c97238409bd334a.mp3*~data=user_id=0,application_id=42~hmac=bc30c4f8af86604bedf03d95e14cea700d5d79578b616b2cf001305099e5168c",
+        "image_id": "e570082418458d63c1d053690b386dfb"
+    },
+    {
+        "name": "Monsta",
+        "artist": "Culcha Candela",
+        "album": "Sommer Grill Party",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/1/1/2/0/112d5f6c766ae1b4edc23f5600057ba5.mp3?hdnea=exp=1767350187~acl=/api/1/1/1/1/2/0/112d5f6c766ae1b4edc23f5600057ba5.mp3*~data=user_id=0,application_id=42~hmac=d97f485bd226931576f8b81a3161e69cd321e8fa7d594a119ac484de8c32698e",
+        "image_id": "1d7d5441d4b75a2c2c25617e84f54b99"
+    },
+    {
+        "name": "Willst du",
+        "artist": "Alligatoah",
+        "album": "Willst du",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/e/7/c/0/e7cc39152e175793ebfbb57b5b8b9d9f.mp3?hdnea=exp=1767350188~acl=/api/1/1/e/7/c/0/e7cc39152e175793ebfbb57b5b8b9d9f.mp3*~data=user_id=0,application_id=42~hmac=8bb269a012d1f7e23f323ae864879453b512ad6a075a28e1b2e80ba5b48a59fe",
+        "image_id": "5d777ad538080992f718a8550f0f29d2"
+    },
+    {
+        "name": "Monsoon",
+        "artist": "Tokio Hotel",
+        "album": "Best Of (English Version)",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/3/7/6/0/3763d9cf986da4a34d14c89005f0edb1.mp3?hdnea=exp=1767350188~acl=/api/1/1/3/7/6/0/3763d9cf986da4a34d14c89005f0edb1.mp3*~data=user_id=0,application_id=42~hmac=2f093db090b888cc9786c504425b91537afab896da0bad77bceac66f899fef62",
+        "image_id": "94053bd8bd2bd2e8aa0483fbe049eb88"
+    },
+    {
+        "name": "Perfekte Welle",
+        "artist": "Juli",
+        "album": "Es ist Juli",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/3/7/3/0/373f076c43be4ed2cdb63f10a2b70ca1.mp3?hdnea=exp=1767350188~acl=/api/1/1/3/7/3/0/373f076c43be4ed2cdb63f10a2b70ca1.mp3*~data=user_id=0,application_id=42~hmac=4c747572ae0529c7e80746c3f01ef292e757175c41b3085059dd18bfd3bb4785",
+        "image_id": "e80f91407105f164a6dca786c3b4709f"
+    },
+    {
+        "name": "What Is Love (7\" Mix)",
+        "artist": "Haddaway",
+        "album": "All the Best - His Greatest Hits",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/3/2/1/0/3216c37dfecebe339b06de2b976a721c.mp3?hdnea=exp=1767350189~acl=/api/1/1/3/2/1/0/3216c37dfecebe339b06de2b976a721c.mp3*~data=user_id=0,application_id=42~hmac=a9b1efd24995e94c2fefc64cb65a4eea6625cd6289b30ef85361162c3022405f",
+        "image_id": "fd7810e3e9b244bb37422ee8e731182a"
+    },
+    {
+        "name": "Geboren um zu leben",
+        "artist": "Unheilig",
+        "album": "Die Gr\u00f6\u00dften Hits Aller Zeiten",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/2/5/0/0/25098d8bf845f83c32c3e4d97118a583.mp3?hdnea=exp=1767350189~acl=/api/1/1/2/5/0/0/25098d8bf845f83c32c3e4d97118a583.mp3*~data=user_id=0,application_id=42~hmac=7389c9ba02ced4a429ea6055e27df0c9db9abab237dc214f50ba0cea578e090c",
+        "image_id": "aba864b464e53ee031f5149b6adb6a05"
+    },
+    {
+        "name": "Du riechst so gut",
+        "artist": "Rammstein",
+        "album": "Herzeleid (Remastered 2020)",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/6/d/a/0/6dae63871365b13ebb58687f2c92f76d.mp3?hdnea=exp=1767350190~acl=/api/1/1/6/d/a/0/6dae63871365b13ebb58687f2c92f76d.mp3*~data=user_id=0,application_id=42~hmac=b4ea78d9717e76392b1e1bbe89df7f5d779dbffa3767794d58af0515fdf02031",
+        "image_id": "669622d8756cb793ddbbe525dd34e9ad"
+    },
+    {
+        "name": "Westerland",
+        "artist": "Die \u00c4rzte",
+        "album": "Das Ist Nicht Die Ganze Wahrheit...",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/3/5/f/0/35f57239c74fcfde784bc5b4d1df8ad6.mp3?hdnea=exp=1767350190~acl=/api/1/1/3/5/f/0/35f57239c74fcfde784bc5b4d1df8ad6.mp3*~data=user_id=0,application_id=42~hmac=95cfe24a8f2cc775f1dc5fcadb341717b7d8505c3bd5640585a3761236805927",
+        "image_id": "a43c4d893bfa5e62db38a91ac0f38542"
+    },
+    {
+        "name": "Ohne dich",
+        "artist": "Rammstein",
+        "album": "Reise, Reise",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/7/0/6/0/706e8cc8e132489490fe2eaace6f4ad7.mp3?hdnea=exp=1767350190~acl=/api/1/1/7/0/6/0/706e8cc8e132489490fe2eaace6f4ad7.mp3*~data=user_id=0,application_id=42~hmac=b7e9f20278db988d698605aecdc51af20e2bc23c6a7fe67dc8ac1ee6c9067b76",
+        "image_id": "633b009c486f17d1aef7fef6b1151201"
+    },
+    {
+        "name": "Geile Zeit",
+        "artist": "Juli",
+        "album": "Es ist Juli",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/7/6/b/0/76b97330fbec126432109f8d1082803a.mp3?hdnea=exp=1767350191~acl=/api/1/1/7/6/b/0/76b97330fbec126432109f8d1082803a.mp3*~data=user_id=0,application_id=42~hmac=a31d02d629a4576840cb148e764e5607ef62f468daf0f4f4f583b5fd321c54f4",
+        "image_id": "e80f91407105f164a6dca786c3b4709f"
+    },
+    {
+        "name": "Still",
+        "artist": "Jupiter Jones",
+        "album": "Jupiter Jones",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/b/6/b/0/b6b800416efb0e136fbbf13b70329bc8.mp3?hdnea=exp=1767350191~acl=/api/1/1/b/6/b/0/b6b800416efb0e136fbbf13b70329bc8.mp3*~data=user_id=0,application_id=42~hmac=61949ada9023b3d48285326c6317d9efcd3bc83ceab2b4175acce2b7dfe05efd",
+        "image_id": "d31a9eac9978b3cb4c751d3a28d7a44f"
+    },
+    {
+        "name": "Stadtaffe",
+        "artist": "Peter Fox",
+        "album": "Stadtaffe",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/a/7/0/0/a7085d04761c97436afe1c0ff5f8b001.mp3?hdnea=exp=1767350192~acl=/api/1/1/a/7/0/0/a7085d04761c97436afe1c0ff5f8b001.mp3*~data=user_id=0,application_id=42~hmac=e50bc23d51caa1e600b9f5724928ffe5e4c56067a0a292d2e10c535a50302800",
+        "image_id": "6ace32e7503ad1dcf9177de09a248c11"
+    },
+    {
+        "name": "Mein Teil",
+        "artist": "Rammstein",
+        "album": "Reise, Reise",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/3/c/8/0/3c897f90ac7dc9e2046f853687027027.mp3?hdnea=exp=1767350192~acl=/api/1/1/3/c/8/0/3c897f90ac7dc9e2046f853687027027.mp3*~data=user_id=0,application_id=42~hmac=cb863a80d72eb65a67a73e90bda18e44ccb285e0e13bc6c2a050aee7d070be4c",
+        "image_id": "633b009c486f17d1aef7fef6b1151201"
+    },
+    {
+        "name": "Deutschland",
+        "artist": "Rammstein",
+        "album": "Rammstein",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/d/5/5/0/d553fc0d43db1ea88c4cd4757fa8cb9e.mp3?hdnea=exp=1767350192~acl=/api/1/1/d/5/5/0/d553fc0d43db1ea88c4cd4757fa8cb9e.mp3*~data=user_id=0,application_id=42~hmac=d0ccfa89d6e6f46d2bd0664c8573333ec3a8d4f529e1ed3dafba1b02f6e5ee02",
+        "image_id": "4886636be143303aa0df47cd6d93983e"
+    },
+    {
+        "name": "M\u00e4nner",
+        "artist": "Herbert Gr\u00f6nemeyer",
+        "album": "Was Muss Muss - Best Of",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/d/0/b/0/d0b3e3db3f0987c9fd56ff269f747696.mp3?hdnea=exp=1767350193~acl=/api/1/1/d/0/b/0/d0b3e3db3f0987c9fd56ff269f747696.mp3*~data=user_id=0,application_id=42~hmac=b0b33c3ead2ca5a32ecf4b9a639c09810d1a4b2a5a58ca7c28252e0682a1c75c",
+        "image_id": "41c7d29ca817eb0457929b5aca80ed73"
+    },
+    {
+        "name": "Rock Me Amadeus",
+        "artist": "Falco",
+        "album": "The Definitive 80's (eighties)",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/a/3/4/0/a3495f3a3ddeb140138b18f32696cf51.mp3?hdnea=exp=1767350193~acl=/api/1/1/a/3/4/0/a3495f3a3ddeb140138b18f32696cf51.mp3*~data=user_id=0,application_id=42~hmac=5e5ef3d79435630eef7056fe62dbbaa710db59735dae1c59a5e8525ea9bd7d3a",
+        "image_id": "f968d862e01e51594337e8e64e939e1b"
+    },
+    {
+        "name": "Keine Lust",
+        "artist": "Rammstein",
+        "album": "Reise, Reise",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/f/5/b/0/f5b024162281469195194398c01142f5.mp3?hdnea=exp=1767350194~acl=/api/1/1/f/5/b/0/f5b024162281469195194398c01142f5.mp3*~data=user_id=0,application_id=42~hmac=400bdb5de4eed199d76b474eb0066b0c546a3c5a98488bc06dcb72256c40b51b",
+        "image_id": "633b009c486f17d1aef7fef6b1151201"
+    },
+    {
+        "name": "Schrei nach Liebe",
+        "artist": "Die \u00c4rzte",
+        "album": "B\u00e4st Of",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/3/d/d/0/3ddc26ffd84dfc4e26a3e29177b6b5cb.mp3?hdnea=exp=1767350194~acl=/api/1/1/3/d/d/0/3ddc26ffd84dfc4e26a3e29177b6b5cb.mp3*~data=user_id=0,application_id=42~hmac=79c9683dc4d410692a34d14200a56ac86c7c29b4e063138a18861cc6cbcf1706",
+        "image_id": "e08b750fe84f35d711357d46dc92c368"
+    },
+    {
+        "name": "M\u00e4nner sind Schweine",
+        "artist": "Die \u00c4rzte",
+        "album": "13",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/b/a/7/0/ba7290e5acadc6c40e56dfd612e10428.mp3?hdnea=exp=1767350194~acl=/api/1/1/b/a/7/0/ba7290e5acadc6c40e56dfd612e10428.mp3*~data=user_id=0,application_id=42~hmac=a7fc596e73450babfaeb43fcf56db9c9cf1932ca793c73279c92fe3d3f4871e2",
+        "image_id": "26a5ec0d23f6de8b65da466d37d2edba"
+    },
+    {
+        "name": "Von hier an blind",
+        "artist": "Wir sind Helden",
+        "album": "Von hier an blind",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/8/a/5/0/8a5dafcdf4561d3daee273567af828dd.mp3?hdnea=exp=1767350195~acl=/api/1/1/8/a/5/0/8a5dafcdf4561d3daee273567af828dd.mp3*~data=user_id=0,application_id=42~hmac=af34d8313a14385509fe64bcaab7b648ba00f8543db23f0cc30710a1e469e24f",
+        "image_id": "6898e3adfd87c6d4188772f63f57f5de"
+    },
+    {
+        "name": "Rosenrot",
+        "artist": "Rammstein",
+        "album": "Rosenrot",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/a/e/3/0/ae3ea9903ab842d2ed9d8c17e20c1077.mp3?hdnea=exp=1767350195~acl=/api/1/1/a/e/3/0/ae3ea9903ab842d2ed9d8c17e20c1077.mp3*~data=user_id=0,application_id=42~hmac=64a92313dcfb889b27db27d5345ba818d5765f03d0e7af8d8df0140a96ae47f1",
+        "image_id": "2d24239c39f349dc4439661ede023cd3"
+    },
+    {
+        "name": "Alles aus Liebe (Remix 2022)",
+        "artist": "Die Toten Hosen",
+        "album": "Alles aus Liebe: 40 Jahre Die Toten Hosen",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/f/f/c/0/ffca0b53c376f6527b958f7fcdff881b.mp3?hdnea=exp=1767350196~acl=/api/1/1/f/f/c/0/ffca0b53c376f6527b958f7fcdff881b.mp3*~data=user_id=0,application_id=42~hmac=adca06b1eb53d80ef3ca80dd9693e09cba1d41c6f33d94b24236b4899986b0c2",
+        "image_id": "7c71504bed81933dea1824ec43412592"
+    },
+    {
+        "name": "Moskau",
+        "artist": "Rammstein",
+        "album": "Reise, Reise",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/c/a/c/0/cac0cb8127b2dc3846c0c1036c9d6b5b.mp3?hdnea=exp=1767350196~acl=/api/1/1/c/a/c/0/cac0cb8127b2dc3846c0c1036c9d6b5b.mp3*~data=user_id=0,application_id=42~hmac=0c54f5ce2151bcc5b9da5400c7085aacd9ca2e58f007c765a848ccf218ad1be7",
+        "image_id": "633b009c486f17d1aef7fef6b1151201"
+    },
+    {
+        "name": "Links 2 3 4",
+        "artist": "Rammstein",
+        "album": "Mutter",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/6/6/1/0/661b3d0c4650c6f30173d113f6ce9258.mp3?hdnea=exp=1767350196~acl=/api/1/1/6/6/1/0/661b3d0c4650c6f30173d113f6ce9258.mp3*~data=user_id=0,application_id=42~hmac=106ad61c32223bad91bd58c448914041c8a66af23c10fc9d32147ea06b6784bc",
+        "image_id": "6eabee34f76bd01d2562469d41c63c4d"
+    }
+]

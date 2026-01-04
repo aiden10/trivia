@@ -1,0 +1,177 @@
+[
+    {
+        "name": "The Lily and the rose",
+        "artist": "Madmans Esprit",
+        "album": "NACHT",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/6/c/a/0/6ca4ff2fac3ec7c8f17b221ffe46b386.mp3?hdnea=exp=1767349117~acl=/api/1/1/6/c/a/0/6ca4ff2fac3ec7c8f17b221ffe46b386.mp3*~data=user_id=0,application_id=42~hmac=f8f07e066c17f6f257999725bc5914aba718d4e640e94b723855ae37a73f6134",
+        "image_id": "1e12e4ab9009a038522578235b0c0ce6"
+    },
+    {
+        "name": "Warriors",
+        "artist": "I",
+        "album": "Between Two Worlds",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/8/0/7/0/8072ef0912ebe31a2dd4f6a56396be94.mp3?hdnea=exp=1767349118~acl=/api/1/1/8/0/7/0/8072ef0912ebe31a2dd4f6a56396be94.mp3*~data=user_id=0,application_id=42~hmac=c9f9cf49b5b94db2e202b5eb012c50195a885915c8d4ecd022c1bf31ff418081",
+        "image_id": "69fb7acd9324a051fa741beb947a5fdb"
+    },
+    {
+        "name": "Behind The Mirror",
+        "artist": "Enslaved",
+        "album": "Heimdal",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/a/1/a/0/a1a2ae1e1113995cbf50bcd85e2a237c.mp3?hdnea=exp=1767349118~acl=/api/1/1/a/1/a/0/a1a2ae1e1113995cbf50bcd85e2a237c.mp3*~data=user_id=0,application_id=42~hmac=66f285199bc683762a8506fd837c76d211d0bbb54a48b692ecb35c1a01d8322e",
+        "image_id": "472c3b9c79fb701c3bcdffdda42f33b1"
+    },
+    {
+        "name": "Cancer",
+        "artist": "Impaled Nazarene",
+        "album": "Pro Patria Finlandia",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/5/2/1/0/521366405e7bc67aa6d6b143b0d40d7b.mp3?hdnea=exp=1767349119~acl=/api/1/1/5/2/1/0/521366405e7bc67aa6d6b143b0d40d7b.mp3*~data=user_id=0,application_id=42~hmac=edb48e94595e60f0fe4dee2fea78177e7585c896945bddf4e9a067c5fecd8057",
+        "image_id": "a0580825668a4cee22609c5aa5add0ab"
+    },
+    {
+        "name": "Dead Flowers",
+        "artist": "Silent Oblivion",
+        "album": "Dead Flowers",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/8/9/b/0/89b0588357be19ef64b5b4e1d1db84d1.mp3?hdnea=exp=1767349119~acl=/api/1/1/8/9/b/0/89b0588357be19ef64b5b4e1d1db84d1.mp3*~data=user_id=0,application_id=42~hmac=d01f2f8f055936bfb84fb685174764731dfdb14dc128c1aafb48976418d1ed42",
+        "image_id": "c77c5b72de99a1fb19d6e3edc3d754d8"
+    },
+    {
+        "name": "Ashes of Bloodlust",
+        "artist": "Grohot",
+        "album": "Ashes of Bloodlust",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/2/b/1/0/2b1aed41e787b7489620a342c6c0da82.mp3?hdnea=exp=1767349120~acl=/api/1/1/2/b/1/0/2b1aed41e787b7489620a342c6c0da82.mp3*~data=user_id=0,application_id=42~hmac=7ee70dc277e62fe46a17bd167309dc7bcf7b537ba45537e309968db129a16a46",
+        "image_id": "4b561a9888ee500a1453f8ba3c323a25"
+    },
+    {
+        "name": "The Spell of the Winter Forest",
+        "artist": "Hecate Enthroned",
+        "album": "The Slaughter of Innocence, A Requiem for the Mighty",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/b/d/6/0/bd6ced9e6b29b53f8370fb6d9ffbfc98.mp3?hdnea=exp=1767349120~acl=/api/1/1/b/d/6/0/bd6ced9e6b29b53f8370fb6d9ffbfc98.mp3*~data=user_id=0,application_id=42~hmac=ead7a8e88714f284c8fee2578244ddd9fdc97929d7e511b42d72932c4b977694",
+        "image_id": "8ade840c0edec2a408a6186698430ab3"
+    },
+    {
+        "name": "Skaneland",
+        "artist": "Driller Killer",
+        "album": "Total Fucking Hate",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/0/f/c/0/0fc06aa067a58616a3d7db7cd3d0d743.mp3?hdnea=exp=1767349121~acl=/api/1/1/0/f/c/0/0fc06aa067a58616a3d7db7cd3d0d743.mp3*~data=user_id=0,application_id=42~hmac=28464d7c1a0cad4d37b76a8c480de4621998aa3c5d721dc6f7d472edc4cba890",
+        "image_id": "eaa630fb6b5b56e2f4129142ffcf45a4"
+    },
+    {
+        "name": "Vargablod",
+        "artist": "Siebenb\u00fcrgen",
+        "album": "Grimjaur",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/2/b/e/0/2becef1ffa00a97c9439980c99940ca7.mp3?hdnea=exp=1767349122~acl=/api/1/1/2/b/e/0/2becef1ffa00a97c9439980c99940ca7.mp3*~data=user_id=0,application_id=42~hmac=17e535577ab01789f5221abd3ec7000edbb52e13928b481a1f9707cfadd4efe6",
+        "image_id": "ff243b6031c8b924ea25ee02bd303d1e"
+    },
+    {
+        "name": "Satan Never Sleeps",
+        "artist": "Enthroned",
+        "album": "Hadean: The Early Years Collection",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/5/8/e/0/58e79a1c20baaff57aab2d0ee8af7b37.mp3?hdnea=exp=1767349122~acl=/api/1/1/5/8/e/0/58e79a1c20baaff57aab2d0ee8af7b37.mp3*~data=user_id=0,application_id=42~hmac=2ea22f6cf31c08af667ea6844002ad6e933fec6ecce78a4b6532660859fb5ede",
+        "image_id": "64de677d43717d1b7edb7626b58c420f"
+    },
+    {
+        "name": "Too Old Too Cold",
+        "artist": "Darkthrone",
+        "album": "Too Old Too Cold",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/2/c/5/0/2c517dfecfd7e6f160382ba6c433ffb1.mp3?hdnea=exp=1767349123~acl=/api/1/1/2/c/5/0/2c517dfecfd7e6f160382ba6c433ffb1.mp3*~data=user_id=0,application_id=42~hmac=16a983e37c02473186d503d8c7ec14ed60fce08190cde07988d8c1544ae4661f",
+        "image_id": "90208ec3986212dbab307a9403008b48"
+    },
+    {
+        "name": "I Wage War",
+        "artist": "Impaled Nazarene",
+        "album": "Pro Patria Finlandia",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/5/a/0/0/5a00711343e908c4cc10ee49df15928d.mp3?hdnea=exp=1767349123~acl=/api/1/1/5/a/0/0/5a00711343e908c4cc10ee49df15928d.mp3*~data=user_id=0,application_id=42~hmac=8934156c1688ddffcc660dae687c43aaf95987bd76666caa4290d1112187e4c6",
+        "image_id": "a0580825668a4cee22609c5aa5add0ab"
+    },
+    {
+        "name": "Tilbake Til Helvete",
+        "artist": "Trasig",
+        "album": "Jammer og n\u00f8d",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/2/9/1/0/29117cdd42ce587509527b24be2d1435.mp3?hdnea=exp=1767349124~acl=/api/1/1/2/9/1/0/29117cdd42ce587509527b24be2d1435.mp3*~data=user_id=0,application_id=42~hmac=6ee2bc1f1efb1abe61e2f6233cbf0505065919789877457930fd52584d7519bd",
+        "image_id": "89243e253bd4a37422abbed85dcb06f2"
+    },
+    {
+        "name": "Korsfestet, d\u00f8d og begravet",
+        "artist": "Trasig",
+        "album": "Jammer og n\u00f8d",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/9/d/4/0/9d495995589a236f3d3bb96e225aaf29.mp3?hdnea=exp=1767349124~acl=/api/1/1/9/d/4/0/9d495995589a236f3d3bb96e225aaf29.mp3*~data=user_id=0,application_id=42~hmac=724b91597859d8d9c58ab4ce0b7787aea2e68e4b8b06d04b0bc5836208b79035",
+        "image_id": "89243e253bd4a37422abbed85dcb06f2"
+    },
+    {
+        "name": "Jammer og n\u00f8d",
+        "artist": "Trasig",
+        "album": "Jammer og n\u00f8d",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/b/c/8/0/bc8ffeaa75b14dcd0ab387cb0f33cde2.mp3?hdnea=exp=1767349125~acl=/api/1/1/b/c/8/0/bc8ffeaa75b14dcd0ab387cb0f33cde2.mp3*~data=user_id=0,application_id=42~hmac=9b996940609fc9e6f1e8566c53aebb667b1cd5b286c72abf3c5cbba87ecce1cb",
+        "image_id": "89243e253bd4a37422abbed85dcb06f2"
+    },
+    {
+        "name": "Kauket",
+        "artist": "Trasig",
+        "album": "Jammer og n\u00f8d",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/6/7/8/0/67854e61bfa76baa1a4f54c12afd99b8.mp3?hdnea=exp=1767349125~acl=/api/1/1/6/7/8/0/67854e61bfa76baa1a4f54c12afd99b8.mp3*~data=user_id=0,application_id=42~hmac=dff55222094daca53f4e561f26d7d1d88531c42e13ef13f26663033f4612ae83",
+        "image_id": "89243e253bd4a37422abbed85dcb06f2"
+    },
+    {
+        "name": "D\u00f8den sj\u00f8l",
+        "artist": "Trasig",
+        "album": "Jammer og n\u00f8d",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/5/a/a/0/5aaa47cf9eb6c1d12f8edc3e84637ba9.mp3?hdnea=exp=1767349126~acl=/api/1/1/5/a/a/0/5aaa47cf9eb6c1d12f8edc3e84637ba9.mp3*~data=user_id=0,application_id=42~hmac=8517f8c5ff34aa0ae54a255851b1f5d89a475d5ad4f993984a71e330982319fa",
+        "image_id": "89243e253bd4a37422abbed85dcb06f2"
+    },
+    {
+        "name": "Evangelist of the Fall (Death's Seed)",
+        "artist": "Stormnatt",
+        "album": "Omega Therion",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/8/c/8/0/8c8b8ec8a81b0f5927751515e81e1024.mp3?hdnea=exp=1767349126~acl=/api/1/1/8/c/8/0/8c8b8ec8a81b0f5927751515e81e1024.mp3*~data=user_id=0,application_id=42~hmac=1a3f97ae5a2e9c9953bb65ab28ae7d2c46a1a9ec2eae367daf96e8a507fcbeed",
+        "image_id": "11686ddf970da59fa748d310f502772a"
+    },
+    {
+        "name": "I Am Abomination",
+        "artist": "1349",
+        "album": "Hellfire",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/8/8/f/0/88f8d914907fbace6f629f9cb86fb9da.mp3?hdnea=exp=1767349127~acl=/api/1/1/8/8/f/0/88f8d914907fbace6f629f9cb86fb9da.mp3*~data=user_id=0,application_id=42~hmac=38ea557eeacf88a09d9959edb3dc85140bf1c13ce7c129c1b3c8acfea52d4dfc",
+        "image_id": "d2ae2dab2b11782d11c0b0d8da918e46"
+    },
+    {
+        "name": "What Man Does Not Know",
+        "artist": "Sufferer",
+        "album": "Black Metal Warhead",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/b/a/f/0/baf106c70a7dba9d42ee52db17058959.mp3?hdnea=exp=1767349127~acl=/api/1/1/b/a/f/0/baf106c70a7dba9d42ee52db17058959.mp3*~data=user_id=0,application_id=42~hmac=5a61f3b4cd06b886cd2c19f901094b5fcc7f2efd47b67a9f644ca81b0bbe5640",
+        "image_id": "441f1150e95e4fd40f8508f1b513f8dc"
+    },
+    {
+        "name": "Open the Gates",
+        "artist": "Gorgoroth",
+        "album": "Destroyer \u2013 or About How to Philosophize with the Hammer",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/0/a/d/0/0adbe945ef5926d13023d0a806c1bc7d.mp3?hdnea=exp=1767349128~acl=/api/1/1/0/a/d/0/0adbe945ef5926d13023d0a806c1bc7d.mp3*~data=user_id=0,application_id=42~hmac=fe77bc6288b8625473ccb7d588a57bb3f351f6773d0e6b09b25d0f1c6cce8dda",
+        "image_id": "b49f8424bbc37107176eacf46ad89f0e"
+    },
+    {
+        "name": "'t Schrickelik Tempeest",
+        "artist": "Bloodgod",
+        "album": "Catharsis",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/0/e/9/0/0e9634acce2d8e00651e513bb2801806.mp3?hdnea=exp=1767349129~acl=/api/1/1/0/e/9/0/0e9634acce2d8e00651e513bb2801806.mp3*~data=user_id=0,application_id=42~hmac=80bb598355561e796d71c56280c452ab251663228d4f03c0713aa362d6d64af5",
+        "image_id": "7f86512e5cef180ade7bfc581a6fe190"
+    },
+    {
+        "name": "The Release",
+        "artist": "Scumfusion",
+        "album": "Under Exoriant Light",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/7/f/1/0/7f10e67ad2633e640d548143ab252922.mp3?hdnea=exp=1767349130~acl=/api/1/1/7/f/1/0/7f10e67ad2633e640d548143ab252922.mp3*~data=user_id=0,application_id=42~hmac=bc98d5f4be4109b688b69cc57216f48ea5f6f7f000d7772afdddcc54374c4cb9",
+        "image_id": "345319f47697bf87948e1ab97b924f1b"
+    },
+    {
+        "name": "Detachment",
+        "artist": "Lodz",
+        "album": "Something in Us Died",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/5/5/9/0/5593c56ce61bb9b8689026cc63f7cd22.mp3?hdnea=exp=1767349131~acl=/api/1/1/5/5/9/0/5593c56ce61bb9b8689026cc63f7cd22.mp3*~data=user_id=0,application_id=42~hmac=78280379f01b4a673118feeefdb9b9bfac2eb60f3c08dacb3b297bc137531f16",
+        "image_id": "f40edb399ccb22b0f6e16f6550ccec2f"
+    },
+    {
+        "name": "Graven Takeheimens Saler (Studio)",
+        "artist": "Darkthrone",
+        "album": "Transilvanian Hunger",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/5/b/5/0/5b53372ff860a245252fbd2917e62aa4.mp3?hdnea=exp=1767349133~acl=/api/1/1/5/b/5/0/5b53372ff860a245252fbd2917e62aa4.mp3*~data=user_id=0,application_id=42~hmac=6a67461a9bdfc977c3ff350f7485ecb294bf1c91c1cad6ddc77285898ae5bdcc",
+        "image_id": "74c16628779b76f92e44f51058b4ff49"
+    }
+]

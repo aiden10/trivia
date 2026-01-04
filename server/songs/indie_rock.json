@@ -1,0 +1,303 @@
+[
+    {
+        "name": "Sports",
+        "artist": "Beach Bunny",
+        "album": "Sports",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/2/e/7/0/2e7a43297e35fcec067de77c99d10c84.mp3?hdnea=exp=1767351219~acl=/api/1/1/2/e/7/0/2e7a43297e35fcec067de77c99d10c84.mp3*~data=user_id=0,application_id=42~hmac=80410fe3e09acddd43f2c18e40d2bce238f75cdbaddb4d4c163361125c8a1e75",
+        "image_id": "b4f1fff6dbcff3fde0acbadee44cf7ba"
+    },
+    {
+        "name": "Headlights",
+        "artist": "Dispatch",
+        "album": "Four-Day Trials",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/6/7/c/0/67ca405373a0c9a3588ab7ab5c8beeea.mp3?hdnea=exp=1767351220~acl=/api/1/1/6/7/c/0/67ca405373a0c9a3588ab7ab5c8beeea.mp3*~data=user_id=0,application_id=42~hmac=a17850463067378c049bc73383fb7e381091c3d828b73f111bfb0e1ac918423d",
+        "image_id": "e20e1f0c2ae74830fadd8abb81511297"
+    },
+    {
+        "name": "Good Girls (Don\u2019t Get Used)",
+        "artist": "Beach Bunny",
+        "album": "Good Girls (Don\u2019t Get Used)",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/4/e/d/0/4edb58a66f75ebf911e7fd16ca81d71a.mp3?hdnea=exp=1767351220~acl=/api/1/1/4/e/d/0/4edb58a66f75ebf911e7fd16ca81d71a.mp3*~data=user_id=0,application_id=42~hmac=de52e9342141cb559bcd1e123461289867af6d0d984aa74e24b3c5b53c9ab6c6",
+        "image_id": "21722cf0ecec9dda63fa23ed270a6670"
+    },
+    {
+        "name": "It Almost Worked",
+        "artist": "TV Girl",
+        "album": "The Night in Question: French Exit Outtakes",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/5/0/d/0/50da42b0c6ec9d2c4dc649bcd158e410.mp3?hdnea=exp=1767351220~acl=/api/1/1/5/0/d/0/50da42b0c6ec9d2c4dc649bcd158e410.mp3*~data=user_id=0,application_id=42~hmac=1eb55fbf9aa765a89e2c384de23c643d801ba6a08a331669fd883204357f35c6",
+        "image_id": "29ad557da9305efa80a4371de81579b9"
+    },
+    {
+        "name": "Doing It To Death",
+        "artist": "The Kills",
+        "album": "Ash & Ice",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/1/a/d/0/1adabf05f65ced11e073a42cff1b2bf3.mp3?hdnea=exp=1767351221~acl=/api/1/1/1/a/d/0/1adabf05f65ced11e073a42cff1b2bf3.mp3*~data=user_id=0,application_id=42~hmac=99b26d626d9cad8e30fe167cf158f81a7b3bd9bc7c4aa4797ea362b7caa99747",
+        "image_id": "299778be623ea7df76429c27c10dc604"
+    },
+    {
+        "name": "Dum Surfer",
+        "artist": "King Krule",
+        "album": "Dum Surfer",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/b/e/a/0/beab274d887b3f778ec7390d2f2f54aa.mp3?hdnea=exp=1767351221~acl=/api/1/1/b/e/a/0/beab274d887b3f778ec7390d2f2f54aa.mp3*~data=user_id=0,application_id=42~hmac=8ec2842aa32e056c5a9c9aeb99e7928f32906622df61d39045439daf4778db5f",
+        "image_id": "e88f46a62d3dd4307c74b22e74c54ae8"
+    },
+    {
+        "name": "Shim El Yasmine",
+        "artist": "Mashrou' Leila",
+        "album": "The Beirut School",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/f/d/c/0/fdc7e1a1a7288fb3d33cc307e131d86f.mp3?hdnea=exp=1767351222~acl=/api/1/1/f/d/c/0/fdc7e1a1a7288fb3d33cc307e131d86f.mp3*~data=user_id=0,application_id=42~hmac=87d2c0d7f00e6c6ee47e911c7114e434222a6da61f2ea9d8ed0213b7ea944a52",
+        "image_id": "940a8faa1c8dc2abab58b6da835eac07"
+    },
+    {
+        "name": "Chicago (Demo)",
+        "artist": "Sufjan Stevens",
+        "album": "Chicago (Demo)",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/4/f/0/0/4f00c00a040f0927f02d3dd5f884f0b7.mp3?hdnea=exp=1767351222~acl=/api/1/1/4/f/0/0/4f00c00a040f0927f02d3dd5f884f0b7.mp3*~data=user_id=0,application_id=42~hmac=9f4313d5da380b6c9d7c1a11002c1c26b9399193ef5595b7d032c143b3bf3854",
+        "image_id": "ba92485b839402ff91e402e43b074e3d"
+    },
+    {
+        "name": "Anniversary Song",
+        "artist": "Glocca Morra",
+        "album": "Just Married",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/3/0/0/0/300e220515a180adbef9e1e20c1b36e5.mp3?hdnea=exp=1767351223~acl=/api/1/1/3/0/0/0/300e220515a180adbef9e1e20c1b36e5.mp3*~data=user_id=0,application_id=42~hmac=faa3ca679ec0cfdbb213fcccfc4f621092aae9667cd689417b9ed5f20f8e2519",
+        "image_id": "be7e9cbce65068f96b1af1f00c33effb"
+    },
+    {
+        "name": "Ashabi",
+        "artist": "Mashrou' Leila",
+        "album": "Ibn El Leil",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/c/a/5/0/ca5336a21d880e650021d2fd7add61b8.mp3?hdnea=exp=1767351223~acl=/api/1/1/c/a/5/0/ca5336a21d880e650021d2fd7add61b8.mp3*~data=user_id=0,application_id=42~hmac=7cc4dcb543061ec574a99bc949c875105d7a0ccb096e1c8857b415fc6daecf13",
+        "image_id": "3e86e5603c5ee16ab0e14898fe8f00e6"
+    },
+    {
+        "name": "Let Her Go",
+        "artist": "6LACK",
+        "album": "East Atlanta Love Letter",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/f/4/d/0/f4dcc0ec769611c67b0d793dfb223d7b.mp3?hdnea=exp=1767351224~acl=/api/1/1/f/4/d/0/f4dcc0ec769611c67b0d793dfb223d7b.mp3*~data=user_id=0,application_id=42~hmac=b8eeceeb9b9b678269f489e29149945dd2fa3c113854f66e2f9df010a0a75a36",
+        "image_id": "16388279eb839ab223cb6a92396293cd"
+    },
+    {
+        "name": "Fly Like an Eagle",
+        "artist": "Stereophonics",
+        "album": "Kind (Deluxe)",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/9/1/a/0/91a4282321fa0366fff8a58e5da4ef00.mp3?hdnea=exp=1767351224~acl=/api/1/1/9/1/a/0/91a4282321fa0366fff8a58e5da4ef00.mp3*~data=user_id=0,application_id=42~hmac=f4d03cddd9c3d4ac67bf956003476752f0d5311aa2d0d77400a87b03e3a54c4b",
+        "image_id": "2b7677dc86a4e7e8f7e20dc647b6eb64"
+    },
+    {
+        "name": "Central Standard Time (7\" Version)",
+        "artist": "The Get Up Kids",
+        "album": "Eudora",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/9/2/a/0/92a5e604653f8c104ee5ff53ec847fb4.mp3?hdnea=exp=1767351224~acl=/api/1/1/9/2/a/0/92a5e604653f8c104ee5ff53ec847fb4.mp3*~data=user_id=0,application_id=42~hmac=4a7d3f55da5ef85240c700f0de2ca7c86d3c2b5d445dd020e479831ddcfeb2c9",
+        "image_id": "7a3f3300c594c2110124f3c2208bab84"
+    },
+    {
+        "name": "Anime Theme Song",
+        "artist": "Mom Jeans.",
+        "album": "Sweet Tooth",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/a/1/5/0/a156420ce3966d892279373719e4f10b.mp3?hdnea=exp=1767351225~acl=/api/1/1/a/1/5/0/a156420ce3966d892279373719e4f10b.mp3*~data=user_id=0,application_id=42~hmac=e2c8a95efb87b594a68c880971245bbfcbd5535da54c215c80e1faf849bd3b08",
+        "image_id": "eb623d1a09c9660f42d1a3a2d4278a47"
+    },
+    {
+        "name": "Pine Point",
+        "artist": "PUP",
+        "album": "The Dream Is Over",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/0/c/8/0/0c824de68b36a3910a0f1f61b8fad761.mp3?hdnea=exp=1767351225~acl=/api/1/1/0/c/8/0/0c824de68b36a3910a0f1f61b8fad761.mp3*~data=user_id=0,application_id=42~hmac=68d6cc077b2ce186a0fe410eb45ec7d5788ffd3ee6d83a5685509d6f5bda5408",
+        "image_id": "6cec420f1d7ea37a5791741ebc2262a9"
+    },
+    {
+        "name": "Anarchist (Unplugged)",
+        "artist": "YUNGBLUD",
+        "album": "YUNGBLUD (Unplugged)",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/4/f/a/0/4fa1de5985e938b2121d7263ab190584.mp3?hdnea=exp=1767351225~acl=/api/1/1/4/f/a/0/4fa1de5985e938b2121d7263ab190584.mp3*~data=user_id=0,application_id=42~hmac=702200a8df2cd8c97ac18738bff1df604a621540ab98cc5c47c047bef47d7cde",
+        "image_id": "ebfd4d7faabbb1c56d57d6701369b03d"
+    },
+    {
+        "name": "Radio Romance",
+        "artist": "Mashrou' Leila",
+        "album": "The Beirut School",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/3/a/d/0/3ad440597a925816b57d0d0476e09260.mp3?hdnea=exp=1767351226~acl=/api/1/1/3/a/d/0/3ad440597a925816b57d0d0476e09260.mp3*~data=user_id=0,application_id=42~hmac=c274c445d8bdbb0f81be2b9a04d95db5b0e1076af5437ba6c5968a9f5921bdd9",
+        "image_id": "940a8faa1c8dc2abab58b6da835eac07"
+    },
+    {
+        "name": "Life's Too Short",
+        "artist": "Wild Party",
+        "album": "Phantom Pop",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/7/2/c/0/72c22288a66f6fb601afea0e466054cd.mp3?hdnea=exp=1767351227~acl=/api/1/1/7/2/c/0/72c22288a66f6fb601afea0e466054cd.mp3*~data=user_id=0,application_id=42~hmac=6d1894adb152910605ca59ef833eeeb5830c62a2d2cfe5b30e9bce4b8d481b89",
+        "image_id": "9cb0d22373ceb52dd6c95d5ddc59d4d3"
+    },
+    {
+        "name": "Gabi",
+        "artist": "Nihao?",
+        "album": "Aggroschlager",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/0/a/8/0/0a85a0f221ef35376e00ff6aa9c98f59.mp3?hdnea=exp=1767351227~acl=/api/1/1/0/a/8/0/0a85a0f221ef35376e00ff6aa9c98f59.mp3*~data=user_id=0,application_id=42~hmac=8150240ae13bd0462724c7065b34fccd192464851e951a5abff87c6fe5e7f9b4",
+        "image_id": "bad9c17a6ca8267457e20bd5afc7225f"
+    },
+    {
+        "name": "Hey! Menetekel (Live)",
+        "artist": "Jupiter Jones",
+        "album": "Glory.Glory.Hallelujah (Live)",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/5/c/c/0/5cc871a51c4995cd816c8120070c9526.mp3?hdnea=exp=1767351227~acl=/api/1/1/5/c/c/0/5cc871a51c4995cd816c8120070c9526.mp3*~data=user_id=0,application_id=42~hmac=c7cfc77b99948bc9ed36df07f8c90ea11402bc64d823e66b9acce78b10b0ae12",
+        "image_id": "61fb94c75299e076ee8b6aa5d3af45d7"
+    },
+    {
+        "name": "Tithe",
+        "artist": "The Get Up Kids",
+        "album": "There Are Rules (Deluxe Edition)",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/d/d/d/0/ddd59ca70b746464eca3ecdf1a0a9ae3.mp3?hdnea=exp=1767351228~acl=/api/1/1/d/d/d/0/ddd59ca70b746464eca3ecdf1a0a9ae3.mp3*~data=user_id=0,application_id=42~hmac=14c806fcf2f3e2a723fd04ba6adbe0c9a90bad44e5271db1b0694d527060b26c",
+        "image_id": "976f204cb6a6d91f25fc3443ecd38e63"
+    },
+    {
+        "name": "Girl from the North Country",
+        "artist": "The Lions",
+        "album": "Songs of Anarchy: Music from Sons of Anarchy Seasons 1-4",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/e/f/f/0/eff24aeb237a078a4777fb166831d08c.mp3?hdnea=exp=1767351228~acl=/api/1/1/e/f/f/0/eff24aeb237a078a4777fb166831d08c.mp3*~data=user_id=0,application_id=42~hmac=ba2f4539bc1ff0edf6c60db5e347e2b167a480c49a9939a827898d1674ca85ba",
+        "image_id": "4cdf4c7200eb4ff345e5a49b82560db8"
+    },
+    {
+        "name": "Bad Habits",
+        "artist": "The Last Shadow Puppets",
+        "album": "Everything You've Come To Expect (Deluxe Edition)",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/8/d/7/0/8d7f0a4c76a257efe982d141dde11039.mp3?hdnea=exp=1767351229~acl=/api/1/1/8/d/7/0/8d7f0a4c76a257efe982d141dde11039.mp3*~data=user_id=0,application_id=42~hmac=4da311b271dff094bb296df564137dcd5725fdddd3a166fbb1a076a98a5cf928",
+        "image_id": "f156c7581bda2baf5cba67f53547d1ec"
+    },
+    {
+        "name": "21st Century Liability",
+        "artist": "YUNGBLUD",
+        "album": "21st Century Liability",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/8/7/4/0/874ceb6e9c660cbd0d5319caef4b7ca4.mp3?hdnea=exp=1767351229~acl=/api/1/1/8/7/4/0/874ceb6e9c660cbd0d5319caef4b7ca4.mp3*~data=user_id=0,application_id=42~hmac=8f12e37f4ca932beeaa16cc6bee9396c4505468bd46c8594b939e7c7f8757568",
+        "image_id": "0550542686e88dba4978ca5a8172a137"
+    },
+    {
+        "name": "Polygraph Eyes",
+        "artist": "YUNGBLUD",
+        "album": "21st Century Liability",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/3/e/4/0/3e4117a260c0030c8722c524cb9ecdc7.mp3?hdnea=exp=1767351229~acl=/api/1/1/3/e/4/0/3e4117a260c0030c8722c524cb9ecdc7.mp3*~data=user_id=0,application_id=42~hmac=a7f19b184071adb261cb43e927d3c8ec9928e0865773cc2a2aab0deba5c7f9d8",
+        "image_id": "0550542686e88dba4978ca5a8172a137"
+    },
+    {
+        "name": "Babe, Can I Call?",
+        "artist": "The Hunna",
+        "album": "Dare",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/4/c/3/0/4c3695e4700950fa113da85e0d2a82cf.mp3?hdnea=exp=1767351230~acl=/api/1/1/4/c/3/0/4c3695e4700950fa113da85e0d2a82cf.mp3*~data=user_id=0,application_id=42~hmac=6d1aa4299846bfbe4ab5c461e868824a5470b9458605f419b0be7fccdf904f41",
+        "image_id": "e44cdb12d73cac9f0c41883dae61021f"
+    },
+    {
+        "name": "It's Just Us Now",
+        "artist": "Sleigh Bells",
+        "album": "Jessica Rabbit",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/9/4/a/0/94a2f7288d8feb67562f6d0f67b3353a.mp3?hdnea=exp=1767351230~acl=/api/1/1/9/4/a/0/94a2f7288d8feb67562f6d0f67b3353a.mp3*~data=user_id=0,application_id=42~hmac=fb13a80fadce369550bb23aa9070cffef7599cb8fbe688a8b0d72d83c926b964",
+        "image_id": "b01887a86be59c9f7edd13ec48893736"
+    },
+    {
+        "name": "Wasted Lands",
+        "artist": "Die! Die! Die!",
+        "album": "Form",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/6/e/1/0/6e12cad9c5fac08f60c8683ad6db3409.mp3?hdnea=exp=1767351231~acl=/api/1/1/6/e/1/0/6e12cad9c5fac08f60c8683ad6db3409.mp3*~data=user_id=0,application_id=42~hmac=12a02d8ac06804f5afc581203343daf6e2f239dd548318984f31836c2e523022",
+        "image_id": "076a22e04c972e128afe5141cdafec0b"
+    },
+    {
+        "name": "Le Schwing",
+        "artist": "Johnny Foreigner",
+        "album": "You Can Do Better",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/2/7/d/0/27d8083e773e1dd0a09541387e61eb80.mp3?hdnea=exp=1767351231~acl=/api/1/1/2/7/d/0/27d8083e773e1dd0a09541387e61eb80.mp3*~data=user_id=0,application_id=42~hmac=35509f3fa0a383a44898d73a3ede8bdf7e8e378ec24e58ec0fbb2e8bbce6ff75",
+        "image_id": "961036e6bf15d10e5dc00d4b35ad814c"
+    },
+    {
+        "name": "PARKING LOT",
+        "artist": "VANT",
+        "album": "PARKING LOT",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/6/6/7/0/667686d555a3c3033143159cd13e275b.mp3?hdnea=exp=1767351231~acl=/api/1/1/6/6/7/0/667686d555a3c3033143159cd13e275b.mp3*~data=user_id=0,application_id=42~hmac=93080545c863df1c015c05c9688855a28487e38b92465f09afb2bdc970b9253e",
+        "image_id": "507a0726410cc7023284bae88d29a7ce"
+    },
+    {
+        "name": "Recovery Room",
+        "artist": "The Jealous Sound",
+        "album": "Kill Them With Kindness [Deluxe Reissue]",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/3/7/9/0/37985541a23a708033e5496a9549df1e.mp3?hdnea=exp=1767351232~acl=/api/1/1/3/7/9/0/37985541a23a708033e5496a9549df1e.mp3*~data=user_id=0,application_id=42~hmac=e62fbac5a45fbd93f4a18eb183ecd88da78bfe2b7e313e9d877fcde8f1de37a4",
+        "image_id": "5ea452115af4d8ddbaaa356096cd2f15"
+    },
+    {
+        "name": "Mothers",
+        "artist": "Daughter",
+        "album": "Not to Disappear",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/f/2/4/0/f24927133092891d9693e0b3bc72ad4f.mp3?hdnea=exp=1767351232~acl=/api/1/1/f/2/4/0/f24927133092891d9693e0b3bc72ad4f.mp3*~data=user_id=0,application_id=42~hmac=4d8c45834c781ff360b9ae3e642b082aafe7ed09ecfda24fb94aafb77ff3cfc2",
+        "image_id": "cbd6431d1c38a17d33f803656e056865"
+    },
+    {
+        "name": "VOID",
+        "artist": "Melanie Martinez",
+        "album": "VOID",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/5/b/0/0/5b02a6675531f078b0f0183ee878eb75.mp3?hdnea=exp=1767351232~acl=/api/1/1/5/b/0/0/5b02a6675531f078b0f0183ee878eb75.mp3*~data=user_id=0,application_id=42~hmac=572b432b8437afad9d2856b18e4d45cbf42d2f264018d076e2ae89133eea4dcb",
+        "image_id": "dc863dd0edb63ef487712108f53e4a0e"
+    },
+    {
+        "name": "Burning youth",
+        "artist": "Hyukoh",
+        "album": "23",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/4/1/7/0/417da82c6e64656b35f904b2f95693ae.mp3?hdnea=exp=1767351233~acl=/api/1/1/4/1/7/0/417da82c6e64656b35f904b2f95693ae.mp3*~data=user_id=0,application_id=42~hmac=b269bf2b12055ca30cb56dd94ad7fd0f5eb65e6bacd674a37935e0a931394373",
+        "image_id": "79a63cbb88b61fb811be586cf273e922"
+    },
+    {
+        "name": "sandra555",
+        "artist": "mil ataris por segundo",
+        "album": "s/t",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/e/c/0/0/ec0227651b96ccddebe766eabddca855.mp3?hdnea=exp=1767351233~acl=/api/1/1/e/c/0/0/ec0227651b96ccddebe766eabddca855.mp3*~data=user_id=0,application_id=42~hmac=da955f74881487afa803d2589fbdba58a90c4b5d1dcb6747867130a5e88e9a4e",
+        "image_id": "2ea6936d06d5ad91cd9bfbc11daf7d98"
+    },
+    {
+        "name": "Total Zombie",
+        "artist": "Day Wave",
+        "album": "Headcase",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/0/f/5/0/0f512dd9d1afbb335e918eed03d08102.mp3?hdnea=exp=1767351234~acl=/api/1/1/0/f/5/0/0f512dd9d1afbb335e918eed03d08102.mp3*~data=user_id=0,application_id=42~hmac=98f6749980fee2da8ee44cbfadba1f39b66dcc13fa93baf9846c3a1e0372a14a",
+        "image_id": "d8bab10b382ab43fe2d3979e159f5ab2"
+    },
+    {
+        "name": "\u0423\u0441\u043a\u043e\u043b\u044c\u0437\u0430\u0435\u0442",
+        "artist": "\u0412\u0430\u043b\u0435\u043d\u0442\u0438\u043d \u0421\u0442\u0440\u044b\u043a\u0430\u043b\u043e",
+        "album": "\u0420\u0430\u0437\u0432\u043b\u0435\u0447\u0435\u043d\u0438\u0435",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/9/7/c/0/97c1748a54ab999cb8501b405e440d86.mp3?hdnea=exp=1767351234~acl=/api/1/1/9/7/c/0/97c1748a54ab999cb8501b405e440d86.mp3*~data=user_id=0,application_id=42~hmac=4d93c652a991d06219d66f38331a40ddab4a483f1bba33719755cd08a412f5e8",
+        "image_id": "b49dd5313b6ecf57b31ecfbdc4b77c9e"
+    },
+    {
+        "name": "\u041d\u043e\u0447\u043d\u044b\u0435 \u043a\u0430\u0440\u0442\u0438\u043d\u044b",
+        "artist": "\u0413\u0440\u0443\u043f\u043f\u0430 \u0425\u043c\u0443\u0440\u044b\u0439",
+        "album": "\u041a\u0430\u0440\u0442\u0438\u043d\u0430 2, No. 17/5",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/0/5/c/0/05ce35765d069c33c17801b62c18dced.mp3?hdnea=exp=1767351234~acl=/api/1/1/0/5/c/0/05ce35765d069c33c17801b62c18dced.mp3*~data=user_id=0,application_id=42~hmac=ab4ecbdb5d81281992799215919e8e11ce04c069adaf73b2b07ee6b3445c9fb9",
+        "image_id": "d0982cdc7aad13136a13b73108d14d0f"
+    },
+    {
+        "name": "Mare\u00e1",
+        "artist": "Wannabe Jalva",
+        "album": "Mare\u00e1",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/4/f/9/0/4f9056baaeacc41c3aeb7a23359ad37e.mp3?hdnea=exp=1767351235~acl=/api/1/1/4/f/9/0/4f9056baaeacc41c3aeb7a23359ad37e.mp3*~data=user_id=0,application_id=42~hmac=049383f30e0c8e903a85b31520f3b9339a83a606b68f7dd0a6cde3ccffa701f0",
+        "image_id": "97b0f0517ad9a4ae137574353078a37e"
+    },
+    {
+        "name": "\u0415\u0441\u043b\u0438 \u0445\u043e\u0447\u0435\u0448\u044c",
+        "artist": "\u0434\u043e\u0440\u0430",
+        "album": "\u0415\u0441\u043b\u0438 \u0445\u043e\u0447\u0435\u0448\u044c",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/e/3/5/0/e3581fb05d48a6d9a68db4c83cdfa313.mp3?hdnea=exp=1767351235~acl=/api/1/1/e/3/5/0/e3581fb05d48a6d9a68db4c83cdfa313.mp3*~data=user_id=0,application_id=42~hmac=e9860bd107640fe5678688316894248ef7d3414b83edbe6098f46c03069b8aa1",
+        "image_id": "925743f79ab156ee1f67023a94fdf13f"
+    },
+    {
+        "name": "Told You I'd Be with the Guys",
+        "artist": "Cherry Glazerr",
+        "album": "Apocalipstick",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/2/b/2/0/2b28d9a47e27752d2dd2777287fc621b.mp3?hdnea=exp=1767351235~acl=/api/1/1/2/b/2/0/2b28d9a47e27752d2dd2777287fc621b.mp3*~data=user_id=0,application_id=42~hmac=3a90ffa07f97be1ac559906e99bf036a1c2f20dcb0cace124ad513bba3c83314",
+        "image_id": "2a672cec001d10f3706fb4f07ee173f8"
+    },
+    {
+        "name": "Remember This",
+        "artist": "Dolly Mixture",
+        "album": "Remember This - The Singles",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/1/5/e/0/15ead1b23b976ba4b13db17890d9969f.mp3?hdnea=exp=1767351236~acl=/api/1/1/1/5/e/0/15ead1b23b976ba4b13db17890d9969f.mp3*~data=user_id=0,application_id=42~hmac=82f97c2c8bb8da66f58c79207e0172251174729566977a7701bffa8c4e4ea5a4",
+        "image_id": "bd8d7d754005ae3dbe07b9ac0ef7d725"
+    },
+    {
+        "name": "Dead Sea Scrolls",
+        "artist": "Yeasayer",
+        "album": "Amen & Goodbye",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/8/e/2/0/8e2b9909555ad845d16ed35be5845179.mp3?hdnea=exp=1767351237~acl=/api/1/1/8/e/2/0/8e2b9909555ad845d16ed35be5845179.mp3*~data=user_id=0,application_id=42~hmac=147bd0f759d0955c7e7a41d1103e36eadbfaceef3d8e6c5d086c6412f3f60697",
+        "image_id": "f2c6d537f142561295a1904f1b6867c7"
+    }
+]

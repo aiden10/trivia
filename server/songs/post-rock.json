@@ -1,0 +1,338 @@
+[
+    {
+        "name": "Earthmover",
+        "artist": "Have a Nice Life",
+        "album": "Deathconsciousness",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/c/7/0/0/c70460e5142c0e53c61a229f6f1394ab.mp3?hdnea=exp=1767352507~acl=/api/1/1/c/7/0/0/c70460e5142c0e53c61a229f6f1394ab.mp3*~data=user_id=0,application_id=42~hmac=ab6085dd25f94bfb0b350b09f913d2bcef7becba7bc6aa6293e26168fdb5f77d",
+        "image_id": "c9a76ff295599f8ae76e8c5332881c9e"
+    },
+    {
+        "name": "Washer",
+        "artist": "Slint",
+        "album": "Spiderland",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/1/2/e/0/12e35cb7f849183a99f643c4ad19c58b.mp3?hdnea=exp=1767352507~acl=/api/1/1/1/2/e/0/12e35cb7f849183a99f643c4ad19c58b.mp3*~data=user_id=0,application_id=42~hmac=b3974bb682435b604a9c69b69ccee8482f56e8f0eca40e2a8b505b93079cca66",
+        "image_id": "eda1db8a1e9ddd35691c9fa22f7c6a2e"
+    },
+    {
+        "name": "Don, Aman",
+        "artist": "Slint",
+        "album": "Spiderland",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/5/0/5/0/50576eef2472366bcf4930ea49d389ef.mp3?hdnea=exp=1767352508~acl=/api/1/1/5/0/5/0/50576eef2472366bcf4930ea49d389ef.mp3*~data=user_id=0,application_id=42~hmac=b50e25adbb925487ce3963cfb9f6f97467876c83547210dd5216ef60739f103c",
+        "image_id": "eda1db8a1e9ddd35691c9fa22f7c6a2e"
+    },
+    {
+        "name": "Good Morning, Captain",
+        "artist": "Slint",
+        "album": "Spiderland",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/0/4/7/0/047bb55b52498b0f30b5db2f6db5fc13.mp3?hdnea=exp=1767352508~acl=/api/1/1/0/4/7/0/047bb55b52498b0f30b5db2f6db5fc13.mp3*~data=user_id=0,application_id=42~hmac=bd926e6faa57432743b67706d4b3a97c22e36321760e033d21b0d67a6dd0adb3",
+        "image_id": "eda1db8a1e9ddd35691c9fa22f7c6a2e"
+    },
+    {
+        "name": "Svefn-g-englar",
+        "artist": "Sigur R\u00f3s",
+        "album": "\u00c1g\u00e6tis byrjun (A Good Beginning) (20th Anniversary Deluxe Edition)",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/8/d/b/0/8db3ddcdde40ddc9eb2cb4e8c230befb.mp3?hdnea=exp=1767352508~acl=/api/1/1/8/d/b/0/8db3ddcdde40ddc9eb2cb4e8c230befb.mp3*~data=user_id=0,application_id=42~hmac=1808689085b8bc17b3bac5e48c3c0ebc8642466a4bf0d9bed834bdcff42b7e93",
+        "image_id": "6f536b9aa9f7fa705801ff29a7d298bf"
+    },
+    {
+        "name": "Breadcrumb Trail",
+        "artist": "Slint",
+        "album": "Spiderland",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/8/d/8/0/8d8b7e7ffb69f9113c04a4fa897c4f0f.mp3?hdnea=exp=1767352509~acl=/api/1/1/8/d/8/0/8d8b7e7ffb69f9113c04a4fa897c4f0f.mp3*~data=user_id=0,application_id=42~hmac=d87b63ba16c6fa3e057af249fef5eec4de961254db5398ad91dc6e09bc0fcd95",
+        "image_id": "eda1db8a1e9ddd35691c9fa22f7c6a2e"
+    },
+    {
+        "name": "Take Me Somewhere Nice",
+        "artist": "Mogwai",
+        "album": "Rock Action",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/9/a/5/0/9a5e24e50ad7572d7e91cf15c660e863.mp3?hdnea=exp=1767352509~acl=/api/1/1/9/a/5/0/9a5e24e50ad7572d7e91cf15c660e863.mp3*~data=user_id=0,application_id=42~hmac=bfb4d2f4ce9e83ee02ab93fbead91a92eddce7eea909f0fdfb89e75162f6ee37",
+        "image_id": "d97e0b3bc88c2957e0f66d9312bd0120"
+    },
+    {
+        "name": "Future",
+        "artist": "Paramore",
+        "album": "Paramore",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/2/8/b/0/28b7e35ef15976543b9a6a96f58c82a7.mp3?hdnea=exp=1767352510~acl=/api/1/1/2/8/b/0/28b7e35ef15976543b9a6a96f58c82a7.mp3*~data=user_id=0,application_id=42~hmac=b4d34de7dfa8a554333c726d5fba569ee8d36dd03b95c477fc812dfa050be211",
+        "image_id": "485d7cab7695e48f1420182647273de4"
+    },
+    {
+        "name": "Nosferatu Man",
+        "artist": "Slint",
+        "album": "Spiderland",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/8/5/9/0/85936c157fe18dea8a4a311468cf861d.mp3?hdnea=exp=1767352510~acl=/api/1/1/8/5/9/0/85936c157fe18dea8a4a311468cf861d.mp3*~data=user_id=0,application_id=42~hmac=5d128f9b92a1718b8347158c4908b4026dd1ca751bcb2f663762d952d4a7ccd6",
+        "image_id": "eda1db8a1e9ddd35691c9fa22f7c6a2e"
+    },
+    {
+        "name": "Screen Shot",
+        "artist": "Swans",
+        "album": "To Be Kind",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/1/8/4/0/1848a2e58a9781c178b3b7ae54f5fb74.mp3?hdnea=exp=1767352511~acl=/api/1/1/1/8/4/0/1848a2e58a9781c178b3b7ae54f5fb74.mp3*~data=user_id=0,application_id=42~hmac=fb5ff1f5b378e5624fd8996ed080edfd3f00c7ff8db933f6cb4e14caaac160ea",
+        "image_id": "e2afba46536b64fbe89b77292073b958"
+    },
+    {
+        "name": "Helpless Child",
+        "artist": "Swans",
+        "album": "Swans Are Dead: Live '95-'97",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/8/1/1/0/811419d5cfe7321e3bf6b135bc0fe570.mp3?hdnea=exp=1767352511~acl=/api/1/1/8/1/1/0/811419d5cfe7321e3bf6b135bc0fe570.mp3*~data=user_id=0,application_id=42~hmac=49dafe2c4caf5512538fed1d845b501289bdd572b4a21d3c98461fdc986f7e0d",
+        "image_id": "d69c57535e91d01639f27c6a56568d8d"
+    },
+    {
+        "name": "New Grass",
+        "artist": "Talk Talk",
+        "album": "Laughing Stock",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/e/5/5/0/e5559825ac1544342c94a94d2d577655.mp3?hdnea=exp=1767352511~acl=/api/1/1/e/5/5/0/e5559825ac1544342c94a94d2d577655.mp3*~data=user_id=0,application_id=42~hmac=964d91f825cf84aeb1878f0017bd96a03ff9807daae1eb3569a2890251664a8d",
+        "image_id": "60cdc5b184669047fe445d28b51c6973"
+    },
+    {
+        "name": "Deathbeds",
+        "artist": "Bring Me The Horizon",
+        "album": "Sempiternal (Expanded Edition)",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/b/6/7/0/b6747a3b6cf216e5a62cab0931210eb6.mp3?hdnea=exp=1767352512~acl=/api/1/1/b/6/7/0/b6747a3b6cf216e5a62cab0931210eb6.mp3*~data=user_id=0,application_id=42~hmac=225a7c7ed234272bb4a58715b1bb2d2de7f94c9cbd9e36bd64473f150b62151a",
+        "image_id": "a07217215143d39c9b7854fffb7ecc1c"
+    },
+    {
+        "name": "Absent Friend",
+        "artist": "Bark Psychosis",
+        "album": "Hex",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/a/3/b/0/a3ba70d0e9fed6b6254ca9e0a550d484.mp3?hdnea=exp=1767352512~acl=/api/1/1/a/3/b/0/a3ba70d0e9fed6b6254ca9e0a550d484.mp3*~data=user_id=0,application_id=42~hmac=4b7fe2cdc92acff5a3c0a4679b72e0d33547b1d2ee062b56b4058f5eee3ece41",
+        "image_id": "8a3987d7c8c3df3f8997e047f3056500"
+    },
+    {
+        "name": "On GP",
+        "artist": "Death Grips",
+        "album": "The Powers That B",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/5/1/1/0/511840b95038395149aec5e541df4254.mp3?hdnea=exp=1767352512~acl=/api/1/1/5/1/1/0/511840b95038395149aec5e541df4254.mp3*~data=user_id=0,application_id=42~hmac=e3a8f28a69dc4ce83507dcec811783b810e8515f79904755c84192596edd3e53",
+        "image_id": "5161fcb913384cf32e52a253df53d0aa"
+    },
+    {
+        "name": "The Loom",
+        "artist": "Bark Psychosis",
+        "album": "Hex",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/a/a/9/0/aa943c091f0ff0f95ff3f71e426dbbae.mp3?hdnea=exp=1767352513~acl=/api/1/1/a/a/9/0/aa943c091f0ff0f95ff3f71e426dbbae.mp3*~data=user_id=0,application_id=42~hmac=5c7567a645ed0d28d955f7f8b1d17b6b14e4ec1534cc70cca6326ff92709f29e",
+        "image_id": "8a3987d7c8c3df3f8997e047f3056500"
+    },
+    {
+        "name": "Hopp\u00edpolla",
+        "artist": "Sigur R\u00f3s",
+        "album": "Takk...",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/3/7/f/0/37f09ceb29ad257517f1e53237c86341.mp3?hdnea=exp=1767352513~acl=/api/1/1/3/7/f/0/37f09ceb29ad257517f1e53237c86341.mp3*~data=user_id=0,application_id=42~hmac=ec34ec88d38e712577663357f952388b9da6abb8689c51498ffccdd364aad327",
+        "image_id": "35abddbda2838db4261f0a07490cdeba"
+    },
+    {
+        "name": "Hunter",
+        "artist": "Have a Nice Life",
+        "album": "Deathconsciousness",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/7/0/1/0/70199fbc694f8154f42688a18c248f43.mp3?hdnea=exp=1767352514~acl=/api/1/1/7/0/1/0/70199fbc694f8154f42688a18c248f43.mp3*~data=user_id=0,application_id=42~hmac=3cd8a9b9ca2a20caec5ab1413669a15f1b87d3bd95ef502bcf17f515071ed645",
+        "image_id": "c9a76ff295599f8ae76e8c5332881c9e"
+    },
+    {
+        "name": "Star\u00e1lfur",
+        "artist": "Sigur R\u00f3s",
+        "album": "\u00c1g\u00e6tis byrjun",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/c/a/a/0/caab943c462e3cfd5e251b47e3685ed6.mp3?hdnea=exp=1767352514~acl=/api/1/1/c/a/a/0/caab943c462e3cfd5e251b47e3685ed6.mp3*~data=user_id=0,application_id=42~hmac=30075e09ac22b9049b546ea64a6e028c812f2ad911c7d816402d1294471f51ff",
+        "image_id": "ae60fc6b15e0a01a4d1dfb1e42104cb9"
+    },
+    {
+        "name": "Irresistible",
+        "artist": "deafheaven",
+        "album": "Sunbather",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/b/1/8/0/b1836a8faef6115c319476384f0e0ed9.mp3?hdnea=exp=1767352515~acl=/api/1/1/b/1/8/0/b1836a8faef6115c319476384f0e0ed9.mp3*~data=user_id=0,application_id=42~hmac=87c2caa5ed7edf4eea3db87318a5cee7175348339eabc1d994afa0206d454dec",
+        "image_id": "30f637f96692cada700e8c2a48162a93"
+    },
+    {
+        "name": "Two Moons",
+        "artist": "toe",
+        "album": "For Long Tomorrow",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/f/1/8/0/f18349c459e817299a1dc5e3d9af6e55.mp3?hdnea=exp=1767352515~acl=/api/1/1/f/1/8/0/f18349c459e817299a1dc5e3d9af6e55.mp3*~data=user_id=0,application_id=42~hmac=0e3ad3f513398c64b9197b46644c105ee1710ea64c73b4a55f1e814a3b5d93a5",
+        "image_id": "b946c97c5fffefd6d1c09aacae177c90"
+    },
+    {
+        "name": "Olsen olsen",
+        "artist": "Sigur R\u00f3s",
+        "album": "\u00c1g\u00e6tis byrjun",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/4/d/9/0/4d9d3c157f432d2965032423a1bf7c54.mp3?hdnea=exp=1767352515~acl=/api/1/1/4/d/9/0/4d9d3c157f432d2965032423a1bf7c54.mp3*~data=user_id=0,application_id=42~hmac=dd71b0cd25d1df64863062ee3fd33ad48286e7bc4024e8a3c9aeb9aa652456ba",
+        "image_id": "ae60fc6b15e0a01a4d1dfb1e42104cb9"
+    },
+    {
+        "name": "Ascension Day",
+        "artist": "Talk Talk",
+        "album": "Laughing Stock",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/3/8/4/0/384cca6906d585872719b311c9f9e9b8.mp3?hdnea=exp=1767352516~acl=/api/1/1/3/8/4/0/384cca6906d585872719b311c9f9e9b8.mp3*~data=user_id=0,application_id=42~hmac=75af67bda23c0a8e3a81c2f3616d4a22a5eda532e8ee688c1f6bf3b496b5b538",
+        "image_id": "60cdc5b184669047fe445d28b51c6973"
+    },
+    {
+        "name": "All Is Violent, All Is Bright",
+        "artist": "God Is An Astronaut",
+        "album": "All Is Violent, All Is Bright (2011 Remastered Edition)",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/e/0/8/0/e080650bd271cb6a931eae7d6cf46326.mp3?hdnea=exp=1767352516~acl=/api/1/1/e/0/8/0/e080650bd271cb6a931eae7d6cf46326.mp3*~data=user_id=0,application_id=42~hmac=1b9c3d6a38857dbae5e28422fef46b1aa9136efad7ac3fce7a4f557803b55542",
+        "image_id": "3471a475a58e1bf3d19d44974df68a5a"
+    },
+    {
+        "name": "Basketball Shoes",
+        "artist": "Black Country, New Road",
+        "album": "Ants From Up There",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/2/a/b/0/2ab158242b07f02d92f6e31fa32e35c5.mp3?hdnea=exp=1767352516~acl=/api/1/1/2/a/b/0/2ab158242b07f02d92f6e31fa32e35c5.mp3*~data=user_id=0,application_id=42~hmac=7e61ffa30d7d9a3957ed1a5f0d6e1a0007361afedb7927e24daa859d2f1153c3",
+        "image_id": "c2febbe882c2944b0701dd1ff077ab3d"
+    },
+    {
+        "name": "Snow Globes",
+        "artist": "Black Country, New Road",
+        "album": "Ants From Up There",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/0/e/6/0/0e67aaa7c3d7097411f94be5f667a216.mp3?hdnea=exp=1767352517~acl=/api/1/1/0/e/6/0/0e67aaa7c3d7097411f94be5f667a216.mp3*~data=user_id=0,application_id=42~hmac=33b484c7a11dbf9ce5fafb29ae78d35dc8657af2ef1b53cf37cf598be1e15fac",
+        "image_id": "c2febbe882c2944b0701dd1ff077ab3d"
+    },
+    {
+        "name": "Concorde",
+        "artist": "Black Country, New Road",
+        "album": "Ants From Up There",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/e/a/1/0/ea1171f58ec2f380b78ee882162c3ac3.mp3?hdnea=exp=1767352517~acl=/api/1/1/e/a/1/0/ea1171f58ec2f380b78ee882162c3ac3.mp3*~data=user_id=0,application_id=42~hmac=7240c47f9ec7836f11bc6b1b3e617740d539c5929b15bc77e5ab990437d5e2da",
+        "image_id": "c2febbe882c2944b0701dd1ff077ab3d"
+    },
+    {
+        "name": "Kids Will Be Skeletons",
+        "artist": "Mogwai",
+        "album": "Happy Songs for Happy People",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/e/f/7/0/ef723acacd8a7842331b589b4919c86f.mp3?hdnea=exp=1767352517~acl=/api/1/1/e/f/7/0/ef723acacd8a7842331b589b4919c86f.mp3*~data=user_id=0,application_id=42~hmac=1a09f0d9e1d65d19f35722faa95937cdd95586700d987f48ab8f7e19e0eae02f",
+        "image_id": "b6ca9e1762c286fa8423eb7ed4d5a75a"
+    },
+    {
+        "name": "Myrrhman",
+        "artist": "Talk Talk",
+        "album": "Laughing Stock",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/0/3/0/0/0306277d7d12c5914b704d2002ea8ca6.mp3?hdnea=exp=1767352518~acl=/api/1/1/0/3/0/0/0306277d7d12c5914b704d2002ea8ca6.mp3*~data=user_id=0,application_id=42~hmac=c0d5b703bf756bc3b947f257d3176f1e79908fd512e6b71dc820054fdd1893af",
+        "image_id": "60cdc5b184669047fe445d28b51c6973"
+    },
+    {
+        "name": "Var\u00f0eldur",
+        "artist": "Sigur R\u00f3s",
+        "album": "Valtari",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/1/d/c/0/1dc8043dd1c76a0f2a5168ce34c915e3.mp3?hdnea=exp=1767352518~acl=/api/1/1/1/d/c/0/1dc8043dd1c76a0f2a5168ce34c915e3.mp3*~data=user_id=0,application_id=42~hmac=71ca10be6e40964dae462a1ec7c338e7c20edca771d8a364f78b454265d6f29e",
+        "image_id": "0b5b6c6bfd224352ed998c661f8324ca"
+    },
+    {
+        "name": "Bread Song",
+        "artist": "Black Country, New Road",
+        "album": "Ants From Up There",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/7/3/d/0/73db676bab7b5dc5b31dc8eb62292ae9.mp3?hdnea=exp=1767352519~acl=/api/1/1/7/3/d/0/73db676bab7b5dc5b31dc8eb62292ae9.mp3*~data=user_id=0,application_id=42~hmac=f38d82dc84a13a9d38bbb076effbadeb79fc78d8f1cbbfd8f551a010f57e6bb8",
+        "image_id": "c2febbe882c2944b0701dd1ff077ab3d"
+    },
+    {
+        "name": "Flugufrelsarinn",
+        "artist": "Sigur R\u00f3s",
+        "album": "\u00c1g\u00e6tis byrjun",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/c/7/4/0/c744b825f73565e554870916df68774a.mp3?hdnea=exp=1767352519~acl=/api/1/1/c/7/4/0/c744b825f73565e554870916df68774a.mp3*~data=user_id=0,application_id=42~hmac=e6d7c5a1f5772b443cb626af7f1883800255dc18fb1b9572c8645edc941e1351",
+        "image_id": "ae60fc6b15e0a01a4d1dfb1e42104cb9"
+    },
+    {
+        "name": "N\u00fd batter\u00ed",
+        "artist": "Sigur R\u00f3s",
+        "album": "\u00c1g\u00e6tis byrjun",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/0/0/6/0/00633f48ef525d202ab84acd1bdfeef4.mp3?hdnea=exp=1767352519~acl=/api/1/1/0/0/6/0/00633f48ef525d202ab84acd1bdfeef4.mp3*~data=user_id=0,application_id=42~hmac=443ef341452851ccc87d9d913921c6144dcb601385100ec10115140db16b7423",
+        "image_id": "ae60fc6b15e0a01a4d1dfb1e42104cb9"
+    },
+    {
+        "name": "Haldern",
+        "artist": "Black Country, New Road",
+        "album": "Ants From Up There",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/e/2/4/0/e24d26ec78cf7998b81f7f44c4cff6f1.mp3?hdnea=exp=1767352520~acl=/api/1/1/e/2/4/0/e24d26ec78cf7998b81f7f44c4cff6f1.mp3*~data=user_id=0,application_id=42~hmac=b99252f49a7ee9dbedf02727b8a6cf3caf6d2b137d7b66918cfb5a9e1e73015e",
+        "image_id": "c2febbe882c2944b0701dd1ff077ab3d"
+    },
+    {
+        "name": "Thick Skull",
+        "artist": "Paramore",
+        "album": "This Is Why",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/a/7/e/0/a7e4eb48f4ceb076b9d36a074634a766.mp3?hdnea=exp=1767352520~acl=/api/1/1/a/7/e/0/a7e4eb48f4ceb076b9d36a074634a766.mp3*~data=user_id=0,application_id=42~hmac=e6dc4bdec3d5c5a0f7050c85895fcfb5a660be73a1ddd33cf5b59114d4b7f73f",
+        "image_id": "15b205611f8695468dece5be1fdfe981"
+    },
+    {
+        "name": "Outro",
+        "artist": "M83",
+        "album": "Hurry Up, We're Dreaming",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/c/9/d/0/c9d57b10317c4df106c58b97d04090c5.mp3?hdnea=exp=1767352520~acl=/api/1/1/c/9/d/0/c9d57b10317c4df106c58b97d04090c5.mp3*~data=user_id=0,application_id=42~hmac=4d16db915a767d56d9d40636aa5a684cad74cf9b586af7a977d43ccbbfa55092",
+        "image_id": "eb5fbd8b0863c5223fdd76f1729a70ea"
+    },
+    {
+        "name": "Runeii",
+        "artist": "Talk Talk",
+        "album": "Laughing Stock",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/8/e/8/0/8e867a985fa214189d7855b3cfbd68ff.mp3?hdnea=exp=1767352521~acl=/api/1/1/8/e/8/0/8e867a985fa214189d7855b3cfbd68ff.mp3*~data=user_id=0,application_id=42~hmac=e56eb59629500c5081b0d94597f04b5ca4ffa966d2ca481c36c70ecde5ebfba0",
+        "image_id": "60cdc5b184669047fe445d28b51c6973"
+    },
+    {
+        "name": "Yes! I Am a Long Way from Home",
+        "artist": "Mogwai",
+        "album": "Young Team",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/c/d/3/0/cd3242dd6b5f6176df0f31f0c782023b.mp3?hdnea=exp=1767352521~acl=/api/1/1/c/d/3/0/cd3242dd6b5f6176df0f31f0c782023b.mp3*~data=user_id=0,application_id=42~hmac=bc77755b356437a46754c03f91982b66eb1e1a28e92a083a71fe44bb0232bb9c",
+        "image_id": "8ef6ce6197fed1d0813a6437b4c360e8"
+    },
+    {
+        "name": "Intro",
+        "artist": "Sigur R\u00f3s",
+        "album": "\u00c1g\u00e6tis byrjun",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/2/8/8/0/288b292d59aefb84d3382b2381064c34.mp3?hdnea=exp=1767352522~acl=/api/1/1/2/8/8/0/288b292d59aefb84d3382b2381064c34.mp3*~data=user_id=0,application_id=42~hmac=e69912c820a2df2ebdfbff469ecb9c123afc8ba4850e1f0a090f502601b0321d",
+        "image_id": "ae60fc6b15e0a01a4d1dfb1e42104cb9"
+    },
+    {
+        "name": "My Tears Are Becoming A Sea",
+        "artist": "M83",
+        "album": "Hurry Up, We're Dreaming",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/d/3/f/0/d3f3c3274e4ff390428cf156eccf5be6.mp3?hdnea=exp=1767352522~acl=/api/1/1/d/3/f/0/d3f3c3274e4ff390428cf156eccf5be6.mp3*~data=user_id=0,application_id=42~hmac=d879aaf2cca915410b7b28eb7e59b05af5d8ba4f5ea7cf2e4429f51a9a4746cb",
+        "image_id": "eb5fbd8b0863c5223fdd76f1729a70ea"
+    },
+    {
+        "name": "Hjarta\u00f0 hamast (bamm bamm bamm)",
+        "artist": "Sigur R\u00f3s",
+        "album": "\u00c1g\u00e6tis byrjun",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/0/5/1/0/051f34c540541c623d84c4287c0d8b84.mp3?hdnea=exp=1767352522~acl=/api/1/1/0/5/1/0/051f34c540541c623d84c4287c0d8b84.mp3*~data=user_id=0,application_id=42~hmac=f7765419673d8493558f59970990aa6e827da2b7da09750c7b87c2f80ef07e1f",
+        "image_id": "ae60fc6b15e0a01a4d1dfb1e42104cb9"
+    },
+    {
+        "name": "Track X",
+        "artist": "Black Country, New Road",
+        "album": "Track X",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/6/6/c/0/66cb041f50e98ec902310f0259bad05d.mp3?hdnea=exp=1767352523~acl=/api/1/1/6/6/c/0/66cb041f50e98ec902310f0259bad05d.mp3*~data=user_id=0,application_id=42~hmac=ee92b9d3d849cf3a3a05048208db71caf78e865bb8a21efcb1f6c62ed23d44d6",
+        "image_id": "c74a0d2b580bc0184ab600ca7a09276f"
+    },
+    {
+        "name": "Hunted by a Freak",
+        "artist": "Mogwai",
+        "album": "Happy Songs for Happy People",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/f/9/5/0/f955a43253793e814f288285d6444b55.mp3?hdnea=exp=1767352523~acl=/api/1/1/f/9/5/0/f955a43253793e814f288285d6444b55.mp3*~data=user_id=0,application_id=42~hmac=dcfc6a99c5773c6e5cf97b99c5046b87e44f7b3fa30e6f583891c0fbde4e688b",
+        "image_id": "b6ca9e1762c286fa8423eb7ed4d5a75a"
+    },
+    {
+        "name": "A Street Scene",
+        "artist": "Bark Psychosis",
+        "album": "Hex",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/f/3/e/0/f3e0ada5d123ce6effbb7f3aff14b6f2.mp3?hdnea=exp=1767352524~acl=/api/1/1/f/3/e/0/f3e0ada5d123ce6effbb7f3aff14b6f2.mp3*~data=user_id=0,application_id=42~hmac=f25236fd961b5b5e17855736873af5b0d98120abbf939433c3c2c55e5ddfdda5",
+        "image_id": "8a3987d7c8c3df3f8997e047f3056500"
+    },
+    {
+        "name": "13 Angels Standing Guard 'Round The Side Of Your Bed (Jody Wisternoff & James Grant Remix Mixed)",
+        "artist": "A Silver Mt. Zion",
+        "album": "Anjunadeep 12",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/5/e/0/0/5e0ef8661134f723cabaa42284f01c63.mp3?hdnea=exp=1767352524~acl=/api/1/1/5/e/0/0/5e0ef8661134f723cabaa42284f01c63.mp3*~data=user_id=0,application_id=42~hmac=bc75b37f94fb17c0c271c1edc74fd827ad17d9df5abb2f5a1a64486bcb08ee17",
+        "image_id": "bf43ce52e1fa06630db16d316165bf2b"
+    },
+    {
+        "name": "TNT",
+        "artist": "Tortoise",
+        "album": "TNT",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/e/f/7/0/ef7ec9ab2f4e34cd1683c199a343c2cf.mp3?hdnea=exp=1767352524~acl=/api/1/1/e/f/7/0/ef7ec9ab2f4e34cd1683c199a343c2cf.mp3*~data=user_id=0,application_id=42~hmac=ec8c1b74b3bb43542571dc1bfb8230e4579ae5ff6f9c6b9a9b92e20e563c302f",
+        "image_id": "b1c748b6b555d2a6ef6e651e5debc872"
+    },
+    {
+        "name": "(dream)",
+        "artist": "salvia palth",
+        "album": "melanchole",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/b/c/1/0/bc1aa056340b430ee0d8b7d426f26f82.mp3?hdnea=exp=1767352525~acl=/api/1/1/b/c/1/0/bc1aa056340b430ee0d8b7d426f26f82.mp3*~data=user_id=0,application_id=42~hmac=e2b688a632b92d5772b4c2b66826f577722f62cfd084db33887b52709ce4c1d2",
+        "image_id": "db38f40f6953c0b955f7903b4e69bd5f"
+    },
+    {
+        "name": "Quiet",
+        "artist": "This Will Destroy You",
+        "album": "Young Mountain (10th Anniversary Edition)",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/5/8/0/0/580e0ee494b08378387d663de2c611db.mp3?hdnea=exp=1767352525~acl=/api/1/1/5/8/0/0/580e0ee494b08378387d663de2c611db.mp3*~data=user_id=0,application_id=42~hmac=425eeb0687475cf4d281b454ae1995789feb6d3c9a2a8c7f5d5fa88c890617bd",
+        "image_id": "ed109ac876f7195299422be0b73b022e"
+    }
+]
