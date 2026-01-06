@@ -85,7 +85,9 @@ export default function QuestionDisplay() {
 
                     {/* Image */}
                     {hasImage && question?.image && (
-                        <div className="relative w-full max-h-[300px] aspect-square bg-neutral-800 border-2 border-white overflow-hidden">
+                        <div 
+                            onContextMenu={(e) => e.preventDefault()}
+                            className="relative w-full max-h-[300px] aspect-square bg-neutral-800 border-2 border-white overflow-hidden">
                             {!imageLoaded && (
                                 <div className="absolute inset-0 flex items-center justify-center">
                                     <div className="animate-pulse text-white/50 font-inter">Loading...</div>
@@ -98,6 +100,7 @@ export default function QuestionDisplay() {
                                     imageLoaded ? 'opacity-100' : 'opacity-0'
                                 }`}
                                 onLoad={() => setImageLoaded(true)}
+                                draggable={false}
                             />
                         </div>
                     )}
@@ -146,7 +149,7 @@ export default function QuestionDisplay() {
 
             {/* PlayerList */}
             {!hasImage && (
-                <div className='w-full max-w-6xl mx-auto mt-4'>
+                <div className='w-full mx-auto mt-4'>
                     <PlayerList />
                 </div>
             )}

@@ -36,7 +36,7 @@ export const GamemodeOptions: Array<{ id: GameModes; name: string; description: 
 export interface RoomState {
     roomId: string;
     hostId: number;
-    players: Array<{ playerID: number; playerName: string; score: number, guess: string, correctGuesses: string[] }>;
+    players: Player[];
     gamemode: string;
     triviaState: TriviaState | null; 
     peopleState: PeopleState | null;

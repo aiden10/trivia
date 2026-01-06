@@ -81,6 +81,7 @@ export const createGenericEventHandlers = (deps: GenericEventDeps) => ({
     handleUpdateGameMode: (state: RoomState) => {
         deps.setRoomState(state);
         deps.setGamemode(state.gamemode as GameModes);
+        deps.setPlayers(state.players);
     },
 
     handleUpdateHost: (data: {newHostID: number}) => {

@@ -1,7 +1,7 @@
 
 import requests
-from utils import broadcast, send_state, get_properties, is_subclass_of_category
-from models import Room, PeopleEvents, PeopleStages, PeopleProperties, QUESTION_VALUE
+from server.utils import broadcast, send_state, get_properties, is_subclass_of_category
+from server.models import Room, PeopleEvents, PeopleStages, PeopleProperties, QUESTION_VALUE
 
 async def handle_restart(message: dict, room: Room):
     for player in room.players.values():
@@ -202,11 +202,10 @@ async def handle_update_stage(message: dict, room: Room):
             p.correct_guesses = []
             p.can_score = True
             
-    if new_stage == PeopleStages.Results:
+    if new_stage == PeopleStages.Results.value:
         for p in room.players.values():
             p.guess = ""
             p.correct_guesses = []
-            p.score = 0
 
     await send_state(room, PeopleEvents.UpdateStage.value)
 

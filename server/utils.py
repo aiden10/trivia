@@ -11,7 +11,7 @@ from google.genai import types
 from dotenv import load_dotenv
 from pathlib import Path
 from fastapi import WebSocket
-from models import Room, TriviaQuestion, TriviaCategories, ImageCategories, PeopleProperties, IMAGE_PROMPTS, PEOPLE_CATEGORIES
+from server.models import Room, TriviaQuestion, TriviaCategories, ImageCategories, PeopleProperties, IMAGE_PROMPTS, PEOPLE_CATEGORIES
 
 MAIN_QUESTIONS_FILE = Path(__file__).parent / "questions.json"
 CATEGORIES_DIR = Path(__file__).parent / "categories"
@@ -133,8 +133,7 @@ def get_question(room: Room) -> TriviaQuestion:
             image=None
         )
     else:
-        is_person_category = chosen["category"] not in IMAGE_PROMPTS
-        question_text = IMAGE_PROMPTS[chosen["category"]] if is_person_category else "What is this?"
+        question_text = IMAGE_PROMPTS[chosen["category"]]
 
         return TriviaQuestion(
             body=question_text,

@@ -1,5 +1,5 @@
-from utils import broadcast, send_state, get_question
-from models import Room, TriviaEvents, TriviaStages, QUESTION_VALUE, TriviaCategories, ImageCategories
+from server.utils import broadcast, send_state, get_question
+from server.models import Room, TriviaEvents, TriviaStages, QUESTION_VALUE, TriviaCategories, ImageCategories
 from rapidfuzz import process, fuzz
 
 FUZZY_THRESHOLD = 70
@@ -32,7 +32,7 @@ async def handle_guess(message: dict, room: Room):
     if not room.trivia_state or not room.trivia_state.current_question:
         return
     player.guess = guess
-    accepted_answers = [a.lower().strip() for a in room.trivia_state.current_question.answers]
+    accepted_answers = [a.lower().strip() for a in room.trivia_state.current_question.answers if 'disambiguation' not in a]
     result = process.extractOne(
         guess, 
         accepted_answers, 
@@ -58,11 +58,11 @@ async def handle_guess(message: dict, room: Room):
         }, room)
 
         # Check if all players have guessed correctly already
-        for player in room.players.values():
-            if player.can_score:
+        for p in room.players.values():
+            if p.can_score:
                 return
             
-        room.trivia_state.current_stage = TriviaStages.Reveal
+        room.trivia_state.current_stage = TriviaStages.Reveal.value
         await send_state(room, TriviaEvents.UpdateStage.value)
     
     elif guess not in accepted_answers:
@@ -84,12 +84,10 @@ async def handle_update_stage(message: dict, room: Room):
     
     # Reset player state based on stage
     for p in room.players.values():
-        if new_stage == TriviaStages.QuestionDisplay.value or new_stage == TriviaStages.Results:
+        if new_stage == TriviaStages.QuestionDisplay.value or new_stage == TriviaStages.Results.value:
             p.correct_guesses = []
             p.guess = ""
             p.can_score = True
-            if new_stage == TriviaStages.Results:
-                p.score = 0
     
     await send_state(room, TriviaEvents.UpdateStage.value)
     

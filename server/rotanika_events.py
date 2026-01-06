@@ -1,6 +1,6 @@
 import random
-from utils import broadcast, send_state
-from models import Room, RotanikaEvents, RotanikaStages, RotanikaQuestion
+from server.utils import broadcast, send_state
+from server.models import Room, RotanikaEvents, RotanikaStages, RotanikaQuestion
 
 async def handle_restart(message: dict, room: Room):
     """Reset the game for a new round."""

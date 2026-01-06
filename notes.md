@@ -88,13 +88,8 @@ Basically just codenames but instead of words being on the grid, it's images. Ma
 - Chat window
 - Make host option
 - Show public rooms
-~~- Fix 20Q Results screen~~
-    ~~Also make question log wider~~
-~~- Trivia should automatically advance when all players have guessed correctly~~
-~~- Scores and guesses not properly resetting after game ends ~~
-- Clean trivia answers (remove disambiguation and try to prevent exact matches of words from the question itself) 
 - Show question quantities 
 - Revamp "winning" aspect of 20Q. It might be better to just make it so that winning means guessing the thing within the amount of questions. 
-~~- Show correct answers during Reveal~~
 - Synchronize settings so non-host players can see it too
 - Handle players losing connection better and show reconnect button
+- Remove special characters when checking answers

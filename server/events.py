@@ -1,5 +1,5 @@
-from utils import *
-from models import * 
+from server.utils import *
+from server.models import * 
 
 async def handle_update_gamemode(message: dict, room: Room):
     """Switch the room's gamemode and initialize appropriate state."""
@@ -18,6 +18,9 @@ async def handle_update_gamemode(message: dict, room: Room):
         
     if gamemode == GameModes.Rotanika.value:
         room.rotanika_state = RotanikaState()
+    
+    for p in room.players.values():
+        p.score = 0
     
     await broadcast({
         "type": Events.UpdateGameMode.value,
