@@ -58,7 +58,7 @@ async def handle_guess(message: dict, room: Room):
         }, room)
 
         # Check if all players have guessed correctly already
-        for player in room.players:
+        for player in room.players.values():
             if player.can_score:
                 return
             
