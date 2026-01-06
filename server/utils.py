@@ -492,5 +492,5 @@ def get_song_previews():
             
             print(f"finished {song_file.name}")
 
-# load_all_questions()
-# load_all_images()
+load_all_questions()
+load_all_images()

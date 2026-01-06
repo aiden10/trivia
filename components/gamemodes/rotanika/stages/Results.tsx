@@ -1,7 +1,5 @@
 import { useGameContext } from "@/shared/GameContext";
-import { RotanikaSettings as RotanikaSettingsType } from "@/shared/types";
 import QuestionLog from "../QuestionLog";
-import RotanikaSettings from "../RotanikaSettings";
 import Back from "@/components/Back";
 
 export default function Results() {
@@ -10,7 +8,6 @@ export default function Results() {
         roomState,
         players,
         submitRotanikaRestart,
-        submitRotanikaUpdateSettings,
     } = useGameContext();
 
     const rotanikaState = roomState?.rotanikaState;
@@ -21,10 +18,6 @@ export default function Results() {
 
     const winnerName = players.find(p => p.playerID === winner)?.playerName;
     const pickerName = players.find(p => p.playerID === pickerId)?.playerName;
-
-    const handleSettingsChange = (settings: RotanikaSettingsType) => {
-        submitRotanikaUpdateSettings(settings);
-    };
 
     const getResultMessage = () => {
         switch (winReason) {
@@ -64,7 +57,7 @@ export default function Results() {
             <Back inRoom={true}/>
             <h1 className="title font-bartle bg-dots">Results</h1>
 
-            <div className="w-full max-w-2xl flex flex-col items-center gap-6">
+            <div className="w-full flex flex-col items-center gap-6">
                 {/* Result Display */}
                 <div className="bg-neutral-900 border-2 border-white p-8 w-full text-center">
                     <h2 className="md:text-[32px] text-[18px] text-white font-bartle mb-4">
@@ -86,14 +79,11 @@ export default function Results() {
                     </p>
                 </div>
             </div>
-            <QuestionLog questions={questions} players={players}/>
+            <div className="w-full">
+                <QuestionLog questions={questions} players={players}/>
+            </div>
             {host ? (
                 <div className="flex flex-col gap-4 md:w-2/3 w-full">
-                    <RotanikaSettings
-                        host={host}
-                        onSettingsChange={handleSettingsChange}
-                    />
-
                     <button 
                         className="btn-primary w-full text-2xl py-4 uppercase"
                         onClick={() => submitRotanikaRestart()}

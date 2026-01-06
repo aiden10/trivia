@@ -47,6 +47,7 @@ async def handle_guess(message: dict, room: Room):
     if is_correct and player.can_score:
         player.score += QUESTION_VALUE
         player.can_score = False
+        player.correct_guesses.append(guess)
         
         await broadcast({
             "type": TriviaEvents.CorrectAnswer.value,
@@ -55,6 +56,14 @@ async def handle_guess(message: dict, room: Room):
                 "value": QUESTION_VALUE
             }
         }, room)
+
+        # Check if all players have guessed correctly already
+        for player in room.players:
+            if player.can_score:
+                return
+            
+        room.trivia_state.current_stage = TriviaStages.Reveal
+        await send_state(room, TriviaEvents.UpdateStage.value)
     
     elif guess not in accepted_answers:
         await broadcast({
@@ -73,20 +82,17 @@ async def handle_update_stage(message: dict, room: Room):
     if room.trivia_state:
         room.trivia_state.current_stage = new_stage
     
-    # Reset can_score for all players when going to a new question
-    if new_stage == TriviaStages.QuestionDisplay.value:
-        for p in room.players.values():
+    # Reset player state based on stage
+    for p in room.players.values():
+        if new_stage == TriviaStages.QuestionDisplay.value or new_stage == TriviaStages.Results:
+            p.correct_guesses = []
             p.guess = ""
             p.can_score = True
-    
-    if new_stage == TriviaStages.Results:
-        for p in room.players.values():
-            p.guess = ""
-            p.correct_guesses = []
-            p.score = 0
+            if new_stage == TriviaStages.Results:
+                p.score = 0
     
     await send_state(room, TriviaEvents.UpdateStage.value)
-
+    
 async def handle_update_question(room: Room):
     """Get and broadcast a new question."""
     if room.trivia_state:

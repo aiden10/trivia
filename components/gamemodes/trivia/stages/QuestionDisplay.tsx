@@ -54,7 +54,8 @@ export default function QuestionDisplay() {
             if (timeLeft === 0) {
                 clearInterval(interval);
                 if (host) {
-                    submitTriviaUpdateStage(TriviaStages.Reveal);
+                    if (triviaState?.currentStage === TriviaStages.QuestionDisplay)
+                        submitTriviaUpdateStage(TriviaStages.Reveal);
                 }
             }
         }, 100);

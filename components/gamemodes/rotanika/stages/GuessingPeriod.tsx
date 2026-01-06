@@ -177,7 +177,6 @@ export default function GuessingPeriod() {
                     </div>
                 )}
 
-                {/* Question Log */}
                 <QuestionLog questions={questions} players={players} />
             </div>
         </div>

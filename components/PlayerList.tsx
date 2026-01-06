@@ -1,7 +1,8 @@
 import { useGameContext } from "@/shared/GameContext";
+import { GameModes, TriviaStages } from "@/shared/types";
 
 export default function PlayerList() {
-    const { players } = useGameContext();
+    const { players, roomState } = useGameContext();
     
     const sortedPlayers = [...players].sort((a, b) => {
         if (a.score < b.score) return 1;
@@ -26,7 +27,11 @@ export default function PlayerList() {
                                 {player.guess}
                             </p>
                         )}
+                        {/* Only show the correct guesses in Trivia if it's the reveal stage */}
                         {player.correctGuesses && player.correctGuesses.length > 0 && (
+                            roomState?.gamemode !== GameModes.Trivia || 
+                            (roomState?.gamemode === GameModes.Trivia && roomState.triviaState?.currentStage === TriviaStages.Reveal)
+                        ) && (
                             <div className="ml-6 mt-1 flex flex-wrap gap-1">
                                 {player.correctGuesses.map((correctGuess, i) => (
                                     <span 
@@ -38,7 +43,7 @@ export default function PlayerList() {
                                     </span>
                                 ))}
                             </div>
-                        )}
+                        )}                    
                     </div>
 
                     <h1 className="text-[24px] text-white/80 md:ml-5">{player.score}</h1>

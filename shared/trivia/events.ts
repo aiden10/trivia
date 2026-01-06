@@ -50,7 +50,7 @@ export const createTriviaEventHandlers = (deps: TriviaEventDeps) => ({
                     ...player,
                     score: player.score + data.value,
                     guess: "",
-                    guessedCorrectly: true
+                    guessedCorrectly: true,
                 };
             }
             return player;
