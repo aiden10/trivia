@@ -287,6 +287,7 @@ class Player:
         self.correct_guesses = []
         self.score = 0
         self.lives = 0
+        self.host = False
         self.can_score = True
         self.socket = socket
 
@@ -297,6 +298,7 @@ class Player:
             "score": self.score,
             "guess": self.guess,
             "lives": self.lives,
+            "host": self.host,
             "correctGuesses": self.correct_guesses
         }
 

@@ -21,6 +21,9 @@ export default function PlayerList() {
                         <div className="flex items-center gap-2">
                             <span className="text-[24px] font-bold text-white">#{index + 1}</span>
                             <h2 className="text-[24px] text-white ml-2">{player.playerName}</h2>
+                            {player.host && (
+                                <span className="text-[20px]" title="Host">👑</span>
+                            )}
                         </div>
                         {!player.guessedCorrectly && player.guess && (
                             <p className="text-md text-white/80 italic ml-12 font-inter font-thin">

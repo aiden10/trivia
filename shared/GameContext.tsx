@@ -175,7 +175,7 @@ export const GameProvider: React.FC<GameProviderProps> = ({ children }) => {
                     genericHandlers.handleOtherJoin(data);
                     return;
                 case Events.Quit:
-                    genericHandlers.handleQuit(data);
+                    genericHandlers.handleQuit(state);
                     return;
                 case Events.UpdateGameMode:
                     genericHandlers.handleUpdateGameMode(state);

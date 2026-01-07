@@ -4,7 +4,7 @@ from fastapi import FastAPI, WebSocket, WebSocketDisconnect
 from fastapi.responses import JSONResponse
 from fastapi.middleware.cors import CORSMiddleware
 from server.models import Room, Player, Events, TriviaEvents, GameModes, CreateRoomBody, PeopleEvents, RotanikaEvents, PeopleBPEvents
-from server.utils import broadcast, generate_room_id
+from server.utils import broadcast, generate_room_id, send_state
 from server.events import handle_message, handle_update_gamemode
 from server.trivia_events import (
     handle_restart as handle_trivia_restart,
@@ -162,6 +162,7 @@ async def websocket_endpoint(websocket: WebSocket, room_id: str):
         is_host = len(room.players) == 0
         
         if is_host:
+            player.host = True
             room.host_id = room.player_index
             
         if room.gamemode == GameModes.PeopleBP.value and room.peopleBP_state:
@@ -215,18 +216,16 @@ async def websocket_endpoint(websocket: WebSocket, room_id: str):
                 if room.gamemode == GameModes.PeopleBP.value:
                     await handle_peopleBP_player_disconnect(room, player.id)
 
-                await broadcast({
-                    "type": Events.Quit.value,
-                    "data": {"playerID": player.id}
-                }, room)
-                
                 if player.id == room.host_id and len(room.players) > 0:
                     new_host = random.choice(list(room.players.keys()))
                     await broadcast({
                         "type": Events.UpdateHost.value,
                         "data": {"newHostID": new_host}
                     }, room)
+                    room.players[new_host].host = True
                     room.host_id = new_host
+                
+                await send_state(room, Events.Quit.value)                
                 
                 if len(room.players) == 0:
                     print(f"Room {room_id} closed - no players remaining")

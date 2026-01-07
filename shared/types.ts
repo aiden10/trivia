@@ -5,6 +5,7 @@ export interface Player {
     score: number;
     guess: string;
     lives: number;
+    host: boolean;
     correctGuesses: string[];
     guessedCorrectly: boolean;
 }

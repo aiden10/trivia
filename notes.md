@@ -86,9 +86,10 @@ All players except one (the imposter) are given the same word. Players take turn
 
 # TODO
 - Game rules somewhere 
+- Chat window
+- The chat window and game rules can be components which are small tabs on the left or right sides of the screen, which when clicked, expand to a larger panel. Probably with a small arrow to indicate it can be clicked. The chat window tab should have a small circle next to the arrow which is red if there is a new message, and half transparent otherwise.   
 - Pressing join on the name select should request the current room state so it has the up to date stage
     Maybe also keep track of the time left on the server so clients always see an accurate countdown
-- Chat window
 - Make host option
 - Show public rooms
 - Show question quantities 

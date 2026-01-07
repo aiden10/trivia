@@ -19,10 +19,6 @@ export interface OtherJoinResponse {
     playerID: number;
 }
 
-export interface QuitResponse {
-    playerID: number;
-}
-
 export interface GenericEventDeps {
     setPlayerID: (id: number) => void;
     setHost: (host: boolean) => void;
@@ -46,6 +42,7 @@ export const createGenericEventHandlers = (deps: GenericEventDeps) => ({
             score: p.score,
             guess: p.guess,
             lives: p.lives,
+            host: p.host,
             correctGuesses: p.correctGuesses,
             guessedCorrectly: false
         }));
@@ -56,6 +53,7 @@ export const createGenericEventHandlers = (deps: GenericEventDeps) => ({
             score: 0,
             guess: "",
             lives: 0,
+            host: data.host,
             correctGuesses: [],
             guessedCorrectly: false
         };
@@ -71,14 +69,15 @@ export const createGenericEventHandlers = (deps: GenericEventDeps) => ({
             score: 0,
             guess: "",
             lives: 0,
+            host: false,
             correctGuesses: [],
             guessedCorrectly: false
         };
         deps.setPlayers(prev => [...prev, newPlayer]);
     },
 
-    handleQuit: (data: QuitResponse) => {
-        deps.setPlayers(prev => prev.filter(p => p.playerID !== data.playerID));
+    handleQuit: (state: RoomState) => {
+        deps.setPlayers(state.players);
     },
 
     handleUpdateGameMode: (state: RoomState) => {
