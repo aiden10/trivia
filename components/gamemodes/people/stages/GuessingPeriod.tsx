@@ -5,7 +5,7 @@ import { useGameContext } from '@/shared/GameContext';
 import { PeopleStages } from '@/shared/types';
 import { capitalizeWords } from '@/shared/utils';
 import PlayerList from '@/components/PlayerList';
-import WikidataSearch from '../WikidataSearch';
+import WikidataSearch from '../../../WikidataSearch';
 import Timer from '@/components/Timer';
 
 export default function GuessingPeriod() {

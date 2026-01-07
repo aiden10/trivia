@@ -5,6 +5,7 @@ import DefaultScreen from "./gamemodes/default/DefaultScreen";
 import TriviaScreen from "./gamemodes/trivia/TriviaScreen";
 import PeopleScreen from "./gamemodes/people/PeopleScreen";
 import RotanikaScreen from "./gamemodes/rotanika/RotanikaScreen";
+import PeopleBPScreen from "./gamemodes/peopleBP/PeopleBPScreen";
 
 export default function GameScreen() {
     const { gamemode } = useGameContext();
@@ -17,6 +18,8 @@ export default function GameScreen() {
                 return <PeopleScreen />;
             case GameModes.Rotanika:
                 return <RotanikaScreen />;
+            case GameModes.PeopleBP:
+                return <PeopleBPScreen />;
             case GameModes.Default:
             default:
                 return <DefaultScreen />;

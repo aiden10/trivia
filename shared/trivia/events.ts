@@ -42,7 +42,7 @@ export const createTriviaEventHandlers = (deps: TriviaEventDeps) => ({
     },
 
     handleCorrectAnswer: (data: {playerID: number; value: number}) => {
-        if (deps.playerID === data.playerID) playSound("correct.wav");
+        playSound("pop.wav");
 
         deps.setPlayers(prev => prev.map(player => {
             if (player.playerID === data.playerID) {

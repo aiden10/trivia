@@ -10,6 +10,7 @@ class GameModes(Enum):
     Trivia = "trivia"
     PeopleGuesser = "people"
     Rotanika = "rotanika"
+    PeopleBP = "peopleBP"
 
 class TriviaStages(Enum):
     Lobby = 0
@@ -28,6 +29,11 @@ class RotanikaStages(Enum):
     Picking = 1
     GuessingPeriod = 2
     Results = 3
+    
+class PeopleBPStages(Enum):
+    Lobby = 0
+    Game = 1
+    Results = 2
 
 class Events(Enum):
     Quit = "quit"
@@ -64,6 +70,16 @@ class RotanikaEvents(Enum):
     UpdateSettings = "updateSettings_rotanika"
     GuessResult = "guessResult_rotanika"
     Restart = "restart_rotanika"
+
+class PeopleBPEvents(Enum):
+    UpdateStage = "updateStage_peopleBP"
+    UpdateProperties = "updateProperties_peopleBP"
+    UpdateSettings = "updateSettings_peopleBP"
+    HandleGuess = "handleGuess_peopleBP"
+    CorrectAnswer = "correctAnswer_peopleBP"
+    IncorrectAnswer = "incorrectAnswer_peopleBP"
+    Timeout = "timeout_peopleBP"
+    Restart = "restart_peopleBP"
 
 class TriviaCategories(Enum):
     History = "history"
@@ -234,6 +250,35 @@ class RotanikaState(BaseModel):
             }
         }
 
+class PeopleBPState(BaseModel):
+    current_stage: int = PeopleBPStages.Lobby.value
+    properties: list[PeopleProperties] = [p for p in PeopleProperties]
+    current_properties: list[PeopleProperties] = []
+    current_guesser: int = 0
+    min_duration: int = 8
+    max_duration: int = 25
+    combination_lower_bound: int = 1
+    combination_upper_bound: int = 2
+    starting_lives: int = 5
+    already_guessed: list[str] = []
+    winner: int | None = None
+    
+    def to_dict(self) -> dict:
+        return {
+            "currentStage": self.current_stage,
+            "currentProperties": [cp.value for cp in self.current_properties],
+            "currentGuesser": self.current_guesser,
+            "winner": self.winner,
+            "settings": {
+                "minDuration": self.min_duration,
+                "maxDuration": self.max_duration,
+                "startingLives": self.starting_lives,
+                "properties": [p.value for p in self.properties],
+                "combinationLowerBound": self.combination_lower_bound,
+                "combinationUpperBound": self.combination_upper_bound,
+            }
+        }
+
 class Player:
     def __init__(self, name: str, id: int, socket: WebSocket):
         self.name = name
@@ -241,6 +286,7 @@ class Player:
         self.guess = ""
         self.correct_guesses = []
         self.score = 0
+        self.lives = 0
         self.can_score = True
         self.socket = socket
 
@@ -250,6 +296,7 @@ class Player:
             "playerName": self.name,
             "score": self.score,
             "guess": self.guess,
+            "lives": self.lives,
             "correctGuesses": self.correct_guesses
         }
 
@@ -266,6 +313,7 @@ class Room:
         self.trivia_state: Optional[TriviaState] = None
         self.people_state: Optional[PeopleState] = None
         self.rotanika_state: Optional[RotanikaState] = None
+        self.peopleBP_state: Optional[PeopleBPState] = None
         self.password = password
         self.messages = []
 
@@ -279,4 +327,5 @@ class Room:
             "triviaState": self.trivia_state.to_dict() if self.trivia_state else None,
             "peopleState": self.people_state.to_dict() if self.people_state else None,
             "rotanikaState": self.rotanika_state.to_dict() if self.rotanika_state else None,
+            "peopleBPState": self.peopleBP_state.to_dict() if self.peopleBP_state else None
         }

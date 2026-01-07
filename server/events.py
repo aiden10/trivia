@@ -14,13 +14,20 @@ async def handle_update_gamemode(message: dict, room: Room):
     
     if gamemode == GameModes.PeopleGuesser.value:
         room.people_state = PeopleState()
-        room.people_state.current_properties = get_properties(room)
+        room.people_state.current_properties = get_properties(room, PeopleState)
         
     if gamemode == GameModes.Rotanika.value:
         room.rotanika_state = RotanikaState()
-    
+        
+    if gamemode == GameModes.PeopleBP.value:
+        room.peopleBP_state = PeopleBPState()
+        room.peopleBP_state.current_guesser = random.choice(list(room.players.keys()))
+        room.peopleBP_state.current_properties = get_properties(room, PeopleBPState)
+
     for p in room.players.values():
         p.score = 0
+        if gamemode == GameModes.PeopleBP.value:
+            p.lives = room.peopleBP_state.starting_lives
     
     await broadcast({
         "type": Events.UpdateGameMode.value,

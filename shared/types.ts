@@ -4,6 +4,7 @@ export interface Player {
     playerName: string;
     score: number;
     guess: string;
+    lives: number;
     correctGuesses: string[];
     guessedCorrectly: boolean;
 }
@@ -12,7 +13,8 @@ export enum GameModes {
     Default = "default",
     Trivia = "trivia",
     PeopleGuesser = "people",
-    Rotanika = "rotanika"
+    Rotanika = "rotanika",
+    PeopleBP = "peopleBP",
 }
 
 export const GamemodeOptions: Array<{ id: GameModes; name: string; description: string }> = [
@@ -30,7 +32,12 @@ export const GamemodeOptions: Array<{ id: GameModes; name: string; description: 
         id: GameModes.Rotanika,
         name: "20Q",
         description: "20 Questions game - guess what the picker is thinking of using yes/no questions"
-    }
+    },
+    {
+        id: GameModes.PeopleBP,
+        name: "PeopleGuesser: Bomb Party Edition",
+        description: "Take turns guessing people based on the prompt before the timer runs out"
+    },
 ];
 
 export interface RoomState {
@@ -41,6 +48,7 @@ export interface RoomState {
     triviaState: TriviaState | null; 
     peopleState: PeopleState | null;
     rotanikaState: RotanikaState | null;
+    peopleBPState: PeopleBPState | null;
 }
 
 export enum TriviaStages {
@@ -62,6 +70,12 @@ export enum RotanikaStages {
     Picking = 1,
     GuessingPeriod = 2,
     Results = 3,
+}
+
+export enum PeopleBPStages {
+    Lobby = 0,
+    Game = 1,
+    Results = 2
 }
 
 export enum PeopleProperties {
@@ -153,6 +167,15 @@ export interface RotanikaSettings {
     pickerId?: number;
 }
 
+export interface PeopleBPSettings {
+    minDuration: number;
+    maxDuration: number;
+    combinationLowerBound: number;
+    combinationUpperBound: number;
+    startingLives: number;
+    properties?: string[];
+}
+
 export interface TriviaQuestion {
     body: string;
     answer: string;
@@ -191,4 +214,13 @@ export interface RotanikaState {
     settings: RotanikaSettings;
     winner: number | null;
     winReason: 'guessed' | 'maxReached' | 'minNotReached' | null;
+}
+
+export interface PeopleBPState {
+    currentStage: PeopleBPStages;
+    currentProperties: PeopleProperties[];
+    currentGuesser: number;
+    alreadyGuessed: string[];
+    winner: number | null;
+    settings: PeopleBPSettings;
 }

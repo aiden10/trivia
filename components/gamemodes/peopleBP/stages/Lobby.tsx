@@ -1,27 +1,25 @@
 import { useGameContext } from "@/shared/GameContext";
-import { RotanikaStages, RotanikaSettings as RotanikaSettingsType } from "@/shared/types";
+import { PeopleBPSettings as PeopleBPSettingsType, PeopleBPStages } from "@/shared/types";
 import PlayerList from "@/components/PlayerList";
-import RotanikaSettings from "../RotanikaSettings";
+import PeopleBPSettings from "../PeopleBPSettings";
 import Back from "@/components/Back";
 
 export default function Lobby() {
     const { 
         host, 
-        submitRotanikaUpdateStage, 
-        submitRotanikaUpdateSettings,
-        players
+        players,
+        submitPeopleBPUpdateStage,
+        submitPeopleBPUpdateSettings,
     } = useGameContext();
 
-    const handleSettingsChange = (settings: RotanikaSettingsType) => {
-        submitRotanikaUpdateSettings(settings);
+    const handleSettingsChange = (settings: Partial<PeopleBPSettingsType>) => {
+        submitPeopleBPUpdateSettings(settings as PeopleBPSettingsType);
     };
-
     const canStart = players.length >= 2;
-
     return (
         <div className="game-screen bg-dots">
             <Back inRoom={true}/>
-            <h1 className="title font-bartle bg-dots">20Q</h1>
+            <h1 className="title font-bartle bg-dots">People BP</h1>
             
             <div className="w-full max-w-4xl gap-6">
                 <PlayerList />
@@ -31,7 +29,7 @@ export default function Lobby() {
                         {host ? "Settings" : "Waiting for host..."}
                     </h2>
                     
-                    <RotanikaSettings
+                    <PeopleBPSettings
                         host={host}
                         onSettingsChange={handleSettingsChange}
                     />
@@ -45,7 +43,7 @@ export default function Lobby() {
                             </p>
                         )}
                         <button
-                            onClick={() => submitRotanikaUpdateStage(RotanikaStages.Picking)}
+                            onClick={() => submitPeopleBPUpdateStage(PeopleBPStages.Game)}
                             disabled={!canStart}
                             className="btn-primary w-full text-2xl py-4 mt-4 uppercase disabled:opacity-50 disabled:cursor-not-allowed"
                         >

@@ -3,11 +3,12 @@
 import React, { createContext, useContext, useState, useEffect, ReactNode } from 'react';
 import { Player, GameModes, RoomState, TriviaStages, 
         TriviaSettings, PeopleStages, PeopleSettings,
-        RotanikaStages, RotanikaSettings } from './types';
+        RotanikaStages, RotanikaSettings, PeopleBPSettings, PeopleBPStages } from './types';
 import { Events, createGenericEventHandlers, createGenericEventEmitters } from './events';
 import { TriviaEvents, createTriviaEventHandlers, createTriviaEventEmitters } from './trivia/events';
 import { PeopleEvents, createPeopleEventEmitters, createPeopleEventHandlers } from './people/events';
 import { RotanikaEvents, createRotanikaEventEmitters, createRotanikaEventHandlers } from './rotanika/events';
+import { PeopleBPEvents, createPeopleBPEventEmitters, createPeopleBPEventHandlers } from './peopleBP/events';
 
 interface GameContextType {
     // Core State
@@ -54,6 +55,14 @@ interface GameContextType {
     submitRotanikaUpdateStage: (newStage: RotanikaStages) => void;
     submitRotanikaUpdateSettings: (settings: RotanikaSettings) => void;
     submitRotanikaRestart: () => void;
+
+    // PeopleBP Events
+    submitPeopleBPGuess: (guessID: string) => void;
+    submitPeopleBPTimeout: () => void;
+    submitPeopleBPUpdateStage: (newStage: PeopleBPStages) => void;
+    submitPeopleBPUpdateProperties: () => void;
+    submitPeopleBPUpdateSettings: (settings: PeopleBPSettings) => void;
+    submitPeopleBPRestart: () => void;
 
     // Utility
     getPlayerData: (id: number) => Player | undefined;
@@ -130,6 +139,18 @@ export const GameProvider: React.FC<GameProviderProps> = ({ children }) => {
     });
 
     const rotanikaEmitters = createRotanikaEventEmitters(socket, {
+        playerID,
+        roomState,
+    });
+
+    const peopleBPHandlers = createPeopleBPEventHandlers({
+        setPlayers,
+        setRoomState,
+        roomState,
+        playerID
+    });
+
+    const peopleBPEmitters = createPeopleBPEventEmitters(socket, {
         playerID,
         roomState,
     });
@@ -216,6 +237,23 @@ export const GameProvider: React.FC<GameProviderProps> = ({ children }) => {
                     return;
             }
 
+            switch (type) {
+                case PeopleBPEvents.UpdateStage:
+                case PeopleBPEvents.UpdateProperties:
+                case PeopleBPEvents.UpdateSettings:
+                case PeopleBPEvents.Restart:
+                    peopleBPHandlers.handleStateUpdate(state);
+                    return;
+                case PeopleBPEvents.CorrectAnswer:
+                    peopleBPHandlers.handleCorrectAnswer(data, state);
+                    return;
+                case PeopleBPEvents.IncorrectAnswer:
+                    peopleBPHandlers.handleIncorrectAnswer(data);
+                    return;
+                case PeopleBPEvents.Timeout:
+                    peopleBPHandlers.handleTimeout(state);
+                    return;
+            }
             console.warn('Unknown message type:', type);
         };
 
@@ -272,6 +310,13 @@ export const GameProvider: React.FC<GameProviderProps> = ({ children }) => {
         submitRotanikaUpdateStage: rotanikaEmitters.submitUpdateStage,
         submitRotanikaUpdateSettings: rotanikaEmitters.submitUpdateSettings,
         submitRotanikaRestart: rotanikaEmitters.submitRestart,
+        
+        submitPeopleBPGuess: peopleBPEmitters.submitGuess,
+        submitPeopleBPTimeout: peopleBPEmitters.submitTimeout,
+        submitPeopleBPUpdateStage: peopleBPEmitters.submitUpdateStage,
+        submitPeopleBPUpdateProperties: peopleBPEmitters.submitUpdateProperties,
+        submitPeopleBPUpdateSettings: peopleBPEmitters.submitUpdateSettings,
+        submitPeopleBPRestart: peopleBPEmitters.submitRestart,
 
         // Utility
         getPlayerData,

@@ -3,7 +3,6 @@ from server.utils import broadcast, send_state
 from server.models import Room, RotanikaEvents, RotanikaStages, RotanikaQuestion
 
 async def handle_restart(message: dict, room: Room):
-    """Reset the game for a new round."""
     for player in room.players.values():
         player.score = 0
         player.guess = ""
@@ -20,7 +19,6 @@ async def handle_restart(message: dict, room: Room):
     await send_state(room, RotanikaEvents.Restart.value)
 
 async def handle_update_stage(message: dict, room: Room):
-    """Update the current game stage."""
     data = message.get("data", {})
     new_stage = data.get("newStage", 0)
     
@@ -53,7 +51,6 @@ async def handle_update_stage(message: dict, room: Room):
     await send_state(room, RotanikaEvents.UpdateStage.value)
 
 async def handle_set_secret(message: dict, room: Room):
-    """Picker sets their secret thing."""
     data = message.get("data", {})
     secret = data.get("secret", "")
     player_id = data.get("playerID")
@@ -73,7 +70,6 @@ async def handle_set_secret(message: dict, room: Room):
     await send_state(room, RotanikaEvents.UpdateStage.value)
 
 async def handle_ask_question(message: dict, room: Room):
-    """A guesser asks a question."""
     data = message.get("data", {})
     question_text = data.get("question", "")
     is_deciding = data.get("isDeciding", False)
@@ -101,7 +97,6 @@ async def handle_ask_question(message: dict, room: Room):
     await send_state(room, RotanikaEvents.AskQuestion.value)
 
 async def handle_answer_question(message: dict, room: Room):
-    """Picker answers the current question."""
     data = message.get("data", {})
     answer = data.get("answer")  # 'yes', 'no', 'unsure'
     player_id = data.get("playerID")
@@ -144,7 +139,6 @@ async def handle_answer_question(message: dict, room: Room):
             }, room)
             await send_state(room, RotanikaEvents.UpdateStage.value)
             return
-        # Wrong deciding guess - move to next asker
     
     # Check if max questions reached
     if len(room.rotanika_state.questions) >= room.rotanika_state.max_questions:
@@ -173,7 +167,6 @@ async def handle_answer_question(message: dict, room: Room):
     await send_state(room, RotanikaEvents.AnswerQuestion.value)
 
 async def handle_update_settings(message: dict, room: Room):
-    """Update Rotanika game settings."""
     data = message.get("data", {})
     
     if not room.rotanika_state:
@@ -191,7 +184,6 @@ async def handle_update_settings(message: dict, room: Room):
     await send_state(room, RotanikaEvents.UpdateSettings.value)
     
 async def handle_player_disconnect(room: Room, player_id: int):
-    """Handle a player disconnecting during a Rotanika game."""
     if not room.rotanika_state:
         return
     

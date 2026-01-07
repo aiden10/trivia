@@ -76,10 +76,13 @@ Album might not work very well because a lot of the albums are things like "grea
 - Ignore words in parentheses when checking song answers
 
 # People Guesser Bomb Party
-Instead of everyone guessing as many as they can, players take turns guessing a person who has the specific properties on their turn. I think I'd try to have the UI still mainly text based instead of showing players in a circle with an arrow. A grid with different sized cells which contain information about: prompt (properties), lives left of other players, your lives left, who's next, and above that would be the search bar. On mobile it can resize to have more rows and less columns.  
+- Play ticking sound
 
 # Codenames with pictures
 Basically just codenames but instead of words being on the grid, it's images. Maybe the spymaster can draw a picture as the hint or give a word. 
+
+# Imposter
+All players except one (the imposter) are given the same word. Players take turns saying another word related to it, but can't say the word itself. If the imposter does, they instantly lose, and non-imposters can't. Every n turns, players vote on who they think the imposter is. After m votes, if the imposter hasn't been found, they win.    
 
 # TODO
 - Game rules somewhere 
@@ -91,5 +94,6 @@ Basically just codenames but instead of words being on the grid, it's images. Ma
 - Show question quantities 
 - Revamp "winning" aspect of 20Q. It might be better to just make it so that winning means guessing the thing within the amount of questions. 
 - Synchronize settings so non-host players can see it too
+    - Update settings style for non-host players
 - Handle players losing connection better and show reconnect button
 - Remove special characters when checking answers

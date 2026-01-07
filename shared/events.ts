@@ -45,6 +45,7 @@ export const createGenericEventHandlers = (deps: GenericEventDeps) => ({
             playerName: p.playerName,
             score: p.score,
             guess: p.guess,
+            lives: p.lives,
             correctGuesses: p.correctGuesses,
             guessedCorrectly: false
         }));
@@ -54,6 +55,7 @@ export const createGenericEventHandlers = (deps: GenericEventDeps) => ({
             playerName: deps.name,
             score: 0,
             guess: "",
+            lives: 0,
             correctGuesses: [],
             guessedCorrectly: false
         };
@@ -68,6 +70,7 @@ export const createGenericEventHandlers = (deps: GenericEventDeps) => ({
             playerName: data.playerName,
             score: 0,
             guess: "",
+            lives: 0,
             correctGuesses: [],
             guessedCorrectly: false
         };

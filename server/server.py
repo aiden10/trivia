@@ -3,7 +3,7 @@ import random
 from fastapi import FastAPI, WebSocket, WebSocketDisconnect
 from fastapi.responses import JSONResponse
 from fastapi.middleware.cors import CORSMiddleware
-from server.models import Room, Player, Events, TriviaEvents, GameModes, CreateRoomBody, PeopleEvents, RotanikaEvents
+from server.models import Room, Player, Events, TriviaEvents, GameModes, CreateRoomBody, PeopleEvents, RotanikaEvents, PeopleBPEvents
 from server.utils import broadcast, generate_room_id
 from server.events import handle_message, handle_update_gamemode
 from server.trivia_events import (
@@ -28,6 +28,15 @@ from server.rotanika_events import (
     handle_answer_question as handle_rotanika_answer_question,
     handle_update_settings as handle_rotanika_update_settings,
     handle_player_disconnect as handle_rotanika_player_disconnect
+)
+from server.peopleBP_events import (
+    handle_restart as handle_peopleBP_restart,
+    handle_guess as handle_peopleBP_guess,
+    handle_update_stage as handle_peopleBP_update_stage,
+    handle_update_properties as handle_peopleBP_update_properties,
+    handle_update_settings as handle_peopleBP_update_settings,
+    handle_timeout as handle_peopleBP_timeout,
+    handle_player_disconnect as handle_peopleBP_player_disconnect
 )
 
 origins = [
@@ -111,6 +120,22 @@ async def handle_rotanika_event(message: dict, room: Room):
             await handle_rotanika_answer_question(message, room)
         case RotanikaEvents.UpdateSettings.value:
             await handle_rotanika_update_settings(message, room)
+            
+async def handle_peopleBP_event(message: dict, room: Room):
+    event_type = message.get("type")
+    match event_type:
+        case PeopleBPEvents.Restart.value:
+            await handle_peopleBP_restart(message, room)
+        case PeopleBPEvents.UpdateProperties.value:
+            await handle_peopleBP_update_properties(room)
+        case PeopleBPEvents.UpdateStage.value:
+            await handle_peopleBP_update_stage(message, room)
+        case PeopleBPEvents.HandleGuess.value:
+            await handle_peopleBP_guess(message, room)
+        case PeopleBPEvents.UpdateSettings.value:
+            await handle_peopleBP_update_settings(message, room)
+        case PeopleBPEvents.Timeout.value:
+            await handle_peopleBP_timeout(message, room)
 
 @app.websocket("/ws/{room_id}")
 async def websocket_endpoint(websocket: WebSocket, room_id: str):
@@ -138,6 +163,9 @@ async def websocket_endpoint(websocket: WebSocket, room_id: str):
         
         if is_host:
             room.host_id = room.player_index
+            
+        if room.gamemode == GameModes.PeopleBP.value and room.peopleBP_state:
+            player.lives = room.peopleBP_state.starting_lives
         
         await websocket.send_text(json.dumps({
             "type": Events.Join.value,
@@ -175,6 +203,8 @@ async def websocket_endpoint(websocket: WebSocket, room_id: str):
                         await handle_people_event(message, room)
                     case GameModes.Rotanika.value:
                         await handle_rotanika_event(message, room)
+                    case GameModes.PeopleBP.value:
+                        await handle_peopleBP_event(message, room)
 
     except WebSocketDisconnect:
         if player and room:
@@ -182,6 +212,8 @@ async def websocket_endpoint(websocket: WebSocket, room_id: str):
                 room.players.pop(player.id)
                 if room.gamemode == GameModes.Rotanika.value:
                     await handle_rotanika_player_disconnect(room, player.id)
+                if room.gamemode == GameModes.PeopleBP.value:
+                    await handle_peopleBP_player_disconnect(room, player.id)
 
                 await broadcast({
                     "type": Events.Quit.value,

@@ -11,7 +11,7 @@ from google.genai import types
 from dotenv import load_dotenv
 from pathlib import Path
 from fastapi import WebSocket
-from server.models import Room, TriviaQuestion, TriviaCategories, ImageCategories, PeopleProperties, IMAGE_PROMPTS, PEOPLE_CATEGORIES
+from server.models import *
 
 MAIN_QUESTIONS_FILE = Path(__file__).parent / "questions.json"
 CATEGORIES_DIR = Path(__file__).parent / "categories"
@@ -141,12 +141,18 @@ def get_question(room: Room) -> TriviaQuestion:
             image=chosen["image"]
         )
 
-def get_properties(room: Room) -> list[PeopleProperties]:
-    if not room.people_state or not room.people_state.properties:
-        return []
+def get_properties(room: Room, state_type: PeopleState | PeopleBPState) -> list[PeopleProperties]:
     
-    lower = room.people_state.combination_lower_bound
-    upper = room.people_state.combination_upper_bound
+    if state_type == PeopleBPState and room.peopleBP_state:
+        lower = room.peopleBP_state.combination_lower_bound
+        upper = room.peopleBP_state.combination_upper_bound
+        properties_list = room.peopleBP_state.properties
+    elif state_type == PeopleState and room.people_state:
+        lower = room.people_state.combination_lower_bound
+        upper = room.people_state.combination_upper_bound
+        properties_list = room.people_state.properties
+    else:
+        return []
     
     if lower > upper:
         size = lower
@@ -155,7 +161,7 @@ def get_properties(room: Room) -> list[PeopleProperties]:
     else:
         size = random.randint(lower, upper)
     
-    size = min(size, len(room.people_state.properties))
+    size = min(size, len(properties_list))
     
     genders = {PeopleProperties.Male, PeopleProperties.Female}
     continents = {
@@ -164,7 +170,7 @@ def get_properties(room: Room) -> list[PeopleProperties]:
         PeopleProperties.Africa, PeopleProperties.Oceania
     }
     
-    available = list(room.people_state.properties)
+    available = list(properties_list)
     selected: list[PeopleProperties] = []
     
     for _ in range(size):
