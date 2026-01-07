@@ -76,19 +76,7 @@ async def handle_guess(message: dict, room: Room):
     # Only the current guesser can guess
     if guesser_id != room.peopleBP_state.current_guesser:
         return
-    
-    # Check if already guessed
-    if guess_id in room.peopleBP_state.already_guessed:
-        await broadcast({
-            "type": PeopleBPEvents.IncorrectAnswer.value,
-            "data": {
-                "playerID": player.id,
-                "incorrectGuess": "",
-                "reason": "alreadyGuessed"
-            }
-        }, room)
-        return
-    
+        
     # Fetch entity data
     entity = get_entity_data(guess_id)
     if not entity:
@@ -105,6 +93,18 @@ async def handle_guess(message: dict, room: Room):
     guess_name = entity.get("labels", {}).get("en", {}).get("value", guess_id)
     player.guess = guess_name
     
+    # Check if already guessed
+    if guess_id in room.peopleBP_state.already_guessed:
+        await broadcast({
+            "type": PeopleBPEvents.IncorrectAnswer.value,
+            "data": {
+                "playerID": player.id,
+                "incorrectGuess": guess_name,
+                "reason": "alreadyGuessed"
+            }
+        }, room)
+        return
+
     # Check if guess matches all properties
     is_correct = check_all_properties(entity, room.peopleBP_state.current_properties)
     
@@ -117,7 +117,6 @@ async def handle_guess(message: dict, room: Room):
         next_guesser = get_next_guesser(room)
         room.peopleBP_state.current_guesser = next_guesser
         room.peopleBP_state.current_properties = get_properties(room, PeopleBPState)
-        room.peopleBP_state.already_guessed = []
         
         await broadcast({
             "type": PeopleBPEvents.CorrectAnswer.value,
@@ -170,7 +169,6 @@ async def handle_timeout(message: dict, room: Room):
     next_guesser = get_next_guesser(room)
     room.peopleBP_state.current_guesser = next_guesser
     room.peopleBP_state.current_properties = get_properties(room, PeopleBPState)
-    room.peopleBP_state.already_guessed = []
         
     await send_state(room, PeopleBPEvents.Timeout.value)
 
@@ -196,7 +194,6 @@ async def handle_update_stage(message: dict, room: Room):
 async def handle_update_properties(room: Room):
     if room.peopleBP_state:
         room.peopleBP_state.current_properties = get_properties(room, PeopleBPState)
-        room.peopleBP_state.already_guessed = []
     
     await send_state(room, PeopleBPEvents.UpdateProperties.value)
 
