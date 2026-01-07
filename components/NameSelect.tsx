@@ -3,6 +3,7 @@ import { useGameContext } from "@/shared/GameContext";
 import { useState, useEffect } from "react";
 import { useWebSocket } from '@/shared/hooks';
 import Back from './Back';
+import Loading from './Loading';
 export default function NameSelect() {
     const params = useParams();
     const paramID = params?.id;
@@ -47,11 +48,7 @@ export default function NameSelect() {
     }
 
     if (hasJoined && !isConnected) {
-        return (
-            <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
-                <div className="w-16 h-16 border-4 border-white border-t-transparent rounded-full animate-spin"></div>
-            </div>
-        );
+        return <Loading />
     }
     
     if (!hasJoined) {
