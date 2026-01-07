@@ -97,3 +97,4 @@ All players except one (the imposter) are given the same word. Players take turn
     - Update settings style for non-host players
 - Handle players losing connection better and show reconnect button
 - Remove special characters when checking answers
+- Add npm run build check before commits can be pushed to main

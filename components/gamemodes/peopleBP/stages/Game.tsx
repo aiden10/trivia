@@ -1,6 +1,6 @@
 'use client'
 
-import { useState, useEffect, useRef } from 'react';
+import { useState, useEffect, useRef, useMemo } from 'react';
 import { useGameContext } from '@/shared/GameContext';
 import { capitalizeWords } from '@/shared/utils';
 import WikidataSearch from '../../../WikidataSearch';
@@ -15,7 +15,10 @@ export default function Game() {
     } = useGameContext();
 
     const peopleBPState = roomState?.peopleBPState;
-    const currentProperties = peopleBPState?.currentProperties ?? [];
+    const currentProperties = useMemo(() => 
+        peopleBPState?.currentProperties ?? [], 
+        [peopleBPState?.currentProperties]
+    );
     const currentGuesser = peopleBPState?.currentGuesser;
     const settings = peopleBPState?.settings;
     const minDuration = settings?.minDuration ?? 5;
@@ -30,8 +33,7 @@ export default function Game() {
     const [duration, setDuration] = useState(() => 
         Math.floor(Math.random() * (maxDuration - minDuration + 1)) + minDuration
     );
-    const [remainingTime, setRemainingTime] = useState(duration);
-    const [searchKey, setSearchKey] = useState(0); // Key to force remount
+    const [searchKey, setSearchKey] = useState(0);
 
     const endTimeRef = useRef<number>(Date.now() + (duration * 1000));
     const guesserRef = useRef(currentGuesser);
@@ -47,7 +49,6 @@ export default function Game() {
             // New random duration for this turn
             const newDuration = Math.floor(Math.random() * (maxDuration - minDuration + 1)) + minDuration;
             setDuration(newDuration);
-            setRemainingTime(newDuration);
             endTimeRef.current = Date.now() + (newDuration * 1000);
             
             // Clear search bar by remounting component
@@ -59,7 +60,6 @@ export default function Game() {
     useEffect(() => {
         const interval = setInterval(() => {
             const timeLeft = Math.max(0, Math.ceil((endTimeRef.current - Date.now()) / 1000));
-            setRemainingTime(timeLeft);
             
             if (timeLeft === 0) {
                 clearInterval(interval);

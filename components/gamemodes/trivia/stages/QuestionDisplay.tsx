@@ -5,6 +5,7 @@ import { useGameContext } from '@/shared/GameContext';
 import { TriviaStages } from '@/shared/types';
 import Timer from '@/components/Timer';
 import PlayerList from '@/components/PlayerList';
+import Image from 'next/image';
 
 export default function QuestionDisplay() {
     const { 
@@ -19,6 +20,7 @@ export default function QuestionDisplay() {
     const triviaState = roomState?.triviaState;
     const question = triviaState?.currentQuestion;
     const questionDuration = triviaState?.settings.questionDuration ?? 15;
+    const currentStage = triviaState?.currentStage;
     const hasImage = !!question?.image;
 
     const [remainingTime, setRemainingTime] = useState(questionDuration);
@@ -54,14 +56,14 @@ export default function QuestionDisplay() {
             if (timeLeft === 0) {
                 clearInterval(interval);
                 if (host) {
-                    if (triviaState?.currentStage === TriviaStages.QuestionDisplay)
+                    if (currentStage === TriviaStages.QuestionDisplay)
                         submitTriviaUpdateStage(TriviaStages.Reveal);
                 }
             }
         }, 100);
 
         return () => clearInterval(interval);
-    }, [question?.body, host, submitTriviaUpdateStage]);
+    }, [question?.body, host, submitTriviaUpdateStage, currentStage]);
 
     const handleSubmitGuess = (e: React.FormEvent) => {
         e.preventDefault();
@@ -93,14 +95,16 @@ export default function QuestionDisplay() {
                                     <div className="animate-pulse text-white/50 font-inter">Loading...</div>
                                 </div>
                             )}
-                            <img
+                            <Image
                                 src={question.image}
                                 alt="Question image"
-                                className={`w-full h-full object-contain transition-opacity duration-300 ${
+                                fill
+                                className={`object-contain transition-opacity duration-300 ${
                                     imageLoaded ? 'opacity-100' : 'opacity-0'
                                 }`}
                                 onLoad={() => setImageLoaded(true)}
                                 draggable={false}
+                                unoptimized
                             />
                         </div>
                     )}
@@ -139,7 +143,7 @@ export default function QuestionDisplay() {
                     )}
                 </div>
 
-                {/* PlayerList - positioned on right when image shown */}
+                {/* PlayerList on right when image shown */}
                 {hasImage && (
                     <div className='w-full md:w-96 md:flex-shrink-0 mt-6 md:mt-4 md:min-h-screen bg-neutral-900 border-white border-2 bg-dots'>
                         <PlayerList />
