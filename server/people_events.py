@@ -1,15 +1,10 @@
 
-from server.utils import broadcast, send_state, get_properties
+from server.utils import broadcast, send_state, get_properties, restart_base
 from server.models import Room, PeopleEvents, PeopleStages, PeopleProperties, QUESTION_VALUE, PeopleState
 from server.wikidata import get_entity_data, check_all_properties
 
 async def handle_restart(message: dict, room: Room):
-    for player in room.players.values():
-        player.score = 0
-        player.guess = ""
-        player.correct_guesses = []
-        player.can_score = True
-
+    restart_base(room)
     if room.people_state:
         room.people_state.already_guessed = []
         room.people_state.current_properties = get_properties(room, PeopleState)

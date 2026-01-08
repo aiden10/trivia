@@ -1,11 +1,9 @@
 import random
-from server.utils import broadcast, send_state
+from server.utils import broadcast, send_state, restart_base
 from server.models import Room, RotanikaEvents, RotanikaStages, RotanikaQuestion
 
 async def handle_restart(message: dict, room: Room):
-    for player in room.players.values():
-        player.score = 0
-        player.guess = ""
+    restart_base(room)
     
     if room.rotanika_state:
         room.rotanika_state.current_stage = RotanikaStages.Lobby.value
