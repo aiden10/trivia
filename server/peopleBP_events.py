@@ -1,5 +1,5 @@
 import random
-from server.utils import broadcast, send_state, get_properties
+from server.utils import broadcast, send_state, get_properties, restart_base
 from server.models import Room, PeopleBPEvents, PeopleBPStages, PeopleProperties, PeopleBPState
 from server.wikidata import get_entity_data, check_all_properties
 
@@ -46,13 +46,8 @@ async def handle_restart(message: dict, room: Room):
     
     room.peopleBP_state.current_guesser = random.choice(list(room.players.keys()))
     
-    for player in room.players.values():
-        player.score = 0
-        player.guess = ""
-        player.lives = room.peopleBP_state.starting_lives
-        player.correct_guesses = []
-        player.can_score = True
-
+    restart_base(room)
+    
     room.peopleBP_state.already_guessed = []
     room.peopleBP_state.current_properties = get_properties(room, PeopleBPState)
     room.peopleBP_state.current_stage = PeopleBPStages.Game.value

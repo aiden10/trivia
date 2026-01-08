@@ -42,3 +42,4 @@ next-env.d.ts
 
 /.vscode/
 server/__pycache__/
+server/song_previews

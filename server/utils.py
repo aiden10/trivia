@@ -11,7 +11,7 @@ from google.genai import types
 from dotenv import load_dotenv
 from pathlib import Path
 from fastapi import WebSocket
-from server.models import *
+from models import *
 
 MAIN_QUESTIONS_FILE = Path(__file__).parent / "questions.json"
 CATEGORIES_DIR = Path(__file__).parent / "categories"
@@ -86,6 +86,13 @@ async def send_state(room: Room, event: str):
         "type": event,
         "state": room.to_dict()
     }, room)
+
+def restart_base(room: Room):
+    for player in room.players.values():
+        player.score = 0
+        player.guess = ""
+        player.correct_guesses = []
+        player.can_score = True
 
 def get_question(room: Room) -> TriviaQuestion:
     """Get a random question based on room's selected categories (text or image)."""
@@ -460,42 +467,66 @@ def get_top_tracks():
             json.dump(all_tracks, out, indent=4)
 
 def get_song_previews():
-    todo = ["techno", "thrash_metal"]
-    SONGS_FOLDER =  Path(__file__).parent / "songs"
+    SONGS_FOLDER = Path(__file__).parent / "songs"
+    PREVIEWS_FOLDER = Path(__file__).parent / "song_previews"
+    PREVIEWS_FOLDER.mkdir(exist_ok=True)
+    done = ["80s", "90s"]
     for i, song_file in enumerate(SONGS_FOLDER.glob("*.json")):
         print(f"file {i+1}/{len(list(SONGS_FOLDER.iterdir()))}")
-        if song_file.stem not in todo:
+        if song_file.stem == 'tags' or song_file.stem in done:
             continue
+            
         with open(song_file, "r", encoding="utf-8") as f:
             songs = json.load(f)
             updated_songs = []
+            
             for i, song in enumerate(songs):
                 print(f"{song_file.stem.upper()} | {i+1}/{len(songs)}")
                 name = song["name"]
                 artist = song["artist"]
                 DEEZER_SEARCH_URL = f"https://api.deezer.com/search?q=artist:\"{artist}\" track:\"{name}\""
-                res = requests.get(DEEZER_SEARCH_URL)
-                if res.json()["total"] == 0:
-                    print(f"failed to find {name} by {artist}")
+                
+                try:
+                    res = requests.get(DEEZER_SEARCH_URL)
+                    if res.json()["total"] == 0:
+                        print(f"failed to find {name} by {artist}")
+                        continue
+                    
+                    first_result = res.json()["data"][0]
+                    song_id = first_result["id"]
+                    preview_url = first_result["preview"]
+                    
+                    print(f"found: {first_result['title']}")
+                    
+                    preview_path = PREVIEWS_FOLDER / f'{song_id}.mp3'
+                    if not preview_path.exists():
+                        preview_res = requests.get(preview_url)
+                        preview_res.raise_for_status()
+                        with open(preview_path, "wb") as preview_file:
+                            preview_file.write(preview_res.content)
+                        print(f"downloaded preview for {song_id}")
+                    
+                    updated_songs.append({
+                        "id": song_id,
+                        "name": first_result["title"],
+                        "artist": first_result["artist"]["name"],
+                        "album": first_result["album"]["title"],
+                        "preview": first_result["preview"],
+                        "image_id": first_result["md5_image"],
+                        # image format: https://cdn-images.dzcdn.net/images/cover/{image_id}/{height}{width}-000000-80-0-0.jpg
+                    })
+                    
+                    time.sleep(0.1)
+                    
+                except Exception as e:
+                    print(f"error processing {name} by {artist}: {e}")
                     continue
-                
-                first_result = res.json()["data"][0]
-                print(f"found: {first_result['title']}")
-                updated_songs.append({
-                    "name": first_result["title"],
-                    "artist": first_result["artist"]["name"],
-                    "album": first_result["album"]["title"],
-                    "preview": first_result["preview"],
-                    "image_id": first_result["md5_image"]
-                    # image format: https://cdn-images.dzcdn.net/images/cover/{image_id}/{height}{width}-000000-80-0-0.jpg
-                })
-                
-                time.sleep(0.1)
                 
             with open(song_file, "w", encoding='utf-8') as out:
                 json.dump(updated_songs, out, indent=4)
             
             print(f"finished {song_file.name}")
 
-load_all_questions()
-load_all_images()
+get_song_previews()
+# load_all_questions()
+# load_all_images()
