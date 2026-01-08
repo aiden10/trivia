@@ -1,17 +1,12 @@
-from server.utils import broadcast, send_state, get_question
+from server.utils import broadcast, send_state, get_question, restart_base
 from server.models import Room, TriviaEvents, TriviaStages, QUESTION_VALUE, TriviaCategories, ImageCategories
 from rapidfuzz import process, fuzz
 
 FUZZY_THRESHOLD = 70
 
 async def handle_restart(message: dict, room: Room):
-    """Reset the game - clear scores and get a new question."""
-    for player in room.players.values():
-        player.score = 0
-        player.guess = ""
-        player.correct_guesses = []
-        player.can_score = True
-
+    restart_base(room)
+    
     if room.trivia_state:
         room.trivia_state.current_question = get_question(room)
         room.trivia_state.current_stage = TriviaStages.QuestionDisplay.value
