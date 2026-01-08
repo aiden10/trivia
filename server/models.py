@@ -4,6 +4,7 @@ from enum import Enum
 from typing import Optional
 
 QUESTION_VALUE = 10
+SONG_VALUE = 5
 
 class GameModes(Enum):
     Default = "default"
@@ -106,6 +107,16 @@ class ImageCategories(Enum):
     Musicians = "musicians"
     Characters = "characters"
     
+class SongCategories(Enum):
+    Eighties = "80s"
+    Nineties = "90s"
+    Rock = "rock"
+    Pop = "pop"
+    Alternative = "alternative"
+    HipHop = "hip_hop"
+    Soundtrack = "soundtrack"
+    Dance = "dance"
+    
 IMAGE_PROMPTS = {
     ImageCategories.Dishes.value: "What is this dish?",
     ImageCategories.Basketball.value: "Who is this basketball player?",
@@ -139,19 +150,35 @@ class PeopleProperties(Enum):
     Musician = "musician"
     Scientist = "scientist"
     Author = "author"
+    
+class SongState(BaseModel):
+    song_id: int
+    song_name: str
+    artist: str
+    image_id: str
+
+    def to_dict(self) -> dict:
+        return {
+            "songID": self.song_id,
+            "songName": self.song_name,
+            "artist": self.artist,
+            "imageID": self.image_id
+        }
 
 class TriviaQuestion(BaseModel):
     body: str
     answers: list[str]
     image: Optional[str] = None
+    song_state: Optional[SongState] = None
 
     def to_dict(self) -> dict:
         return {
             "body": self.body,
             "answer": self.answers[0] if len(self.answers) > 0 else "",
-            "image": self.image
+            "image": self.image,
+            "songState": self.song_state.to_dict() if self.song_state else None,
         }
-        
+               
 class RotanikaQuestion(BaseModel):
     text: str
     answer: Optional[str] = None  # 'yes', 'no', 'unsure', or None
@@ -176,6 +203,7 @@ class TriviaState(BaseModel):
     winning_score: int = 100
     categories: list[TriviaCategories] = [c for c in TriviaCategories]
     image_categories: list[ImageCategories] = [c for c in ImageCategories]
+    song_categories: list[SongCategories] = [c for c in SongCategories]
     
     def to_dict(self) -> dict:
         return {
@@ -186,6 +214,7 @@ class TriviaState(BaseModel):
                 "questionDuration": self.question_duration,
                 "categories": [c.value for c in self.categories],
                 "imageCategories": [c.value for c in self.image_categories],
+                "songCategories": [c.value for c in self.song_categories],
                 "questionValue": QUESTION_VALUE,
                 "winningScore": self.winning_score
             }
@@ -281,15 +310,17 @@ class PeopleBPState(BaseModel):
 
 class Player:
     def __init__(self, name: str, id: int, socket: WebSocket):
-        self.name = name
-        self.id = id
-        self.guess = ""
-        self.correct_guesses = []
-        self.score = 0
-        self.lives = 0
-        self.host = False
-        self.can_score = True
-        self.socket = socket
+        self.name: str = name
+        self.id: int = id
+        self.guess: str = ""
+        self.correct_guesses: list[str] = []
+        self.score: int = 0
+        self.lives: int = 0
+        self.host: bool = False
+        self.can_score: bool = True
+        self.guessed_artist: bool = False
+        self.guessed_song: bool = False
+        self.socket: WebSocket = socket
 
     def to_dict(self) -> dict:
         return {
@@ -299,7 +330,9 @@ class Player:
             "guess": self.guess,
             "lives": self.lives,
             "host": self.host,
-            "correctGuesses": self.correct_guesses
+            "correctGuesses": self.correct_guesses,
+            "guessedSong": self.guessed_song,
+            "guessedArtist": self.guessed_artist
         }
 
 class CreateRoomBody(BaseModel):

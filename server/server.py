@@ -1,10 +1,11 @@
 import json
 import random
+from pathlib import Path
 from fastapi import FastAPI, WebSocket, WebSocketDisconnect
-from fastapi.responses import JSONResponse
+from fastapi.responses import JSONResponse, FileResponse
 from fastapi.middleware.cors import CORSMiddleware
 from server.models import Room, Player, Events, TriviaEvents, GameModes, CreateRoomBody, PeopleEvents, RotanikaEvents, PeopleBPEvents
-from server.utils import broadcast, generate_room_id, send_state
+from server.utils import broadcast, generate_room_id, send_state, load_all_images, load_all_questions, load_all_songs
 from server.events import handle_message, handle_update_gamemode
 from server.trivia_events import (
     handle_restart as handle_trivia_restart,
@@ -38,6 +39,8 @@ from server.peopleBP_events import (
     handle_timeout as handle_peopleBP_timeout,
     handle_player_disconnect as handle_peopleBP_player_disconnect
 )
+
+SONG_PREVIEWS_DIR = Path(__file__).parent / "song_previews"
 
 origins = [
     "http://localhost",
@@ -269,3 +272,10 @@ async def get_room(room_id: str):
         content={"error": "Room not found"},
         status_code=404
     )
+
+@app.get("/songs/{song_id}")
+async def get_song_file(song_id: int):
+    file_path = SONG_PREVIEWS_DIR / f"{song_id}.mp3"
+    if file_path.exists():
+        return FileResponse(file_path, media_type="audio/mpeg")
+    return JSONResponse(content={"error": "Song not found"}, status_code=404)

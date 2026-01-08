@@ -8,6 +8,8 @@ export interface Player {
     host: boolean;
     correctGuesses: string[];
     guessedCorrectly: boolean;
+    guessedSong: boolean;
+    guessedArtist: boolean;
 }
 
 export enum GameModes {
@@ -21,8 +23,8 @@ export enum GameModes {
 export const GamemodeOptions: Array<{ id: GameModes; name: string; description: string }> = [
     { 
         id: GameModes.Trivia, 
-        name: "TriviaQA", 
-        description: "Uses questions from the OpenTriviaQA dataset and fuzzy logic to check guesses" 
+        name: "Trivia", 
+        description: "Uses questions from the TriviaQA dataset, Wikidata, and songs" 
     },
     {
         id: GameModes.PeopleGuesser,
@@ -32,11 +34,11 @@ export const GamemodeOptions: Array<{ id: GameModes; name: string; description: 
     {
         id: GameModes.Rotanika,
         name: "20Q",
-        description: "20 Questions game - guess what the picker is thinking of using yes/no questions"
+        description: "Guess what the picker is thinking of using a limited amount of yes/no questions"
     },
     {
         id: GameModes.PeopleBP,
-        name: "PeopleGuesser: Bomb Party Edition",
+        name: "PeopleGuesser: Bomb Party",
         description: "Take turns guessing people based on the prompt before the timer runs out"
     },
 ];
@@ -123,8 +125,16 @@ export enum ImageCategories {
     Characters = "characters"
 }
 
-export const TEXT_CATEGORIES = Object.values(TriviaCategories);
-export const IMAGE_CATEGORIES = Object.values(ImageCategories);
+export enum SongCategories {
+    Eighties = "80s",
+    Nineties = "90s",
+    Rock = "rock",
+    Pop = "pop",
+    Alternative = "alternative",
+    HipHop = "hip_hop",
+    Soundtrack = "soundtrack",
+    Dance = "dance"
+}
 
 export const CONTINENTS = [
     PeopleProperties.Asia,
@@ -149,6 +159,7 @@ export const OCCUPATIONS = [
 export interface TriviaSettings {
     categories?: string[];
     imageCategories?: string[];
+    songCategories?: string[];
     questionDuration?: number;
     winningScore?: number;
     questionValue?: number;
@@ -177,10 +188,18 @@ export interface PeopleBPSettings {
     properties?: string[];
 }
 
+interface SongState {
+    songID: number;
+    songName: string;
+    artist: string;
+    imageID: string;
+}
+
 export interface TriviaQuestion {
     body: string;
     answer: string;
     image?: string | null;
+    songState?: SongState | null;
 }
 
 export interface RotanikaQuestion {

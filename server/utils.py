@@ -3,6 +3,7 @@ import random
 import string
 import os
 import time
+import re
 import redis
 import requests
 from pydantic import BaseModel
@@ -11,14 +12,16 @@ from google.genai import types
 from dotenv import load_dotenv
 from pathlib import Path
 from fastapi import WebSocket
-from models import *
+from server.models import *
 
 MAIN_QUESTIONS_FILE = Path(__file__).parent / "questions.json"
 CATEGORIES_DIR = Path(__file__).parent / "categories"
 IMAGES_DIR = Path(__file__).parent / "images"
+SONGS_DIR = Path(__file__).parent / "songs"
 env_path = Path(__file__).parent / ".env"
 load_dotenv(dotenv_path=env_path)
 QUESTIONS = {}
+SONG_DATA = {}
 IMAGE_QUESTIONS = {}
 
 redis_client = redis.Redis(
@@ -55,6 +58,14 @@ def load_all_images():
     for category in ImageCategories:
         IMAGE_QUESTIONS[category.value] = load_images_for_category(category)
         
+def load_all_songs():
+    """Load all songs from song JSON files."""
+    for song_file in SONGS_DIR.glob("*.json"):
+        if song_file.stem == 'tags':
+            continue
+        with open(song_file, "r", encoding="utf-8") as f:
+            SONG_DATA[song_file.stem] = json.load(f)
+
 def get_name_variations(full_name: str, category: str) -> list[str]:
     if category not in PEOPLE_CATEGORIES:
         return [full_name.lower()]
@@ -93,43 +104,47 @@ def restart_base(room: Room):
         player.guess = ""
         player.correct_guesses = []
         player.can_score = True
+        player.guessed_artist = False
+        player.guessed_song = False
+        
+def strip_parentheses(text: str) -> str:
+    """Remove text in parentheses"""
+    return re.sub(r'\s*\([^)]*\)', '', text).strip()
 
 def get_question(room: Room) -> TriviaQuestion:
-    """Get a random question based on room's selected categories (text or image)."""
+    """Get a random question based on room's selected categories (text, image, or song)."""
     if not room.trivia_state:
-        return TriviaQuestion(body="Error: No trivia state", answers=[])
+        return
     
-    text_questions = []
-    image_questions = []
+    all_questions = []
     
     # Text-based questions
     if room.trivia_state.categories:
         for category in room.trivia_state.categories:
             if category.value in QUESTIONS:
                 for q in QUESTIONS[category.value].values():
-                    text_questions.append(q)
+                    all_questions.append(("text", q))
     
     # Image-based questions
     if room.trivia_state.image_categories:
         for category in room.trivia_state.image_categories:
             if category.value in IMAGE_QUESTIONS:
                 for item_id, item in IMAGE_QUESTIONS[category.value].items():
-                    image_questions.append({
+                    all_questions.append(("image", {
                         "name": item["name"],
                         "image": item["image"],
                         "category": category.value
-                    })
-    
-    all_questions = []
-    
-    for q in text_questions:
-        all_questions.append(("text", q))
-    
-    for q in image_questions:
-        all_questions.append(("image", q))
-    
+                    }))
+                    
+    # Song-based questions
+    if room.trivia_state.song_categories:
+        for category in room.trivia_state.song_categories:
+            if category.value in SONG_DATA:
+                for song in SONG_DATA[category.value]:
+                    all_questions.append(("song", song))
+        
     if not all_questions:
-        return TriviaQuestion(body="Error: No questions available", answers=[])
+        return
     
     question_type, chosen = random.choice(all_questions)
     
@@ -139,7 +154,8 @@ def get_question(room: Room) -> TriviaQuestion:
             answers=chosen.get("a", chosen.get("answers", [])),
             image=None
         )
-    else:
+        
+    elif question_type == "image":
         question_text = IMAGE_PROMPTS[chosen["category"]]
 
         return TriviaQuestion(
@@ -147,7 +163,42 @@ def get_question(room: Room) -> TriviaQuestion:
             answers=get_name_variations(chosen["name"], chosen["category"]),
             image=chosen["image"]
         )
-
+    
+    elif question_type == "song":
+        return TriviaQuestion(
+            body="What song is this, and who is the artist?",
+            answers=[],  # Not used for songs, check song_state instead
+            image=None,
+            song_state=SongState(
+                song_id=chosen["id"],
+                song_name=chosen["name"],
+                artist=chosen["artist"],
+                image_id=chosen["image_id"]
+            )
+        )
+        
+def get_song(room: Room) -> SongState | None:
+    """Get a random song based on room's selected song categories."""
+    if not room.trivia_state or not room.trivia_state.song_categories:
+        return None
+    
+    available_songs = []
+    for category in room.trivia_state.song_categories:
+        if category in SONG_DATA:
+            for song in SONG_DATA[category]:
+                available_songs.append(song)
+    
+    if not available_songs:
+        return None
+    
+    chosen = random.choice(available_songs)
+    return SongState(
+        song_id=chosen["id"],
+        song_name=chosen["name"],
+        artist=chosen["artist"],
+        image_id=chosen["image_id"]
+    )
+    
 def get_properties(room: Room, state_type: PeopleState | PeopleBPState) -> list[PeopleProperties]:
     
     if state_type == PeopleBPState and room.peopleBP_state:
@@ -527,6 +578,6 @@ def get_song_previews():
             
             print(f"finished {song_file.name}")
 
-get_song_previews()
-# load_all_questions()
-# load_all_images()
+load_all_questions()
+load_all_images()
+load_all_songs()
