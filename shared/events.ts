@@ -44,7 +44,9 @@ export const createGenericEventHandlers = (deps: GenericEventDeps) => ({
             lives: p.lives,
             host: p.host,
             correctGuesses: p.correctGuesses,
-            guessedCorrectly: false
+            guessedCorrectly: p.guessedCorrectly,
+            guessedArtist: p.guessedArtist,
+            guessedSong: p.guessedSong
         }));
         
         const myPlayer: Player = {
@@ -55,7 +57,9 @@ export const createGenericEventHandlers = (deps: GenericEventDeps) => ({
             lives: 0,
             host: data.host,
             correctGuesses: [],
-            guessedCorrectly: false
+            guessedCorrectly: false,
+            guessedArtist: false,
+            guessedSong: false
         };
         
         deps.setPlayers([myPlayer, ...existingPlayers]);
@@ -71,7 +75,9 @@ export const createGenericEventHandlers = (deps: GenericEventDeps) => ({
             lives: 0,
             host: false,
             correctGuesses: [],
-            guessedCorrectly: false
+            guessedCorrectly: false,
+            guessedArtist: false,
+            guessedSong: false
         };
         deps.setPlayers(prev => [...prev, newPlayer]);
     },

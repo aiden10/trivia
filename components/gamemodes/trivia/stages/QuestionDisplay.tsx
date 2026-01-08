@@ -3,6 +3,7 @@
 import { useState, useEffect, useRef } from 'react';
 import { useGameContext } from '@/shared/GameContext';
 import { TriviaStages } from '@/shared/types';
+import { GET_SONG_ENDPOINT } from '@/shared/constants';
 import Timer from '@/components/Timer';
 import PlayerList from '@/components/PlayerList';
 import Image from 'next/image';
@@ -22,6 +23,7 @@ export default function QuestionDisplay() {
     const questionDuration = triviaState?.settings.questionDuration ?? 15;
     const currentStage = triviaState?.currentStage;
     const hasImage = !!question?.image;
+    const isSongQuestion = !!question?.songState;
 
     const [remainingTime, setRemainingTime] = useState(questionDuration);
     const [guess, setGuess] = useState("");
@@ -30,10 +32,30 @@ export default function QuestionDisplay() {
     const endTimeRef = useRef<number>(Date.now() + (questionDuration * 1000));
     const questionIdRef = useRef(question?.body);
     const inputRef = useRef<HTMLInputElement>(null);
+    const audioRef = useRef<HTMLAudioElement | null>(null);
 
     // Check if current player guessed correctly
     const currentPlayer = players.find(p => p.playerID === playerID);
     const guessedCorrectly = currentPlayer?.guessedCorrectly ?? false;
+    const guessedSong = currentPlayer?.guessedSong ?? false;
+    const guessedArtist = currentPlayer?.guessedArtist ?? false;
+
+    const canStillGuess = isSongQuestion 
+        ? (!guessedSong || !guessedArtist)
+        : !guessedCorrectly;
+
+    useEffect(() => {
+        if (isSongQuestion && question?.songState?.songID) {
+            const audio = new Audio(`${GET_SONG_ENDPOINT}/${question.songState.songID}`);
+            audioRef.current = audio;
+            audio.loop = true;
+            audio.play().catch(console.error);
+            
+            return () => {
+                audio.pause();
+            };
+        }
+    }, [isSongQuestion, question?.songState]);
 
     // Reset state when question changes
     useEffect(() => {
@@ -67,7 +89,7 @@ export default function QuestionDisplay() {
 
     const handleSubmitGuess = (e: React.FormEvent) => {
         e.preventDefault();
-        if (!guess.trim() || guessedCorrectly) return;
+        if (!guess.trim() || !canStillGuess) return;
         
         submitTriviaGuess(guess.trim());
         setGuess("");
@@ -109,6 +131,32 @@ export default function QuestionDisplay() {
                         </div>
                     )}
 
+                    {isSongQuestion && (
+                        <div className="flex flex-col gap-2">
+                            <div className="flex items-center justify-center gap-2">
+                                <span className="text-white/60 text-sm font-inter uppercase tracking-wider animate-pulse">
+                                    ♪ Now Playing
+                                </span>
+                            </div>
+                            <div className="flex gap-4 justify-center">
+                                <div className={`px-4 md:w-1/4 w-full py-2 border-2 font-inter font-bold ${
+                                    guessedSong 
+                                        ? 'bg-emerald-700 border-emerald-400 text-emerald-200' 
+                                        : 'bg-neutral-800 border-white/50 text-white/70'
+                                }`}>
+                                    🎵 Song {guessedSong ? '✓' : '?'}
+                                </div>
+                                <div className={`px-4 md:w-1/4 w-full py-2 border-2 font-inter font-bold ${
+                                    guessedArtist 
+                                        ? 'bg-emerald-700 border-emerald-400 text-emerald-200' 
+                                        : 'bg-neutral-800 border-white/50 text-white/70'
+                                }`}>
+                                    🎤 Artist {guessedArtist ? '✓' : '?'}
+                                </div>
+                            </div>
+                        </div>
+                    )}
+                    
                     {/* Correct feedback */}
                     {guessedCorrectly && (
                         <h2 className="main-text-color text-2xl bg-emerald-700 border-4 border-emerald-400 
@@ -118,7 +166,7 @@ export default function QuestionDisplay() {
                     )}
 
                     {/* Answer Input */}
-                    {!guessedCorrectly && (
+                    {canStillGuess && (
                         <form onSubmit={handleSubmitGuess} className="w-full">
                             <div className="flex flex-col gap-4">
                                 <input

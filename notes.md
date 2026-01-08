@@ -67,17 +67,6 @@ server {
 }
 ```
 
-# Trivia
-Use last.fm to get 500-1000 most popular songs from a particular genre, then use Deezer to get preview links from each song. Store data in JSON files. Allow artist and song name to be accepted as answers and use fuzzy matching but with a higher threshold (85-90%). Could get:
-- 5 points for guessing song name
-- 5 points for guessing artist
-Album might not work very well because a lot of the albums are things like "greatest hits" instead. Since this will be a part of the trivia mode, I should have a new "component" in QuestionDisplay which shows if the song and artist have been guessed yet.  
-- Songs have to be downloaded locally
-- Ignore words in parentheses when checking song answers
-Update script to download each song preview, save the file as "song_previews/hash({song_name}_{artist}_{album}).mp3". The song json entries should also include the song id.  
-
-get_song function which looks at room's current categories, and fetches a random song based on those, setting the room's song_id. Also endpoint which takes the song_id and returns the actual file. With that, the client can then request the song from the server and immediately play it. On the client, when song_id changes, fetch the song from the server. Actually, the get_song function would really only need to do the same as the get_question function, update the question text. The answers might need to change though for also accepting artist names.  
-
 # Codenames with pictures
 Basically just codenames but instead of words being on the grid, it's images. Maybe the spymaster can draw a picture as the hint or give a word. 
 
@@ -92,7 +81,7 @@ All players except one (the imposter) are given the same word. Players take turn
     Maybe also keep track of the time left on the server so clients always see an accurate countdown
 - Make host option
 - Show public rooms
-- Show question quantities 
+- Show trivia question quantities
 - Revamp "winning" aspect of 20Q. It might be better to just make it so that winning means guessing the thing within the amount of questions. 
 - Synchronize settings so non-host players can see it too
     - Update settings style for non-host players
@@ -100,3 +89,4 @@ All players except one (the imposter) are given the same word. Players take turn
 - Remove special characters when checking answers
 - Add npm run build check before commits can be pushed to main
 - Make things feel more responsive
+- Change attraction questions to: "In what country would you find the {name}?"
