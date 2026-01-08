@@ -23,11 +23,10 @@ async def handle_update_gamemode(message: dict, room: Room):
         room.peopleBP_state = PeopleBPState()
         room.peopleBP_state.current_guesser = random.choice(list(room.players.keys()))
         room.peopleBP_state.current_properties = get_properties(room, PeopleBPState)
+        for p in room.players.values(): p.lives = room.peopleBP_state.starting_lives
 
-    for p in room.players.values():
-        p.score = 0
-        if gamemode == GameModes.PeopleBP.value:
-            p.lives = room.peopleBP_state.starting_lives
+    # Reset scores and guesses
+    restart_base(room)
     
     await broadcast({
         "type": Events.UpdateGameMode.value,

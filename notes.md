@@ -100,6 +100,3 @@ All players except one (the imposter) are given the same word. Players take turn
 - Remove special characters when checking answers
 - Add npm run build check before commits can be pushed to main
 - Make things feel more responsive
-- Set player lives when settings change
-- Already guessed not working
-- Reset guesses after peopleBP

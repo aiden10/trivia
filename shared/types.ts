@@ -32,11 +32,11 @@ export const GamemodeOptions: Array<{ id: GameModes; name: string; description: 
     {
         id: GameModes.Rotanika,
         name: "20Q",
-        description: "20 Questions game - guess what the picker is thinking of using yes/no questions"
+        description: "Guess what the picker is thinking of using a limited amount of yes/no questions"
     },
     {
         id: GameModes.PeopleBP,
-        name: "PeopleGuesser: Bomb Party Edition",
+        name: "PeopleGuesser: Bomb Party",
         description: "Take turns guessing people based on the prompt before the timer runs out"
     },
 ];

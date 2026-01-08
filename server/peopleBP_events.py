@@ -218,6 +218,8 @@ async def handle_update_settings(message: dict, room: Room):
     
     if "startingLives" in data:
         room.peopleBP_state.starting_lives = data["startingLives"]
+        for p in room.players.values():
+            p.lives = data["startingLives"]
     
     if "combinationLowerBound" in data:
         room.peopleBP_state.combination_lower_bound = data["combinationLowerBound"]
