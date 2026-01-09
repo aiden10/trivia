@@ -84,8 +84,8 @@ async def broadcast(data: dict, room: Room, sender: WebSocket = None):
         return
         
     message = json.dumps(data)
-    
-    for player in room.players.values():
+    current_players = list(room.players.values())
+    for player in current_players:
         if player.socket != sender:
             try:
                 await player.socket.send_text(message)
