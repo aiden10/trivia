@@ -1,212 +1,242 @@
 [
     {
+        "id": 127675389,
         "name": "Replaced",
         "artist": "American Authors",
         "album": "What We Live For",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/5/d/3/0/5d3f53a20f529948032d2e84cb04b879.mp3?hdnea=exp=1767349068~acl=/api/1/1/5/d/3/0/5d3f53a20f529948032d2e84cb04b879.mp3*~data=user_id=0,application_id=42~hmac=70cd41c84ec67c18e1e7c954afc70551e8244242c6e51b42829c66c158d77ec5",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/5/d/3/0/5d3f53a20f529948032d2e84cb04b879.mp3?hdnea=exp=1767855547~acl=/api/1/1/5/d/3/0/5d3f53a20f529948032d2e84cb04b879.mp3*~data=user_id=0,application_id=42~hmac=7083f9a701876f3049baaa2ef3ea6bc7a611c256c91aac8e70fdc64a92404a21",
         "image_id": "6889c3391058da6905fdd2d7be845212"
     },
     {
+        "id": 745166362,
         "name": "Drag Queen",
         "artist": "The Strokes",
         "album": "Future Present Past",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/9/4/9/0/94951a3a147740a1380c1757e7e75b6f.mp3?hdnea=exp=1767349068~acl=/api/1/1/9/4/9/0/94951a3a147740a1380c1757e7e75b6f.mp3*~data=user_id=0,application_id=42~hmac=cc8d5712fab507f9a03617644ee5120aa29f32785b161e55fa3fd5de277f0b22",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/9/4/9/0/94951a3a147740a1380c1757e7e75b6f.mp3?hdnea=exp=1767855548~acl=/api/1/1/9/4/9/0/94951a3a147740a1380c1757e7e75b6f.mp3*~data=user_id=0,application_id=42~hmac=58568e8bf4c93769ee1698d91d7f1c7423fe0c085fe92e742be21ae1a34e4203",
         "image_id": "374db9a88af3c79998fedabd9ff55fef"
     },
     {
+        "id": 7463132,
         "name": "Rockapocalypse",
         "artist": "Cash for Clunkers",
         "album": "Rockapocalypse",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/6/9/2/0/6929310f5d23ce03e2939dd1a3054ff2.mp3?hdnea=exp=1767349069~acl=/api/1/1/6/9/2/0/6929310f5d23ce03e2939dd1a3054ff2.mp3*~data=user_id=0,application_id=42~hmac=0e56db36ba91be6627117eff98be7bac94570a9fc7f0f417b9710127f54baf70",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/6/9/2/0/6929310f5d23ce03e2939dd1a3054ff2.mp3?hdnea=exp=1767855550~acl=/api/1/1/6/9/2/0/6929310f5d23ce03e2939dd1a3054ff2.mp3*~data=user_id=0,application_id=42~hmac=293cca8395ea7dc1c178fe811464cd03dde274ee54c0c172609847848cda1c2b",
         "image_id": "de70c72a54d3d637bec2a561d7069b54"
     },
     {
+        "id": 1296878372,
         "name": "Rosa sangue (Live)",
         "artist": "Amor Electro",
         "album": "Revolu\u00e7\u00e3o",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/4/d/9/0/4d91d128b727fe8ba1a60d03f40dff08.mp3?hdnea=exp=1767349069~acl=/api/1/1/4/d/9/0/4d91d128b727fe8ba1a60d03f40dff08.mp3*~data=user_id=0,application_id=42~hmac=f56a6601c073b391242f141cd2dd97e9ce645404546821089b751d1a107cadd2",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/4/d/9/0/4d91d128b727fe8ba1a60d03f40dff08.mp3?hdnea=exp=1767855551~acl=/api/1/1/4/d/9/0/4d91d128b727fe8ba1a60d03f40dff08.mp3*~data=user_id=0,application_id=42~hmac=c6d99ee96dfd0edfe78e6234460696aa0884cf037a87431fd405851af09ea774",
         "image_id": "c24c9a566fd977f6ca095bc04492aa52"
     },
     {
+        "id": 7463135,
         "name": "In a Row",
         "artist": "Cash for Clunkers",
         "album": "Rockapocalypse",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/2/e/5/0/2e549368cd3e5527966f113a749c10e3.mp3?hdnea=exp=1767349069~acl=/api/1/1/2/e/5/0/2e549368cd3e5527966f113a749c10e3.mp3*~data=user_id=0,application_id=42~hmac=9426cc9a7c33075c08f3dee61d6c337b61ffe47d394acc5555f42e4bd6bf3db2",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/2/e/5/0/2e549368cd3e5527966f113a749c10e3.mp3?hdnea=exp=1767855553~acl=/api/1/1/2/e/5/0/2e549368cd3e5527966f113a749c10e3.mp3*~data=user_id=0,application_id=42~hmac=7d0e00e63818ec429b1405a540e2d56c5a767bfb99ca2a0828f41182578aefa9",
         "image_id": "de70c72a54d3d637bec2a561d7069b54"
     },
     {
+        "id": 1761650537,
         "name": "Private School",
         "artist": "Arkells",
         "album": "Morning Report (Deluxe)",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/7/8/b/0/78ba7e4e9a1636b638e04cf733504bda.mp3?hdnea=exp=1767349070~acl=/api/1/1/7/8/b/0/78ba7e4e9a1636b638e04cf733504bda.mp3*~data=user_id=0,application_id=42~hmac=9fd4f140bfacf27e5d9be198ffb292e3e9e7328f00d9195ccd2a51221e7f5449",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/7/8/b/0/78ba7e4e9a1636b638e04cf733504bda.mp3?hdnea=exp=1767855554~acl=/api/1/1/7/8/b/0/78ba7e4e9a1636b638e04cf733504bda.mp3*~data=user_id=0,application_id=42~hmac=bc587f796be75e578dcbd81102b2ea6a4e6177af9a76ddf850e016dbe2c1c5bc",
         "image_id": "7b658080fe89324d9c09c69883d4baf9"
     },
     {
+        "id": 2481683921,
         "name": "I've Seen Satan, He Has Dreadlocks",
         "artist": "ITSOKTOCRY",
         "album": "BEAUTIFUL BLOODSUCKERR",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/0/b/3/0/0b3da60ad4745b47f895abb7de0a269f.mp3?hdnea=exp=1767349070~acl=/api/1/1/0/b/3/0/0b3da60ad4745b47f895abb7de0a269f.mp3*~data=user_id=0,application_id=42~hmac=0319b25c2c31eb528938490342b58fe9602debca7bbb04229cf3c22af18054ed",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/0/b/3/0/0b3da60ad4745b47f895abb7de0a269f.mp3?hdnea=exp=1767855556~acl=/api/1/1/0/b/3/0/0b3da60ad4745b47f895abb7de0a269f.mp3*~data=user_id=0,application_id=42~hmac=7ebce2e30e71ad3bbd230927878d3adafa88142073da1eef56002cb10242c87c",
         "image_id": "2425d1afb0342dcb89d46d3dbdabd1ac"
     },
     {
+        "id": 124634134,
         "name": "All for One",
         "artist": "The Stone Roses",
         "album": "All for One",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/6/6/b/0/66ba7352bed7d13ba7b05a6b24f6c592.mp3?hdnea=exp=1767349070~acl=/api/1/1/6/6/b/0/66ba7352bed7d13ba7b05a6b24f6c592.mp3*~data=user_id=0,application_id=42~hmac=d8037c1ee4471898592245d87a766c588efd8c5ddfb38638c80d3819cbc59cdc",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/6/6/b/0/66ba7352bed7d13ba7b05a6b24f6c592.mp3?hdnea=exp=1767855557~acl=/api/1/1/6/6/b/0/66ba7352bed7d13ba7b05a6b24f6c592.mp3*~data=user_id=0,application_id=42~hmac=1d5eb8eebecf5a3a33087c4db7f5ef97b2433eaf845e3f6b2ebdef61a209f890",
         "image_id": "486e1acc6593895e0c60d971d68f900b"
     },
     {
+        "id": 107648502,
         "name": "Taman Shud",
         "artist": "The Drones",
         "album": "Taman Shud",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/c/3/e/0/c3e875f37ba52a152c1041638ddb06b5.mp3?hdnea=exp=1767349071~acl=/api/1/1/c/3/e/0/c3e875f37ba52a152c1041638ddb06b5.mp3*~data=user_id=0,application_id=42~hmac=fc25f0288e3eb85ce9b1597ec260b9d53b820c2ebc2df0d35ffc74eca961764b",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/c/3/e/0/c3e875f37ba52a152c1041638ddb06b5.mp3?hdnea=exp=1767855559~acl=/api/1/1/c/3/e/0/c3e875f37ba52a152c1041638ddb06b5.mp3*~data=user_id=0,application_id=42~hmac=82622db295b35104e361ae5eb6ca99908e9e58b25eaea3c9c584034838fc1dde",
         "image_id": "9b2c4232628707c000094001014b6a99"
     },
     {
+        "id": 7463141,
         "name": "In the Meantime",
         "artist": "Cash for Clunkers",
         "album": "Rockapocalypse",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/2/d/e/0/2de3b4bfe138c6115c58a9f0b34c1836.mp3?hdnea=exp=1767349071~acl=/api/1/1/2/d/e/0/2de3b4bfe138c6115c58a9f0b34c1836.mp3*~data=user_id=0,application_id=42~hmac=1913021907d91db5d5a9483d3ef0caa37ca1f51eff720af286d092a978d3f47e",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/2/d/e/0/2de3b4bfe138c6115c58a9f0b34c1836.mp3?hdnea=exp=1767855560~acl=/api/1/1/2/d/e/0/2de3b4bfe138c6115c58a9f0b34c1836.mp3*~data=user_id=0,application_id=42~hmac=ee8aca5d95a18b4b725bd94a65e3b55046dfc24b5b0064f9309ef2ea37945838",
         "image_id": "de70c72a54d3d637bec2a561d7069b54"
     },
     {
+        "id": 6822914,
         "name": "Can\u00e7\u00e3o Da Noite (Todo Mundo Precisa De Algu\u00e9m)",
         "artist": "Fresno",
         "album": "Revanche",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/f/5/a/0/f5af6825dee2afaa6a36aa7ccebe1b6c.mp3?hdnea=exp=1767349072~acl=/api/1/1/f/5/a/0/f5af6825dee2afaa6a36aa7ccebe1b6c.mp3*~data=user_id=0,application_id=42~hmac=3f22925da4d1465383c15feb59775077f3b8965e2da8e858daa13e4fd7e993f6",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/f/5/a/0/f5af6825dee2afaa6a36aa7ccebe1b6c.mp3?hdnea=exp=1767855562~acl=/api/1/1/f/5/a/0/f5af6825dee2afaa6a36aa7ccebe1b6c.mp3*~data=user_id=0,application_id=42~hmac=164b2b611e94eb49e94f08aecafb5690bfc9a062818547b4df5644b503303be9",
         "image_id": "7a2b3e92face2951dbc2d1e9e28e4a00"
     },
     {
+        "id": 7463133,
         "name": "Love to Hate",
         "artist": "Cash for Clunkers",
         "album": "Rockapocalypse",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/d/7/7/0/d778eee1e107eca0f8a75f91a229f1f7.mp3?hdnea=exp=1767349072~acl=/api/1/1/d/7/7/0/d778eee1e107eca0f8a75f91a229f1f7.mp3*~data=user_id=0,application_id=42~hmac=403b9b4f5aa461e23db6d224fc48bb2b5caa3ed875d8d45a25a40a7b14ddba6a",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/d/7/7/0/d778eee1e107eca0f8a75f91a229f1f7.mp3?hdnea=exp=1767855563~acl=/api/1/1/d/7/7/0/d778eee1e107eca0f8a75f91a229f1f7.mp3*~data=user_id=0,application_id=42~hmac=646301c5be7b6c3562995007c681271a777cbd62e221ed01b4b032806a0ded4c",
         "image_id": "de70c72a54d3d637bec2a561d7069b54"
     },
     {
+        "id": 2353756585,
         "name": "Ostego",
         "artist": "\u0413\u043b\u0443\u0431\u0438\u043d\u0430",
         "album": "\u0413\u043b\u0443\u0431\u0438\u043d\u0430",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/8/d/6/0/8d643f1394f2e42f99c11435bc335b76.mp3?hdnea=exp=1767349074~acl=/api/1/1/8/d/6/0/8d643f1394f2e42f99c11435bc335b76.mp3*~data=user_id=0,application_id=42~hmac=98b8338b91c0bbbc5f79cd9c19ea8bbcdacb04f3e7dc4c2b957c2d788dffa4ff",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/8/d/6/0/8d643f1394f2e42f99c11435bc335b76.mp3?hdnea=exp=1767855565~acl=/api/1/1/8/d/6/0/8d643f1394f2e42f99c11435bc335b76.mp3*~data=user_id=0,application_id=42~hmac=ddc5ef43c96c76de84a6d129c009d7814cafc2ab4d636e82a296fa3f3dd5f98b",
         "image_id": "323a251dfad5d1722d388106612956d0"
     },
     {
+        "id": 2710578632,
         "name": "\u0424\u0430\u0440\u0444\u043e\u0440",
         "artist": "\u0413\u043b\u0443\u0431\u0438\u043d\u0430",
         "album": "\u0417\u0430\u043f\u0430\u0441 \u0442\u0435\u043f\u043b\u0430",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/5/1/1/0/5113b56f76e503fa30696228a43138ef.mp3?hdnea=exp=1767349074~acl=/api/1/1/5/1/1/0/5113b56f76e503fa30696228a43138ef.mp3*~data=user_id=0,application_id=42~hmac=fe9a0afa1a7c776c03d678a7aae212f5260a7810a2fda1c26c7c9363581bf73e",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/5/1/1/0/5113b56f76e503fa30696228a43138ef.mp3?hdnea=exp=1767855567~acl=/api/1/1/5/1/1/0/5113b56f76e503fa30696228a43138ef.mp3*~data=user_id=0,application_id=42~hmac=37ca58a9e467ace01c40d8ffeada762efb8b283cf9cbbae37971055739479428",
         "image_id": "023e4cbd9c0cf32141c5cb761b7f5e28"
     },
     {
+        "id": 1490566082,
         "name": "consigli",
         "artist": "Porpora",
         "album": "consigli",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/8/8/7/0/887689cbc921558af23f678f40e06909.mp3?hdnea=exp=1767349074~acl=/api/1/1/8/8/7/0/887689cbc921558af23f678f40e06909.mp3*~data=user_id=0,application_id=42~hmac=ec858d0702a00959edba75b34d4966e9915ce221ceb30b3c8d5aa13ceff38db4",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/8/8/7/0/887689cbc921558af23f678f40e06909.mp3?hdnea=exp=1767855568~acl=/api/1/1/8/8/7/0/887689cbc921558af23f678f40e06909.mp3*~data=user_id=0,application_id=42~hmac=72cffcbac889bf7c1f1012f99561b5e0541f8a826605da8a085d8bc359d8bf30",
         "image_id": "7c28e1cc6ecab7b320b83cdcfdee5fbe"
     },
     {
+        "id": 2710578712,
         "name": "\u0417\u0432\u0435\u0437\u0434\u043e\u043f\u0430\u0434",
         "artist": "\u0413\u043b\u0443\u0431\u0438\u043d\u0430",
         "album": "\u0417\u0430\u043f\u0430\u0441 \u0442\u0435\u043f\u043b\u0430",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/5/9/d/0/59d351a252ab0ce6b8367fe9cb2d4bd3.mp3?hdnea=exp=1767349075~acl=/api/1/1/5/9/d/0/59d351a252ab0ce6b8367fe9cb2d4bd3.mp3*~data=user_id=0,application_id=42~hmac=bc80479af7b6a9c8ee562fec38e1c1b45905c60f69621bddc370a579bf641c3e",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/5/9/d/0/59d351a252ab0ce6b8367fe9cb2d4bd3.mp3?hdnea=exp=1767855570~acl=/api/1/1/5/9/d/0/59d351a252ab0ce6b8367fe9cb2d4bd3.mp3*~data=user_id=0,application_id=42~hmac=f0eb4a2f1cb1ae61e090186866d0ec37593009f155c52a4c8e2fe06acca35b03",
         "image_id": "023e4cbd9c0cf32141c5cb761b7f5e28"
     },
     {
+        "id": 2353756615,
         "name": "\u041d\u0435\u0441\u0438 \u043c\u0435\u043d\u044f \u043a\u0430\u043a \u0441\u0432\u0435\u0442",
         "artist": "\u0413\u043b\u0443\u0431\u0438\u043d\u0430",
         "album": "\u0413\u043b\u0443\u0431\u0438\u043d\u0430",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/1/0/3/0/103fd82b4bc8702b43f7fd610534030d.mp3?hdnea=exp=1767349075~acl=/api/1/1/1/0/3/0/103fd82b4bc8702b43f7fd610534030d.mp3*~data=user_id=0,application_id=42~hmac=a2e810c2c6629677785efe6023b548e81f7109598b113052fd45c3ea06fa32d6",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/1/0/3/0/103fd82b4bc8702b43f7fd610534030d.mp3?hdnea=exp=1767855572~acl=/api/1/1/1/0/3/0/103fd82b4bc8702b43f7fd610534030d.mp3*~data=user_id=0,application_id=42~hmac=a16f5cfa89a0769a8d3cfc0cfae0e564b9f4b790c6ab39e0827a987aadd154a0",
         "image_id": "323a251dfad5d1722d388106612956d0"
     },
     {
+        "id": 2710578662,
         "name": "\u041f\u043b\u044f\u0436",
         "artist": "\u0413\u043b\u0443\u0431\u0438\u043d\u0430",
         "album": "\u0417\u0430\u043f\u0430\u0441 \u0442\u0435\u043f\u043b\u0430",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/f/e/d/0/fed416ee64299953c4672a37bd2be3e0.mp3?hdnea=exp=1767349075~acl=/api/1/1/f/e/d/0/fed416ee64299953c4672a37bd2be3e0.mp3*~data=user_id=0,application_id=42~hmac=1a2742aa553a6363c8e7447f1cd3ca1ba4fffe2493a2b764140d7600bf2e8483",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/f/e/d/0/fed416ee64299953c4672a37bd2be3e0.mp3?hdnea=exp=1767855573~acl=/api/1/1/f/e/d/0/fed416ee64299953c4672a37bd2be3e0.mp3*~data=user_id=0,application_id=42~hmac=b67c7982bb690310aab67cadd9c3708f0dbfa0259f00405aa583332b502421ad",
         "image_id": "023e4cbd9c0cf32141c5cb761b7f5e28"
     },
     {
+        "id": 2710578682,
         "name": "\u0422\u0435\u043f\u043b\u043e",
         "artist": "\u0413\u043b\u0443\u0431\u0438\u043d\u0430",
         "album": "\u0417\u0430\u043f\u0430\u0441 \u0442\u0435\u043f\u043b\u0430",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/b/1/9/0/b191421256d0e2a086c8c204148eedb0.mp3?hdnea=exp=1767349076~acl=/api/1/1/b/1/9/0/b191421256d0e2a086c8c204148eedb0.mp3*~data=user_id=0,application_id=42~hmac=429f26d62159e2cf9e46d5185b4aa859664e4fc382c9040091acb2b4714a7223",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/b/1/9/0/b191421256d0e2a086c8c204148eedb0.mp3?hdnea=exp=1767855575~acl=/api/1/1/b/1/9/0/b191421256d0e2a086c8c204148eedb0.mp3*~data=user_id=0,application_id=42~hmac=b0a36abcbef5121d73e9b840b6c96ca76d7259c3186eaf6c90800c22d36ebd45",
         "image_id": "023e4cbd9c0cf32141c5cb761b7f5e28"
     },
     {
+        "id": 1403644592,
         "name": "centouno",
         "artist": "Porpora",
         "album": "centouno",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/c/7/e/0/c7e6a2d2a4c9083dfeaec61156d08bb0.mp3?hdnea=exp=1767349076~acl=/api/1/1/c/7/e/0/c7e6a2d2a4c9083dfeaec61156d08bb0.mp3*~data=user_id=0,application_id=42~hmac=be6089d7fd3805743389a5475915c244500b283481bec105884cba286c2aa23a",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/c/7/e/0/c7e6a2d2a4c9083dfeaec61156d08bb0.mp3?hdnea=exp=1767855577~acl=/api/1/1/c/7/e/0/c7e6a2d2a4c9083dfeaec61156d08bb0.mp3*~data=user_id=0,application_id=42~hmac=8d357d3d772fa57fcc0ae8e601fe141bf70716ade40c04fb04f82a55e643a3d4",
         "image_id": "d86aa1b0f6bf56250c671f63757c31a8"
     },
     {
+        "id": 2353773175,
         "name": "\u041b\u0435\u0433\u0435\u043d\u0434\u0430",
         "artist": "\u0413\u043b\u0443\u0431\u0438\u043d\u0430",
         "album": "\u041f\u0430\u0440\u043e\u043b\u044c \u043e\u0442 \u043d\u043e\u044f\u0431\u0440\u044f",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/a/b/f/0/abfb1c649719cc2e382e61e70b5bf3bd.mp3?hdnea=exp=1767349077~acl=/api/1/1/a/b/f/0/abfb1c649719cc2e382e61e70b5bf3bd.mp3*~data=user_id=0,application_id=42~hmac=53820b54564f9f62041b85e5961f259190e24415bfaa0fa2a239f640859acf97",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/a/b/f/0/abfb1c649719cc2e382e61e70b5bf3bd.mp3?hdnea=exp=1767855578~acl=/api/1/1/a/b/f/0/abfb1c649719cc2e382e61e70b5bf3bd.mp3*~data=user_id=0,application_id=42~hmac=6564eaa4ba6703c5e01f9468222ba7a759438ae97e2cf84d3326a300c1b175ac",
         "image_id": "0f2e119cc2bdaf8010a5399cfae9bc13"
     },
     {
+        "id": 442602272,
         "name": "Crossing the Sun",
         "artist": "Far From Final",
         "album": "Crossing the Sun",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/6/9/d/0/69d3fe5833707473a0f18dd8dfd294f8.mp3?hdnea=exp=1767349077~acl=/api/1/1/6/9/d/0/69d3fe5833707473a0f18dd8dfd294f8.mp3*~data=user_id=0,application_id=42~hmac=dbed5f21be1a020e6f0446d9e2bf7c451d4f3c8f80730651f0af5162a09f1df8",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/6/9/d/0/69d3fe5833707473a0f18dd8dfd294f8.mp3?hdnea=exp=1767855580~acl=/api/1/1/6/9/d/0/69d3fe5833707473a0f18dd8dfd294f8.mp3*~data=user_id=0,application_id=42~hmac=2af236c795d3723ded7e830282d784739034e79160db021d1c54327b377186fa",
         "image_id": "2a89528b35828be0715277e9c017e101"
     },
     {
+        "id": 7463140,
         "name": "We Got It",
         "artist": "Cash for Clunkers",
         "album": "Rockapocalypse",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/b/7/1/0/b71236d71adc4e099a19d97d1a4b92d0.mp3?hdnea=exp=1767349077~acl=/api/1/1/b/7/1/0/b71236d71adc4e099a19d97d1a4b92d0.mp3*~data=user_id=0,application_id=42~hmac=73e786c5236964628bbc5bcbaeef425db80db2adf923a8dc946176b6ea4e7612",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/b/7/1/0/b71236d71adc4e099a19d97d1a4b92d0.mp3?hdnea=exp=1767855581~acl=/api/1/1/b/7/1/0/b71236d71adc4e099a19d97d1a4b92d0.mp3*~data=user_id=0,application_id=42~hmac=e9be774e2f4993bdaed265f940bca2ea3c77875de679e02895752256607dee2a",
         "image_id": "de70c72a54d3d637bec2a561d7069b54"
     },
     {
+        "id": 3403012071,
         "name": "Carta Digital",
         "artist": "Diego Trufen",
         "album": "Universo Paralelo Rock and Roll (Deluxe Edition)",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/f/4/4/0/f4421e3c97a1127902f90fc6c38398b0.mp3?hdnea=exp=1767349078~acl=/api/1/1/f/4/4/0/f4421e3c97a1127902f90fc6c38398b0.mp3*~data=user_id=0,application_id=42~hmac=7c018ae646b64488bc0f493b2a3bac1c364ad3c0efe8839c57da8a2ffae7daee",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/f/4/4/0/f4421e3c97a1127902f90fc6c38398b0.mp3?hdnea=exp=1767855583~acl=/api/1/1/f/4/4/0/f4421e3c97a1127902f90fc6c38398b0.mp3*~data=user_id=0,application_id=42~hmac=3ff1fe851a992bb24d2c71d23efa6f4dccef182a375966e6ebeacd33ad439221",
         "image_id": "bb4925991a91b27bdd32a35a8ad23dbe"
     },
     {
+        "id": 7463134,
         "name": "Where Do You Go",
         "artist": "Cash for Clunkers",
         "album": "Rockapocalypse",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/c/7/4/0/c74f20db35f86fe782b18ede15fbc90a.mp3?hdnea=exp=1767349078~acl=/api/1/1/c/7/4/0/c74f20db35f86fe782b18ede15fbc90a.mp3*~data=user_id=0,application_id=42~hmac=976b3b551e54edaaf0862913d199559cc2fce79a62ad4cb9e962ec9632cbf122",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/c/7/4/0/c74f20db35f86fe782b18ede15fbc90a.mp3?hdnea=exp=1767855585~acl=/api/1/1/c/7/4/0/c74f20db35f86fe782b18ede15fbc90a.mp3*~data=user_id=0,application_id=42~hmac=b6a93f3020cd07df61dd288f398e5cf5971413c7b6f57514cecc9b4c5de2fd25",
         "image_id": "de70c72a54d3d637bec2a561d7069b54"
     },
     {
+        "id": 356172641,
         "name": "Rock The Floor",
         "artist": "Jan Rem",
         "album": "Rock The Floor",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/d/b/b/0/dbbaa33ebe68d64d42578e703a2276b5.mp3?hdnea=exp=1767349079~acl=/api/1/1/d/b/b/0/dbbaa33ebe68d64d42578e703a2276b5.mp3*~data=user_id=0,application_id=42~hmac=f9f17cfa18e74c632240fe0a8fba3444943c7f68f3cdbb0e3fa12da53c960572",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/d/b/b/0/dbbaa33ebe68d64d42578e703a2276b5.mp3?hdnea=exp=1767855586~acl=/api/1/1/d/b/b/0/dbbaa33ebe68d64d42578e703a2276b5.mp3*~data=user_id=0,application_id=42~hmac=3238f03d0e3e9504646caceeedf0855f41d4bd49e6ae962f0547d2363879e2ed",
         "image_id": "0b83d32fab8496c5afb28b13200fd25e"
     },
     {
+        "id": 2353756595,
         "name": "\u041c\u043e\u0440\u0435",
         "artist": "\u0413\u043b\u0443\u0431\u0438\u043d\u0430",
         "album": "\u0413\u043b\u0443\u0431\u0438\u043d\u0430",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/f/8/8/0/f88f2fa38bb5b08e4294cab330393240.mp3?hdnea=exp=1767349079~acl=/api/1/1/f/8/8/0/f88f2fa38bb5b08e4294cab330393240.mp3*~data=user_id=0,application_id=42~hmac=d613fe6d83d7f3ae33b2a3d2fc34425381802976e858593e64b32051f4b0dbcc",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/f/8/8/0/f88f2fa38bb5b08e4294cab330393240.mp3?hdnea=exp=1767855588~acl=/api/1/1/f/8/8/0/f88f2fa38bb5b08e4294cab330393240.mp3*~data=user_id=0,application_id=42~hmac=4a5937795cfa6edbf46fb67a500708c82de7a0f5fb6fff80ad941f7c6c6d9233",
         "image_id": "323a251dfad5d1722d388106612956d0"
     },
     {
+        "id": 7463137,
         "name": "Alone",
         "artist": "Cash for Clunkers",
         "album": "Rockapocalypse",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/6/d/8/0/6d88062df7122ca4cf2b0797537e450b.mp3?hdnea=exp=1767349080~acl=/api/1/1/6/d/8/0/6d88062df7122ca4cf2b0797537e450b.mp3*~data=user_id=0,application_id=42~hmac=0d720591da38532f3ffb881a50e544a6a07588728d6feb88df9c87d6371e0cb7",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/6/d/8/0/6d88062df7122ca4cf2b0797537e450b.mp3?hdnea=exp=1767855592~acl=/api/1/1/6/d/8/0/6d88062df7122ca4cf2b0797537e450b.mp3*~data=user_id=0,application_id=42~hmac=b51a2aa65f9f87c003528df35544fd00f8b77257182c8b9527b5ddb29ea1b6df",
         "image_id": "de70c72a54d3d637bec2a561d7069b54"
     },
     {
+        "id": 7463136,
         "name": "Sweet Mother Misery",
         "artist": "Cash for Clunkers",
         "album": "Rockapocalypse",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/b/1/f/0/b1fc4065a09175bea34fb3a1eaa47382.mp3?hdnea=exp=1767349080~acl=/api/1/1/b/1/f/0/b1fc4065a09175bea34fb3a1eaa47382.mp3*~data=user_id=0,application_id=42~hmac=4875f5d9d51b5c2b519746c7cfd1c965fc9b4309f341f6702f1cb3b19d96f250",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/b/1/f/0/b1fc4065a09175bea34fb3a1eaa47382.mp3?hdnea=exp=1767855593~acl=/api/1/1/b/1/f/0/b1fc4065a09175bea34fb3a1eaa47382.mp3*~data=user_id=0,application_id=42~hmac=83d78c2f9a826e93d078f3c506431d3c27852fff4a5a26f599f71c85ee58a873",
         "image_id": "de70c72a54d3d637bec2a561d7069b54"
     },
     {
+        "id": 7463142,
         "name": "Tonight",
         "artist": "Cash for Clunkers",
         "album": "Rockapocalypse",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/9/b/7/0/9b70c0c7472588c9dc4a11486e34b3cb.mp3?hdnea=exp=1767349081~acl=/api/1/1/9/b/7/0/9b70c0c7472588c9dc4a11486e34b3cb.mp3*~data=user_id=0,application_id=42~hmac=b26135a34e21bb70d109df3a16207cefc942460d86cbf73962157a984f61d535",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/9/b/7/0/9b70c0c7472588c9dc4a11486e34b3cb.mp3?hdnea=exp=1767855595~acl=/api/1/1/9/b/7/0/9b70c0c7472588c9dc4a11486e34b3cb.mp3*~data=user_id=0,application_id=42~hmac=6e558b239f8175f73b400f5293775cde917660df004f4259d43aac0f871b3dfc",
         "image_id": "de70c72a54d3d637bec2a561d7069b54"
     }
 ]

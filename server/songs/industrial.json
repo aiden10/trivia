@@ -1,352 +1,402 @@
 [
     {
+        "id": 1173960,
         "name": "Closer",
         "artist": "Nine Inch Nails",
         "album": "The Downward Spiral",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/c/7/9/0/c79b7e4b431c8ca31e9348281f5ada83.mp3?hdnea=exp=1767351237~acl=/api/1/1/c/7/9/0/c79b7e4b431c8ca31e9348281f5ada83.mp3*~data=user_id=0,application_id=42~hmac=799fb6246cefda4e16afdfd5d06108bd2806e0be7f84f9b5f7109923a28fc97d",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/c/7/9/0/c79b7e4b431c8ca31e9348281f5ada83.mp3?hdnea=exp=1767843720~acl=/api/1/1/c/7/9/0/c79b7e4b431c8ca31e9348281f5ada83.mp3*~data=user_id=0,application_id=42~hmac=daeb7013f40d406c41211c30adc09a89d97430ba6f316ed13c015ece264568ac",
         "image_id": "89d401ea7aecb97639fa86c81213de51"
     },
     {
+        "id": 8025461,
         "name": "Shut Me Up",
         "artist": "Mindless Self Indulgence",
         "album": "You'll Rebel to Anything (Expanded and Remastered 2008)",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/6/8/8/0/68825bb3b344eff006d0da608305d4a5.mp3?hdnea=exp=1767351238~acl=/api/1/1/6/8/8/0/68825bb3b344eff006d0da608305d4a5.mp3*~data=user_id=0,application_id=42~hmac=4249bf80bc3f466cbc934e1cb43296ec4ce764dd6da0936c94e8057c92ba4af1",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/6/8/8/0/68825bb3b344eff006d0da608305d4a5.mp3?hdnea=exp=1767843720~acl=/api/1/1/6/8/8/0/68825bb3b344eff006d0da608305d4a5.mp3*~data=user_id=0,application_id=42~hmac=bcf636c392e4fe4eb64d29761b1488346badec073a8294968dbeb3b60caf23a0",
         "image_id": "8e2ce2e94480d39fe00b17d5e1c0c686"
     },
     {
+        "id": 34994621,
         "name": "Megalomaniac",
         "artist": "KMFDM",
         "album": "Symbols",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/c/7/2/0/c72fb88633b10770dd94f8c7154f3d30.mp3?hdnea=exp=1767351238~acl=/api/1/1/c/7/2/0/c72fb88633b10770dd94f8c7154f3d30.mp3*~data=user_id=0,application_id=42~hmac=16962f21834537a09262850bdb5964c7535290d0ba3e4fca24130cdada3aff4e",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/c/7/2/0/c72fb88633b10770dd94f8c7154f3d30.mp3?hdnea=exp=1767843721~acl=/api/1/1/c/7/2/0/c72fb88633b10770dd94f8c7154f3d30.mp3*~data=user_id=0,application_id=42~hmac=fcb821e8e96e1b730366adcb09e0256f332fe69b5a877b68aa43a3a157b75a35",
         "image_id": "e4bd23353df71af29b31076ecbc45225"
     },
     {
+        "id": 24249351,
         "name": "The Hand That Feeds",
         "artist": "Nine Inch Nails",
         "album": "With Teeth",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/8/8/2/0/88259d4b1a77ee763235903383004f88.mp3?hdnea=exp=1767351238~acl=/api/1/1/8/8/2/0/88259d4b1a77ee763235903383004f88.mp3*~data=user_id=0,application_id=42~hmac=5be476ed2cc94df0a032217686a304d791f5e6493ee9d9ca681fd3c0871a56a0",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/8/8/2/0/88259d4b1a77ee763235903383004f88.mp3?hdnea=exp=1767843722~acl=/api/1/1/8/8/2/0/88259d4b1a77ee763235903383004f88.mp3*~data=user_id=0,application_id=42~hmac=57cb3b52b7461fa9d52fe921b3c69246316f319239442fb2aaceb2fb54eeccab",
         "image_id": "16eba9f44b989aa95ba748594a5cbcca"
     },
     {
+        "id": 6469963,
         "name": "Bitches",
         "artist": "Mindless Self Indulgence",
         "album": "Frankenstein Girls Will Seem Strangely Sexy",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/3/e/8/0/3e8f7feeb9610889ee8a86b22d6c6fcc.mp3?hdnea=exp=1767351239~acl=/api/1/1/3/e/8/0/3e8f7feeb9610889ee8a86b22d6c6fcc.mp3*~data=user_id=0,application_id=42~hmac=a5050464ff5624566270b1b47c6e28570f8c5f5473e41eaf2a226664adb0ef22",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/3/e/8/0/3e8f7feeb9610889ee8a86b22d6c6fcc.mp3?hdnea=exp=1767843722~acl=/api/1/1/3/e/8/0/3e8f7feeb9610889ee8a86b22d6c6fcc.mp3*~data=user_id=0,application_id=42~hmac=fb2fc4d4834396499d76b3bd5ea0009ab4127554af0c9b5e8a9640b3631cc384",
         "image_id": "db96781e2f90556670079b8a7f336e34"
     },
     {
+        "id": 73519930,
         "name": "Lights Out",
         "artist": "Mindless Self Indulgence",
         "album": "If",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/f/1/4/0/f14b3e7a6c3c2f057ada29f8a7279524.mp3?hdnea=exp=1767351239~acl=/api/1/1/f/1/4/0/f14b3e7a6c3c2f057ada29f8a7279524.mp3*~data=user_id=0,application_id=42~hmac=de203d9bf1d4b2e5bed9e61b0ed1dbc86da7d44edddf8b8ddec176bfc4e33257",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/f/1/4/0/f14b3e7a6c3c2f057ada29f8a7279524.mp3?hdnea=exp=1767843723~acl=/api/1/1/f/1/4/0/f14b3e7a6c3c2f057ada29f8a7279524.mp3*~data=user_id=0,application_id=42~hmac=b6f9acdb9d304f71bffbbb8b249d0d4d92e9431d6001a3fc24634014469fd09f",
         "image_id": "e6a7f2d84ecf81b656f24cc36f116dd0"
     },
     {
+        "id": 384667091,
         "name": "Head Like A Hole",
         "artist": "Nine Inch Nails",
         "album": "Pretty Hate Machine (Remastered)",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/6/b/9/0/6b983d02df41b807ee2f2a1ec3b474a3.mp3?hdnea=exp=1767351239~acl=/api/1/1/6/b/9/0/6b983d02df41b807ee2f2a1ec3b474a3.mp3*~data=user_id=0,application_id=42~hmac=6223bb19a40e7512899239382b68a45e0c9ef4199027b16a054b027f4ef5e7c1",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/6/b/9/0/6b983d02df41b807ee2f2a1ec3b474a3.mp3?hdnea=exp=1767843724~acl=/api/1/1/6/b/9/0/6b983d02df41b807ee2f2a1ec3b474a3.mp3*~data=user_id=0,application_id=42~hmac=632ac7e97b4e7a8dfb044df4b2a3d570b4bd42bb5c04d5e4145b2fd472cbf242",
         "image_id": "08ca89d7c27d75d5c7927b2d8681a714"
     },
     {
+        "id": 68350105,
         "name": "Black Skinhead",
         "artist": "Kanye West",
         "album": "Yeezus",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/8/9/9/0/89951a25c9ac29e780019df8e8116e49.mp3?hdnea=exp=1767351240~acl=/api/1/1/8/9/9/0/89951a25c9ac29e780019df8e8116e49.mp3*~data=user_id=0,application_id=42~hmac=d9e7ea06b528ad8c4b7612762a7afaf7fc3ddd7de15101dae5729a8a7214a394",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/8/9/9/0/89951a25c9ac29e780019df8e8116e49.mp3?hdnea=exp=1767843724~acl=/api/1/1/8/9/9/0/89951a25c9ac29e780019df8e8116e49.mp3*~data=user_id=0,application_id=42~hmac=b6fb9066cb563346ca75368d7830f6a2cbe9f46be0f01d141d85fd1f82346d00",
         "image_id": "5a56530f7906bd9786fa47bd0be421b3"
     },
     {
+        "id": 73519935,
         "name": "Get It Up",
         "artist": "Mindless Self Indulgence",
         "album": "If",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/2/6/9/0/26903c49d4b2c19524630e26a0728a34.mp3?hdnea=exp=1767351240~acl=/api/1/1/2/6/9/0/26903c49d4b2c19524630e26a0728a34.mp3*~data=user_id=0,application_id=42~hmac=e8760c7c4e563b8b4cec65415d799378414d52f8b070dcd4338b489b758e11d2",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/2/6/9/0/26903c49d4b2c19524630e26a0728a34.mp3?hdnea=exp=1767843725~acl=/api/1/1/2/6/9/0/26903c49d4b2c19524630e26a0728a34.mp3*~data=user_id=0,application_id=42~hmac=2a22c9b389d3ad27b9e98a35c3e0a14b72dc29821d35201a97fcd41d9af3e462",
         "image_id": "e6a7f2d84ecf81b656f24cc36f116dd0"
     },
     {
+        "id": 26301041,
         "name": "I (Heart) You",
         "artist": "KMFDM",
         "album": "Amnesia",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/f/a/e/0/fae3eedc4ba90248c1e8b8a40a1ce608.mp3?hdnea=exp=1767351240~acl=/api/1/1/f/a/e/0/fae3eedc4ba90248c1e8b8a40a1ce608.mp3*~data=user_id=0,application_id=42~hmac=d74fff29985e19662e9f8d8c5f6aa3d54d856573403cadb2d513effde45c56a9",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/f/a/e/0/fae3eedc4ba90248c1e8b8a40a1ce608.mp3?hdnea=exp=1767843726~acl=/api/1/1/f/a/e/0/fae3eedc4ba90248c1e8b8a40a1ce608.mp3*~data=user_id=0,application_id=42~hmac=da5707267941b14444a4ee680fea704b572383869c4f59271356ffaf67dda01a",
         "image_id": "bd09fc66d431ca5233cec43e8044cca4"
     },
     {
+        "id": 73494163,
         "name": "Molly",
         "artist": "Mindless Self Indulgence",
         "album": "Tighter",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/8/1/0/0/8105d70b9b1ae58a9517ad1b838e1381.mp3?hdnea=exp=1767351241~acl=/api/1/1/8/1/0/0/8105d70b9b1ae58a9517ad1b838e1381.mp3*~data=user_id=0,application_id=42~hmac=8ea6610ea832ede5a626b4c6ee06cf4eb7b6a6ebaa7aa684419043689d0634b9",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/8/1/0/0/8105d70b9b1ae58a9517ad1b838e1381.mp3?hdnea=exp=1767843727~acl=/api/1/1/8/1/0/0/8105d70b9b1ae58a9517ad1b838e1381.mp3*~data=user_id=0,application_id=42~hmac=d87d2523b96c1cc079e3f8565831265b42649bb98909caff6b2062170b9be8d8",
         "image_id": "c6b0ea0021426171dab91557b84250f4"
     },
     {
+        "id": 8025464,
         "name": "What Do They Know?",
         "artist": "Mindless Self Indulgence",
         "album": "You'll Rebel to Anything (Expanded and Remastered 2008)",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/a/d/a/0/adabd7625cb51883c3a77180692d001e.mp3?hdnea=exp=1767351241~acl=/api/1/1/a/d/a/0/adabd7625cb51883c3a77180692d001e.mp3*~data=user_id=0,application_id=42~hmac=78547b00e3ba1b63f781759631ca6ab7e9535d44a5cc1708983d46729e796714",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/a/d/a/0/adabd7625cb51883c3a77180692d001e.mp3?hdnea=exp=1767843728~acl=/api/1/1/a/d/a/0/adabd7625cb51883c3a77180692d001e.mp3*~data=user_id=0,application_id=42~hmac=c182c8b65a693e2d46c5eebd171c66011e65e420edf8aee61658b65d9ee4aa81",
         "image_id": "8e2ce2e94480d39fe00b17d5e1c0c686"
     },
     {
+        "id": 73519924,
         "name": "Never Wanted To Dance",
         "artist": "Mindless Self Indulgence",
         "album": "If",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/b/b/d/0/bbd887788ba053c514816510b6a4775f.mp3?hdnea=exp=1767351241~acl=/api/1/1/b/b/d/0/bbd887788ba053c514816510b6a4775f.mp3*~data=user_id=0,application_id=42~hmac=32ab1d72a2931cdb6a9a3be57490d2a02b9039cf05b609756816e37259091825",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/b/b/d/0/bbd887788ba053c514816510b6a4775f.mp3?hdnea=exp=1767843728~acl=/api/1/1/b/b/d/0/bbd887788ba053c514816510b6a4775f.mp3*~data=user_id=0,application_id=42~hmac=e6fe0f8f4460fa2eaa7a1a65bf404d4e31346b2c85b3c05ecb680ba642ea441e",
         "image_id": "e6a7f2d84ecf81b656f24cc36f116dd0"
     },
     {
+        "id": 8025462,
         "name": "Stupid MF",
         "artist": "Mindless Self Indulgence",
         "album": "You'll Rebel to Anything (Expanded and Remastered 2008)",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/e/e/3/0/ee3c4c56e0e42608de1028a971b29c11.mp3?hdnea=exp=1767351242~acl=/api/1/1/e/e/3/0/ee3c4c56e0e42608de1028a971b29c11.mp3*~data=user_id=0,application_id=42~hmac=8394ad44ef5aa4777f3190890df40a88e78cc1ee954d4fd4b7addf6b2c1f9627",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/e/e/3/0/ee3c4c56e0e42608de1028a971b29c11.mp3?hdnea=exp=1767843729~acl=/api/1/1/e/e/3/0/ee3c4c56e0e42608de1028a971b29c11.mp3*~data=user_id=0,application_id=42~hmac=2b095a1fe26d773f82b7d308815d34861cec40a93a3b6db2a0f4a02126f7fdcd",
         "image_id": "8e2ce2e94480d39fe00b17d5e1c0c686"
     },
     {
+        "id": 533630862,
         "name": "Heresy",
         "artist": "Nine Inch Nails",
-        "album": "The Downward Spiral",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/d/b/b/0/dbbb1610c8541d7d9f6c98b178e0ad3a.mp3?hdnea=exp=1767351242~acl=/api/1/1/d/b/b/0/dbbb1610c8541d7d9f6c98b178e0ad3a.mp3*~data=user_id=0,application_id=42~hmac=6986126faa95f2ebeb949b2b089573afc5f15d8986b12cbb1777b7caa4ac9ec7",
-        "image_id": "89d401ea7aecb97639fa86c81213de51"
+        "album": "The Downward Spiral (Deluxe Edition)",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/7/0/0/0/700c21f1af387bfa1029afd23bb82af3.mp3?hdnea=exp=1767843730~acl=/api/1/1/7/0/0/0/700c21f1af387bfa1029afd23bb82af3.mp3*~data=user_id=0,application_id=42~hmac=7a0f8e8270802c31f93c99b5f9cabf48bdbb57bfe572639ea063663927ed22ad",
+        "image_id": "4b33dd72a103a8fda67222178d57e1b2"
     },
     {
+        "id": 1173959,
         "name": "March Of The Pigs",
         "artist": "Nine Inch Nails",
         "album": "The Downward Spiral",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/f/c/9/0/fc962e180dd069c82aa2e472ecca3e15.mp3?hdnea=exp=1767351243~acl=/api/1/1/f/c/9/0/fc962e180dd069c82aa2e472ecca3e15.mp3*~data=user_id=0,application_id=42~hmac=faf91517ea6525cf707188c3e8501bf061083c08d60b361ec68c085095bccea8",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/f/c/9/0/fc962e180dd069c82aa2e472ecca3e15.mp3?hdnea=exp=1767843732~acl=/api/1/1/f/c/9/0/fc962e180dd069c82aa2e472ecca3e15.mp3*~data=user_id=0,application_id=42~hmac=358abc221f75e1c05656cfeaa562dd03ec514f86d00bcb323f71d96402ff6909",
         "image_id": "89d401ea7aecb97639fa86c81213de51"
     },
     {
+        "id": 6469969,
         "name": "Faggot",
         "artist": "Mindless Self Indulgence",
         "album": "Frankenstein Girls Will Seem Strangely Sexy",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/9/3/4/0/934030b3b3edbe8d6d5f8b7d7b58bc7a.mp3?hdnea=exp=1767351243~acl=/api/1/1/9/3/4/0/934030b3b3edbe8d6d5f8b7d7b58bc7a.mp3*~data=user_id=0,application_id=42~hmac=f431b9b62a46513717882a27fe3d8016c80773108c3abf43c0bba4f40e71eb50",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/9/3/4/0/934030b3b3edbe8d6d5f8b7d7b58bc7a.mp3?hdnea=exp=1767843734~acl=/api/1/1/9/3/4/0/934030b3b3edbe8d6d5f8b7d7b58bc7a.mp3*~data=user_id=0,application_id=42~hmac=125bfcea6f17f5a7c4e92ee37fd5e9b5bb09590dc266113d9738952657ff22d8",
         "image_id": "db96781e2f90556670079b8a7f336e34"
     },
     {
+        "id": 384093771,
         "name": "Sin (Album Version)",
         "artist": "Nine Inch Nails",
         "album": "Pretty Hate Machine",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/5/e/9/0/5e98c44be8e162d54a53981c67377486.mp3?hdnea=exp=1767351243~acl=/api/1/1/5/e/9/0/5e98c44be8e162d54a53981c67377486.mp3*~data=user_id=0,application_id=42~hmac=8734ddab9bb6bf409a713ffaaf2e1ee8ab7391bb99ab63bdfb4278df3ad5d1d3",
-        "image_id": "910194df0816c8e688103b7b8abc2ba4"
-    },
-    {
-        "name": "Prescription",
-        "artist": "Mindless Self Indulgence",
-        "album": "If",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/3/b/5/0/3b5b0b5177210b1b1986828efcda60b2.mp3?hdnea=exp=1767351244~acl=/api/1/1/3/b/5/0/3b5b0b5177210b1b1986828efcda60b2.mp3*~data=user_id=0,application_id=42~hmac=d366dae2bf0307d8bc350ad6963a7efdb079e2ca90b4dd4ed1b1aeff9cb27288",
-        "image_id": "e6a7f2d84ecf81b656f24cc36f116dd0"
-    },
-    {
-        "name": "Terrible Lie",
-        "artist": "Nine Inch Nails",
-        "album": "Pretty Hate Machine (Remastered)",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/b/a/e/0/bae71e3144265f93e2d1fd199eb96352.mp3?hdnea=exp=1767351244~acl=/api/1/1/b/a/e/0/bae71e3144265f93e2d1fd199eb96352.mp3*~data=user_id=0,application_id=42~hmac=c94fa2f4439edcbaee68c4472ca3a77479cc0d4039e5f59979ab36dd97dde891",
-        "image_id": "08ca89d7c27d75d5c7927b2d8681a714"
-    },
-    {
-        "name": "Hurt",
-        "artist": "Nine Inch Nails",
-        "album": "The Downward Spiral",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/8/7/8/0/878db0a43fab293b5b4aa906299681c5.mp3?hdnea=exp=1767351244~acl=/api/1/1/8/7/8/0/878db0a43fab293b5b4aa906299681c5.mp3*~data=user_id=0,application_id=42~hmac=61fdb222dc0919421dee68c2a5ef7121d190e9e87b79a12977cfeeb77d687380",
-        "image_id": "89d401ea7aecb97639fa86c81213de51"
-    },
-    {
-        "name": "Mr. Self Destruct",
-        "artist": "Nine Inch Nails",
-        "album": "The Downward Spiral",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/9/a/3/0/9a332ededc902117c62d0ba692f293d7.mp3?hdnea=exp=1767351245~acl=/api/1/1/9/a/3/0/9a332ededc902117c62d0ba692f293d7.mp3*~data=user_id=0,application_id=42~hmac=2684c305f2180e82f7e8af6c09f7999a9604d01ebd31db2b498fe4d7058c307f",
-        "image_id": "89d401ea7aecb97639fa86c81213de51"
-    },
-    {
-        "name": "Kunstprodukt - Remixed by Gintronic",
-        "artist": "Miss Construction",
-        "album": "Kunstprodukt",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/8/f/4/0/8f4de203148235cf96c030f2645e66d9.mp3?hdnea=exp=1767351245~acl=/api/1/1/8/f/4/0/8f4de203148235cf96c030f2645e66d9.mp3*~data=user_id=0,application_id=42~hmac=cc1979c80918f053f91344f55a30c187ee9f3e088080c92540ee56c4ad861ad9",
-        "image_id": "80c6997964c1d62996bc19f45c93b286"
-    },
-    {
-        "name": "Every Day Is Exactly The Same",
-        "artist": "Nine Inch Nails",
-        "album": "Every Day Is Exactly The Same (Remixes)",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/7/2/1/0/721f9e141c927481903c4abdb12af3ce.mp3?hdnea=exp=1767351245~acl=/api/1/1/7/2/1/0/721f9e141c927481903c4abdb12af3ce.mp3*~data=user_id=0,application_id=42~hmac=f3174ec888e5f3671098da8544de4a57b9d82e724cb34e849ed69c1cedbd7aa1",
-        "image_id": "31ea593f443c32f92573350e0b8920c2"
-    },
-    {
-        "name": "Discipline",
-        "artist": "Nine Inch Nails",
-        "album": "The Slip",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/4/b/3/0/4b32db47334c9e8347ef6a9743c05972.mp3?hdnea=exp=1767351246~acl=/api/1/1/4/b/3/0/4b32db47334c9e8347ef6a9743c05972.mp3*~data=user_id=0,application_id=42~hmac=db119941be95eb0698c9961b3e5ec80a8db8eda1dd0192e4317d46a080c71ede",
-        "image_id": "80a01e8a03dc367df6f00c458dc89bf8"
-    },
-    {
-        "name": "Amnesia",
-        "artist": "KMFDM",
-        "album": "WTF?!",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/e/0/9/0/e09429e5c5769b76ee14566a9ebeb6ea.mp3?hdnea=exp=1767351246~acl=/api/1/1/e/0/9/0/e09429e5c5769b76ee14566a9ebeb6ea.mp3*~data=user_id=0,application_id=42~hmac=ccc8dd3c70eef59ac84fc5cb1dc136d7fd7a32073dfd7e56101b2fa4d1a254fd",
-        "image_id": "4dee99e80cc91658677aa7ebfb536eb7"
-    },
-    {
-        "name": "Only",
-        "artist": "Nine Inch Nails",
-        "album": "With Teeth",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/9/f/3/0/9f3a3fcc1e3c513ffe6fe5109fdbe7f1.mp3?hdnea=exp=1767351246~acl=/api/1/1/9/f/3/0/9f3a3fcc1e3c513ffe6fe5109fdbe7f1.mp3*~data=user_id=0,application_id=42~hmac=8e73c19e6e0c8b4c72afb7a69a522d7c2312429e41a018c96652f315e3fd88ff",
-        "image_id": "16eba9f44b989aa95ba748594a5cbcca"
-    },
-    {
-        "name": "Ruiner",
-        "artist": "Nine Inch Nails",
-        "album": "The Downward Spiral",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/0/3/c/0/03c50729632ebaede5cd22e0d6513dc1.mp3?hdnea=exp=1767351247~acl=/api/1/1/0/3/c/0/03c50729632ebaede5cd22e0d6513dc1.mp3*~data=user_id=0,application_id=42~hmac=90262139404a4dfc1ddbe75c8b0a668b2d30f67779580974d50d194ebc409e90",
-        "image_id": "89d401ea7aecb97639fa86c81213de51"
-    },
-    {
-        "name": "Stray Bullet",
-        "artist": "KMFDM",
-        "album": "Symbols",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/e/a/2/0/ea2f81bfae48c12e79616efebaf21dfd.mp3?hdnea=exp=1767351247~acl=/api/1/1/e/a/2/0/ea2f81bfae48c12e79616efebaf21dfd.mp3*~data=user_id=0,application_id=42~hmac=1c41c14d8227ef22808334c2ced52bd149be23a540b5e7780731e5005104b547",
-        "image_id": "e4bd23353df71af29b31076ecbc45225"
-    },
-    {
-        "name": "Down In It (Album Version)",
-        "artist": "Nine Inch Nails",
-        "album": "Pretty Hate Machine",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/e/3/5/0/e35852cff1d426274449df3fa5a2d62e.mp3?hdnea=exp=1767351248~acl=/api/1/1/e/3/5/0/e35852cff1d426274449df3fa5a2d62e.mp3*~data=user_id=0,application_id=42~hmac=19055a81a48ba184defada75e457452774385dd8fd28304a24b040c456ef3c23",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/5/5/7/0/557de21536cad09a67dda351194ffd63.mp3?hdnea=exp=1767843734~acl=/api/1/1/5/5/7/0/557de21536cad09a67dda351194ffd63.mp3*~data=user_id=0,application_id=42~hmac=9585d1feeecf4384097ee8854ed78d0412399b4efc8d8b8e176253922b5a6039",
         "image_id": "f638af829a1e638ffc491d20ef95f68b"
     },
     {
-        "name": "Piggy",
-        "artist": "Nine Inch Nails",
-        "album": "The Downward Spiral",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/2/d/f/0/2df3b9b14002bb8aca6c969b7982e0cd.mp3?hdnea=exp=1767351248~acl=/api/1/1/2/d/f/0/2df3b9b14002bb8aca6c969b7982e0cd.mp3*~data=user_id=0,application_id=42~hmac=b73f49e33537652461280312d81e649e214ec08030ea485f6b070c29574806f4",
-        "image_id": "89d401ea7aecb97639fa86c81213de51"
-    },
-    {
-        "name": "Reptile",
-        "artist": "Nine Inch Nails",
-        "album": "The Downward Spiral",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/4/5/1/0/4518a7b662fa460ef7ea5ea4b98888f9.mp3?hdnea=exp=1767351248~acl=/api/1/1/4/5/1/0/4518a7b662fa460ef7ea5ea4b98888f9.mp3*~data=user_id=0,application_id=42~hmac=0c7cabae3413282f67f9a890ad938b4309efa50ea0ce720233e288e9efdf0177",
-        "image_id": "89d401ea7aecb97639fa86c81213de51"
-    },
-    {
-        "name": "Dragula",
-        "artist": "Rob Zombie",
-        "album": "Hellbilly Deluxe",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/3/5/0/0/3500e48eab8e63cb630c787397e8eb6a.mp3?hdnea=exp=1767351249~acl=/api/1/1/3/5/0/0/3500e48eab8e63cb630c787397e8eb6a.mp3*~data=user_id=0,application_id=42~hmac=6acffae89b50d1dfc39ccaee821d08d862467a8c97cf059923c63b9718dfa77c",
-        "image_id": "9ec5b52540fbb85df121d796616a8bfc"
-    },
-    {
-        "name": "Wish",
-        "artist": "Nine Inch Nails",
-        "album": "Broken",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/5/b/6/0/5b67ccab438276785732bada1ea8e2f1.mp3?hdnea=exp=1767351249~acl=/api/1/1/5/b/6/0/5b67ccab438276785732bada1ea8e2f1.mp3*~data=user_id=0,application_id=42~hmac=8fd21b1724a18d91cf6ff8c0367a8d300834d11828d0af894d6e4d2080a58096",
-        "image_id": "253deaa09fe7e5ee4647eda3ae9ba735"
-    },
-    {
-        "name": "Blue Monday",
-        "artist": "Orgy",
-        "album": "Candyass",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/3/d/9/0/3d901c8ed3639c48bf111f4f2c8cbd08.mp3?hdnea=exp=1767351249~acl=/api/1/1/3/d/9/0/3d901c8ed3639c48bf111f4f2c8cbd08.mp3*~data=user_id=0,application_id=42~hmac=22cfa6e9d6f954bb71de5fdf2ed1b84c2c4557b520fcbb6db84c64c98926cc51",
-        "image_id": "56a30373a461733fad5abbec12e1794c"
-    },
-    {
-        "name": "Vivica",
-        "artist": "Jack Off Jill",
-        "album": "Clear Hearts Grey Flowers",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/b/0/d/0/b0d9d116ac121bcdf96b6276d5cef904.mp3?hdnea=exp=1767351250~acl=/api/1/1/b/0/d/0/b0d9d116ac121bcdf96b6276d5cef904.mp3*~data=user_id=0,application_id=42~hmac=d93c0b26460ed7f50bef0b66dbd36518b06660067cf9dfccf7c5c5707eb4b61e",
-        "image_id": "94d80d20d8d431748f3d0e153b186117"
-    },
-    {
-        "name": "Sonne",
-        "artist": "Rammstein",
-        "album": "Mutter",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/7/d/4/0/7d416d9e18429664bbbc702ec6fab8d7.mp3?hdnea=exp=1767351250~acl=/api/1/1/7/d/4/0/7d416d9e18429664bbbc702ec6fab8d7.mp3*~data=user_id=0,application_id=42~hmac=f8d0f9e03eb80788d49e7deacf1db189f19629e521655c389dbdac7f5d73534e",
-        "image_id": "6eabee34f76bd01d2562469d41c63c4d"
-    },
-    {
-        "name": "Somewhat Damaged",
-        "artist": "Nine Inch Nails",
-        "album": "The Fragile",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/b/4/2/0/b420ddcf155b2d16395e2fc1a819742d.mp3?hdnea=exp=1767351250~acl=/api/1/1/b/4/2/0/b420ddcf155b2d16395e2fc1a819742d.mp3*~data=user_id=0,application_id=42~hmac=8abee8b2b4d4d9241a1200bc4aca2317ae4335e8061f226da853d9c68277d31f",
-        "image_id": "43ed0ea0b77d4cf8c972f641cafb805a"
-    },
-    {
-        "name": "Take It Like A Man",
-        "artist": "KMFDM",
-        "album": "WTF?!",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/8/0/4/0/8043d352ce0f06f76d657ce0b2d32642.mp3?hdnea=exp=1767351251~acl=/api/1/1/8/0/4/0/8043d352ce0f06f76d657ce0b2d32642.mp3*~data=user_id=0,application_id=42~hmac=963ed156c67c2b9ca6bbaa3063a2d37acfb31acc337d0c3da28f9b800ff71a6a",
-        "image_id": "4dee99e80cc91658677aa7ebfb536eb7"
-    },
-    {
-        "name": "We're In This Together",
-        "artist": "Nine Inch Nails",
-        "album": "The Fragile",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/9/f/2/0/9f2c5dd18e3cbc9f7140962147ba2344.mp3?hdnea=exp=1767351251~acl=/api/1/1/9/f/2/0/9f2c5dd18e3cbc9f7140962147ba2344.mp3*~data=user_id=0,application_id=42~hmac=c656b02579ca0d8880cc84f691b4598d3a84bddd0b601c07cd620796f25473b0",
-        "image_id": "43ed0ea0b77d4cf8c972f641cafb805a"
-    },
-    {
-        "name": "Anarchy",
-        "artist": "KMFDM",
-        "album": "Symbols",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/6/4/d/0/64d00a9ccd68887941f0c0515d1577fe.mp3?hdnea=exp=1767351251~acl=/api/1/1/6/4/d/0/64d00a9ccd68887941f0c0515d1577fe.mp3*~data=user_id=0,application_id=42~hmac=a764889a5573ccb678fa54e42001797ddca22a8a14f83de1910b4b34261f546d",
-        "image_id": "e4bd23353df71af29b31076ecbc45225"
-    },
-    {
-        "name": "Into The Void",
-        "artist": "Nine Inch Nails",
-        "album": "The Fragile",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/8/5/b/0/85babb2cbe00a5d2b4215620c12faa34.mp3?hdnea=exp=1767351252~acl=/api/1/1/8/5/b/0/85babb2cbe00a5d2b4215620c12faa34.mp3*~data=user_id=0,application_id=42~hmac=cd330e19c63f516097befa52bf43c95330e31c2fbbbd8edce82c4b9cde85ad9d",
-        "image_id": "43ed0ea0b77d4cf8c972f641cafb805a"
-    },
-    {
-        "name": "The Becoming",
-        "artist": "Nine Inch Nails",
-        "album": "The Downward Spiral",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/a/c/c/0/acc62a8a8220bef7aaad461cd9c320d1.mp3?hdnea=exp=1767351252~acl=/api/1/1/a/c/c/0/acc62a8a8220bef7aaad461cd9c320d1.mp3*~data=user_id=0,application_id=42~hmac=09227b8b8e912c0650ec0524d1e3c9cd58db0d4d2867eca057bee1b781047e9c",
-        "image_id": "89d401ea7aecb97639fa86c81213de51"
-    },
-    {
-        "name": "Evening Wear",
+        "id": 73519931,
+        "name": "Prescription",
         "artist": "Mindless Self Indulgence",
         "album": "If",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/9/2/7/0/92738032d6e26aa49fe68c1a69f22185.mp3?hdnea=exp=1767351252~acl=/api/1/1/9/2/7/0/92738032d6e26aa49fe68c1a69f22185.mp3*~data=user_id=0,application_id=42~hmac=0e68f9e4fbb23671074bf90f4445bf08348a88fbe7e5691c6eddfeddeb4292e7",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/3/b/5/0/3b5b0b5177210b1b1986828efcda60b2.mp3?hdnea=exp=1767843736~acl=/api/1/1/3/b/5/0/3b5b0b5177210b1b1986828efcda60b2.mp3*~data=user_id=0,application_id=42~hmac=95fda502707346482a042ad954ae341325500999cd3a370f7e2b9aa2bc48b891",
         "image_id": "e6a7f2d84ecf81b656f24cc36f116dd0"
     },
     {
-        "name": "Starfuckers, Inc.",
+        "id": 384667101,
+        "name": "Terrible Lie",
         "artist": "Nine Inch Nails",
-        "album": "The Fragile",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/8/f/9/0/8f981570f194091d3678c75132e9a1e7.mp3?hdnea=exp=1767351253~acl=/api/1/1/8/f/9/0/8f981570f194091d3678c75132e9a1e7.mp3*~data=user_id=0,application_id=42~hmac=1fa1d389e6e9b9becd4357d6f150b3c3c33e9274ea0dc537b99643cf8d4bab70",
-        "image_id": "43ed0ea0b77d4cf8c972f641cafb805a"
+        "album": "Pretty Hate Machine (Remastered)",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/b/a/e/0/bae71e3144265f93e2d1fd199eb96352.mp3?hdnea=exp=1767843737~acl=/api/1/1/b/a/e/0/bae71e3144265f93e2d1fd199eb96352.mp3*~data=user_id=0,application_id=42~hmac=7054abd029c0e4722dd1090c56806f069f1f750d22ef9fbed2174ca3f1fc96ee",
+        "image_id": "08ca89d7c27d75d5c7927b2d8681a714"
     },
     {
-        "name": "Sunspots",
-        "artist": "Nine Inch Nails",
-        "album": "With Teeth",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/b/2/c/0/b2c6e6e7480513e49a19f913f7821a38.mp3?hdnea=exp=1767351253~acl=/api/1/1/b/2/c/0/b2c6e6e7480513e49a19f913f7821a38.mp3*~data=user_id=0,application_id=42~hmac=f59f8a18c2bbb66e88d54988ddcd603e33bf06424c79cac1d536d4145d2885e6",
-        "image_id": "16eba9f44b989aa95ba748594a5cbcca"
-    },
-    {
-        "name": "Kunst",
-        "artist": "KMFDM",
-        "album": "Kunst",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/0/3/d/0/03d96097658d81985759634881308cee.mp3?hdnea=exp=1767351253~acl=/api/1/1/0/3/d/0/03d96097658d81985759634881308cee.mp3*~data=user_id=0,application_id=42~hmac=2a818dac35cb8072abae6c25b970b871c7a26bd3981b683721c9b4f8593ee5c1",
-        "image_id": "0090027cadf4ead4473562137b46b6ff"
-    },
-    {
-        "name": "Living Dead Girl",
-        "artist": "Rob Zombie",
-        "album": "Hellbilly Deluxe",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/3/0/2/0/302f29e5ab4f40b48a44255c35c663c0.mp3?hdnea=exp=1767351254~acl=/api/1/1/3/0/2/0/302f29e5ab4f40b48a44255c35c663c0.mp3*~data=user_id=0,application_id=42~hmac=0515fc2642e46b39ece537819ce32520c2f04407a08dc6e933727ac3b123d626",
-        "image_id": "9ec5b52540fbb85df121d796616a8bfc"
-    },
-    {
-        "name": "The Downward Spiral",
+        "id": 1173969,
+        "name": "Hurt",
         "artist": "Nine Inch Nails",
         "album": "The Downward Spiral",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/7/7/b/0/77b9fee5b81bcdd8c104c3ff7142b700.mp3?hdnea=exp=1767351254~acl=/api/1/1/7/7/b/0/77b9fee5b81bcdd8c104c3ff7142b700.mp3*~data=user_id=0,application_id=42~hmac=84a1f1018385508faf4c0b927cc6c6739921fa76d12b6e03ef9dc906ecbf37a3",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/8/7/8/0/878db0a43fab293b5b4aa906299681c5.mp3?hdnea=exp=1767843739~acl=/api/1/1/8/7/8/0/878db0a43fab293b5b4aa906299681c5.mp3*~data=user_id=0,application_id=42~hmac=c02cf85eaded7da69885822c735f0555c63f6009436d73003de98a5221ac0ea5",
         "image_id": "89d401ea7aecb97639fa86c81213de51"
     },
     {
+        "id": 1173956,
+        "name": "Mr. Self Destruct",
+        "artist": "Nine Inch Nails",
+        "album": "The Downward Spiral",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/9/a/3/0/9a332ededc902117c62d0ba692f293d7.mp3?hdnea=exp=1767843740~acl=/api/1/1/9/a/3/0/9a332ededc902117c62d0ba692f293d7.mp3*~data=user_id=0,application_id=42~hmac=dd9d9ea7077c6d80591da2f1435ec76cd14e7560fb0df69fe43446d8fa939fb0",
+        "image_id": "89d401ea7aecb97639fa86c81213de51"
+    },
+    {
+        "id": 1760511807,
+        "name": "Kunstprodukt - Remixed by Gintronic",
+        "artist": "Miss Construction",
+        "album": "Kunstprodukt",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/8/f/4/0/8f4de203148235cf96c030f2645e66d9.mp3?hdnea=exp=1767843742~acl=/api/1/1/8/f/4/0/8f4de203148235cf96c030f2645e66d9.mp3*~data=user_id=0,application_id=42~hmac=1f37343adbf3bcef47525b25020a4e6c33d24b4496c7e13befd24a57d8ceaa38",
+        "image_id": "80c6997964c1d62996bc19f45c93b286"
+    },
+    {
+        "id": 139876083,
+        "name": "Every Day Is Exactly The Same",
+        "artist": "Nine Inch Nails",
+        "album": "Every Day Is Exactly The Same (Remixes)",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/7/2/1/0/721f9e141c927481903c4abdb12af3ce.mp3?hdnea=exp=1767843743~acl=/api/1/1/7/2/1/0/721f9e141c927481903c4abdb12af3ce.mp3*~data=user_id=0,application_id=42~hmac=90798f77edd976b91ece457bee198049d32ed29eff8d5a4a9c4b2bbe1c9dd91e",
+        "image_id": "31ea593f443c32f92573350e0b8920c2"
+    },
+    {
+        "id": 57428891,
+        "name": "Discipline",
+        "artist": "Nine Inch Nails",
+        "album": "The Slip",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/4/b/3/0/4b32db47334c9e8347ef6a9743c05972.mp3?hdnea=exp=1767843745~acl=/api/1/1/4/b/3/0/4b32db47334c9e8347ef6a9743c05972.mp3*~data=user_id=0,application_id=42~hmac=9cab5e8f66e0c43545e3a8359d46529887f653d95d27d3b2a3a59541702b3d74",
+        "image_id": "80a01e8a03dc367df6f00c458dc89bf8"
+    },
+    {
+        "id": 34982251,
+        "name": "Amnesia",
+        "artist": "KMFDM",
+        "album": "WTF?!",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/e/0/9/0/e09429e5c5769b76ee14566a9ebeb6ea.mp3?hdnea=exp=1767843746~acl=/api/1/1/e/0/9/0/e09429e5c5769b76ee14566a9ebeb6ea.mp3*~data=user_id=0,application_id=42~hmac=3935fbdbf583b5b3c8589a9135950b74a4afbbfd679f478f8db46410e341d877",
+        "image_id": "4dee99e80cc91658677aa7ebfb536eb7"
+    },
+    {
+        "id": 24249391,
+        "name": "Only",
+        "artist": "Nine Inch Nails",
+        "album": "With Teeth",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/9/f/3/0/9f3a3fcc1e3c513ffe6fe5109fdbe7f1.mp3?hdnea=exp=1767843747~acl=/api/1/1/9/f/3/0/9f3a3fcc1e3c513ffe6fe5109fdbe7f1.mp3*~data=user_id=0,application_id=42~hmac=27801acc4d355ebc7476d1633252599c26749dddb93a566ee626de947eb67e37",
+        "image_id": "16eba9f44b989aa95ba748594a5cbcca"
+    },
+    {
+        "id": 1173961,
+        "name": "Ruiner",
+        "artist": "Nine Inch Nails",
+        "album": "The Downward Spiral",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/0/3/c/0/03c50729632ebaede5cd22e0d6513dc1.mp3?hdnea=exp=1767843748~acl=/api/1/1/0/3/c/0/03c50729632ebaede5cd22e0d6513dc1.mp3*~data=user_id=0,application_id=42~hmac=ecec8ac81a39a13eb7aa34b4109dfc69e731605086ca7aceed55a86e673e35ed",
+        "image_id": "89d401ea7aecb97639fa86c81213de51"
+    },
+    {
+        "id": 34994631,
+        "name": "Stray Bullet",
+        "artist": "KMFDM",
+        "album": "Symbols",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/e/a/2/0/ea2f81bfae48c12e79616efebaf21dfd.mp3?hdnea=exp=1767843750~acl=/api/1/1/e/a/2/0/ea2f81bfae48c12e79616efebaf21dfd.mp3*~data=user_id=0,application_id=42~hmac=7da2f925beb1fca395549dc863bb6e3f330248f6d441258c8ca34ca1d6ea9dca",
+        "image_id": "e4bd23353df71af29b31076ecbc45225"
+    },
+    {
+        "id": 384093731,
+        "name": "Down In It (Album Version)",
+        "artist": "Nine Inch Nails",
+        "album": "Pretty Hate Machine",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/e/3/5/0/e35852cff1d426274449df3fa5a2d62e.mp3?hdnea=exp=1767843751~acl=/api/1/1/e/3/5/0/e35852cff1d426274449df3fa5a2d62e.mp3*~data=user_id=0,application_id=42~hmac=da1c6c3fd39ed20b2257a095cbabf1a285de95551892ae4aea03a7cc16a282d8",
+        "image_id": "f638af829a1e638ffc491d20ef95f68b"
+    },
+    {
+        "id": 1173957,
+        "name": "Piggy",
+        "artist": "Nine Inch Nails",
+        "album": "The Downward Spiral",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/2/d/f/0/2df3b9b14002bb8aca6c969b7982e0cd.mp3?hdnea=exp=1767843752~acl=/api/1/1/2/d/f/0/2df3b9b14002bb8aca6c969b7982e0cd.mp3*~data=user_id=0,application_id=42~hmac=a26caf6936bfb256c605f437d0b865f09ceb0eeef27226e97d5237c97fa4ff05",
+        "image_id": "89d401ea7aecb97639fa86c81213de51"
+    },
+    {
+        "id": 533630952,
+        "name": "Reptile",
+        "artist": "Nine Inch Nails",
+        "album": "The Downward Spiral (Deluxe Edition)",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/0/2/b/0/02bbafa24054596b830f72a5e8cd23a4.mp3?hdnea=exp=1767843753~acl=/api/1/1/0/2/b/0/02bbafa24054596b830f72a5e8cd23a4.mp3*~data=user_id=0,application_id=42~hmac=92814427bb33a3e16cec272f44e7b5d21cbd5c1be3fa13c5e4907a42751d54b2",
+        "image_id": "4b33dd72a103a8fda67222178d57e1b2"
+    },
+    {
+        "id": 2307303,
+        "name": "Dragula",
+        "artist": "Rob Zombie",
+        "album": "Hellbilly Deluxe",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/3/5/0/0/3500e48eab8e63cb630c787397e8eb6a.mp3?hdnea=exp=1767843754~acl=/api/1/1/3/5/0/0/3500e48eab8e63cb630c787397e8eb6a.mp3*~data=user_id=0,application_id=42~hmac=891e4bdb4251dbfeded862b5145e9b796f68017c8299c5cf8a35f8298a6c71cd",
+        "image_id": "9ec5b52540fbb85df121d796616a8bfc"
+    },
+    {
+        "id": 87407075,
+        "name": "Wish",
+        "artist": "Nine Inch Nails",
+        "album": "Broken",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/5/b/6/0/5b67ccab438276785732bada1ea8e2f1.mp3?hdnea=exp=1767843755~acl=/api/1/1/5/b/6/0/5b67ccab438276785732bada1ea8e2f1.mp3*~data=user_id=0,application_id=42~hmac=5ed8d96f9fc3f02366f1fd89cd2b914b46204aeb50240fa133a01fa2036fa2eb",
+        "image_id": "253deaa09fe7e5ee4647eda3ae9ba735"
+    },
+    {
+        "id": 6640855,
+        "name": "Blue Monday",
+        "artist": "Orgy",
+        "album": "Candyass",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/3/d/9/0/3d901c8ed3639c48bf111f4f2c8cbd08.mp3?hdnea=exp=1767843757~acl=/api/1/1/3/d/9/0/3d901c8ed3639c48bf111f4f2c8cbd08.mp3*~data=user_id=0,application_id=42~hmac=2e90263569b84630b087506bf3c3b94eb9d71f6da71c852857bbf0d53fdcd9c3",
+        "image_id": "56a30373a461733fad5abbec12e1794c"
+    },
+    {
+        "id": 25983971,
+        "name": "Vivica",
+        "artist": "Jack Off Jill",
+        "album": "Clear Hearts Grey Flowers",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/b/0/d/0/b0d9d116ac121bcdf96b6276d5cef904.mp3?hdnea=exp=1767843757~acl=/api/1/1/b/0/d/0/b0d9d116ac121bcdf96b6276d5cef904.mp3*~data=user_id=0,application_id=42~hmac=2e2d7c05be25c8875552179639d32988be31222700a6eab1f7ef52010439d518",
+        "image_id": "94d80d20d8d431748f3d0e153b186117"
+    },
+    {
+        "id": 14381638,
+        "name": "Sonne",
+        "artist": "Rammstein",
+        "album": "Mutter",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/7/d/4/0/7d416d9e18429664bbbc702ec6fab8d7.mp3?hdnea=exp=1767843758~acl=/api/1/1/7/d/4/0/7d416d9e18429664bbbc702ec6fab8d7.mp3*~data=user_id=0,application_id=42~hmac=ae6b7448d1aeaec5336244b995c46b7f4de9d1951ab2dd49c798436d85a1dfce",
+        "image_id": "6eabee34f76bd01d2562469d41c63c4d"
+    },
+    {
+        "id": 1172670,
+        "name": "Somewhat Damaged",
+        "artist": "Nine Inch Nails",
+        "album": "The Fragile",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/b/4/2/0/b420ddcf155b2d16395e2fc1a819742d.mp3?hdnea=exp=1767843758~acl=/api/1/1/b/4/2/0/b420ddcf155b2d16395e2fc1a819742d.mp3*~data=user_id=0,application_id=42~hmac=1be7203152692b4a99dcc9fffb4faab5f51b14cce4c3830b1bde9255a8e2f67f",
+        "image_id": "43ed0ea0b77d4cf8c972f641cafb805a"
+    },
+    {
+        "id": 34982201,
+        "name": "Take It Like A Man",
+        "artist": "KMFDM",
+        "album": "WTF?!",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/8/0/4/0/8043d352ce0f06f76d657ce0b2d32642.mp3?hdnea=exp=1767843759~acl=/api/1/1/8/0/4/0/8043d352ce0f06f76d657ce0b2d32642.mp3*~data=user_id=0,application_id=42~hmac=520a4e801f469f8dffac75a8d0ec1195204cdf062fdd5d74f966147d6ca7771c",
+        "image_id": "4dee99e80cc91658677aa7ebfb536eb7"
+    },
+    {
+        "id": 1172674,
+        "name": "We're In This Together",
+        "artist": "Nine Inch Nails",
+        "album": "The Fragile",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/9/f/2/0/9f2c5dd18e3cbc9f7140962147ba2344.mp3?hdnea=exp=1767843760~acl=/api/1/1/9/f/2/0/9f2c5dd18e3cbc9f7140962147ba2344.mp3*~data=user_id=0,application_id=42~hmac=8c44e2714744583541bc9720562cb0c0fe5f34da10cc1b8644c8e981bf02c7a8",
+        "image_id": "43ed0ea0b77d4cf8c972f641cafb805a"
+    },
+    {
+        "id": 34994681,
+        "name": "Anarchy",
+        "artist": "KMFDM",
+        "album": "Symbols",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/6/4/d/0/64d00a9ccd68887941f0c0515d1577fe.mp3?hdnea=exp=1767843761~acl=/api/1/1/6/4/d/0/64d00a9ccd68887941f0c0515d1577fe.mp3*~data=user_id=0,application_id=42~hmac=2c813e60af28571edaedafa78b23c5776f607e4f17482431a51f2a1bd6e685b8",
+        "image_id": "e4bd23353df71af29b31076ecbc45225"
+    },
+    {
+        "id": 1172683,
+        "name": "Into The Void",
+        "artist": "Nine Inch Nails",
+        "album": "The Fragile",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/8/5/b/0/85babb2cbe00a5d2b4215620c12faa34.mp3?hdnea=exp=1767843762~acl=/api/1/1/8/5/b/0/85babb2cbe00a5d2b4215620c12faa34.mp3*~data=user_id=0,application_id=42~hmac=cdacca98350bdbeb2de15a8a92d61d3e8fd8581e6db0fa33c3738f2a21455255",
+        "image_id": "43ed0ea0b77d4cf8c972f641cafb805a"
+    },
+    {
+        "id": 1173962,
+        "name": "The Becoming",
+        "artist": "Nine Inch Nails",
+        "album": "The Downward Spiral",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/a/c/c/0/acc62a8a8220bef7aaad461cd9c320d1.mp3?hdnea=exp=1767843762~acl=/api/1/1/a/c/c/0/acc62a8a8220bef7aaad461cd9c320d1.mp3*~data=user_id=0,application_id=42~hmac=0f0f5696fb8239b96687b445f1d82d5bcd138542d1908bc645f8954cb56636eb",
+        "image_id": "89d401ea7aecb97639fa86c81213de51"
+    },
+    {
+        "id": 73519926,
+        "name": "Evening Wear",
+        "artist": "Mindless Self Indulgence",
+        "album": "If",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/9/2/7/0/92738032d6e26aa49fe68c1a69f22185.mp3?hdnea=exp=1767843764~acl=/api/1/1/9/2/7/0/92738032d6e26aa49fe68c1a69f22185.mp3*~data=user_id=0,application_id=42~hmac=531fc1b8ead792ed7b2bc1ad39bacc4808b850d550ee3c2be963ee054bf297ad",
+        "image_id": "e6a7f2d84ecf81b656f24cc36f116dd0"
+    },
+    {
+        "id": 1172687,
+        "name": "Starfuckers, Inc.",
+        "artist": "Nine Inch Nails",
+        "album": "The Fragile",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/8/f/9/0/8f981570f194091d3678c75132e9a1e7.mp3?hdnea=exp=1767843765~acl=/api/1/1/8/f/9/0/8f981570f194091d3678c75132e9a1e7.mp3*~data=user_id=0,application_id=42~hmac=5fffb5803aea4f215f2b2bfc10fc9ee8b962a6a528f702f6b7e97418abd54bb6",
+        "image_id": "43ed0ea0b77d4cf8c972f641cafb805a"
+    },
+    {
+        "id": 24249411,
+        "name": "Sunspots",
+        "artist": "Nine Inch Nails",
+        "album": "With Teeth",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/b/2/c/0/b2c6e6e7480513e49a19f913f7821a38.mp3?hdnea=exp=1767843766~acl=/api/1/1/b/2/c/0/b2c6e6e7480513e49a19f913f7821a38.mp3*~data=user_id=0,application_id=42~hmac=042d69f79e461bc88763c6e7c766cb6903740fd1e69c3de37a5477f12438ee57",
+        "image_id": "16eba9f44b989aa95ba748594a5cbcca"
+    },
+    {
+        "id": 63558975,
+        "name": "Kunst",
+        "artist": "KMFDM",
+        "album": "Kunst",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/0/3/d/0/03d96097658d81985759634881308cee.mp3?hdnea=exp=1767843767~acl=/api/1/1/0/3/d/0/03d96097658d81985759634881308cee.mp3*~data=user_id=0,application_id=42~hmac=10dc3346779e7cb0e356597131842c753db19b7ccc25159338f9b3578f7db414",
+        "image_id": "0090027cadf4ead4473562137b46b6ff"
+    },
+    {
+        "id": 2307304,
+        "name": "Living Dead Girl",
+        "artist": "Rob Zombie",
+        "album": "Hellbilly Deluxe",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/3/0/2/0/302f29e5ab4f40b48a44255c35c663c0.mp3?hdnea=exp=1767843769~acl=/api/1/1/3/0/2/0/302f29e5ab4f40b48a44255c35c663c0.mp3*~data=user_id=0,application_id=42~hmac=8b4a5773ca10b7c8f0753e29c9304685e69bd516504e33f6e831905047411859",
+        "image_id": "9ec5b52540fbb85df121d796616a8bfc"
+    },
+    {
+        "id": 1173968,
+        "name": "The Downward Spiral",
+        "artist": "Nine Inch Nails",
+        "album": "The Downward Spiral",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/7/7/b/0/77b9fee5b81bcdd8c104c3ff7142b700.mp3?hdnea=exp=1767843769~acl=/api/1/1/7/7/b/0/77b9fee5b81bcdd8c104c3ff7142b700.mp3*~data=user_id=0,application_id=42~hmac=d4540081b5895f4a8c9b04f8007af3ce375037762414363f5dc20e671bfe3346",
+        "image_id": "89d401ea7aecb97639fa86c81213de51"
+    },
+    {
+        "id": 14381640,
         "name": "Feuer frei!",
         "artist": "Rammstein",
         "album": "Mutter",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/b/5/f/0/b5f4d462efed8aa83b93cb0b7b86e51e.mp3?hdnea=exp=1767351255~acl=/api/1/1/b/5/f/0/b5f4d462efed8aa83b93cb0b7b86e51e.mp3*~data=user_id=0,application_id=42~hmac=caa526182139db73704e0e2b8020103e96ae9faa8d7d5e203f7b9d46c3d5c687",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/b/5/f/0/b5f4d462efed8aa83b93cb0b7b86e51e.mp3?hdnea=exp=1767843771~acl=/api/1/1/b/5/f/0/b5f4d462efed8aa83b93cb0b7b86e51e.mp3*~data=user_id=0,application_id=42~hmac=8f97dbb5fc0ba6610eaeee16172a65940a3356f8231154942329799e1afd6929",
         "image_id": "6eabee34f76bd01d2562469d41c63c4d"
     }
 ]

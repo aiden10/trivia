@@ -1,233 +1,266 @@
 [
     {
+        "id": 975952742,
         "name": "Again",
         "artist": "Yui",
         "album": "again",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/0/0/8/0/0088db7ca55f96d4e9c9cc4dfab3d161.mp3?hdnea=exp=1767351274~acl=/api/1/1/0/0/8/0/0088db7ca55f96d4e9c9cc4dfab3d161.mp3*~data=user_id=0,application_id=42~hmac=1580f843f35b3a177e9ad5ecf1f1e0f8de113a51710f139114ba39312a0b0883",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/0/0/8/0/0088db7ca55f96d4e9c9cc4dfab3d161.mp3?hdnea=exp=1767857819~acl=/api/1/1/0/0/8/0/0088db7ca55f96d4e9c9cc4dfab3d161.mp3*~data=user_id=0,application_id=42~hmac=316ff975cd54ab5f677c30454bf1533092ed93921067e0d1b4e55e4254d07f24",
         "image_id": "80306b5b01aa8590462233004add3ca1"
     },
     {
+        "id": 975894152,
         "name": "Lonely in Gorgeous",
         "artist": "Tommy February6",
         "album": "Lonely in Gorgeous",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/b/5/f/0/b5fa8ff6b9f6fcc64f56dc550acd08f1.mp3?hdnea=exp=1767351274~acl=/api/1/1/b/5/f/0/b5fa8ff6b9f6fcc64f56dc550acd08f1.mp3*~data=user_id=0,application_id=42~hmac=afbef5022b16593758b474780d3d3de7897879909b2efb4bf333a5b3a743d495",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/b/5/f/0/b5fa8ff6b9f6fcc64f56dc550acd08f1.mp3?hdnea=exp=1767857821~acl=/api/1/1/b/5/f/0/b5fa8ff6b9f6fcc64f56dc550acd08f1.mp3*~data=user_id=0,application_id=42~hmac=7b77485eebac9a3bc970886ca6dd80b13c21090f11386e9bcbe432fa3fc77233",
         "image_id": "fb60a8a69d93a5a57e9d3f2632cea9ba"
     },
     {
+        "id": 975978822,
         "name": "Re: Re: Single version",
         "artist": "Asian Kung-Fu Generation",
         "album": "Re:Re:",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/7/0/b/0/70b2b2705cd370338386ed04c7b0134d.mp3?hdnea=exp=1767351275~acl=/api/1/1/7/0/b/0/70b2b2705cd370338386ed04c7b0134d.mp3*~data=user_id=0,application_id=42~hmac=4cf4ab2c50ffdd8676f8648f9afec2b87c8cd1b57d6911232c5eb5365f42990d",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/7/0/b/0/70b2b2705cd370338386ed04c7b0134d.mp3?hdnea=exp=1767857821~acl=/api/1/1/7/0/b/0/70b2b2705cd370338386ed04c7b0134d.mp3*~data=user_id=0,application_id=42~hmac=2d7fb914ab812b833a1bca1e37b0b5f3427836d7c464ef71a9bb711edcd5ba91",
         "image_id": "4b6954804e8f4976f75d78ee703f21ce"
     },
     {
+        "id": 2593430612,
         "name": "battlecry",
         "artist": "Nujabes",
         "album": "samurai champloo music record departure",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/b/3/0/0/b303e7735407506ba9bbe0ee21e584b8.mp3?hdnea=exp=1767351275~acl=/api/1/1/b/3/0/0/b303e7735407506ba9bbe0ee21e584b8.mp3*~data=user_id=0,application_id=42~hmac=75c436a8ca793a849b05016ec18b3b992fab831d5267e499ca70911e82291289",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/b/3/0/0/b303e7735407506ba9bbe0ee21e584b8.mp3?hdnea=exp=1767857823~acl=/api/1/1/b/3/0/0/b303e7735407506ba9bbe0ee21e584b8.mp3*~data=user_id=0,application_id=42~hmac=e1536a5325d27e0ab1a33867bc7f03c1c5ca7868a6f004d503334985fea1f8c6",
         "image_id": "90de339798d6c7bbd11013ba1550cf8c"
     },
     {
+        "id": 976372622,
         "name": "Core Pride",
         "artist": "UVERworld",
         "album": "LIFE 6 SENSE",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/4/1/e/0/41e891aac4d971d959fec3534d734d68.mp3?hdnea=exp=1767351277~acl=/api/1/1/4/1/e/0/41e891aac4d971d959fec3534d734d68.mp3*~data=user_id=0,application_id=42~hmac=19f00616c6e3a525200c44cb3166b676ead770727fcba83c19b843b8750119f3",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/4/1/e/0/41e891aac4d971d959fec3534d734d68.mp3?hdnea=exp=1767857823~acl=/api/1/1/4/1/e/0/41e891aac4d971d959fec3534d734d68.mp3*~data=user_id=0,application_id=42~hmac=e452f3db1b42be09155753d46fde59ce4adc1754ff3dcb2d325d7ca5e9dc1e31",
         "image_id": "9a70417741621fa8acd25df15ba0343c"
     },
     {
+        "id": 976080482,
         "name": "Period",
         "artist": "CHEMISTRY",
         "album": "Period",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/6/1/9/0/619769bc653e1c82d0d845001f1839a7.mp3?hdnea=exp=1767351277~acl=/api/1/1/6/1/9/0/619769bc653e1c82d0d845001f1839a7.mp3*~data=user_id=0,application_id=42~hmac=9702db174accec352657db83458085494351337c81772d1eae37c46f1b925a3c",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/6/1/9/0/619769bc653e1c82d0d845001f1839a7.mp3?hdnea=exp=1767857825~acl=/api/1/1/6/1/9/0/619769bc653e1c82d0d845001f1839a7.mp3*~data=user_id=0,application_id=42~hmac=0e8d69f05b6c168fcc5f3e225ea3dc75d2be98d33ee40cc71f31e4d5e5867ea9",
         "image_id": "066e25ca460b92a15a9435c727022554"
     },
     {
+        "id": 976272992,
         "name": "Snow White",
         "artist": "Buck-Tick",
         "album": "Tenshi No Revolver",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/3/b/3/0/3b345a42859d9faf3ea8184539a5f6d3.mp3?hdnea=exp=1767351278~acl=/api/1/1/3/b/3/0/3b345a42859d9faf3ea8184539a5f6d3.mp3*~data=user_id=0,application_id=42~hmac=1ac2eed14ae886ab66755aee9dbe364aa00bc3aa2d1bbc42576fcc336559bf26",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/3/b/3/0/3b345a42859d9faf3ea8184539a5f6d3.mp3?hdnea=exp=1767857826~acl=/api/1/1/3/b/3/0/3b345a42859d9faf3ea8184539a5f6d3.mp3*~data=user_id=0,application_id=42~hmac=4e51d3938fe1ca34ebc01926ad67ded23bbbb1640fb2dbd32c2165a19aeeec63",
         "image_id": "bb8bf6f878d2c9ebdbb9907d21b20697"
     },
     {
+        "id": 3465954051,
         "name": "Megitsune",
         "artist": "BABYMETAL",
         "album": "10 BABYMETAL YEARS",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/3/e/d/0/3ed5c456bbaf385f1720f04a348d949d.mp3?hdnea=exp=1767351278~acl=/api/1/1/3/e/d/0/3ed5c456bbaf385f1720f04a348d949d.mp3*~data=user_id=0,application_id=42~hmac=60a3834c7bb174ca9ac9aa48c8333a82e525d891f425f9f8332fc1453821dea3",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/3/e/d/0/3ed5c456bbaf385f1720f04a348d949d.mp3?hdnea=exp=1767857827~acl=/api/1/1/3/e/d/0/3ed5c456bbaf385f1720f04a348d949d.mp3*~data=user_id=0,application_id=42~hmac=4dba01b18817c1daf57938b71108a2d7a71a547eb23a94ca8cde284413bd6053",
         "image_id": "e5fa9163af10c8e247ec2a0c8fd1d1f8"
     },
     {
+        "id": 2791873052,
         "name": "reflection eternal",
         "artist": "Nujabes",
         "album": "Modal Soul",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/7/a/9/0/7a9922bcdd30fcf8fdb02e23c08e4b12.mp3?hdnea=exp=1767351278~acl=/api/1/1/7/a/9/0/7a9922bcdd30fcf8fdb02e23c08e4b12.mp3*~data=user_id=0,application_id=42~hmac=f3557756e495e7d530bc7e7bc3b16e244f9f309840599b4fd12ed886030ddab2",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/7/a/9/0/7a9922bcdd30fcf8fdb02e23c08e4b12.mp3?hdnea=exp=1767857827~acl=/api/1/1/7/a/9/0/7a9922bcdd30fcf8fdb02e23c08e4b12.mp3*~data=user_id=0,application_id=42~hmac=bd4b6fb4b504812924e28dfb432c7b6bfbe1f63f9f036c7ccef2839cdd819af8",
         "image_id": "df84078a237cfcc1632b2e1e3796b9c6"
     },
     {
+        "id": 3919981,
         "name": "Beef Jerky",
         "artist": "Cibo Matto",
         "album": "Viva! La Woman",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/2/a/9/0/2a9668ce15207342d85900dcbd75ddfd.mp3?hdnea=exp=1767351279~acl=/api/1/1/2/a/9/0/2a9668ce15207342d85900dcbd75ddfd.mp3*~data=user_id=0,application_id=42~hmac=317ed2b4cea26ccca4d9513d2750c169d65f43761881e556c0740f372574e0a4",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/2/a/9/0/2a9668ce15207342d85900dcbd75ddfd.mp3?hdnea=exp=1767857828~acl=/api/1/1/2/a/9/0/2a9668ce15207342d85900dcbd75ddfd.mp3*~data=user_id=0,application_id=42~hmac=3216b3b8b3ed81782410af8a252d0c6c48868aaa8a7070773735af4b15a0d19a",
         "image_id": "09e11f8200ad0fdfd613cd3b9ae73d94"
     },
     {
+        "id": 2593430772,
         "name": "Shiki no Uta",
         "artist": "MINMI",
         "album": "samurai champloo music record departure",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/f/8/8/0/f8842157dcd4fa9e57d661d6102e6d6e.mp3?hdnea=exp=1767351279~acl=/api/1/1/f/8/8/0/f8842157dcd4fa9e57d661d6102e6d6e.mp3*~data=user_id=0,application_id=42~hmac=7f2dc7a8c08a88f04f303b76f89d908db3b36d69f1004469eb9f5f21696f521e",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/f/8/8/0/f8842157dcd4fa9e57d661d6102e6d6e.mp3?hdnea=exp=1767857829~acl=/api/1/1/f/8/8/0/f8842157dcd4fa9e57d661d6102e6d6e.mp3*~data=user_id=0,application_id=42~hmac=f542e6466e79b1d9b9aa9399d62d1a2c7bc681aeca1da806afd0b2c8919eac0c",
         "image_id": "90de339798d6c7bbd11013ba1550cf8c"
     },
     {
+        "id": 472515662,
         "name": "Brand New World",
         "artist": "D-51",
         "album": "Mitsuyoko Ichimura (Standard Edition)",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/9/e/b/0/9eb9563ced40e42b05ce64b168c6b13b.mp3?hdnea=exp=1767351280~acl=/api/1/1/9/e/b/0/9eb9563ced40e42b05ce64b168c6b13b.mp3*~data=user_id=0,application_id=42~hmac=a6b94fd154b333ccc8af1b04291a24f409eecb1420131fe8e77e1a3efb1a6486",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/9/e/b/0/9eb9563ced40e42b05ce64b168c6b13b.mp3?hdnea=exp=1767857831~acl=/api/1/1/9/e/b/0/9eb9563ced40e42b05ce64b168c6b13b.mp3*~data=user_id=0,application_id=42~hmac=325c873c3e4105f9430f75caa465c54861e111334f6989d46d4e78c3fa2ffbf0",
         "image_id": "533dfafc8aeccd4694cba03290364a1d"
     },
     {
+        "id": 2665292502,
         "name": "the WORLD (TV Size)",
         "artist": "Nightmare",
         "album": "DEATH NOTE Original Soundtrack",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/0/c/8/0/0c86cff290fcdae83f126fc06eb47af1.mp3?hdnea=exp=1767351280~acl=/api/1/1/0/c/8/0/0c86cff290fcdae83f126fc06eb47af1.mp3*~data=user_id=0,application_id=42~hmac=0e565ced12ead42a10aad952ea5f9d131419bfbcdebfe548ecd61c9df500deed",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/0/c/8/0/0c86cff290fcdae83f126fc06eb47af1.mp3?hdnea=exp=1767857832~acl=/api/1/1/0/c/8/0/0c86cff290fcdae83f126fc06eb47af1.mp3*~data=user_id=0,application_id=42~hmac=95b6c8dc3d042b522d90b5e52363339f9b67918d79240d033ae0e6e72d8099c2",
         "image_id": "dad4e2e2d36040d0661994470a183fbd"
     },
     {
+        "id": 975978682,
         "name": "PAPERMOON",
         "artist": "Tommy heavenly6",
         "album": "PAPERMOON",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/2/5/f/0/25f40532914084365cfec23fe1f892f7.mp3?hdnea=exp=1767351280~acl=/api/1/1/2/5/f/0/25f40532914084365cfec23fe1f892f7.mp3*~data=user_id=0,application_id=42~hmac=47a9c8ba135680b500838b955ad659d2b5b8fae381bbdfbf71f3d61ada9bd418",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/2/5/f/0/25f40532914084365cfec23fe1f892f7.mp3?hdnea=exp=1767857834~acl=/api/1/1/2/5/f/0/25f40532914084365cfec23fe1f892f7.mp3*~data=user_id=0,application_id=42~hmac=33522b2799dea06d427ea860433af45d888c680c6e63317bf4fd3ce4b46e92df",
         "image_id": "5241bd32fd91dce0103d9c14f5d8dd73"
     },
     {
+        "id": 976651752,
         "name": "Hero's Come Back!!",
         "artist": "Nobodyknows+",
-        "album": "Hero's Come Back!!",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/2/7/7/0/27796d5c0a412d69b23a5c15313a2a37.mp3?hdnea=exp=1767351281~acl=/api/1/1/2/7/7/0/27796d5c0a412d69b23a5c15313a2a37.mp3*~data=user_id=0,application_id=42~hmac=f552cfd6d2dff818fca4d4a3f6054d4287ffbf1d6ad519728313b269df9b0f75",
-        "image_id": "a7fa76ec4d9fb505b9910d31cb2231f1"
+        "album": "best of nobodyknows+",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/b/2/1/0/b21c96a45efb323faaddab383a1d6e2c.mp3?hdnea=exp=1767857834~acl=/api/1/1/b/2/1/0/b21c96a45efb323faaddab383a1d6e2c.mp3*~data=user_id=0,application_id=42~hmac=cde4f4aa03504bae0468206034d8cd48e81666bb409a48663f92e7f7bb42648c",
+        "image_id": "33472c79446fd723cb7c96c438cb3e31"
     },
     {
+        "id": 1319323962,
         "name": "Magia",
         "artist": "Kalafina",
         "album": "Puella Magi Madoka Magica Ultimate Best",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/f/b/f/0/fbf5df8e6d88f6fb4554d17fb213b875.mp3?hdnea=exp=1767351281~acl=/api/1/1/f/b/f/0/fbf5df8e6d88f6fb4554d17fb213b875.mp3*~data=user_id=0,application_id=42~hmac=4a5b1c34a8507a03a86eef683186ec34f10a68109a7368847098cd72cde83310",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/f/b/f/0/fbf5df8e6d88f6fb4554d17fb213b875.mp3?hdnea=exp=1767857836~acl=/api/1/1/f/b/f/0/fbf5df8e6d88f6fb4554d17fb213b875.mp3*~data=user_id=0,application_id=42~hmac=9f591dc0c851ca2dcba1199c45601c956bbb3390e6a1535283490ffeb7d004a5",
         "image_id": "bb75447eae9358b5b229eb8dc3c2d305"
     },
     {
-        "name": "Colors",
+        "id": 976202472,
+        "name": "Colors (Code Geass Opening Mix)",
         "artist": "FLOw",
         "album": "COLORS",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/5/1/4/0/5148dcdad89a2e4edfe60ef1b10a5f1b.mp3?hdnea=exp=1767351282~acl=/api/1/1/5/1/4/0/5148dcdad89a2e4edfe60ef1b10a5f1b.mp3*~data=user_id=0,application_id=42~hmac=cc099c7343fe859e7a2787422fe1029a47fdae7e4327bac4d5ba2f02bbc70c24",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/a/4/f/0/a4f89f053fe718f1106d96afe992c90e.mp3?hdnea=exp=1767857837~acl=/api/1/1/a/4/f/0/a4f89f053fe718f1106d96afe992c90e.mp3*~data=user_id=0,application_id=42~hmac=0ccfec9b1d24987066bf99c427cc16e186d7e81ca15f0db9f447c65dd0dd045b",
         "image_id": "4121aa99a053f9f594299a2c96340a05"
     },
     {
+        "id": 976067962,
         "name": "In My World",
         "artist": "Rookiez Is Punk'd",
         "album": "IN MY WORLD",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/e/d/f/0/edf14508519ad582263f3560b9355b5a.mp3?hdnea=exp=1767351282~acl=/api/1/1/e/d/f/0/edf14508519ad582263f3560b9355b5a.mp3*~data=user_id=0,application_id=42~hmac=0941d7a042a958558e81b029ba5140fb588c2edb91102d06ba4bea3e855c3b1f",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/e/d/f/0/edf14508519ad582263f3560b9355b5a.mp3?hdnea=exp=1767857839~acl=/api/1/1/e/d/f/0/edf14508519ad582263f3560b9355b5a.mp3*~data=user_id=0,application_id=42~hmac=e970938d9c6ce826f3334a277fb48d0a24e769c8bf33ce3944a84f506ba3d971",
         "image_id": "b6c4bea05ff02cbe2484abfb88009303"
     },
     {
+        "id": 3137186291,
         "name": "My Soul, Your Beats!",
         "artist": "LIA",
         "album": "My Soul, Your Beats!/Brave Song",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/d/5/e/0/d5e65fa28a370825897669cc0f07aa54.mp3?hdnea=exp=1767351282~acl=/api/1/1/d/5/e/0/d5e65fa28a370825897669cc0f07aa54.mp3*~data=user_id=0,application_id=42~hmac=b8c9d714660bc2c3aea34343265cd7a546d987d0250b105d1876974846f2abe3",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/d/5/e/0/d5e65fa28a370825897669cc0f07aa54.mp3?hdnea=exp=1767857841~acl=/api/1/1/d/5/e/0/d5e65fa28a370825897669cc0f07aa54.mp3*~data=user_id=0,application_id=42~hmac=5ea6f168c08eea0794a5aa3cb690d6132e9ad1ee3a0048ffd8fad01769a06d40",
         "image_id": "0e6d628fa4834b30c8845f5d0a53a7eb"
     },
     {
+        "id": 2210493097,
         "name": "\u30a2\u30a4\u30c9\u30eb",
         "artist": "YOASOBI",
         "album": "\u30a2\u30a4\u30c9\u30eb",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/a/1/b/0/a1b1229cd6ba1b059ae4046bcbbe0ac0.mp3?hdnea=exp=1767351283~acl=/api/1/1/a/1/b/0/a1b1229cd6ba1b059ae4046bcbbe0ac0.mp3*~data=user_id=0,application_id=42~hmac=12466bd23ea9eefa2b3b3ccdf3e5b0ef2b0f18d6aa4b8ce3ad6bca5522deba7c",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/a/1/b/0/a1b1229cd6ba1b059ae4046bcbbe0ac0.mp3?hdnea=exp=1767857842~acl=/api/1/1/a/1/b/0/a1b1229cd6ba1b059ae4046bcbbe0ac0.mp3*~data=user_id=0,application_id=42~hmac=21be48e6edec47132b672386f8f7a22140893a51d4af49568a9df5f3e5f3dc4b",
         "image_id": "c028acc15f911c6ca3ff821abbb64aa3"
     },
     {
-        "name": "Bad Apple!! feat.nomico",
-        "artist": "Nomico",
-        "album": "10th Anniversary Bad Apple!! feat.nomico PHASE3",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/1/4/d/0/14dbeb3f298337b218bc061c91054f16.mp3?hdnea=exp=1767351284~acl=/api/1/1/1/4/d/0/14dbeb3f298337b218bc061c91054f16.mp3*~data=user_id=0,application_id=42~hmac=b50c6069f332ef87b6e3bb389c28a1d2be87d9ffdbfdc7de32ec8b4b680b3a56",
-        "image_id": "3cacc9f3d0cc1987a4712402fe4ce02c"
+        "id": 2492975551,
+        "name": "Bad Apple!! feat. nomico (\u8c5a\u4e59\u5973 Ver.)",
+        "artist": "Alstroemeria Records",
+        "album": "THE GAME",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/6/b/a/0/6ba762f00b7c4f2e12d8938965576cbe.mp3?hdnea=exp=1767857843~acl=/api/1/1/6/b/a/0/6ba762f00b7c4f2e12d8938965576cbe.mp3*~data=user_id=0,application_id=42~hmac=d0de624787f4d17da66739664cb9ace8e202fddbe25b2e8ad42c315fd4189d77",
+        "image_id": "923ef21cd2c900906c6665376f1205f9"
     },
     {
+        "id": 3296252841,
         "name": "only my railgun",
         "artist": "Fripside",
         "album": "only my railgun",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/b/7/6/0/b76a47b307804058023f7ef3b68886db.mp3?hdnea=exp=1767351284~acl=/api/1/1/b/7/6/0/b76a47b307804058023f7ef3b68886db.mp3*~data=user_id=0,application_id=42~hmac=7d923794c3f9d46c41c1ef32e46ed3259b2208f209abc8c92e36028bba3aecb3",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/b/7/6/0/b76a47b307804058023f7ef3b68886db.mp3?hdnea=exp=1767857845~acl=/api/1/1/b/7/6/0/b76a47b307804058023f7ef3b68886db.mp3*~data=user_id=0,application_id=42~hmac=b4196d5e8515875ed8425705ca296ed5ed27b6ec6d32f4dc795d4c96cd807d0e",
         "image_id": "8ea40d1fb972793589dde7a8b9736d43"
     },
     {
+        "id": 1124776602,
         "name": "Go!!!",
         "artist": "FLOw",
         "album": "FLOW ANIME BEST",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/9/2/c/0/92c991b489bd8981392547ffccf2f92b.mp3?hdnea=exp=1767351285~acl=/api/1/1/9/2/c/0/92c991b489bd8981392547ffccf2f92b.mp3*~data=user_id=0,application_id=42~hmac=c92559906d0e472d93800c58af9f99179b89867499f5bfd327081b71df41400b",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/9/2/c/0/92c991b489bd8981392547ffccf2f92b.mp3?hdnea=exp=1767857846~acl=/api/1/1/9/2/c/0/92c991b489bd8981392547ffccf2f92b.mp3*~data=user_id=0,application_id=42~hmac=1e2e22ff8567b6c32c3127d4d0d45d27d4dd0f6894cbb2c6dca5c17e0f07817f",
         "image_id": "3d16dc3a1f030e0303c8f1d965012e3c"
     },
     {
+        "id": 3269830221,
         "name": "Vanilla",
         "artist": "GACKT",
         "album": "MARS",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/2/7/6/0/2765208ae3b1a4141751784a3e0ad3ef.mp3?hdnea=exp=1767351285~acl=/api/1/1/2/7/6/0/2765208ae3b1a4141751784a3e0ad3ef.mp3*~data=user_id=0,application_id=42~hmac=aad660582dd8ed0d79cf8ca0047cdd4517a3a1086759b96032e7ff57d220400b",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/2/7/6/0/2765208ae3b1a4141751784a3e0ad3ef.mp3?hdnea=exp=1767857848~acl=/api/1/1/2/7/6/0/2765208ae3b1a4141751784a3e0ad3ef.mp3*~data=user_id=0,application_id=42~hmac=18129f779aaa76d31f1f28dde99cb840471ed6adc0d26c634586bfe82fd31a28",
         "image_id": "9b630f2da71ebe4746a7f7e1bb3b97ea"
     },
     {
+        "id": 413315022,
         "name": "Rydeen",
         "artist": "Yellow Magic Orchestra",
         "album": "Solid State Survivor",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/a/6/b/0/a6be310e770e6c0226bca39f97e9e55a.mp3?hdnea=exp=1767351285~acl=/api/1/1/a/6/b/0/a6be310e770e6c0226bca39f97e9e55a.mp3*~data=user_id=0,application_id=42~hmac=2a94bf1bce74975bfd73862627f58cf4927d4505f85f11ad0c81a9b5b9459b0c",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/a/6/b/0/a6be310e770e6c0226bca39f97e9e55a.mp3?hdnea=exp=1767857849~acl=/api/1/1/a/6/b/0/a6be310e770e6c0226bca39f97e9e55a.mp3*~data=user_id=0,application_id=42~hmac=d9e1f757bf57f213889568473d2858db76618ab1b40b0f3b29d1f6ef67c086b4",
         "image_id": "0c21a4f48e364a155a403c3f858c9955"
     },
     {
+        "id": 3919982,
         "name": "Sugar Water",
         "artist": "Cibo Matto",
         "album": "Viva! La Woman",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/6/5/d/0/65d49834db0c6a5f1b9827cb1999d18c.mp3?hdnea=exp=1767351286~acl=/api/1/1/6/5/d/0/65d49834db0c6a5f1b9827cb1999d18c.mp3*~data=user_id=0,application_id=42~hmac=37f15e54382756e90b5fd42279f1123f5b917eaa087e84a2d2070958368991ee",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/6/5/d/0/65d49834db0c6a5f1b9827cb1999d18c.mp3?hdnea=exp=1767857850~acl=/api/1/1/6/5/d/0/65d49834db0c6a5f1b9827cb1999d18c.mp3*~data=user_id=0,application_id=42~hmac=0af4359df1f612c682cc07226daa3da86eff80b900bfa6e66b338d35bb822509",
         "image_id": "09e11f8200ad0fdfd613cd3b9ae73d94"
     },
     {
+        "id": 1780554287,
         "name": "I'm Blue",
         "artist": "The 5.6.7.8's",
         "album": "Best Hits of The 5.6.7.8's",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/f/a/8/0/fa8440515da2b9bf1d400c960daac96f.mp3?hdnea=exp=1767351286~acl=/api/1/1/f/a/8/0/fa8440515da2b9bf1d400c960daac96f.mp3*~data=user_id=0,application_id=42~hmac=d359568f4347b93d73237d6b6d9cd1a780ef01d353659efa3406d6acab2fb43c",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/f/a/8/0/fa8440515da2b9bf1d400c960daac96f.mp3?hdnea=exp=1767857851~acl=/api/1/1/f/a/8/0/fa8440515da2b9bf1d400c960daac96f.mp3*~data=user_id=0,application_id=42~hmac=ecc2baeb360bc79df7b99e028cd3c9e97f38e0744c83428006dc68ff2f5b58fd",
         "image_id": "fedfee4e19f48ee0acba7fada670cea2"
     },
     {
+        "id": 2722335572,
         "name": "Cage",
         "artist": "Dir en grey",
         "album": "GAUZE",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/7/b/3/0/7b3bd65da44939d3340b5afca6e7c659.mp3?hdnea=exp=1767351287~acl=/api/1/1/7/b/3/0/7b3bd65da44939d3340b5afca6e7c659.mp3*~data=user_id=0,application_id=42~hmac=86980b2f76ecdde4b3571d1b4e4109b4d3152f6b8b967a1c5f76a81386479683",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/7/b/3/0/7b3bd65da44939d3340b5afca6e7c659.mp3?hdnea=exp=1767857852~acl=/api/1/1/7/b/3/0/7b3bd65da44939d3340b5afca6e7c659.mp3*~data=user_id=0,application_id=42~hmac=15ecb3dc5e00b52398833399bf00158406bb581f9ad0813d289fddea63b69061",
         "image_id": "a5768f35509e9f5aaa13009dcd6082e4"
     },
     {
+        "id": 3620224302,
         "name": "Clock Strikes",
         "artist": "ONE OK ROCK",
         "album": "Jinsei \u00d7 Boku =",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/e/7/a/0/e7a0cdd975eb1c38e70dec7e9521f090.mp3?hdnea=exp=1767351288~acl=/api/1/1/e/7/a/0/e7a0cdd975eb1c38e70dec7e9521f090.mp3*~data=user_id=0,application_id=42~hmac=e47b63e47e6b64107270e7b21226c4cb22f6bef06601a13ebfbd7b1553599418",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/e/7/a/0/e7a0cdd975eb1c38e70dec7e9521f090.mp3?hdnea=exp=1767857854~acl=/api/1/1/e/7/a/0/e7a0cdd975eb1c38e70dec7e9521f090.mp3*~data=user_id=0,application_id=42~hmac=6c9fbb6b8b2bc5ed231bc7f8ad568599349e25ff4ee917e1f75056eb268f29a0",
         "image_id": "d934f875540c61b19d43ac28c1987702"
     },
     {
+        "id": 1642400802,
         "name": "Long Kiss Good Bye",
         "artist": "HALCALI",
         "album": "Long Kiss Good Bye",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/5/c/7/0/5c7d3d8728598bc4b8b7b5ee557fba38.mp3?hdnea=exp=1767351288~acl=/api/1/1/5/c/7/0/5c7d3d8728598bc4b8b7b5ee557fba38.mp3*~data=user_id=0,application_id=42~hmac=ab64f887f14705d190cc13b897ea801c855622edd7ce8fa6d121329690aec261",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/5/c/7/0/5c7d3d8728598bc4b8b7b5ee557fba38.mp3?hdnea=exp=1767857855~acl=/api/1/1/5/c/7/0/5c7d3d8728598bc4b8b7b5ee557fba38.mp3*~data=user_id=0,application_id=42~hmac=c4711fc208f76155135ba1f4995843db4974b6a087c23d7e976ec6580769942f",
         "image_id": "7d07c9d4324575b0ae2be6984b523cc0"
     },
     {
+        "id": 479909412,
         "name": "Don't Leave Me",
         "artist": "BTS",
         "album": "FACE YOURSELF",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/1/2/5/0/125f6ef9e17c6f90f1f15d613fbe9b0a.mp3?hdnea=exp=1767351288~acl=/api/1/1/1/2/5/0/125f6ef9e17c6f90f1f15d613fbe9b0a.mp3*~data=user_id=0,application_id=42~hmac=ccdb3d21ad4f4bfb9b01fba422752159b08485c5ba2ad15efe59b0384d33dc3c",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/1/2/5/0/125f6ef9e17c6f90f1f15d613fbe9b0a.mp3?hdnea=exp=1767857857~acl=/api/1/1/1/2/5/0/125f6ef9e17c6f90f1f15d613fbe9b0a.mp3*~data=user_id=0,application_id=42~hmac=d11e38b08f1f7f4fa471f4560cf0b697bf6be2591b38879f81ff15f6b3aaacd2",
         "image_id": "eab0e6acd1cc800485967e5379fde262"
     },
     {
+        "id": 621145402,
         "name": "Theme of Laura",
         "artist": "Akira Yamaoka",
         "album": "SILENT HILL2 \uff08Original Soundtrack\uff09",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/4/f/c/0/4fccd518fac918fc8a7143c7b6448f65.mp3?hdnea=exp=1767351289~acl=/api/1/1/4/f/c/0/4fccd518fac918fc8a7143c7b6448f65.mp3*~data=user_id=0,application_id=42~hmac=f2103cd47daf5c773528e33a2e0b40dda628ab0a4e5547fb77a3f64f91f7d94e",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/4/f/c/0/4fccd518fac918fc8a7143c7b6448f65.mp3?hdnea=exp=1767857858~acl=/api/1/1/4/f/c/0/4fccd518fac918fc8a7143c7b6448f65.mp3*~data=user_id=0,application_id=42~hmac=8c77c438a01a76acd127feb2db182132178b9a70daa45eba328d4ba365897253",
         "image_id": "c093c59eb82c1e0737eec25c53cda00f"
     },
     {
+        "id": 975987482,
         "name": "Romance",
         "artist": "Buck-Tick",
         "album": "Romance",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/8/2/3/0/8233d95e9e4e35705470bc1d74d862a2.mp3?hdnea=exp=1767351289~acl=/api/1/1/8/2/3/0/8233d95e9e4e35705470bc1d74d862a2.mp3*~data=user_id=0,application_id=42~hmac=88be35d5a8bbeb5adfda0bec7caf8f3d01aea2dc7bbd63701b3f125c240538f8",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/8/2/3/0/8233d95e9e4e35705470bc1d74d862a2.mp3?hdnea=exp=1767857859~acl=/api/1/1/8/2/3/0/8233d95e9e4e35705470bc1d74d862a2.mp3*~data=user_id=0,application_id=42~hmac=b1ce0e53d81ee6858eed7cc1cd66d36d935759be13213ccda9ca046c3ca43f61",
         "image_id": "4f19f79a94be1b2db284c1de15c88e72"
     }
 ]

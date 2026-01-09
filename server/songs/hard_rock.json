@@ -1,240 +1,274 @@
 [
     {
+        "id": 2490357,
         "name": "Danket dem Herrn",
         "artist": "B\u00f6hse Onkelz",
         "album": "E.I.N.S.",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/a/a/6/0/aa6d8ae5a0c1270b3ffa313681f9f208.mp3?hdnea=exp=1767350216~acl=/api/1/1/a/a/6/0/aa6d8ae5a0c1270b3ffa313681f9f208.mp3*~data=user_id=0,application_id=42~hmac=c271f1e9f7204b7d8564f430c4f62602d6c78b12855355b989cbac4e4f0422e1",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/a/a/6/0/aa6d8ae5a0c1270b3ffa313681f9f208.mp3?hdnea=exp=1767848396~acl=/api/1/1/a/a/6/0/aa6d8ae5a0c1270b3ffa313681f9f208.mp3*~data=user_id=0,application_id=42~hmac=0867c0988e93430e157792171615fcbb78aa5e54ad88f5cc0e7661323e7163f9",
         "image_id": "77b2aeff48cae65a1cc546314dd115d7"
     },
     {
+        "id": 145569396,
         "name": "Savage Heart",
         "artist": "Pretty Maids",
         "album": "The Best of...Back to Back",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/e/d/5/0/ed51e91fbe028afdc274b9f546d076a9.mp3?hdnea=exp=1767350216~acl=/api/1/1/e/d/5/0/ed51e91fbe028afdc274b9f546d076a9.mp3*~data=user_id=0,application_id=42~hmac=ee939fcc0481e2bd51311201d94de581fe437b2a9d54e57ffe96836a744a714f",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/e/d/5/0/ed51e91fbe028afdc274b9f546d076a9.mp3?hdnea=exp=1767848397~acl=/api/1/1/e/d/5/0/ed51e91fbe028afdc274b9f546d076a9.mp3*~data=user_id=0,application_id=42~hmac=bd9a90cf21ea48c1f5fb68cd712b8adc3782538c2b62fff5aaa5e1f91c94a699",
         "image_id": "74e66a29b985b356669ced3f2e023392"
     },
     {
+        "id": 131294914,
         "name": "The Hanging Tree",
         "artist": "Uriah Heep",
-        "album": "The Best of... Pt. 2",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/a/2/5/0/a25ebaa690646ab7937dcd23d2a0c6b9.mp3?hdnea=exp=1767350217~acl=/api/1/1/a/2/5/0/a25ebaa690646ab7937dcd23d2a0c6b9.mp3*~data=user_id=0,application_id=42~hmac=3dc4a1b89b217cd91b218370fbbb31353d3ad2fcf3f4c98d929d58c90c181b24",
-        "image_id": "18c67d0dcc668a5d62b2eab6c3626f74"
+        "album": "Firefly",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/8/d/6/0/8d63bdd9d1ec62a68f64a50442e31565.mp3?hdnea=exp=1767848398~acl=/api/1/1/8/d/6/0/8d63bdd9d1ec62a68f64a50442e31565.mp3*~data=user_id=0,application_id=42~hmac=85279ec596d50d6ccbc697f2b7996314610b3688605dcb601073940dfd88fef5",
+        "image_id": "b104158dfd88a8d894fb0b018c150661"
     },
     {
+        "id": 3131457,
         "name": "River of Pain",
         "artist": "Thunder",
         "album": "Behind Closed Doors",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/b/4/9/0/b49e8d66e683fd649d7b7c5d5f27658b.mp3?hdnea=exp=1767350217~acl=/api/1/1/b/4/9/0/b49e8d66e683fd649d7b7c5d5f27658b.mp3*~data=user_id=0,application_id=42~hmac=0fbfd4c859f5ce595506dc6fbb0fd02822f09fc6016444c76d1cec098b0d37dd",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/b/4/9/0/b49e8d66e683fd649d7b7c5d5f27658b.mp3?hdnea=exp=1767848400~acl=/api/1/1/b/4/9/0/b49e8d66e683fd649d7b7c5d5f27658b.mp3*~data=user_id=0,application_id=42~hmac=02a671068309860265e59dba5ef4ef504caa473bb83d88f05937916a91fb36f2",
         "image_id": "3bd517d110c638b3382615465e9926e4"
     },
     {
+        "id": 67151943,
         "name": "Eu Odeio Trabalho",
         "artist": "Os Pedrero",
         "album": "Hard Rock Dreams",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/b/3/7/0/b371e83c62f52938327ded555b046dad.mp3?hdnea=exp=1767350217~acl=/api/1/1/b/3/7/0/b371e83c62f52938327ded555b046dad.mp3*~data=user_id=0,application_id=42~hmac=d94bdb97405c54d8016df9ddc33740b5a31db6e85f38e98d53fd72d07a81de88",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/b/3/7/0/b371e83c62f52938327ded555b046dad.mp3?hdnea=exp=1767848402~acl=/api/1/1/b/3/7/0/b371e83c62f52938327ded555b046dad.mp3*~data=user_id=0,application_id=42~hmac=e2fd2fd53f799cd194b45442676b6f297481b4e1e08a0858867e86a90f695c4b",
         "image_id": "fdc0f48608aa95a6a7603cb114d4db0b"
     },
     {
+        "id": 356004031,
         "name": "Judas",
         "artist": "Fozzy",
         "album": "Judas",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/2/e/d/0/2eddbe8ba859d091623a045893558ae8.mp3?hdnea=exp=1767350218~acl=/api/1/1/2/e/d/0/2eddbe8ba859d091623a045893558ae8.mp3*~data=user_id=0,application_id=42~hmac=abb52a8918cad372ee80278c9d036d71c0f24cf63a2d3215db4b9145e119251d",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/2/e/d/0/2eddbe8ba859d091623a045893558ae8.mp3?hdnea=exp=1767848403~acl=/api/1/1/2/e/d/0/2eddbe8ba859d091623a045893558ae8.mp3*~data=user_id=0,application_id=42~hmac=8c90b26b409785fbe0f42a2b16a75fb8a3cfa72e2944a01421b8a1e5dada374f",
         "image_id": "0a83c78dd0b6c3b138eccd03d8b2108b"
     },
     {
+        "id": 85123420,
         "name": "Child of Babylon",
         "artist": "Whitesnake",
         "album": "Come An' Get It",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/f/4/6/0/f466032bc00ccfcace9164e7906d7acb.mp3?hdnea=exp=1767350218~acl=/api/1/1/f/4/6/0/f466032bc00ccfcace9164e7906d7acb.mp3*~data=user_id=0,application_id=42~hmac=73c23326d46d3d81c93575c26e9d4c927e259d4d69b8ea2091a6deba02f5c489",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/f/4/6/0/f466032bc00ccfcace9164e7906d7acb.mp3?hdnea=exp=1767848405~acl=/api/1/1/f/4/6/0/f466032bc00ccfcace9164e7906d7acb.mp3*~data=user_id=0,application_id=42~hmac=c6b49b1c7ada1e388514c26bdb054e8ef61a01b22aa619eeaa4ea7286aca824e",
         "image_id": "9372b66cd8d995d2b3482b0ca337b3c3"
     },
     {
+        "id": 812044722,
         "name": "Panic Show (En Directo Desde Estadio De Hurac\u00e1n Buenos Aires / 2001)",
         "artist": "La Renga",
         "album": "Insoportablemente Vivo (En Directo Desde Estadio De Hurac\u00e1n Buenos Aires / 2001)",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/e/9/9/0/e99bda832e090363d10a38dfad18e58b.mp3?hdnea=exp=1767350219~acl=/api/1/1/e/9/9/0/e99bda832e090363d10a38dfad18e58b.mp3*~data=user_id=0,application_id=42~hmac=dbbb9a1224bb05515559c79c394d2e2b56bda4c92fdcfd30c86597d26d9f489c",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/e/9/9/0/e99bda832e090363d10a38dfad18e58b.mp3?hdnea=exp=1767848406~acl=/api/1/1/e/9/9/0/e99bda832e090363d10a38dfad18e58b.mp3*~data=user_id=0,application_id=42~hmac=7939cd345fe126aee7987b46f9f223a81b6f1dccdb8bbbacbdb4a23c7a98e7f6",
         "image_id": "266f5f2471c211629e2f70fb75e7564a"
     },
     {
+        "id": 1878504587,
         "name": "Future Land",
         "artist": "U.D.O.",
         "album": "The Legacy (Best Of)",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/a/1/3/0/a13cadb0df918d14ee22b7805698b67d.mp3?hdnea=exp=1767350219~acl=/api/1/1/a/1/3/0/a13cadb0df918d14ee22b7805698b67d.mp3*~data=user_id=0,application_id=42~hmac=517d41b6d7c5aa933f22e8144bdbcd9d4a6078cd190a1de4e501acadab0abe07",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/a/1/3/0/a13cadb0df918d14ee22b7805698b67d.mp3?hdnea=exp=1767848408~acl=/api/1/1/a/1/3/0/a13cadb0df918d14ee22b7805698b67d.mp3*~data=user_id=0,application_id=42~hmac=59ce527738efed887d67aa7dea32f9cceefb39a73c3a47f1fc8089b78da525f3",
         "image_id": "0960d8af1c1d6c9c1d42ab59d46921a0"
     },
     {
+        "id": 1878504637,
         "name": "They Want War",
         "artist": "U.D.O.",
         "album": "The Legacy (Best Of)",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/1/3/3/0/133040ca7ab03829a65289d96ecb3a72.mp3?hdnea=exp=1767350219~acl=/api/1/1/1/3/3/0/133040ca7ab03829a65289d96ecb3a72.mp3*~data=user_id=0,application_id=42~hmac=056956899bdc855a8f13187b7905e8b2b61f88ed09c0ac1afc938add1ad5611f",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/1/3/3/0/133040ca7ab03829a65289d96ecb3a72.mp3?hdnea=exp=1767848409~acl=/api/1/1/1/3/3/0/133040ca7ab03829a65289d96ecb3a72.mp3*~data=user_id=0,application_id=42~hmac=c98c44d3fcbbf75558ac87e58c902ab9649b19cf881562383fc763bc38f95d2e",
         "image_id": "0960d8af1c1d6c9c1d42ab59d46921a0"
     },
     {
+        "id": 475023192,
         "name": "Deadend Mind",
         "artist": "Electric Mud",
         "album": "The Deconstruction of Light",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/c/1/5/0/c154eaf5bc81d6375e06615305dbce90.mp3?hdnea=exp=1767350220~acl=/api/1/1/c/1/5/0/c154eaf5bc81d6375e06615305dbce90.mp3*~data=user_id=0,application_id=42~hmac=8ce9dfafef87b255542bd53cae68ab5d31720ec4013f106c2870bf650ca84b1d",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/c/1/5/0/c154eaf5bc81d6375e06615305dbce90.mp3?hdnea=exp=1767848411~acl=/api/1/1/c/1/5/0/c154eaf5bc81d6375e06615305dbce90.mp3*~data=user_id=0,application_id=42~hmac=a8790a60e7031b281275494ab7d55c433304f37344297f36c8d51e3e8532e9be",
         "image_id": "2f6ec4b3585bdea12d46ac257c7c5fe9"
     },
     {
+        "id": 3470425621,
         "name": "Hunter's Mark",
         "artist": "Howling Giant",
         "album": "Crucible & Ruin",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/2/1/d/0/21dbff7c5ea29ed2e2c3993fb5750d47.mp3?hdnea=exp=1767350221~acl=/api/1/1/2/1/d/0/21dbff7c5ea29ed2e2c3993fb5750d47.mp3*~data=user_id=0,application_id=42~hmac=d46e9eb2c1ce8bed3b3fce9bbd803e338cf1ff2c56cecf91b1255f2841b72e79",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/2/1/d/0/21dbff7c5ea29ed2e2c3993fb5750d47.mp3?hdnea=exp=1767848412~acl=/api/1/1/2/1/d/0/21dbff7c5ea29ed2e2c3993fb5750d47.mp3*~data=user_id=0,application_id=42~hmac=aac3cbc7eeeb27c86692cd056a545353030011c45d2eb1188017f2d37e64e932",
         "image_id": "8559c32c7e252a6083e901cc54c21b41"
     },
     {
+        "id": 117151852,
         "name": "Highway Officer",
         "artist": "Greenleaf",
         "album": "Agents Of Ahriman",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/9/9/8/0/9987d3db256abacb6cde7fa793ec7bbf.mp3?hdnea=exp=1767350221~acl=/api/1/1/9/9/8/0/9987d3db256abacb6cde7fa793ec7bbf.mp3*~data=user_id=0,application_id=42~hmac=10b19f1055c8c8e92ea18391a7bb3c1abf9d56610fe5061df105e0824cbe4ec7",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/9/9/8/0/9987d3db256abacb6cde7fa793ec7bbf.mp3?hdnea=exp=1767848414~acl=/api/1/1/9/9/8/0/9987d3db256abacb6cde7fa793ec7bbf.mp3*~data=user_id=0,application_id=42~hmac=33105ea58ef669e7f158bbfa631cb3dbe3a50f9004af6ca82e28281deb5a7600",
         "image_id": "f110cbd54947e89471e561c53b8cfe2e"
     },
     {
+        "id": 1999227587,
         "name": "Como Yo Nadie Te Ha Amado",
         "artist": "Bon Jovi",
         "album": "Como Yo Nadie Te Ha Amado (This Ain't A Love Song)",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/1/2/6/0/126ce1fe1b4b7018b1c7832997f7d9ad.mp3?hdnea=exp=1767350222~acl=/api/1/1/1/2/6/0/126ce1fe1b4b7018b1c7832997f7d9ad.mp3*~data=user_id=0,application_id=42~hmac=30d095be2d9a773c807ad1803dc4eb31b5a733145f50dbaf3c7c8c4c1d290308",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/1/2/6/0/126ce1fe1b4b7018b1c7832997f7d9ad.mp3?hdnea=exp=1767848415~acl=/api/1/1/1/2/6/0/126ce1fe1b4b7018b1c7832997f7d9ad.mp3*~data=user_id=0,application_id=42~hmac=d8c75ed9d0c256fb6583b78e89d8905e36d23a1c3be3bfd9246954eaae2e7c1a",
         "image_id": "133ef160fe97fd9bf98009628b715b55"
     },
     {
+        "id": 85123410,
         "name": "Come An' Get It",
         "artist": "Whitesnake",
         "album": "Come An' Get It",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/f/6/c/0/f6cc6e2d6ecbf04d4ed578664825480c.mp3?hdnea=exp=1767350222~acl=/api/1/1/f/6/c/0/f6cc6e2d6ecbf04d4ed578664825480c.mp3*~data=user_id=0,application_id=42~hmac=2fe8224a5660024fffb8bcd44b69811c789a18d4f7fc6d049537982ea2d214c7",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/f/6/c/0/f6cc6e2d6ecbf04d4ed578664825480c.mp3?hdnea=exp=1767848417~acl=/api/1/1/f/6/c/0/f6cc6e2d6ecbf04d4ed578664825480c.mp3*~data=user_id=0,application_id=42~hmac=0809086c7956e630b4ca23cea15f8fc91ca9696efc8b8664e14eb7d751cd4c71",
         "image_id": "9372b66cd8d995d2b3482b0ca337b3c3"
     },
     {
+        "id": 1892166237,
         "name": "Last of Our Kind",
         "artist": "The Darkness",
         "album": "Last of Our Kind (Deluxe Edition)",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/e/d/1/0/ed13cf232a2a52bfe577921db9869bfa.mp3?hdnea=exp=1767350222~acl=/api/1/1/e/d/1/0/ed13cf232a2a52bfe577921db9869bfa.mp3*~data=user_id=0,application_id=42~hmac=04ea146d0566fe1c999458dbf310ebf21d6517ccbd320a41ac0132a750f6fe02",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/e/d/1/0/ed13cf232a2a52bfe577921db9869bfa.mp3?hdnea=exp=1767848419~acl=/api/1/1/e/d/1/0/ed13cf232a2a52bfe577921db9869bfa.mp3*~data=user_id=0,application_id=42~hmac=fc783ac08bc7379a0d3d60b340d607a0de32f1580a95a3e9cb14b7cc5fd811d4",
         "image_id": "a428e3ea29032618528a760d699b5b46"
     },
     {
+        "id": 1091672012,
         "name": "Empty Cartridge",
         "artist": "Unsane",
         "album": "Scattered, Smothered & Covered",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/c/2/9/0/c293b5c69f9ea38db1a5a96597cbb3b0.mp3?hdnea=exp=1767350223~acl=/api/1/1/c/2/9/0/c293b5c69f9ea38db1a5a96597cbb3b0.mp3*~data=user_id=0,application_id=42~hmac=819411edf634962a62d28afcf57e5b38835c94ddc6a224ccd85df279e77c4fd3",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/c/2/9/0/c293b5c69f9ea38db1a5a96597cbb3b0.mp3?hdnea=exp=1767848420~acl=/api/1/1/c/2/9/0/c293b5c69f9ea38db1a5a96597cbb3b0.mp3*~data=user_id=0,application_id=42~hmac=fbbfb4a29ffba27dfdfe4c5429c03f4773982ebf4ad104a0fe404535df01e765",
         "image_id": "7fca1f11f1432bf9ab15d77d48dcbaae"
     },
     {
+        "id": 124796906,
         "name": "Blood on the Sand",
         "artist": "Thrice",
         "album": "To Be Everywhere Is To Be Nowhere",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/a/8/1/0/a81fa538a04afa42b822fd654fb4e772.mp3?hdnea=exp=1767350223~acl=/api/1/1/a/8/1/0/a81fa538a04afa42b822fd654fb4e772.mp3*~data=user_id=0,application_id=42~hmac=12d9508200141c5aef9c59247913276b4545c7e7d0c3a88aa6d27b8bdc21104d",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/a/8/1/0/a81fa538a04afa42b822fd654fb4e772.mp3?hdnea=exp=1767848422~acl=/api/1/1/a/8/1/0/a81fa538a04afa42b822fd654fb4e772.mp3*~data=user_id=0,application_id=42~hmac=654f5d4691c6d5cd7a4cd623c533130df443b131ba3e70ae1c63be6d28beb53e",
         "image_id": "a28aef9c2ed835be0e504a4dbe6d72dc"
     },
     {
+        "id": 5953382,
         "name": "Little Drops Of Heaven",
         "artist": "Pretty Maids",
         "album": "Pandemonium",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/0/5/b/0/05ba49d034af15568166f4399620bd4a.mp3?hdnea=exp=1767350223~acl=/api/1/1/0/5/b/0/05ba49d034af15568166f4399620bd4a.mp3*~data=user_id=0,application_id=42~hmac=e800c25dfbb54c231ed098a1ea4a61a310e92ca32098ee3f541410cf498af665",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/0/5/b/0/05ba49d034af15568166f4399620bd4a.mp3?hdnea=exp=1767848424~acl=/api/1/1/0/5/b/0/05ba49d034af15568166f4399620bd4a.mp3*~data=user_id=0,application_id=42~hmac=5c0f698f443e3ce7eb80ebd4eb6b3513569a7920f0e4a739c8026e02c43cd03c",
         "image_id": "d18c0b90f040b5b115ecc8e51390c80c"
     },
     {
+        "id": 3470425611,
         "name": "Canyons",
         "artist": "Howling Giant",
         "album": "Crucible & Ruin",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/b/4/8/0/b484c6cef47061a30848a417eaa880ec.mp3?hdnea=exp=1767350224~acl=/api/1/1/b/4/8/0/b484c6cef47061a30848a417eaa880ec.mp3*~data=user_id=0,application_id=42~hmac=a9764b8d553ba7c2bc61056b9ab6086241989e2fe283e6e856525553ab926f13",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/b/4/8/0/b484c6cef47061a30848a417eaa880ec.mp3?hdnea=exp=1767848425~acl=/api/1/1/b/4/8/0/b484c6cef47061a30848a417eaa880ec.mp3*~data=user_id=0,application_id=42~hmac=b37a9de80d9f5e255eb15cc19aab876062f5fcf91959b487eb5d0db4ca56160a",
         "image_id": "8559c32c7e252a6083e901cc54c21b41"
     },
     {
+        "id": 85123424,
         "name": "Girl",
         "artist": "Whitesnake",
         "album": "Come An' Get It",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/5/c/d/0/5cd9de2d91129a5ea8b34ee552ed4420.mp3?hdnea=exp=1767350224~acl=/api/1/1/5/c/d/0/5cd9de2d91129a5ea8b34ee552ed4420.mp3*~data=user_id=0,application_id=42~hmac=94b61a9693d392fa07aa52f27b548d10e557675090747e9b231909a8624242db",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/5/c/d/0/5cd9de2d91129a5ea8b34ee552ed4420.mp3?hdnea=exp=1767848427~acl=/api/1/1/5/c/d/0/5cd9de2d91129a5ea8b34ee552ed4420.mp3*~data=user_id=0,application_id=42~hmac=342b1a0f6884201769490fd9a23e863c97c354a8e0daf2a72ac0795e3d74ca98",
         "image_id": "9372b66cd8d995d2b3482b0ca337b3c3"
     },
     {
+        "id": 3091435,
         "name": "Step To Me",
         "artist": "Thousand Foot Krutch",
         "album": "Phenomenon",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/5/b/a/0/5bafd7d28c38f59425d53e90abafb552.mp3?hdnea=exp=1767350225~acl=/api/1/1/5/b/a/0/5bafd7d28c38f59425d53e90abafb552.mp3*~data=user_id=0,application_id=42~hmac=23b6232023d70d2e083e7444a1369c582dc8868183053b82b2cb291cba3e8274",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/5/b/a/0/5bafd7d28c38f59425d53e90abafb552.mp3?hdnea=exp=1767848428~acl=/api/1/1/5/b/a/0/5bafd7d28c38f59425d53e90abafb552.mp3*~data=user_id=0,application_id=42~hmac=4cbe6a2e1972e5fc8c6b32bbe6a1d0e9035fb071636d22f989b626a5452e98c1",
         "image_id": "a9f5a46ce8b2bee752efbf2cbf30e7b5"
     },
     {
+        "id": 2000482947,
         "name": "Hero (Single Version) (Remastered)",
         "artist": "Warrior Soul",
         "album": "Hero (Remastered)",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/b/1/8/0/b182d6cb3002779d408cc7b83d5a987e.mp3?hdnea=exp=1767350225~acl=/api/1/1/b/1/8/0/b182d6cb3002779d408cc7b83d5a987e.mp3*~data=user_id=0,application_id=42~hmac=9663290846862f23c1f9d83e02c7fc67f9ba30ebce569db5996f87ae273c9963",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/b/1/8/0/b182d6cb3002779d408cc7b83d5a987e.mp3?hdnea=exp=1767848430~acl=/api/1/1/b/1/8/0/b182d6cb3002779d408cc7b83d5a987e.mp3*~data=user_id=0,application_id=42~hmac=e2a4966e87b94e4d352644dd7aca131c06aaeacafa2d672f157be6fe34ffc306",
         "image_id": "a05dddcfba7ddb84d858260a4c350b99"
     },
     {
+        "id": 3248995,
         "name": "To The Tune Of 5,000 Screaming Children",
         "artist": "The Juliana Theory",
         "album": "Emotion Is Dead",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/a/8/b/0/a8bb6ba20d1e027ebb2dff3089060ab6.mp3?hdnea=exp=1767350226~acl=/api/1/1/a/8/b/0/a8bb6ba20d1e027ebb2dff3089060ab6.mp3*~data=user_id=0,application_id=42~hmac=87f61fa7f63190734205e4c931800bfccf932e9a3c5392b97328eec0734aa5cf",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/a/8/b/0/a8bb6ba20d1e027ebb2dff3089060ab6.mp3?hdnea=exp=1767848431~acl=/api/1/1/a/8/b/0/a8bb6ba20d1e027ebb2dff3089060ab6.mp3*~data=user_id=0,application_id=42~hmac=96a9066a63d596f91f8ca00975f79bcc0f5dfbe9da2220fd181c803c4e171aef",
         "image_id": "e5279c0312e7177d3b819f1f45c5cda6"
     },
     {
+        "id": 1892166227,
         "name": "Open Fire",
         "artist": "The Darkness",
         "album": "Last of Our Kind (Deluxe Edition)",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/5/9/7/0/5976d5097fafbf013685a18f0a126e18.mp3?hdnea=exp=1767350226~acl=/api/1/1/5/9/7/0/5976d5097fafbf013685a18f0a126e18.mp3*~data=user_id=0,application_id=42~hmac=f115a1f11a0fc65350edb2e0b6877b937ff3a0d72c0698ebc30ca4472e1c7cfd",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/5/9/7/0/5976d5097fafbf013685a18f0a126e18.mp3?hdnea=exp=1767848433~acl=/api/1/1/5/9/7/0/5976d5097fafbf013685a18f0a126e18.mp3*~data=user_id=0,application_id=42~hmac=84533d938690e48e5df25cc63a12181fdbb67cc48c8604241bf110ba3fc1d662",
         "image_id": "a428e3ea29032618528a760d699b5b46"
     },
     {
+        "id": 1622364682,
         "name": "Nightmare Eyes",
         "artist": "Cave In",
         "album": "Heavy Pendulum",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/2/4/0/0/2400a14247b0781e036ae5a41ef12b4c.mp3?hdnea=exp=1767350227~acl=/api/1/1/2/4/0/0/2400a14247b0781e036ae5a41ef12b4c.mp3*~data=user_id=0,application_id=42~hmac=1cc62183838996a2790aa677bff461e7169162494656bd99c783b538372b89c2",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/2/4/0/0/2400a14247b0781e036ae5a41ef12b4c.mp3?hdnea=exp=1767848434~acl=/api/1/1/2/4/0/0/2400a14247b0781e036ae5a41ef12b4c.mp3*~data=user_id=0,application_id=42~hmac=2ff62f961827253f08607aab07d0c4b51c9246014508d907170d1e5328c14a29",
         "image_id": "896252fe5f559a289b6924adb3467f1a"
     },
     {
+        "id": 1189113252,
         "name": "Ljudi nije fer",
         "artist": "Smak",
         "album": "The best of",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/a/e/5/0/ae56c95223e433776a8cbb13c0bf831f.mp3?hdnea=exp=1767350227~acl=/api/1/1/a/e/5/0/ae56c95223e433776a8cbb13c0bf831f.mp3*~data=user_id=0,application_id=42~hmac=960077e4d2666f3ec8eb8ee83a773373f819ad2f59f887db935c0d28447b6bca",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/a/e/5/0/ae56c95223e433776a8cbb13c0bf831f.mp3?hdnea=exp=1767848436~acl=/api/1/1/a/e/5/0/ae56c95223e433776a8cbb13c0bf831f.mp3*~data=user_id=0,application_id=42~hmac=313c8f4c309649352fff8176ad62bb862e5c1a55da75e7865ddc3834e78184f9",
         "image_id": "d551c7f7f3e9738741cafa9dd69e695f"
     },
     {
+        "id": 3087203,
         "name": "Yours",
         "artist": "TobyMac",
         "album": "Momentum",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/e/2/3/0/e232576f6b89f7124d95415f626bae57.mp3?hdnea=exp=1767350228~acl=/api/1/1/e/2/3/0/e232576f6b89f7124d95415f626bae57.mp3*~data=user_id=0,application_id=42~hmac=8e4908409d795d0f4004f44e123e091420a495e4737c1f57df177e578177ba1b",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/e/2/3/0/e232576f6b89f7124d95415f626bae57.mp3?hdnea=exp=1767848437~acl=/api/1/1/e/2/3/0/e232576f6b89f7124d95415f626bae57.mp3*~data=user_id=0,application_id=42~hmac=d72bf3ba3d8001ba98208311f7b51a2f13356fcceab6576163756e8aa0d6c544",
         "image_id": "8942b85aff8f0f88a7a9a1784f66d302"
     },
     {
+        "id": 1167872,
         "name": "Stop It You're Killing Me",
         "artist": "Therapy?",
         "album": "Troublegum",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/b/d/9/0/bd90d358bc3eb8fe5cbd9e28a27de052.mp3?hdnea=exp=1767350228~acl=/api/1/1/b/d/9/0/bd90d358bc3eb8fe5cbd9e28a27de052.mp3*~data=user_id=0,application_id=42~hmac=3c351ecacf92c49b7c373e615c6746a937dd958c7247d5c97dcf809d3c1ef148",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/b/d/9/0/bd90d358bc3eb8fe5cbd9e28a27de052.mp3?hdnea=exp=1767848439~acl=/api/1/1/b/d/9/0/bd90d358bc3eb8fe5cbd9e28a27de052.mp3*~data=user_id=0,application_id=42~hmac=72af28e2fd5453f20348d50f3a6b06a1ab53cef123326628a81078d056ea2674",
         "image_id": "3b8302f96581dda4be74cc917ab28962"
     },
     {
+        "id": 1515058242,
         "name": "Deep Blue Shadows",
         "artist": "Lillian Axe",
         "album": "Psychoschizophrenia",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/a/c/1/0/ac14d5f8ce69ac3e2d6df81812187cdc.mp3?hdnea=exp=1767350229~acl=/api/1/1/a/c/1/0/ac14d5f8ce69ac3e2d6df81812187cdc.mp3*~data=user_id=0,application_id=42~hmac=1bb01c2c70e52756fd5fe97bb9859b8803cffa4d57420ef2fed19446fd810315",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/a/c/1/0/ac14d5f8ce69ac3e2d6df81812187cdc.mp3?hdnea=exp=1767848440~acl=/api/1/1/a/c/1/0/ac14d5f8ce69ac3e2d6df81812187cdc.mp3*~data=user_id=0,application_id=42~hmac=be2e30d6ddc5bb4728e958a0625f3114129624cc6dcc5d7a31df21b31a9d0542",
         "image_id": "88d589237ded51ddb70fa5953f0115f8"
     },
     {
+        "id": 1892166247,
         "name": "Roaring Waters",
         "artist": "The Darkness",
         "album": "Last of Our Kind (Deluxe Edition)",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/e/4/6/0/e46a9b8c4cd868e6945008abcb414a8a.mp3?hdnea=exp=1767350230~acl=/api/1/1/e/4/6/0/e46a9b8c4cd868e6945008abcb414a8a.mp3*~data=user_id=0,application_id=42~hmac=51cddecbf9da59ddde9ebfa4c480991c39fa47c2dea91c21a65484b34afea43c",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/e/4/6/0/e46a9b8c4cd868e6945008abcb414a8a.mp3?hdnea=exp=1767848442~acl=/api/1/1/e/4/6/0/e46a9b8c4cd868e6945008abcb414a8a.mp3*~data=user_id=0,application_id=42~hmac=c413aed7de691df9588c2cd9e7062e913610e94780984276bc36ff4417c17f20",
         "image_id": "a428e3ea29032618528a760d699b5b46"
     },
     {
+        "id": 505510252,
         "name": "Shotgun Blues",
         "artist": "Guns N' Roses",
         "album": "Use Your Illusion II",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/7/d/b/0/7db765274470f8cfacb60e49970eb70b.mp3?hdnea=exp=1767350230~acl=/api/1/1/7/d/b/0/7db765274470f8cfacb60e49970eb70b.mp3*~data=user_id=0,application_id=42~hmac=3c01ece9f4bbff8fc9998236d14719086fae2d884e0d211d281016a6c5c3e261",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/7/d/b/0/7db765274470f8cfacb60e49970eb70b.mp3?hdnea=exp=1767848443~acl=/api/1/1/7/d/b/0/7db765274470f8cfacb60e49970eb70b.mp3*~data=user_id=0,application_id=42~hmac=00a6e1b32f614f3376c3f190ec815559f3ef35678cfe18e49a15bbe42e20989d",
         "image_id": "c32f893b8670d5a3d9b1e70078bbc8fa"
     },
     {
+        "id": 61594016,
         "name": "Dirty Leaves",
         "artist": "The Bronx",
         "album": "The Bronx (II)",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/f/3/1/0/f311089c9c7030185ea8c11c6d9cf056.mp3?hdnea=exp=1767350230~acl=/api/1/1/f/3/1/0/f311089c9c7030185ea8c11c6d9cf056.mp3*~data=user_id=0,application_id=42~hmac=108b1476dff12b74954c00e2aa21627ccb4e33022eb5b9ac994908f209415c00",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/f/3/1/0/f311089c9c7030185ea8c11c6d9cf056.mp3?hdnea=exp=1767848445~acl=/api/1/1/f/3/1/0/f311089c9c7030185ea8c11c6d9cf056.mp3*~data=user_id=0,application_id=42~hmac=a051c5dda7a24e97d52333b8a34f68911576f4015188f39a5ae4afd3808b75e4",
         "image_id": "4cedeca589f702d6195664c3fd6a582a"
     },
     {
+        "id": 64934263,
         "name": "100 Grand Canyon",
         "artist": "Cancer Bats",
         "album": "Birthing The Giant",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/2/9/b/0/29b0faf8c8b8aeb80cc6512bae3b0e91.mp3?hdnea=exp=1767350232~acl=/api/1/1/2/9/b/0/29b0faf8c8b8aeb80cc6512bae3b0e91.mp3*~data=user_id=0,application_id=42~hmac=92f38c6204e63cb40c32e417a992d1d1edbb578dac7682af10d231e9ad5aa8b8",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/2/9/b/0/29b0faf8c8b8aeb80cc6512bae3b0e91.mp3?hdnea=exp=1767848446~acl=/api/1/1/2/9/b/0/29b0faf8c8b8aeb80cc6512bae3b0e91.mp3*~data=user_id=0,application_id=42~hmac=545b4bf0c8a8c6da37de1d9bfba40608ada2d2754356d0ef374b3846fb8fc0fe",
         "image_id": "9e85105d54d3f429ec92e30e6e45d3d6"
     }
 ]

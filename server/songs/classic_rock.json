@@ -1,163 +1,186 @@
 [
     {
+        "id": 1498354482,
         "name": "Speedfreak",
         "artist": "Mot\u00f6rhead",
         "album": "Everything Louder Forever - The Very Best Of",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/e/8/2/0/e82ec7d6d750dd2d8adb21fcd90af59f.mp3?hdnea=exp=1767349353~acl=/api/1/1/e/8/2/0/e82ec7d6d750dd2d8adb21fcd90af59f.mp3*~data=user_id=0,application_id=42~hmac=9a8cfe91b7a8ae4caad5c57995fcc8b4cce9d31d3b2a718b510cd45a8e047c99",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/e/8/2/0/e82ec7d6d750dd2d8adb21fcd90af59f.mp3?hdnea=exp=1767850026~acl=/api/1/1/e/8/2/0/e82ec7d6d750dd2d8adb21fcd90af59f.mp3*~data=user_id=0,application_id=42~hmac=e78e0b9601aa6107d89e2432925b85e377fe50244fb55f8c2bb19040f57f6399",
         "image_id": "338937d530323c9704d81bac6a7419bf"
     },
     {
+        "id": 1763230187,
         "name": "Come A Little Bit Closer",
         "artist": "Willy DeVille",
         "album": "Crow Jane Alley",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/6/f/d/0/6fd4e569fe5fffe80f0b9eba49b469a4.mp3?hdnea=exp=1767349353~acl=/api/1/1/6/f/d/0/6fd4e569fe5fffe80f0b9eba49b469a4.mp3*~data=user_id=0,application_id=42~hmac=797a52d0e8fe00ab0c0ac794ffc8ee926aa360cc16c0f149b9342735da7b8511",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/6/f/d/0/6fd4e569fe5fffe80f0b9eba49b469a4.mp3?hdnea=exp=1767850028~acl=/api/1/1/6/f/d/0/6fd4e569fe5fffe80f0b9eba49b469a4.mp3*~data=user_id=0,application_id=42~hmac=3ea0f36bc99f4cbd46b5398dba8f513da3edac86afbaaebaa348e7391d5df715",
         "image_id": "c105ff6d1671927f3bdc6d3711c053c9"
     },
     {
+        "id": 57265471,
         "name": "Little Black Submarines (radio edit)",
         "artist": "The Black Keys",
         "album": "Little Black Submarines",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/8/6/e/0/86eae7eb0848fa8a8a4f12e115c2b2ea.mp3?hdnea=exp=1767349354~acl=/api/1/1/8/6/e/0/86eae7eb0848fa8a8a4f12e115c2b2ea.mp3*~data=user_id=0,application_id=42~hmac=b09c0439521b165c97eb17d064b775381c46dfe6576e189ff877ef468362566f",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/8/6/e/0/86eae7eb0848fa8a8a4f12e115c2b2ea.mp3?hdnea=exp=1767850029~acl=/api/1/1/8/6/e/0/86eae7eb0848fa8a8a4f12e115c2b2ea.mp3*~data=user_id=0,application_id=42~hmac=3013fbdec6e4e9b882a1b88294c5086ec7974dfbee4c7a172328e1575b4bc7c2",
         "image_id": "4bb79c5890f92b156733f686531858e1"
     },
     {
+        "id": 137507100,
         "name": "Machine",
         "artist": "Ning",
         "album": "Pink Boots & Lipstick 15 (Rare Glam and Bubblegum from the 70s)",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/1/d/d/0/1dddc25899a9e278a1062a1b6d88ca1e.mp3?hdnea=exp=1767349354~acl=/api/1/1/1/d/d/0/1dddc25899a9e278a1062a1b6d88ca1e.mp3*~data=user_id=0,application_id=42~hmac=5998b283846fcdf6a341aca93d6c6093cf9252d891ba008f7e4aa06a840023c7",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/1/d/d/0/1dddc25899a9e278a1062a1b6d88ca1e.mp3?hdnea=exp=1767850031~acl=/api/1/1/1/d/d/0/1dddc25899a9e278a1062a1b6d88ca1e.mp3*~data=user_id=0,application_id=42~hmac=c711ca069b9501dc15a99805d6cb499b8e886ca803a48d6792072b3f553b5fc3",
         "image_id": "02010ec999e25b980d6e90156ae118be"
     },
     {
+        "id": 61015839,
         "name": "Saturn, Lord Of The Ring, Mercury The Winged Messenger",
         "artist": "Manfred Mann's Earth Band",
         "album": "Solar Fire",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/f/1/9/0/f1950845d690636ab55af777956fb8d4.mp3?hdnea=exp=1767349355~acl=/api/1/1/f/1/9/0/f1950845d690636ab55af777956fb8d4.mp3*~data=user_id=0,application_id=42~hmac=6ec6adb544789f876b665a890d712c482d89f85b66b04b4e3147c9b77a69cc95",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/f/1/9/0/f1950845d690636ab55af777956fb8d4.mp3?hdnea=exp=1767850032~acl=/api/1/1/f/1/9/0/f1950845d690636ab55af777956fb8d4.mp3*~data=user_id=0,application_id=42~hmac=6119d97517f44517458562e7dfd0a6a02fafe550e9409bd3e53509100493e8e6",
         "image_id": "1a759f8af4e306f707a7f70dc57c193b"
     },
     {
+        "id": 1060817402,
         "name": "This Gun Is Not a Gun",
         "artist": "Chris T-T",
         "album": "This Gun Is Not a Gun",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/a/2/9/0/a29824b5e36b73d7018993ce02046b1d.mp3?hdnea=exp=1767349355~acl=/api/1/1/a/2/9/0/a29824b5e36b73d7018993ce02046b1d.mp3*~data=user_id=0,application_id=42~hmac=9e2ccb830a955b792e2b89974eec894035e146e962536ce2d754478c027fca3d",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/a/2/9/0/a29824b5e36b73d7018993ce02046b1d.mp3?hdnea=exp=1767850034~acl=/api/1/1/a/2/9/0/a29824b5e36b73d7018993ce02046b1d.mp3*~data=user_id=0,application_id=42~hmac=fff45e4ad77cd44d72fe90c576d77f5f9564b44c2dac250f8f8391e0a40190c2",
         "image_id": "c4dd8fd9301e4a24a18a3859a0991c13"
     },
     {
+        "id": 2153163,
         "name": "I Wish",
         "artist": "Semisonic",
         "album": "All About Chemistry",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/0/1/6/0/0168faa5f366054c6451caf287122088.mp3?hdnea=exp=1767349356~acl=/api/1/1/0/1/6/0/0168faa5f366054c6451caf287122088.mp3*~data=user_id=0,application_id=42~hmac=f3ba5254efb622b768b9c93a73b88caa81d71e70e05b977ec8783362bef9614c",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/0/1/6/0/0168faa5f366054c6451caf287122088.mp3?hdnea=exp=1767850036~acl=/api/1/1/0/1/6/0/0168faa5f366054c6451caf287122088.mp3*~data=user_id=0,application_id=42~hmac=fd8f7cced7b540e1237a6b1fd290e2191373144961e0c0b2ca2c7034b54cdce1",
         "image_id": "4aefef2a45f250fd382c753af9f91646"
     },
     {
+        "id": 930653752,
         "name": "Troubled Child",
         "artist": "Pater Iltis",
         "album": "Train",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/8/0/e/0/80e840e3c8bc82f7c66df2babb3e261e.mp3?hdnea=exp=1767349356~acl=/api/1/1/8/0/e/0/80e840e3c8bc82f7c66df2babb3e261e.mp3*~data=user_id=0,application_id=42~hmac=f9e323e540d6fe1131e17b3df2280fb6f03c86179e49c5fa9c4e7452b841146b",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/8/0/e/0/80e840e3c8bc82f7c66df2babb3e261e.mp3?hdnea=exp=1767850037~acl=/api/1/1/8/0/e/0/80e840e3c8bc82f7c66df2babb3e261e.mp3*~data=user_id=0,application_id=42~hmac=669d3adb1d6596e77a4765c50366fea26db1e6ef386c8e0d4ee9a13f0346fde3",
         "image_id": "aac497287cb76b3954d01e713dd8c8ce"
     },
     {
+        "id": 8325343,
         "name": "I Know Everything",
         "artist": "Ty Tabor",
         "album": "Naomi's Solar Pumpkin",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/a/a/a/0/aaa253df3425b9c9bea0288d571aa4a0.mp3?hdnea=exp=1767349357~acl=/api/1/1/a/a/a/0/aaa253df3425b9c9bea0288d571aa4a0.mp3*~data=user_id=0,application_id=42~hmac=439b04eb203d465c9ac21d1d4f7611b169c6cc2f678124ad68bf333ab5e86375",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/a/a/a/0/aaa253df3425b9c9bea0288d571aa4a0.mp3?hdnea=exp=1767850039~acl=/api/1/1/a/a/a/0/aaa253df3425b9c9bea0288d571aa4a0.mp3*~data=user_id=0,application_id=42~hmac=1b79ad7d777bc6d81f3483f70aa9fb442fff637b75155e51522992bd1aedcbc0",
         "image_id": "d91935f847de43d7838a4f39a5711764"
     },
     {
-        "name": "Fatman In The Bathtub (Live in Oregon & California - December 1995)",
-        "artist": "Little Feat",
-        "album": "Live from Neon Park",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/4/e/b/0/4eb83c4e51b174f16b0e5ffdaac8650b.mp3?hdnea=exp=1767349357~acl=/api/1/1/4/e/b/0/4eb83c4e51b174f16b0e5ffdaac8650b.mp3*~data=user_id=0,application_id=42~hmac=53fa0402dea4967e6d4ef665827158547762c344ba36a0985d1de16f37c04e20",
-        "image_id": "ae39409dd38c178aeac11f065fb34518"
+        "id": 87487681,
+        "name": "Girl Crush",
+        "artist": "Little Big Town",
+        "album": "Pain Killer",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/f/0/5/0/f05cda49e465b5db8a176bc4bb512e27.mp3?hdnea=exp=1767850041~acl=/api/1/1/f/0/5/0/f05cda49e465b5db8a176bc4bb512e27.mp3*~data=user_id=0,application_id=42~hmac=366d89dcee3a5ef2e3c39d7ed0a5e5a1d9242f47d9989707b896b170cc0b37dc",
+        "image_id": "06d0b452062c5bfa88e96f9c14d0418b"
     },
     {
-        "name": "All Along The Watchtower",
+        "id": 819453512,
+        "name": "All Along The Watchtower (Live at The Rainbow, London, 11 March 1978) (Board Mix)",
         "artist": "Spirit",
-        "album": "Live From The Time Coast",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/5/0/e/0/50ee2e99e52bdeeea11e24729528ea53.mp3?hdnea=exp=1767349358~acl=/api/1/1/5/0/e/0/50ee2e99e52bdeeea11e24729528ea53.mp3*~data=user_id=0,application_id=42~hmac=6fc837a0b8e3601c074303934e79d0d1269234247fba22374b9efed2d811fd3e",
-        "image_id": "e8528d04f9a5979b1b6699fc971f8804"
+        "album": "Two Sides Of A Rainbow: Live At The Rainbow 1978",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/f/1/6/0/f1629df48a26ba5dca55a2e42d85be99.mp3?hdnea=exp=1767850042~acl=/api/1/1/f/1/6/0/f1629df48a26ba5dca55a2e42d85be99.mp3*~data=user_id=0,application_id=42~hmac=923b2a3d9d8d2f8c9a05c07889b1d6a0340d1b19941279f89482873c5319b0ae",
+        "image_id": "1db0c72293bf96fd78c3948ab0d40b5e"
     },
     {
+        "id": 781218992,
         "name": "Autiste artiste",
         "artist": "Jean-Louis Aubert",
         "album": "Refuge",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/5/2/5/0/5253c765073e1456b425f1421f246bf3.mp3?hdnea=exp=1767349358~acl=/api/1/1/5/2/5/0/5253c765073e1456b425f1421f246bf3.mp3*~data=user_id=0,application_id=42~hmac=86515dd997ad92b8a6f94191ce1a554dc3716433db0a49823c470dc416d95d83",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/5/2/5/0/5253c765073e1456b425f1421f246bf3.mp3?hdnea=exp=1767850043~acl=/api/1/1/5/2/5/0/5253c765073e1456b425f1421f246bf3.mp3*~data=user_id=0,application_id=42~hmac=9dc67da7c881b84c328f620ffb567a8685420a7607d69d370ffb9e993951d8b4",
         "image_id": "b6bf97413231131b2439f8df61379a4d"
     },
     {
+        "id": 137203460,
         "name": "Just Your Fool",
         "artist": "The Rolling Stones",
         "album": "Blue & Lonesome",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/2/c/7/0/2c794acdac355a7ddfa7aedc361d0957.mp3?hdnea=exp=1767349359~acl=/api/1/1/2/c/7/0/2c794acdac355a7ddfa7aedc361d0957.mp3*~data=user_id=0,application_id=42~hmac=661b8df62ad177a91ba8328f70b3c4cb6ec73773d9b99ec4b20e4bb0d67b66b6",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/2/c/7/0/2c794acdac355a7ddfa7aedc361d0957.mp3?hdnea=exp=1767850045~acl=/api/1/1/2/c/7/0/2c794acdac355a7ddfa7aedc361d0957.mp3*~data=user_id=0,application_id=42~hmac=7d58d5b49a4ac373a06ff6f196aa7433815cfefe8e7230813977da056f0619cb",
         "image_id": "5691be0453d3b0a3733a7b59503b1399"
     },
     {
+        "id": 3614201,
         "name": "Our World Our Times",
         "artist": "Alannah Myles",
         "album": "Rhino Hi-Five: Alannah Myles",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/1/d/f/0/1dfa4b59fb5ba51d547f7e6de83bfbe9.mp3?hdnea=exp=1767349360~acl=/api/1/1/1/d/f/0/1dfa4b59fb5ba51d547f7e6de83bfbe9.mp3*~data=user_id=0,application_id=42~hmac=0cce85f23d6ca600ecb8c697ec8bcd79a595c4176973ea8d7cedd1a15a91bb62",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/1/d/f/0/1dfa4b59fb5ba51d547f7e6de83bfbe9.mp3?hdnea=exp=1767850046~acl=/api/1/1/1/d/f/0/1dfa4b59fb5ba51d547f7e6de83bfbe9.mp3*~data=user_id=0,application_id=42~hmac=87875352beb789d638adec53cc218c70a6b4289ce5cc1d95b47a0ab914fcb70b",
         "image_id": "6cf5bc8afd2d1c807cdc91e0ec43b26a"
     },
     {
+        "id": 3157010131,
         "name": "Early in the Morning",
         "artist": "Papa Mali",
         "album": "Do Your Thing",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/e/7/a/0/e7a6d7ea08074cd33c6789a8fdd4f5c6.mp3?hdnea=exp=1767349360~acl=/api/1/1/e/7/a/0/e7a6d7ea08074cd33c6789a8fdd4f5c6.mp3*~data=user_id=0,application_id=42~hmac=30b8e93b64c3581083c7a954febc37aa137f33596e5bc705f72463358fdfc21d",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/e/7/a/0/e7a6d7ea08074cd33c6789a8fdd4f5c6.mp3?hdnea=exp=1767850047~acl=/api/1/1/e/7/a/0/e7a6d7ea08074cd33c6789a8fdd4f5c6.mp3*~data=user_id=0,application_id=42~hmac=a3b0361445662fdf028c86608de5f35ca318a0d3b249f2e9be007d30765df2dc",
         "image_id": "b768bde87a4f41b92cd64bfa4780d150"
     },
     {
+        "id": 62343201,
         "name": "No Time For Revolution (Remastered 2012)",
         "artist": "Falco",
         "album": "Out Of The Dark (Into The Light) (Remastered 2012)",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/9/0/3/0/903c486244ef23af2d57a2e0c552d64d.mp3?hdnea=exp=1767349360~acl=/api/1/1/9/0/3/0/903c486244ef23af2d57a2e0c552d64d.mp3*~data=user_id=0,application_id=42~hmac=7a52581e9aa76035c3399f84163d021dbc96433496b7a03a9dd0faf4051e9a89",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/9/0/3/0/903c486244ef23af2d57a2e0c552d64d.mp3?hdnea=exp=1767850049~acl=/api/1/1/9/0/3/0/903c486244ef23af2d57a2e0c552d64d.mp3*~data=user_id=0,application_id=42~hmac=56df87423977bdc955ff8ffabd1e54705be3cf832d0262ca76a8eaac170ed7d8",
         "image_id": "5ca7afbd151cd22f14a9bb307670c498"
     },
     {
+        "id": 1048645,
         "name": "Magisches Licht",
         "artist": "Karat",
         "album": "Schwanenk\u00f6nig",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/5/c/e/0/5ce07228c5ce66a06f6fe6240af83425.mp3?hdnea=exp=1767349361~acl=/api/1/1/5/c/e/0/5ce07228c5ce66a06f6fe6240af83425.mp3*~data=user_id=0,application_id=42~hmac=64352c037cfa56b51010fd9f6b9daf43c361c42c938c1f3ddb7d34251b227f8f",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/5/c/e/0/5ce07228c5ce66a06f6fe6240af83425.mp3?hdnea=exp=1767850051~acl=/api/1/1/5/c/e/0/5ce07228c5ce66a06f6fe6240af83425.mp3*~data=user_id=0,application_id=42~hmac=5e06de9523a2d2e9acdba4e875dc3d9492974008c558608a06d1f3d19e6f86cf",
         "image_id": "84a5526132f232f96f32af827627a3a4"
     },
     {
+        "id": 802287692,
         "name": "Demolition Man (Live at Irving Plaza, 2011 Remix)",
         "artist": "Sting",
         "album": "The Best Of 25 Years (Deluxe Edition)",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/8/e/a/0/8ea3a2cb5e941155e19dc41a51669808.mp3?hdnea=exp=1767349361~acl=/api/1/1/8/e/a/0/8ea3a2cb5e941155e19dc41a51669808.mp3*~data=user_id=0,application_id=42~hmac=d253e376799491a4203d4f2d066ccc4d75bc416351f69c12391c4a64880c4ea7",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/8/e/a/0/8ea3a2cb5e941155e19dc41a51669808.mp3?hdnea=exp=1767850052~acl=/api/1/1/8/e/a/0/8ea3a2cb5e941155e19dc41a51669808.mp3*~data=user_id=0,application_id=42~hmac=7c3d47071e719c3e45756897b8e9d8a06bab7e612d1477c03910e554620cffb0",
         "image_id": "126d8c16eee6dd2cf5a57ffe92d233ec"
     },
     {
+        "id": 3667381,
         "name": "Sing a Mean Tune Kid (2002 Remaster)",
         "artist": "Chicago",
         "album": "Chicago III",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/9/7/5/0/975660544e6fd6f7fbf9b598213544f0.mp3?hdnea=exp=1767349362~acl=/api/1/1/9/7/5/0/975660544e6fd6f7fbf9b598213544f0.mp3*~data=user_id=0,application_id=42~hmac=43495cb6fe53731ec8cb97c09d5c313459ce2903c91298eb6b49ff2308017f5c",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/9/7/5/0/975660544e6fd6f7fbf9b598213544f0.mp3?hdnea=exp=1767850053~acl=/api/1/1/9/7/5/0/975660544e6fd6f7fbf9b598213544f0.mp3*~data=user_id=0,application_id=42~hmac=b77f36cabaa80a1b6685f63d15cc79652e5800fd545d210ce4024c48f74348a5",
         "image_id": "9f54ece0895b261e09ccfa59701be77d"
     },
     {
+        "id": 930653732,
         "name": "New Girl",
         "artist": "Pater Iltis",
         "album": "Train",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/e/f/1/0/ef1ed88ce5af58c9822d911af9d4a0b1.mp3?hdnea=exp=1767349363~acl=/api/1/1/e/f/1/0/ef1ed88ce5af58c9822d911af9d4a0b1.mp3*~data=user_id=0,application_id=42~hmac=d17cedf848d6ea3a03c499716f904c425d171941ae2802f716a38a1c70e39263",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/e/f/1/0/ef1ed88ce5af58c9822d911af9d4a0b1.mp3?hdnea=exp=1767850055~acl=/api/1/1/e/f/1/0/ef1ed88ce5af58c9822d911af9d4a0b1.mp3*~data=user_id=0,application_id=42~hmac=6c469ba63c05290e27497c5ff1d5c0af6b57cfde4389903737db3919920caa69",
         "image_id": "aac497287cb76b3954d01e713dd8c8ce"
     },
     {
+        "id": 3889155,
         "name": "The Way I Feel (2006 Remaster)",
         "artist": "Robert Plant",
         "album": "Nine Lives",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/5/d/c/0/5dce10d8a4a33541092931a2707b4e21.mp3?hdnea=exp=1767349363~acl=/api/1/1/5/d/c/0/5dce10d8a4a33541092931a2707b4e21.mp3*~data=user_id=0,application_id=42~hmac=468f3963e4f401e296d1db995166d8c4416beffed4b35dacb831c191f84bd7b2",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/5/d/c/0/5dce10d8a4a33541092931a2707b4e21.mp3?hdnea=exp=1767850057~acl=/api/1/1/5/d/c/0/5dce10d8a4a33541092931a2707b4e21.mp3*~data=user_id=0,application_id=42~hmac=88916f2f149956290cc07a17541579c521aeac4fa1bb2b78ece1aa083d89c967",
         "image_id": "0d8a09068fcb45defb1ff4d83d038daa"
     },
     {
-        "name": "Kozmic Blues (Live at The Woodstock Music & Art Fair, August 17, 1969)",
+        "id": 1040945,
+        "name": "Me and Bobby McGee",
         "artist": "Janis Joplin",
-        "album": "Janis Joplin: The Woodstock Experience",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/2/d/0/0/2d00d0fd923050fe2e3dec258fec7418.mp3?hdnea=exp=1767349363~acl=/api/1/1/2/d/0/0/2d00d0fd923050fe2e3dec258fec7418.mp3*~data=user_id=0,application_id=42~hmac=bd123b949d91fb2245978dd45a24ce666a1855e41c4e88dbdd42ff232e1698f8",
-        "image_id": "6f9a55dd2a78b2ca577aaea906ad8832"
+        "album": "Pearl (Legacy Edition)",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/7/0/d/0/70d207aa6e7d5578d0260729e21fe60e.mp3?hdnea=exp=1767850058~acl=/api/1/1/7/0/d/0/70d207aa6e7d5578d0260729e21fe60e.mp3*~data=user_id=0,application_id=42~hmac=f1e983dbdc321224f5a037a5ad1271a44a7cbd4292311a33934fa86a79fd3c6e",
+        "image_id": "25e2cefd69f4f69c08a6b49a39e1e998"
     },
     {
+        "id": 60703564,
         "name": "Poor Boy (Long Version)",
         "artist": "Shocking Blue",
         "album": "3rd Album",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/5/2/3/0/523dcf16081e084ab73aef1a54a18f6a.mp3?hdnea=exp=1767349364~acl=/api/1/1/5/2/3/0/523dcf16081e084ab73aef1a54a18f6a.mp3*~data=user_id=0,application_id=42~hmac=af2715da13df13db88d53636c3bb9503fc2c25805bb1f6eb6703ab2acdad4ea7",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/5/2/3/0/523dcf16081e084ab73aef1a54a18f6a.mp3?hdnea=exp=1767850059~acl=/api/1/1/5/2/3/0/523dcf16081e084ab73aef1a54a18f6a.mp3*~data=user_id=0,application_id=42~hmac=2f3735a11a8a4079fc880141737408784b0c81c80499db5b1b58087d1688521e",
         "image_id": "553a4f42af63090d5d184fddcb3d8a69"
     }
 ]

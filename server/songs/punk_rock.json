@@ -1,345 +1,394 @@
 [
     {
+        "id": 6469964,
         "name": "Boomin'",
         "artist": "Mindless Self Indulgence",
         "album": "Frankenstein Girls Will Seem Strangely Sexy",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/c/8/7/0/c8703bf3b8cc515810123d01806fa12a.mp3?hdnea=exp=1767352692~acl=/api/1/1/c/8/7/0/c8703bf3b8cc515810123d01806fa12a.mp3*~data=user_id=0,application_id=42~hmac=7d1845bfec9c8fedc65bfac1ee0e9491516e092de047fd7c6a8dc46a7fd7971e",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/c/8/7/0/c8703bf3b8cc515810123d01806fa12a.mp3?hdnea=exp=1767849217~acl=/api/1/1/c/8/7/0/c8703bf3b8cc515810123d01806fa12a.mp3*~data=user_id=0,application_id=42~hmac=19af051b3c4cadc7f7ee0099b4673b0110c8497ca9e33c5fd67f95b366bb11af",
         "image_id": "db96781e2f90556670079b8a7f336e34"
     },
     {
+        "id": 3455717641,
         "name": "Eulogy",
         "artist": "The Flatliners",
         "album": "The Great Awake",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/e/e/2/0/ee2390cd02e891e4b51ee6ce0295e226.mp3?hdnea=exp=1767352692~acl=/api/1/1/e/e/2/0/ee2390cd02e891e4b51ee6ce0295e226.mp3*~data=user_id=0,application_id=42~hmac=ec44a5030c4db6bfd24452040f6e14cf40d276fe9787cfa783875df657fa43b9",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/e/e/2/0/ee2390cd02e891e4b51ee6ce0295e226.mp3?hdnea=exp=1767849219~acl=/api/1/1/e/e/2/0/ee2390cd02e891e4b51ee6ce0295e226.mp3*~data=user_id=0,application_id=42~hmac=8450d2e65c4cb7fa52f9c13e70dc40f6e88a1087a6de03e1160ca02f9419aba2",
         "image_id": "e7edf4d44d90067cb8a7194553b15f14"
     },
     {
+        "id": 3832053,
         "name": "Sudden Movements",
         "artist": "Billy Talent",
         "album": "Billy Talent III",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/5/9/0/0/5903f9bfb339f44416c08e94cadd63d9.mp3?hdnea=exp=1767352692~acl=/api/1/1/5/9/0/0/5903f9bfb339f44416c08e94cadd63d9.mp3*~data=user_id=0,application_id=42~hmac=d01dbec0b0a9947efccb44fdde3de294aaa74091f88a97b8c6ba2fc0839b7476",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/5/9/0/0/5903f9bfb339f44416c08e94cadd63d9.mp3?hdnea=exp=1767849221~acl=/api/1/1/5/9/0/0/5903f9bfb339f44416c08e94cadd63d9.mp3*~data=user_id=0,application_id=42~hmac=66cdb9d6255178f19bd944fb9a53db8df6c039177d3591d1678ce957219e1bc3",
         "image_id": "afb7038ed9a69cf427f89712eda2de1e"
     },
     {
+        "id": 13178352,
         "name": "Obey The Cowgod",
         "artist": "Green Jell\u00ff",
         "album": "Cereal Killer Soundtrack",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/0/5/9/0/0596971099938f81d65be2be6dfc1d53.mp3?hdnea=exp=1767352693~acl=/api/1/1/0/5/9/0/0596971099938f81d65be2be6dfc1d53.mp3*~data=user_id=0,application_id=42~hmac=4f47f9a489effba91940706e3a742d97dfe3d0f57195c99dbdc952a7153b9ff7",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/0/5/9/0/0596971099938f81d65be2be6dfc1d53.mp3?hdnea=exp=1767849222~acl=/api/1/1/0/5/9/0/0596971099938f81d65be2be6dfc1d53.mp3*~data=user_id=0,application_id=42~hmac=0a894cb68e2e91c12c4ea6a48d08c91fad600ec000caff1b4e2773b8825ab3b2",
         "image_id": "563a91a1629f8dafb9714ab5d7682eaa"
     },
     {
+        "id": 124197722,
         "name": "BB Poison",
         "artist": "Death Grips",
         "album": "Bottomless Pit",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/9/8/5/0/985e344c3e5bd4c2467907a688da639e.mp3?hdnea=exp=1767352693~acl=/api/1/1/9/8/5/0/985e344c3e5bd4c2467907a688da639e.mp3*~data=user_id=0,application_id=42~hmac=71df2a62c4785df9f54d8fef6d569dd475626dbfcf059c841c1a54423b071b86",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/9/8/5/0/985e344c3e5bd4c2467907a688da639e.mp3?hdnea=exp=1767849224~acl=/api/1/1/9/8/5/0/985e344c3e5bd4c2467907a688da639e.mp3*~data=user_id=0,application_id=42~hmac=9b340db77ae7a8b8ab46dd49e34c367634c3632d10ee53eb024ca62aa2ffc791",
         "image_id": "de270546a08a2904d7ccb30452c2ac62"
     },
     {
+        "id": 6686270,
         "name": "No Me Arrepiento de Este Amor",
         "artist": "Attaque 77",
         "album": "Otras Canciones",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/9/8/5/0/98581e566338c884269b32c8eb6e2c38.mp3?hdnea=exp=1767352694~acl=/api/1/1/9/8/5/0/98581e566338c884269b32c8eb6e2c38.mp3*~data=user_id=0,application_id=42~hmac=92d605a9507d6efc5ba65a411745466e3ad2cc98742b9915c3efa60627f0ed9d",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/9/8/5/0/98581e566338c884269b32c8eb6e2c38.mp3?hdnea=exp=1767849225~acl=/api/1/1/9/8/5/0/98581e566338c884269b32c8eb6e2c38.mp3*~data=user_id=0,application_id=42~hmac=77e99d367b784cf2de2883935316136363d824e1fea55c53352a6dc839c83356",
         "image_id": "c6cdff053f428b6fb6542306c6d376ae"
     },
     {
+        "id": 14496661,
         "name": "Merry Xmas Everybody",
         "artist": "Beatsteaks",
         "album": "Boombox+x",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/3/4/7/0/347d40e0db09359c64d45ad60e64ef37.mp3?hdnea=exp=1767352694~acl=/api/1/1/3/4/7/0/347d40e0db09359c64d45ad60e64ef37.mp3*~data=user_id=0,application_id=42~hmac=fe17a93d2d6c3943c68e304c8b8b7c477618e477cdf23a5c806cef712fce6e9f",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/3/4/7/0/347d40e0db09359c64d45ad60e64ef37.mp3?hdnea=exp=1767849226~acl=/api/1/1/3/4/7/0/347d40e0db09359c64d45ad60e64ef37.mp3*~data=user_id=0,application_id=42~hmac=06c002f7ea6a9cc5817bd7a646433ffa80cf091eb6d143220c19acf65262ce52",
         "image_id": "9dfedb4feb0ddd217c6ac5a9dc6f0c9d"
     },
     {
+        "id": 1007213132,
         "name": "Karten (Live)",
         "artist": "Farin Urlaub Racing Team",
         "album": "DANGER!",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/1/2/8/0/1288bd892909e407975d220d92bc6e8d.mp3?hdnea=exp=1767352695~acl=/api/1/1/1/2/8/0/1288bd892909e407975d220d92bc6e8d.mp3*~data=user_id=0,application_id=42~hmac=048e6d18c13686594c9b2e7fbf3bf53f55bae457982ad9f9445b68e83ed79f90",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/1/2/8/0/1288bd892909e407975d220d92bc6e8d.mp3?hdnea=exp=1767849228~acl=/api/1/1/1/2/8/0/1288bd892909e407975d220d92bc6e8d.mp3*~data=user_id=0,application_id=42~hmac=c8bac396c4a45db0f23030663719e61647d62651325e0eac3adfcf0891b044a6",
         "image_id": "cbd454b0c1fc6a15197e809b2497fcd6"
     },
     {
+        "id": 63978196,
         "name": "Road to Recovery",
         "artist": "Rufio",
         "album": "Perhaps, I Suppose",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/0/c/2/0/0c2a32b60dbef4afde1c31ba18a28fa8.mp3?hdnea=exp=1767352695~acl=/api/1/1/0/c/2/0/0c2a32b60dbef4afde1c31ba18a28fa8.mp3*~data=user_id=0,application_id=42~hmac=b87608fc03d2a9f3a6b4ddb2a5d050e64112198be284ea021e3f6726f54eaeb0",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/0/c/2/0/0c2a32b60dbef4afde1c31ba18a28fa8.mp3?hdnea=exp=1767849230~acl=/api/1/1/0/c/2/0/0c2a32b60dbef4afde1c31ba18a28fa8.mp3*~data=user_id=0,application_id=42~hmac=0b563c6efbed4dcc4ad5bbe892afe92fba95e7e77e78c69dd6a875367580135d",
         "image_id": "fd208abc815880cd99a2c9ee0c18669c"
     },
     {
+        "id": 9919782,
         "name": "Architects",
         "artist": "Rise Against",
         "album": "Endgame",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/1/d/7/0/1d7566cb321f883940b60165c29b4918.mp3?hdnea=exp=1767352696~acl=/api/1/1/1/d/7/0/1d7566cb321f883940b60165c29b4918.mp3*~data=user_id=0,application_id=42~hmac=cdf20325b8b25a7cbded91afa85d09ca18b88f32ddbfd8cf8984ea2c7dfa3c72",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/1/d/7/0/1d7566cb321f883940b60165c29b4918.mp3?hdnea=exp=1767849231~acl=/api/1/1/1/d/7/0/1d7566cb321f883940b60165c29b4918.mp3*~data=user_id=0,application_id=42~hmac=e9b498071ccb34cfaf030393372fbffa9e15281d8adb2330b0a52bd3a1ce26f1",
         "image_id": "58e7ce74258eb981c45ef34bb8a83a73"
     },
     {
+        "id": 1777666407,
         "name": "Mein sch\u00f6ner Hodensack",
         "artist": "Die Kassierer",
         "album": "M\u00e4nner, Bomben, Satelliten",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/a/2/3/0/a23ff273a2d9b34768483002699ec0c6.mp3?hdnea=exp=1767352696~acl=/api/1/1/a/2/3/0/a23ff273a2d9b34768483002699ec0c6.mp3*~data=user_id=0,application_id=42~hmac=b04c486bf45a00bb42be01ef183352c7b2a51855d8a35fd0ddf95dd241e55616",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/a/2/3/0/a23ff273a2d9b34768483002699ec0c6.mp3?hdnea=exp=1767849232~acl=/api/1/1/a/2/3/0/a23ff273a2d9b34768483002699ec0c6.mp3*~data=user_id=0,application_id=42~hmac=7d0052ebc13fb083cb5f31d34c785a4dd030bef0206159a12cbfb77a9ab26793",
         "image_id": "862fcdc6043a71d6bf0f63358dc01624"
     },
     {
+        "id": 3471504531,
         "name": "United Cigar",
         "artist": "Good Riddance",
-        "album": "For God and Country",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/d/1/4/0/d14fa337ed505811d1c70ac6f2eb1188.mp3?hdnea=exp=1767352696~acl=/api/1/1/d/1/4/0/d14fa337ed505811d1c70ac6f2eb1188.mp3*~data=user_id=0,application_id=42~hmac=3a013907865cd1c76655ed704f756944b72b351efcd1a4e258cd23c74946f2dc",
-        "image_id": "746a29b5b9e2378602ef60d5f07908ea"
+        "album": "Remain in Memory - The Final Show",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/4/8/7/0/487d1a3317c28ea57781abbf0d1cea1a.mp3?hdnea=exp=1767849234~acl=/api/1/1/4/8/7/0/487d1a3317c28ea57781abbf0d1cea1a.mp3*~data=user_id=0,application_id=42~hmac=3b394a8a2a1673111fab37171bd00b9e5d8be1c2bdd1b6b4fa2395b129a311be",
+        "image_id": "95a07d450bf8545f2bbeb64723db09cb"
     },
     {
+        "id": 1004226662,
         "name": "Baumhaus",
         "artist": "Captain Planet",
         "album": "Captain Planet",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/f/5/3/0/f5314e45f2662b2c0d0fcfc6ad0084a8.mp3?hdnea=exp=1767352697~acl=/api/1/1/f/5/3/0/f5314e45f2662b2c0d0fcfc6ad0084a8.mp3*~data=user_id=0,application_id=42~hmac=a3749ffdcba3ad564cb7d76309cb9e5bc4c7022a4c4566be4a9579e07ec4c9f9",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/f/5/3/0/f5314e45f2662b2c0d0fcfc6ad0084a8.mp3?hdnea=exp=1767849235~acl=/api/1/1/f/5/3/0/f5314e45f2662b2c0d0fcfc6ad0084a8.mp3*~data=user_id=0,application_id=42~hmac=d356c49c8fa82eaa34a5c5a73949f5685bb0b97793fec8b948bdf8750c05ad21",
         "image_id": "d711a9e2921aa3a3df89352bb64dc17c"
     },
     {
+        "id": 1006100912,
         "name": "Sommer, Palmen, Sonnenschein",
         "artist": "Die \u00c4rzte",
         "album": "Die \u00c4rzte fr\u00fcher! (1982-83)",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/3/5/b/0/35bef4c282fb1536332fd011238ab84e.mp3?hdnea=exp=1767352697~acl=/api/1/1/3/5/b/0/35bef4c282fb1536332fd011238ab84e.mp3*~data=user_id=0,application_id=42~hmac=1fca7383d8ac4673039bce4e89a1a4989eb258fb85b24572a223ac919ee6cd4f",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/3/5/b/0/35bef4c282fb1536332fd011238ab84e.mp3?hdnea=exp=1767849237~acl=/api/1/1/3/5/b/0/35bef4c282fb1536332fd011238ab84e.mp3*~data=user_id=0,application_id=42~hmac=0f03123af990ce6d89a4ff46f7a7bbd42ec519216c4cbd563910e6f2bdf69869",
         "image_id": "c97b801242a66a08b07e8d91ea9e1390"
     },
     {
+        "id": 101263686,
         "name": "Rambo (Remastered)",
         "artist": "Captain Planet",
         "album": "Inselwissen (Remastered)",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/f/b/1/0/fb196bf1b0d91c7ab7815ad628e0d2f1.mp3?hdnea=exp=1767352698~acl=/api/1/1/f/b/1/0/fb196bf1b0d91c7ab7815ad628e0d2f1.mp3*~data=user_id=0,application_id=42~hmac=4d0dcd6a69547be4153debdf91aa8e8c136fc089e95b35bf4888c4510da4453f",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/f/b/1/0/fb196bf1b0d91c7ab7815ad628e0d2f1.mp3?hdnea=exp=1767849239~acl=/api/1/1/f/b/1/0/fb196bf1b0d91c7ab7815ad628e0d2f1.mp3*~data=user_id=0,application_id=42~hmac=7ee4ac3427d87bfae43d42919a266f7b3e4c10ba4272e56321caff876a9a24d8",
         "image_id": "da8ef5852e3b57e8d59792d53d72a03a"
     },
     {
+        "id": 18714171,
         "name": "Piano Trio in A Minor, Op. 50 \"In Memory of a Great Artist\": Pezzo elegiaco. Moderato assai - Allegro giusto - Adagio con duolo - ",
         "artist": "Schweizer Klaviertrio - Swiss Piano Trio",
         "album": "Tchaikovsky: Piano Trio in A Minor, Op. 50 \"In Memory of a Great Artist\"",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/e/3/e/0/e3ea1ce3dc8534661378b8e5919bb7be.mp3?hdnea=exp=1767352698~acl=/api/1/1/e/3/e/0/e3ea1ce3dc8534661378b8e5919bb7be.mp3*~data=user_id=0,application_id=42~hmac=0f09f20a6d00e6d8c71d07d93e449f9e3388ca997990c06f89f61789c83941c4",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/e/3/e/0/e3ea1ce3dc8534661378b8e5919bb7be.mp3?hdnea=exp=1767849240~acl=/api/1/1/e/3/e/0/e3ea1ce3dc8534661378b8e5919bb7be.mp3*~data=user_id=0,application_id=42~hmac=84494141c1e208ab264ee4dced599ac328944a899ebed85b3eeb14fad7cd0f8e",
         "image_id": "5b03801e5c1febb2e961aa85ac46ff65"
     },
     {
+        "id": 1006111382,
         "name": "Junge",
         "artist": "Die \u00c4rzte",
         "album": "Jazz ist anders",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/2/a/c/0/2ac4e2e8743896fd1be81d4281855544.mp3?hdnea=exp=1767352698~acl=/api/1/1/2/a/c/0/2ac4e2e8743896fd1be81d4281855544.mp3*~data=user_id=0,application_id=42~hmac=d22354c2fd298e6e86185c0fa909cacef0334b392ca86acf167ac40aba853f5c",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/2/a/c/0/2ac4e2e8743896fd1be81d4281855544.mp3?hdnea=exp=1767849242~acl=/api/1/1/2/a/c/0/2ac4e2e8743896fd1be81d4281855544.mp3*~data=user_id=0,application_id=42~hmac=03cfe7baaf44b828c40bcc6bd41b893d9365d2dcc41b68dc0c5be4d957f7e0b9",
         "image_id": "84b8b9f4d730082452e5f14515a985f8"
     },
     {
+        "id": 87412063,
         "name": "Perra Vida",
         "artist": "Soziedad Alkoh\u00f3lika",
         "album": "Sesi\u00f3n#2",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/b/8/3/0/b83570eff218aec9a857819a6fa84bd0.mp3?hdnea=exp=1767352699~acl=/api/1/1/b/8/3/0/b83570eff218aec9a857819a6fa84bd0.mp3*~data=user_id=0,application_id=42~hmac=dede6c6b40f5a2be77fa1e427905ea68813ee4f7057f51676d8ff82680919b3b",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/b/8/3/0/b83570eff218aec9a857819a6fa84bd0.mp3?hdnea=exp=1767849243~acl=/api/1/1/b/8/3/0/b83570eff218aec9a857819a6fa84bd0.mp3*~data=user_id=0,application_id=42~hmac=5fe9eed464f6ce38b8a9a28fbddbcd65168d7ce235288c25bc2fe7b4673c43dd",
         "image_id": "eef373fdb5a54bfbefae683868bfafd2"
     },
     {
+        "id": 1777666397,
         "name": "Partyl\u00f6we",
         "artist": "Die Kassierer",
         "album": "M\u00e4nner, Bomben, Satelliten",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/4/b/e/0/4be21431f17f3cc626b86c9aa96991cb.mp3?hdnea=exp=1767352699~acl=/api/1/1/4/b/e/0/4be21431f17f3cc626b86c9aa96991cb.mp3*~data=user_id=0,application_id=42~hmac=9325bc725a7f2eedf7af280f3e01381d5d6e06b7857e3908e36c4706c8b83a9e",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/4/b/e/0/4be21431f17f3cc626b86c9aa96991cb.mp3?hdnea=exp=1767849245~acl=/api/1/1/4/b/e/0/4be21431f17f3cc626b86c9aa96991cb.mp3*~data=user_id=0,application_id=42~hmac=2dde44e9bc0673967849318b93d2ad530937c49165c96d277060103f8e966e55",
         "image_id": "862fcdc6043a71d6bf0f63358dc01624"
     },
     {
+        "id": 1391284432,
         "name": "Hacelo por M\u00ed",
         "artist": "Attaque 77",
         "album": "El Cielo Puede Esperar",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/e/1/9/0/e191587599e8083bfdfe80649337a224.mp3?hdnea=exp=1767352699~acl=/api/1/1/e/1/9/0/e191587599e8083bfdfe80649337a224.mp3*~data=user_id=0,application_id=42~hmac=858f1370c0a9ddab8f0e87dd372267c93e737988a5f88f8e2ffc0441271c1d8c",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/e/1/9/0/e191587599e8083bfdfe80649337a224.mp3?hdnea=exp=1767849246~acl=/api/1/1/e/1/9/0/e191587599e8083bfdfe80649337a224.mp3*~data=user_id=0,application_id=42~hmac=7e294dcafb20219d656f0d236a2d66fe5f07e20ed1b10847d9d15796081af51f",
         "image_id": "cdc94d34de87dcfda860122e11de36d7"
     },
     {
+        "id": 142608036,
         "name": "Du lebst nur einmal",
         "artist": "Die Toten Hosen",
         "album": "Ausw\u00e4rtsspiel (Deluxe-Edition mit Bonus-Tracks)",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/c/3/1/0/c317ed8039fd8806f46b7aad27af0417.mp3?hdnea=exp=1767352700~acl=/api/1/1/c/3/1/0/c317ed8039fd8806f46b7aad27af0417.mp3*~data=user_id=0,application_id=42~hmac=a9e9abae7c36c538d98863bf05e00ad4e32f986372a1845ade96967f280718fe",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/c/3/1/0/c317ed8039fd8806f46b7aad27af0417.mp3?hdnea=exp=1767849248~acl=/api/1/1/c/3/1/0/c317ed8039fd8806f46b7aad27af0417.mp3*~data=user_id=0,application_id=42~hmac=22a2cbb493cd13c64b98111ff4976c1e832e93610e1b9a093539f8b0fa74f0a9",
         "image_id": "049fdb012ad6723dc57f2fa07db16a77"
     },
     {
+        "id": 3253663,
         "name": "Independent Love Song",
         "artist": "The Bates",
         "album": "Intravenus",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/e/2/0/0/e203604c84b7119bfdc948811e1d4734.mp3?hdnea=exp=1767352700~acl=/api/1/1/e/2/0/0/e203604c84b7119bfdc948811e1d4734.mp3*~data=user_id=0,application_id=42~hmac=ad5573cdd0e3d073b722254c0e825486314227efbd02aad55326b3fb363457dd",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/e/2/0/0/e203604c84b7119bfdc948811e1d4734.mp3?hdnea=exp=1767849249~acl=/api/1/1/e/2/0/0/e203604c84b7119bfdc948811e1d4734.mp3*~data=user_id=0,application_id=42~hmac=ccf62efabf37952bdf3db242b2ec071c2c8e2abfc91c103166687c8779cd68f3",
         "image_id": "2b7d9b17cfffe932ea27fbabaf962f12"
     },
     {
+        "id": 477654012,
         "name": "Wunschkonzert",
         "artist": "Muff Potter",
         "album": "Steady Fremdk\u00f6rper",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/f/2/b/0/f2b617a3924fe130e42fb146cfb88d10.mp3?hdnea=exp=1767352700~acl=/api/1/1/f/2/b/0/f2b617a3924fe130e42fb146cfb88d10.mp3*~data=user_id=0,application_id=42~hmac=1e5b5aa3ff8ca2a09967083bce2891d969c8466db228e8a99f2c48c5983a24de",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/f/2/b/0/f2b617a3924fe130e42fb146cfb88d10.mp3?hdnea=exp=1767849251~acl=/api/1/1/f/2/b/0/f2b617a3924fe130e42fb146cfb88d10.mp3*~data=user_id=0,application_id=42~hmac=30882fe55dd63b9be2d176ab64fee9365a1ad8cde3df3cf4a2e9fe782e5037c1",
         "image_id": "64bb13cf54d2811511b165954d52bda3"
     },
     {
+        "id": 2292138885,
         "name": "Happy Death Day",
         "artist": "Xdinary Heroes",
         "album": "Happy Death Day",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/1/0/e/0/10e6f5be1c4b18ad37da586dc7fc2f06.mp3?hdnea=exp=1767352701~acl=/api/1/1/1/0/e/0/10e6f5be1c4b18ad37da586dc7fc2f06.mp3*~data=user_id=0,application_id=42~hmac=553cfabef09d29a1f52bf37c7c1fa74b29e3acec3a69aec6133c17388cd43867",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/1/0/e/0/10e6f5be1c4b18ad37da586dc7fc2f06.mp3?hdnea=exp=1767849253~acl=/api/1/1/1/0/e/0/10e6f5be1c4b18ad37da586dc7fc2f06.mp3*~data=user_id=0,application_id=42~hmac=5d63a307e108641e70fb1e0eb281c82065d3eea00cc2e3b645c08d5ea985f9b0",
         "image_id": "5eea832b2d232bc334cc530b542829a4"
     },
     {
+        "id": 1006100952,
         "name": "Wilde M\u00e4dchen",
         "artist": "Die \u00c4rzte",
         "album": "Die \u00c4rzte fr\u00fcher! (1982-83)",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/1/a/7/0/1a774dd75bf0179f702f15127f8880f1.mp3?hdnea=exp=1767352701~acl=/api/1/1/1/a/7/0/1a774dd75bf0179f702f15127f8880f1.mp3*~data=user_id=0,application_id=42~hmac=866af9c974fc09c39cfa6e85d862b9f854c423cfb3d66e7e292d73a5f60e69ad",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/1/a/7/0/1a774dd75bf0179f702f15127f8880f1.mp3?hdnea=exp=1767849254~acl=/api/1/1/1/a/7/0/1a774dd75bf0179f702f15127f8880f1.mp3*~data=user_id=0,application_id=42~hmac=dc77930fa8c244a68dfe422048184290c5e17a0a24e9674490de70d901fed8e5",
         "image_id": "c97b801242a66a08b07e8d91ea9e1390"
     },
     {
+        "id": 1762510947,
         "name": "Pine Point",
         "artist": "PUP",
         "album": "The Dream Is Over",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/0/c/8/0/0c824de68b36a3910a0f1f61b8fad761.mp3?hdnea=exp=1767352702~acl=/api/1/1/0/c/8/0/0c824de68b36a3910a0f1f61b8fad761.mp3*~data=user_id=0,application_id=42~hmac=cfb654b50de879f9563943c3cfdad90c62ccdbd9ff5414d2fa76a60e25471bae",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/0/c/8/0/0c824de68b36a3910a0f1f61b8fad761.mp3?hdnea=exp=1767849256~acl=/api/1/1/0/c/8/0/0c824de68b36a3910a0f1f61b8fad761.mp3*~data=user_id=0,application_id=42~hmac=858a87ce59b8f3c4dc674dca9a0836ca8e0e07c07394f580fc0a37cdb7c22821",
         "image_id": "6cec420f1d7ea37a5791741ebc2262a9"
     },
     {
+        "id": 506270932,
         "name": "Who We Are",
         "artist": "Descendents",
         "album": "Who We Are",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/7/4/4/0/744a9487fce347013c278932ce11fdbb.mp3?hdnea=exp=1767352702~acl=/api/1/1/7/4/4/0/744a9487fce347013c278932ce11fdbb.mp3*~data=user_id=0,application_id=42~hmac=345d0982664acdd6516d0cd25bde678f0fc49633afb996e4a0bf6f1605f78c71",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/7/4/4/0/744a9487fce347013c278932ce11fdbb.mp3?hdnea=exp=1767849256~acl=/api/1/1/7/4/4/0/744a9487fce347013c278932ce11fdbb.mp3*~data=user_id=0,application_id=42~hmac=1766ba248eceb2d7d7e57006cfa335fb20ac74a2e1a77e10d651aa16693c8ab7",
         "image_id": "f6e8e6bad0d56ee0a39ff3aa3ffbad69"
     },
     {
+        "id": 1006163552,
         "name": "Schrei nach Liebe",
         "artist": "Die \u00c4rzte",
         "album": "B\u00e4st Of",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/3/d/d/0/3ddc26ffd84dfc4e26a3e29177b6b5cb.mp3?hdnea=exp=1767352702~acl=/api/1/1/3/d/d/0/3ddc26ffd84dfc4e26a3e29177b6b5cb.mp3*~data=user_id=0,application_id=42~hmac=8754c1d052cd40040071387189cd569e37b277f895c33a780e0465e68e812e8b",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/3/d/d/0/3ddc26ffd84dfc4e26a3e29177b6b5cb.mp3?hdnea=exp=1767849258~acl=/api/1/1/3/d/d/0/3ddc26ffd84dfc4e26a3e29177b6b5cb.mp3*~data=user_id=0,application_id=42~hmac=2ad1337c46e48a716249d1394fbb0d5613ca5db79e8e9f5e1e53dbbda5ba0f2e",
         "image_id": "e08b750fe84f35d711357d46dc92c368"
     },
     {
+        "id": 3253656,
         "name": "Sound Of Silence",
         "artist": "The Bates",
         "album": "Intravenus",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/6/1/5/0/6153799cc486df40c0181d749cadb69b.mp3?hdnea=exp=1767352703~acl=/api/1/1/6/1/5/0/6153799cc486df40c0181d749cadb69b.mp3*~data=user_id=0,application_id=42~hmac=5be876f6479f93d2a7471d737599b37d1bf7ec46aece08222b9fe215e50b9100",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/6/1/5/0/6153799cc486df40c0181d749cadb69b.mp3?hdnea=exp=1767849258~acl=/api/1/1/6/1/5/0/6153799cc486df40c0181d749cadb69b.mp3*~data=user_id=0,application_id=42~hmac=55a1cbdcffa7e82321274fac332c25f931a950da2bc69151d4616e2df5332939",
         "image_id": "2b7d9b17cfffe932ea27fbabaf962f12"
     },
     {
+        "id": 2007759,
         "name": "My Pet Sally",
         "artist": "blink-182",
         "album": "Buddha",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/2/8/e/0/28ec0f75d856699bf9bfbdaaac904a17.mp3?hdnea=exp=1767352703~acl=/api/1/1/2/8/e/0/28ec0f75d856699bf9bfbdaaac904a17.mp3*~data=user_id=0,application_id=42~hmac=279e116b6904d772843da2d051c1e85f205d3563778855bf7264ba09ddd9b2e2",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/2/8/e/0/28ec0f75d856699bf9bfbdaaac904a17.mp3?hdnea=exp=1767849260~acl=/api/1/1/2/8/e/0/28ec0f75d856699bf9bfbdaaac904a17.mp3*~data=user_id=0,application_id=42~hmac=7d3a14c6097f3c44d46956bd0686ed6041e3ae0ac412bfe6265cfe7c159c2c3d",
         "image_id": "1c9c3877e6246295df74d076a192a9a9"
     },
     {
+        "id": 142608010,
         "name": "Das Altbierlied",
         "artist": "Die Toten Hosen",
         "album": "Damenwahl (Deluxe-Edition mit Bonus-Tracks)",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/f/1/6/0/f166e834361cbd53beda8c299194c1b7.mp3?hdnea=exp=1767352703~acl=/api/1/1/f/1/6/0/f166e834361cbd53beda8c299194c1b7.mp3*~data=user_id=0,application_id=42~hmac=3066fce6f3134cc576fd62cba1aa35c23d6809b696f2c757ec7e99f438537266",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/f/1/6/0/f166e834361cbd53beda8c299194c1b7.mp3?hdnea=exp=1767849261~acl=/api/1/1/f/1/6/0/f166e834361cbd53beda8c299194c1b7.mp3*~data=user_id=0,application_id=42~hmac=e4feb5475298e91ef57b2ccf638d15a36b84efe3ab55a039624801bac04e7ed2",
         "image_id": "99ff1c4656a33a5ac9290f31db8f5654"
     },
     {
+        "id": 378276751,
         "name": "Guilty By Association",
         "artist": "H2O",
         "album": "F.T.T.W.",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/2/6/d/0/26d0e5a4b5ea17a3002b3b7e49aaf479.mp3?hdnea=exp=1767352704~acl=/api/1/1/2/6/d/0/26d0e5a4b5ea17a3002b3b7e49aaf479.mp3*~data=user_id=0,application_id=42~hmac=1de63e510f72b02899cc60e03fa426966e5d4830a05c83bfdbf5bbc7aa547f28",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/2/6/d/0/26d0e5a4b5ea17a3002b3b7e49aaf479.mp3?hdnea=exp=1767849263~acl=/api/1/1/2/6/d/0/26d0e5a4b5ea17a3002b3b7e49aaf479.mp3*~data=user_id=0,application_id=42~hmac=cda89c2338775a44a0553477f4f56b09e1d850c3a0977b95eb7da69cb5cdefad",
         "image_id": "1bf7ecc71a4aadacdde1a44bcf0dc2d7"
     },
     {
+        "id": 1777666387,
         "name": "Das politische Lied",
         "artist": "Die Kassierer",
         "album": "M\u00e4nner, Bomben, Satelliten",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/6/1/4/0/614cd0cc12e0ead011fa7c7784544280.mp3?hdnea=exp=1767352704~acl=/api/1/1/6/1/4/0/614cd0cc12e0ead011fa7c7784544280.mp3*~data=user_id=0,application_id=42~hmac=aec1535ccd629780c6f217f58151884d6f16951ed5d24c0e4b2bd11f20aa8486",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/6/1/4/0/614cd0cc12e0ead011fa7c7784544280.mp3?hdnea=exp=1767849264~acl=/api/1/1/6/1/4/0/614cd0cc12e0ead011fa7c7784544280.mp3*~data=user_id=0,application_id=42~hmac=03f84f7540df828ed58b46237c943352731642e2067071d4926212ba273da7c6",
         "image_id": "862fcdc6043a71d6bf0f63358dc01624"
     },
     {
+        "id": 1777666427,
         "name": "Schnaps und Bier",
         "artist": "Die Kassierer",
         "album": "M\u00e4nner, Bomben, Satelliten",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/f/7/d/0/f7d23af25e3983cc5733c8d1b3abf674.mp3?hdnea=exp=1767352705~acl=/api/1/1/f/7/d/0/f7d23af25e3983cc5733c8d1b3abf674.mp3*~data=user_id=0,application_id=42~hmac=2eb0e830c9c8b681a288b209ef8f7a0cabf2d148d15d769049daf824860af0d6",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/f/7/d/0/f7d23af25e3983cc5733c8d1b3abf674.mp3?hdnea=exp=1767849266~acl=/api/1/1/f/7/d/0/f7d23af25e3983cc5733c8d1b3abf674.mp3*~data=user_id=0,application_id=42~hmac=42c62f2dcec5a3648c3875aa7c19bbf7c9a5b962d62d8ce784ef8aa7fd875cea",
         "image_id": "862fcdc6043a71d6bf0f63358dc01624"
     },
     {
+        "id": 1777669537,
         "name": "Du hast geguckt (Remastered)",
         "artist": "Die Kassierer",
         "album": "Haptisch - Ihre besten Aufnahmen aus 30 Jahren",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/9/d/f/0/9dfa60d4b18b077d54ce49f3bc563f8e.mp3?hdnea=exp=1767352705~acl=/api/1/1/9/d/f/0/9dfa60d4b18b077d54ce49f3bc563f8e.mp3*~data=user_id=0,application_id=42~hmac=3c5dc19587702c87065e3a28084c258280a5f0bc38110dda5df2aa7fb53095f4",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/9/d/f/0/9dfa60d4b18b077d54ce49f3bc563f8e.mp3?hdnea=exp=1767849267~acl=/api/1/1/9/d/f/0/9dfa60d4b18b077d54ce49f3bc563f8e.mp3*~data=user_id=0,application_id=42~hmac=60cad0c62ab908f970d7efa13fa8bb49525443d1fdfbd2953bdaeb7402d10fa5",
         "image_id": "1b2b8161d180c54ef3c35d776827f996"
     },
     {
+        "id": 1095340082,
         "name": "Ohne Dich",
         "artist": "Die \u00c4rzte",
         "album": "Das Ist Nicht Die Ganze Wahrheit...",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/2/2/3/0/223b63a95567e1646c1ca53192cbc19f.mp3?hdnea=exp=1767352705~acl=/api/1/1/2/2/3/0/223b63a95567e1646c1ca53192cbc19f.mp3*~data=user_id=0,application_id=42~hmac=18bc9f9a2dd1b0ebc5b312605aa22407180e8cf8899b2b6c5d26e86f5e705cec",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/2/2/3/0/223b63a95567e1646c1ca53192cbc19f.mp3?hdnea=exp=1767849269~acl=/api/1/1/2/2/3/0/223b63a95567e1646c1ca53192cbc19f.mp3*~data=user_id=0,application_id=42~hmac=e3bb8590ccdfd2644bc33efb7f285f4b00f95fbe74bdd4785d559db247a155b6",
         "image_id": "a43c4d893bfa5e62db38a91ac0f38542"
     },
     {
+        "id": 2216753,
         "name": "So sind wir (Live in Frankfurt 2001)",
         "artist": "B\u00f6hse Onkelz",
         "album": "20 Jahre - Live in Frankfurt",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/c/c/f/0/ccf6198c0da2c9b34245adacc36088a8.mp3?hdnea=exp=1767352706~acl=/api/1/1/c/c/f/0/ccf6198c0da2c9b34245adacc36088a8.mp3*~data=user_id=0,application_id=42~hmac=0997bcc4b32575b317d0d299e40ef03ac8985017256f07262781764a1ac058da",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/c/c/f/0/ccf6198c0da2c9b34245adacc36088a8.mp3?hdnea=exp=1767849270~acl=/api/1/1/c/c/f/0/ccf6198c0da2c9b34245adacc36088a8.mp3*~data=user_id=0,application_id=42~hmac=9673e10e4e2a6eaa83d6a4338bd55764c76671f9082f1e1c961a118f234659e8",
         "image_id": "e270ce0b70f7b2059a75bca61a629e8d"
     },
     {
+        "id": 378239491,
         "name": "Snake Handler",
         "artist": "L7",
         "album": "L7",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/d/3/0/0/d300a4368c4576256cd26210837db7a3.mp3?hdnea=exp=1767352706~acl=/api/1/1/d/3/0/0/d300a4368c4576256cd26210837db7a3.mp3*~data=user_id=0,application_id=42~hmac=1119494048e8ad727d52b074ed99b8619895fd187f5b53802f6a66af1a85ea85",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/d/3/0/0/d300a4368c4576256cd26210837db7a3.mp3?hdnea=exp=1767849272~acl=/api/1/1/d/3/0/0/d300a4368c4576256cd26210837db7a3.mp3*~data=user_id=0,application_id=42~hmac=307d7ceef1ef6b107aa907a9ecf42cbbb41da35a6d2ba7417d37536efa2457e2",
         "image_id": "a57216ab833e3c6cc973ddb58a9b4a59"
     },
     {
+        "id": 3520410031,
         "name": "S\u0105siad",
         "artist": "Lej Mi P\u00f3\u0142",
         "album": "Wszystkiego Najlepszego Marian",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/e/1/4/0/e14c366c6b9e6df2267c7b4670641d0e.mp3?hdnea=exp=1767352706~acl=/api/1/1/e/1/4/0/e14c366c6b9e6df2267c7b4670641d0e.mp3*~data=user_id=0,application_id=42~hmac=64d3e91cd8836e8e4d9a09e73633972193d52551d48af7db2da763e8f6933e8c",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/e/1/4/0/e14c366c6b9e6df2267c7b4670641d0e.mp3?hdnea=exp=1767849274~acl=/api/1/1/e/1/4/0/e14c366c6b9e6df2267c7b4670641d0e.mp3*~data=user_id=0,application_id=42~hmac=68a94dc21f96b876b652514b71e5516ad6630ef3a58dbca4c5d183a3196ae5bb",
         "image_id": "60079ddaee0cc8c1fac3bfd1765ca6aa"
     },
     {
+        "id": 1777666527,
         "name": "Kommste mit ins Stadion",
         "artist": "Die Kassierer",
         "album": "M\u00e4nner, Bomben, Satelliten",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/5/9/a/0/59afa2af262f0d7152bb706a3c65bf06.mp3?hdnea=exp=1767352707~acl=/api/1/1/5/9/a/0/59afa2af262f0d7152bb706a3c65bf06.mp3*~data=user_id=0,application_id=42~hmac=2dd6366baea5c0f8415d4903197806d817610759e1faff98aa7d3484d8c71957",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/5/9/a/0/59afa2af262f0d7152bb706a3c65bf06.mp3?hdnea=exp=1767849276~acl=/api/1/1/5/9/a/0/59afa2af262f0d7152bb706a3c65bf06.mp3*~data=user_id=0,application_id=42~hmac=ccfa40b8cdba8b07cec972f4556f7c6057c98d35b452b60b6cf48e1a4d3577e7",
         "image_id": "862fcdc6043a71d6bf0f63358dc01624"
     },
     {
+        "id": 3471504951,
         "name": "On the Outside",
         "artist": "No Use for a Name",
         "album": "All the Best Songs (Reissue)",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/6/7/8/0/678088f6eb43de3bbd962a4db98e7c89.mp3?hdnea=exp=1767352707~acl=/api/1/1/6/7/8/0/678088f6eb43de3bbd962a4db98e7c89.mp3*~data=user_id=0,application_id=42~hmac=7240b4e5cefe4dc9c524f4c525dc720e026dcfae2cfcb45461efb001312cbe74",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/6/7/8/0/678088f6eb43de3bbd962a4db98e7c89.mp3?hdnea=exp=1767849277~acl=/api/1/1/6/7/8/0/678088f6eb43de3bbd962a4db98e7c89.mp3*~data=user_id=0,application_id=42~hmac=b308d281dedba348e49f2b931b720547de7ab0eb48ce0dadb9f9a7be769060f5",
         "image_id": "d92f1d5a4915a29999ad8e7d80b33904"
     },
     {
+        "id": 1007213242,
         "name": "Der Kavalier",
         "artist": "Farin Urlaub",
         "album": "Endlich Urlaub!",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/8/f/a/0/8fafa209c528233ae511cb13d22d2667.mp3?hdnea=exp=1767352707~acl=/api/1/1/8/f/a/0/8fafa209c528233ae511cb13d22d2667.mp3*~data=user_id=0,application_id=42~hmac=b4e3f499b5b9cd11753de2fb492c5a0dd673f90aaf248387784113492e23aeab",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/8/f/a/0/8fafa209c528233ae511cb13d22d2667.mp3?hdnea=exp=1767849279~acl=/api/1/1/8/f/a/0/8fafa209c528233ae511cb13d22d2667.mp3*~data=user_id=0,application_id=42~hmac=3fa1d1e1f27338a1000e4ea6d4627e4a5a7a05c728209758ebbd2484f58981a3",
         "image_id": "429382fcd3d3aca6f68d0be6fc929497"
     },
     {
+        "id": 679190,
         "name": "Wof\u00fcr man lebt",
         "artist": "Die Toten Hosen",
         "album": "Unsterblich (Deluxe-Edition mit Bonus-Tracks)",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/4/9/0/0/490aa64e21d27535396655404fd29479.mp3?hdnea=exp=1767352708~acl=/api/1/1/4/9/0/0/490aa64e21d27535396655404fd29479.mp3*~data=user_id=0,application_id=42~hmac=9e874d84bbdc7120c822779a38860f386154a2ebad7bf14c2affd319d558c8ad",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/4/9/0/0/490aa64e21d27535396655404fd29479.mp3?hdnea=exp=1767849280~acl=/api/1/1/4/9/0/0/490aa64e21d27535396655404fd29479.mp3*~data=user_id=0,application_id=42~hmac=a1849069821f646c510f1aa91667247448c58b615599fdd1e922367874152c87",
         "image_id": "570b448a5a7755f3d61fe1098d075f5a"
     },
     {
+        "id": 6469987,
         "name": "Royally Fucked",
         "artist": "Mindless Self Indulgence",
         "album": "Frankenstein Girls Will Seem Strangely Sexy",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/9/2/c/0/92c35744f6e63c79068b42a640bda4d4.mp3?hdnea=exp=1767352708~acl=/api/1/1/9/2/c/0/92c35744f6e63c79068b42a640bda4d4.mp3*~data=user_id=0,application_id=42~hmac=82d2ac72a14b2ff3ce092b7f4ba3e669244cc701c62b5bcbc108017cc823b0de",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/9/2/c/0/92c35744f6e63c79068b42a640bda4d4.mp3?hdnea=exp=1767849282~acl=/api/1/1/9/2/c/0/92c35744f6e63c79068b42a640bda4d4.mp3*~data=user_id=0,application_id=42~hmac=747cf6b7f6db2298e6ddac84badf1701e96bb6d4590555503629c11669ef938f",
         "image_id": "db96781e2f90556670079b8a7f336e34"
     },
     {
+        "id": 3304730,
         "name": "The Damned",
         "artist": "Plasmatics",
         "album": "Coup D'Etat (Caroline Reissue)",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/c/1/6/0/c16e8d9de036867e53abc53e5445d344.mp3?hdnea=exp=1767352708~acl=/api/1/1/c/1/6/0/c16e8d9de036867e53abc53e5445d344.mp3*~data=user_id=0,application_id=42~hmac=624e6fba5753661be1a84f5929580288e4bf44d71c57906828103221dc7d4fe3",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/c/1/6/0/c16e8d9de036867e53abc53e5445d344.mp3?hdnea=exp=1767849283~acl=/api/1/1/c/1/6/0/c16e8d9de036867e53abc53e5445d344.mp3*~data=user_id=0,application_id=42~hmac=b52bb00114af1b26db7898ae0c2ffefba09ef0640effa5a8b3d1c0046ebb66e2",
         "image_id": "b990740e5951bcee44df4546576d641b"
     },
     {
+        "id": 2545066,
         "name": "Undercovers On (Album Version)",
         "artist": "Rival Schools",
         "album": "United By Fate",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/c/3/b/0/c3b6dd7cd329f9d10faa4e1923512f86.mp3?hdnea=exp=1767352709~acl=/api/1/1/c/3/b/0/c3b6dd7cd329f9d10faa4e1923512f86.mp3*~data=user_id=0,application_id=42~hmac=36412c2ab7e3e2da32d113e2295a38ed2b1b21dd3b528b2dab1cc28adf0d159e",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/c/3/b/0/c3b6dd7cd329f9d10faa4e1923512f86.mp3?hdnea=exp=1767849284~acl=/api/1/1/c/3/b/0/c3b6dd7cd329f9d10faa4e1923512f86.mp3*~data=user_id=0,application_id=42~hmac=f39d0f068f48ceda97a957a5ac30cf3ad14e900c39f0a540db381a9d310d2a88",
         "image_id": "d270f9d56b35f0451419ff8662d8e2c2"
     },
     {
+        "id": 6469978,
         "name": "Kick the Bucket",
         "artist": "Mindless Self Indulgence",
         "album": "Frankenstein Girls Will Seem Strangely Sexy",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/4/d/7/0/4d7dd4dce023f20831b4df52fc5d4ddb.mp3?hdnea=exp=1767352709~acl=/api/1/1/4/d/7/0/4d7dd4dce023f20831b4df52fc5d4ddb.mp3*~data=user_id=0,application_id=42~hmac=be14806bf2ec87a34ad17e38560bdb776d71cbea99d834f14bd11cc4e0f16e7f",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/4/d/7/0/4d7dd4dce023f20831b4df52fc5d4ddb.mp3?hdnea=exp=1767849286~acl=/api/1/1/4/d/7/0/4d7dd4dce023f20831b4df52fc5d4ddb.mp3*~data=user_id=0,application_id=42~hmac=6ca88ee095af0845c37d567b407eab1a1d45fe20eee4e78a87baffe89486516a",
         "image_id": "db96781e2f90556670079b8a7f336e34"
     },
     {
+        "id": 3471731041,
         "name": "My Boyfriend's Back",
         "artist": "Me First and the Gimme Gimmes",
         "album": "Blow in the Wind",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/6/a/3/0/6a3b466b40cbb0f673c85829d21aedc7.mp3?hdnea=exp=1767352710~acl=/api/1/1/6/a/3/0/6a3b466b40cbb0f673c85829d21aedc7.mp3*~data=user_id=0,application_id=42~hmac=78e90dd03bf79e6b1aabc535e085f74c2693ced03efc12b09edfa1efb2edacb5",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/6/a/3/0/6a3b466b40cbb0f673c85829d21aedc7.mp3?hdnea=exp=1767849288~acl=/api/1/1/6/a/3/0/6a3b466b40cbb0f673c85829d21aedc7.mp3*~data=user_id=0,application_id=42~hmac=d0cff4e76f2acadeb66a42eb95032e148ec9283c8be6bc7a5af7d54faafd03eb",
         "image_id": "77a88aae4fb64f4f800fe81d12274011"
     },
     {
+        "id": 3473005621,
         "name": "Suits and Ladders",
         "artist": "NOFX",
         "album": "Coaster",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/d/9/5/0/d95c926b7ef4fda545330ba21f524795.mp3?hdnea=exp=1767352710~acl=/api/1/1/d/9/5/0/d95c926b7ef4fda545330ba21f524795.mp3*~data=user_id=0,application_id=42~hmac=723685f380215b4a09e5bff1069db07c996d109cff80ad70e8f692cd2a9d9ba3",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/d/9/5/0/d95c926b7ef4fda545330ba21f524795.mp3?hdnea=exp=1767849289~acl=/api/1/1/d/9/5/0/d95c926b7ef4fda545330ba21f524795.mp3*~data=user_id=0,application_id=42~hmac=454e10fd4f1cc10e5b36fccfd222e6208dc31753ce34cb31d2ff2e2fd92dbcc9",
         "image_id": "5a7fcdb75807543195b01543e6226a94"
     }
 ]

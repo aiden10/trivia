@@ -1,1339 +1,1522 @@
 [
     {
+        "id": 3363462,
         "name": "I Fall In Love Too Easily",
         "artist": "Chet Baker",
         "album": "Chet Baker Sings",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/e/8/3/0/e839e76dce6e4962f596a145f4846e2a.mp3?hdnea=exp=1767351290~acl=/api/1/1/e/8/3/0/e839e76dce6e4962f596a145f4846e2a.mp3*~data=user_id=0,application_id=42~hmac=5eebc6e8836f9a765b4c031529703c249c77b5765831f7b939f7f096e53b2765",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/e/8/3/0/e839e76dce6e4962f596a145f4846e2a.mp3?hdnea=exp=1767857187~acl=/api/1/1/e/8/3/0/e839e76dce6e4962f596a145f4846e2a.mp3*~data=user_id=0,application_id=42~hmac=d849140df9f99c5730be39cd655d861e60fb0af8f16f3367ffa39e5b55f3d5c3",
         "image_id": "d1e1eb8e082d83e3c9fdb2ac17121bc5"
     },
     {
+        "id": 1030652042,
         "name": "Like a Tattoo",
         "artist": "Sade",
         "album": "The Best of Sade",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/9/8/f/0/98f8837c7a761b3d263107dded910c88.mp3?hdnea=exp=1767351290~acl=/api/1/1/9/8/f/0/98f8837c7a761b3d263107dded910c88.mp3*~data=user_id=0,application_id=42~hmac=961ad45febad523296e8ed82ac5854a2a592c0bf8232915e306ab016d89178f0",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/9/8/f/0/98f8837c7a761b3d263107dded910c88.mp3?hdnea=exp=1767857188~acl=/api/1/1/9/8/f/0/98f8837c7a761b3d263107dded910c88.mp3*~data=user_id=0,application_id=42~hmac=28ab7aecded5dfd69495b609783e1f89250365e478234388471b1e2f44d5adaf",
         "image_id": "336e00b554c028d58b7c432c38581997"
     },
     {
+        "id": 70835066,
         "name": "My Way",
         "artist": "Frank Sinatra",
         "album": "My Way (Expanded Edition)",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/1/8/d/0/18d336e276b5cd321494bba213dbc8d1.mp3?hdnea=exp=1767351290~acl=/api/1/1/1/8/d/0/18d336e276b5cd321494bba213dbc8d1.mp3*~data=user_id=0,application_id=42~hmac=664ebc6add9039bad458e1f399c1974f29b385172d02b7eaaa1d1c6cee08305d",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/1/8/d/0/18d336e276b5cd321494bba213dbc8d1.mp3?hdnea=exp=1767857189~acl=/api/1/1/1/8/d/0/18d336e276b5cd321494bba213dbc8d1.mp3*~data=user_id=0,application_id=42~hmac=ce1dbd9b577fdef6b67c8044d0920fccc83526f1c0f203e08a5e8122541b6c06",
         "image_id": "ae5e2905c3e2236b19480b96c7b93bc8"
     },
     {
+        "id": 2176856,
         "name": "Back To Black",
         "artist": "Amy Winehouse",
         "album": "Back To Black",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/8/c/5/0/8c51a0c8941f72ee783a7b2798cff8c8.mp3?hdnea=exp=1767351291~acl=/api/1/1/8/c/5/0/8c51a0c8941f72ee783a7b2798cff8c8.mp3*~data=user_id=0,application_id=42~hmac=d3aff73cfa0dd40084d1b761db16c7fb5afe6caa19129489b41ba676284b5d2b",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/8/c/5/0/8c51a0c8941f72ee783a7b2798cff8c8.mp3?hdnea=exp=1767857190~acl=/api/1/1/8/c/5/0/8c51a0c8941f72ee783a7b2798cff8c8.mp3*~data=user_id=0,application_id=42~hmac=b48448b1be89eddcd875cfe2e051a306de9715faa96f713252bcba2eab767dfd",
         "image_id": "3ce985e6653c350c6e6fed077ab7d0d4"
     },
     {
+        "id": 911085,
         "name": "In A Sentimental Mood",
         "artist": "Duke Ellington",
         "album": "Duke Ellington & John Coltrane",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/6/d/8/0/6d854e77da72720be05e505470dce9ff.mp3?hdnea=exp=1767351291~acl=/api/1/1/6/d/8/0/6d854e77da72720be05e505470dce9ff.mp3*~data=user_id=0,application_id=42~hmac=cf5d359d603b0d05cad6b41a105d4e23a007bb13222a61e26bca681a1eecb138",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/6/d/8/0/6d854e77da72720be05e505470dce9ff.mp3?hdnea=exp=1767857191~acl=/api/1/1/6/d/8/0/6d854e77da72720be05e505470dce9ff.mp3*~data=user_id=0,application_id=42~hmac=fb120ab6f6baa890b497e88f4f45c9c4b852a65297f9b32891bb0a313da98940",
         "image_id": "4b9b9e345791d561054e471079dc0f2d"
     },
     {
+        "id": 72203431,
         "name": "Take Five",
         "artist": "The Dave Brubeck Quartet",
         "album": "Time Out",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/5/0/e/0/50e68505db0f4598eaaec51243784a15.mp3?hdnea=exp=1767351292~acl=/api/1/1/5/0/e/0/50e68505db0f4598eaaec51243784a15.mp3*~data=user_id=0,application_id=42~hmac=855eab890964401966dba218a06800be6be54303c39ea39172f650f891336912",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/5/0/e/0/50e68505db0f4598eaaec51243784a15.mp3?hdnea=exp=1767857192~acl=/api/1/1/5/0/e/0/50e68505db0f4598eaaec51243784a15.mp3*~data=user_id=0,application_id=42~hmac=b76f001614b8485dab0a097df0c5032083bb2f1b9df2cfca6da359f84857d165",
         "image_id": "9637fd8850fbe280dfe958d0f82b7b12"
     },
     {
+        "id": 1030652012,
         "name": "Paradise",
         "artist": "Sade",
         "album": "The Best of Sade",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/f/3/0/0/f30258e9a8b9eb110f94f5d0675a56b2.mp3?hdnea=exp=1767351292~acl=/api/1/1/f/3/0/0/f30258e9a8b9eb110f94f5d0675a56b2.mp3*~data=user_id=0,application_id=42~hmac=1bfa60ed6d3c9743bd4713ea00e1ebdbc4295269386313172cecc5981c191672",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/f/3/0/0/f30258e9a8b9eb110f94f5d0675a56b2.mp3?hdnea=exp=1767857194~acl=/api/1/1/f/3/0/0/f30258e9a8b9eb110f94f5d0675a56b2.mp3*~data=user_id=0,application_id=42~hmac=ddc86b9a49aa6a14075978868c1994d9e572f84d1f7b90c9d30e846395aab7a0",
         "image_id": "336e00b554c028d58b7c432c38581997"
     },
     {
+        "id": 71483074,
         "name": "That's Life (2008 Remastered)",
         "artist": "Frank Sinatra",
         "album": "Nothing But The Best (2008 Remastered)",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/3/6/6/0/3663bfcab45130962edba0c619292f9d.mp3?hdnea=exp=1767351292~acl=/api/1/1/3/6/6/0/3663bfcab45130962edba0c619292f9d.mp3*~data=user_id=0,application_id=42~hmac=a58d2d5e8dbcce88d85344a4adc1944f4a806c3a950af1b07d1b3625e0809f40",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/3/6/6/0/3663bfcab45130962edba0c619292f9d.mp3?hdnea=exp=1767857194~acl=/api/1/1/3/6/6/0/3663bfcab45130962edba0c619292f9d.mp3*~data=user_id=0,application_id=42~hmac=813a09c8b229da602a3b5365e90eeca4df3df2a99340826eb08e6bc8e798d908",
         "image_id": "621c706e3416c6c52671ab7fe11878f6"
     },
     {
+        "id": 71483069,
         "name": "Strangers In The Night (2008 Remastered)",
         "artist": "Frank Sinatra",
         "album": "Nothing But The Best (2008 Remastered)",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/c/c/b/0/ccb26c4e3a5a3daa052abae91e762548.mp3?hdnea=exp=1767351293~acl=/api/1/1/c/c/b/0/ccb26c4e3a5a3daa052abae91e762548.mp3*~data=user_id=0,application_id=42~hmac=dd18bfba78d2cabd488aa3e426a442efb095c457b7324cc83e5196fd3b211f55",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/c/c/b/0/ccb26c4e3a5a3daa052abae91e762548.mp3?hdnea=exp=1767857195~acl=/api/1/1/c/c/b/0/ccb26c4e3a5a3daa052abae91e762548.mp3*~data=user_id=0,application_id=42~hmac=c391f9eb4b0c3c6d58e028f0eca73792a1feca022c8c4fa8972b8bb1d58be663",
         "image_id": "621c706e3416c6c52671ab7fe11878f6"
     },
     {
+        "id": 730845,
         "name": "Feeling Good",
         "artist": "Michael Bubl\u00e9",
         "album": "It's Time",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/f/9/0/0/f901a7cc6db4dc397ca80c0073706137.mp3?hdnea=exp=1767351293~acl=/api/1/1/f/9/0/0/f901a7cc6db4dc397ca80c0073706137.mp3*~data=user_id=0,application_id=42~hmac=74de4421ba8682a300b0bdb69d2548df63c638fcbf586f61e97981ff357840e7",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/f/9/0/0/f901a7cc6db4dc397ca80c0073706137.mp3?hdnea=exp=1767857196~acl=/api/1/1/f/9/0/0/f901a7cc6db4dc397ca80c0073706137.mp3*~data=user_id=0,application_id=42~hmac=cc10420b2eebf1246a1f91ea0eb2f18bbc3a6f5bc03f74d6d413d7fcf8ae2eed",
         "image_id": "82adbd44bbe338520d8dfd815524dfaa"
     },
     {
+        "id": 134403694,
         "name": "Linus And Lucy",
         "artist": "Vince Guaraldi Trio",
         "album": "A Charlie Brown Christmas [2012 Remastered & Expanded Edition] (Remastered & Expanded Edition)",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/0/0/6/0/006d61d42372ff86c7bfaf5b17b9ea5a.mp3?hdnea=exp=1767351294~acl=/api/1/1/0/0/6/0/006d61d42372ff86c7bfaf5b17b9ea5a.mp3*~data=user_id=0,application_id=42~hmac=322a727ab39f3fea765e9e50fd457c78583af657e55427d163aeb4a68aace3ca",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/0/0/6/0/006d61d42372ff86c7bfaf5b17b9ea5a.mp3?hdnea=exp=1767857196~acl=/api/1/1/0/0/6/0/006d61d42372ff86c7bfaf5b17b9ea5a.mp3*~data=user_id=0,application_id=42~hmac=6b907b22afba61feca8fc57a0d340256af46d85ab58d2ad053e3e0e006663426",
         "image_id": "31b820550d78f674241aa965f5eeb425"
     },
     {
+        "id": 3147914,
         "name": "My Funny Valentine",
         "artist": "Chet Baker",
         "album": "Let's Get Lost: The Best Of Chet Baker Sings",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/b/7/0/0/b70221936f61b3973d7666f7c137811a.mp3?hdnea=exp=1767351294~acl=/api/1/1/b/7/0/0/b70221936f61b3973d7666f7c137811a.mp3*~data=user_id=0,application_id=42~hmac=ac04b642ac5638eed3a4185d7e11fbedb809cc89c366cdbf9e961bf2bb1f3600",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/b/7/0/0/b70221936f61b3973d7666f7c137811a.mp3?hdnea=exp=1767857198~acl=/api/1/1/b/7/0/0/b70221936f61b3973d7666f7c137811a.mp3*~data=user_id=0,application_id=42~hmac=506a01219e13086a0db04602cb5cc107949e40493e12e014db2e050de9ed6715",
         "image_id": "63f24d377c90dc7fadaf8f5868b650fd"
     },
     {
+        "id": 1073803262,
         "name": "Don't Know Why",
         "artist": "Norah Jones",
         "album": "Classic Jones",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/9/8/6/0/9863b94e0b467c48d270ebbefae31966.mp3?hdnea=exp=1767351294~acl=/api/1/1/9/8/6/0/9863b94e0b467c48d270ebbefae31966.mp3*~data=user_id=0,application_id=42~hmac=f54de871a3e2cdc87c9440b6970f9883cbf8abb8a71d31b0a9b653dd42c6b260",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/9/8/6/0/9863b94e0b467c48d270ebbefae31966.mp3?hdnea=exp=1767857198~acl=/api/1/1/9/8/6/0/9863b94e0b467c48d270ebbefae31966.mp3*~data=user_id=0,application_id=42~hmac=f431e6a86c89e4c7e2110be8dbc187df56cef4f5e385aa0ed4076f5151c7ca0c",
         "image_id": "fb68bc6ca6299bfad51995a860588e5d"
     },
     {
+        "id": 2237484,
         "name": "My One And Only Love",
         "artist": "John Coltrane",
         "album": "Coltrane For Lovers",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/1/9/c/0/19cb5aa2371c4aa85660d039192dc10e.mp3?hdnea=exp=1767351295~acl=/api/1/1/1/9/c/0/19cb5aa2371c4aa85660d039192dc10e.mp3*~data=user_id=0,application_id=42~hmac=4c5d1dcab93285c6d356a7deaa249e5a1205760a2c42a77fc675f2085ebd809d",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/1/9/c/0/19cb5aa2371c4aa85660d039192dc10e.mp3?hdnea=exp=1767857200~acl=/api/1/1/1/9/c/0/19cb5aa2371c4aa85660d039192dc10e.mp3*~data=user_id=0,application_id=42~hmac=f6aa4b578264c2dceb3bae002ff5ba2295ebe63db954ed6f40ca72ac407f1645",
         "image_id": "de65f6027dffb58ef60324b62e922865"
     },
     {
+        "id": 62347641,
         "name": "What A Wonderful World",
         "artist": "Louis Armstrong",
         "album": "What A Wonderful World",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/5/a/d/0/5ad49dba15f54a267bdbca418584b67a.mp3?hdnea=exp=1767351295~acl=/api/1/1/5/a/d/0/5ad49dba15f54a267bdbca418584b67a.mp3*~data=user_id=0,application_id=42~hmac=623457183431cde6b82229a50fec7787520840db5ee14c832a197517c97eec55",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/5/a/d/0/5ad49dba15f54a267bdbca418584b67a.mp3?hdnea=exp=1767857201~acl=/api/1/1/5/a/d/0/5ad49dba15f54a267bdbca418584b67a.mp3*~data=user_id=0,application_id=42~hmac=1dc576fb92faaf1419931ae45f411208851b06af659062982a3b178ce0374331",
         "image_id": "e521bade4db2c78dbda6c334905f6ea9"
     },
     {
+        "id": 782937,
         "name": "Sway",
         "artist": "Michael Bubl\u00e9",
         "album": "Michael Bubl\u00e9",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/c/1/9/0/c19e5069bb5cd81dc79de29470424b20.mp3?hdnea=exp=1767351295~acl=/api/1/1/c/1/9/0/c19e5069bb5cd81dc79de29470424b20.mp3*~data=user_id=0,application_id=42~hmac=1d9e402ea540225d7419747074acfc928e6a8d66d331be530749616493ccff17",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/c/1/9/0/c19e5069bb5cd81dc79de29470424b20.mp3?hdnea=exp=1767857202~acl=/api/1/1/c/1/9/0/c19e5069bb5cd81dc79de29470424b20.mp3*~data=user_id=0,application_id=42~hmac=0ef7970b1aa67e5e2ea3667efe818ee12bfb2455b8dea035c4f4b686867b9406",
         "image_id": "a5dd92ae1b53ad19f39e3036dd510541"
     },
     {
+        "id": 79363305,
         "name": "The Other Woman",
         "artist": "Lana Del Rey",
         "album": "Ultraviolence (Deluxe)",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/d/1/0/0/d10bd3121a8d914b1459e3d442bad0ab.mp3?hdnea=exp=1767351296~acl=/api/1/1/d/1/0/0/d10bd3121a8d914b1459e3d442bad0ab.mp3*~data=user_id=0,application_id=42~hmac=53893de2661f8b8a23a4464fbc6f97703246b3b82d3e5d63c23d3acff7176cad",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/d/1/0/0/d10bd3121a8d914b1459e3d442bad0ab.mp3?hdnea=exp=1767857203~acl=/api/1/1/d/1/0/0/d10bd3121a8d914b1459e3d442bad0ab.mp3*~data=user_id=0,application_id=42~hmac=de2dd0d17d5603ee6b2f2672ec4c5312229592d95b7d44720664e0404159fa41",
         "image_id": "b68adb6788dfa09a314f594aec287850"
     },
     {
+        "id": 2176853,
         "name": "You Know I'm No Good",
         "artist": "Amy Winehouse",
         "album": "Back To Black",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/a/e/5/0/ae5d94e4e365d8a96d0a4342a849c4ff.mp3?hdnea=exp=1767351296~acl=/api/1/1/a/e/5/0/ae5d94e4e365d8a96d0a4342a849c4ff.mp3*~data=user_id=0,application_id=42~hmac=ce547dae6f51988bd22dccc767cf3225f13140858719815322119acbe957924d",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/a/e/5/0/ae5d94e4e365d8a96d0a4342a849c4ff.mp3?hdnea=exp=1767857204~acl=/api/1/1/a/e/5/0/ae5d94e4e365d8a96d0a4342a849c4ff.mp3*~data=user_id=0,application_id=42~hmac=6360e59d69fd8b4bca6f5729b6aeff2c54187d19d3a570fe12a2dddc288d9ecd",
         "image_id": "3ce985e6653c350c6e6fed077ab7d0d4"
     },
     {
+        "id": 68953564,
         "name": "Hit the Road Jack",
         "artist": "Ray Charles",
         "album": "Ray Charles, The Very Best Of",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/8/1/8/0/818fcab147a5b531cf8cc12de4cb2eaa.mp3?hdnea=exp=1767351296~acl=/api/1/1/8/1/8/0/818fcab147a5b531cf8cc12de4cb2eaa.mp3*~data=user_id=0,application_id=42~hmac=773d6cac7f0c8a65e5d220c40044e418b0908b1e0e7acd4ed760cde4a5a08ad1",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/8/1/8/0/818fcab147a5b531cf8cc12de4cb2eaa.mp3?hdnea=exp=1767857204~acl=/api/1/1/8/1/8/0/818fcab147a5b531cf8cc12de4cb2eaa.mp3*~data=user_id=0,application_id=42~hmac=4e9ce9846c6620bd1310a78f6891422da93f0eafa948338961619675b74baf7c",
         "image_id": "606741e24e4109ba36979153a95ed4de"
     },
     {
+        "id": 709830092,
         "name": "Feeling Good",
         "artist": "Nina Simone",
         "album": "Feeling Good: The Very Best Of Nina Simone",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/7/9/9/0/799d0ea320d9762806e71efa6c68693d.mp3?hdnea=exp=1767351297~acl=/api/1/1/7/9/9/0/799d0ea320d9762806e71efa6c68693d.mp3*~data=user_id=0,application_id=42~hmac=2446cb427251ebfcb7aa4b38db413d1975542b895f6017a96779fed5f86cd00b",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/7/9/9/0/799d0ea320d9762806e71efa6c68693d.mp3?hdnea=exp=1767857205~acl=/api/1/1/7/9/9/0/799d0ea320d9762806e71efa6c68693d.mp3*~data=user_id=0,application_id=42~hmac=b7d92beb634904287bdc81eb31c61d9e4235ae3f6d3dfd9d0ad91f7a054b02ac",
         "image_id": "03ff2061c4aa5cfd402c7c01bd06a48a"
     },
     {
+        "id": 593695462,
         "name": "Solitude",
         "artist": "Billie Holiday",
         "album": "Solitude",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/a/d/8/0/ad870f47a2899ea5f4543e544f3a34e4.mp3?hdnea=exp=1767351297~acl=/api/1/1/a/d/8/0/ad870f47a2899ea5f4543e544f3a34e4.mp3*~data=user_id=0,application_id=42~hmac=6ec196d48759aebe95a00271a9447a9d6a9517e5b4099dda57bc74e1315a81b6",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/a/d/8/0/ad870f47a2899ea5f4543e544f3a34e4.mp3?hdnea=exp=1767857205~acl=/api/1/1/a/d/8/0/ad870f47a2899ea5f4543e544f3a34e4.mp3*~data=user_id=0,application_id=42~hmac=d4e377bfff49cb774d87824a1ad2027c2c441f54a3aa0a14d10db8da30d24f17",
         "image_id": "05ac21bf16716c4b42b962e49f8754ce"
     },
     {
+        "id": 368952701,
         "name": "I'll Be Seeing You",
         "artist": "Billie Holiday",
         "album": "Jazz",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/7/0/0/0/7003f893f64e2d4e5c672b39298361f3.mp3?hdnea=exp=1767351298~acl=/api/1/1/7/0/0/0/7003f893f64e2d4e5c672b39298361f3.mp3*~data=user_id=0,application_id=42~hmac=237af97c4e767535e4b37b3809033d0ea4fd23697312df022a37fc9813a59eb5",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/7/0/0/0/7003f893f64e2d4e5c672b39298361f3.mp3?hdnea=exp=1767857207~acl=/api/1/1/7/0/0/0/7003f893f64e2d4e5c672b39298361f3.mp3*~data=user_id=0,application_id=42~hmac=db6a30a866ce01985d5d5182ced8d67e4d39c4aa5ab0ae76c0691fff621f4027",
         "image_id": "5081a027c99ca8fa7e0f0997c10aea74"
     },
     {
+        "id": 3158377,
         "name": "L-O-V-E",
         "artist": "Nat King Cole",
         "album": "L-O-V-E",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/4/b/8/0/4b8af4a6279ab8c51efdcc20e9bbfd72.mp3?hdnea=exp=1767351299~acl=/api/1/1/4/b/8/0/4b8af4a6279ab8c51efdcc20e9bbfd72.mp3*~data=user_id=0,application_id=42~hmac=dce1cc0c02fb798e6a10c7ba025439a60370fe31e0750a30157be53cce70d11c",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/4/b/8/0/4b8af4a6279ab8c51efdcc20e9bbfd72.mp3?hdnea=exp=1767857208~acl=/api/1/1/4/b/8/0/4b8af4a6279ab8c51efdcc20e9bbfd72.mp3*~data=user_id=0,application_id=42~hmac=2657d2d027bb65c1962b3061c04d4f6b11d0edfbaa6e22ac8439af161db3c5b8",
         "image_id": "ffc91b767ba0cbf718bdbfa37d2b510c"
     },
     {
+        "id": 593690882,
         "name": "I Put A Spell On You",
         "artist": "Nina Simone",
         "album": "I Put A Spell On You",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/e/6/5/0/e657bbfbb8841a9148fef2d52a2b0ee0.mp3?hdnea=exp=1767351299~acl=/api/1/1/e/6/5/0/e657bbfbb8841a9148fef2d52a2b0ee0.mp3*~data=user_id=0,application_id=42~hmac=173f33193662e7310a53a5b9a7998d310bf101c9ecd12afa7ed6ee8967c68aa5",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/e/6/5/0/e657bbfbb8841a9148fef2d52a2b0ee0.mp3?hdnea=exp=1767857209~acl=/api/1/1/e/6/5/0/e657bbfbb8841a9148fef2d52a2b0ee0.mp3*~data=user_id=0,application_id=42~hmac=83201595574d5ecfb762750fdc4729c3eaed287870b15acead90d42bc6e5cee9",
         "image_id": "500185991bdc8910511f9381d0731f0a"
     },
     {
+        "id": 2176858,
         "name": "Tears Dry On Their Own",
         "artist": "Amy Winehouse",
         "album": "Back To Black",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/2/8/9/0/289b5e55edbbc89bf5a3a8501a7f4bc1.mp3?hdnea=exp=1767351299~acl=/api/1/1/2/8/9/0/289b5e55edbbc89bf5a3a8501a7f4bc1.mp3*~data=user_id=0,application_id=42~hmac=5019c07a841567ff644b831f1943e883640226ca2a83c9c823f8cc2c322e0d96",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/2/8/9/0/289b5e55edbbc89bf5a3a8501a7f4bc1.mp3?hdnea=exp=1767857209~acl=/api/1/1/2/8/9/0/289b5e55edbbc89bf5a3a8501a7f4bc1.mp3*~data=user_id=0,application_id=42~hmac=e744b36301d07f089ff1e16f551823dace1ca10bf9226181995ce5f2dfec7d29",
         "image_id": "3ce985e6653c350c6e6fed077ab7d0d4"
     },
     {
-        "name": "(I Love You) For Sentimental Reasons",
-        "artist": "Nat King Cole",
-        "album": "The Nat King Cole Story",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/8/a/0/0/8a0486e31148c019b6c625dd63465f43.mp3?hdnea=exp=1767351300~acl=/api/1/1/8/a/0/0/8a0486e31148c019b6c625dd63465f43.mp3*~data=user_id=0,application_id=42~hmac=a8d01f2842d84ab21b4a51f9dfbd203c413b7562ab34e9cb8d2d4e7fd98b07da",
-        "image_id": "e60c84dbad32c03a5321ce1433cebfe4"
+        "id": 3095148,
+        "name": "(I Love You) For Sentimental Reasons (Remastered 2003)",
+        "artist": "Nat King Cole Trio",
+        "album": "The World Of Nat King Cole (Expanded Edition)",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/3/8/1/0/3815626e157669a85f3b71add47af561.mp3?hdnea=exp=1767857210~acl=/api/1/1/3/8/1/0/3815626e157669a85f3b71add47af561.mp3*~data=user_id=0,application_id=42~hmac=9af571530becccab14f84388ac3471bece24a24dfc3ec6a51f24fd98118865c8",
+        "image_id": "a167769d33fb77ea4da3e16d957c0cde"
     },
     {
+        "id": 1126188,
         "name": "Say It (Over And Over Again)",
         "artist": "John Coltrane Quartet",
         "album": "Ballads (Deluxe Edition - Rudy Van Gelder Remaster)",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/d/4/2/0/d422b536132c4e01b8986ffc40f726aa.mp3?hdnea=exp=1767351300~acl=/api/1/1/d/4/2/0/d422b536132c4e01b8986ffc40f726aa.mp3*~data=user_id=0,application_id=42~hmac=5f243c4ac6f7b92a1315967744d8b32222981d0e686fd5ac921042baef775cca",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/d/4/2/0/d422b536132c4e01b8986ffc40f726aa.mp3?hdnea=exp=1767857211~acl=/api/1/1/d/4/2/0/d422b536132c4e01b8986ffc40f726aa.mp3*~data=user_id=0,application_id=42~hmac=28c899e51bee61e4999a5c1408df774de2f27b8264f8bc7ba292e621fdcaa551",
         "image_id": "6e1d1bf31d602255a0d4f2f5f4ccf3cb"
     },
     {
+        "id": 593695402,
         "name": "Blue Moon",
         "artist": "Billie Holiday",
         "album": "Solitude",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/c/8/d/0/c8d6728afa30d2c5f399e8e91c177df6.mp3?hdnea=exp=1767351300~acl=/api/1/1/c/8/d/0/c8d6728afa30d2c5f399e8e91c177df6.mp3*~data=user_id=0,application_id=42~hmac=0255ed1146fa940a1a832155fef79dd17e2f82304a31e9e9226c7a3679c0ed9b",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/c/8/d/0/c8d6728afa30d2c5f399e8e91c177df6.mp3?hdnea=exp=1767857213~acl=/api/1/1/c/8/d/0/c8d6728afa30d2c5f399e8e91c177df6.mp3*~data=user_id=0,application_id=42~hmac=c4e232d887ec85946eba0a4e74278f8facaedb9d7f9abe380eade91176889803",
         "image_id": "05ac21bf16716c4b42b962e49f8754ce"
     },
     {
+        "id": 2171224,
         "name": "At Last",
         "artist": "Etta James",
         "album": "At Last!",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/a/1/d/0/a1d0a9c9c56a2aa462c54e9ff4d6ea12.mp3?hdnea=exp=1767351301~acl=/api/1/1/a/1/d/0/a1d0a9c9c56a2aa462c54e9ff4d6ea12.mp3*~data=user_id=0,application_id=42~hmac=ece4b30568655ad5997d542260548a71805ffebc63f345782c6f3d73f6aaa6c7",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/a/1/d/0/a1d0a9c9c56a2aa462c54e9ff4d6ea12.mp3?hdnea=exp=1767857214~acl=/api/1/1/a/1/d/0/a1d0a9c9c56a2aa462c54e9ff4d6ea12.mp3*~data=user_id=0,application_id=42~hmac=10a2391c4ee92c3d9258c9db0621331de909cccd7b852c91654aacf960cdc488",
         "image_id": "793a7368c289b642ed327f92414d097f"
     },
     {
+        "id": 3363450,
         "name": "That Old Feeling",
         "artist": "Chet Baker",
         "album": "Chet Baker Sings",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/5/4/4/0/544ecc7e8a38fbd7975e6a3af719f58c.mp3?hdnea=exp=1767351301~acl=/api/1/1/5/4/4/0/544ecc7e8a38fbd7975e6a3af719f58c.mp3*~data=user_id=0,application_id=42~hmac=c1bab919b7d764a8fefd67d9d9b5e6db4bf7f9628eec8bae3710bf8fcb593879",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/5/4/4/0/544ecc7e8a38fbd7975e6a3af719f58c.mp3?hdnea=exp=1767857215~acl=/api/1/1/5/4/4/0/544ecc7e8a38fbd7975e6a3af719f58c.mp3*~data=user_id=0,application_id=42~hmac=b9be5df6279c8aa9fd248ef0fe8693b4a1f35687af51599efb52858fa021e460",
         "image_id": "d1e1eb8e082d83e3c9fdb2ac17121bc5"
     },
     {
+        "id": 2237489,
         "name": "It's Easy To Remember",
         "artist": "John Coltrane Quartet",
-        "album": "Coltrane For Lovers (Deluxe Edition)",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/c/3/2/0/c32afe71b92656d75177e5eee325a301.mp3?hdnea=exp=1767351301~acl=/api/1/1/c/3/2/0/c32afe71b92656d75177e5eee325a301.mp3*~data=user_id=0,application_id=42~hmac=b5d2291ffcd37f1a947970e91e9aaa960e6cb215a90bac5ce828b97618a9fd27",
-        "image_id": "c35f9a9bceccdc44c615419cabfe2fc2"
+        "album": "Coltrane For Lovers",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/8/9/1/0/89122651f36d50342b25aa156b627544.mp3?hdnea=exp=1767857216~acl=/api/1/1/8/9/1/0/89122651f36d50342b25aa156b627544.mp3*~data=user_id=0,application_id=42~hmac=5f6f0b9c060388f0cf6d655c07191892d615e1b49593d5f5e98142f910140543",
+        "image_id": "de65f6027dffb58ef60324b62e922865"
     },
     {
+        "id": 661515852,
         "name": "Corcovado (Quiet Nights Of Quiet Stars)",
         "artist": "Stan Getz",
         "album": "Gold",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/b/4/2/0/b42507b76a78a5342e1c46e2f1156ee1.mp3?hdnea=exp=1767351302~acl=/api/1/1/b/4/2/0/b42507b76a78a5342e1c46e2f1156ee1.mp3*~data=user_id=0,application_id=42~hmac=4489a4675fb1b1707e564f3794dba7dc5209f2c08c9ab593ce6d9eb0ff697d4b",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/b/4/2/0/b42507b76a78a5342e1c46e2f1156ee1.mp3?hdnea=exp=1767857218~acl=/api/1/1/b/4/2/0/b42507b76a78a5342e1c46e2f1156ee1.mp3*~data=user_id=0,application_id=42~hmac=125dd52a87b296fbb36633f0d8d4e0873ed8da1c4e15cd283f005dcdd500f674",
         "image_id": "34aaade8f6fb74e729f5eb881a0b8888"
     },
     {
+        "id": 134403688,
         "name": "O Tannenbaum",
         "artist": "Vince Guaraldi Trio",
         "album": "A Charlie Brown Christmas [2012 Remastered & Expanded Edition] (Remastered & Expanded Edition)",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/d/d/9/0/dd9ed37c3743c9af52a804eb3372f719.mp3?hdnea=exp=1767351302~acl=/api/1/1/d/d/9/0/dd9ed37c3743c9af52a804eb3372f719.mp3*~data=user_id=0,application_id=42~hmac=b3468058664321cb527e638b48e31affbea42c685032ff0d1fb35ad416dea017",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/d/d/9/0/dd9ed37c3743c9af52a804eb3372f719.mp3?hdnea=exp=1767857219~acl=/api/1/1/d/d/9/0/dd9ed37c3743c9af52a804eb3372f719.mp3*~data=user_id=0,application_id=42~hmac=add80f0c39e4f63d1fb843fbed275dbea0448e02639a1b28b2d174b5a01ef089",
         "image_id": "31b820550d78f674241aa965f5eeb425"
     },
     {
+        "id": 602454222,
         "name": "The Girl From Ipanema",
         "artist": "Stan Getz",
         "album": "Stan Getz: The Bossa Nova Albums",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/2/7/f/0/27ffeb85a18f6ef854309c16f09a1a3e.mp3?hdnea=exp=1767351303~acl=/api/1/1/2/7/f/0/27ffeb85a18f6ef854309c16f09a1a3e.mp3*~data=user_id=0,application_id=42~hmac=21bbc68606c432fcff2aba17b0df4ac9bd09120e40c54f053b9de2fb79c3f60d",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/2/7/f/0/27ffeb85a18f6ef854309c16f09a1a3e.mp3?hdnea=exp=1767857221~acl=/api/1/1/2/7/f/0/27ffeb85a18f6ef854309c16f09a1a3e.mp3*~data=user_id=0,application_id=42~hmac=7642db761ef82decfaa5e28f577b74731c223a31d9bf5dc0c11a2475f4837f87",
         "image_id": "d1c5b871de953d5c7c8459a83d67ca1b"
     },
     {
+        "id": 1521865002,
         "name": "Life In a Glasshouse",
         "artist": "Radiohead",
-        "album": "Amnesiac",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/3/5/9/0/359768b5144e6df0aa99bb03d6080786.mp3?hdnea=exp=1767351303~acl=/api/1/1/3/5/9/0/359768b5144e6df0aa99bb03d6080786.mp3*~data=user_id=0,application_id=42~hmac=50b5dfd953e750cd9d27e3399036e7e4a256340beaddf4ef2a0bf37380535da0",
-        "image_id": "d611b9ef9d7ce87a74c697d74be5ae15"
+        "album": "KID A MNESIA",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/5/4/0/0/540860369dbf5e81895d13687a318587.mp3?hdnea=exp=1767857222~acl=/api/1/1/5/4/0/0/540860369dbf5e81895d13687a318587.mp3*~data=user_id=0,application_id=42~hmac=cfe4db0af2dc815eecb4ff4d420e7e2da5fd1b5a963177677813f0e61cdff8fb",
+        "image_id": "53ea5c29e10b55dfcf018530390df458"
     },
     {
+        "id": 1030652052,
         "name": "Kiss of Life",
         "artist": "Sade",
         "album": "The Best of Sade",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/f/5/a/0/f5ae32f6e116f6b7c1922b8ad0d785ce.mp3?hdnea=exp=1767351303~acl=/api/1/1/f/5/a/0/f5ae32f6e116f6b7c1922b8ad0d785ce.mp3*~data=user_id=0,application_id=42~hmac=9330feabc0bdf6a4b9bc71ad22a72a9357216673fc2102ba59d9552c84f551a1",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/f/5/a/0/f5ae32f6e116f6b7c1922b8ad0d785ce.mp3?hdnea=exp=1767857222~acl=/api/1/1/f/5/a/0/f5ae32f6e116f6b7c1922b8ad0d785ce.mp3*~data=user_id=0,application_id=42~hmac=a3f03e542426a1c9fa465595b1913ea04532c9aa9a66bdc6c7e23162b93008e0",
         "image_id": "336e00b554c028d58b7c432c38581997"
     },
     {
+        "id": 548795452,
         "name": "Sleigh Ride",
         "artist": "Ella Fitzgerald",
-        "album": "Christmas Swing",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/c/9/0/0/c90a644002937436ac336bd67f63596d.mp3?hdnea=exp=1767351304~acl=/api/1/1/c/9/0/0/c90a644002937436ac336bd67f63596d.mp3*~data=user_id=0,application_id=42~hmac=2a619fcd74443da175edfac460bfd6604e5a3d410c25417451ab1b8013b56cad",
-        "image_id": "13856f78d6b0250fc1cae9c258a7d185"
+        "album": "Ella Wishes You A Swinging Christmas (Expanded Edition)",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/7/1/d/0/71d1ef77515769467bfd31a4bd103f22.mp3?hdnea=exp=1767857222~acl=/api/1/1/7/1/d/0/71d1ef77515769467bfd31a4bd103f22.mp3*~data=user_id=0,application_id=42~hmac=58d829487d8624fc9f43c0720ca312fd599aeeeb2e9574dfacc9cd4778f07f6b",
+        "image_id": "f535fd396027665c36bfce2a22a3efe9"
     },
     {
+        "id": 3520384,
         "name": "Swingin' (Live At Five Spot Caf\u00e9, 1959)",
         "artist": "Kenny Burrell",
         "album": "The Artist Selects",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/b/1/5/0/b15ea0d8a3e0bb9612dd51be939dc1e2.mp3?hdnea=exp=1767351304~acl=/api/1/1/b/1/5/0/b15ea0d8a3e0bb9612dd51be939dc1e2.mp3*~data=user_id=0,application_id=42~hmac=4f4a8467268c111faca4664dcd428fdedbd9441dd695d90329613ee00e834241",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/b/1/5/0/b15ea0d8a3e0bb9612dd51be939dc1e2.mp3?hdnea=exp=1767857224~acl=/api/1/1/b/1/5/0/b15ea0d8a3e0bb9612dd51be939dc1e2.mp3*~data=user_id=0,application_id=42~hmac=917b60d5603c4be8bad07163a1ac321e9f46639c0c8fa1b748ee2fe9723f3484",
         "image_id": "44c6faa9f3001dc7f124ed5360689708"
     },
     {
+        "id": 3821992,
         "name": "Just the Two of Us",
         "artist": "Grover Washington, Jr.",
         "album": "Winelight",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/1/5/7/0/157d1d1b4454170f6e42657e2e5d6217.mp3?hdnea=exp=1767351304~acl=/api/1/1/1/5/7/0/157d1d1b4454170f6e42657e2e5d6217.mp3*~data=user_id=0,application_id=42~hmac=18297ec3f5d3873547dc1a132edce988575eaae101b9a2a69acb3a5af49a3684",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/1/5/7/0/157d1d1b4454170f6e42657e2e5d6217.mp3?hdnea=exp=1767857224~acl=/api/1/1/1/5/7/0/157d1d1b4454170f6e42657e2e5d6217.mp3*~data=user_id=0,application_id=42~hmac=27cf6251ffcc1223c8623f53eb03af97ffd629198900b97e7ea9aebe1584b810",
         "image_id": "16e68170112a7a2a51759623e4a8b516"
     },
     {
+        "id": 653777872,
         "name": "It Had To Be You",
         "artist": "Frank Sinatra",
         "album": "Trilogy: Past, Present & Future",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/4/1/f/0/41fe79a5d64da36e8401735eff8ab785.mp3?hdnea=exp=1767351305~acl=/api/1/1/4/1/f/0/41fe79a5d64da36e8401735eff8ab785.mp3*~data=user_id=0,application_id=42~hmac=6dbbaadeaa50754c2b2ac9ba27071f447656cc3c4a1f3f09cbbcf0cf90b1f01c",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/4/1/f/0/41fe79a5d64da36e8401735eff8ab785.mp3?hdnea=exp=1767857226~acl=/api/1/1/4/1/f/0/41fe79a5d64da36e8401735eff8ab785.mp3*~data=user_id=0,application_id=42~hmac=a3ba490d698cde2f863b9048a41c621a12b073b36563411807e673da92d942b0",
         "image_id": "5f94d5e30e292ec678650bf9e3e66a9f"
     },
     {
+        "id": 10218969,
         "name": "Dream A Little Dream Of Me",
         "artist": "Louis Armstrong",
         "album": "Dreaming, The Nightime Collection",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/d/5/6/0/d56bae7141b57577c70cd6050a83512a.mp3?hdnea=exp=1767351305~acl=/api/1/1/d/5/6/0/d56bae7141b57577c70cd6050a83512a.mp3*~data=user_id=0,application_id=42~hmac=f0ee9d1aacc9303594bd7b9f402f719a179d5b9d0780292132aca702352fe900",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/d/5/6/0/d56bae7141b57577c70cd6050a83512a.mp3?hdnea=exp=1767857227~acl=/api/1/1/d/5/6/0/d56bae7141b57577c70cd6050a83512a.mp3*~data=user_id=0,application_id=42~hmac=29e2d4f0ebcf3caed09a4a3e49fbb60c1b02700336079c7be0f8e572670878fe",
         "image_id": "118e91f09fb57a677b9f02c1d7ababfe"
     },
     {
+        "id": 3051286,
         "name": "Skating",
         "artist": "Vince Guaraldi Trio",
-        "album": "A Charlie Brown Christmas [2012 Remastered & Expanded Edition] (Remastered & Expanded Edition)",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/f/4/a/0/f4a6a64847629ab97ce872e2e0e3bf51.mp3?hdnea=exp=1767351305~acl=/api/1/1/f/4/a/0/f4a6a64847629ab97ce872e2e0e3bf51.mp3*~data=user_id=0,application_id=42~hmac=496b3144941bc49160901d94104fa5687a90de1909d3d147c5bb3ef8e2d23801",
-        "image_id": "31b820550d78f674241aa965f5eeb425"
+        "album": "Bottle Rocket Short Film Soundtrack",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/5/a/0/0/5a0141e73d1792992f0b36ab5776dfab.mp3?hdnea=exp=1767857228~acl=/api/1/1/5/a/0/0/5a0141e73d1792992f0b36ab5776dfab.mp3*~data=user_id=0,application_id=42~hmac=dfad520ee6991a57e399cb2edd88d04bc91ccf1f70849cda333b80715755ae06",
+        "image_id": "df14b8d849a033b2d326065c102e5863"
     },
     {
+        "id": 2176852,
         "name": "Rehab",
         "artist": "Amy Winehouse",
         "album": "Back To Black",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/2/1/d/0/21dd455c62dd8ecfbb94a879455fce82.mp3?hdnea=exp=1767351306~acl=/api/1/1/2/1/d/0/21dd455c62dd8ecfbb94a879455fce82.mp3*~data=user_id=0,application_id=42~hmac=44118fcc8f8d85757dc8a5572f872f75aef8bdffc28e2bc42db49e5240924cc6",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/2/1/d/0/21dd455c62dd8ecfbb94a879455fce82.mp3?hdnea=exp=1767857230~acl=/api/1/1/2/1/d/0/21dd455c62dd8ecfbb94a879455fce82.mp3*~data=user_id=0,application_id=42~hmac=3a9d7fde872887bf8be6c126b31b9370b765baed0b3b2d1f10f9bdedb7357e1a",
         "image_id": "3ce985e6653c350c6e6fed077ab7d0d4"
     },
     {
+        "id": 15050734,
         "name": "I'm In The Mood For Love",
         "artist": "Julie London",
         "album": "Julie Is Her Name",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/b/b/0/0/bb0992aaabb985e96dfe8b2ab254de91.mp3?hdnea=exp=1767351306~acl=/api/1/1/b/b/0/0/bb0992aaabb985e96dfe8b2ab254de91.mp3*~data=user_id=0,application_id=42~hmac=941f057a7c0ad738c6144c708e959c15299b9ed9215bfc4907727b5f32b38b2b",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/b/b/0/0/bb0992aaabb985e96dfe8b2ab254de91.mp3?hdnea=exp=1767857230~acl=/api/1/1/b/b/0/0/bb0992aaabb985e96dfe8b2ab254de91.mp3*~data=user_id=0,application_id=42~hmac=c8c13eaa5537d3057628485b1424859236e50f0f1e7049fcc463751d7373046c",
         "image_id": "2fb1765cea406dd95bbdae0283f9b6a6"
     },
     {
+        "id": 70834980,
         "name": "Fly Me To The Moon (In Other Words)",
         "artist": "Frank Sinatra",
         "album": "It Might As Well Be Swing",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/1/0/0/0/100e77f775bdf829f00367bbcc5bc8f1.mp3?hdnea=exp=1767351307~acl=/api/1/1/1/0/0/0/100e77f775bdf829f00367bbcc5bc8f1.mp3*~data=user_id=0,application_id=42~hmac=9f24f2f745383ecfe32378ce384e280cfba427101a456db39ec49a0c02cc3096",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/1/0/0/0/100e77f775bdf829f00367bbcc5bc8f1.mp3?hdnea=exp=1767857232~acl=/api/1/1/1/0/0/0/100e77f775bdf829f00367bbcc5bc8f1.mp3*~data=user_id=0,application_id=42~hmac=bfb6e6f60085e91998ca621da93bf7b23ef6d8ddc203a52f7b266c7a31464626",
         "image_id": "7df3e34cfd2efa5db735285217c44e20"
     },
     {
+        "id": 5250779,
         "name": "I\u2019ve Got A Crush On You (Live At The Crescendo)",
         "artist": "Ella Fitzgerald",
         "album": "Twelve Nights In Hollywood",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/5/0/1/0/5019e765cd6f9d2155135b0d52bb805f.mp3?hdnea=exp=1767351307~acl=/api/1/1/5/0/1/0/5019e765cd6f9d2155135b0d52bb805f.mp3*~data=user_id=0,application_id=42~hmac=d703ecfdcf627bbaa74e0e169a8bf2f3b279c37e1f18475f1e0df7f516af84fd",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/5/0/1/0/5019e765cd6f9d2155135b0d52bb805f.mp3?hdnea=exp=1767857233~acl=/api/1/1/5/0/1/0/5019e765cd6f9d2155135b0d52bb805f.mp3*~data=user_id=0,application_id=42~hmac=1d3d9ba287f0123466afc3d68afcbc74538c59d412afccdc8aa051252a959dc6",
         "image_id": "c7ab4df6dfc8924eed04032cef74e9a6"
     },
     {
+        "id": 1444376692,
         "name": "Unforgettable",
-        "artist": "Nat King Cole",
-        "album": "The Extraordinary",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/4/1/4/0/4142eeeeef393dda0af790b6e3988738.mp3?hdnea=exp=1767351307~acl=/api/1/1/4/1/4/0/4142eeeeef393dda0af790b6e3988738.mp3*~data=user_id=0,application_id=42~hmac=4a6b16963496cf29bedb8a2ebfae59d685456f1b1f539f442cf700713cc90427",
-        "image_id": "dd6a76b2c12729b3567203ef2432715d"
+        "artist": "Natalie Cole",
+        "album": "Unforgettable: With Love",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/b/6/4/0/b64be14cf2db88f087f35c6f0580f537.mp3?hdnea=exp=1767857235~acl=/api/1/1/b/6/4/0/b64be14cf2db88f087f35c6f0580f537.mp3*~data=user_id=0,application_id=42~hmac=1cffc4bab300fb64650f1e7206f23b285fc5cdc5776d946e4a1a44f2a44bc8fa",
+        "image_id": "8ae3a326dbd70ebcbb001872e79e81b1"
     },
     {
+        "id": 508924512,
         "name": "Moon Dreams",
         "artist": "Miles Davis",
         "album": "Birth of the Cool",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/0/8/b/0/08b23b7571166fefc3c2b37dbfc709e2.mp3?hdnea=exp=1767351308~acl=/api/1/1/0/8/b/0/08b23b7571166fefc3c2b37dbfc709e2.mp3*~data=user_id=0,application_id=42~hmac=66db933a617db6951d6e9941404e4abf8e92686e2a360b340c1cf97b42026320",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/0/8/b/0/08b23b7571166fefc3c2b37dbfc709e2.mp3?hdnea=exp=1767857236~acl=/api/1/1/0/8/b/0/08b23b7571166fefc3c2b37dbfc709e2.mp3*~data=user_id=0,application_id=42~hmac=b6e49e320cf551014db0a1ff1acd046640f826152b343e4867bc0078a82d13f5",
         "image_id": "321d8474317e1016ef4d1304b32b9da6"
     },
     {
+        "id": 1394073142,
         "name": "Misty (Live)",
         "artist": "Erroll Garner",
         "album": "Symphony Hall Concert",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/8/f/e/0/8feb9e754592c1bbfaf7ed5ab1eb0d20.mp3?hdnea=exp=1767351308~acl=/api/1/1/8/f/e/0/8feb9e754592c1bbfaf7ed5ab1eb0d20.mp3*~data=user_id=0,application_id=42~hmac=d5be162e816070265826e01b11470955f08783a4f5e6a0c1d2498fb09923a008",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/8/f/e/0/8feb9e754592c1bbfaf7ed5ab1eb0d20.mp3?hdnea=exp=1767857237~acl=/api/1/1/8/f/e/0/8feb9e754592c1bbfaf7ed5ab1eb0d20.mp3*~data=user_id=0,application_id=42~hmac=e9ded9f9ba9991a6e47d3da5bf8f6cf8ee2254d381426e26391dd8c4272c0627",
         "image_id": "6489693693a0050e150348abcc7eeffc"
     },
     {
+        "id": 2176857,
         "name": "Love Is A Losing Game",
         "artist": "Amy Winehouse",
         "album": "Back To Black",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/0/7/5/0/075156050b7cdbff28d33ff5b425c792.mp3?hdnea=exp=1767351309~acl=/api/1/1/0/7/5/0/075156050b7cdbff28d33ff5b425c792.mp3*~data=user_id=0,application_id=42~hmac=d3f20bc941c17764fc3e168fadde558d13cae0aa5d9f22c75d4aa236cbd2aafd",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/0/7/5/0/075156050b7cdbff28d33ff5b425c792.mp3?hdnea=exp=1767857239~acl=/api/1/1/0/7/5/0/075156050b7cdbff28d33ff5b425c792.mp3*~data=user_id=0,application_id=42~hmac=5bd5fdf7388aa9a5fa6b3742de23ca1d551034a1d2256909a754858921618f28",
         "image_id": "3ce985e6653c350c6e6fed077ab7d0d4"
     },
     {
+        "id": 2176856,
         "name": "Back To Black",
         "artist": "Amy Winehouse",
         "album": "Back To Black",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/8/c/5/0/8c51a0c8941f72ee783a7b2798cff8c8.mp3?hdnea=exp=1767351309~acl=/api/1/1/8/c/5/0/8c51a0c8941f72ee783a7b2798cff8c8.mp3*~data=user_id=0,application_id=42~hmac=0e16b0c6d8ae311e724b2b3e6835e6ab6ed8f2b779e3aa2ebcf6981e277db5f4",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/8/c/5/0/8c51a0c8941f72ee783a7b2798cff8c8.mp3?hdnea=exp=1767857239~acl=/api/1/1/8/c/5/0/8c51a0c8941f72ee783a7b2798cff8c8.mp3*~data=user_id=0,application_id=42~hmac=769714d9f4cf2157c7db92a1010ba4932b154ea17a46730b119c80a5dca7ed5a",
         "image_id": "3ce985e6653c350c6e6fed077ab7d0d4"
     },
     {
+        "id": 3130150,
         "name": "Sunrise",
         "artist": "Norah Jones",
         "album": "Feels Like Home",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/4/5/f/0/45f396441bc09f5da17be61e7e9f5ff9.mp3?hdnea=exp=1767351310~acl=/api/1/1/4/5/f/0/45f396441bc09f5da17be61e7e9f5ff9.mp3*~data=user_id=0,application_id=42~hmac=282b2c9091c529cef1253dbea8c50f4e22a754338375a018255294c57ece13a5",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/4/5/f/0/45f396441bc09f5da17be61e7e9f5ff9.mp3?hdnea=exp=1767857240~acl=/api/1/1/4/5/f/0/45f396441bc09f5da17be61e7e9f5ff9.mp3*~data=user_id=0,application_id=42~hmac=bca07aa64e943533dadf55e1020f316b4126d651367946f9b916ed0aaebc30a4",
         "image_id": "3f4369a4ed59c793bf65ac4977412556"
     },
     {
+        "id": 1030651942,
         "name": "The Sweetest Taboo",
         "artist": "Sade",
         "album": "The Best of Sade",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/0/1/b/0/01b0bf94e887002f4b4960e11a9065ff.mp3?hdnea=exp=1767351310~acl=/api/1/1/0/1/b/0/01b0bf94e887002f4b4960e11a9065ff.mp3*~data=user_id=0,application_id=42~hmac=9f7a806aad5dc4d023dcf34ec2e0242817e0789f8151fb4bc7d1779db9c9018e",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/0/1/b/0/01b0bf94e887002f4b4960e11a9065ff.mp3?hdnea=exp=1767857240~acl=/api/1/1/0/1/b/0/01b0bf94e887002f4b4960e11a9065ff.mp3*~data=user_id=0,application_id=42~hmac=e6f433fd5a870c46e0a1d9eeacc829358191197dec2b4d9383387d1f96a9af38",
         "image_id": "336e00b554c028d58b7c432c38581997"
     },
     {
-        "name": "'Round Midnight",
+        "id": 15375407,
+        "name": "'Round Midnight (Take 2)",
         "artist": "Thelonious Monk",
-        "album": "Piano Solo",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/a/d/1/0/ad1e925f1027bfb3006325555ed91488.mp3?hdnea=exp=1767351310~acl=/api/1/1/a/d/1/0/ad1e925f1027bfb3006325555ed91488.mp3*~data=user_id=0,application_id=42~hmac=1ab52d0b7f1ebfa1796238f5f7fc115ee3c02e758015f1e6fc6cb40747ed9a95",
-        "image_id": "a3960a1a0bd1e955026ae9499f5ceec8"
+        "album": "The Columbia Years",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/e/f/5/0/ef58cbf6171b22cec455e03ae631ec8c.mp3?hdnea=exp=1767857241~acl=/api/1/1/e/f/5/0/ef58cbf6171b22cec455e03ae631ec8c.mp3*~data=user_id=0,application_id=42~hmac=38028727a8888c39af5740eb98ad5d93c20dcd5fcecf0a8c7df874f7c9a311c1",
+        "image_id": "4e76fa0c54d407cdab59a4098928a684"
     },
     {
+        "id": 110957896,
         "name": "Stronger Than Me",
         "artist": "Amy Winehouse",
         "album": "AMY (Original Motion Picture Soundtrack)",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/7/4/a/0/74acf9813cf8fc9448b7058ff54d4f50.mp3?hdnea=exp=1767351311~acl=/api/1/1/7/4/a/0/74acf9813cf8fc9448b7058ff54d4f50.mp3*~data=user_id=0,application_id=42~hmac=5f2090ef17d5a3b4860b5b96028e7c210e512b40c8440708518f015479baffae",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/7/4/a/0/74acf9813cf8fc9448b7058ff54d4f50.mp3?hdnea=exp=1767857242~acl=/api/1/1/7/4/a/0/74acf9813cf8fc9448b7058ff54d4f50.mp3*~data=user_id=0,application_id=42~hmac=f746dad34765e2abeb084ae79bf0779a810b3f461b1be3889d6f58e1772ce425",
         "image_id": "8f3ab5057e369f529aedf3399aababc3"
     },
     {
+        "id": 3613860,
         "name": "Beyond the Sea",
         "artist": "Bobby Darin",
         "album": "Sing & Swing with Bobby Darin",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/d/1/0/0/d1020ca17ae4d5aa9f8621024bc1a794.mp3?hdnea=exp=1767351311~acl=/api/1/1/d/1/0/0/d1020ca17ae4d5aa9f8621024bc1a794.mp3*~data=user_id=0,application_id=42~hmac=9529b5ec82338220206bca2374f81d8017809c90d4ab27d7f5032fd9d22046c6",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/d/1/0/0/d1020ca17ae4d5aa9f8621024bc1a794.mp3?hdnea=exp=1767857243~acl=/api/1/1/d/1/0/0/d1020ca17ae4d5aa9f8621024bc1a794.mp3*~data=user_id=0,application_id=42~hmac=41a2a90a35c4f4e257a836f00f74f7bd943dd39dc636573df3e6f58ed086d860",
         "image_id": "9193897d1d59fff550bc9cc971a7eb5b"
     },
     {
+        "id": 911089,
         "name": "My Little Brown Book",
         "artist": "Duke Ellington",
         "album": "Duke Ellington & John Coltrane",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/0/e/d/0/0ed524ec5fddbd9c4fdd6193068bfc8a.mp3?hdnea=exp=1767351312~acl=/api/1/1/0/e/d/0/0ed524ec5fddbd9c4fdd6193068bfc8a.mp3*~data=user_id=0,application_id=42~hmac=0423cda4ba9be34c1089e3f81cbb811d99ae64c7291ff5d72e109a85cd137946",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/0/e/d/0/0ed524ec5fddbd9c4fdd6193068bfc8a.mp3?hdnea=exp=1767857244~acl=/api/1/1/0/e/d/0/0ed524ec5fddbd9c4fdd6193068bfc8a.mp3*~data=user_id=0,application_id=42~hmac=03e0a5a73847ee93cbfa1f6c695a8f2f74ae49f9ad2363f8747b4bb9bae633e1",
         "image_id": "4b9b9e345791d561054e471079dc0f2d"
     },
     {
+        "id": 3655565142,
         "name": "When I Fall In Love (Remastered Stereo 2025)",
         "artist": "Bill Evans",
         "album": "Haunted Heart: The Legendary Riverside Studio Recordings (Remastered 2025)",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/4/0/2/0/402482756f08e0dec6c29eb7b990773e.mp3?hdnea=exp=1767351312~acl=/api/1/1/4/0/2/0/402482756f08e0dec6c29eb7b990773e.mp3*~data=user_id=0,application_id=42~hmac=79ebd52fff5d3ea155329721a43ecdbd5ed142feaffedd1c352abb8776aef051",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/4/0/2/0/402482756f08e0dec6c29eb7b990773e.mp3?hdnea=exp=1767857245~acl=/api/1/1/4/0/2/0/402482756f08e0dec6c29eb7b990773e.mp3*~data=user_id=0,application_id=42~hmac=56c3cf9900dc277e292b2272d715fd29ab0522b36cd414c52888c2d233ef20bc",
         "image_id": "457b46f1d5ca5f304aa285be3c2404b1"
     },
     {
+        "id": 831033,
         "name": "Goodbye Pork Pie Hat",
         "artist": "Charles Mingus",
         "album": "Mingus Ah Um",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/8/0/6/0/8068ed3744cbb4eb2e4d04145dd76830.mp3?hdnea=exp=1767351312~acl=/api/1/1/8/0/6/0/8068ed3744cbb4eb2e4d04145dd76830.mp3*~data=user_id=0,application_id=42~hmac=f4fa5e53fdfab3dc8dbfd8b5f198f9ffe45f85584ced1ec2d119745478321261",
-        "image_id": "82adc1b128b7cc37198e48dc628fe436"
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/5/8/4/0/5847ab07e4b2396e025221a1e0a49b1c.mp3?hdnea=exp=1767857246~acl=/api/1/1/5/8/4/0/5847ab07e4b2396e025221a1e0a49b1c.mp3*~data=user_id=0,application_id=42~hmac=435a46e6e412c177c419734e49d65865773a95a4bc7181b7976632c57ca10a23",
+        "image_id": "e5e45ea5c46f139b45d51ea3b155014f"
     },
     {
+        "id": 7804495,
         "name": "I Don't Want To Set The World On Fire",
         "artist": "The Ink Spots",
         "album": "If I Didn't Care",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/5/6/5/0/56541c4ff23442a4f58222a8bc8700fc.mp3?hdnea=exp=1767351313~acl=/api/1/1/5/6/5/0/56541c4ff23442a4f58222a8bc8700fc.mp3*~data=user_id=0,application_id=42~hmac=a9c0a1e9f984bae156283d5e82078b03f1439caf6171f92ff083e848e6014a80",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/5/6/5/0/56541c4ff23442a4f58222a8bc8700fc.mp3?hdnea=exp=1767857248~acl=/api/1/1/5/6/5/0/56541c4ff23442a4f58222a8bc8700fc.mp3*~data=user_id=0,application_id=42~hmac=d106248feab80a28f5a316343cacb245617f708a2e7d9a9590a1af6f0c13666c",
         "image_id": "d692eadd01672ded4f2d6d263eadd84d"
     },
     {
+        "id": 14611476,
         "name": "It's Oh So Quiet",
         "artist": "Bj\u00f6rk",
         "album": "Post",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/a/7/7/0/a778e3a0bcf0693d25f3d77a2f072649.mp3?hdnea=exp=1767351313~acl=/api/1/1/a/7/7/0/a778e3a0bcf0693d25f3d77a2f072649.mp3*~data=user_id=0,application_id=42~hmac=b5be3e5d121c22f93d2a8eefdec132938685ca0f3e4d58561b8b4e16fd3faeaf",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/a/7/7/0/a778e3a0bcf0693d25f3d77a2f072649.mp3?hdnea=exp=1767857249~acl=/api/1/1/a/7/7/0/a778e3a0bcf0693d25f3d77a2f072649.mp3*~data=user_id=0,application_id=42~hmac=22ac336bfefc6a1f8122c447673260504747c4fe272ee5213d407cb8a78e1e43",
         "image_id": "cc18324d4fc90fca59ae6120d1cc9013"
     },
     {
+        "id": 1012605,
         "name": "Watermelon Man",
         "artist": "Herbie Hancock",
         "album": "Head Hunters",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/7/8/c/0/78cc3e04030811237d98f1333128367b.mp3?hdnea=exp=1767351313~acl=/api/1/1/7/8/c/0/78cc3e04030811237d98f1333128367b.mp3*~data=user_id=0,application_id=42~hmac=9b7f21c30a5a26d6b204bf8c83cc0b17f422819af25c1a109b47d2af2d356f1c",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/7/8/c/0/78cc3e04030811237d98f1333128367b.mp3?hdnea=exp=1767857250~acl=/api/1/1/7/8/c/0/78cc3e04030811237d98f1333128367b.mp3*~data=user_id=0,application_id=42~hmac=999a808c8ab2416d91ece9f46c347c320053c520b97c654699532f853e687dd8",
         "image_id": "08a552af7a8c574a73fdaec9d9f8d4f6"
     },
     {
+        "id": 679548,
         "name": "My Favorite Things, Pt. 1 (Single Version)",
         "artist": "John Coltrane",
         "album": "My Favorite Things (Deluxe Edition)",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/1/e/c/0/1ec76a2dd081955aac6bb31d5d6303b9.mp3?hdnea=exp=1767351314~acl=/api/1/1/1/e/c/0/1ec76a2dd081955aac6bb31d5d6303b9.mp3*~data=user_id=0,application_id=42~hmac=da52c33a03ec70a89fe8df4c1b5b7adc41028c94b9e3c7bc79577b641814e6c4",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/1/e/c/0/1ec76a2dd081955aac6bb31d5d6303b9.mp3?hdnea=exp=1767857251~acl=/api/1/1/1/e/c/0/1ec76a2dd081955aac6bb31d5d6303b9.mp3*~data=user_id=0,application_id=42~hmac=52b1a2c2df5ff646483555d2bb9e943eba73925ed032ef12123b1d665641c22c",
         "image_id": "35758dd91717697c92e0f4704d53f8c3"
     },
     {
+        "id": 1622359612,
         "name": "Everything Happens to Me",
         "artist": "Kirk Lightsey Trio",
         "album": "Everything Happens to Me",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/a/a/6/0/aa6823ff4c5f21d6536204b43792f04f.mp3?hdnea=exp=1767351314~acl=/api/1/1/a/a/6/0/aa6823ff4c5f21d6536204b43792f04f.mp3*~data=user_id=0,application_id=42~hmac=b427a7cc62269a6e44def34e62aeb615f86dcd7bceb4692269f30f00db74cf23",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/a/a/6/0/aa6823ff4c5f21d6536204b43792f04f.mp3?hdnea=exp=1767857252~acl=/api/1/1/a/a/6/0/aa6823ff4c5f21d6536204b43792f04f.mp3*~data=user_id=0,application_id=42~hmac=55703b1b336cf3761626ee87d5e3b92f953a3969c8dc9dd2ce857241b12d00c4",
         "image_id": "c58e99021e1702935d51a67b748ee1ad"
     },
     {
+        "id": 104622004,
         "name": "My Funny Valentine",
         "artist": "Frank Sinatra",
         "album": "Songs For Young Lovers",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/b/6/7/0/b6775b6dd8e3631ba8fe0d2a16408b32.mp3?hdnea=exp=1767351315~acl=/api/1/1/b/6/7/0/b6775b6dd8e3631ba8fe0d2a16408b32.mp3*~data=user_id=0,application_id=42~hmac=fbaa21d27496ed873cedc869197c999e8fc0f3684699054bea83f73e209e8dd5",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/b/6/7/0/b6775b6dd8e3631ba8fe0d2a16408b32.mp3?hdnea=exp=1767857254~acl=/api/1/1/b/6/7/0/b6775b6dd8e3631ba8fe0d2a16408b32.mp3*~data=user_id=0,application_id=42~hmac=c64e5cbd630dc61508d52e88e787e7bde0f64a8a26decab915c466f5a3d573be",
         "image_id": "38d43fc3d5d8a3b385fb6cc36b26d6db"
     },
     {
+        "id": 654613232,
         "name": "Stolen Moments",
         "artist": "Oliver Nelson",
-        "album": "The Blues And The Abstract Truth",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/a/b/e/0/abe1a4430b0217096f12c13f7603e2bc.mp3?hdnea=exp=1767351315~acl=/api/1/1/a/b/e/0/abe1a4430b0217096f12c13f7603e2bc.mp3*~data=user_id=0,application_id=42~hmac=d0d6d5f0cbdecb6c8aa60ebaa43ee69ea272e8128e4a4a3fa79f8217efff2802",
-        "image_id": "c46c190779af3352fbd0e3f742b63db5"
+        "album": "The Blues and the Abstract Truth",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/5/3/d/0/53d5ab69ef90ead98d958f4db8fe8d47.mp3?hdnea=exp=1767857255~acl=/api/1/1/5/3/d/0/53d5ab69ef90ead98d958f4db8fe8d47.mp3*~data=user_id=0,application_id=42~hmac=c6b2785ff017ddd7516bd3a5b62a703fa8d8aaf12d85523f90be50114d155e8e",
+        "image_id": "775207f8c0c0aa28590ef72320c93011"
     },
     {
-        "name": "Cry Me A River",
+        "id": 49718311,
+        "name": "Cry Me a River",
         "artist": "Julie London",
-        "album": "Julie Is Her Name",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/9/2/6/0/926f5c79fb897c81bcbfe33f1019fef1.mp3?hdnea=exp=1767351316~acl=/api/1/1/9/2/6/0/926f5c79fb897c81bcbfe33f1019fef1.mp3*~data=user_id=0,application_id=42~hmac=2273ec5597133c3ea8aae2ac676f5a594fdecea6604a92a664f77613f4bacb76",
-        "image_id": "2fb1765cea406dd95bbdae0283f9b6a6"
+        "album": "Crooners & Sirens Vol. 8",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/4/7/3/0/47317ba8b062ba253a91a82154aa5968.mp3?hdnea=exp=1767857257~acl=/api/1/1/4/7/3/0/47317ba8b062ba253a91a82154aa5968.mp3*~data=user_id=0,application_id=42~hmac=a07251655a422e73f361d70df05f470848a61589306db1b89db6960cc74f85a6",
+        "image_id": "f6a934577f330c2103d4b80fe1885272"
     },
     {
+        "id": 71483071,
         "name": "Somethin' Stupid (2008 Remastered)",
         "artist": "Frank Sinatra",
         "album": "Nothing But The Best (2008 Remastered)",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/2/9/b/0/29b2f8f6df6345feb3d230447bbdefbc.mp3?hdnea=exp=1767351316~acl=/api/1/1/2/9/b/0/29b2f8f6df6345feb3d230447bbdefbc.mp3*~data=user_id=0,application_id=42~hmac=f644e650e5dc7710d1d8b4a4f4d3e6d3e665686472c4e3701164972d3c0a2ebb",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/2/9/b/0/29b2f8f6df6345feb3d230447bbdefbc.mp3?hdnea=exp=1767857259~acl=/api/1/1/2/9/b/0/29b2f8f6df6345feb3d230447bbdefbc.mp3*~data=user_id=0,application_id=42~hmac=eda9814b48a79efff5905b9435cacb2027673229f93db286129ccdcda96f3e76",
         "image_id": "621c706e3416c6c52671ab7fe11878f6"
     },
     {
+        "id": 1064016242,
         "name": "Come Away With Me",
         "artist": "Norah Jones",
         "album": "Midnight Jones",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/d/1/e/0/d1ea65664e1e1df58736c23291715f8b.mp3?hdnea=exp=1767351316~acl=/api/1/1/d/1/e/0/d1ea65664e1e1df58736c23291715f8b.mp3*~data=user_id=0,application_id=42~hmac=fe057ed110cb2f875efbf29ab9d819c1c9687329d1a7ef849d76d3b67db556f7",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/d/1/e/0/d1ea65664e1e1df58736c23291715f8b.mp3?hdnea=exp=1767857259~acl=/api/1/1/d/1/e/0/d1ea65664e1e1df58736c23291715f8b.mp3*~data=user_id=0,application_id=42~hmac=6fd0eb2f29e3d726576d022bdf7f13d9234ea1db190941bbc7acff477f45a26d",
         "image_id": "c8b0cb41b6a87c7381cfda8909a3e582"
     },
     {
+        "id": 549289772,
         "name": "There Will Never Be Another You",
         "artist": "Lester Young",
         "album": "Lester Young With The Oscar Peterson Trio",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/2/1/5/0/215bba5880006df5ce770ddc6bb861b8.mp3?hdnea=exp=1767351317~acl=/api/1/1/2/1/5/0/215bba5880006df5ce770ddc6bb861b8.mp3*~data=user_id=0,application_id=42~hmac=f62b423135fd73c81a6694df4441aa7c886f5cda5dd1315e1018d063851fcf56",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/2/1/5/0/215bba5880006df5ce770ddc6bb861b8.mp3?hdnea=exp=1767857261~acl=/api/1/1/2/1/5/0/215bba5880006df5ce770ddc6bb861b8.mp3*~data=user_id=0,application_id=42~hmac=7c4abb7a74e34199e2bf5b6527f753513246572eb9ac31e356f3d512e5353d74",
         "image_id": "dfe243054bbe126f23f178579398813d"
     },
     {
+        "id": 1030651962,
         "name": "Is It a Crime",
         "artist": "Sade",
         "album": "The Best of Sade",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/1/1/d/0/11d45e908fdc79ede8e23dbf25b17468.mp3?hdnea=exp=1767351317~acl=/api/1/1/1/1/d/0/11d45e908fdc79ede8e23dbf25b17468.mp3*~data=user_id=0,application_id=42~hmac=29eee5685e2177277b8f926b7a5f650a963fdf0b95bbc2d2ec5e438719e29a1b",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/1/1/d/0/11d45e908fdc79ede8e23dbf25b17468.mp3?hdnea=exp=1767857263~acl=/api/1/1/1/1/d/0/11d45e908fdc79ede8e23dbf25b17468.mp3*~data=user_id=0,application_id=42~hmac=76bedb7ce4701a17b9cffc3253da133057d6ddd868d0d79429c81abbfbd1317c",
         "image_id": "336e00b554c028d58b7c432c38581997"
     },
     {
+        "id": 1942643,
         "name": "Cheek To Cheek",
         "artist": "Louis Armstrong",
         "album": "What A Wonderful Duet",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/d/5/3/0/d531575d558e440c52bd02374bb434e2.mp3?hdnea=exp=1767351317~acl=/api/1/1/d/5/3/0/d531575d558e440c52bd02374bb434e2.mp3*~data=user_id=0,application_id=42~hmac=46becde8ffafb0bcc6a8d088fab5b8b132de18de7927718a4cff74f2ac9b9e23",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/d/5/3/0/d531575d558e440c52bd02374bb434e2.mp3?hdnea=exp=1767857263~acl=/api/1/1/d/5/3/0/d531575d558e440c52bd02374bb434e2.mp3*~data=user_id=0,application_id=42~hmac=d7f66684f7ab653cf23d306b0d1bf1cb224ae5c843d7d0ca817453183bb52a2d",
         "image_id": "e96fbcbbc773654e9c3e30a3a34ceaf6"
     },
     {
+        "id": 3124340,
         "name": "Fever",
         "artist": "Peggy Lee",
         "album": "The Best Of Peggy Lee",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/2/6/0/0/260df7dbb3245e4e478ddd4c9edd9657.mp3?hdnea=exp=1767351318~acl=/api/1/1/2/6/0/0/260df7dbb3245e4e478ddd4c9edd9657.mp3*~data=user_id=0,application_id=42~hmac=30e3a3a5c1e7c2ea8f416438626713932e1af56c1508560f4efc298c1432b49e",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/2/6/0/0/260df7dbb3245e4e478ddd4c9edd9657.mp3?hdnea=exp=1767857265~acl=/api/1/1/2/6/0/0/260df7dbb3245e4e478ddd4c9edd9657.mp3*~data=user_id=0,application_id=42~hmac=6969033f9bed0e41f7fc279bdfdc2a62b30976cbc7ad4109f6ecbe12a9bca180",
         "image_id": "0ce6e5bf897b634444c40ebba9e98c59"
     },
     {
+        "id": 71483062,
         "name": "The Way You Look Tonight (2008 Remastered)",
         "artist": "Frank Sinatra",
         "album": "Nothing But The Best (2008 Remastered)",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/a/9/9/0/a9902ebe0ddf595409046202bd7187f1.mp3?hdnea=exp=1767351318~acl=/api/1/1/a/9/9/0/a9902ebe0ddf595409046202bd7187f1.mp3*~data=user_id=0,application_id=42~hmac=38f0488cdf629e18132450777fc1ff4a334c791b1d9ed41b6378f40c4ff16f09",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/a/9/9/0/a9902ebe0ddf595409046202bd7187f1.mp3?hdnea=exp=1767857266~acl=/api/1/1/a/9/9/0/a9902ebe0ddf595409046202bd7187f1.mp3*~data=user_id=0,application_id=42~hmac=2d0f5d09ea40425c41fba1db20996b907d8df18c27ae7401976437e13d64d0e7",
         "image_id": "621c706e3416c6c52671ab7fe11878f6"
     },
     {
+        "id": 4244324,
         "name": "We'll Meet Again",
         "artist": "Vera Lynn",
         "album": "We'll Meet Again, The Very Best Of Vera Lynn",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/f/3/5/0/f350bcbc70bcd98224371e4e9f6b700c.mp3?hdnea=exp=1767351319~acl=/api/1/1/f/3/5/0/f350bcbc70bcd98224371e4e9f6b700c.mp3*~data=user_id=0,application_id=42~hmac=6cc7a0817301c918f5a8328322dba3642d504ce30a6c2cf3d43588bcc8452cd0",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/f/3/5/0/f350bcbc70bcd98224371e4e9f6b700c.mp3?hdnea=exp=1767857268~acl=/api/1/1/f/3/5/0/f350bcbc70bcd98224371e4e9f6b700c.mp3*~data=user_id=0,application_id=42~hmac=369d25713a97777caf30f8324b79297b33663bb1afc554aeccea1eff444f1bea",
         "image_id": "9e0f4829bbc29c3ffbe365a69190f538"
     },
     {
+        "id": 543099772,
         "name": "Misty",
         "artist": "Sarah Vaughan",
-        "album": "Misty",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/6/6/5/0/6652e4c688070fb13d931bdbc9479253.mp3?hdnea=exp=1767351319~acl=/api/1/1/6/6/5/0/6652e4c688070fb13d931bdbc9479253.mp3*~data=user_id=0,application_id=42~hmac=417321ab9c3479e4c2625f4e43baec696b8f2f03a1dec6792b2022c1f12405bf",
-        "image_id": "c9d54955f3f4d5fed3b22526fd327613"
+        "album": "The Essential Sarah Vaughan",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/d/e/5/0/de5f6681822249740ac37791fb00fecc.mp3?hdnea=exp=1767857269~acl=/api/1/1/d/e/5/0/de5f6681822249740ac37791fb00fecc.mp3*~data=user_id=0,application_id=42~hmac=2fadb65e6f04c80f9f4f8faf238e72f69ceebe1299f51c5fa974de6e124db1a1",
+        "image_id": "9d1432b9e543c09653033d6bb7ac3632"
     },
     {
+        "id": 1543671392,
         "name": "Time Moves Slow",
         "artist": "BADBADNOTGOOD",
         "album": "IV",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/0/e/2/0/0e249eb4450a6cd138be06d8ca674b2d.mp3?hdnea=exp=1767351319~acl=/api/1/1/0/e/2/0/0e249eb4450a6cd138be06d8ca674b2d.mp3*~data=user_id=0,application_id=42~hmac=72e02911ae71d97a500cb3cd6c8cacbdf3faee168216865e14b7a6edc6605f69",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/0/e/2/0/0e249eb4450a6cd138be06d8ca674b2d.mp3?hdnea=exp=1767857271~acl=/api/1/1/0/e/2/0/0e249eb4450a6cd138be06d8ca674b2d.mp3*~data=user_id=0,application_id=42~hmac=e752eb0222793f7de4d3be33292a65b5dee3245a007514cc3fcccaf70066ac2e",
         "image_id": "992b06becacd74a7007eb59746f1de35"
     },
     {
+        "id": 2176861,
         "name": "He Can Only Hold Her",
         "artist": "Amy Winehouse",
         "album": "Back To Black",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/d/c/1/0/dc1460ffdd1181b8305534b8dbdb012c.mp3?hdnea=exp=1767351320~acl=/api/1/1/d/c/1/0/dc1460ffdd1181b8305534b8dbdb012c.mp3*~data=user_id=0,application_id=42~hmac=2e42d42833f1478fa478c98b9935e486c01ad899dc11e4f3417f82ab26e00729",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/d/c/1/0/dc1460ffdd1181b8305534b8dbdb012c.mp3?hdnea=exp=1767857272~acl=/api/1/1/d/c/1/0/dc1460ffdd1181b8305534b8dbdb012c.mp3*~data=user_id=0,application_id=42~hmac=2628e635596f1edfd61d75fca6a349b363ab47c2d6a45d41cdf3c58c347c7126",
         "image_id": "3ce985e6653c350c6e6fed077ab7d0d4"
     },
     {
+        "id": 540203402,
         "name": "Summertime",
-        "artist": "Louis Armstrong",
-        "album": "Summertime",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/9/2/e/0/92e49fafbcfbce075536b1e430d9565c.mp3?hdnea=exp=1767351320~acl=/api/1/1/9/2/e/0/92e49fafbcfbce075536b1e430d9565c.mp3*~data=user_id=0,application_id=42~hmac=0c37895416dcf3ed474a154539d925b06d3b31b82522ca772328ac59b447962b",
-        "image_id": "3436a5976532d6a639412446786fc250"
+        "artist": "Ella Fitzgerald",
+        "album": "Porgy And Bess",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/f/8/5/0/f85ca702a41e86cf6793df8b3b0c89a5.mp3?hdnea=exp=1767857273~acl=/api/1/1/f/8/5/0/f85ca702a41e86cf6793df8b3b0c89a5.mp3*~data=user_id=0,application_id=42~hmac=598d9b9f5c5710efad2489b43552ecb30e34be3a1d065774aacbd64d6d35a296",
+        "image_id": "c9eafa8a67063ae39c02997ae7afc168"
     },
     {
+        "id": 134403704,
         "name": "Christmas Is Coming",
         "artist": "Vince Guaraldi Trio",
         "album": "A Charlie Brown Christmas [2012 Remastered & Expanded Edition] (Remastered & Expanded Edition)",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/d/1/c/0/d1cb460dbc7dacfe88e69299ea9ea76d.mp3?hdnea=exp=1767351320~acl=/api/1/1/d/1/c/0/d1cb460dbc7dacfe88e69299ea9ea76d.mp3*~data=user_id=0,application_id=42~hmac=a56bb46fd02c47728cb382eaa791a7aa2f8151780b4172cffa453b9f9a426902",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/d/1/c/0/d1cb460dbc7dacfe88e69299ea9ea76d.mp3?hdnea=exp=1767857274~acl=/api/1/1/d/1/c/0/d1cb460dbc7dacfe88e69299ea9ea76d.mp3*~data=user_id=0,application_id=42~hmac=a557b8b2b60c147945645757354839d3aa603f474e919984cc1bfb0d5ff76cdd",
         "image_id": "31b820550d78f674241aa965f5eeb425"
     },
     {
+        "id": 134403714,
         "name": "Thanksgiving Theme",
         "artist": "Vince Guaraldi Trio",
         "album": "A Charlie Brown Christmas [2012 Remastered & Expanded Edition] (Remastered & Expanded Edition)",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/1/f/c/0/1fc6fe1bbc6c51130c45250101779fe6.mp3?hdnea=exp=1767351321~acl=/api/1/1/1/f/c/0/1fc6fe1bbc6c51130c45250101779fe6.mp3*~data=user_id=0,application_id=42~hmac=f738d956086d45c45d985e14565706d3db7453ea75ba2ab461fa8a589fab002f",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/1/f/c/0/1fc6fe1bbc6c51130c45250101779fe6.mp3?hdnea=exp=1767857276~acl=/api/1/1/1/f/c/0/1fc6fe1bbc6c51130c45250101779fe6.mp3*~data=user_id=0,application_id=42~hmac=1acbf71c1d7eff9a3fcf93c83e40f51fd61d25fe942132117bac1016bebbda9e",
         "image_id": "31b820550d78f674241aa965f5eeb425"
     },
     {
+        "id": 3363453,
         "name": "My Ideal",
         "artist": "Chet Baker",
         "album": "Chet Baker Sings",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/1/3/e/0/13ec76eac0b7c7f2c17ab0670dbea072.mp3?hdnea=exp=1767351321~acl=/api/1/1/1/3/e/0/13ec76eac0b7c7f2c17ab0670dbea072.mp3*~data=user_id=0,application_id=42~hmac=cb0701056b465659469167c1cc70ec7fda6a5dcec40bd41de2eac06a4c11bdc2",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/1/3/e/0/13ec76eac0b7c7f2c17ab0670dbea072.mp3?hdnea=exp=1767857277~acl=/api/1/1/1/3/e/0/13ec76eac0b7c7f2c17ab0670dbea072.mp3*~data=user_id=0,application_id=42~hmac=6ec66b6f61d2080b3f54456efd2e3f2acf2ca2dca004301aed7ad3aa56c8c527",
         "image_id": "d1e1eb8e082d83e3c9fdb2ac17121bc5"
     },
     {
+        "id": 3147919,
         "name": "Let's Get Lost",
         "artist": "Chet Baker",
         "album": "Let's Get Lost: The Best Of Chet Baker Sings",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/9/0/4/0/904d2997f86d75d79783706751135f62.mp3?hdnea=exp=1767351321~acl=/api/1/1/9/0/4/0/904d2997f86d75d79783706751135f62.mp3*~data=user_id=0,application_id=42~hmac=72898674036a122df53b2118e0666e933ec11167a15743004fb031d9b88daeeb",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/9/0/4/0/904d2997f86d75d79783706751135f62.mp3?hdnea=exp=1767857278~acl=/api/1/1/9/0/4/0/904d2997f86d75d79783706751135f62.mp3*~data=user_id=0,application_id=42~hmac=b4ca3b5de0d326927fbf94e2316a9c07c5c18f1d7e45256f267373036a79ca8d",
         "image_id": "63f24d377c90dc7fadaf8f5868b650fd"
     },
     {
+        "id": 14948173,
         "name": "Tears Dry (Original Version)",
         "artist": "Amy Winehouse",
         "album": "Lioness: Hidden Treasures",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/6/2/b/0/62b473f1924976983f2e902f9eccff3b.mp3?hdnea=exp=1767351322~acl=/api/1/1/6/2/b/0/62b473f1924976983f2e902f9eccff3b.mp3*~data=user_id=0,application_id=42~hmac=000d225a3590af7326ea7188dc044380b1893f3b21cae6a375babbefe98bfcb6",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/6/2/b/0/62b473f1924976983f2e902f9eccff3b.mp3?hdnea=exp=1767857279~acl=/api/1/1/6/2/b/0/62b473f1924976983f2e902f9eccff3b.mp3*~data=user_id=0,application_id=42~hmac=277db953f3806ea38d18bf0166b6a63669bea65eea0b3c6439ba08d7b0bbf2d6",
         "image_id": "a3fb6cd3ee275742a9af9bf0e13e44ea"
     },
     {
+        "id": 542805982,
         "name": "Autumn In New York",
         "artist": "Billie Holiday",
         "album": "The Complete Billie Holiday On Verve 1945 - 1959",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/8/4/d/0/84d5493e646c713f60f140728be8aab7.mp3?hdnea=exp=1767351322~acl=/api/1/1/8/4/d/0/84d5493e646c713f60f140728be8aab7.mp3*~data=user_id=0,application_id=42~hmac=dd2563b1cf71a16f6c70f7ef1f68e657f2e753aacd24b40e64da68f51244fbff",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/8/4/d/0/84d5493e646c713f60f140728be8aab7.mp3?hdnea=exp=1767857280~acl=/api/1/1/8/4/d/0/84d5493e646c713f60f140728be8aab7.mp3*~data=user_id=0,application_id=42~hmac=cadafc2de38ce76cfb1435dfdaefad06015207afab4e7c6aad399555d35cae39",
         "image_id": "9d765ad77cad24e25b76cda620f7445b"
     },
     {
+        "id": 71483067,
         "name": "Fly Me To The Moon (2008 Remastered)",
         "artist": "Frank Sinatra",
         "album": "Nothing But The Best (2008 Remastered)",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/2/5/f/0/25fa2562736f3eeb449a25bc12e21777.mp3?hdnea=exp=1767351323~acl=/api/1/1/2/5/f/0/25fa2562736f3eeb449a25bc12e21777.mp3*~data=user_id=0,application_id=42~hmac=bc62a753880b4e2f890c78ac40088abc78b349683ce06fe0f1da7b688d69512c",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/2/5/f/0/25fa2562736f3eeb449a25bc12e21777.mp3?hdnea=exp=1767857281~acl=/api/1/1/2/5/f/0/25fa2562736f3eeb449a25bc12e21777.mp3*~data=user_id=0,application_id=42~hmac=bf8b5f570ec6b6a4418640ab4f33151d999064c7c3978a62c57fbaa1b2bfb424",
         "image_id": "621c706e3416c6c52671ab7fe11878f6"
     },
     {
+        "id": 2683715382,
         "name": "Misty",
         "artist": "Ella Fitzgerald",
-        "album": "Someone To Watch Over Me",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/1/3/2/0/1320eefaf083886c7fa5bc906ad16318.mp3?hdnea=exp=1767351323~acl=/api/1/1/1/3/2/0/1320eefaf083886c7fa5bc906ad16318.mp3*~data=user_id=0,application_id=42~hmac=331a4f1b0a50e2a8ca7fce28814e3f2ed0ddc76e872e6abd4050f07b3d2abd9d",
-        "image_id": "16e06db2b0aad263913b0f2b8bac46a3"
+        "album": "Great Women Of Song: Ella Fitzgerald",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/3/b/5/0/3b5060d0b192ff2e6424edf602f4d0c6.mp3?hdnea=exp=1767857282~acl=/api/1/1/3/b/5/0/3b5060d0b192ff2e6424edf602f4d0c6.mp3*~data=user_id=0,application_id=42~hmac=ffe1fbed819ecf9b43abc8e356899e851998061082756f5cb6a630db9841eb01",
+        "image_id": "8027c3a4d5df70bf7dd5059ed5832fe1"
     },
     {
+        "id": 134403710,
         "name": "Greensleeves",
         "artist": "Vince Guaraldi Trio",
         "album": "A Charlie Brown Christmas [2012 Remastered & Expanded Edition] (Remastered & Expanded Edition)",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/f/b/6/0/fb6852539681b23d77a25cad02d0fa95.mp3?hdnea=exp=1767351324~acl=/api/1/1/f/b/6/0/fb6852539681b23d77a25cad02d0fa95.mp3*~data=user_id=0,application_id=42~hmac=903ff4a702d5accd5d181c205470fcd423504b79cf43de2a5e684de7f7f6b93e",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/f/b/6/0/fb6852539681b23d77a25cad02d0fa95.mp3?hdnea=exp=1767857284~acl=/api/1/1/f/b/6/0/fb6852539681b23d77a25cad02d0fa95.mp3*~data=user_id=0,application_id=42~hmac=fa16de1aa70d8ede7c2ed25b64c4369917e2bbe167257d501c89ea4225e9ab86",
         "image_id": "31b820550d78f674241aa965f5eeb425"
     },
     {
+        "id": 2237486,
         "name": "Too Young To Go Steady",
         "artist": "John Coltrane Quartet",
-        "album": "Ballads (Deluxe Edition - Rudy Van Gelder Remaster)",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/9/f/d/0/9fd7bc10019197837ad53b544b0b172f.mp3?hdnea=exp=1767351324~acl=/api/1/1/9/f/d/0/9fd7bc10019197837ad53b544b0b172f.mp3*~data=user_id=0,application_id=42~hmac=f30fb13da09072960b7d0b0618122843c894263bc33f37786ad4baae0537490b",
-        "image_id": "6e1d1bf31d602255a0d4f2f5f4ccf3cb"
+        "album": "Coltrane For Lovers",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/1/7/a/0/17a05bdaffc885686e8c49761cae393f.mp3?hdnea=exp=1767857284~acl=/api/1/1/1/7/a/0/17a05bdaffc885686e8c49761cae393f.mp3*~data=user_id=0,application_id=42~hmac=b053ecbf78ea82deac58d5a1a1eded0db87465da45f8db4ff5c1499d53d73953",
+        "image_id": "de65f6027dffb58ef60324b62e922865"
     },
     {
+        "id": 1030620152,
         "name": "Tar Baby",
         "artist": "Sade",
         "album": "Promise",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/a/b/5/0/ab5f335147d588a423efb29e3c245025.mp3?hdnea=exp=1767351324~acl=/api/1/1/a/b/5/0/ab5f335147d588a423efb29e3c245025.mp3*~data=user_id=0,application_id=42~hmac=8bd9138f78bb3e6428bbddea1df3a805040872e7c533306a1378a75601bd0382",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/a/b/5/0/ab5f335147d588a423efb29e3c245025.mp3?hdnea=exp=1767857286~acl=/api/1/1/a/b/5/0/ab5f335147d588a423efb29e3c245025.mp3*~data=user_id=0,application_id=42~hmac=a7d4a54917845fcd8f2d62fc85356990ed05aa28cc2b0b60af244e87bebcd2a8",
         "image_id": "0c504a53a501020e1dc78849ab5f23e6"
     },
     {
+        "id": 4673123,
         "name": "I Know You Know",
         "artist": "Esperanza Spalding",
         "album": "Esperanza",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/6/d/5/0/6d532b4ecfde854c60baebf1dccdd777.mp3?hdnea=exp=1767351325~acl=/api/1/1/6/d/5/0/6d532b4ecfde854c60baebf1dccdd777.mp3*~data=user_id=0,application_id=42~hmac=b9d456ce2fa9a039fd1ce68f84e5ecbb5809aec0f7ec29f33af52d84a5c77f48",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/6/d/5/0/6d532b4ecfde854c60baebf1dccdd777.mp3?hdnea=exp=1767857286~acl=/api/1/1/6/d/5/0/6d532b4ecfde854c60baebf1dccdd777.mp3*~data=user_id=0,application_id=42~hmac=656b433ac461ae4dec010ea6c285c6f46624fbd9299019554f8827bd1920bfe9",
         "image_id": "2585121175f6acd731bb9b026d49da5a"
     },
     {
+        "id": 709830252,
         "name": "Sinnerman",
         "artist": "Nina Simone",
         "album": "Feeling Good: The Very Best Of Nina Simone",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/2/5/a/0/25a702084185265b8fccba00e7a53799.mp3?hdnea=exp=1767351325~acl=/api/1/1/2/5/a/0/25a702084185265b8fccba00e7a53799.mp3*~data=user_id=0,application_id=42~hmac=25f135ddbad4b7c619ede3033c28fa6d25d1bb05d0cbfa1db7d9082d6c0dcaa3",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/2/5/a/0/25a702084185265b8fccba00e7a53799.mp3?hdnea=exp=1767857288~acl=/api/1/1/2/5/a/0/25a702084185265b8fccba00e7a53799.mp3*~data=user_id=0,application_id=42~hmac=d92ebcade50c183980e722588a01854d93ce9b6bf71db4647ddf68ae4278c030",
         "image_id": "03ff2061c4aa5cfd402c7c01bd06a48a"
     },
     {
+        "id": 1030652032,
         "name": "No Ordinary Love",
         "artist": "Sade",
         "album": "The Best of Sade",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/2/1/7/0/217adcfa96867aeaff7c942627050549.mp3?hdnea=exp=1767351325~acl=/api/1/1/2/1/7/0/217adcfa96867aeaff7c942627050549.mp3*~data=user_id=0,application_id=42~hmac=33fe074e49a369312d7549f32d322a0aace2e92a2323e534db8de9c612865632",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/2/1/7/0/217adcfa96867aeaff7c942627050549.mp3?hdnea=exp=1767857288~acl=/api/1/1/2/1/7/0/217adcfa96867aeaff7c942627050549.mp3*~data=user_id=0,application_id=42~hmac=11c04b301b3b95ef3a8c49964e656304eba3c4f71eda3505ddf03876db871104",
         "image_id": "336e00b554c028d58b7c432c38581997"
     },
     {
+        "id": 549326752,
         "name": "Moonlight In Vermont",
         "artist": "Stan Getz",
         "album": "Getz For Lovers",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/5/a/d/0/5ad9e0d804bbfb9de332d5e56467e30f.mp3?hdnea=exp=1767351326~acl=/api/1/1/5/a/d/0/5ad9e0d804bbfb9de332d5e56467e30f.mp3*~data=user_id=0,application_id=42~hmac=c90c65a6a9fa66d68c2b95ee8be267ade0f97bc73c36ac91ce169305c9ad7d1e",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/5/a/d/0/5ad9e0d804bbfb9de332d5e56467e30f.mp3?hdnea=exp=1767857289~acl=/api/1/1/5/a/d/0/5ad9e0d804bbfb9de332d5e56467e30f.mp3*~data=user_id=0,application_id=42~hmac=8b8509adb41ceb4b78ff1b32008beb45c723574997c319dcb913bbd4c3c970b6",
         "image_id": "4b6195ada66cf77891c93c28a7ce75c4"
     },
     {
+        "id": 134403708,
         "name": "The Christmas Song",
         "artist": "Vince Guaraldi Trio",
         "album": "A Charlie Brown Christmas [2012 Remastered & Expanded Edition] (Remastered & Expanded Edition)",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/6/e/7/0/6e7da353d35c53cad6bf04aec1d6ad08.mp3?hdnea=exp=1767351326~acl=/api/1/1/6/e/7/0/6e7da353d35c53cad6bf04aec1d6ad08.mp3*~data=user_id=0,application_id=42~hmac=22dd31deb791f5b3966e1c1dc20b511ab72ccab58b0f1e5bf75e13b927adb1d8",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/6/e/7/0/6e7da353d35c53cad6bf04aec1d6ad08.mp3?hdnea=exp=1767857290~acl=/api/1/1/6/e/7/0/6e7da353d35c53cad6bf04aec1d6ad08.mp3*~data=user_id=0,application_id=42~hmac=ca8e4f4b53ca60e0c802b566a5a5758a28ee21ba85fe1c06f874efe4b0dcecc5",
         "image_id": "31b820550d78f674241aa965f5eeb425"
     },
     {
+        "id": 1030651932,
         "name": "Jezebel",
         "artist": "Sade",
         "album": "The Best of Sade",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/0/7/f/0/07f1fd909a42035f2267b7a6f1925193.mp3?hdnea=exp=1767351327~acl=/api/1/1/0/7/f/0/07f1fd909a42035f2267b7a6f1925193.mp3*~data=user_id=0,application_id=42~hmac=47d79d97d8e2957d7028d8d8e762831431fe227470e88d553ce4efda073f2f84",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/0/7/f/0/07f1fd909a42035f2267b7a6f1925193.mp3?hdnea=exp=1767857292~acl=/api/1/1/0/7/f/0/07f1fd909a42035f2267b7a6f1925193.mp3*~data=user_id=0,application_id=42~hmac=2889dba0a57b740780ec9e3fd1edcfe965a377ee0841288d85ef319ce8c8b1e4",
         "image_id": "336e00b554c028d58b7c432c38581997"
     },
     {
+        "id": 13796353,
         "name": "Ain't That A Kick In The Head (Remastered 1997)",
         "artist": "Dean Martin",
         "album": "At The Movies",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/1/3/a/0/13a03e2abd374eddd9b3b88b17857707.mp3?hdnea=exp=1767351327~acl=/api/1/1/1/3/a/0/13a03e2abd374eddd9b3b88b17857707.mp3*~data=user_id=0,application_id=42~hmac=8cade51ae771d95dec41964a2fd440c2db7a43572d52d7838efc2abfe46903bc",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/1/3/a/0/13a03e2abd374eddd9b3b88b17857707.mp3?hdnea=exp=1767857292~acl=/api/1/1/1/3/a/0/13a03e2abd374eddd9b3b88b17857707.mp3*~data=user_id=0,application_id=42~hmac=d23d8c54d7bc449d966b7cc8cf5d08286282d52d88be152af9cef0906a129929",
         "image_id": "ed2fea4783b868fe1be3df2518433d00"
     },
     {
+        "id": 3105353,
         "name": "Autumn Leaves",
         "artist": "Cannonball Adderley",
         "album": "Somethin' Else (Rudy Van Gelder Edition)",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/5/9/a/0/59a9bf4e242c43660daae1be82b410e6.mp3?hdnea=exp=1767351328~acl=/api/1/1/5/9/a/0/59a9bf4e242c43660daae1be82b410e6.mp3*~data=user_id=0,application_id=42~hmac=5f7db092ce69cd962a37a96ee07744c2e0efbbad6f3fdcf9bcc0ecf739eac644",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/5/9/a/0/59a9bf4e242c43660daae1be82b410e6.mp3?hdnea=exp=1767857293~acl=/api/1/1/5/9/a/0/59a9bf4e242c43660daae1be82b410e6.mp3*~data=user_id=0,application_id=42~hmac=496cf626a86716533b4730cafe9f88f76b367f86bc5108757ced1c7d45c0df27",
         "image_id": "714f9f8c5403f02a2dd2b1fd65485381"
     },
     {
-        "name": "September In The Rain",
+        "id": 70654192,
+        "name": "September in the Rain",
         "artist": "Dinah Washington",
-        "album": "20th Century Masters: The Best Of Dinah Washington - The Millennium Collection",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/3/4/0/0/340c1e32cf077c1fdec0e30ecc677669.mp3?hdnea=exp=1767351328~acl=/api/1/1/3/4/0/0/340c1e32cf077c1fdec0e30ecc677669.mp3*~data=user_id=0,application_id=42~hmac=061a889bdfa04cbf72e587c34280f9828901c41ed8ff32654da7e165b9efe115",
-        "image_id": "d287c29399bf2bfa7a4c0f20dd94520c"
+        "album": "What a Difference a Day Makes - Dinah Washington Sings Hits Like Unforgettable, This Bitter Earth, And Mad About the Boy!",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/a/7/e/0/a7ec2c3370a98323494bd83aac4062aa.mp3?hdnea=exp=1767857295~acl=/api/1/1/a/7/e/0/a7ec2c3370a98323494bd83aac4062aa.mp3*~data=user_id=0,application_id=42~hmac=d5d46e12cb84885395c0fe36bf10d5e2ad62e9c9d652bab8ccb48a95d5caa72a",
+        "image_id": "674bc4f472221b895708a2948563a4ea"
     },
     {
+        "id": 3288090,
         "name": "Mystic Brew",
         "artist": "Ronnie Foster",
         "album": "Two-Headed Freap",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/d/4/b/0/d4bf90911b2dbba7a4fa18d04c796440.mp3?hdnea=exp=1767351328~acl=/api/1/1/d/4/b/0/d4bf90911b2dbba7a4fa18d04c796440.mp3*~data=user_id=0,application_id=42~hmac=d1687d47b8d14c4a09d3ebc3e41510f607450d4fc2482ce6db469b57b84714bf",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/d/4/b/0/d4bf90911b2dbba7a4fa18d04c796440.mp3?hdnea=exp=1767857296~acl=/api/1/1/d/4/b/0/d4bf90911b2dbba7a4fa18d04c796440.mp3*~data=user_id=0,application_id=42~hmac=0e12a94df2ae835b56be428b65ff1e6d7984d21cd63a5d6b8b88604219856db8",
         "image_id": "1181bba683d0fc067effd9f8b38bef20"
     },
     {
+        "id": 520647552,
         "name": "Nancy (With The Laughing Face)",
         "artist": "John Coltrane Quartet",
         "album": "The Essential John Coltrane On Impulse!",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/3/7/7/0/377bc6785e261154001864312beb170a.mp3?hdnea=exp=1767351329~acl=/api/1/1/3/7/7/0/377bc6785e261154001864312beb170a.mp3*~data=user_id=0,application_id=42~hmac=69679b5e06027ed1d9c9165b2a9bfb712548004f1bf69d1cd29b7f82063de5b2",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/3/7/7/0/377bc6785e261154001864312beb170a.mp3?hdnea=exp=1767857298~acl=/api/1/1/3/7/7/0/377bc6785e261154001864312beb170a.mp3*~data=user_id=0,application_id=42~hmac=2b040623421d5f14accd48f02e966894e5a2c909a961d58af841f28c3e53aeec",
         "image_id": "81b2a25ccc65928db88105ae39b75d3b"
     },
     {
+        "id": 632335,
         "name": "I Wish I Knew How It Would Feel to Be Free",
         "artist": "Nina Simone",
-        "album": "Silk & Soul (Expanded Edition)",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/4/3/2/0/432556b386200890653ac228adde3d78.mp3?hdnea=exp=1767351329~acl=/api/1/1/4/3/2/0/432556b386200890653ac228adde3d78.mp3*~data=user_id=0,application_id=42~hmac=58a37647148a40e3ecf601eea5e8043c4066d57c600cc519523044e30df91d35",
-        "image_id": "3f0bb34555b271f8f262af292b418dd6"
+        "album": "The Greatest Hits",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/7/2/0/0/720e2db6f9bbc74dfbcffb8200ff05c4.mp3?hdnea=exp=1767857299~acl=/api/1/1/7/2/0/0/720e2db6f9bbc74dfbcffb8200ff05c4.mp3*~data=user_id=0,application_id=42~hmac=c2fb2b35dd268700f689584c5661fe274eaedb1f5123e2487e33fe0b81b5fbac",
+        "image_id": "0c5f23a0a5a36f52028ca6afa85e0de4"
     },
     {
+        "id": 1164217,
         "name": "Summertime",
         "artist": "Charlie Parker",
-        "album": "April In Paris: The Genius Of Charlie Parker #2",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/4/1/f/0/41fdecc6dcc77d84cb623207cdeb93a3.mp3?hdnea=exp=1767351329~acl=/api/1/1/4/1/f/0/41fdecc6dcc77d84cb623207cdeb93a3.mp3*~data=user_id=0,application_id=42~hmac=3a3f8d36df8e98cf185d26456748592d641658ea38fb9e1f63032806627d29a6",
-        "image_id": "4c34c8fce900fae733cf06d7692ab240"
+        "album": "Saxophone Ballads (Jazz Club)",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/8/a/6/0/8a6daf3dc99964363f4ac5f9e564e36a.mp3?hdnea=exp=1767857300~acl=/api/1/1/8/a/6/0/8a6daf3dc99964363f4ac5f9e564e36a.mp3*~data=user_id=0,application_id=42~hmac=c326e9aecbfd2390f21e29d88c584282899e5eb51565cbd616d16bb36a151789",
+        "image_id": "8eccf8cf346bda77332eb10cd88c5608"
     },
     {
+        "id": 548800502,
         "name": "What A Diff'rence A Day Made",
         "artist": "Dinah Washington",
         "album": "What A Diff'rence A Day Makes! (Expanded Edition)",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/6/5/b/0/65b829cfaea8d4bd9f29994231a34ffc.mp3?hdnea=exp=1767351330~acl=/api/1/1/6/5/b/0/65b829cfaea8d4bd9f29994231a34ffc.mp3*~data=user_id=0,application_id=42~hmac=c3ec51771e4c7cb45490b2fb875f629d1cbf172ffa63e8faff50794bb45b38c6",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/6/5/b/0/65b829cfaea8d4bd9f29994231a34ffc.mp3?hdnea=exp=1767857302~acl=/api/1/1/6/5/b/0/65b829cfaea8d4bd9f29994231a34ffc.mp3*~data=user_id=0,application_id=42~hmac=dd9dd0bff41d46fd9912953c5209186fb353c2db7e3dc58871abad8cf1c4705a",
         "image_id": "f645c27c038dbfa3b3a30391f733bb4d"
     },
     {
+        "id": 104271084,
         "name": "Charlie Brown Theme",
         "artist": "Vince Guaraldi Trio",
         "album": "Peanuts Greatest Hits (Music From The TV Specials)",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/4/8/b/0/48b410dfd575cf6d84894449255d5634.mp3?hdnea=exp=1767351330~acl=/api/1/1/4/8/b/0/48b410dfd575cf6d84894449255d5634.mp3*~data=user_id=0,application_id=42~hmac=4505bd0a8e10dd93733ec88c0728454e86f8b7ba3106c102c70f12789457148e",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/4/8/b/0/48b410dfd575cf6d84894449255d5634.mp3?hdnea=exp=1767857303~acl=/api/1/1/4/8/b/0/48b410dfd575cf6d84894449255d5634.mp3*~data=user_id=0,application_id=42~hmac=7b3118cefd857ac9472a1700b30173ad1f44a6d50e1f333062fee5f40630e87a",
         "image_id": "5cc3c1cd98a322e406935358894a64f8"
     },
     {
+        "id": 1758856757,
         "name": "Fuck Me Pumps",
         "artist": "Amy Winehouse",
         "album": "Frank",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/6/3/b/0/63bb543b4e2fd86026af305f7c35539a.mp3?hdnea=exp=1767351331~acl=/api/1/1/6/3/b/0/63bb543b4e2fd86026af305f7c35539a.mp3*~data=user_id=0,application_id=42~hmac=c9e4069c415bcd14241022ea958165a8ec653b7334a668b7d69a45ca336550d0",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/6/3/b/0/63bb543b4e2fd86026af305f7c35539a.mp3?hdnea=exp=1767857305~acl=/api/1/1/6/3/b/0/63bb543b4e2fd86026af305f7c35539a.mp3*~data=user_id=0,application_id=42~hmac=707b3743b22e06f6881d942c2e5e24afa4ad429a87edbfa5338f5962e747c9a9",
         "image_id": "c254c24ef1c98eb18f4856eeeb0b60c8"
     },
     {
+        "id": 3691569262,
         "name": "Tell Me a Bedtime Story",
         "artist": "Herbie Hancock",
-        "album": "Sleeping Giant",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/5/0/e/0/50ea318bc0dee8797332e24c298f8683.mp3?hdnea=exp=1767351331~acl=/api/1/1/5/0/e/0/50ea318bc0dee8797332e24c298f8683.mp3*~data=user_id=0,application_id=42~hmac=a49101b3c4aaf034f8db537bf5df7ebba62c8aced71199b99751f3f2bb61b66f",
-        "image_id": "739a5468e491afba08e608451d60e712"
+        "album": "Ap\u00e9ro No\u00ebl",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/5/4/f/0/54febe729eca881028c6f355e6defae5.mp3?hdnea=exp=1767857305~acl=/api/1/1/5/4/f/0/54febe729eca881028c6f355e6defae5.mp3*~data=user_id=0,application_id=42~hmac=e5e4ea5eaaf39f57e44245e494302172f0bb7219481e54f3384842568ce9d401",
+        "image_id": "ea0ee9117ca186a96e175affc3fff4c6"
     },
     {
+        "id": 71483080,
         "name": "Theme From New York, New York (2008 Remastered)",
         "artist": "Frank Sinatra",
         "album": "Nothing But The Best (2008 Remastered)",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/6/7/3/0/67368e68a72b827399d075b6ab60f281.mp3?hdnea=exp=1767351332~acl=/api/1/1/6/7/3/0/67368e68a72b827399d075b6ab60f281.mp3*~data=user_id=0,application_id=42~hmac=f5a64ab1297ffcc5b354caca914e2bc40e1f3a88f0ead66db84efda37660eea3",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/6/7/3/0/67368e68a72b827399d075b6ab60f281.mp3?hdnea=exp=1767857306~acl=/api/1/1/6/7/3/0/67368e68a72b827399d075b6ab60f281.mp3*~data=user_id=0,application_id=42~hmac=d3d6625fac5d3d05595be041b436caceaee15689ffe50170c7eaf2667d5f5ea1",
         "image_id": "621c706e3416c6c52671ab7fe11878f6"
     },
     {
+        "id": 3051286,
         "name": "Skating",
         "artist": "Vince Guaraldi Trio",
-        "album": "A Charlie Brown Christmas [2012 Remastered & Expanded Edition] (Remastered & Expanded Edition)",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/f/4/a/0/f4a6a64847629ab97ce872e2e0e3bf51.mp3?hdnea=exp=1767351332~acl=/api/1/1/f/4/a/0/f4a6a64847629ab97ce872e2e0e3bf51.mp3*~data=user_id=0,application_id=42~hmac=5b6577c5a39b9a5c3c0bec80f548671637564094a27042625068736ed4aa63e1",
-        "image_id": "31b820550d78f674241aa965f5eeb425"
+        "album": "Bottle Rocket Short Film Soundtrack",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/5/a/0/0/5a0141e73d1792992f0b36ab5776dfab.mp3?hdnea=exp=1767857308~acl=/api/1/1/5/a/0/0/5a0141e73d1792992f0b36ab5776dfab.mp3*~data=user_id=0,application_id=42~hmac=e91ecf140aee478575feb335a5f27d932a58fd29d74dff4cd66ad9bba6786b79",
+        "image_id": "df14b8d849a033b2d326065c102e5863"
     },
     {
+        "id": 11974820,
         "name": "Pennies From Heaven",
         "artist": "Louis Prima",
         "album": "The Call Of The Wildest (Expanded Edition)",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/3/e/2/0/3e2b80ef5ed4e309309fa2db9cb32a44.mp3?hdnea=exp=1767351332~acl=/api/1/1/3/e/2/0/3e2b80ef5ed4e309309fa2db9cb32a44.mp3*~data=user_id=0,application_id=42~hmac=59940502fa8687117258daf6f12782db3a044c092513b1227e3e5985d20f9f23",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/3/e/2/0/3e2b80ef5ed4e309309fa2db9cb32a44.mp3?hdnea=exp=1767857308~acl=/api/1/1/3/e/2/0/3e2b80ef5ed4e309309fa2db9cb32a44.mp3*~data=user_id=0,application_id=42~hmac=8fe89b79dae982dae6bc92c508de2d8ba3cedc6fa504fec2723a6876e8ddcc8c",
         "image_id": "8d54f869503ffb52005c1a41d38e2352"
     },
     {
+        "id": 549288312,
         "name": "Love Me Or Leave Me",
         "artist": "Nina Simone",
         "album": "Don't Let Me Be Misunderstood",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/f/1/5/0/f15f910d5c2bfb2cd5b662b052485bcf.mp3?hdnea=exp=1767351333~acl=/api/1/1/f/1/5/0/f15f910d5c2bfb2cd5b662b052485bcf.mp3*~data=user_id=0,application_id=42~hmac=0e270766365f0e71ecab74835e7570e036a1c9ea893e1bb803c374702f39396e",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/f/1/5/0/f15f910d5c2bfb2cd5b662b052485bcf.mp3?hdnea=exp=1767857310~acl=/api/1/1/f/1/5/0/f15f910d5c2bfb2cd5b662b052485bcf.mp3*~data=user_id=0,application_id=42~hmac=10df5c8a8d12d76beb672c59e433d4096ecfdafc4be2d2b23c0e863f86bbb9ee",
         "image_id": "f92d8a605f344fe5af445aa2ca6253c1"
     },
     {
+        "id": 549288242,
         "name": "Don't Let Me Be Misunderstood",
         "artist": "Nina Simone",
         "album": "Don't Let Me Be Misunderstood",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/7/4/6/0/74640487652bc74542c5faff38bc309e.mp3?hdnea=exp=1767351333~acl=/api/1/1/7/4/6/0/74640487652bc74542c5faff38bc309e.mp3*~data=user_id=0,application_id=42~hmac=1f789dbb2c9388e638a47dd914f4d740ca68beaea43f8bbc281352a5a71ec186",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/7/4/6/0/74640487652bc74542c5faff38bc309e.mp3?hdnea=exp=1767857311~acl=/api/1/1/7/4/6/0/74640487652bc74542c5faff38bc309e.mp3*~data=user_id=0,application_id=42~hmac=64d7ac068b4d79aacc770ab901dd1ceeee2b029bebeff80de381d51826f18571",
         "image_id": "f92d8a605f344fe5af445aa2ca6253c1"
     },
     {
+        "id": 2789439,
         "name": "My Baby Just Cares for Me",
         "artist": "Nina Simone",
         "album": "My Baby Just Cares for Me",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/6/c/e/0/6ce9ea688afdd28f1166016af4276e5c.mp3?hdnea=exp=1767351334~acl=/api/1/1/6/c/e/0/6ce9ea688afdd28f1166016af4276e5c.mp3*~data=user_id=0,application_id=42~hmac=9251c85927328a481bf2f7503530576b7f33bcce95383cc425633433b6274b49",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/6/c/e/0/6ce9ea688afdd28f1166016af4276e5c.mp3?hdnea=exp=1767857312~acl=/api/1/1/6/c/e/0/6ce9ea688afdd28f1166016af4276e5c.mp3*~data=user_id=0,application_id=42~hmac=4ba3658592d9e58477805886c8b2ca3d7396ffd941270b81c88e2e09808f10c2",
         "image_id": "0352ab9d0381f916ac8c4629133a22fd"
     },
     {
+        "id": 3415323,
         "name": "Moon Love",
         "artist": "Chet Baker",
-        "album": "The Trumpet Artistry Of Chet Baker",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/f/8/e/0/f8e3ed9acf3fd8aef39c05b3d2aaf532.mp3?hdnea=exp=1767351334~acl=/api/1/1/f/8/e/0/f8e3ed9acf3fd8aef39c05b3d2aaf532.mp3*~data=user_id=0,application_id=42~hmac=e5f062543fd51fad39304b49a1c0510fc1daba6cbe319bfb140a7e78ddd9898a",
-        "image_id": "701d9f41e3d4d28e83d359ccbe579573"
+        "album": "My Funny Valentine",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/7/f/0/0/7f0be9c597ee6775feab6cfe47591cd1.mp3?hdnea=exp=1767857312~acl=/api/1/1/7/f/0/0/7f0be9c597ee6775feab6cfe47591cd1.mp3*~data=user_id=0,application_id=42~hmac=87872c1b6d9c72f2250c492ce9bfc86df1450200872a9ec5f125497569ded738",
+        "image_id": "8a25b1fe426eebb44b515494f84c57c4"
     },
     {
+        "id": 668500,
         "name": "Equinox",
         "artist": "John Coltrane",
         "album": "Coltrane's Sound",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/1/f/5/0/1f57d97e0f833edd25250c6baae486ab.mp3?hdnea=exp=1767351334~acl=/api/1/1/1/f/5/0/1f57d97e0f833edd25250c6baae486ab.mp3*~data=user_id=0,application_id=42~hmac=718861d1c95ca36066ef945f69fe74bd16c607ce81c815e94b229d44d7b82fb0",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/1/f/5/0/1f57d97e0f833edd25250c6baae486ab.mp3?hdnea=exp=1767857314~acl=/api/1/1/1/f/5/0/1f57d97e0f833edd25250c6baae486ab.mp3*~data=user_id=0,application_id=42~hmac=0396ae250efc4203ecf6a638b80b6e80380b4000ac2e0683a9ba89f6ff4b2d39",
         "image_id": "0d01b130be9985220e9ab0ff4e53c3d2"
     },
     {
+        "id": 3363463,
         "name": "Look For The Silver Lining",
         "artist": "Chet Baker",
         "album": "Chet Baker Sings",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/7/f/3/0/7f3ce344783f82699b2b7565111c9f9c.mp3?hdnea=exp=1767351335~acl=/api/1/1/7/f/3/0/7f3ce344783f82699b2b7565111c9f9c.mp3*~data=user_id=0,application_id=42~hmac=a201af81cb6144d9bcb20eebb084f8bf8e2d9b4dc676f0eba43b5db18c06e635",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/7/f/3/0/7f3ce344783f82699b2b7565111c9f9c.mp3?hdnea=exp=1767857316~acl=/api/1/1/7/f/3/0/7f3ce344783f82699b2b7565111c9f9c.mp3*~data=user_id=0,application_id=42~hmac=9a4a69184a13bcbe234b5d560598fc7e8a80012c0ee77bc08f9f37b74348ec14",
         "image_id": "d1e1eb8e082d83e3c9fdb2ac17121bc5"
     },
     {
-        "name": "All Of Me",
-        "artist": "Billie Holiday;Accompanied By Eddie Heywood & His Orchestra",
-        "album": "Lady Day: The Complete Billie Holiday On Columbia (1933-1944)",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/e/a/b/0/eabfabab21dfb62124364c8668f9173b.mp3?hdnea=exp=1767351335~acl=/api/1/1/e/a/b/0/eabfabab21dfb62124364c8668f9173b.mp3*~data=user_id=0,application_id=42~hmac=af68f3dcf5b2b9d3862285d3a9c1368670ca8930ab8d1860b657ed510ab09002",
-        "image_id": "6da9528ad5f17d06f15919f2f6ee663b"
-    },
-    {
+        "id": 1751530557,
         "name": "Turn Me On",
         "artist": "Norah Jones",
         "album": "Come Away With Me (Remastered 2022)",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/5/6/3/0/5639efe3a7f94b7175857f7a770ee894.mp3?hdnea=exp=1767351336~acl=/api/1/1/5/6/3/0/5639efe3a7f94b7175857f7a770ee894.mp3*~data=user_id=0,application_id=42~hmac=bfeb49cacd4175111a0d9fe0fe5b5990a94f9909e67e5229ce13c53d5d61a81b",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/5/6/3/0/5639efe3a7f94b7175857f7a770ee894.mp3?hdnea=exp=1767857318~acl=/api/1/1/5/6/3/0/5639efe3a7f94b7175857f7a770ee894.mp3*~data=user_id=0,application_id=42~hmac=b87e97446e765d928e4cb2282aefca3b831b0e78213a21a2a2bf4c5b90881b3d",
         "image_id": "ffdc405610fbb92fe681e610a6b34aba"
     },
     {
-        "name": "You Go to My Head",
-        "artist": "Billie Holiday & Her Orchestra",
-        "album": "Ladies in Jazz - Billie Holiday, Vol. 5",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/7/4/0/0/740e3cce1056df4d4999d0880725cce5.mp3?hdnea=exp=1767351336~acl=/api/1/1/7/4/0/0/740e3cce1056df4d4999d0880725cce5.mp3*~data=user_id=0,application_id=42~hmac=c0aa73270fc1d66f2259a3cab341a934bf0716682fe66c65e8a2b4fa5cbe6f2b",
-        "image_id": "1c5556b3200d0c87e2f5f5597b14e800"
+        "id": 97545082,
+        "name": "Swing Brother Swing",
+        "artist": "Billie Holiday (Original Artist)",
+        "album": "Zoot Suit Dance Time-Get Up and Boogie",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/3/8/a/0/38ad0e18696dae9fce091130cf6a0aa1.mp3?hdnea=exp=1767857319~acl=/api/1/1/3/8/a/0/38ad0e18696dae9fce091130cf6a0aa1.mp3*~data=user_id=0,application_id=42~hmac=68a5136142379b37c9012c59db8cb24044c18acddc8fd2f3a7ca6e0607787571",
+        "image_id": "760479341b4204d68b16374f29cdb022"
     },
     {
+        "id": 1141325042,
         "name": "Have Yourself A Merry Little Christmas",
         "artist": "Ella Fitzgerald",
         "album": "Intimate Christmas Eve",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/5/5/0/0/5500e1846a78423145ea2ff73f612e93.mp3?hdnea=exp=1767351336~acl=/api/1/1/5/5/0/0/5500e1846a78423145ea2ff73f612e93.mp3*~data=user_id=0,application_id=42~hmac=503985aaf5bf8938319feb68de896e97f2a5f834d63b4c000adacce3bc924cca",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/5/5/0/0/5500e1846a78423145ea2ff73f612e93.mp3?hdnea=exp=1767857321~acl=/api/1/1/5/5/0/0/5500e1846a78423145ea2ff73f612e93.mp3*~data=user_id=0,application_id=42~hmac=15e0686141f234f4bbf41a4d46b0fea93cc3624d0fc5b350038929f35eede884",
         "image_id": "d4046d4e893d438d0a6a130ba2eb1595"
     },
     {
+        "id": 1155795,
         "name": "Ruby, My Dear",
         "artist": "Thelonious Monk Septet",
         "album": "Monk's Music",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/b/1/8/0/b185e7fd2062d270ef8ea42d1d23c20b.mp3?hdnea=exp=1767351337~acl=/api/1/1/b/1/8/0/b185e7fd2062d270ef8ea42d1d23c20b.mp3*~data=user_id=0,application_id=42~hmac=1f29ca4ebf30d03749bf6440bdb7e9a99c9325bdced472d08b4ea99f563c9c57",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/b/1/8/0/b185e7fd2062d270ef8ea42d1d23c20b.mp3?hdnea=exp=1767857322~acl=/api/1/1/b/1/8/0/b185e7fd2062d270ef8ea42d1d23c20b.mp3*~data=user_id=0,application_id=42~hmac=b5d631361788bc9b6259fa537fde3806b3232442328186fc1896965510805944",
         "image_id": "3e8c647518643aff45637832495616a3"
     },
     {
+        "id": 1030607582,
         "name": "Cherish the Day",
         "artist": "Sade",
-        "album": "The Best of Sade",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/e/b/d/0/ebd255769ed7684a0306934a59bb42ef.mp3?hdnea=exp=1767351337~acl=/api/1/1/e/b/d/0/ebd255769ed7684a0306934a59bb42ef.mp3*~data=user_id=0,application_id=42~hmac=198a3cc761510b87d6d517de547c4d3b6627e42d1a13353706101083ca137e70",
-        "image_id": "336e00b554c028d58b7c432c38581997"
+        "album": "Love Deluxe",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/f/9/4/0/f946354c6614c2d9c6984a0500182b6e.mp3?hdnea=exp=1767857324~acl=/api/1/1/f/9/4/0/f946354c6614c2d9c6984a0500182b6e.mp3*~data=user_id=0,application_id=42~hmac=c2e46ed1a6d7cb7dd27559c83d694a0f396c639f79a4aed2d237055b77f33f9b",
+        "image_id": "975b8e921822b6e01de1663ef02cee08"
     },
     {
+        "id": 3757645862,
         "name": "Everytime We Say Goodbye",
         "artist": "John Coltrane",
-        "album": "My Favorite Things",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/4/9/7/0/497c324c508439cb29a36476702891f3.mp3?hdnea=exp=1767351338~acl=/api/1/1/4/9/7/0/497c324c508439cb29a36476702891f3.mp3*~data=user_id=0,application_id=42~hmac=93689c4f3ae3394969ed8856ea37811a53ef1599e8c2b1b2e015f33ef233deb6",
-        "image_id": "bc192843562fb6ab42380bdd35f3b06d"
+        "album": "I Want To Talk About You",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/8/0/1/0/8016c81719a9c412f13026442fcff94f.mp3?hdnea=exp=1767857324~acl=/api/1/1/8/0/1/0/8016c81719a9c412f13026442fcff94f.mp3*~data=user_id=0,application_id=42~hmac=c19f068bd4ea45b1876aec00cd7b183566ab28c3a0cfe7a79619a423505fbf83",
+        "image_id": "1078e9f3934acf6b1fbdee5b7d880de6"
     },
     {
+        "id": 134403690,
         "name": "What Child Is This",
         "artist": "Vince Guaraldi Trio",
         "album": "A Charlie Brown Christmas [2012 Remastered & Expanded Edition] (Remastered & Expanded Edition)",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/b/b/7/0/bb76c21edb5a3b8a65d69b5562110f77.mp3?hdnea=exp=1767351338~acl=/api/1/1/b/b/7/0/bb76c21edb5a3b8a65d69b5562110f77.mp3*~data=user_id=0,application_id=42~hmac=c370e2bb919d3be13aefb4295c52ebbea41bdd4855bb1dc11ac00b6c7f15fa0d",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/b/b/7/0/bb76c21edb5a3b8a65d69b5562110f77.mp3?hdnea=exp=1767857326~acl=/api/1/1/b/b/7/0/bb76c21edb5a3b8a65d69b5562110f77.mp3*~data=user_id=0,application_id=42~hmac=cfac23de7ffbc3a0e9660b9fbe86b73860895d78a91f3bd2f2199929a3631361",
         "image_id": "31b820550d78f674241aa965f5eeb425"
     },
     {
+        "id": 72203429,
         "name": "Blue Rondo \u00e0 la Turk",
         "artist": "The Dave Brubeck Quartet",
         "album": "Time Out",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/c/5/6/0/c56b37cc0c2383e5b43fc4a8c16309f5.mp3?hdnea=exp=1767351338~acl=/api/1/1/c/5/6/0/c56b37cc0c2383e5b43fc4a8c16309f5.mp3*~data=user_id=0,application_id=42~hmac=8ab2bc0610a44c3b7f61313ea2cbb93d0b7abd3382c816c46b8ad85d4beeb6f2",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/c/5/6/0/c56b37cc0c2383e5b43fc4a8c16309f5.mp3?hdnea=exp=1767857327~acl=/api/1/1/c/5/6/0/c56b37cc0c2383e5b43fc4a8c16309f5.mp3*~data=user_id=0,application_id=42~hmac=1cf2886b4255dcb534d359a9c2e21b1381537b3a49f4e8d5148568da70580ff3",
         "image_id": "9637fd8850fbe280dfe958d0f82b7b12"
     },
     {
+        "id": 780599302,
         "name": "I've Got My Love To Keep Me Warm",
         "artist": "Billie Holiday",
         "album": "The Best Of Christmas Jazz - The Christmas Collection - 20th Century Masters (Vol. 2)",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/7/3/7/0/73772809ad3d15c241b291161d6b3f43.mp3?hdnea=exp=1767351339~acl=/api/1/1/7/3/7/0/73772809ad3d15c241b291161d6b3f43.mp3*~data=user_id=0,application_id=42~hmac=c46201cad936bf5ae87c361491fbf49544fe13b92bdca3c415e682fcc7bdb1b4",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/7/3/7/0/73772809ad3d15c241b291161d6b3f43.mp3?hdnea=exp=1767857329~acl=/api/1/1/7/3/7/0/73772809ad3d15c241b291161d6b3f43.mp3*~data=user_id=0,application_id=42~hmac=3a4785c63183921ff5060a0e48abada90a7e5c2ffb0416eca4dfd87b167e9a9c",
         "image_id": "a0987e806fa3bda0be1484cd402923ed"
     },
     {
+        "id": 1030652082,
         "name": "Pearls",
         "artist": "Sade",
         "album": "The Best of Sade",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/d/7/c/0/d7c84ee9c8f335f72d5b409b9a2f2d16.mp3?hdnea=exp=1767351339~acl=/api/1/1/d/7/c/0/d7c84ee9c8f335f72d5b409b9a2f2d16.mp3*~data=user_id=0,application_id=42~hmac=8bc589e8d1f4f7ee682b3e57a4aa1d3dfb63bfc43068633cf6566536eecda54f",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/d/7/c/0/d7c84ee9c8f335f72d5b409b9a2f2d16.mp3?hdnea=exp=1767857330~acl=/api/1/1/d/7/c/0/d7c84ee9c8f335f72d5b409b9a2f2d16.mp3*~data=user_id=0,application_id=42~hmac=880528375ddbaf51aab4fdc9b6ac4729ce2df64846ef8b399f89bf9ad4f7fd71",
         "image_id": "336e00b554c028d58b7c432c38581997"
     },
     {
+        "id": 11123964,
         "name": "Why Try to Change Me Now",
         "artist": "Fiona Apple",
         "album": "The Best Is Yet to Come - The Songs of Cy Coleman",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/7/e/5/0/7e573b838257d889a60af93a128c6a9c.mp3?hdnea=exp=1767351340~acl=/api/1/1/7/e/5/0/7e573b838257d889a60af93a128c6a9c.mp3*~data=user_id=0,application_id=42~hmac=3ff93e2bbfb17cebf296fc40915673ca560594f2175b4b830c52a0fa66c438e6",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/7/e/5/0/7e573b838257d889a60af93a128c6a9c.mp3?hdnea=exp=1767857330~acl=/api/1/1/7/e/5/0/7e573b838257d889a60af93a128c6a9c.mp3*~data=user_id=0,application_id=42~hmac=f098ec77acf4b4bd9829da8df7263e1bb678f94d5c8b230f48ac4cdbf814fe52",
         "image_id": "7dda23967335035ab8198dff7cc04ff9"
     },
     {
+        "id": 542807362,
         "name": "Strange Fruit",
         "artist": "Billie Holiday",
         "album": "The Complete Billie Holiday On Verve 1945 - 1959",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/b/c/f/0/bcfd7bcb276371d975873a4dacfa628d.mp3?hdnea=exp=1767351340~acl=/api/1/1/b/c/f/0/bcfd7bcb276371d975873a4dacfa628d.mp3*~data=user_id=0,application_id=42~hmac=54f1ef254522fca5ff3fd371d2585f845e1dd4ec29de99cb8e54c7fb3850226c",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/b/c/f/0/bcfd7bcb276371d975873a4dacfa628d.mp3?hdnea=exp=1767857332~acl=/api/1/1/b/c/f/0/bcfd7bcb276371d975873a4dacfa628d.mp3*~data=user_id=0,application_id=42~hmac=3f8255ab3494e6962b038e6f7700d66c0ea0e90af4cdf1fc6c4b7760ff257df2",
         "image_id": "9d765ad77cad24e25b76cda620f7445b"
     },
     {
+        "id": 1141122,
         "name": "Peace Piece",
         "artist": "Bill Evans",
         "album": "Everybody Digs Bill Evans",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/e/3/0/0/e30175deef7ff498a3bdb354e1e2031e.mp3?hdnea=exp=1767351341~acl=/api/1/1/e/3/0/0/e30175deef7ff498a3bdb354e1e2031e.mp3*~data=user_id=0,application_id=42~hmac=ef410b065a097c7b26aaccb144dd175b02259457f7745c5c94c30317cf7429a9",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/e/3/0/0/e30175deef7ff498a3bdb354e1e2031e.mp3?hdnea=exp=1767857333~acl=/api/1/1/e/3/0/0/e30175deef7ff498a3bdb354e1e2031e.mp3*~data=user_id=0,application_id=42~hmac=165e58b35a07f026312c233f021cb98abda3f6200b9c46ed157a1efdb87640ad",
         "image_id": "72443cbc87815915fa1881346089be8b"
     },
     {
+        "id": 537105662,
         "name": "Blue Skies",
         "artist": "Ella Fitzgerald",
         "album": "Get Happy! (Expanded Edition)",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/8/7/b/0/87b47a93808735e1a3d5967117c1c55a.mp3?hdnea=exp=1767351341~acl=/api/1/1/8/7/b/0/87b47a93808735e1a3d5967117c1c55a.mp3*~data=user_id=0,application_id=42~hmac=94add87541dcbc157c3ac51e534b22fb514d813387555a908169c94f0baeeef7",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/8/7/b/0/87b47a93808735e1a3d5967117c1c55a.mp3?hdnea=exp=1767857335~acl=/api/1/1/8/7/b/0/87b47a93808735e1a3d5967117c1c55a.mp3*~data=user_id=0,application_id=42~hmac=18ebf0af20efb379f69244e6282294501b9bd37eddc1dae6898a9a406f82670d",
         "image_id": "adc8dafcfe6de4c3ef3394a1790519f4"
     },
     {
+        "id": 3148997,
         "name": "La vie en rose (Single Version)",
         "artist": "Louis Armstrong",
-        "album": "The Best Of The Decca Years Volume One: The Singer",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/2/2/3/0/22360002591b65603c3fee91a149df3d.mp3?hdnea=exp=1767351342~acl=/api/1/1/2/2/3/0/22360002591b65603c3fee91a149df3d.mp3*~data=user_id=0,application_id=42~hmac=e93479e696d93abe3a9e637f1d5a54165018e6c0207a2a69dc9e6d178fc96ae1",
-        "image_id": "8e28c56e6da8b3ee7a2a4c4740b305d4"
+        "album": "Satchmo Serenades",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/a/1/1/0/a11741416bf7b0a84e2a9d1e9809dd48.mp3?hdnea=exp=1767857336~acl=/api/1/1/a/1/1/0/a11741416bf7b0a84e2a9d1e9809dd48.mp3*~data=user_id=0,application_id=42~hmac=61bafa380fac2795f398c9f4d50d1ef41e85b14d6eb8afe28ddc0be897427962",
+        "image_id": "ab85da8c7ceb1de52b2a2fc9b60d70cc"
     },
     {
+        "id": 602454252,
         "name": "Desafinado",
         "artist": "Stan Getz",
         "album": "Stan Getz: The Bossa Nova Albums",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/9/1/6/0/916bb21e40f90890c9a043a0c4c0050e.mp3?hdnea=exp=1767351342~acl=/api/1/1/9/1/6/0/916bb21e40f90890c9a043a0c4c0050e.mp3*~data=user_id=0,application_id=42~hmac=ed78a4d34d72403ccb757688c1fdf3e4143bfa2429da3e6d0a39df3e60e7105a",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/9/1/6/0/916bb21e40f90890c9a043a0c4c0050e.mp3?hdnea=exp=1767857338~acl=/api/1/1/9/1/6/0/916bb21e40f90890c9a043a0c4c0050e.mp3*~data=user_id=0,application_id=42~hmac=52197c02bbcb0ac1d1172feb5dd69bab1bcab8ded34ba69f27d8cff461b0bfb3",
         "image_id": "d1c5b871de953d5c7c8459a83d67ca1b"
     },
     {
+        "id": 4006122,
         "name": "Nature Boy",
         "artist": "Nat King Cole",
         "album": "Nature Boy",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/7/a/5/0/7a55b6359ef97fea6d4e06d4e969109c.mp3?hdnea=exp=1767351342~acl=/api/1/1/7/a/5/0/7a55b6359ef97fea6d4e06d4e969109c.mp3*~data=user_id=0,application_id=42~hmac=d10405ea99e88faf82283115e9eb1e04e4fc4adf06d52905f7d5f227df1da069",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/7/a/5/0/7a55b6359ef97fea6d4e06d4e969109c.mp3?hdnea=exp=1767857340~acl=/api/1/1/7/a/5/0/7a55b6359ef97fea6d4e06d4e969109c.mp3*~data=user_id=0,application_id=42~hmac=53dafae62f2bec7f029af154a789f799b8a9738c049c59b0eb821f1960f1bcce",
         "image_id": "fe83152d65a0b67d52c7a2da64bac4b5"
     },
     {
+        "id": 4228126,
         "name": "The Christmas Song (Merry Christmas To You) (Remastered 1999)",
         "artist": "Nat King Cole",
         "album": "The Christmas Song",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/1/2/4/0/124caad96794ce14cadaeb2faec71ef9.mp3?hdnea=exp=1767351343~acl=/api/1/1/1/2/4/0/124caad96794ce14cadaeb2faec71ef9.mp3*~data=user_id=0,application_id=42~hmac=135828e295d462f399c5fa681a61b918f0e662c5de85ace3c6242bb6a96e8440",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/1/2/4/0/124caad96794ce14cadaeb2faec71ef9.mp3?hdnea=exp=1767857341~acl=/api/1/1/1/2/4/0/124caad96794ce14cadaeb2faec71ef9.mp3*~data=user_id=0,application_id=42~hmac=83decf76d7c8ba654778a326fab75d8f336ae4f49c58b7df3631c6bd11bf905e",
         "image_id": "21cb8980c13ba2a43b9b2c960ce67bba"
     },
     {
+        "id": 1164223,
         "name": "Stardust",
         "artist": "Lester Young",
-        "album": "Lester Young With The Oscar Peterson Trio",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/2/e/1/0/2e1e0bcac72d4edf57cce99c7cbd9a31.mp3?hdnea=exp=1767351343~acl=/api/1/1/2/e/1/0/2e1e0bcac72d4edf57cce99c7cbd9a31.mp3*~data=user_id=0,application_id=42~hmac=42f4895972bbd6c7eae08a64485bf8b4756e50c40759dd795ca624c9f4d785d0",
-        "image_id": "dfe243054bbe126f23f178579398813d"
+        "album": "Saxophone Ballads (Jazz Club)",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/9/6/4/0/96493fcde3b7f5ffd49a6d0fadad9311.mp3?hdnea=exp=1767857343~acl=/api/1/1/9/6/4/0/96493fcde3b7f5ffd49a6d0fadad9311.mp3*~data=user_id=0,application_id=42~hmac=a6cb6de4ce390082c51b379ea234ac2e33ef3586a6633200b545f58a86054373",
+        "image_id": "8eccf8cf346bda77332eb10cd88c5608"
     },
     {
+        "id": 68953598,
         "name": "Come Rain or Come Shine",
         "artist": "Ray Charles",
         "album": "Ray Charles, The Very Best Of",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/8/9/5/0/895fb6925afa0d32d90b607986c567c4.mp3?hdnea=exp=1767351344~acl=/api/1/1/8/9/5/0/895fb6925afa0d32d90b607986c567c4.mp3*~data=user_id=0,application_id=42~hmac=1688ae692a321e03dd788673f40f6b593078208c974ea61f7be02478af1e2f3c",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/8/9/5/0/895fb6925afa0d32d90b607986c567c4.mp3?hdnea=exp=1767857344~acl=/api/1/1/8/9/5/0/895fb6925afa0d32d90b607986c567c4.mp3*~data=user_id=0,application_id=42~hmac=50c7249c548d781ad91737afda68e275c10bc5e02d29e06641e2acf26c08ce08",
         "image_id": "606741e24e4109ba36979153a95ed4de"
     },
     {
-        "name": "They Can\u2019t Take That Away From Me",
-        "artist": "Louis Armstrong",
-        "album": "Louis Armstrong & Friends",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/1/4/7/0/147398931c93917db49dd0f51841f92e.mp3?hdnea=exp=1767351344~acl=/api/1/1/1/4/7/0/147398931c93917db49dd0f51841f92e.mp3*~data=user_id=0,application_id=42~hmac=02f0ebfe4d897edfa3b195f9c32e889c2771836ea3cedf0d38ce9aeefc5ca658",
-        "image_id": "cfa2462aa6959243ced1aad3c2f8cb30"
-    },
-    {
-        "name": "Summer Wind (2008 Remastered)",
-        "artist": "Frank Sinatra",
-        "album": "Nothing But The Best (2008 Remastered)",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/9/e/a/0/9eae3472eff7e9a9034185e4cd2b3be8.mp3?hdnea=exp=1767351345~acl=/api/1/1/9/e/a/0/9eae3472eff7e9a9034185e4cd2b3be8.mp3*~data=user_id=0,application_id=42~hmac=60331034cf6bf1170ea170c509975bc492d8710c3f15ddd824edacb1ed2898e9",
-        "image_id": "621c706e3416c6c52671ab7fe11878f6"
-    },
-    {
-        "name": "Strange Meadow Lark",
-        "artist": "The Dave Brubeck Quartet",
-        "album": "Time Out",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/8/6/5/0/865c051ba560c93c125bbd333e450816.mp3?hdnea=exp=1767351345~acl=/api/1/1/8/6/5/0/865c051ba560c93c125bbd333e450816.mp3*~data=user_id=0,application_id=42~hmac=896a0255f71593e41686a52df99de9cf36efbe7f11c23f985fe1afd8074b4140",
-        "image_id": "9637fd8850fbe280dfe958d0f82b7b12"
-    },
-    {
-        "name": "I've Got a Woman",
-        "artist": "Ray Charles",
-        "album": "The Best of Ray Charles: The Atlantic Years",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/7/0/b/0/70bac5681ed7d35e5e6a0ddd79079627.mp3?hdnea=exp=1767351345~acl=/api/1/1/7/0/b/0/70bac5681ed7d35e5e6a0ddd79079627.mp3*~data=user_id=0,application_id=42~hmac=69fabc35ad9ed669a362d84cbf5a44e78632f80de18bbd7fbf7ed8aa479ed93e",
-        "image_id": "921af5e3064dd6b15e7ebdf95ebe42e9"
-    },
-    {
-        "name": "Take Five",
-        "artist": "Dave Brubeck",
-        "album": "Dave Brubeck's Greatest Hits",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/1/f/9/0/1f90cdf92fd4e007b5b4f44da9db1349.mp3?hdnea=exp=1767351346~acl=/api/1/1/1/f/9/0/1f90cdf92fd4e007b5b4f44da9db1349.mp3*~data=user_id=0,application_id=42~hmac=f87a81aeca183d67fb6c6781f9fc5a701d89c3d0a5aad53592f76437464971b7",
-        "image_id": "858c3cd5f5829a7f7328b6516b3ef7a5"
-    },
-    {
-        "name": "In My Bed",
-        "artist": "Amy Winehouse",
-        "album": "Frank",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/f/c/0/0/fc09c7d0677467b1bbf4d9841612f747.mp3?hdnea=exp=1767351346~acl=/api/1/1/f/c/0/0/fc09c7d0677467b1bbf4d9841612f747.mp3*~data=user_id=0,application_id=42~hmac=e23b816f45804bc221f1c9b36c5be4b8f8fe03a38927eb2bf7f20c14552ecd08",
-        "image_id": "c254c24ef1c98eb18f4856eeeb0b60c8"
-    },
-    {
-        "name": "I've Got My Love To Keep Me Warm",
-        "artist": "Dean Martin",
-        "album": "A Winter Romance",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/7/b/7/0/7b79d058000cc5906f90e55582dba313.mp3?hdnea=exp=1767351347~acl=/api/1/1/7/b/7/0/7b79d058000cc5906f90e55582dba313.mp3*~data=user_id=0,application_id=42~hmac=9cf6ff8817dbca1435f67874ce67f32fd6f52f19911b05a4945418145f6a154c",
-        "image_id": "46c05df7fdf8d0c30b9e54c301b01457"
-    },
-    {
-        "name": "Easy Living (with Teddy Wilson & His Orchestra)",
-        "artist": "Billie Holiday",
-        "album": "The Essential Billie Holiday",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/2/e/d/0/2ed2ec73d3b32381cd10d2c33e389087.mp3?hdnea=exp=1767351347~acl=/api/1/1/2/e/d/0/2ed2ec73d3b32381cd10d2c33e389087.mp3*~data=user_id=0,application_id=42~hmac=80f4fa425626d03ecacf9719270ed556d694aeff6a1d3c24024c2d2a6e76048d",
-        "image_id": "89ab32aee3f051169efc7ea40c822374"
-    },
-    {
-        "name": "Tenderly",
-        "artist": "Chet Baker",
-        "album": "Chet In Paris: Everything Happens To Me - The Complete Barclay Recording Vol. 2",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/4/5/9/0/459ceeaad2e12a0f6cdad5374c74948f.mp3?hdnea=exp=1767351348~acl=/api/1/1/4/5/9/0/459ceeaad2e12a0f6cdad5374c74948f.mp3*~data=user_id=0,application_id=42~hmac=46930ba745e3a40675ccac2a8465754023bf4237e51ce664fd85e2367191f973",
-        "image_id": "c448ff9dbdd0cad9a68306511a6a3561"
-    },
-    {
-        "name": "What Am I To You (First Sessions Outtake)",
-        "artist": "Norah Jones",
-        "album": "Come Away With Me (Super Deluxe Edition)",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/2/8/4/0/28499b837c98de7f9d4fd93f52e801f3.mp3?hdnea=exp=1767351348~acl=/api/1/1/2/8/4/0/28499b837c98de7f9d4fd93f52e801f3.mp3*~data=user_id=0,application_id=42~hmac=ecc934c0d4161e028a7822e5efd73794e5329eafd6cf7ef931dcee92dae2d8df",
-        "image_id": "b08b6d2e396905fff79ab088364f19ef"
-    },
-    {
-        "name": "It Never Entered My Mind",
-        "artist": "Miles Davis",
-        "album": "Workin' With The Miles Davis Quintet",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/f/2/c/0/f2c8d36399d08bf2da67385011b18c98.mp3?hdnea=exp=1767351348~acl=/api/1/1/f/2/c/0/f2c8d36399d08bf2da67385011b18c98.mp3*~data=user_id=0,application_id=42~hmac=c69d6095057ebb3a1988ea8c3eedd528ca209830361b8d0c30d539330365ec81",
-        "image_id": "e7b3745ddbc7086a4857bbbced871bf7"
-    },
-    {
-        "name": "(There Is) No Greater Love",
-        "artist": "Amy Winehouse",
-        "album": "Frank",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/5/5/4/0/5544c08a4d3c287aee0c3fc15b7643e8.mp3?hdnea=exp=1767351349~acl=/api/1/1/5/5/4/0/5544c08a4d3c287aee0c3fc15b7643e8.mp3*~data=user_id=0,application_id=42~hmac=99b55db3c34e7b0061ea3417efe4fa187b9556df7c912973ebb6206839e81b10",
-        "image_id": "c254c24ef1c98eb18f4856eeeb0b60c8"
-    },
-    {
-        "name": "But Not For Me",
-        "artist": "Ella Fitzgerald",
-        "album": "The Complete Piano Duets",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/b/a/9/0/ba915c39db7f70ad1302fefdc5f9aa60.mp3?hdnea=exp=1767351349~acl=/api/1/1/b/a/9/0/ba915c39db7f70ad1302fefdc5f9aa60.mp3*~data=user_id=0,application_id=42~hmac=8577066e90121ef6dd493486f2f885c5744f3ff9ff832480a60e9586150287e0",
-        "image_id": "9b86667e19d6155a438530804815ad3e"
-    },
-    {
-        "name": "Boplicity",
-        "artist": "Miles Davis",
-        "album": "From be bop to cool",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/2/5/d/0/25ddfefb2d0b7df9f0ecb827cb0e35c6.mp3?hdnea=exp=1767351349~acl=/api/1/1/2/5/d/0/25ddfefb2d0b7df9f0ecb827cb0e35c6.mp3*~data=user_id=0,application_id=42~hmac=c9ee70e65e30321e1f118583f322af30b8c37bc41ca40b598309f137af6c4da8",
-        "image_id": "ddaa6743fbc8980c6db38b4ad11ffdfa"
-    },
-    {
-        "name": "Central Park West",
-        "artist": "John Coltrane",
-        "album": "Coltrane's Sound",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/4/9/8/0/498bd9fe5c173c7747b9b8d72d40163a.mp3?hdnea=exp=1767351350~acl=/api/1/1/4/9/8/0/498bd9fe5c173c7747b9b8d72d40163a.mp3*~data=user_id=0,application_id=42~hmac=02b8343fcd5780bff8e41d028beb7070a03702262209f6928847544f7a76c9df",
-        "image_id": "0d01b130be9985220e9ab0ff4e53c3d2"
-    },
-    {
-        "name": "Blue Train",
-        "artist": "John Coltrane",
-        "album": "Blue Train",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/4/2/6/0/426dbf9939843763d0b4401c45ce96e5.mp3?hdnea=exp=1767351350~acl=/api/1/1/4/2/6/0/426dbf9939843763d0b4401c45ce96e5.mp3*~data=user_id=0,application_id=42~hmac=248572463776c007489567473425324dc900dc3ac5cdf5307d9913fd199875e8",
-        "image_id": "42888514a6c4258bec5487f9bfea7b44"
-    },
-    {
-        "name": "The Nearness Of You",
+        "id": 540196232,
+        "name": "They Can't Take That Away From Me",
         "artist": "Ella Fitzgerald",
         "album": "Ella and Louis",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/2/7/2/0/2721ad44310ab9c07f919ed23c74c76f.mp3?hdnea=exp=1767351351~acl=/api/1/1/2/7/2/0/2721ad44310ab9c07f919ed23c74c76f.mp3*~data=user_id=0,application_id=42~hmac=bbe45a8d45346d75556f8dd778367fe5ef2eaae6c36d98c29258bb7e6c87f495",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/e/5/5/0/e55b9596e9fe6663b428fdef111fa3d4.mp3?hdnea=exp=1767857345~acl=/api/1/1/e/5/5/0/e55b9596e9fe6663b428fdef111fa3d4.mp3*~data=user_id=0,application_id=42~hmac=5ddea8aa774b29e247d6241e11b72818a6cc15dc38da0a57d809e644ab56d914",
         "image_id": "7a84c8953db0dfa9962234d233f98759"
     },
     {
+        "id": 71483068,
+        "name": "Summer Wind (2008 Remastered)",
+        "artist": "Frank Sinatra",
+        "album": "Nothing But The Best (2008 Remastered)",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/9/e/a/0/9eae3472eff7e9a9034185e4cd2b3be8.mp3?hdnea=exp=1767857347~acl=/api/1/1/9/e/a/0/9eae3472eff7e9a9034185e4cd2b3be8.mp3*~data=user_id=0,application_id=42~hmac=4a743ce616c1101b96f652fb1f0551a167fd1f82f3496a2ad72b03fa3de94aee",
+        "image_id": "621c706e3416c6c52671ab7fe11878f6"
+    },
+    {
+        "id": 3571288,
+        "name": "Strange Meadow Lark",
+        "artist": "The Dave Brubeck Quartet",
+        "album": "Time Out",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/5/a/4/0/5a46ab4f7f816cdabff18661646da403.mp3?hdnea=exp=1767857348~acl=/api/1/1/5/a/4/0/5a46ab4f7f816cdabff18661646da403.mp3*~data=user_id=0,application_id=42~hmac=f97b19dc455154e0c5cbef9078ee7618e73c8005d9febd5ddb01f26d97fff3ea",
+        "image_id": "2082e5217141814d803dc45a95488884"
+    },
+    {
+        "id": 670897,
+        "name": "I've Got a Woman",
+        "artist": "Ray Charles",
+        "album": "The Best of Ray Charles: The Atlantic Years",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/7/0/b/0/70bac5681ed7d35e5e6a0ddd79079627.mp3?hdnea=exp=1767857350~acl=/api/1/1/7/0/b/0/70bac5681ed7d35e5e6a0ddd79079627.mp3*~data=user_id=0,application_id=42~hmac=134bf376acb2e9766cb36a5b8942208246515bb582be331a512571a4e832b285",
+        "image_id": "921af5e3064dd6b15e7ebdf95ebe42e9"
+    },
+    {
+        "id": 1031007,
+        "name": "Take Five",
+        "artist": "Dave Brubeck",
+        "album": "Dave Brubeck's Greatest Hits",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/1/f/9/0/1f90cdf92fd4e007b5b4f44da9db1349.mp3?hdnea=exp=1767857350~acl=/api/1/1/1/f/9/0/1f90cdf92fd4e007b5b4f44da9db1349.mp3*~data=user_id=0,application_id=42~hmac=ae499d3178081f8fb3a48f492f71f3d87f29c048ca709d62a01d274b89344235",
+        "image_id": "858c3cd5f5829a7f7328b6516b3ef7a5"
+    },
+    {
+        "id": 1758856797,
+        "name": "In My Bed",
+        "artist": "Amy Winehouse",
+        "album": "Frank",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/f/c/0/0/fc09c7d0677467b1bbf4d9841612f747.mp3?hdnea=exp=1767857351~acl=/api/1/1/f/c/0/0/fc09c7d0677467b1bbf4d9841612f747.mp3*~data=user_id=0,application_id=42~hmac=0676b7b8e51b4a74c120dc1ef644c5f31fd1870c16f9126399f80ea919c25c56",
+        "image_id": "c254c24ef1c98eb18f4856eeeb0b60c8"
+    },
+    {
+        "id": 4304512,
+        "name": "I've Got My Love To Keep Me Warm",
+        "artist": "Dean Martin",
+        "album": "A Winter Romance",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/7/b/7/0/7b79d058000cc5906f90e55582dba313.mp3?hdnea=exp=1767857351~acl=/api/1/1/7/b/7/0/7b79d058000cc5906f90e55582dba313.mp3*~data=user_id=0,application_id=42~hmac=c07d4e995b65d682a4e47caa4fa004e6388aed6a45e0dfd3c8416d3c2bdd05b8",
+        "image_id": "46c05df7fdf8d0c30b9e54c301b01457"
+    },
+    {
+        "id": 97693846,
+        "name": "I'm a Fool to Want You",
+        "artist": "Billie Holiday",
+        "album": "Lady In Satin: The Centennial Edition",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/7/a/a/0/7aab305eff3cc43c36a1651f17c176e6.mp3?hdnea=exp=1767857353~acl=/api/1/1/7/a/a/0/7aab305eff3cc43c36a1651f17c176e6.mp3*~data=user_id=0,application_id=42~hmac=ed1ea842e468b4feee728d4076b2ca38d3770c9cf1afd8fce04db574fe838464",
+        "image_id": "e6c089d73681abc50ad881b77182fe1b"
+    },
+    {
+        "id": 110305166,
+        "name": "Tenderly",
+        "artist": "Chet Baker",
+        "album": "Jazz Chill",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/e/f/c/0/efc1251ff484b1a3c4c61218da77f294.mp3?hdnea=exp=1767857354~acl=/api/1/1/e/f/c/0/efc1251ff484b1a3c4c61218da77f294.mp3*~data=user_id=0,application_id=42~hmac=86cfb4a53082fbc25530cce0d5c37a409162c1aae574232220e9fe996bcfa53b",
+        "image_id": "ed617995a857f0fda3b8e8587f23bd3f"
+    },
+    {
+        "id": 1751418487,
+        "name": "What Am I To You (First Sessions Outtake)",
+        "artist": "Norah Jones",
+        "album": "Come Away With Me (Super Deluxe Edition)",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/2/8/4/0/28499b837c98de7f9d4fd93f52e801f3.mp3?hdnea=exp=1767857356~acl=/api/1/1/2/8/4/0/28499b837c98de7f9d4fd93f52e801f3.mp3*~data=user_id=0,application_id=42~hmac=3bc1ca5df115278628d0bd6ebc80f512c551034ab9b9e28c7af581373d089765",
+        "image_id": "b08b6d2e396905fff79ab088364f19ef"
+    },
+    {
+        "id": 1180378,
+        "name": "It Never Entered My Mind",
+        "artist": "Miles Davis",
+        "album": "Workin' With The Miles Davis Quintet",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/f/2/c/0/f2c8d36399d08bf2da67385011b18c98.mp3?hdnea=exp=1767857357~acl=/api/1/1/f/2/c/0/f2c8d36399d08bf2da67385011b18c98.mp3*~data=user_id=0,application_id=42~hmac=29be5cfc8a10e0ab4b2c9bf7d7c9f7abb6ce20e0e2a3c34ecb956feb740582da",
+        "image_id": "e7b3745ddbc7086a4857bbbced871bf7"
+    },
+    {
+        "id": 1758856787,
+        "name": "(There Is) No Greater Love",
+        "artist": "Amy Winehouse",
+        "album": "Frank",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/5/5/4/0/5544c08a4d3c287aee0c3fc15b7643e8.mp3?hdnea=exp=1767857359~acl=/api/1/1/5/5/4/0/5544c08a4d3c287aee0c3fc15b7643e8.mp3*~data=user_id=0,application_id=42~hmac=d514a74285d71f79689adc567215f82cbe7c720e5d6e80bdd4acb50bafe77f07",
+        "image_id": "c254c24ef1c98eb18f4856eeeb0b60c8"
+    },
+    {
+        "id": 3757708552,
+        "name": "But Not For Me",
+        "artist": "Ella Fitzgerald",
+        "album": "Britain's Best Hits of 1959, Vol. 3",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/c/a/0/0/ca0500d89e2efbf1bb94fd72e4563eee.mp3?hdnea=exp=1767857359~acl=/api/1/1/c/a/0/0/ca0500d89e2efbf1bb94fd72e4563eee.mp3*~data=user_id=0,application_id=42~hmac=4f9e263adfe4755940f333ccd2c6d80b245dcf6e3eafbb926e7243de978be9f1",
+        "image_id": "1ece86e3da2838a8c2f70617747006d0"
+    },
+    {
+        "id": 287474,
+        "name": "Boplicity",
+        "artist": "Miles Davis",
+        "album": "From be bop to cool",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/2/5/d/0/25ddfefb2d0b7df9f0ecb827cb0e35c6.mp3?hdnea=exp=1767857361~acl=/api/1/1/2/5/d/0/25ddfefb2d0b7df9f0ecb827cb0e35c6.mp3*~data=user_id=0,application_id=42~hmac=12bb401b6040acabb22c36f2a6743410adf4829f506c336d3e54ec48b47d8b4b",
+        "image_id": "ddaa6743fbc8980c6db38b4ad11ffdfa"
+    },
+    {
+        "id": 668490,
+        "name": "Central Park West",
+        "artist": "John Coltrane",
+        "album": "Coltrane's Sound",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/4/9/8/0/498bd9fe5c173c7747b9b8d72d40163a.mp3?hdnea=exp=1767857363~acl=/api/1/1/4/9/8/0/498bd9fe5c173c7747b9b8d72d40163a.mp3*~data=user_id=0,application_id=42~hmac=6d8f163f9d0eb901d39e781b1bba705694d574944c8adfc1a473dd54da172d85",
+        "image_id": "0d01b130be9985220e9ab0ff4e53c3d2"
+    },
+    {
+        "id": 74529456,
+        "name": "Blue Train (Remastered 2003/Rudy Van Gelder Edition)",
+        "artist": "John Coltrane",
+        "album": "Blue Train (Expanded Edition)",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/8/e/b/0/8eb5bee88ba81cea2e87476319d1d375.mp3?hdnea=exp=1767857364~acl=/api/1/1/8/e/b/0/8eb5bee88ba81cea2e87476319d1d375.mp3*~data=user_id=0,application_id=42~hmac=68c26e764f83c445c7a489a53506ee1ad1d6b42f073285913b9ebc3d68bccdab",
+        "image_id": "df662c162fd269bedea7c28d05321ff8"
+    },
+    {
+        "id": 480859962,
+        "name": "The Nearness Of You",
+        "artist": "Ella Fitzgerald",
+        "album": "Cheek To Cheek: The Complete Duet Recordings",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/1/0/8/0/10821b8a11bcf24a3eba3ccbde6670c7.mp3?hdnea=exp=1767857365~acl=/api/1/1/1/0/8/0/10821b8a11bcf24a3eba3ccbde6670c7.mp3*~data=user_id=0,application_id=42~hmac=177c1a44655b1ffb74006e1eb526b62eba32a3bbda6f8058c7c2c2799cf14522",
+        "image_id": "f8ffad26ea38ae7453efd616ddd1ec1b"
+    },
+    {
+        "id": 3130152,
         "name": "Those Sweet Words",
         "artist": "Norah Jones",
         "album": "Feels Like Home",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/7/3/2/0/732735fb033b329d86c0137dd6f8f4e1.mp3?hdnea=exp=1767351351~acl=/api/1/1/7/3/2/0/732735fb033b329d86c0137dd6f8f4e1.mp3*~data=user_id=0,application_id=42~hmac=f64dfe7ee05dc6a46916900e2db6af047056d20e44665ee9d48b9d7a0c82a470",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/7/3/2/0/732735fb033b329d86c0137dd6f8f4e1.mp3?hdnea=exp=1767857366~acl=/api/1/1/7/3/2/0/732735fb033b329d86c0137dd6f8f4e1.mp3*~data=user_id=0,application_id=42~hmac=dde5a16b3393f518abff7945f1e149106728b097af51187f57776d45fd2748d7",
         "image_id": "3f4369a4ed59c793bf65ac4977412556"
     },
     {
+        "id": 4311272,
         "name": "Haven't Met You Yet",
         "artist": "Michael Bubl\u00e9",
         "album": "Crazy Love",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/0/f/5/0/0f567d6d2da5b1c81ebde632e69e2a6b.mp3?hdnea=exp=1767351351~acl=/api/1/1/0/f/5/0/0f567d6d2da5b1c81ebde632e69e2a6b.mp3*~data=user_id=0,application_id=42~hmac=f698cfb4313ab3ed36809540ffc64dbe267795c11ff2ad5cd43c091fd3c07072",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/0/f/5/0/0f567d6d2da5b1c81ebde632e69e2a6b.mp3?hdnea=exp=1767857368~acl=/api/1/1/0/f/5/0/0f567d6d2da5b1c81ebde632e69e2a6b.mp3*~data=user_id=0,application_id=42~hmac=b1faba3934d887f92b1bf34e7d75706a647dfa9a4ce77aeef9781204a56bd32a",
         "image_id": "1edee2e3ba556c6771a354fd397c6381"
     },
     {
+        "id": 10218969,
         "name": "Dream A Little Dream Of Me",
         "artist": "Louis Armstrong",
         "album": "Dreaming, The Nightime Collection",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/d/5/6/0/d56bae7141b57577c70cd6050a83512a.mp3?hdnea=exp=1767351352~acl=/api/1/1/d/5/6/0/d56bae7141b57577c70cd6050a83512a.mp3*~data=user_id=0,application_id=42~hmac=3c1cee0a0b52249bded6911060cb46052362d37dfee4b34e36f3f0a23fddf2d5",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/d/5/6/0/d56bae7141b57577c70cd6050a83512a.mp3?hdnea=exp=1767857368~acl=/api/1/1/d/5/6/0/d56bae7141b57577c70cd6050a83512a.mp3*~data=user_id=0,application_id=42~hmac=7ee9a2d493ebcee11b8c7ceeedabaf29d7b954afe0f476c92665da7d5fb8ee13",
         "image_id": "118e91f09fb57a677b9f02c1d7ababfe"
     },
     {
+        "id": 1547823352,
         "name": "How High The Moon",
         "artist": "Chet Baker",
-        "album": "Chet (Keepnews Collection)",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/5/4/b/0/54bcf31513f507c2b4e271398433ca0b.mp3?hdnea=exp=1767351352~acl=/api/1/1/5/4/b/0/54bcf31513f507c2b4e271398433ca0b.mp3*~data=user_id=0,application_id=42~hmac=d0f0f453e44f02dcc59c786a8f35ff8ffc148b80fc40979758d4eb60f483a2c1",
-        "image_id": "099d9bf400b960cf8ed2c59205490a74"
+        "album": "Late Night Jazz (Deluxe Edition)",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/7/e/1/0/7e13235f2f9d02fc4251d1f01c519b5b.mp3?hdnea=exp=1767857369~acl=/api/1/1/7/e/1/0/7e13235f2f9d02fc4251d1f01c519b5b.mp3*~data=user_id=0,application_id=42~hmac=8e3dd02fb839212a144b9b355db92f6b94cc1620b795fdf36b4c5e712086e5e3",
+        "image_id": "8b246654dfb864135cd565fe3d3783e0"
     },
     {
+        "id": 1983370,
         "name": "Cool Yule",
         "artist": "Louis Armstrong",
         "album": "Mark Lamarr's Rhythm & Blues Christmas",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/6/0/9/0/60975bca2b07fc567b2811542d6c8b49.mp3?hdnea=exp=1767351352~acl=/api/1/1/6/0/9/0/60975bca2b07fc567b2811542d6c8b49.mp3*~data=user_id=0,application_id=42~hmac=5e4e9407cd4d5cbedf902e61eba409aef1a67c12143c8787db7e08848b9cea27",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/6/0/9/0/60975bca2b07fc567b2811542d6c8b49.mp3?hdnea=exp=1767857371~acl=/api/1/1/6/0/9/0/60975bca2b07fc567b2811542d6c8b49.mp3*~data=user_id=0,application_id=42~hmac=4372b7f9eea55cc5b4f2f26af16f90b22b5942e82a474cd2e6d48b705ac547cb",
         "image_id": "0b0233632f2d724ad80e776a47251d2b"
     },
     {
+        "id": 2542401,
         "name": "Stardust",
         "artist": "Ben Webster",
-        "album": "Storyville Presents The A-Z Jazz Encyclopedia-W",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/7/5/9/0/75993f4e0f183cdadf5335df020fd2da.mp3?hdnea=exp=1767351353~acl=/api/1/1/7/5/9/0/75993f4e0f183cdadf5335df020fd2da.mp3*~data=user_id=0,application_id=42~hmac=4c40b6a121e22774551c6af565bf3e81a6dfc3cd37f18c1f443f2f3e7292ff23",
-        "image_id": "1cc37ab97497f27cb034903e8357b283"
+        "album": "Verve Jazz Masters 43: Ben Webster",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/5/1/9/0/51903aa0de6b607b1c4cb1958e329290.mp3?hdnea=exp=1767857372~acl=/api/1/1/5/1/9/0/51903aa0de6b607b1c4cb1958e329290.mp3*~data=user_id=0,application_id=42~hmac=d4abbb35021ef9a317b6280d3046757b071e54d752aa8f435fd590ac94424378",
+        "image_id": "28817902a37b93182e459bef33207628"
     },
     {
+        "id": 2176859,
         "name": "Wake Up Alone",
         "artist": "Amy Winehouse",
         "album": "Back To Black",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/2/2/d/0/22d3d41e3baaecdd0bacdd7b46863195.mp3?hdnea=exp=1767351353~acl=/api/1/1/2/2/d/0/22d3d41e3baaecdd0bacdd7b46863195.mp3*~data=user_id=0,application_id=42~hmac=035748d5eee6f5542e7898619d32351e604be4a074976c5fb209088f7601952f",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/2/2/d/0/22d3d41e3baaecdd0bacdd7b46863195.mp3?hdnea=exp=1767857374~acl=/api/1/1/2/2/d/0/22d3d41e3baaecdd0bacdd7b46863195.mp3*~data=user_id=0,application_id=42~hmac=15677d059eec5b0800aa870c763a0e63d618103b1e50c1dbc545c9f111d16b13",
         "image_id": "3ce985e6653c350c6e6fed077ab7d0d4"
     },
     {
-        "name": "I Can't Get Started",
+        "id": 2948151,
+        "name": "I Can't Get Started (live in Washington, D.C.)",
         "artist": "Lester Young",
-        "album": "Lester Young With The Oscar Peterson Trio",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/6/f/6/0/6f60cf287b43b177a9017dcb33dc535a.mp3?hdnea=exp=1767351354~acl=/api/1/1/6/f/6/0/6f60cf287b43b177a9017dcb33dc535a.mp3*~data=user_id=0,application_id=42~hmac=b8032af3c7a41da64497e81606858c9b473722472661f5fd134c997473c48861",
-        "image_id": "dfe243054bbe126f23f178579398813d"
+        "album": "In Washington, D.C. Volume 1",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/d/1/f/0/d1fa7873168b36a53e6c79f1edf9b80e.mp3?hdnea=exp=1767857374~acl=/api/1/1/d/1/f/0/d1fa7873168b36a53e6c79f1edf9b80e.mp3*~data=user_id=0,application_id=42~hmac=967e7c2ea4a765fb6c7d20db64520363726a528a45579f974ab2306dadb82537",
+        "image_id": "1bf605824c45e84a1125f3d5f18a97b3"
     },
     {
+        "id": 435989772,
         "name": "Losalamitoslatinfunklovesong",
         "artist": "Gene Harris",
         "album": "Astral Signal",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/5/9/9/0/599e62d573bf95c33ee10aad7e7eb9d7.mp3?hdnea=exp=1767351354~acl=/api/1/1/5/9/9/0/599e62d573bf95c33ee10aad7e7eb9d7.mp3*~data=user_id=0,application_id=42~hmac=7352d87e1cf65a90016db4ae4e335c4aad69165ff40d537935e4eee8dd96679f",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/5/9/9/0/599e62d573bf95c33ee10aad7e7eb9d7.mp3?hdnea=exp=1767857376~acl=/api/1/1/5/9/9/0/599e62d573bf95c33ee10aad7e7eb9d7.mp3*~data=user_id=0,application_id=42~hmac=8c3155e6901639158a3c84b7b50c8af217b53d650de826c7b9f4b45d26a2d82a",
         "image_id": "3767a6bfd07923f4b3d32e1ade9fe993"
     },
     {
+        "id": 462557592,
         "name": "Nobody Knows You When You're Down and Out (Mono; Single Edit; 2017 Remaster)",
         "artist": "Nina Simone",
         "album": "The Colpix Singles (Mono; 2017 Remaster)",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/a/6/2/0/a62932dcbb11cde4952166dfb95d8fee.mp3?hdnea=exp=1767351354~acl=/api/1/1/a/6/2/0/a62932dcbb11cde4952166dfb95d8fee.mp3*~data=user_id=0,application_id=42~hmac=90b55f42d90b9745d434ddfd559ade53fff54e4454ac324c0ea96fb67caa700f",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/a/6/2/0/a62932dcbb11cde4952166dfb95d8fee.mp3?hdnea=exp=1767857377~acl=/api/1/1/a/6/2/0/a62932dcbb11cde4952166dfb95d8fee.mp3*~data=user_id=0,application_id=42~hmac=2dbdab067ee00b10a2fa2dc752456391daeabf331f57d45624ab87f55947eccb",
         "image_id": "6aefd1b282616aeedbbad630b6109192"
     },
     {
+        "id": 92036696,
         "name": "Hello Dolly (Remastered)",
         "artist": "Louis Armstrong",
         "album": "Hello Dolly (Remastered)",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/c/7/5/0/c75d42f67f1554d681e08a5450b4f84d.mp3?hdnea=exp=1767351355~acl=/api/1/1/c/7/5/0/c75d42f67f1554d681e08a5450b4f84d.mp3*~data=user_id=0,application_id=42~hmac=809f205b6f1749777723a4c9c83a2c5e0d2a7feca2e829231a634a636a0441ef",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/c/7/5/0/c75d42f67f1554d681e08a5450b4f84d.mp3?hdnea=exp=1767857379~acl=/api/1/1/c/7/5/0/c75d42f67f1554d681e08a5450b4f84d.mp3*~data=user_id=0,application_id=42~hmac=d1e39a64b8571158f8095c24bbb789ee9f44217d02a66543a101c5f66713543b",
         "image_id": "bd60e860c59ec779b9eb55b7fefde5d2"
     },
     {
+        "id": 3325466,
         "name": "This Will Be (An Everlasting Love)",
         "artist": "Natalie Cole",
         "album": "The Natalie Cole Collection",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/7/4/0/0/740870b9218500e7f62926a48eeef0d3.mp3?hdnea=exp=1767351355~acl=/api/1/1/7/4/0/0/740870b9218500e7f62926a48eeef0d3.mp3*~data=user_id=0,application_id=42~hmac=03ae88ee1abdae24868a44c331b109e1923727f23ac4b1058ffc6674101b8021",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/7/4/0/0/740870b9218500e7f62926a48eeef0d3.mp3?hdnea=exp=1767857380~acl=/api/1/1/7/4/0/0/740870b9218500e7f62926a48eeef0d3.mp3*~data=user_id=0,application_id=42~hmac=1a0dee2f040006b8895a0fd16d96e120da2c1ffaf6f0a386f68b4d1553184d9f",
         "image_id": "ae7ffe09e1d2adc52252bff3a01bbc43"
     },
     {
+        "id": 593695492,
         "name": "Moonglow",
         "artist": "Billie Holiday",
-        "album": "The Complete Billie Holiday On Verve 1945 - 1959",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/f/3/8/0/f3865777e6b5b4e00537f6d814942ff5.mp3?hdnea=exp=1767351356~acl=/api/1/1/f/3/8/0/f3865777e6b5b4e00537f6d814942ff5.mp3*~data=user_id=0,application_id=42~hmac=cabeb8e6b7218553b4f840f9a83cfddd7b3201941a1f623f312b81834e7fef45",
-        "image_id": "9d765ad77cad24e25b76cda620f7445b"
+        "album": "Solitude",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/e/8/c/0/e8ce3f127d3acc30bd5d7ade7ae8f2a8.mp3?hdnea=exp=1767857382~acl=/api/1/1/e/8/c/0/e8ce3f127d3acc30bd5d7ade7ae8f2a8.mp3*~data=user_id=0,application_id=42~hmac=272bb92d9c3ed0fea1fa249738ededeb9145615fe584ba085d473526cc538d25",
+        "image_id": "05ac21bf16716c4b42b962e49f8754ce"
     },
     {
+        "id": 680660,
         "name": "Everything",
         "artist": "Michael Bubl\u00e9",
         "album": "Call Me Irresponsible",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/f/c/d/0/fcd3b2028bdced82f50815d41b87908c.mp3?hdnea=exp=1767351356~acl=/api/1/1/f/c/d/0/fcd3b2028bdced82f50815d41b87908c.mp3*~data=user_id=0,application_id=42~hmac=e5bf26d73816c13ef573e39be1085efdbe6d9f9df02364ba9e48d91551030f60",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/f/c/d/0/fcd3b2028bdced82f50815d41b87908c.mp3?hdnea=exp=1767857384~acl=/api/1/1/f/c/d/0/fcd3b2028bdced82f50815d41b87908c.mp3*~data=user_id=0,application_id=42~hmac=28e8f6a4b52019e7c0a104b3429edb235b6ff7bd8e1493493e87ed25d2a10013",
         "image_id": "1bb7630219206f20050fb7e7f46b23c1"
     },
     {
+        "id": 2436177,
         "name": "Spain (Composite Alternative Take)",
         "artist": "Chick Corea",
         "album": "Light As A Feather (Deluxe Edition)",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/1/c/f/0/1cfcea971ebb43fb53529bf4b53b9ea3.mp3?hdnea=exp=1767351356~acl=/api/1/1/1/c/f/0/1cfcea971ebb43fb53529bf4b53b9ea3.mp3*~data=user_id=0,application_id=42~hmac=e1555a98f82e7b06cbbcbeb563922e0c7915456e72a4f2114d37a861d59e86f3",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/1/c/f/0/1cfcea971ebb43fb53529bf4b53b9ea3.mp3?hdnea=exp=1767857385~acl=/api/1/1/1/c/f/0/1cfcea971ebb43fb53529bf4b53b9ea3.mp3*~data=user_id=0,application_id=42~hmac=4f280632a91325a0b9b73d0db7225aa9c16fe7158a0e77c597530481fb5ec0d0",
         "image_id": "94599975749cfc26de0aa9cac491a1b2"
     },
     {
-        "name": "So What (feat. John Coltrane, Cannonball Adderley & Bill Evans)",
+        "id": 585777,
+        "name": "Summertime (From 'Porgy & Bess') (master)",
         "artist": "Miles Davis",
-        "album": "Kind Of Blue (Legacy Edition)",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/d/4/2/0/d42ba522e8be4541d2224beb3ae4644c.mp3?hdnea=exp=1767351357~acl=/api/1/1/d/4/2/0/d42ba522e8be4541d2224beb3ae4644c.mp3*~data=user_id=0,application_id=42~hmac=343a2dc2101f80bfd53e1874e0443a13b9e55d0c86756d651175384f6e20b4f6",
-        "image_id": "fb9fbd93db667e24d4f5dee781e83f7d"
+        "album": "The Complete Columbia Studio Recordings",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/4/8/9/0/489aab8456e2cc3cb209d1a4d410fd48.mp3?hdnea=exp=1767857386~acl=/api/1/1/4/8/9/0/489aab8456e2cc3cb209d1a4d410fd48.mp3*~data=user_id=0,application_id=42~hmac=60cce65344d5734729ffdbcf48c149e147c0fab3ba3fbc96442f637081e735b0",
+        "image_id": "8d2dcd62bfb1fcbd35995dc82042e7d0"
     },
     {
+        "id": 606602,
         "name": "Better Git It in Your Soul",
         "artist": "Charles Mingus",
-        "album": "All that Jazz, Vol. 56 - Charles Mingus: Ah Um and Live at Massey Hall Toronto (Highlights)",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/6/7/b/0/67bc848c49e39765e593f01923f3b2ea.mp3?hdnea=exp=1767351357~acl=/api/1/1/6/7/b/0/67bc848c49e39765e593f01923f3b2ea.mp3*~data=user_id=0,application_id=42~hmac=0d1dd7c3333746b33c9433a3ad9bf5760e3f5fe86f9d4744f0c002bafc6ab102",
-        "image_id": "96f5b5bb16d5051122081595b9b7a297"
+        "album": "Guitar & Bass",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/9/2/e/0/92edcc96f09902e8db4fff4f5e66e592.mp3?hdnea=exp=1767857388~acl=/api/1/1/9/2/e/0/92edcc96f09902e8db4fff4f5e66e592.mp3*~data=user_id=0,application_id=42~hmac=6486e939acc478dc200e4cb2373303b095a838b392ab740779fb3ccad8b39bb9",
+        "image_id": "dab52f969f03fd86c3ad921b3e5fb2f6"
     },
     {
+        "id": 5362705,
         "name": "Stardust",
         "artist": "Nat King Cole",
         "album": "The Nat King Cole Story",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/b/d/a/0/bdaac600d92fbd7279f4cd62fe44042c.mp3?hdnea=exp=1767351358~acl=/api/1/1/b/d/a/0/bdaac600d92fbd7279f4cd62fe44042c.mp3*~data=user_id=0,application_id=42~hmac=2cb2cb1115c56226df580a8fa28d4dbbe334675afe975f2a5bb6919a2ce56e4c",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/b/d/a/0/bdaac600d92fbd7279f4cd62fe44042c.mp3?hdnea=exp=1767857390~acl=/api/1/1/b/d/a/0/bdaac600d92fbd7279f4cd62fe44042c.mp3*~data=user_id=0,application_id=42~hmac=8ed5c7ac4214fa630f8cf5233fe6668e9517f33589c1a8cecb627c7000235400",
         "image_id": "e60c84dbad32c03a5321ce1433cebfe4"
     },
     {
+        "id": 1326803,
         "name": "Crazy He Calls Me",
         "artist": "Billie Holiday",
         "album": "The Very Best Of",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/9/9/8/0/998cf2d84bd88b1c3baf64d41ae661b2.mp3?hdnea=exp=1767351358~acl=/api/1/1/9/9/8/0/998cf2d84bd88b1c3baf64d41ae661b2.mp3*~data=user_id=0,application_id=42~hmac=04fb4e2b25378759f91356399968b17d2f4b0b9f9a1085d446dafc3288c0f283",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/9/9/8/0/998cf2d84bd88b1c3baf64d41ae661b2.mp3?hdnea=exp=1767857390~acl=/api/1/1/9/9/8/0/998cf2d84bd88b1c3baf64d41ae661b2.mp3*~data=user_id=0,application_id=42~hmac=83883c9e230c9dbf0d500a462e90f67ccfe879c6ec3a25337b9899ee73f0578b",
         "image_id": "2d3d6795cc250e92b80eb54f17d36608"
     },
     {
+        "id": 7180073,
         "name": "It Could Happen to You (Album Version)",
         "artist": "Chet Baker",
         "album": "Chet Baker Sings: It Could Happen To You [Original Jazz Classics Remasters] (OJC Remaster)",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/6/7/8/0/6789b62d301fe8aa608f771bad0f3870.mp3?hdnea=exp=1767351358~acl=/api/1/1/6/7/8/0/6789b62d301fe8aa608f771bad0f3870.mp3*~data=user_id=0,application_id=42~hmac=ca54873d0bd0254345cd141b4677b3bf9b5b4e9a0cc18f66a946e95e1b09bc67",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/6/7/8/0/6789b62d301fe8aa608f771bad0f3870.mp3?hdnea=exp=1767857392~acl=/api/1/1/6/7/8/0/6789b62d301fe8aa608f771bad0f3870.mp3*~data=user_id=0,application_id=42~hmac=f442a45dd3eb080bb3001334087b50e36045c71db036d57e3b1d688791609de3",
         "image_id": "947d184de54c5ad8b774fdea0792c20b"
     },
     {
+        "id": 2122752,
         "name": "Green Eyes",
         "artist": "Erykah Badu",
         "album": "Mama's Gun",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/b/8/0/0/b80bf362b32d8de02e9c10dfbdd6a1af.mp3?hdnea=exp=1767351359~acl=/api/1/1/b/8/0/0/b80bf362b32d8de02e9c10dfbdd6a1af.mp3*~data=user_id=0,application_id=42~hmac=0d12c7e6b421f30ff5f7bd41d8bc89eb3b157b171a2f849d250d7657794476b4",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/b/8/0/0/b80bf362b32d8de02e9c10dfbdd6a1af.mp3?hdnea=exp=1767857393~acl=/api/1/1/b/8/0/0/b80bf362b32d8de02e9c10dfbdd6a1af.mp3*~data=user_id=0,application_id=42~hmac=dc861ad3a35577680a935afb9b4a53493f8a8c8008d5406b923e584512e510b2",
         "image_id": "362b626099fff89887b04c8ab35feba7"
     },
     {
+        "id": 3655565222,
         "name": "Spring Is Here (Remastered Mono 2025 / Take 4)",
         "artist": "Bill Evans",
         "album": "Haunted Heart: The Legendary Riverside Studio Recordings (Remastered 2025)",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/6/d/0/0/6d019cae78a36e6c83ff0217cff83849.mp3?hdnea=exp=1767351360~acl=/api/1/1/6/d/0/0/6d019cae78a36e6c83ff0217cff83849.mp3*~data=user_id=0,application_id=42~hmac=c85864a1fb2a765372e90528221009c5301e266e8bc7b8c83da984e1b4d3efca",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/6/d/0/0/6d019cae78a36e6c83ff0217cff83849.mp3?hdnea=exp=1767857394~acl=/api/1/1/6/d/0/0/6d019cae78a36e6c83ff0217cff83849.mp3*~data=user_id=0,application_id=42~hmac=15858c032b1c0929eb68151655b39beb2f24a7b274b6f5e8879891abef607456",
         "image_id": "457b46f1d5ca5f304aa285be3c2404b1"
     },
     {
+        "id": 1628930702,
         "name": "Frosty The Snowman",
         "artist": "Ella Fitzgerald",
         "album": "Christmas",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/d/6/0/0/d60acdc4fcbe06ef613a2ec3ecacca46.mp3?hdnea=exp=1767351360~acl=/api/1/1/d/6/0/0/d60acdc4fcbe06ef613a2ec3ecacca46.mp3*~data=user_id=0,application_id=42~hmac=54c907f2b20560735d62702f873775d21525bf9711cda9bbc8bda698f56c1e41",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/d/6/0/0/d60acdc4fcbe06ef613a2ec3ecacca46.mp3?hdnea=exp=1767857395~acl=/api/1/1/d/6/0/0/d60acdc4fcbe06ef613a2ec3ecacca46.mp3*~data=user_id=0,application_id=42~hmac=00e25ea1309e3a4998ea15ad25c8784f38f49a74fee6b4837c2b377bb152b442",
         "image_id": "9719b19fde9eef8e729730fe8c627ed5"
     },
     {
+        "id": 1015296,
         "name": "Chameleon",
         "artist": "Herbie Hancock",
         "album": "Head Hunters",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/2/4/e/0/24ee542c0f59d25622072e9c6cac5eb7.mp3?hdnea=exp=1767351360~acl=/api/1/1/2/4/e/0/24ee542c0f59d25622072e9c6cac5eb7.mp3*~data=user_id=0,application_id=42~hmac=667dd34f3a78960285e317ac19c7e8d6ca92533d852dc7572bf9abab5754db7c",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/2/4/e/0/24ee542c0f59d25622072e9c6cac5eb7.mp3?hdnea=exp=1767857397~acl=/api/1/1/2/4/e/0/24ee542c0f59d25622072e9c6cac5eb7.mp3*~data=user_id=0,application_id=42~hmac=7bbf0462b599cf54e3a4b9cce78d3dd41677997ec13e4c7c58c8ebf307d3cd61",
         "image_id": "08a552af7a8c574a73fdaec9d9f8d4f6"
     },
     {
+        "id": 71067931,
         "name": "Moon River",
         "artist": "Frank Sinatra",
         "album": "Days Of Wine And Roses, Moon River And Other Academy Award Winners",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/f/3/8/0/f389851c2abcb608da159e6efe25ea19.mp3?hdnea=exp=1767351361~acl=/api/1/1/f/3/8/0/f389851c2abcb608da159e6efe25ea19.mp3*~data=user_id=0,application_id=42~hmac=87c0e4afa6d97683c7347c32ef3dc5d05efde06a0bc0c91d4d03bc771fddfc6b",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/f/3/8/0/f389851c2abcb608da159e6efe25ea19.mp3?hdnea=exp=1767857398~acl=/api/1/1/f/3/8/0/f389851c2abcb608da159e6efe25ea19.mp3*~data=user_id=0,application_id=42~hmac=318bfc2e2c8d24cf9e7d51bced04b8a0ac65ae3eb5907e1b9366dbf96ae9ec02",
         "image_id": "ba55f1c5f38771f91f3e81fe11db5a3e"
     },
     {
+        "id": 105121612,
         "name": "Mood Indigo",
         "artist": "Charles Mingus",
-        "album": "Jazz Masters - Charles Mingus, Vol. 2",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/7/5/c/0/75c2253f7fac12683f808fabb0975579.mp3?hdnea=exp=1767351361~acl=/api/1/1/7/5/c/0/75c2253f7fac12683f808fabb0975579.mp3*~data=user_id=0,application_id=42~hmac=3f8c85e5dd8165c28065f04653d84c2ed0dda329ba4b00be6cff8d708d2d4309",
-        "image_id": "ed5b2cf67e582cc8eb5ef2227cfdd542"
+        "album": "Mingus, Mingus, Mingus, Mingus",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/c/7/8/0/c78dbb720dd277298f6d7320c9e22036.mp3?hdnea=exp=1767857399~acl=/api/1/1/c/7/8/0/c78dbb720dd277298f6d7320c9e22036.mp3*~data=user_id=0,application_id=42~hmac=815aa66e528e5bf8d391e1f2b7567e4120bf7ad02fbb97af9d6bb81aa52794a0",
+        "image_id": "68da8639bf85ecb5c9805e17d02943ff"
     },
     {
+        "id": 543098922,
         "name": "O Grande Amor",
         "artist": "Stan Getz",
         "album": "Jazz 'Round Midnight",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/b/1/d/0/b1d6925b908797bcb60a31f606dc237f.mp3?hdnea=exp=1767351362~acl=/api/1/1/b/1/d/0/b1d6925b908797bcb60a31f606dc237f.mp3*~data=user_id=0,application_id=42~hmac=a10c6c6f9b7e73d24e95cd0f4e8733fdc2c048f4920938612eb44c948c56a241",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/b/1/d/0/b1d6925b908797bcb60a31f606dc237f.mp3?hdnea=exp=1767857401~acl=/api/1/1/b/1/d/0/b1d6925b908797bcb60a31f606dc237f.mp3*~data=user_id=0,application_id=42~hmac=f47ce0c28278fcf03ba8e45b2e30c578278188e5babf2187609d31a9284b600f",
         "image_id": "76f9eb0195747646c8349b25577a679a"
     },
     {
+        "id": 10686127,
         "name": "Smooth Operator (2011 Remastered)",
         "artist": "Sade",
         "album": "The Ultimate Collection",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/a/9/e/0/a9e8d37fc08574942bcbcf3f35d1333b.mp3?hdnea=exp=1767351362~acl=/api/1/1/a/9/e/0/a9e8d37fc08574942bcbcf3f35d1333b.mp3*~data=user_id=0,application_id=42~hmac=516df58d68f6890641473674c2682fd671ca0e73e195cf006f1e81252a8dbeec",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/a/9/e/0/a9e8d37fc08574942bcbcf3f35d1333b.mp3?hdnea=exp=1767857402~acl=/api/1/1/a/9/e/0/a9e8d37fc08574942bcbcf3f35d1333b.mp3*~data=user_id=0,application_id=42~hmac=514bbc96ba867e8cb8868a0ffe1a71d76d56ed2d73ac0be3b506719a21f77fe3",
         "image_id": "e2fd836cedf9336dc5c725dc3c4df5e0"
     },
     {
+        "id": 3571291,
         "name": "Kathy's Waltz",
         "artist": "The Dave Brubeck Quartet",
         "album": "Time Out",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/f/4/b/0/f4ba1dca6a6d5bdc70fe77bfc41a6e1b.mp3?hdnea=exp=1767351362~acl=/api/1/1/f/4/b/0/f4ba1dca6a6d5bdc70fe77bfc41a6e1b.mp3*~data=user_id=0,application_id=42~hmac=5c229953b978a9c2720eaf30808b6eaaca1192e564ab31523763d99bfbbdfc54",
-        "image_id": "9637fd8850fbe280dfe958d0f82b7b12"
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/b/c/d/0/bcdb10da0b85983aa32392bf2aff1b9c.mp3?hdnea=exp=1767857403~acl=/api/1/1/b/c/d/0/bcdb10da0b85983aa32392bf2aff1b9c.mp3*~data=user_id=0,application_id=42~hmac=ea68d2922dbeec6c9d4d2055e94e4ef11b0c4f263b32d80ffe0035e5297c90f5",
+        "image_id": "2082e5217141814d803dc45a95488884"
     },
     {
-        "name": "Autumn Leaves",
+        "id": 4156063,
+        "name": "Autumn Leaves (Album Version - take 2 bonus track)",
         "artist": "Bill Evans",
-        "album": "Essential Classics, Vol. 1024: Bill Evans",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/6/a/f/0/6afdd344e13bb03cdc56bb3d1628332b.mp3?hdnea=exp=1767351363~acl=/api/1/1/6/a/f/0/6afdd344e13bb03cdc56bb3d1628332b.mp3*~data=user_id=0,application_id=42~hmac=70b9b1ccac25a9edf031dee55fdf50b4a4524bd238b5ad83cec7a44e83bfb05d",
-        "image_id": "8aac8e762d12e49b3f5ebdb4d89cb2fa"
+        "album": "Portrait In Jazz",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/f/f/1/0/ff1586306d7d557a54f392ffb4fbca5b.mp3?hdnea=exp=1767857404~acl=/api/1/1/f/f/1/0/ff1586306d7d557a54f392ffb4fbca5b.mp3*~data=user_id=0,application_id=42~hmac=b4cba76f7bb23ceaba2847964b38b73ae9f8ab27387af9fc0e63000a863d868b",
+        "image_id": "ca16542ca0c208cbb160c51ab56b1b72"
     },
     {
+        "id": 570239,
         "name": "Moonlight Serenade",
         "artist": "Glenn Miller",
         "album": "The Essential Glenn Miller",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/4/5/8/0/4581a1441426e49cd348e25a60fcd1e5.mp3?hdnea=exp=1767351363~acl=/api/1/1/4/5/8/0/4581a1441426e49cd348e25a60fcd1e5.mp3*~data=user_id=0,application_id=42~hmac=cd0b3a3be4e8a3f0ac088a4b0063b07365a53731a5eb35f0610cfa8ea82ef73a",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/4/5/8/0/4581a1441426e49cd348e25a60fcd1e5.mp3?hdnea=exp=1767857406~acl=/api/1/1/4/5/8/0/4581a1441426e49cd348e25a60fcd1e5.mp3*~data=user_id=0,application_id=42~hmac=b8bcacec485d8a07abc84b44341e4ac5556a5a9cf3251f4778626840bf345f7f",
         "image_id": "5950f2c019a574ea6e3e025aea492d2c"
     },
     {
+        "id": 548795952,
         "name": "Teach Me Tonight",
         "artist": "Dinah Washington",
-        "album": "The Ultimate Diva Collection",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/0/0/6/0/0065e931cf132b731e144382b2d114f9.mp3?hdnea=exp=1767351364~acl=/api/1/1/0/0/6/0/0065e931cf132b731e144382b2d114f9.mp3*~data=user_id=0,application_id=42~hmac=86b602260fb714d121a1f7afd292379a86ef2e9835a91b0df5ed91737598fffc",
-        "image_id": "4d2080b4d3dcfa126872cc9d99cebb1f"
+        "album": "Compact Jazz",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/1/4/e/0/14eec95072e41b6ced396aa31cf8a0e8.mp3?hdnea=exp=1767857407~acl=/api/1/1/1/4/e/0/14eec95072e41b6ced396aa31cf8a0e8.mp3*~data=user_id=0,application_id=42~hmac=4be9ed84ba0a1bee15a99c68266c564b1d6ad075eed0df43e521f6c077e5ce3d",
+        "image_id": "f8fc5c21f04ec5ccde73805804bfee32"
     },
     {
+        "id": 1030651902,
         "name": "Your Love Is King",
         "artist": "Sade",
         "album": "The Best of Sade",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/0/a/e/0/0ae6c2a51f6adf4d511cc38e27bec138.mp3?hdnea=exp=1767351364~acl=/api/1/1/0/a/e/0/0ae6c2a51f6adf4d511cc38e27bec138.mp3*~data=user_id=0,application_id=42~hmac=9c60a469c765194bc19205edeb45574c129823a3a5c8cb79ea3becada24060dc",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/0/a/e/0/0ae6c2a51f6adf4d511cc38e27bec138.mp3?hdnea=exp=1767857409~acl=/api/1/1/0/a/e/0/0ae6c2a51f6adf4d511cc38e27bec138.mp3*~data=user_id=0,application_id=42~hmac=6480917bb517815e32161c944542989d84d479e5abc9e0d011d7cfc56dcd2979",
         "image_id": "336e00b554c028d58b7c432c38581997"
     },
     {
+        "id": 548797322,
         "name": "I Get A Kick Out Of You",
         "artist": "Ella Fitzgerald",
         "album": "Ella Fitzgerald Sings The Cole Porter Song Book (Expanded Edition)",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/4/9/2/0/492464a0863dc2adb64af7049c6bbef2.mp3?hdnea=exp=1767351364~acl=/api/1/1/4/9/2/0/492464a0863dc2adb64af7049c6bbef2.mp3*~data=user_id=0,application_id=42~hmac=1d203bcecb4d06e3125f6178c8808a76e554a168d901ea9e51c4b6de2c7c6bae",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/4/9/2/0/492464a0863dc2adb64af7049c6bbef2.mp3?hdnea=exp=1767857409~acl=/api/1/1/4/9/2/0/492464a0863dc2adb64af7049c6bbef2.mp3*~data=user_id=0,application_id=42~hmac=ee9aac4081817422f4a0d69b23b9bc28ccd721ab24b08b5af2750c89e48706ec",
         "image_id": "ddaaca085c528bede40f736117b5b7c2"
     },
     {
+        "id": 1760973637,
         "name": "Oh, Good Grief (Vocal - Album Version)",
         "artist": "Vince Guaraldi Trio",
         "album": "Charlie Brown Holiday Hits",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/8/6/1/0/861266c784584a3f7a46177d56f4706d.mp3?hdnea=exp=1767351365~acl=/api/1/1/8/6/1/0/861266c784584a3f7a46177d56f4706d.mp3*~data=user_id=0,application_id=42~hmac=930c61db22598c4a71f61e1cbb1d717b011f7f8533cd96f98236bd4629807f27",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/8/6/1/0/861266c784584a3f7a46177d56f4706d.mp3?hdnea=exp=1767857411~acl=/api/1/1/8/6/1/0/861266c784584a3f7a46177d56f4706d.mp3*~data=user_id=0,application_id=42~hmac=e50fddfdef8639959ff9a5e085b8da558a75620e1ea4f953aa56b4ad9259e8f7",
         "image_id": "18e41e697cbeaa889aed218a38a7eb35"
     },
     {
+        "id": 3520384,
         "name": "Swingin' (Live At Five Spot Caf\u00e9, 1959)",
         "artist": "Kenny Burrell",
         "album": "The Artist Selects",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/b/1/5/0/b15ea0d8a3e0bb9612dd51be939dc1e2.mp3?hdnea=exp=1767351365~acl=/api/1/1/b/1/5/0/b15ea0d8a3e0bb9612dd51be939dc1e2.mp3*~data=user_id=0,application_id=42~hmac=e15ab15ef78eb6c1ee66fc932949354fb1e508da535e5afaf190f990f9747349",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/b/1/5/0/b15ea0d8a3e0bb9612dd51be939dc1e2.mp3?hdnea=exp=1767857412~acl=/api/1/1/b/1/5/0/b15ea0d8a3e0bb9612dd51be939dc1e2.mp3*~data=user_id=0,application_id=42~hmac=bbf57b36176018a84596bbb8a4c271d472b4cd2f93f3068a4babc4f7dffc5844",
         "image_id": "44c6faa9f3001dc7f124ed5360689708"
     },
     {
+        "id": 1030651912,
         "name": "Hang on to Your Love",
         "artist": "Sade",
         "album": "The Best of Sade",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/1/f/3/0/1f3938835cfeda40e17d9cb714cc78e2.mp3?hdnea=exp=1767351365~acl=/api/1/1/1/f/3/0/1f3938835cfeda40e17d9cb714cc78e2.mp3*~data=user_id=0,application_id=42~hmac=a2127d5cdf992c41b7f506a08b4a932368c98c22333c477f8fea0a09e6d9d50d",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/1/f/3/0/1f3938835cfeda40e17d9cb714cc78e2.mp3?hdnea=exp=1767857413~acl=/api/1/1/1/f/3/0/1f3938835cfeda40e17d9cb714cc78e2.mp3*~data=user_id=0,application_id=42~hmac=c6369882d86d9accc3a3869ee349119e4b30291ae2e010177ab87717ff52680f",
         "image_id": "336e00b554c028d58b7c432c38581997"
     }
 ]

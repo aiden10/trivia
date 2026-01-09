@@ -1,30 +1,34 @@
 [
     {
+        "id": 96641156,
         "name": "Day (Live)",
         "artist": "Katatonia",
         "album": "Sanctitude",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/5/1/3/0/513de295074bf054ac21edd3529926f4.mp3?hdnea=exp=1767352526~acl=/api/1/1/5/1/3/0/513de295074bf054ac21edd3529926f4.mp3*~data=user_id=0,application_id=42~hmac=2b26a293690abb8400d90940f50d35a50da9676a3ffc1722e39218a103ac14d0",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/5/1/3/0/513de295074bf054ac21edd3529926f4.mp3?hdnea=exp=1767857675~acl=/api/1/1/5/1/3/0/513de295074bf054ac21edd3529926f4.mp3*~data=user_id=0,application_id=42~hmac=2a5cfbbd42f02abcb993cf3f7f6fcba83bc0fafa83ca96b2ac0cd7baefa69516",
         "image_id": "a0faf66d93a3fbc762c7c5bd86621d9a"
     },
     {
+        "id": 1669877122,
         "name": "Nevermore",
         "artist": "Chthonian",
         "album": "The Wayward Ocean",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/c/8/e/0/c8ebe2ff5791d0742da60e6497e5b39d.mp3?hdnea=exp=1767352526~acl=/api/1/1/c/8/e/0/c8ebe2ff5791d0742da60e6497e5b39d.mp3*~data=user_id=0,application_id=42~hmac=53d3e58e1d9d23fa8a92678e88f7cf95d0dd1000de657ccc653cb549bbec6ce5",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/c/8/e/0/c8ebe2ff5791d0742da60e6497e5b39d.mp3?hdnea=exp=1767857676~acl=/api/1/1/c/8/e/0/c8ebe2ff5791d0742da60e6497e5b39d.mp3*~data=user_id=0,application_id=42~hmac=2cf03518435596a3445834ddd4539c50fe8d915bf57b277d23be2a38bcd65481",
         "image_id": "bffbb507542284b207bd1c1e9b62e43f"
     },
     {
+        "id": 966879262,
         "name": "Remedial",
         "artist": "Antlernaut",
         "album": "Remedial",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/3/6/6/0/366d6f7d6842b72a74ced657b2cff010.mp3?hdnea=exp=1767352526~acl=/api/1/1/3/6/6/0/366d6f7d6842b72a74ced657b2cff010.mp3*~data=user_id=0,application_id=42~hmac=bfb3d0d321484d5fdc2a9692b335e47b638f1c808907d77811d45baf0c9878e9",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/3/6/6/0/366d6f7d6842b72a74ced657b2cff010.mp3?hdnea=exp=1767857677~acl=/api/1/1/3/6/6/0/366d6f7d6842b72a74ced657b2cff010.mp3*~data=user_id=0,application_id=42~hmac=39558480113b345e431a2f02d107fa24317e962285f18bb215c4e500d46d8dc4",
         "image_id": "3581f4eeff2496b61a99f4b69248a443"
     },
     {
+        "id": 645546172,
         "name": "Western Ground",
         "artist": "Samael",
         "album": "Solar Soul",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/7/8/c/0/78c23a94b434c5a7bf7ba3fad6e767ed.mp3?hdnea=exp=1767352527~acl=/api/1/1/7/8/c/0/78c23a94b434c5a7bf7ba3fad6e767ed.mp3*~data=user_id=0,application_id=42~hmac=4e6748d59cbfd46db6387171ca197a00589e6f8bf17eb646c5dac79d4abc545e",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/7/8/c/0/78c23a94b434c5a7bf7ba3fad6e767ed.mp3?hdnea=exp=1767857679~acl=/api/1/1/7/8/c/0/78c23a94b434c5a7bf7ba3fad6e767ed.mp3*~data=user_id=0,application_id=42~hmac=3eb7bca0e07e3ebbcfcf7844f0adb9abc500100f8a94bfa94757ea8ec20b9918",
         "image_id": "57dedff0420b23869b812c280d193787"
     }
 ]

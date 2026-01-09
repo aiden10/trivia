@@ -1,114 +1,130 @@
 [
     {
+        "id": 1188195742,
         "name": "NieWolnO\u015b\u0107",
         "artist": "Hunter",
         "album": "XXXV (Remastered Versions)",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/4/6/d/0/46dc9b1f071f9c542c7dc1dd99d7d9d3.mp3?hdnea=exp=1767350234~acl=/api/1/1/4/6/d/0/46dc9b1f071f9c542c7dc1dd99d7d9d3.mp3*~data=user_id=0,application_id=42~hmac=e2f70bd15b0db79266f9d3bf1c5fa9baeede8c6e76255a2e0a181d39b14cc487",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/4/6/d/0/46dc9b1f071f9c542c7dc1dd99d7d9d3.mp3?hdnea=exp=1767843772~acl=/api/1/1/4/6/d/0/46dc9b1f071f9c542c7dc1dd99d7d9d3.mp3*~data=user_id=0,application_id=42~hmac=a0e5bd327d242f262ad95885b26b27623ce3e9ef6701acb5bd97e793c6a9f518",
         "image_id": "9f1604803abb5cf562abe3da1fa6b9f5"
     },
     {
+        "id": 141335443,
         "name": "Out in the Cold (Recorded at Kemper Arena in Kansas City)",
         "artist": "Judas Priest",
         "album": "Turbo 30 (Remastered 30th Anniversary Deluxe Edition)",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/e/6/1/0/e61e587a953d26c51d65c180e072090e.mp3?hdnea=exp=1767350236~acl=/api/1/1/e/6/1/0/e61e587a953d26c51d65c180e072090e.mp3*~data=user_id=0,application_id=42~hmac=484e62f46ca00a3bd025400ecdf99b964b0e9ce87f368f4946eb5fd02f6555c5",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/e/6/1/0/e61e587a953d26c51d65c180e072090e.mp3?hdnea=exp=1767843773~acl=/api/1/1/e/6/1/0/e61e587a953d26c51d65c180e072090e.mp3*~data=user_id=0,application_id=42~hmac=52677d3d168ea154c615973335248fd3e9187e652bff383f8ff0715dd35ab37a",
         "image_id": "aec8d3fcc6e7c097b10d6ebd2e1af0fc"
     },
     {
+        "id": 885755582,
         "name": "The Wizard's Vengeance",
         "artist": "Legend",
         "album": "From the Fjords (40th Anniversary Edition)",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/f/c/1/0/fc15de48872514294aee6f4554dd606f.mp3?hdnea=exp=1767350237~acl=/api/1/1/f/c/1/0/fc15de48872514294aee6f4554dd606f.mp3*~data=user_id=0,application_id=42~hmac=1ad6b99f6c2fd9a2ddd5a1af10ce3f54805c989a1f20ee4917c83e842250354a",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/f/c/1/0/fc15de48872514294aee6f4554dd606f.mp3?hdnea=exp=1767843775~acl=/api/1/1/f/c/1/0/fc15de48872514294aee6f4554dd606f.mp3*~data=user_id=0,application_id=42~hmac=b83036319ea904cae8055fd0a6afc9422cd52570cadead936a105b1b03dc7534",
         "image_id": "f7913dd5946b78aed346a04e7345292a"
     },
     {
+        "id": 2760117511,
         "name": "Fistful of Hate",
         "artist": "Pro-Pain",
         "album": "Fistful of Hate",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/e/2/f/0/e2f70bf825bc3d7f103f4285ff0770f0.mp3?hdnea=exp=1767350237~acl=/api/1/1/e/2/f/0/e2f70bf825bc3d7f103f4285ff0770f0.mp3*~data=user_id=0,application_id=42~hmac=b8624a63bbf0d03d4d804446020d9702a34ce2264907c0ec22c62cd049de1805",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/e/2/f/0/e2f70bf825bc3d7f103f4285ff0770f0.mp3?hdnea=exp=1767843776~acl=/api/1/1/e/2/f/0/e2f70bf825bc3d7f103f4285ff0770f0.mp3*~data=user_id=0,application_id=42~hmac=5d18bbf1f0ed3648957a1993b1ec57c5151b02439cd2b5c1084c7f4ba69295a1",
         "image_id": "5de4fbe4c90ba556cf569082655cc1ba"
     },
     {
+        "id": 14830178,
         "name": "Slowtrack",
         "artist": "Rayko",
         "album": "Cosmic Balearic Beats Vol. 2",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/2/9/b/0/29b85552c3aff5a14a9659be3579f4fa.mp3?hdnea=exp=1767350238~acl=/api/1/1/2/9/b/0/29b85552c3aff5a14a9659be3579f4fa.mp3*~data=user_id=0,application_id=42~hmac=16d28db4f5e4c71e44aba37a5c580f27418f937547fb32ce92dc4216d16b67bd",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/2/9/b/0/29b85552c3aff5a14a9659be3579f4fa.mp3?hdnea=exp=1767843777~acl=/api/1/1/2/9/b/0/29b85552c3aff5a14a9659be3579f4fa.mp3*~data=user_id=0,application_id=42~hmac=3705cdc06b7b9362d05dec2a39fc8b15ff3f5777d2f405ae0e2963accd1c90cf",
         "image_id": "cb8537bc293bbaeadc95627a1c262640"
     },
     {
+        "id": 1366183742,
         "name": "Holy Invaders",
         "artist": "U.D.O.",
         "album": "Game Over",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/e/b/2/0/eb2147d5f89dd7099fadb5360215d313.mp3?hdnea=exp=1767350238~acl=/api/1/1/e/b/2/0/eb2147d5f89dd7099fadb5360215d313.mp3*~data=user_id=0,application_id=42~hmac=bfe6dfe1b38ab5ca341321da491b7d0d5ce158fc08f6cbc1d1fe1ecfaf695efb",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/e/b/2/0/eb2147d5f89dd7099fadb5360215d313.mp3?hdnea=exp=1767843779~acl=/api/1/1/e/b/2/0/eb2147d5f89dd7099fadb5360215d313.mp3*~data=user_id=0,application_id=42~hmac=956ec064bc31da5299db9a0ea70544561d35f22c01a86b698708043af6366695",
         "image_id": "3f8201d9109c849a1a81a95952c4cadc"
     },
     {
+        "id": 452844182,
         "name": "Mi Princesa",
         "artist": "Artista Rosario",
         "album": "Mi Princesa",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/9/b/3/0/9b3242ad5ebeb92b50a46ed20945dc59.mp3?hdnea=exp=1767350239~acl=/api/1/1/9/b/3/0/9b3242ad5ebeb92b50a46ed20945dc59.mp3*~data=user_id=0,application_id=42~hmac=4672c7557a230c47a33befb2dee832761b337322ecb62e1403645bac715e52de",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/9/b/3/0/9b3242ad5ebeb92b50a46ed20945dc59.mp3?hdnea=exp=1767843781~acl=/api/1/1/9/b/3/0/9b3242ad5ebeb92b50a46ed20945dc59.mp3*~data=user_id=0,application_id=42~hmac=2a4614595d1101613aad7ae58779e7dd84a0000f2ee6ed3e10926ba70b020167",
         "image_id": "8e72663a76efb49b24bdd6144787ffc1"
     },
     {
+        "id": 1908760647,
         "name": "Szakal",
         "artist": "The Evil Educators",
         "album": "Szakal",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/3/9/a/0/39a460df885c0642347ac5cd6032494d.mp3?hdnea=exp=1767350240~acl=/api/1/1/3/9/a/0/39a460df885c0642347ac5cd6032494d.mp3*~data=user_id=0,application_id=42~hmac=bcac45cbf64eb329b5d0838c456174dfddc4500cb14d3b83bf375c62c6305def",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/3/9/a/0/39a460df885c0642347ac5cd6032494d.mp3?hdnea=exp=1767843782~acl=/api/1/1/3/9/a/0/39a460df885c0642347ac5cd6032494d.mp3*~data=user_id=0,application_id=42~hmac=e65881298e634f7a66a37ec253b5dd0cfb20cd6c0d1a8f0a822289f66dc56f5f",
         "image_id": "573a8792a85bdcabe1f934ace5b224cc"
     },
     {
+        "id": 1329079672,
         "name": "Rise up the Menace",
         "artist": "Menacer",
         "album": "Rise up the Menace",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/9/9/2/0/9921afc9f391c043e02468148c91d1ed.mp3?hdnea=exp=1767350242~acl=/api/1/1/9/9/2/0/9921afc9f391c043e02468148c91d1ed.mp3*~data=user_id=0,application_id=42~hmac=9a83f228a001ec65c1e9f170de75f5370fb9e4d03c87e35d62d4a7b981d39d48",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/9/9/2/0/9921afc9f391c043e02468148c91d1ed.mp3?hdnea=exp=1767843784~acl=/api/1/1/9/9/2/0/9921afc9f391c043e02468148c91d1ed.mp3*~data=user_id=0,application_id=42~hmac=07b0196af2473f406ebf199cc9be98ff2a8a456f57198b6475d56d3041f00feb",
         "image_id": "214891f7b0e18ad0d99759c7076223f5"
     },
     {
+        "id": 1023503672,
         "name": "La Mochila De Pepi",
         "artist": "Tito Juan",
         "album": "Miserables",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/1/3/e/0/13e7b5f6571224123bcbe999592e804e.mp3?hdnea=exp=1767350244~acl=/api/1/1/1/3/e/0/13e7b5f6571224123bcbe999592e804e.mp3*~data=user_id=0,application_id=42~hmac=29bb007521e280cd8124e8d906eeee7f668469bac73f362019d1cb80323b15c6",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/1/3/e/0/13e7b5f6571224123bcbe999592e804e.mp3?hdnea=exp=1767843786~acl=/api/1/1/1/3/e/0/13e7b5f6571224123bcbe999592e804e.mp3*~data=user_id=0,application_id=42~hmac=df2240bc93b9dc559de646d19f028d72a022687310c89ee96941417f4d2b0f48",
         "image_id": "b748bc22b0e6859ebb4c8a2c084f3b2c"
     },
     {
+        "id": 2200215567,
         "name": "Amor Infernal (Remix)",
         "artist": "Tito Juan",
         "album": "Amor Infernal (Remix)",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/4/d/4/0/4d4a92479ee90c5cf0a1d729ceb462da.mp3?hdnea=exp=1767350244~acl=/api/1/1/4/d/4/0/4d4a92479ee90c5cf0a1d729ceb462da.mp3*~data=user_id=0,application_id=42~hmac=6e00922eed3b03b584270066a5ace41167878069106fd114ea335afc132bf490",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/4/d/4/0/4d4a92479ee90c5cf0a1d729ceb462da.mp3?hdnea=exp=1767843788~acl=/api/1/1/4/d/4/0/4d4a92479ee90c5cf0a1d729ceb462da.mp3*~data=user_id=0,application_id=42~hmac=95d22113eb2cd7bb693ad42442381b6cdbf6f6e2ec851cf312d8d8aaba59b0f3",
         "image_id": "161e9fcc2daa54ce5b58dd0a0e57f0de"
     },
     {
+        "id": 692790082,
         "name": "Tierra De Mares (Instrumental)",
         "artist": "Tito Juan",
         "album": "Salvaje (Remastered)",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/e/a/7/0/ea7e8ad359052e500e1fe068a94802da.mp3?hdnea=exp=1767350245~acl=/api/1/1/e/a/7/0/ea7e8ad359052e500e1fe068a94802da.mp3*~data=user_id=0,application_id=42~hmac=92a4c4cec4a7dc6d247590dc0412daeb281125a68b19200d77ffb9a9fff7648e",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/e/a/7/0/ea7e8ad359052e500e1fe068a94802da.mp3?hdnea=exp=1767843789~acl=/api/1/1/e/a/7/0/ea7e8ad359052e500e1fe068a94802da.mp3*~data=user_id=0,application_id=42~hmac=c38e4699ae124bf6474078cb15c09ec039f9f55beddb4311811a64cfcf7fc3a4",
         "image_id": "b0c3cf4c08ab1c0ab471915dc8e99be1"
     },
     {
+        "id": 721959302,
         "name": "Dias Lejanos",
         "artist": "Tito Juan",
         "album": "Cicatrices ( Remastered )",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/9/4/7/0/947050513fb7b5d72612b9a54f74a905.mp3?hdnea=exp=1767350245~acl=/api/1/1/9/4/7/0/947050513fb7b5d72612b9a54f74a905.mp3*~data=user_id=0,application_id=42~hmac=62167155349ac46835732e99fba174f6f8d98659fc5989b910321942b8c67e55",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/9/4/7/0/947050513fb7b5d72612b9a54f74a905.mp3?hdnea=exp=1767843791~acl=/api/1/1/9/4/7/0/947050513fb7b5d72612b9a54f74a905.mp3*~data=user_id=0,application_id=42~hmac=fd1da9bb36a18887c40119353d46f90f2b3414c0bfa37783ae8c7a29b99179b2",
         "image_id": "9b348ad32efff142c892a83ff381f397"
     },
     {
+        "id": 707939572,
         "name": "A Contracorriente",
         "artist": "Tito Juan",
         "album": "Pecados (Remastered)",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/5/7/1/0/5715c802b4ccce0eb3d28d121c23101d.mp3?hdnea=exp=1767350246~acl=/api/1/1/5/7/1/0/5715c802b4ccce0eb3d28d121c23101d.mp3*~data=user_id=0,application_id=42~hmac=6f6dddbd8b5e8f2915feffa4877367b83cd44e6b41994793aa925dd1aa0150a4",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/5/7/1/0/5715c802b4ccce0eb3d28d121c23101d.mp3?hdnea=exp=1767843793~acl=/api/1/1/5/7/1/0/5715c802b4ccce0eb3d28d121c23101d.mp3*~data=user_id=0,application_id=42~hmac=b84a271fe3b751c8eb5a43b5b422f3fb4a9311ea6a3c2b960649f5815edc2606",
         "image_id": "7e86f77be348402cc3cce7a2b89014a1"
     },
     {
+        "id": 692790172,
         "name": "El Silencio De Los Santos (voice 2)",
         "artist": "Tito Juan",
         "album": "Salvaje (Remastered)",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/3/f/0/0/3f0ac3d5cf5aea0d4496e2a33c7f3d1d.mp3?hdnea=exp=1767350246~acl=/api/1/1/3/f/0/0/3f0ac3d5cf5aea0d4496e2a33c7f3d1d.mp3*~data=user_id=0,application_id=42~hmac=026391dfd16def3c5bad99c09de1ae3553d96fc74c4a81b60aa749240729f72f",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/3/f/0/0/3f0ac3d5cf5aea0d4496e2a33c7f3d1d.mp3?hdnea=exp=1767843794~acl=/api/1/1/3/f/0/0/3f0ac3d5cf5aea0d4496e2a33c7f3d1d.mp3*~data=user_id=0,application_id=42~hmac=6e4a9eaf8e6930d8d02dd1656e599a4b6a075877ea79e7de38c533a3985f429c",
         "image_id": "b0c3cf4c08ab1c0ab471915dc8e99be1"
     },
     {
+        "id": 18711581,
         "name": "Napoleon In The Kremlin",
         "artist": "Ceeit",
         "album": "Ceeit Waves",
-        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/f/e/d/0/fedc21e090c2bfecb8e1bb55039beaab.mp3?hdnea=exp=1767350246~acl=/api/1/1/f/e/d/0/fedc21e090c2bfecb8e1bb55039beaab.mp3*~data=user_id=0,application_id=42~hmac=6e7bcb6bf09f204c34beba2ff8c1fd768b93898f4653c8413b88277fc9b4f22f",
+        "preview": "https://cdnt-preview.dzcdn.net/api/1/1/f/e/d/0/fedc21e090c2bfecb8e1bb55039beaab.mp3?hdnea=exp=1767843796~acl=/api/1/1/f/e/d/0/fedc21e090c2bfecb8e1bb55039beaab.mp3*~data=user_id=0,application_id=42~hmac=f045efe012f7319d7f3f4488a9983244434188daaa54955b4343910845546c84",
         "image_id": "f817bfb1a80a830524958596e4cd5eb9"
     }
 ]
