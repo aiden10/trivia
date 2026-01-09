@@ -18,6 +18,7 @@ MAIN_QUESTIONS_FILE = Path(__file__).parent / "questions.json"
 CATEGORIES_DIR = Path(__file__).parent / "categories"
 IMAGES_DIR = Path(__file__).parent / "images"
 SONGS_DIR = Path(__file__).parent / "songs"
+PREVIEWS_FOLDER = Path(__file__).parent / "song_previews"
 env_path = Path(__file__).parent / ".env"
 load_dotenv(dotenv_path=env_path)
 QUESTIONS = {}
@@ -519,7 +520,6 @@ def get_top_tracks():
 
 def get_song_previews():
     SONGS_FOLDER = Path(__file__).parent / "songs"
-    PREVIEWS_FOLDER = Path(__file__).parent / "song_previews"
     PREVIEWS_FOLDER.mkdir(exist_ok=True)
     todo = ["hip_hop"]
     for i, song_file in enumerate(SONGS_FOLDER.glob("*.json")):
@@ -578,6 +578,28 @@ def get_song_previews():
             
             print(f"finished {song_file.name}")
 
+def verify_songs():
+    missing = []
+    for category_name, songs in SONG_DATA.items():
+        for song in songs:
+            preview_path = PREVIEWS_FOLDER / f"{song['id']}.mp3"
+            if not preview_path.exists():
+                missing.append({
+                    "category": category_name,
+                    "song": song["name"],
+                    "artist": song["artist"],
+                    "id": song["id"]
+                })
+    
+    if missing:
+        print(f"Missing {len(missing)} song previews:")
+        for item in missing:
+            print(f"  [{item['category']}] {item['song']} - {item['artist']} (ID: {item['id']})")
+        return False
+    else:
+        print(f"All song previews verified")
+        return True
+    
 load_all_questions()
 load_all_images()
 load_all_songs()
