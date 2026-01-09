@@ -35,12 +35,7 @@ async def handle_update_gamemode(message: dict, room: Room):
 
 async def handle_message(message: dict, room: Room):
     data = message.get("data", {})
-    if "message" in data:
-        sender = room.players[data["sender"]].name
-        message_text = data["message"]
-        room.messages.append({"sender": sender, "message": message_text})
-        await broadcast({
-            "type": Events.ChatMessage.value,
-            "message": message_text,
-            "sender": sender
-        })
+    sender = data["sender"]
+    body = data["body"]
+    room.messages.append(Message(sender=sender, body=body))
+    await send_state(room, Events.ChatMessage.value)

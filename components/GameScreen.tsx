@@ -1,6 +1,7 @@
 import { useGameContext } from "@/shared/GameContext";
 import { GameModes } from "@/shared/types";
 import NameSelect from "./NameSelect";
+import ChatWindow from "./ChatWindow";
 import DefaultScreen from "./gamemodes/default/DefaultScreen";
 import TriviaScreen from "./gamemodes/trivia/TriviaScreen";
 import PeopleScreen from "./gamemodes/people/PeopleScreen";
@@ -29,6 +30,7 @@ export default function GameScreen() {
     return (
         <div>
             <NameSelect />
+            <ChatWindow />
             <div className="bg-stone-900 min-h-screen w-full">
                 {renderGamemodeScreen()}
             </div>

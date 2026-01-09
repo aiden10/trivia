@@ -74,9 +74,7 @@ Basically just codenames but instead of words being on the grid, it's images. Ma
 All players except one (the imposter) are given the same word. Players take turns saying another word related to it, but can't say the word itself. If the imposter does, they instantly lose, and non-imposters can't. Every n turns, players vote on who they think the imposter is. After m votes, if the imposter hasn't been found, they win.    
 
 # TODO
-- Game rules somewhere 
-- Chat window
-- The chat window and game rules can be components which are small tabs on the left or right sides of the screen, which when clicked, expand to a larger panel. Probably with a small arrow to indicate it can be clicked. The chat window tab should have a small circle next to the arrow which is red if there is a new message, and half transparent otherwise.   
+- Game rules somewhere. This can just be a modal
 - Pressing join on the name select should request the current room state so it has the up to date stage
     Maybe also keep track of the time left on the server so clients always see an accurate countdown
 - Make host option
@@ -90,3 +88,4 @@ All players except one (the imposter) are given the same word. Players take turn
 - Add npm run build check before commits can be pushed to main
 - Make things feel more responsive
 - Change attraction questions to: "In what country would you find the {name}?"
+- Stats or metrics. At least current players. I could track that by incrementing a value when a player joins and decrementing it when they leave. But these should probably be stored in a database. 

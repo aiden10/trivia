@@ -12,6 +12,11 @@ export interface Player {
     guessedArtist: boolean;
 }
 
+export interface Message {
+    sender: string;
+    body: string;
+}
+
 export enum GameModes {
     Default = "default",
     Trivia = "trivia",
@@ -24,7 +29,7 @@ export const GamemodeOptions: Array<{ id: GameModes; name: string; description: 
     { 
         id: GameModes.Trivia, 
         name: "Trivia", 
-        description: "Uses questions from the TriviaQA dataset, Wikidata, and songs" 
+        description: "Guess questions from the TriviaQA dataset, images, and songs" 
     },
     {
         id: GameModes.PeopleGuesser,
@@ -48,6 +53,7 @@ export interface RoomState {
     hostId: number;
     players: Player[];
     gamemode: string;
+    messages: Message[];
     triviaState: TriviaState | null; 
     peopleState: PeopleState | null;
     rotanikaState: RotanikaState | null;

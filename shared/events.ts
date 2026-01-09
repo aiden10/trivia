@@ -7,6 +7,7 @@ export enum Events {
     UpdateGameMode = "updateGameMode",
     UpdateHost = "updateHost",
     Error = "error",
+    ChatMessage = "chatMessage"
 }
 
 export interface JoinResponse {
@@ -95,6 +96,9 @@ export const createGenericEventHandlers = (deps: GenericEventDeps) => ({
     handleUpdateHost: (data: {newHostID: number}) => {
         if (data.newHostID === deps.playerID) deps.setHost(true);
     },
+    handleMessage: (state: RoomState) => {
+        deps.setRoomState(state);
+    }
 });
 
 export const createGenericEventEmitters = (socket: WebSocket | null) => ({
@@ -103,6 +107,15 @@ export const createGenericEventEmitters = (socket: WebSocket | null) => ({
             socket.send(JSON.stringify({
                 type: Events.UpdateGameMode,
                 data: { gamemode },
+            }));
+        }
+    },
+    
+    submitMessage: (sender: string, body: string) => {
+        if (socket) {
+            socket.send(JSON.stringify({
+                type: Events.ChatMessage,
+                data: { sender: sender, body: body },
             }));
         }
     },

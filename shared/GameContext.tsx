@@ -33,6 +33,7 @@ interface GameContextType {
     
     // Generic Events
     submitUpdateGameMode: (gamemode: GameModes) => void;
+    submitMessage: (sender: string, body: string) => void;
     
     // Trivia Events
     submitTriviaGuess: (guess: string) => void;
@@ -182,6 +183,9 @@ export const GameProvider: React.FC<GameProviderProps> = ({ children }) => {
                     return;
                 case Events.UpdateHost:
                     genericHandlers.handleUpdateHost(data);
+                case Events.ChatMessage:
+                    genericHandlers.handleMessage(state);
+                    return;
                 case Events.Error:
                     console.log('Server error:', data?.message);
                     return;
@@ -288,6 +292,7 @@ export const GameProvider: React.FC<GameProviderProps> = ({ children }) => {
         
         // Generic Events
         submitUpdateGameMode: genericEmitters.submitUpdateGameMode,
+        submitMessage: genericEmitters.submitMessage,
         
         // Trivia Events
         submitTriviaGuess: triviaEmitters.submitGuess,

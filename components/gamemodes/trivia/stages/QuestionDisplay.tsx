@@ -49,10 +49,22 @@ export default function QuestionDisplay() {
             const audio = new Audio(`${GET_SONG_ENDPOINT}/${question.songState.songID}`);
             audioRef.current = audio;
             audio.loop = true;
-            audio.play().catch(console.error);
+            
+            const playPromise = audio.play();
             
             return () => {
-                audio.pause();
+                if (playPromise) {
+                    playPromise
+                        .then(() => {
+                            if (!audio.paused) {
+                                audio.pause();
+                            }
+                        })
+                        .catch(() => {}
+                        );
+                }
+                audio.src = '';
+                audio.load();
             };
         }
     }, [isSongQuestion, question?.songState]);

@@ -18,7 +18,7 @@ export default function Lobby() {
     return (
         <div className="game-screen bg-dots">
             <Back inRoom={true}/>            
-            <h1 className="title font-bartle bg-dots">Open Trivia</h1>
+            <h1 className="title font-bartle bg-dots">Trivia</h1>
             
             <div className="w-full max-w-4xl gap-6">
                 <PlayerList />

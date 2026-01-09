@@ -338,6 +338,16 @@ class Player:
 class CreateRoomBody(BaseModel):
     password: str
 
+class Message(BaseModel):
+    sender: str
+    body: str
+    
+    def to_dict(self) -> dict:
+        return {
+            "sender": self.sender,
+            "body": self.body
+        }
+
 class Room:
     def __init__(self, id: str, password: str):
         self.id = id
@@ -350,14 +360,14 @@ class Room:
         self.rotanika_state: Optional[RotanikaState] = None
         self.peopleBP_state: Optional[PeopleBPState] = None
         self.password = password
-        self.messages = []
+        self.messages: list[Message] = []
 
     def to_dict(self) -> dict:
         return {
             "roomId": self.id,
             "hostId": self.host_id,
             "players": [p.to_dict() for p in self.players.values()],
-            "messages": self.messages,
+            "messages": [m.to_dict() for m in self.messages],
             "gamemode": self.gamemode,
             "triviaState": self.trivia_state.to_dict() if self.trivia_state else None,
             "peopleState": self.people_state.to_dict() if self.people_state else None,

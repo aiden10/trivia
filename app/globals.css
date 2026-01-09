@@ -48,7 +48,7 @@
     background-size: 100% 100%;
   }
   .title {
-    @apply text-[28px] md:text-[44px] text-white md:mb-8 mb-0 font-semibold bg-black/75 p-2 md:m-0 m-4;
+    @apply text-[28px] md:text-[44px] text-white md:mb-8 mb-0 font-semibold bg-stone-950/75 p-2 md:m-0 m-4;
   }
   .heading1 {
     @apply text-white text-2xl md:text-4xl w-full p-4 text-center font-semibold bg-neutral-900 border-2 border-white font-inter;
