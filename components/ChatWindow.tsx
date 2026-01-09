@@ -60,7 +60,7 @@ export default function ChatWindow() {
             </button>
 
             {/* Chat Panel */}
-            <div className="w-[50vw] md:w-[25vw] h-screen bg-stone-900 shadow-xl border-l-4 border-white/75
+            <div className="w-[50vw] md:w-[25vw] h-[60%] md:h-full bg-stone-900 shadow-xl border-b-4 md:border-b-0 border-l-4 border-white/75
                 flex flex-col">
                 
                 <div className="border-white/75 border-b-2 bg-stone-950 bg-lines">
@@ -93,7 +93,7 @@ export default function ChatWindow() {
                             }
                         }}
                         placeholder="Say something..."
-                        className="input-primary font-inter text-[12px] md:text-[18px] w-full"
+                        className="input-primary font-inter text-[16px] w-full"
                     />
                 </form>            
             </div>
