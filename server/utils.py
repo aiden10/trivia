@@ -521,10 +521,10 @@ def get_song_previews():
     SONGS_FOLDER = Path(__file__).parent / "songs"
     PREVIEWS_FOLDER = Path(__file__).parent / "song_previews"
     PREVIEWS_FOLDER.mkdir(exist_ok=True)
-    done = ["80s", "90s"]
+    todo = ["hip_hop"]
     for i, song_file in enumerate(SONGS_FOLDER.glob("*.json")):
         print(f"file {i+1}/{len(list(SONGS_FOLDER.iterdir()))}")
-        if song_file.stem == 'tags' or song_file.stem in done:
+        if song_file.stem == 'tags' or song_file.stem not in todo:
             continue
             
         with open(song_file, "r", encoding="utf-8") as f:
