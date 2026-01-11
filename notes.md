@@ -89,3 +89,6 @@ All players except one (the imposter) are given the same word. Players take turn
 - Make things feel more responsive
 - Change attraction questions to: "In what country would you find the {name}?"
 - Stats or metrics. At least current players. I could track that by incrementing a value when a player joins and decrementing it when they leave. But these should probably be stored in a database. 
+- Chat window should automatically go to the bottom as new messages are added
+- Remove obscure philosophers
+- Allow custom properties for people guesser

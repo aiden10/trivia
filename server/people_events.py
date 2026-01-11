@@ -85,7 +85,6 @@ async def handle_update_stage(message: dict, room: Room):
     
     if room.people_state:
         room.people_state.current_stage = new_stage
-        room.people_state.already_guessed = []
         
     if new_stage == PeopleStages.PropertiesDisplay.value:
         for p in room.players.values():

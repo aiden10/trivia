@@ -183,6 +183,7 @@ export const GameProvider: React.FC<GameProviderProps> = ({ children }) => {
                     return;
                 case Events.UpdateHost:
                     genericHandlers.handleUpdateHost(data);
+                    return;
                 case Events.ChatMessage:
                     genericHandlers.handleMessage(state);
                     return;
