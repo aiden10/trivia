@@ -1,7 +1,6 @@
 import { Player, TriviaStages, TriviaSettings, RoomState } from "@/shared/types";
 import { playSound } from "../utils";
 
-// === Trivia-specific Events ===
 export enum TriviaEvents {
     UpdateStage = "updateStage_trivia",
     UpdateQuestion = "updateQuestion_trivia",

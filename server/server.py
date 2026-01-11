@@ -1,11 +1,14 @@
 import json
 import random
+import asyncio
 from pathlib import Path
+from contextlib import asynccontextmanager
 from fastapi import FastAPI, WebSocket, WebSocketDisconnect
 from fastapi.responses import JSONResponse, FileResponse
 from fastapi.middleware.cors import CORSMiddleware
 from server.models import Room, Player, Events, TriviaEvents, GameModes, CreateRoomBody, PeopleEvents, RotanikaEvents, PeopleBPEvents
-from server.utils import broadcast, generate_room_id, send_state, load_all_images, load_all_questions, load_all_songs
+from server.utils import broadcast, generate_room_id, send_state
+from server.stats import Stats
 from server.events import handle_message, handle_update_gamemode
 from server.trivia_events import (
     handle_restart as handle_trivia_restart,
@@ -49,7 +52,28 @@ origins = [
     "*"
 ]
 
-app = FastAPI()
+stats = Stats()
+
+@asynccontextmanager
+async def lifespan(app: FastAPI):
+    async def periodic_stats_write():
+        while True:
+            await asyncio.sleep(30)
+            await stats.write_to_db()
+    
+    task = asyncio.create_task(periodic_stats_write())
+    
+    try:
+        yield
+    finally:
+        task.cancel()
+        try:
+            await task
+        except asyncio.CancelledError:
+            pass
+        await stats.write_to_db()
+        
+app = FastAPI(lifespan=lifespan)
 app.add_middleware(
     CORSMiddleware,
     allow_origins=origins,
@@ -78,7 +102,6 @@ async def handle_generic_event(message: dict, room: Room, player: Player) -> boo
 
 
 async def handle_trivia_event(message: dict, room: Room):
-    """Handle trivia-specific events."""
     event_type = message.get("type")
     
     match event_type:
@@ -139,7 +162,7 @@ async def handle_peopleBP_event(message: dict, room: Room):
             await handle_peopleBP_update_settings(message, room)
         case PeopleBPEvents.Timeout.value:
             await handle_peopleBP_timeout(message, room)
-
+            
 @app.websocket("/ws/{room_id}")
 async def websocket_endpoint(websocket: WebSocket, room_id: str):
     await websocket.accept()
@@ -162,6 +185,7 @@ async def websocket_endpoint(websocket: WebSocket, room_id: str):
         player_info = json.loads(player_info_data)
         
         player = Player(player_info["name"], room.player_index, websocket)
+        await stats.on_join()
         is_host = len(room.players) == 0
         
         if is_host:
@@ -214,6 +238,7 @@ async def websocket_endpoint(websocket: WebSocket, room_id: str):
         if player and room:
             if player.id in room.players:
                 room.players.pop(player.id)
+                await stats.on_exit()
                 if room.gamemode == GameModes.Rotanika.value:
                     await handle_rotanika_player_disconnect(room, player.id)
                 if room.gamemode == GameModes.PeopleBP.value:
@@ -241,7 +266,6 @@ async def websocket_endpoint(websocket: WebSocket, room_id: str):
         import traceback
         traceback.print_exc()
 
-
 @app.post("/rooms/create")
 async def create_room(create_room_body: CreateRoomBody):    
     room_id = generate_room_id(rooms)
@@ -252,7 +276,6 @@ async def create_room(create_room_body: CreateRoomBody):
         status_code=200
     )
 
-
 @app.get("/rooms")
 async def get_rooms():
     return {
@@ -261,7 +284,6 @@ async def get_rooms():
             for room_id, room in rooms.items()
         }
     }
-
 
 @app.get("/rooms/{room_id}")
 async def get_room(room_id: str):
@@ -279,3 +301,7 @@ async def get_song_file(song_id: int):
     if file_path.exists():
         return FileResponse(file_path, media_type="audio/mpeg")
     return JSONResponse(content={"error": "Song not found"}, status_code=404)
+
+@app.get("/stats")
+async def get_stats():
+    return await stats.to_dict()
