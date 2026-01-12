@@ -47,7 +47,9 @@ async def handle_restart(message: dict, room: Room):
     room.peopleBP_state.current_guesser = random.choice(list(room.players.keys()))
     
     restart_base(room)
-    
+    for p in room.players.values():
+        p.lives = room.peopleBP_state.starting_lives
+        
     room.peopleBP_state.already_guessed = []
     room.peopleBP_state.current_properties = get_properties(room, PeopleBPState)
     room.peopleBP_state.current_stage = PeopleBPStages.Game.value
