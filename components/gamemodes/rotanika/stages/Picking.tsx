@@ -30,7 +30,7 @@ export default function Picking() {
     return (
         <div className="game-screen bg-dots">
             <Back inRoom={true}/>
-            <h1 className="title font-bartle bg-dots">Rotanika</h1>
+            <h1 className="title font-bartle bg-dots">20Q</h1>
 
             <div className="w-full max-w-2xl flex flex-col items-center gap-6">
                 {isPicker ? (

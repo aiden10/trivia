@@ -1,5 +1,5 @@
 import { useGameContext } from "@/shared/GameContext";
-import { PeopleBPStages, PeopleBPSettings as PeopleBPSettingsType } from "@/shared/types";
+import { PeopleBPSettings as PeopleBPSettingsType } from "@/shared/types";
 import PeopleBPSettings from "../PeopleBPSettings";
 import Back from "@/components/Back";
 
@@ -8,8 +8,8 @@ export default function Results() {
         host, 
         players,
         roomState,
-        submitPeopleBPUpdateStage,
         submitPeopleBPUpdateSettings,
+        submitPeopleBPRestart
     } = useGameContext();
 
     const peopleBPState = roomState?.peopleBPState;
@@ -52,7 +52,7 @@ export default function Results() {
                             </p>
                         )}
                         <button
-                            onClick={() => submitPeopleBPUpdateStage(PeopleBPStages.Game)}
+                            onClick={() => submitPeopleBPRestart()}
                             disabled={!canStart}
                             className="btn-primary w-full text-2xl py-4 mt-4 uppercase disabled:opacity-50 disabled:cursor-not-allowed"
                         >
