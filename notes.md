@@ -92,5 +92,4 @@ All players except one (the imposter) are given the same word. Players take turn
 - Chat window should automatically go to the bottom as new messages are added
 - Remove obscure philosophers
 - Allow custom properties for people guesser
-- Most active players stat
 - Game logs in chat (player joined, player exited, etc)
