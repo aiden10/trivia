@@ -11,7 +11,6 @@ export default function Results() {
     } = useGameContext();
 
     const rotanikaState = roomState?.rotanikaState;
-    const winner = rotanikaState?.winner;
     const winReason = rotanikaState?.winReason;
     const pickerId = rotanikaState?.pickerId;
     const questions = rotanikaState?.questions ?? [];

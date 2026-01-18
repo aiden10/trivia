@@ -182,7 +182,7 @@ async def handle_update_settings(message: dict, room: Room):
         room.trivia_state.song_categories = song_categories
         room.trivia_state.current_question = get_question(room)
 
-    if "duration" in data:
+    if "questionDuration" in data:
         room.trivia_state.question_duration = data["duration"]
     
     if "winningScore" in data:

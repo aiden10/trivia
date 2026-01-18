@@ -18,7 +18,7 @@ export default function ChatWindow() {
         } else if (messages.length > lastMessageCount) {
             setUnread(true);
         }
-    }, [messages.length, isOpen]);
+    }, [messages.length, isOpen, lastMessageCount]);
 
     useEffect(() => {
         const handleClickOutside = (event: MouseEvent) => {

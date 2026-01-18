@@ -9,8 +9,8 @@ export default function PeopleBPRules() {
             </h2>
             <div className="text-white/60 text-sm space-y-2 mb-4">
                 <p>Each player starts with lives</p>
-                <p>A random prompt is shown on each player's turn</p>
-                <p>A player's turn lasts for a random amount of time (exact range set by host)</p>
+                <p>A random prompt is shown on each player&apos;s turn</p>
+                <p>A player&apos;s turn lasts for a random amount of time (exact range set by host)</p>
             </div>
 
             <h2 className="text-white text-xl md:text-2xl font-semibold mb-4 border-b-2 border-white">
