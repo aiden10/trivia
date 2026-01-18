@@ -27,13 +27,6 @@ export default function RotanikaSettings({ host, onSettingsChange }: RotanikaSet
         }
     }, [settings]);
 
-    const handleMinQuestionsChange = (value: number) => {
-        setMinQuestions(value);
-        if (host) {
-            onSettingsChange({ minQuestions: value, maxQuestions, pickerId });
-        }
-    };
-
     const handleMaxQuestionsChange = (value: number) => {
         setMaxQuestions(value);
         if (host) {
@@ -62,34 +55,12 @@ export default function RotanikaSettings({ host, onSettingsChange }: RotanikaSet
 
     return (
         <div className="settings-group">
-            {/* Min Questions */}
-            <div className="flex flex-col gap-2">
-                <label className="settings-label group relative cursor-help">
-                    Minimum Questions: {minQuestions}
-                    <span className="tooltip">
-                        If guessed before this many questions, only the guesser wins
-                    </span>
-                </label>
-                {host ? (
-                    <input
-                        type="range"
-                        min={1}
-                        max={15}
-                        value={minQuestions}
-                        onChange={(e) => handleMinQuestionsChange(parseInt(e.target.value))}
-                        className="w-full accent-white"
-                    />
-                ) : (
-                    <p className="text-white/70 font-inter">{minQuestions}</p>
-                )}
-            </div>
-
             {/* Max Questions */}
             <div className="flex flex-col gap-2">
                 <label className="settings-label group relative cursor-help">
                     Maximum Questions: {maxQuestions}
                     <span className="tooltip">
-                        If not guessed by this many questions, the picker loses
+                        If not guessed by this many questions, the picker wins
                     </span>
                 </label>
                 {host ? (

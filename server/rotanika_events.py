@@ -118,12 +118,8 @@ async def handle_answer_question(message: dict, room: Room):
     
     if last_question.is_deciding:
         if answer == 'yes':
-            room.rotanika_state.winner = last_question.asked_by
-            
-            if len(room.rotanika_state.questions) < room.rotanika_state.min_questions:
-                room.rotanika_state.win_reason = 'minNotReached'
-            else:
-                room.rotanika_state.win_reason = 'guessed'
+            room.rotanika_state.winner = last_question.asked_by            
+            room.rotanika_state.win_reason = 'guessed'
             
             room.rotanika_state.current_stage = RotanikaStages.Results.value
             await broadcast({
@@ -141,7 +137,7 @@ async def handle_answer_question(message: dict, room: Room):
     # Check if max questions reached
     if len(room.rotanika_state.questions) >= room.rotanika_state.max_questions:
         room.rotanika_state.win_reason = 'maxReached'
-        room.rotanika_state.winner = None  # Picker loses, everyone else wins
+        room.rotanika_state.winner = None 
         room.rotanika_state.current_stage = RotanikaStages.Results.value
         await broadcast({
             "type": RotanikaEvents.GuessResult.value,

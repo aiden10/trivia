@@ -1,12 +1,11 @@
-'use client'
-
-import { useEffect, useState } from "react";
+import { useEffect, useState, useRef } from "react";
 import { useGameContext } from "@/shared/GameContext";
 
 export default function ChatWindow() {
     const [isOpen, setOpen] = useState(false);
     const [messageText, setMessageText] = useState("");
     const { submitMessage, name, roomState } = useGameContext();
+    const chatRef = useRef<HTMLDivElement>(null);
 
     const messages = roomState?.messages ?? [];
     const [unread, setUnread] = useState<boolean>(false);
@@ -21,6 +20,17 @@ export default function ChatWindow() {
         }
     }, [messages.length, isOpen]);
 
+    useEffect(() => {
+        const handleClickOutside = (event: MouseEvent) => {
+            if (chatRef.current && !chatRef.current.contains(event.target as Node) && isOpen) {
+                setOpen(false);
+            }
+        };
+
+        document.addEventListener("mousedown", handleClickOutside);
+        return () => document.removeEventListener("mousedown", handleClickOutside);
+    }, [isOpen]);
+
     const handleSubmit = (e: React.FormEvent) => {
         e.preventDefault();
         if (!messageText.trim()) return;
@@ -29,8 +39,8 @@ export default function ChatWindow() {
     };
 
     return (
-        <div className={`${isOpen ? 'translate-x-0' : 'md:translate-x-[90%] translate-x-[85%]'} 
-            fixed right-0 top-0 h-screen flex transition-transform duration-300 z-2`}>
+        <div ref={chatRef} className={`${isOpen ? 'translate-x-0' : 'md:translate-x-[90%] translate-x-[85%]'} 
+            fixed right-0 top-0 h-screen flex transition-transform duration-300 z-5`}>
             
             {/* Toggle Button */}
             <button 

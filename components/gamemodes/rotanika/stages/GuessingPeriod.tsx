@@ -48,9 +48,6 @@ export default function GuessingPeriod() {
                     <span className="text-white font-inter">
                         Questions: {questions.length} / {settings?.maxQuestions ?? 20}
                     </span>
-                    <span className="text-white font-inter">
-                        Min to win together: {settings?.minQuestions ?? 5}
-                    </span>
                 </div>
 
                 {/* Current Question Display */}

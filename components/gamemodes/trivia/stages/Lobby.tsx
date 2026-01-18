@@ -33,7 +33,10 @@ export default function Lobby() {
                         onSettingsChange={handleSettingsChange}
                     />
                 </div>
-                
+                <p className="text-amber-400/75 mt-4 font-inter text-[12px] md:text-[16px] font-light italic bg-amber-400/30 p-2 ">
+                    Note: The text question answers are sometimes flawed
+                </p>
+
                 {host && (
                     <button
                         onClick={() => submitTriviaUpdateStage(TriviaStages.QuestionDisplay)}    

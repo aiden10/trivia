@@ -16,30 +16,21 @@ export default function Results() {
     const pickerId = rotanikaState?.pickerId;
     const questions = rotanikaState?.questions ?? [];
 
-    const winnerName = players.find(p => p.playerID === winner)?.playerName;
     const pickerName = players.find(p => p.playerID === pickerId)?.playerName;
 
     const getResultMessage = () => {
         switch (winReason) {
-            case 'guessed':
-                return {
-                    title: `${winnerName} guessed it!`,
-                    subtitle: `The secret was: ${rotanikaState?.secretThing}`,
-                    description: questions.length < (rotanikaState?.settings.minQuestions ?? 5)
-                        ? `Guessed in only ${questions.length} questions! Only the guesser wins.`
-                        : `Guessed in ${questions.length} questions. Both ${winnerName} and ${pickerName} win!`
-                };
             case 'maxReached':
                 return {
-                    title: 'Nobody guessed it!',
+                    title: 'Game Over!',
                     subtitle: `The secret was: ${rotanikaState?.secretThing}`,
-                    description: `${pickerName} (the picker) loses. Everyone else wins!`
+                    description: `${pickerName} wins! Everyone else loses`
                 };
-            case 'minNotReached':
+            case 'guessed':
                 return {
-                    title: 'Too easy...',
+                    title: 'Game Over!',
                     subtitle: `The secret was: ${rotanikaState?.secretThing}`,
-                    description: `Guessed before the minimum questions. ${winnerName} wins!`
+                    description: `The guessers win! ${pickerName} loses`
                 };
             default:
                 return {
@@ -63,8 +54,8 @@ export default function Results() {
                     <h2 className="md:text-[32px] text-[18px] text-white font-bartle mb-4">
                         {result.title}
                     </h2>
-                    <p className="text-white bg-emerald-900/50 md:text-[32px] text-[18px] font-inter font-thin mb-4
-                    border-2 border-emerald-800 lowercase">
+                    <p className="text-white bg-emerald-900/50 md:text-[32px] text-[18px] font-inter font-semibold mb-4
+                    border-2 border-emerald-800">
                         {result.subtitle}
                     </p>
                     <p className="text-white/70 font-inter">
