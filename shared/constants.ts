@@ -1,8 +1,7 @@
-
 // for prod
-export const SOCKET_URL = "wss://trivia.aiden.photo/ws"
-export const CREATE_ROOM_ENDPOINT = "https://trivia.aiden.photo/rooms/create"
-export const GET_SONG_ENDPOINT = "https://trivia.aiden.photo/songs"
+export const SOCKET_URL = "wss://132.145.109.45/ws";
+export const CREATE_ROOM_ENDPOINT = "https://132.145.109.45/rooms/create";
+export const GET_SONG_ENDPOINT = "https://132.145.109.45/songs";
 
 // for testing
 // export const SOCKET_URL = "http://localhost:8000/ws"

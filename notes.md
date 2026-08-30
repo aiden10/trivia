@@ -93,3 +93,4 @@ All players except one (the imposter) are given the same word. Players take turn
 - Remove obscure philosophers
 - Allow custom properties for people guesser
 - Game logs in chat (player joined, player exited, etc)
+- Leaving page and quickly going back, creates a new user, and keeps the existing user on the server. 
