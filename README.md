@@ -38,5 +38,7 @@ This gamemode uses questions from the TriviaQA dataset, Wikidata for the image q
 <img width="1197" height="873" alt="image" src="https://github.com/user-attachments/assets/f1a6aff0-4a0c-4725-ad50-2376d6855cae" />
 
 # Running Locally
-To run locally, clone the repo, install the dependencies (```npm i```), start the server (```fastapi dev server.py```), and also start the frontend server (```npm run dev```). However, the frontend is set to use the hosted server address by default, so you'd need to also update constants.ts to use localhost addresses instead. 
+To run locally, clone the repo, install the dependencies (```npm i```), start the server (```fastapi dev server.py```), and also start the frontend server (```npm run dev```).
+
+In development (`npm run dev`) the frontend automatically connects to `http://localhost:8000`, and in production builds it uses the hosted server. If you need to override the URLs (e.g. to test from your phone on the same network), copy `.env.example` to `.env.development.local` and uncomment the `NEXT_PUBLIC_*` values you need.
 
