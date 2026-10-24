@@ -57,6 +57,8 @@ origins = [
     "http://localhost",
     "http://localhost:3000",
     "https://mtrivia.vercel.app",
+    "https://room-games.vercel.app",
+    "https://trivia.aiden.photo"
     "*"
 ]
 
