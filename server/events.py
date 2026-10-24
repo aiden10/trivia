@@ -25,6 +25,9 @@ async def handle_update_gamemode(message: dict, room: Room):
         room.peopleBP_state.current_properties = get_properties(room, PeopleBPState)
         for p in room.players.values(): p.lives = room.peopleBP_state.starting_lives
 
+    if gamemode == GameModes.Obscure.value:
+        room.obscure_state = ObscureState()
+
     # Reset scores and guesses
     restart_base(room)
     

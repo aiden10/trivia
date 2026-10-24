@@ -12,6 +12,7 @@ class GameModes(Enum):
     PeopleGuesser = "people"
     Rotanika = "rotanika"
     PeopleBP = "peopleBP"
+    Obscure = "obscure"
 
 class TriviaStages(Enum):
     Lobby = 0
@@ -35,6 +36,13 @@ class PeopleBPStages(Enum):
     Lobby = 0
     Game = 1
     Results = 2
+
+class ObscureStages(Enum):
+    Lobby = 0
+    PromptDisplay = 1
+    Submitting = 2
+    Reveal = 3
+    Results = 4
 
 class Events(Enum):
     Quit = "quit"
@@ -81,6 +89,15 @@ class PeopleBPEvents(Enum):
     IncorrectAnswer = "incorrectAnswer_peopleBP"
     Timeout = "timeout_peopleBP"
     Restart = "restart_peopleBP"
+
+class ObscureEvents(Enum):
+    UpdateStage = "updateStage_obscure"
+    UpdateSettings = "updateSettings_obscure"
+    SubmitEntity = "submitEntity_obscure"
+    Submission = "submission_obscure"
+    InvalidAnswer = "invalidAnswer_obscure"
+    Reveal = "reveal_obscure"
+    Restart = "restart_obscure"
 
 class TriviaCategories(Enum):
     History = "history"
@@ -308,6 +325,112 @@ class PeopleBPState(BaseModel):
             }
         }
 
+class ObscurePrompt(BaseModel):
+    id: str
+    general: str
+    specifier: Optional[str] = None
+    text: str
+    country_id: Optional[str] = None
+    country_name: Optional[str] = None
+
+    def to_dict(self) -> dict:
+        return {
+            "id": self.id,
+            "general": self.general,
+            "specifier": self.specifier,
+            "text": self.text,
+            "countryId": self.country_id,
+            "countryName": self.country_name,
+        }
+
+class ObscureSubmission(BaseModel):
+    player_id: int
+    player_name: str = ""
+    entity_id: str
+    entity_name: str
+    sitelinks: int = 0
+    views_site: Optional[str] = None
+    views_title: Optional[str] = None
+    page_views: int = 0
+    popularity: float = 0.0
+    points: int = 0
+
+    def to_dict(self) -> dict:
+        return {
+            "playerId": self.player_id,
+            "entityId": self.entity_id,
+            "entityName": self.entity_name,
+            "sitelinks": self.sitelinks,
+            "pageViews": self.page_views,
+            "popularity": self.popularity,
+            "points": self.points,
+        }
+
+class ObscureGuess(BaseModel):
+    player_id: int
+    player_name: str
+    entity_id: str
+    entity_name: str
+    popularity: float
+    points: int = 0
+    round_number: int = 0
+
+    def to_dict(self) -> dict:
+        return {
+            "playerId": self.player_id,
+            "playerName": self.player_name,
+            "entityId": self.entity_id,
+            "entityName": self.entity_name,
+            "popularity": self.popularity,
+            "points": self.points,
+            "roundNumber": self.round_number,
+        }
+
+class ObscureState(BaseModel):
+    current_stage: int = ObscureStages.Lobby.value
+    current_prompt: Optional[ObscurePrompt] = None
+    round_number: int = 0
+    submissions: list[ObscureSubmission] = []
+    round_results: list[ObscureSubmission] = []
+    guess_history: list[ObscureGuess] = []
+    used_entities: list[str] = []
+    duration: int = 45
+    winning_score: int = 50
+    sitelink_weight: float = 0.5
+    pageview_weight: float = 0.5
+    prompts: list[str] = []
+
+    def to_dict(self) -> dict:
+        # Imported lazily to avoid a circular import at module load time.
+        from server.obscure_prompts import catalog_dict, default_prompt_ids
+
+        most_obscure: list[dict] = []
+        if self.current_stage == ObscureStages.Results.value:
+            most_obscure = [
+                guess.to_dict()
+                for guess in sorted(
+                    self.guess_history,
+                    key=lambda g: (g.popularity, g.round_number, g.entity_name),
+                )[:5]
+            ]
+
+        return {
+            "currentStage": self.current_stage,
+            "currentPrompt": self.current_prompt.to_dict() if self.current_prompt else None,
+            "roundNumber": self.round_number,
+            "submissions": [s.to_dict() for s in self.submissions],
+            "roundResults": [s.to_dict() for s in self.round_results],
+            "mostObscure": most_obscure,
+            "settings": {
+                "duration": self.duration,
+                "winningScore": self.winning_score,
+                "sitelinkWeight": self.sitelink_weight,
+                "pageviewWeight": self.pageview_weight,
+                "prompts": self.prompts or default_prompt_ids(),
+            },
+            "catalog": catalog_dict(),
+        }
+
 class Player:
     def __init__(self, name: str, id: int, socket: WebSocket):
         self.name: str = name
@@ -359,6 +482,7 @@ class Room:
         self.people_state: Optional[PeopleState] = None
         self.rotanika_state: Optional[RotanikaState] = None
         self.peopleBP_state: Optional[PeopleBPState] = None
+        self.obscure_state: Optional[ObscureState] = None
         self.password = password
         self.messages: list[Message] = []
 
@@ -372,5 +496,6 @@ class Room:
             "triviaState": self.trivia_state.to_dict() if self.trivia_state else None,
             "peopleState": self.people_state.to_dict() if self.people_state else None,
             "rotanikaState": self.rotanika_state.to_dict() if self.rotanika_state else None,
-            "peopleBPState": self.peopleBP_state.to_dict() if self.peopleBP_state else None
+            "peopleBPState": self.peopleBP_state.to_dict() if self.peopleBP_state else None,
+            "obscureState": self.obscure_state.to_dict() if self.obscure_state else None
         }

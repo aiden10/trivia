@@ -85,7 +85,6 @@ All players except one (the imposter) are given the same word. Players take turn
 - Remove special characters when checking answers
 - Add CI/CD
     - npm run build check before commits can be pushed to main
-    - ensure localhost urls aren't being used
     - have server check for updates to main and automatically pull, then restart docker container
 - Make things feel more responsive
 - Change attraction questions to: "In what country would you find the {name}?"

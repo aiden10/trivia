@@ -6,7 +6,7 @@ from contextlib import asynccontextmanager
 from fastapi import FastAPI, WebSocket, WebSocketDisconnect
 from fastapi.responses import JSONResponse, FileResponse
 from fastapi.middleware.cors import CORSMiddleware
-from server.models import Room, Player, Events, TriviaEvents, GameModes, CreateRoomBody, PeopleEvents, RotanikaEvents, PeopleBPEvents
+from server.models import Room, Player, Events, TriviaEvents, GameModes, CreateRoomBody, PeopleEvents, RotanikaEvents, PeopleBPEvents, ObscureEvents
 from server.utils import broadcast, generate_room_id, send_state
 from server.stats import Stats
 from server.events import handle_message, handle_update_gamemode
@@ -42,6 +42,14 @@ from server.peopleBP_events import (
     handle_timeout as handle_peopleBP_timeout,
     handle_player_disconnect as handle_peopleBP_player_disconnect
 )
+from server.obscure_events import (
+    handle_restart as handle_obscure_restart,
+    handle_submit as handle_obscure_submit,
+    handle_reveal as handle_obscure_reveal,
+    handle_update_stage as handle_obscure_update_stage,
+    handle_update_settings as handle_obscure_update_settings,
+    handle_player_disconnect as handle_obscure_player_disconnect
+)
 
 SONG_PREVIEWS_DIR = Path(__file__).parent / "song_previews"
 
@@ -71,7 +79,10 @@ async def lifespan(app: FastAPI):
             await task
         except asyncio.CancelledError:
             pass
-        await stats.write_to_db()
+        try:
+            await stats.write_to_db()
+        finally:
+            stats.close()
         
 app = FastAPI(lifespan=lifespan)
 app.add_middleware(
@@ -162,6 +173,20 @@ async def handle_peopleBP_event(message: dict, room: Room):
             await handle_peopleBP_update_settings(message, room)
         case PeopleBPEvents.Timeout.value:
             await handle_peopleBP_timeout(message, room)
+
+async def handle_obscure_event(message: dict, room: Room):
+    event_type = message.get("type")
+    match event_type:
+        case ObscureEvents.Restart.value:
+            await handle_obscure_restart(message, room)
+        case ObscureEvents.UpdateStage.value:
+            await handle_obscure_update_stage(message, room)
+        case ObscureEvents.SubmitEntity.value:
+            await handle_obscure_submit(message, room)
+        case ObscureEvents.Reveal.value:
+            await handle_obscure_reveal(message, room)
+        case ObscureEvents.UpdateSettings.value:
+            await handle_obscure_update_settings(message, room)
             
 @app.websocket("/ws/{room_id}")
 async def websocket_endpoint(websocket: WebSocket, room_id: str):
@@ -233,6 +258,8 @@ async def websocket_endpoint(websocket: WebSocket, room_id: str):
                         await handle_rotanika_event(message, room)
                     case GameModes.PeopleBP.value:
                         await handle_peopleBP_event(message, room)
+                    case GameModes.Obscure.value:
+                        await handle_obscure_event(message, room)
 
     except WebSocketDisconnect:
         if player and room:
@@ -243,6 +270,8 @@ async def websocket_endpoint(websocket: WebSocket, room_id: str):
                     await handle_rotanika_player_disconnect(room, player.id)
                 if room.gamemode == GameModes.PeopleBP.value:
                     await handle_peopleBP_player_disconnect(room, player.id)
+                if room.gamemode == GameModes.Obscure.value:
+                    await handle_obscure_player_disconnect(room, player.id)
 
                 if player.id == room.host_id and len(room.players) > 0:
                     new_host = random.choice(list(room.players.keys()))

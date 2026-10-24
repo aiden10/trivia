@@ -1,5 +1,5 @@
 # About
-The site has 4 different multiplayer games which can be played with other people. You can create rooms and select different gamemodes. 
+The site has 5 different multiplayer games which can be played with other people. You can create rooms and select different gamemodes.
 <img width="1920" height="913" alt="image" src="https://github.com/user-attachments/assets/f1b15b8d-61d5-42e7-8134-6bea0514a879" />
 <img width="1026" height="717" alt="image" src="https://github.com/user-attachments/assets/84827b12-e042-4ae3-8b4c-3d31a35e2b76" />
 
@@ -30,8 +30,11 @@ This gamemode uses questions from the TriviaQA dataset, Wikidata for the image q
 #### Rules
 <img width="760" height="606" alt="image" src="https://github.com/user-attachments/assets/49c429b6-60a3-4681-9f12-ae4969b83848" />
 
+### Obscure
+A prompt is shown (e.g. "Horror Movie" or "City in France") and players search Wikidata for an entity which fits the criteria. Answers are validated against the prompt and hidden until the round ends, then popularity is calculated from sitelinks and page views. The goal is to have the least popular answer.
+
 ## Other Features
-- Collapsible chat window
+- Live chat
 <img width="527" height="913" alt="image" src="https://github.com/user-attachments/assets/8bbf2c5f-2197-4dc7-9da2-5fb6a3f1d747" />
  
 - Each gamemode has many settings which can be customized

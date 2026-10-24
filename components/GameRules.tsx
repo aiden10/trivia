@@ -3,6 +3,7 @@ import TriviaRules from "./gamemodes/trivia/TriviaRules"
 import RotanikaRules from "./gamemodes/rotanika/RotanikaRules"
 import PeopleRules from "./gamemodes/people/PeopleRules"
 import PeopleBPRules from "./gamemodes/peopleBP/PeopleBPRules"
+import ObscureRules from "./gamemodes/obscure/ObscureRules"
 import { useRef, useEffect } from "react"
 
 export default function GameRules({ gamemode, onClose }: { gamemode: GameModes, onClose: () => void }) {
@@ -28,6 +29,7 @@ export default function GameRules({ gamemode, onClose }: { gamemode: GameModes, 
                 {gamemode === GameModes.PeopleGuesser && <PeopleRules />}
                 {gamemode === GameModes.Rotanika && <RotanikaRules />}
                 {gamemode === GameModes.PeopleBP && <PeopleBPRules />}
+                {gamemode === GameModes.Obscure && <ObscureRules />}
             </div>
         </div>
     )

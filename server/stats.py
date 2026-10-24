@@ -4,7 +4,10 @@ import asyncio
 class Stats:
     def __init__(self, db_path="stats.db"):
         self._lock = asyncio.Lock()
-        self.db = sqlite3.connect(db_path, check_same_thread=False)
+        # Wait for a concurrent writer (e.g. a uvicorn reloader process that is
+        # still shutting down) instead of failing immediately.
+        self.db = sqlite3.connect(db_path, check_same_thread=False, timeout=30)
+        self.db.execute("PRAGMA busy_timeout = 30000")
         self.db.execute("""
             CREATE TABLE IF NOT EXISTS global_stats (
                 id INTEGER PRIMARY KEY CHECK (id = 1),
@@ -16,15 +19,21 @@ class Stats:
             INSERT OR IGNORE INTO global_stats (id, total_joins, total_leaves)
             VALUES (1, 0, 0)
         """)
-        
-        # For when I add new columns after the stats table has already been created  
+        # Commit the schema setup before the migration below.  Otherwise a
+        # duplicate-column error (which is expected on every start after the
+        # first) leaves this transaction open and locks the database.
+        self.db.commit()
+
+        # For when I add new columns after the stats table has already been created
         try:
             self.db.execute("""
                 ALTER TABLE global_stats ADD COLUMN most_active_players INTEGER DEFAULT 0
             """)
             self.db.commit()
-        except sqlite3.OperationalError:
-            pass
+        except sqlite3.OperationalError as e:
+            self.db.rollback()
+            if "duplicate column name" not in str(e).lower():
+                raise
 
         self.active_players = 0
         self.total_joins = 0
@@ -79,3 +88,11 @@ class Stats:
                 "total_leaves": db_leaves + self.total_leaves,
                 "most_active_players": max(db_most_active, self.most_active_players),
             }
+
+    def close(self):
+        """Flush and release the database file (important for dev reloads)."""
+        try:
+            self.db.commit()
+        except sqlite3.Error:
+            pass
+        self.db.close()

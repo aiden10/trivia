@@ -3,12 +3,14 @@
 import React, { createContext, useContext, useState, useEffect, ReactNode } from 'react';
 import { Player, GameModes, RoomState, TriviaStages, 
         TriviaSettings, PeopleStages, PeopleSettings,
-        RotanikaStages, RotanikaSettings, PeopleBPSettings, PeopleBPStages } from './types';
+        RotanikaStages, RotanikaSettings, PeopleBPSettings, PeopleBPStages,
+        ObscureStages, ObscureSettings } from './types';
 import { Events, createGenericEventHandlers, createGenericEventEmitters } from './events';
 import { TriviaEvents, createTriviaEventHandlers, createTriviaEventEmitters } from './trivia/events';
 import { PeopleEvents, createPeopleEventEmitters, createPeopleEventHandlers } from './people/events';
 import { RotanikaEvents, createRotanikaEventEmitters, createRotanikaEventHandlers } from './rotanika/events';
 import { PeopleBPEvents, createPeopleBPEventEmitters, createPeopleBPEventHandlers } from './peopleBP/events';
+import { ObscureEvents, createObscureEventEmitters, createObscureEventHandlers } from './obscure/events';
 
 interface GameContextType {
     // Core State
@@ -64,6 +66,13 @@ interface GameContextType {
     submitPeopleBPUpdateProperties: () => void;
     submitPeopleBPUpdateSettings: (settings: PeopleBPSettings) => void;
     submitPeopleBPRestart: () => void;
+
+    // Obscure Events
+    submitObscureEntity: (entityId: string) => void;
+    submitObscureReveal: () => void;
+    submitObscureUpdateStage: (newStage: ObscureStages) => void;
+    submitObscureUpdateSettings: (settings: ObscureSettings) => void;
+    submitObscureRestart: () => void;
 
     // Utility
     getPlayerData: (id: number) => Player | undefined;
@@ -152,6 +161,18 @@ export const GameProvider: React.FC<GameProviderProps> = ({ children }) => {
     });
 
     const peopleBPEmitters = createPeopleBPEventEmitters(socket, {
+        playerID,
+        roomState,
+    });
+
+    const obscureHandlers = createObscureEventHandlers({
+        setPlayers,
+        setRoomState,
+        roomState,
+        playerID
+    });
+
+    const obscureEmitters = createObscureEventEmitters(socket, {
         playerID,
         roomState,
     });
@@ -259,6 +280,25 @@ export const GameProvider: React.FC<GameProviderProps> = ({ children }) => {
                     peopleBPHandlers.handleTimeout(state);
                     return;
             }
+
+            switch (type) {
+                case ObscureEvents.UpdateStage:
+                case ObscureEvents.UpdateSettings:
+                    obscureHandlers.handleStateUpdate(state);
+                    return;
+                case ObscureEvents.Submission:
+                    obscureHandlers.handleSubmission(data, state);
+                    return;
+                case ObscureEvents.InvalidAnswer:
+                    obscureHandlers.handleInvalidAnswer(data);
+                    return;
+                case ObscureEvents.Reveal:
+                    obscureHandlers.handleReveal(state);
+                    return;
+                case ObscureEvents.Restart:
+                    obscureHandlers.handleRestart(state);
+                    return;
+            }
             console.warn('Unknown message type:', type);
         };
 
@@ -323,6 +363,13 @@ export const GameProvider: React.FC<GameProviderProps> = ({ children }) => {
         submitPeopleBPUpdateProperties: peopleBPEmitters.submitUpdateProperties,
         submitPeopleBPUpdateSettings: peopleBPEmitters.submitUpdateSettings,
         submitPeopleBPRestart: peopleBPEmitters.submitRestart,
+
+        // Obscure Events
+        submitObscureEntity: obscureEmitters.submitEntity,
+        submitObscureReveal: obscureEmitters.submitReveal,
+        submitObscureUpdateStage: obscureEmitters.submitUpdateStage,
+        submitObscureUpdateSettings: obscureEmitters.submitUpdateSettings,
+        submitObscureRestart: obscureEmitters.submitRestart,
 
         // Utility
         getPlayerData,

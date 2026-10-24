@@ -23,6 +23,7 @@ export enum GameModes {
     PeopleGuesser = "people",
     Rotanika = "rotanika",
     PeopleBP = "peopleBP",
+    Obscure = "obscure",
 }
 
 export const GamemodeOptions: Array<{ id: GameModes; name: string; description: string }> = [
@@ -46,6 +47,11 @@ export const GamemodeOptions: Array<{ id: GameModes; name: string; description: 
         name: "PeopleGuesser: Bomb Party",
         description: "Take turns guessing people based on the prompt before the timer runs out"
     },
+    {
+        id: GameModes.Obscure,
+        name: "Obscure",
+        description: "Find the least popular answer that matches the prompt"
+    },
 ];
 
 export interface RoomState {
@@ -58,6 +64,7 @@ export interface RoomState {
     peopleState: PeopleState | null;
     rotanikaState: RotanikaState | null;
     peopleBPState: PeopleBPState | null;
+    obscureState: ObscureState | null;
 }
 
 export enum TriviaStages {
@@ -85,6 +92,14 @@ export enum PeopleBPStages {
     Lobby = 0,
     Game = 1,
     Results = 2
+}
+
+export enum ObscureStages {
+    Lobby = 0,
+    PromptDisplay = 1,
+    Submitting = 2,
+    Reveal = 3,
+    Results = 4,
 }
 
 export enum PeopleProperties {
@@ -194,6 +209,49 @@ export interface PeopleBPSettings {
     properties?: string[];
 }
 
+export interface ObscureSettings {
+    duration?: number;
+    winningScore?: number;
+    sitelinkWeight?: number;
+    pageviewWeight?: number;
+    prompts?: string[];
+}
+
+export interface ObscurePrompt {
+    id: string;
+    general: string;
+    specifier: string | null;
+    text: string;
+    countryId: string | null;
+    countryName: string | null;
+}
+
+export interface ObscureSubmission {
+    playerId: number;
+    entityId: string;
+    entityName: string;
+    sitelinks: number;
+    pageViews: number;
+    popularity: number;
+    points: number;
+}
+
+export interface ObscureGuess {
+    playerId: number;
+    playerName: string;
+    entityId: string;
+    entityName: string;
+    popularity: number;
+    points: number;
+    roundNumber: number;
+}
+
+export interface ObscurePromptGroup {
+    id: string;
+    name: string;
+    prompts: Array<{ id: string; name: string }>;
+}
+
 interface SongState {
     songID: number;
     songName: string;
@@ -249,4 +307,15 @@ export interface PeopleBPState {
     alreadyGuessed: string[];
     winner: number | null;
     settings: PeopleBPSettings;
+}
+
+export interface ObscureState {
+    currentStage: ObscureStages;
+    currentPrompt: ObscurePrompt | null;
+    roundNumber: number;
+    submissions: ObscureSubmission[];
+    roundResults: ObscureSubmission[];
+    mostObscure: ObscureGuess[];
+    settings: ObscureSettings;
+    catalog: ObscurePromptGroup[];
 }
