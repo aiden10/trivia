@@ -24,6 +24,7 @@ export default function QuestionDisplay() {
     const currentStage = triviaState?.currentStage;
     const hasImage = !!question?.image;
     const isSongQuestion = !!question?.songState;
+    const songId = question?.songState?.songID;
 
     const [remainingTime, setRemainingTime] = useState(questionDuration);
     const [guess, setGuess] = useState("");
@@ -45,29 +46,23 @@ export default function QuestionDisplay() {
         : !guessedCorrectly;
 
     useEffect(() => {
-        if (isSongQuestion && question?.songState?.songID) {
-            const audio = new Audio(`${GET_SONG_ENDPOINT}/${question.songState.songID}`);
+        if (songId) {
+            const audio = new Audio(`${GET_SONG_ENDPOINT}/${songId}`);
             audioRef.current = audio;
             audio.loop = true;
-            
+
             const playPromise = audio.play();
-            
+
+            playPromise?.catch(() => {});
+
             return () => {
-                if (playPromise) {
-                    playPromise
-                        .then(() => {
-                            if (!audio.paused) {
-                                audio.pause();
-                            }
-                        })
-                        .catch(() => {}
-                        );
-                }
-                audio.src = '';
+                audio.pause();
+                audio.removeAttribute('src');
                 audio.load();
+                audioRef.current = null;
             };
         }
-    }, [isSongQuestion, question?.songState]);
+    }, [songId]);
 
     // Reset state when question changes
     useEffect(() => {
@@ -147,7 +142,7 @@ export default function QuestionDisplay() {
                         <div className="flex flex-col gap-2">
                             <div className="flex items-center justify-center gap-2">
                                 <span className="text-white/60 text-sm font-inter uppercase tracking-wider animate-pulse">
-                                    ♪ Now Playing
+                                    ♪ Now Playing ♪
                                 </span>
                             </div>
                             <div className="flex gap-4 justify-center">
@@ -156,14 +151,14 @@ export default function QuestionDisplay() {
                                         ? 'bg-emerald-700 border-emerald-400 text-emerald-200' 
                                         : 'bg-neutral-800 border-white/50 text-white/70'
                                 }`}>
-                                    🎵 Song {guessedSong ? '✓' : '?'}
+                                    Song{guessedSong ? '✓' : '?'}
                                 </div>
                                 <div className={`px-4 md:w-1/4 w-full py-2 border-2 font-inter font-bold ${
                                     guessedArtist 
                                         ? 'bg-emerald-700 border-emerald-400 text-emerald-200' 
                                         : 'bg-neutral-800 border-white/50 text-white/70'
                                 }`}>
-                                    🎤 Artist {guessedArtist ? '✓' : '?'}
+                                    Artist{guessedArtist ? '✓' : '?'}
                                 </div>
                             </div>
                         </div>

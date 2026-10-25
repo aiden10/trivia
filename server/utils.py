@@ -142,7 +142,9 @@ def get_question(room: Room) -> TriviaQuestion:
         for category in room.trivia_state.song_categories:
             if category.value in SONG_DATA:
                 for song in SONG_DATA[category.value]:
-                    all_questions.append(("song", song))
+                    # Only offer songs whose preview file exists locally
+                    if (PREVIEWS_FOLDER / f"{song['id']}.mp3").exists():
+                        all_questions.append(("song", song))
         
     if not all_questions:
         return
@@ -187,7 +189,8 @@ def get_song(room: Room) -> SongState | None:
     for category in room.trivia_state.song_categories:
         if category in SONG_DATA:
             for song in SONG_DATA[category]:
-                available_songs.append(song)
+                if (PREVIEWS_FOLDER / f"{song['id']}.mp3").exists():
+                    available_songs.append(song)
     
     if not available_songs:
         return None
