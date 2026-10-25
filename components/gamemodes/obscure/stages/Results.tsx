@@ -34,7 +34,7 @@ export default function Results() {
             <h1 className="title font-bartle bg-dots">Game Over</h1>
 
             {winners.length > 0 && (
-                <div className="w-full max-w-2xl bg-gradient-to-b from-amber-900/50 to-neutral-900
+                <div className="w-full max-w-4xl bg-gradient-to-b from-amber-900/50 to-neutral-900
                     border-2 border-amber-500 p-8 md:p-12 text-center">
                     <p className="text-amber-400 text-2xl font-inter uppercase mb-4">
                         {winners.length > 1 ? "Winners" : "Winner"}
@@ -49,7 +49,7 @@ export default function Results() {
             )}
 
             {mostObscure.length > 0 && (
-                <div className="w-full max-w-3xl bg-neutral-900 border-2 border-white font-inter">
+                <div className="w-full max-w-4xl bg-neutral-900 border-2 border-white font-inter">
                     <div className="flex items-baseline justify-between gap-4 p-3 border-b border-white/30 bg-black/50">
                         <h2 className="text-white uppercase text-sm">Most Obscure Guesses</h2>
                     </div>
@@ -94,10 +94,10 @@ export default function Results() {
                 </div>
             )}
 
-            <Leaderboard />
+            <Leaderboard className="w-full max-w-4xl" />
 
             {host ? (
-                <div className="flex flex-col gap-4 md:w-2/3 w-full mt-4">
+                <div className="flex flex-col gap-4 w-full max-w-4xl mt-4">
                     <ObscureSettings
                         host={host}
                         settings={obscureState?.settings}

@@ -6,9 +6,10 @@ interface LeaderboardProps {
     showPositions?: boolean;
     maxPlayers?: number;
     compact?: boolean;
+    className?: string;
 }
 
-export default function Leaderboard({ showPositions = true, maxPlayers, compact = false }: LeaderboardProps) {
+export default function Leaderboard({ showPositions = true, maxPlayers, compact = false, className }: LeaderboardProps) {
     const { players, playerID } = useGameContext();
     
     const sortedPlayers = [...players].sort((a, b) => {
@@ -21,7 +22,7 @@ export default function Leaderboard({ showPositions = true, maxPlayers, compact 
     const displayPlayers = maxPlayers ? sortedPlayers.slice(0, maxPlayers) : sortedPlayers;
 
     return (
-        <div className="overflow-hidden md:w-2/3 w-full font-inter">
+        <div className={`overflow-hidden font-inter ${className ?? "md:w-2/3 w-full"}`}>
             {/* Header */}
             <div className="bg-neutral-900 border-2 border-white text-white p-4">
                 <p className="text-center text-white font-bold text-md font-inter">

@@ -56,16 +56,16 @@ export default function Submitting() {
 
     return (
         <div className="w-full flex flex-col min-h-screen gap-y-5 p-4 bg-lines">
-            <div className="w-full flex flex-col items-center gap-6">
+            <div className="w-full max-w-4xl mx-auto flex flex-col items-center gap-6">
 
                 {/* Prompt */}
-                <h1 className="heading1 bg-dots uppercase text-center">
+                <h1 className="heading1 bg-dots uppercase text-center break-words">
                     {prompt?.text ?? 'Loading prompt...'}
                 </h1>
 
                 {/* Search / submitted answer */}
                 {mySubmission ? (
-                    <div className="w-full max-w-2xl bg-neutral-900 border-2 border-emerald-500 p-4 text-center">
+                    <div className="w-full bg-neutral-900 border-2 border-emerald-500 p-4 text-center">
                         <p className="text-emerald-400 font-inter uppercase text-sm mb-1">
                             Submitted
                         </p>
@@ -74,11 +74,12 @@ export default function Submitting() {
                         </p>
                     </div>
                 ) : (
-                    <div className="w-full max-w-2xl">
+                    <div className="w-full">
                         <WikidataSearch
                             onSelect={(id) => submitObscureEntity(id)}
                             placeholder={remainingTime === 0 ? "Time's up..." : "Search for something that matches..."}
                             disabled={remainingTime === 0}
+                            className="max-w-none"
                         />
                     </div>
                 )}

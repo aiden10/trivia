@@ -39,8 +39,8 @@ export default function Reveal() {
 
     return (
         <div className="w-full flex flex-col min-h-screen gap-y-6 p-4 bg-lines">
-            <div className="w-full flex flex-col items-center gap-3">
-                <h1 className="heading1 bg-dots uppercase text-center">
+            <div className="w-full max-w-4xl mx-auto flex flex-col items-center gap-3">
+                <h1 className="heading1 bg-dots uppercase text-center break-words">
                     {prompt?.text ?? 'Prompt'}
                 </h1>
             </div>

@@ -39,8 +39,8 @@ export default function PromptDisplay() {
 
     return (
         <div className="w-full flex flex-col min-h-screen gap-y-8 p-4 bg-lines items-center justify-center">
-            <div className="w-full max-w-4xl bg-neutral-900 border-4 border-white p-8 md:p-12 bg-dots">
-                <h1 className="text-white text-center font-bartle text-[32px] md:text-[64px] leading-tight uppercase">
+            <div className="w-full max-w-6xl bg-neutral-900 border-4 border-white p-8 md:p-12 bg-dots">
+                <h1 className="text-white text-center font-bartle text-[32px] md:text-[64px] leading-tight uppercase break-words">
                     {prompt.text}
                 </h1>
             </div>

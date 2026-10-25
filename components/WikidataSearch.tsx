@@ -16,6 +16,7 @@ interface WikidataSearchProps {
     onSelect: (id: string, label: string) => void;
     placeholder?: string;
     disabled?: boolean;
+    className?: string;
 }
 
 interface EntitySearchResponse {
@@ -99,13 +100,6 @@ async function searchByText(query: string): Promise<WikidataResult[]> {
     return fetchEntitiesById(ids);
 }
 
-/**
- * Neither search endpoint is great on its own: label search buries ambiguous
- * names behind unrelated exact matches (e.g. "Batman" returns the Turkish
- * province and several games before the DC character), while full-text search
- * can be noisy for exact names.  Combine both rankings, with a bonus for an
- * exact label match, so the same query gets the best of both.
- */
 async function searchWikidata(query: string): Promise<WikidataResult[]> {
     const [labelResults, textResults] = await Promise.all([
         searchByLabel(query).catch(() => [] as WikidataResult[]),
@@ -140,7 +134,7 @@ async function searchWikidata(query: string): Promise<WikidataResult[]> {
         .map(entry => entry.item);
 }
 
-export default function WikidataSearch({ onSelect, placeholder = "search for a person...", disabled = false }: WikidataSearchProps) {
+export default function WikidataSearch({ onSelect, placeholder = "search for a person...", disabled = false, className = "max-w-2xl" }: WikidataSearchProps) {
     const [query, setQuery] = useState("");
     const [results, setResults] = useState<WikidataResult[]>([]);
     const [isLoading, setIsLoading] = useState(false);
@@ -247,7 +241,7 @@ export default function WikidataSearch({ onSelect, placeholder = "search for a p
     };
 
     return (
-        <div ref={containerRef} className="relative w-full max-w-2xl">
+        <div ref={containerRef} className={`relative w-full ${className}`}>
             <div className="relative">
                 <input
                     type="text"
