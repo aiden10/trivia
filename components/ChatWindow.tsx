@@ -40,12 +40,14 @@ export default function ChatWindow() {
 
     return (
         <div ref={chatRef} className={`${isOpen ? 'translate-x-0' : 'md:translate-x-[90%] translate-x-[85%]'} 
-            fixed right-0 top-0 h-screen flex transition-transform duration-300 z-5`}>
+            fixed right-0 top-0 h-screen flex items-end transition-transform duration-300 z-5`}>
             
             {/* Toggle Button */}
             <button 
                 onClick={() => setOpen(!isOpen)}
-                className="self-start mt-4 bg-stone-900 p-2 hover:cursor-pointer flex flex-col items-center gap-2
+                aria-label={isOpen ? "Close chat" : "Open chat"}
+                title={isOpen ? "Close chat" : "Open chat"}
+                className="self-end mb-4 bg-stone-900 p-2 hover:cursor-pointer flex flex-col items-center gap-2
                     rounded-l-lg hover:bg-stone-600 transition-colors border-l-2 border-y-2 border-white/75">
                 <svg 
                     xmlns="http://www.w3.org/2000/svg" 

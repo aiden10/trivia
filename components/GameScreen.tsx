@@ -39,8 +39,17 @@ export default function GameScreen() {
             <ChatWindow />
             {rulesOpen && <GameRules gamemode={gamemode} onClose={() => setRulesOpen(false)}/>}
             {gamemode !== GameModes.Default && <svg
-                className="fixed right-10 top-0 m-4 cursor-pointer hover:opacity-80 transition-opacity z-2 bg-blue-950 rounded-4xl"
+                className="fixed left-4 bottom-4 cursor-pointer hover:opacity-80 transition-opacity z-2 bg-blue-950 rounded-4xl"
                 onClick={() => setRulesOpen(true)}
+                role="button"
+                tabIndex={0}
+                aria-label="Game Rules"
+                onKeyDown={(e) => {
+                    if (e.key === 'Enter' || e.key === ' ') {
+                        e.preventDefault();
+                        setRulesOpen(true);
+                    }
+                }}
                 width="32"
                 height="32"
                 viewBox="0 0 24 24"
