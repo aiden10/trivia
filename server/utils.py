@@ -19,11 +19,14 @@ CATEGORIES_DIR = Path(__file__).parent / "categories"
 IMAGES_DIR = Path(__file__).parent / "images"
 SONGS_DIR = Path(__file__).parent / "songs"
 PREVIEWS_FOLDER = Path(__file__).parent / "song_previews"
+CLEANED_QUESTIONS_FILE = Path(__file__).parent / "cleaned_questions.jsonl"
+FORMATTED_QUESTIONS_FILE = Path(__file__).parent / "formatted_questions.json"
 env_path = Path(__file__).parent / ".env"
 load_dotenv(dotenv_path=env_path)
 QUESTIONS = {}
 SONG_DATA = {}
 IMAGE_QUESTIONS = {}
+CANONICAL_ANSWERS = {}
 
 redis_client = redis.Redis(
     host=os.getenv("REDIS_ENDPOINT"),
@@ -66,6 +69,31 @@ def load_all_songs():
             continue
         with open(song_file, "r", encoding="utf-8") as f:
             SONG_DATA[song_file.stem] = json.load(f)
+
+def load_canonical_answers():
+    if not CLEANED_QUESTIONS_FILE.exists() or not FORMATTED_QUESTIONS_FILE.exists():
+        return
+
+    try:
+        with open(FORMATTED_QUESTIONS_FILE, "r", encoding="utf-8") as f:
+            formatted = json.load(f)
+
+        with open(CLEANED_QUESTIONS_FILE, "r", encoding="utf-8") as f:
+            for line in f:
+                line = line.strip()
+                if not line:
+                    continue
+                try:
+                    data = json.loads(line)
+                except json.JSONDecodeError:
+                    continue
+
+                normalized = data.get("normalized_answers") or []
+                question = formatted.get(data.get("id"), {}).get("q")
+                if question and normalized:
+                    CANONICAL_ANSWERS[question] = normalized[0]
+    except Exception as e:
+        print(f"Failed to load canonical answers: {e}")
 
 def get_name_variations(full_name: str, category: str) -> list[str]:
     if category not in PEOPLE_CATEGORIES:
@@ -152,9 +180,16 @@ def get_question(room: Room) -> TriviaQuestion:
     question_type, chosen = random.choice(all_questions)
     
     if question_type == "text":
+        body = chosen.get("q", chosen.get("body", ""))
+        answers = chosen.get("a", chosen.get("answers", []))
+
+        canonical = CANONICAL_ANSWERS.get(body)
+        if canonical:
+            answers = [canonical] + [answer for answer in answers if answer != canonical]
+
         return TriviaQuestion(
-            body=chosen.get("q", chosen.get("body", "")),
-            answers=chosen.get("a", chosen.get("answers", [])),
+            body=body,
+            answers=answers,
             image=None
         )
         
@@ -358,7 +393,7 @@ def populate_categories():
             categories = data["categories"]
             extra_answers = data["normalized_answers"]
             question = question_map[id]["q"]
-            answers = list(set(question_map[id]["a"] + extra_answers))
+            answers = list(dict.fromkeys(extra_answers + question_map[id]["a"]))
             for c in categories:
                 category_map[c][id] = {"q": question, "a": answers}
     
@@ -606,3 +641,4 @@ def verify_songs():
 load_all_questions()
 load_all_images()
 load_all_songs()
+load_canonical_answers()

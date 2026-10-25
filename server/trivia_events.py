@@ -3,10 +3,88 @@ from server.models import (
     Room, TriviaEvents, TriviaStages, QUESTION_VALUE, SONG_VALUE,
     TriviaCategories, ImageCategories, SongCategories
 )
+import re
+import unicodedata
 from rapidfuzz import process, fuzz
 
 FUZZY_THRESHOLD = 70
 SONG_FUZZY_THRESHOLD = 85
+
+# Words that shouldn't make a partial guess "distinctive" from the question.
+STOPWORDS = {
+    "a", "an", "the", "of", "and", "or", "in", "on", "at", "to", "for",
+    "from", "by", "with", "as", "is", "are", "was", "were", "be", "been",
+    "being", "it", "its", "this", "that", "these", "those", "what", "which",
+    "who", "whom", "whose", "where", "when", "why", "how", "did", "does",
+    "do", "has", "have", "had", "can", "could", "would", "should", "will",
+    "may", "might", "must", "not", "s",
+}
+
+def _word_tokens(text: str) -> list[str]:
+    # Normalize accents/apostrophes
+    text = text.lower().replace("'", "").replace("’", "")
+    text = unicodedata.normalize("NFKD", text)
+    text = "".join(char for char in text if not unicodedata.combining(char))
+    return re.findall(r"\w+", text)
+
+def _word_tokens_match(a: str, b: str) -> bool:
+    if a == b:
+        return True
+    # Handles simple variants like collapse/collapsed and bank/banking.
+    if min(len(a), len(b)) >= 4 and (a.startswith(b) or b.startswith(a)):
+        return True
+    # Handles inflections where the suffix changes (collapsed/collapsing).
+    if min(len(a), len(b)) >= 5:
+        common = 0
+        for char_a, char_b in zip(a, b):
+            if char_a != char_b:
+                break
+            common += 1
+        if common >= max(4, min(len(a), len(b)) - 2):
+            return True
+    return fuzz.ratio(a, b) >= 85
+
+def _covers_answer(guess_tokens: list[str], answer_tokens: list[str]) -> bool:
+    if not answer_tokens:
+        return False
+    return all(
+        any(_word_tokens_match(answer_token, guess_token) for guess_token in guess_tokens)
+        for answer_token in answer_tokens
+    )
+
+def _is_partial_question_keyword_guess(
+    guess: str, question: str, accepted_answers: list[str], canonical_answer: str
+) -> bool:
+    # Exact aliases are always accepted, even if they're made only of symbols
+    # or words that also appear in the question.
+    if any(guess.lower().strip() == answer.lower().strip() for answer in accepted_answers):
+        return False
+
+    guess_tokens = _word_tokens(guess)
+    if not guess_tokens:
+        return True
+
+    answer_tokens = [_word_tokens(answer) for answer in accepted_answers]
+    if any(_covers_answer(guess_tokens, tokens) for tokens in answer_tokens):
+        return False
+
+    question_tokens = _word_tokens(question)
+    distinctive_canonical_tokens = [
+        token for token in _word_tokens(canonical_answer)
+        if token not in STOPWORDS
+        and not any(_word_tokens_match(token, q) for q in question_tokens)
+    ]
+
+    # Every meaningful word of the canonical answer is already in the
+    # question, so only full accepted answers can be distinguished.
+    if not distinctive_canonical_tokens:
+        return True
+
+    return not any(
+        _word_tokens_match(canonical_token, guess_token)
+        for canonical_token in distinctive_canonical_tokens
+        for guess_token in guess_tokens
+    )
 
 async def handle_restart(message: dict, room: Room):
     restart_base(room)
@@ -90,7 +168,11 @@ async def handle_guess(message: dict, room: Room):
     accepted_answers = [a.lower().strip() for a in question.answers if 'disambiguation' not in a]
     result = process.extractOne(guess, accepted_answers, scorer=fuzz.token_set_ratio)
     
-    is_correct = result and result[1] >= FUZZY_THRESHOLD
+    is_correct = bool(result and result[1] >= FUZZY_THRESHOLD)
+    if is_correct and _is_partial_question_keyword_guess(
+        guess, question.body, accepted_answers, question.answers[0]
+    ):
+        is_correct = False
     
     if is_correct and player.can_score:
         player.score += QUESTION_VALUE
