@@ -57,7 +57,7 @@ jobs:
 
           APP_DIR="${APP_DIR:-/home/ubuntu/trivia}"
           SERVICE="${SERVICE:-trivia}"
-          HEALTH_URL="${HEALTH_URL:-http://127.0.0.1:9000/stats}"
+          HEALTH_URL="${HEALTH_URL:-http://127.0.0.1:8000/stats}"
 
           cd "$APP_DIR"
           PREVIOUS_COMMIT=$(git rev-parse HEAD)

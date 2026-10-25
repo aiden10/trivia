@@ -14,7 +14,7 @@ Environment="PYTHONPATH=/home/ubuntu/trivia/server"
 ExecStart=/home/ubuntu/trivia/server/venv/bin/gunicorn \
     -k uvicorn.workers.UvicornWorker \
     server:app \
-    --bind 127.0.0.1:9000
+    --bind 127.0.0.1:8000
 
 Restart=always
 RestartSec=3
@@ -49,13 +49,13 @@ server {
     server_name trivia.aiden.photo;
 
     location / {
-        proxy_pass http://127.0.0.1:9000;
+        proxy_pass http://127.0.0.1:8000;
         proxy_set_header Host $host;
         proxy_set_header X-Real-IP $remote_addr;
     }
 
     location /ws {
-        proxy_pass http://127.0.0.1:9000;
+        proxy_pass http://127.0.0.1:8000;
         proxy_http_version 1.1;
         proxy_set_header Upgrade $http_upgrade;
         proxy_set_header Connection "upgrade";
@@ -84,7 +84,6 @@ All players except one (the imposter) are given the same word. Players take turn
 - Handle players losing connection better and show reconnect button
 - Add CI/CD
     - npm run build check before commits can be pushed to main
-    - have server check for updates to main and automatically pull, then restart docker container
 - Make things feel more responsive
 - Change attraction questions to: "In what country would you find the {name}?"
 - Chat window should automatically go to the bottom as new messages are added
