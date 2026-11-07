@@ -1,3 +1,4 @@
+import asyncio
 import json
 import random
 import string
@@ -27,6 +28,7 @@ QUESTIONS = {}
 SONG_DATA = {}
 IMAGE_QUESTIONS = {}
 CANONICAL_ANSWERS = {}
+CATEGORY_COUNTS = None
 
 redis_client = redis.Redis(
     host=os.getenv("REDIS_ENDPOINT"),
@@ -46,6 +48,8 @@ def load_questions_for_category(category: TriviaCategories) -> list[dict]:
 
 def load_all_questions():
     """Load all questions from all category files."""
+    global CATEGORY_COUNTS
+    CATEGORY_COUNTS = None
     for category in TriviaCategories:
         QUESTIONS[category.value] = load_questions_for_category(category)
         
@@ -59,16 +63,45 @@ def load_images_for_category(category: ImageCategories) -> dict:
 
 def load_all_images():
     """Load all image questions from all image category files."""
+    global CATEGORY_COUNTS
+    CATEGORY_COUNTS = None
     for category in ImageCategories:
         IMAGE_QUESTIONS[category.value] = load_images_for_category(category)
         
 def load_all_songs():
     """Load all songs from song JSON files."""
+    global CATEGORY_COUNTS
+    CATEGORY_COUNTS = None
     for song_file in SONGS_DIR.glob("*.json"):
         if song_file.stem == 'tags':
             continue
         with open(song_file, "r", encoding="utf-8") as f:
             SONG_DATA[song_file.stem] = json.load(f)
+
+def get_category_counts() -> dict:
+    """Available question counts for every trivia category (cached)."""
+    global CATEGORY_COUNTS
+    if CATEGORY_COUNTS is not None:
+        return CATEGORY_COUNTS
+
+    CATEGORY_COUNTS = {
+        "text": {
+            category.value: len(QUESTIONS.get(category.value, {}))
+            for category in TriviaCategories
+        },
+        "image": {
+            category.value: len(IMAGE_QUESTIONS.get(category.value, {}))
+            for category in ImageCategories
+        },
+        "songs": {
+            category.value: sum(
+                1 for song in SONG_DATA.get(category.value, [])
+                if (PREVIEWS_FOLDER / f"{song['id']}.mp3").exists()
+            )
+            for category in SongCategories
+        },
+    }
+    return CATEGORY_COUNTS
 
 def load_canonical_answers():
     if not CLEANED_QUESTIONS_FILE.exists() or not FORMATTED_QUESTIONS_FILE.exists():
@@ -107,18 +140,87 @@ def get_name_variations(full_name: str, category: str) -> list[str]:
     
     return list(set(answers))
 
+HISTORICAL_COUNTRY_REPLACEMENTS = {
+    "east germany": ["germany"],
+    "west germany": ["germany"],
+    "german democratic republic": ["germany"],
+    "nazi germany": ["germany"],
+    "prussia": ["germany"],
+    "soviet union": ["russia"],
+    "russian empire": ["russia"],
+    "tsardom of russia": ["russia"],
+    "ottoman empire": ["turkey"],
+    "byzantine empire": ["turkey"],
+    "achaemenid empire": ["turkey", "iran"],
+    "roman empire": ["italy"],
+    "austria-hungary": ["austria"],
+    "yugoslavia": ["serbia"],
+    "czechoslovakia": ["czech republic", "czechia", "slovakia"],
+    "khmer empire": ["cambodia"],
+    "kingdom of hejaz": ["saudi arabia"],
+    "kingdom of nejd and hejaz": ["saudi arabia"],
+    "first islamic state": ["saudi arabia"],
+    "rashidun caliphate": ["saudi arabia"],
+    "umayyad caliphate": ["syria"],
+    "abbasid caliphate": ["iraq"],
+    "mamluk sultanate of egypt": ["egypt"],
+}
+
+def get_country_variations(country_name: str) -> list[str]:
+    """Common ways players may type a country name."""
+    lower = country_name.lower().strip()
+    answers = list(HISTORICAL_COUNTRY_REPLACEMENTS.get(lower, [])) + [lower]
+    if lower.startswith("the "):
+        answers.append(lower[4:])
+
+    prefixes = (
+        "people's republic of ",
+        "people's democratic republic of ",
+        "federal republic of ",
+        "federal democratic republic of ",
+        "democratic republic of ",
+        "islamic republic of ",
+        "republic of ",
+        "kingdom of ",
+        "state of ",
+        "commonwealth of ",
+        "united republic of ",
+    )
+    for prefix in prefixes:
+        if lower.startswith(prefix):
+            answers.append(lower[len(prefix):])
+
+    aliases = {
+        "united states of america": ["united states", "usa", "us"],
+        "united states": ["usa", "us", "america"],
+        "united kingdom of great britain and northern ireland": ["united kingdom", "uk", "great britain"],
+        "united kingdom": ["uk", "great britain", "britain"],
+        "russian federation": ["russia"],
+        "south korea": ["korea", "republic of korea"],
+        "north korea": ["dprk"],
+        "czech republic": ["czechia"],
+        "ivory coast": ["cote d'ivoire"],
+        "myanmar": ["burma"],
+    }
+    answers.extend(aliases.get(lower, []))
+    return list(dict.fromkeys(answers))
+
 async def broadcast(data: dict, room: Room, sender: WebSocket = None):
     if not room.players:
         return
         
     message = json.dumps(data)
-    current_players = list(room.players.values())
-    for player in current_players:
-        if player.socket != sender:
-            try:
-                await player.socket.send_text(message)
-            except:
-                pass
+    sockets = [
+        player.socket for player in room.players.values()
+        if player.socket is not None and player.socket is not sender and player.connected
+    ]
+    if not sockets:
+        return
+    # Send concurrently so one slow client can't delay everyone else.
+    await asyncio.gather(
+        *(socket.send_text(message) for socket in sockets),
+        return_exceptions=True,
+    )
 
 async def send_state(room: Room, event: str):
     """Send the full room state to all players."""
@@ -126,6 +228,38 @@ async def send_state(room: Room, event: str):
         "type": event,
         "state": room.to_dict()
     }, room)
+
+async def send_state_to(player: Player, room: Room, event: str):
+    """Send the full room state to a single player."""
+    if not player.socket:
+        return
+    try:
+        await player.socket.send_text(json.dumps({
+            "type": event,
+            "state": room.to_dict()
+        }))
+    except Exception:
+        pass
+
+def add_system_message(room: Room, body: str):
+    """Append a game log entry to the chat."""
+    room.messages.append(Message(sender="Game", body=body, system=True))
+    if len(room.messages) > 200:
+        room.messages = room.messages[-200:]
+
+def start_stage_timer(room: Room, duration: float):
+    room.stage_duration = duration
+    room.stage_ends_at = time.time() * 1000 + duration * 1000
+
+def clear_stage_timer(room: Room):
+    room.stage_ends_at = None
+    room.stage_duration = None
+
+def start_turn_timer(room: Room, duration: float):
+    if not room.peopleBP_state:
+        return
+    room.peopleBP_state.turn_duration = duration
+    room.peopleBP_state.turn_ends_at = time.time() * 1000 + duration * 1000
 
 def restart_base(room: Room):
     for player in room.players.values():
@@ -162,7 +296,8 @@ def get_question(room: Room) -> TriviaQuestion:
                     all_questions.append(("image", {
                         "name": item["name"],
                         "image": item["image"],
-                        "category": category.value
+                        "category": category.value,
+                        "countries": item.get("countries", []),
                     }))
                     
     # Song-based questions
@@ -194,11 +329,22 @@ def get_question(room: Room) -> TriviaQuestion:
         )
         
     elif question_type == "image":
-        question_text = IMAGE_PROMPTS[chosen["category"]]
+        if chosen["category"] == ImageCategories.Attractions.value and chosen.get("countries"):
+            body = IMAGE_PROMPTS[chosen["category"]].format(name=chosen["name"])
+            answers: list[str] = []
+            for country in chosen["countries"]:
+                answers.extend(get_country_variations(country["name"]))
+            answers = list(dict.fromkeys(answers))
+        elif chosen["category"] == ImageCategories.Attractions.value:
+            body = "What is this attraction?"
+            answers = get_name_variations(chosen["name"], chosen["category"])
+        else:
+            body = IMAGE_PROMPTS[chosen["category"]].format(name=chosen["name"])
+            answers = get_name_variations(chosen["name"], chosen["category"])
 
         return TriviaQuestion(
-            body=question_text,
-            answers=get_name_variations(chosen["name"], chosen["category"]),
+            body=body,
+            answers=answers,
             image=chosen["image"]
         )
     

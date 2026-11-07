@@ -1,6 +1,8 @@
 import { useGameContext } from "@/shared/GameContext";
 import QuestionLog from "../QuestionLog";
 import Back from "@/components/Back";
+import RotanikaSettings from "../RotanikaSettings";
+import { RotanikaSettings as RotanikaSettingsType } from "@/shared/types";
 
 export default function Results() {
     const { 
@@ -8,6 +10,7 @@ export default function Results() {
         roomState,
         players,
         submitRotanikaRestart,
+        submitRotanikaUpdateSettings,
     } = useGameContext();
 
     const rotanikaState = roomState?.rotanikaState;
@@ -42,6 +45,10 @@ export default function Results() {
 
     const result = getResultMessage();
 
+    const handleSettingsChange = (settings: RotanikaSettingsType) => {
+        submitRotanikaUpdateSettings(settings);
+    };
+
     return (
         <div className="game-screen bg-lines">
             <Back inRoom={true}/>
@@ -72,20 +79,24 @@ export default function Results() {
             <div className="w-full">
                 <QuestionLog questions={questions} players={players}/>
             </div>
-            {host ? (
-                <div className="flex flex-col gap-4 md:w-2/3 w-full">
+            <div className="flex flex-col gap-4 md:w-2/3 w-full">
+                <RotanikaSettings
+                    host={host}
+                    onSettingsChange={handleSettingsChange}
+                />
+                {host ? (
                     <button 
                         className="btn-primary w-full text-2xl py-4 uppercase"
                         onClick={() => submitRotanikaRestart()}
                     >
                         New Game
                     </button>
-                </div>
-            ) : (
-                <h2 className="text-2xl font-bold text-white/50 mb-3 animate-pulse">
-                    Waiting for host...
-                </h2>
-            )}
+                ) : (
+                    <h2 className="text-2xl font-bold text-white/50 mb-3 animate-pulse text-center">
+                        Waiting for host...
+                    </h2>
+                )}
+            </div>
         </div>
     );
 }

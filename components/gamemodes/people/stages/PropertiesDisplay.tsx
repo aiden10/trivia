@@ -3,6 +3,7 @@
 import { useGameContext } from '@/shared/GameContext';
 import { PeopleStages, PeopleProperties, CONTINENTS, GENDERS, OCCUPATIONS } from '@/shared/types';
 import { useEffect, useRef } from 'react';
+import { useCountdown } from '@/shared/useCountdown';
 import { capitalizeWords } from '@/shared/utils';
 
 export default function PropertiesDisplay() {
@@ -17,26 +18,24 @@ export default function PropertiesDisplay() {
     const winningScore = peopleState?.settings.winningScore ?? 100;
     const properties = peopleState?.currentProperties ?? [];
     
-    const endTimeRef = useRef<number>(Date.now() + 2500);
+    const remainingTime = useCountdown(roomState?.stageEndsAt, 2.5, roomState?.serverTime);
+    const expiredStageRef = useRef<string>("");
 
     useEffect(() => {
         if (!host) return;
-        
+
         const winner = players.find(player => player.score >= winningScore);
-        if (winner) submitPGUpdateStage(PeopleStages.Results);
+        if (winner) {
+            submitPGUpdateStage(PeopleStages.Results);
+            return;
+        }
 
-        endTimeRef.current = Date.now() + 2500;
-        
-        const interval = setInterval(() => {
-            const timeLeft = Math.max(0, endTimeRef.current - Date.now());
-            if (timeLeft === 0) {
-                clearInterval(interval);
-                submitPGUpdateStage(PeopleStages.GuessingPeriod);
-            }
-        }, 100);
-
-        return () => clearInterval(interval);
-    }, [host, players, winningScore, submitPGUpdateStage]);
+        if (remainingTime > 0) return;
+        const key = `${roomState?.stageEndsAt ?? 'local'}`;
+        if (expiredStageRef.current === key) return;
+        expiredStageRef.current = key;
+        submitPGUpdateStage(PeopleStages.GuessingPeriod);
+    }, [host, players, winningScore, submitPGUpdateStage, remainingTime, roomState?.stageEndsAt]);
 
     const selectedContinents = properties.filter(p => CONTINENTS.includes(p));
     const selectedGenders = properties.filter(p => GENDERS.includes(p));

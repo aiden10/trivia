@@ -8,9 +8,12 @@ import Back from "@/components/Back";
 export default function Results() {
     const { 
         host, 
+        roomState,
         submitTriviaRestart,
         submitTriviaUpdateSettings,
     } = useGameContext();
+
+    const triviaState = roomState?.triviaState;
 
     const handleSettingsChange = (settings: TriviaSettingsType) => {
         submitTriviaUpdateSettings(settings);
@@ -27,6 +30,8 @@ export default function Results() {
                 <div className="flex flex-col gap-4 md:w-2/3 w-full">
                     <TriviaSettings
                         host={host}
+                        settings={triviaState?.settings}
+                        categoryCounts={triviaState?.categoryCounts}
                         onSettingsChange={handleSettingsChange}
                     />
 
@@ -38,9 +43,17 @@ export default function Results() {
                     </button>
                 </div>
             ) : (
-                <h2 className="text-2xl font-bold text-white mb-3 animate-pulse">
-                    Waiting for host...
-                </h2>
+                <div className="flex flex-col gap-4 md:w-2/3 w-full">
+                    <TriviaSettings
+                        host={false}
+                        settings={triviaState?.settings}
+                        categoryCounts={triviaState?.categoryCounts}
+                        onSettingsChange={handleSettingsChange}
+                    />
+                    <h2 className="text-2xl font-bold text-white/50 mb-3 animate-pulse text-center">
+                        Waiting for host...
+                    </h2>
+                </div>
             )}
         </div>
     );

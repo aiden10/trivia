@@ -1,5 +1,5 @@
 
-import { TriviaSettings as TriviaSettingsType } from "@/shared/types";
+import { PeopleSettings as PeopleSettingsType } from "@/shared/types";
 import { useGameContext } from "@/shared/GameContext";
 import Leaderboard from "../../../Leaderboard";
 import PeopleSettings from "../PeopleSettings";
@@ -8,12 +8,15 @@ import Back from "@/components/Back";
 export default function Results() {
     const { 
         host, 
-        submitTriviaRestart,
-        submitTriviaUpdateSettings,
+        roomState,
+        submitPGRestart,
+        submitPGUpdateSettings,
     } = useGameContext();
 
-    const handleSettingsChange = (settings: TriviaSettingsType) => {
-        submitTriviaUpdateSettings(settings);
+    const peopleState = roomState?.peopleState;
+
+    const handleSettingsChange = (settings: PeopleSettingsType) => {
+        submitPGUpdateSettings(settings);
     };
 
     return (
@@ -26,20 +29,28 @@ export default function Results() {
                 <div className="flex flex-col gap-4 md:w-2/3 w-full">
                     <PeopleSettings
                         host={host}
+                        settings={peopleState?.settings}
                         onSettingsChange={handleSettingsChange}
                     />
 
                     <button 
-                        className="btn-primary w-full text-2xl py-4"
-                        onClick={() => submitTriviaRestart()}
+                        className="btn-primary w-full text-2xl py-4 uppercase"
+                        onClick={() => submitPGRestart()}
                     >
                         New Game
                     </button>
                 </div>
             ) : (
-                <h2 className="text-2xl font-bold text-white mb-3 animate-pulse">
-                    Waiting for host...
-                </h2>
+                <div className="flex flex-col gap-4 md:w-2/3 w-full">
+                    <PeopleSettings
+                        host={false}
+                        settings={peopleState?.settings}
+                        onSettingsChange={handleSettingsChange}
+                    />
+                    <h2 className="text-2xl font-bold text-white/50 mb-3 animate-pulse text-center">
+                        Waiting for host...
+                    </h2>
+                </div>
             )}
         </div>
     );

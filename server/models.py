@@ -1,3 +1,4 @@
+import time
 from pydantic import BaseModel
 from fastapi import WebSocket
 from enum import Enum
@@ -51,6 +52,10 @@ class Events(Enum):
     UpdateGameMode = "updateGameMode"
     UpdateScores = "updateScores"
     UpdateHost = "updateHost"
+    TransferHost = "transferHost"
+    UpdatePlayers = "updatePlayers"
+    RequestState = "requestState"
+    StateSync = "stateSync"
     ChatMessage = "chatMessage"
 
 class TriviaEvents(Enum):
@@ -139,7 +144,7 @@ IMAGE_PROMPTS = {
     ImageCategories.Basketball.value: "Who is this basketball player?",
     ImageCategories.Philosophers.value: "Who is this philosopher?",
     ImageCategories.Flags.value: "What country's flag is this?",
-    ImageCategories.Attractions.value: "What is this attraction?",
+    ImageCategories.Attractions.value: "In what country would you find the {name}?",
     ImageCategories.Paintings.value: "What is this painting?",
     ImageCategories.Characters.value: "Who is this character?",
     ImageCategories.Musicians.value: "Who is this artist?",
@@ -223,10 +228,13 @@ class TriviaState(BaseModel):
     song_categories: list[SongCategories] = [c for c in SongCategories]
     
     def to_dict(self) -> dict:
+        from server.utils import get_category_counts
+
         return {
             "currentQuestion": self.current_question.to_dict() if self.current_question else None,
             "currentStage": self.current_stage,
             "showIncorrect": self.show_incorrect,
+            "categoryCounts": get_category_counts(),
             "settings": {
                 "questionDuration": self.question_duration,
                 "categories": [c.value for c in self.categories],
@@ -303,6 +311,8 @@ class PeopleBPState(BaseModel):
     current_guesser: int = 0
     min_duration: int = 8
     max_duration: int = 25
+    turn_duration: int = 0
+    turn_ends_at: Optional[float] = None
     combination_lower_bound: int = 1
     combination_upper_bound: int = 2
     starting_lives: int = 5
@@ -314,7 +324,10 @@ class PeopleBPState(BaseModel):
             "currentStage": self.current_stage,
             "currentProperties": [cp.value for cp in self.current_properties],
             "currentGuesser": self.current_guesser,
+            "alreadyGuessed": self.already_guessed,
             "winner": self.winner,
+            "turnEndsAt": self.turn_ends_at,
+            "turnDuration": self.turn_duration,
             "settings": {
                 "minDuration": self.min_duration,
                 "maxDuration": self.max_duration,
@@ -399,6 +412,7 @@ class ObscureState(BaseModel):
     sitelink_weight: float = 0.5
     pageview_weight: float = 0.5
     prompts: list[str] = []
+    prompt_bags: dict = {}
 
     def to_dict(self) -> dict:
         # Imported lazily to avoid a circular import at module load time.
@@ -432,7 +446,7 @@ class ObscureState(BaseModel):
         }
 
 class Player:
-    def __init__(self, name: str, id: int, socket: WebSocket):
+    def __init__(self, name: str, id: int, socket: WebSocket, session_id: str = ""):
         self.name: str = name
         self.id: int = id
         self.guess: str = ""
@@ -443,7 +457,13 @@ class Player:
         self.can_score: bool = True
         self.guessed_artist: bool = False
         self.guessed_song: bool = False
-        self.socket: WebSocket = socket
+        self.socket: Optional[WebSocket] = socket
+        self.session_id: str = session_id
+        self.connected: bool = True
+        self.leaving: bool = False
+        self.connection_epoch: int = 0
+        self.disconnect_task = None
+        self.leave_task = None
 
     def to_dict(self) -> dict:
         return {
@@ -453,26 +473,40 @@ class Player:
             "guess": self.guess,
             "lives": self.lives,
             "host": self.host,
+            "connected": self.connected,
+            "leaving": self.leaving,
             "correctGuesses": self.correct_guesses,
+            "guessedCorrectly": not self.can_score and not self.guessed_song and not self.guessed_artist,
             "guessedSong": self.guessed_song,
             "guessedArtist": self.guessed_artist
         }
 
 class CreateRoomBody(BaseModel):
-    password: str
+    password: str = ""
+    is_public: bool = True
 
 class Message(BaseModel):
     sender: str
     body: str
+    system: bool = False
     
     def to_dict(self) -> dict:
         return {
             "sender": self.sender,
-            "body": self.body
+            "body": self.body,
+            "system": self.system
         }
 
+STAGE_NAMES = {
+    GameModes.Trivia.value: ["Lobby", "Question", "Reveal", "Results"],
+    GameModes.PeopleGuesser.value: ["Lobby", "Properties", "Guessing", "Results"],
+    GameModes.Rotanika.value: ["Lobby", "Picking", "Guessing", "Results"],
+    GameModes.PeopleBP.value: ["Lobby", "Playing", "Results"],
+    GameModes.Obscure.value: ["Lobby", "Prompt", "Submitting", "Reveal", "Results"],
+}
+
 class Room:
-    def __init__(self, id: str, password: str):
+    def __init__(self, id: str, password: str, is_public: bool = True):
         self.id = id
         self.player_index = 0
         self.host_id = 0
@@ -484,15 +518,51 @@ class Room:
         self.peopleBP_state: Optional[PeopleBPState] = None
         self.obscure_state: Optional[ObscureState] = None
         self.password = password
+        self.is_public = is_public
         self.messages: list[Message] = []
+        self.created_at = time.time()
+        self.stage_ends_at: Optional[float] = None
+        self.stage_duration: Optional[float] = None
+
+    def current_stage(self) -> int:
+        if self.gamemode == GameModes.Trivia.value and self.trivia_state:
+            return self.trivia_state.current_stage
+        if self.gamemode == GameModes.PeopleGuesser.value and self.people_state:
+            return self.people_state.current_stage
+        if self.gamemode == GameModes.Rotanika.value and self.rotanika_state:
+            return self.rotanika_state.current_stage
+        if self.gamemode == GameModes.PeopleBP.value and self.peopleBP_state:
+            return self.peopleBP_state.current_stage
+        if self.gamemode == GameModes.Obscure.value and self.obscure_state:
+            return self.obscure_state.current_stage
+        return 0
+
+    def to_public_dict(self) -> dict:
+        stage = self.current_stage()
+        stage_names = STAGE_NAMES.get(self.gamemode, [])
+        host = self.players.get(self.host_id)
+        return {
+            "roomId": self.id,
+            "playerCount": len(self.players),
+            "connectedPlayerCount": sum(1 for p in self.players.values() if p.connected),
+            "gamemode": self.gamemode,
+            "stage": stage,
+            "stageName": stage_names[stage] if stage < len(stage_names) else "Lobby",
+            "hostName": host.name if host else "",
+            "createdAt": int(self.created_at * 1000),
+        }
 
     def to_dict(self) -> dict:
         return {
             "roomId": self.id,
             "hostId": self.host_id,
+            "isPublic": self.is_public,
             "players": [p.to_dict() for p in self.players.values()],
             "messages": [m.to_dict() for m in self.messages],
             "gamemode": self.gamemode,
+            "serverTime": int(time.time() * 1000),
+            "stageEndsAt": int(self.stage_ends_at) if self.stage_ends_at else None,
+            "stageDuration": self.stage_duration,
             "triviaState": self.trivia_state.to_dict() if self.trivia_state else None,
             "peopleState": self.people_state.to_dict() if self.people_state else None,
             "rotanikaState": self.rotanika_state.to_dict() if self.rotanika_state else None,

@@ -1,5 +1,8 @@
 
-from server.utils import broadcast, send_state, get_properties, restart_base
+from server.utils import (
+    broadcast, send_state, get_properties, restart_base,
+    start_stage_timer, clear_stage_timer,
+)
 from server.models import Room, PeopleEvents, PeopleStages, PeopleProperties, QUESTION_VALUE, PeopleState
 from server.wikidata import get_entity_data, check_all_properties
 
@@ -9,6 +12,7 @@ async def handle_restart(message: dict, room: Room):
         room.people_state.already_guessed = []
         room.people_state.current_properties = get_properties(room, PeopleState)
         room.people_state.current_stage = PeopleStages.PropertiesDisplay.value
+        start_stage_timer(room, 2.5)
     
     await send_state(room, PeopleEvents.Restart.value)
 
@@ -85,6 +89,12 @@ async def handle_update_stage(message: dict, room: Room):
     
     if room.people_state:
         room.people_state.current_stage = new_stage
+        if new_stage == PeopleStages.PropertiesDisplay.value:
+            start_stage_timer(room, 2.5)
+        elif new_stage == PeopleStages.GuessingPeriod.value:
+            start_stage_timer(room, room.people_state.question_duration)
+        else:
+            clear_stage_timer(room)
         
     if new_stage == PeopleStages.PropertiesDisplay.value:
         for p in room.players.values():
@@ -125,10 +135,11 @@ async def handle_update_settings(message: dict, room: Room):
         room.people_state.properties = properties
         room.people_state.current_properties = get_properties(room, PeopleState)
     
-    if "duration" in data:
-        room.people_state.question_duration = data["duration"]
+    if "questionDuration" in data or "duration" in data:
+        value = data.get("questionDuration", data.get("duration"))
+        room.people_state.question_duration = max(5, min(180, int(value)))
     
     if "winningScore" in data:
-        room.people_state.winning_score = data["winningScore"]
+        room.people_state.winning_score = max(10, min(5000, int(data["winningScore"])))
     
     await send_state(room, PeopleEvents.UpdateSettings.value)

@@ -3,6 +3,7 @@
 import { useGameContext } from '@/shared/GameContext';
 import { TriviaStages } from '@/shared/types';
 import { useEffect, useRef } from 'react';
+import { useCountdown } from '@/shared/useCountdown';
 import PlayerList from '@/components/PlayerList';
 import { capitalizeWords } from '@/shared/utils';
 
@@ -20,35 +21,33 @@ export default function Reveal() {
     const winningScore = triviaState?.settings.winningScore ?? 100;
     const isSongQuestion = !!question?.songState;
     
-    const endTimeRef = useRef<number>(Date.now() + 4000);
+    const remainingTime = useCountdown(roomState?.stageEndsAt, 4, roomState?.serverTime);
+    const expiredStageRef = useRef<string>("");
 
     useEffect(() => {
-        if (!host) return;
-        
-        endTimeRef.current = Date.now() + 4000;
-        
-        const interval = setInterval(() => {
-            const timeLeft = Math.max(0, endTimeRef.current - Date.now());
-            
-            if (timeLeft === 0) {
-                clearInterval(interval);
-                const winner = players.find(player => player.score >= winningScore);
-                
-                if (winner) {
-                    submitTriviaUpdateStage(TriviaStages.Results);
-                } else {
-                    submitTriviaUpdateStage(TriviaStages.QuestionDisplay);
-                    submitTriviaUpdateQuestion();
-                }
-            }
-        }, 100);
+        if (!host || remainingTime > 0) return;
 
-        return () => clearInterval(interval);
-    }, [host, players, winningScore, submitTriviaUpdateStage, submitTriviaUpdateQuestion]);
+        const key = `${roomState?.stageEndsAt ?? 'local'}`;
+        if (expiredStageRef.current === key) return;
+        expiredStageRef.current = key;
+
+        const winner = players.find(player => player.score >= winningScore);
+
+        if (winner) {
+            submitTriviaUpdateStage(TriviaStages.Results);
+        } else {
+            submitTriviaUpdateStage(TriviaStages.QuestionDisplay);
+            submitTriviaUpdateQuestion();
+        }
+    }, [host, remainingTime, players, winningScore, submitTriviaUpdateStage, submitTriviaUpdateQuestion, roomState?.stageEndsAt]);
 
     return (
         <div className='w-full flex flex-col min-h-screen gap-y-16 p-4 bg-lines'>
             <div className='w-full justify-center items-center flex flex-col gap-8 mt-4'>
+                <p className='text-white/40 font-inter text-sm uppercase tracking-wider'>
+                    Next question in {remainingTime}s
+                </p>
+
                 {/* Question */}
                 <h1 className='heading1 bg-dots'>
                     {question?.body}

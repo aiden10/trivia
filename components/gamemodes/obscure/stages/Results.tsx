@@ -119,9 +119,17 @@ export default function Results() {
                     </button>
                 </div>
             ) : (
-                <h2 className="text-2xl font-bold text-white mb-3 animate-pulse">
-                    Waiting for host...
-                </h2>
+                <div className="flex flex-col gap-4 w-full max-w-4xl mt-4">
+                    <ObscureSettings
+                        host={false}
+                        settings={obscureState?.settings}
+                        catalog={obscureState?.catalog}
+                        onSettingsChange={handleSettingsChange}
+                    />
+                    <h2 className="text-2xl font-bold text-white/50 mb-3 animate-pulse text-center">
+                        Waiting for host...
+                    </h2>
+                </div>
             )}
         </div>
     );

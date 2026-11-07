@@ -5,6 +5,7 @@ import { useGameContext } from '@/shared/GameContext';
 import { TriviaStages } from '@/shared/types';
 import { GET_SONG_ENDPOINT } from '@/shared/constants';
 import Timer from '@/components/Timer';
+import { useCountdown } from '@/shared/useCountdown';
 import PlayerList from '@/components/PlayerList';
 import Image from 'next/image';
 
@@ -26,12 +27,16 @@ export default function QuestionDisplay() {
     const isSongQuestion = !!question?.songState;
     const songId = question?.songState?.songID;
 
-    const [remainingTime, setRemainingTime] = useState(questionDuration);
     const [guess, setGuess] = useState("");
     const [imageLoaded, setImageLoaded] = useState(false);
+    const remainingTime = useCountdown(
+        roomState?.stageEndsAt,
+        questionDuration,
+        roomState?.serverTime,
+    );
     
-    const endTimeRef = useRef<number>(Date.now() + (questionDuration * 1000));
     const questionIdRef = useRef(question?.body);
+    const expiredStageRef = useRef<string>("");
     const inputRef = useRef<HTMLInputElement>(null);
     const audioRef = useRef<HTMLAudioElement | null>(null);
 
@@ -68,31 +73,22 @@ export default function QuestionDisplay() {
     useEffect(() => {
         if (questionIdRef.current !== question?.body || (hasImage && question?.image)) {
             questionIdRef.current = question?.body;
-            endTimeRef.current = Date.now() + (questionDuration * 1000);
-            setRemainingTime(questionDuration);
             setGuess("");
             setImageLoaded(false);
             inputRef.current?.focus();
         }
-    }, [question?.body, question?.image, questionDuration, hasImage]);
+    }, [question?.body, question?.image, hasImage]);
 
-    // Timer countdown
+    // The countdown comes from the server; whichever client is host advances
+    // the stage once it reaches zero.
     useEffect(() => {
-        const interval = setInterval(() => {
-            const timeLeft = Math.max(0, Math.ceil((endTimeRef.current - Date.now()) / 1000));
-            setRemainingTime(timeLeft);
-            
-            if (timeLeft === 0) {
-                clearInterval(interval);
-                if (host) {
-                    if (currentStage === TriviaStages.QuestionDisplay)
-                        submitTriviaUpdateStage(TriviaStages.Reveal);
-                }
-            }
-        }, 100);
+        if (!host || remainingTime > 0 || currentStage !== TriviaStages.QuestionDisplay) return;
 
-        return () => clearInterval(interval);
-    }, [question?.body, host, submitTriviaUpdateStage, currentStage]);
+        const key = `${currentStage}-${roomState?.stageEndsAt ?? 'local'}`;
+        if (expiredStageRef.current === key) return;
+        expiredStageRef.current = key;
+        submitTriviaUpdateStage(TriviaStages.Reveal);
+    }, [remainingTime, host, currentStage, roomState?.stageEndsAt, submitTriviaUpdateStage]);
 
     const handleSubmitGuess = (e: React.FormEvent) => {
         e.preventDefault();

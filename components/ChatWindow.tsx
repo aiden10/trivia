@@ -1,13 +1,16 @@
-import { useEffect, useState, useRef } from "react";
+import { useEffect, useMemo, useState, useRef } from "react";
 import { useGameContext } from "@/shared/GameContext";
+import type { Message } from "@/shared/types";
 
 export default function ChatWindow() {
     const [isOpen, setOpen] = useState(false);
     const [messageText, setMessageText] = useState("");
     const { submitMessage, name, roomState } = useGameContext();
     const chatRef = useRef<HTMLDivElement>(null);
+    const scrollRef = useRef<HTMLDivElement>(null);
 
-    const messages = roomState?.messages ?? [];
+    const messages = useMemo(() => roomState?.messages ?? [], [roomState?.messages]);
+    const [pendingMessages, setPendingMessages] = useState<Message[]>([]);
     const [unread, setUnread] = useState<boolean>(false);
     const [lastMessageCount, setLastMessageCount] = useState<number>(0);
 
@@ -19,6 +22,24 @@ export default function ChatWindow() {
             setUnread(true);
         }
     }, [messages.length, isOpen, lastMessageCount]);
+
+    useEffect(() => {
+        setPendingMessages(prev => prev.filter(pending =>
+            !messages.some(message =>
+                !message.system
+                && message.sender === pending.sender
+                && message.body === pending.body
+            )
+        ));
+    }, [messages]);
+
+    useEffect(() => {
+        if (!isOpen) return;
+        const element = scrollRef.current;
+        if (element) {
+            element.scrollTop = element.scrollHeight;
+        }
+    }, [messages.length, pendingMessages.length, isOpen]);
 
     useEffect(() => {
         const handleClickOutside = (event: MouseEvent) => {
@@ -33,8 +54,10 @@ export default function ChatWindow() {
 
     const handleSubmit = (e: React.FormEvent) => {
         e.preventDefault();
-        if (!messageText.trim()) return;
-        submitMessage(name, messageText.trim());
+        const body = messageText.trim();
+        if (!body) return;
+        setPendingMessages(prev => [...prev, { sender: name, body }]);
+        submitMessage(name, body);
         setMessageText("");
     };
 
@@ -79,15 +102,39 @@ export default function ChatWindow() {
                     <h2 className="title font-inter ml-2 mb-0 bg-black/0">Messages</h2>
                 </div>
                 
-                <div className="flex-1 overflow-y-auto px-4 py-2">
+                <div ref={scrollRef} className="flex-1 overflow-y-auto px-4 py-2">
                     {messages?.map((message, i) => (
-                        <div 
-                            className="flex gap-2 py-2 min-w-0 border-b-2 border-stone-700/50 overflow-x-scroll"
-                            key={i}>
+                        message.system ? (
+                            <div
+                                key={i}
+                                className="py-2 my-1 border-y border-white/10 text-center"
+                            >
+                                <p className="text-amber-200/60 text-[11px] md:text-[13px] font-inter uppercase tracking-wide">
+                                    {message.body}
+                                </p>
+                            </div>
+                        ) : (
+                            <div
+                                className="flex gap-2 py-2 min-w-0 border-b-2 border-stone-700/50"
+                                key={i}>
+                                <p className="font-bold text-[12px] md:text-[16px] font-inter text-white/90 whitespace-nowrap">
+                                    {message.sender}:
+                                </p>
+                                <p className="text-white/75 text-[12px] md:text-[16px] font-light break-words font-inter flex-1 min-w-0">
+                                    {message.body}
+                                </p>
+                            </div>
+                        )
+                    ))}
+                    {pendingMessages.map((message, i) => (
+                        <div
+                            className="flex gap-2 py-2 min-w-0 border-b-2 border-stone-700/50 opacity-50"
+                            key={`pending-${i}`}
+                        >
                             <p className="font-bold text-[12px] md:text-[16px] font-inter text-white/90 whitespace-nowrap">
                                 {message.sender}:
                             </p>
-                            <p className="text-white/75 text-[12px] md:text-[16px] font-light text-wrap font-inter flex-1 min-w-0">
+                            <p className="text-white/75 text-[12px] md:text-[16px] font-light break-words font-inter flex-1 min-w-0">
                                 {message.body}
                             </p>
                         </div>

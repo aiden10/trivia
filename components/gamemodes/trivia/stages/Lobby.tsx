@@ -6,9 +6,12 @@ import Back from "@/components/Back";
 export default function Lobby() {
     const { 
         host, 
+        roomState,
         submitTriviaUpdateStage, 
         submitTriviaUpdateSettings,
     } = useGameContext();
+
+    const triviaState = roomState?.triviaState;
 
 
     const handleSettingsChange = (settings: TriviaSettingsType) => {
@@ -25,13 +28,21 @@ export default function Lobby() {
 
                 <div className="flex flex-col gap-4 mt-10">
                     <h2 className="heading2">
-                        {host ? "Settings" : "Waiting for host..."}
+                        {host ? "Settings" : "Host Settings"}
                     </h2>
                     
                     <TriviaSettings
                         host={host}
+                        settings={triviaState?.settings}
+                        categoryCounts={triviaState?.categoryCounts}
                         onSettingsChange={handleSettingsChange}
                     />
+
+                    {!host && (
+                        <p className="text-white/50 text-center font-inter text-sm italic">
+                            Waiting for the host to start the game...
+                        </p>
+                    )}
                 </div>
                 <p className="text-amber-400/75 mt-4 font-inter text-[12px] md:text-[16px] font-light italic bg-amber-400/30 p-2 ">
                     Note: The text question answers are sometimes flawed

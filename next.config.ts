@@ -5,6 +5,7 @@ if (process.env.NODE_ENV === "production") {
   const localUrls = [
     process.env.NEXT_PUBLIC_SOCKET_URL,
     process.env.NEXT_PUBLIC_CREATE_ROOM_ENDPOINT,
+    process.env.NEXT_PUBLIC_GET_ROOMS_ENDPOINT,
     process.env.NEXT_PUBLIC_GET_SONG_ENDPOINT,
   ].filter((url): url is string => !!url && /localhost|127\.0\.0\.1/.test(url));
 

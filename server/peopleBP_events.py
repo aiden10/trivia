@@ -1,5 +1,8 @@
 import random
-from server.utils import broadcast, send_state, get_properties, restart_base
+from server.utils import (
+    broadcast, send_state, get_properties, restart_base,
+    start_stage_timer, clear_stage_timer, start_turn_timer,
+)
 from server.models import Room, PeopleBPEvents, PeopleBPStages, PeopleProperties, PeopleBPState
 from server.wikidata import get_entity_data, check_all_properties
 
@@ -40,6 +43,15 @@ def get_last_alive_player(room: Room) -> int | None:
             return p.id
 
 
+def begin_turn(room: Room):
+    state = room.peopleBP_state
+    if not state:
+        return
+    duration = random.randint(state.min_duration, max(state.min_duration, state.max_duration))
+    start_turn_timer(room, duration)
+    start_stage_timer(room, duration)
+
+
 async def handle_restart(message: dict, room: Room):
     if not room.peopleBP_state:
         return
@@ -54,6 +66,7 @@ async def handle_restart(message: dict, room: Room):
     room.peopleBP_state.current_properties = get_properties(room, PeopleBPState)
     room.peopleBP_state.current_stage = PeopleBPStages.Game.value
     room.peopleBP_state.winner = None
+    begin_turn(room)
     
     await send_state(room, PeopleBPEvents.Restart.value)
 
@@ -114,6 +127,8 @@ async def handle_guess(message: dict, room: Room):
         next_guesser = get_next_guesser(room)
         room.peopleBP_state.current_guesser = next_guesser
         room.peopleBP_state.current_properties = get_properties(room, PeopleBPState)
+        if next_guesser is not None:
+            begin_turn(room)
         
         await broadcast({
             "type": PeopleBPEvents.CorrectAnswer.value,
@@ -157,6 +172,8 @@ async def handle_timeout(message: dict, room: Room):
         winner_id = get_last_alive_player(room)
         room.peopleBP_state.winner = winner_id
         room.peopleBP_state.current_stage = PeopleBPStages.Results.value
+        clear_stage_timer(room)
+        room.peopleBP_state.turn_ends_at = None
         
         await send_state(room, PeopleBPEvents.Timeout.value)
         await send_state(room, PeopleBPEvents.UpdateStage.value)
@@ -166,6 +183,8 @@ async def handle_timeout(message: dict, room: Room):
     next_guesser = get_next_guesser(room)
     room.peopleBP_state.current_guesser = next_guesser
     room.peopleBP_state.current_properties = get_properties(room, PeopleBPState)
+    if next_guesser is not None:
+        begin_turn(room)
         
     await send_state(room, PeopleBPEvents.Timeout.value)
 
@@ -179,11 +198,22 @@ async def handle_update_stage(message: dict, room: Room):
     
     room.peopleBP_state.current_stage = new_stage
     
-    if new_stage == PeopleBPStages.Game.value or new_stage == PeopleBPStages.Results.value:
+    if new_stage == PeopleBPStages.Game.value:
         room.peopleBP_state.already_guessed = []
         for p in room.players.values():
             p.guess = ""
             p.correct_guesses = []
+        begin_turn(room)
+    elif new_stage == PeopleBPStages.Results.value:
+        room.peopleBP_state.already_guessed = []
+        room.peopleBP_state.turn_ends_at = None
+        for p in room.players.values():
+            p.guess = ""
+            p.correct_guesses = []
+        clear_stage_timer(room)
+    elif new_stage == PeopleBPStages.Lobby.value:
+        room.peopleBP_state.turn_ends_at = None
+        clear_stage_timer(room)
             
     await send_state(room, PeopleBPEvents.UpdateStage.value)
 
@@ -213,15 +243,18 @@ async def handle_update_settings(message: dict, room: Room):
         room.peopleBP_state.current_properties = get_properties(room, PeopleBPState)
     
     if "minDuration" in data:
-        room.peopleBP_state.min_duration = data["minDuration"]
+        room.peopleBP_state.min_duration = max(3, min(120, int(data["minDuration"])))
     
     if "maxDuration" in data:
-        room.peopleBP_state.max_duration = data["maxDuration"]
+        room.peopleBP_state.max_duration = max(
+            room.peopleBP_state.min_duration,
+            min(180, int(data["maxDuration"])),
+        )
     
     if "startingLives" in data:
-        room.peopleBP_state.starting_lives = data["startingLives"]
+        room.peopleBP_state.starting_lives = max(1, min(20, int(data["startingLives"])))
         for p in room.players.values():
-            p.lives = data["startingLives"]
+            p.lives = room.peopleBP_state.starting_lives
     
     if "combinationLowerBound" in data:
         room.peopleBP_state.combination_lower_bound = data["combinationLowerBound"]
@@ -243,6 +276,7 @@ async def handle_player_disconnect(room: Room, player_id: int):
         if next_guesser:
             room.peopleBP_state.current_guesser = next_guesser
             room.peopleBP_state.current_properties = get_properties(room, PeopleBPState)
+            begin_turn(room)
             await send_state(room, PeopleBPEvents.UpdateProperties.value)
     
     # Check if game is over 
@@ -251,4 +285,6 @@ async def handle_player_disconnect(room: Room, player_id: int):
         winner_id = get_last_alive_player(room)
         room.peopleBP_state.winner = winner_id
         room.peopleBP_state.current_stage = PeopleBPStages.Results.value
+        room.peopleBP_state.turn_ends_at = None
+        clear_stage_timer(room)
         await send_state(room, PeopleBPEvents.UpdateStage.value)

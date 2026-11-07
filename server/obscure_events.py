@@ -1,6 +1,9 @@
 import asyncio
 
-from server.utils import broadcast, send_state, restart_base
+from server.utils import (
+    broadcast, send_state, restart_base,
+    start_stage_timer, clear_stage_timer,
+)
 from server.models import (
     ObscureEvents,
     ObscureStages,
@@ -38,7 +41,7 @@ def _prompt_rule(state: ObscureState) -> dict:
 
 
 def _start_round(room: Room, state: ObscureState):
-    prompt = generate_prompt(state.prompts)
+    prompt, state.prompt_bags = generate_prompt(state.prompts, state.prompt_bags)
     state.current_prompt = ObscurePrompt(
         id=prompt["id"],
         general=prompt["general"],
@@ -51,6 +54,7 @@ def _start_round(room: Room, state: ObscureState):
     state.round_results = []
     state.round_number += 1
     state.current_stage = ObscureStages.PromptDisplay.value
+    start_stage_timer(room, 2.5)
     for player in room.players.values():
         player.guess = ""
 
@@ -122,6 +126,7 @@ async def _reveal(room: Room):
         ))
 
     state.round_results = ranked
+    start_stage_timer(room, 8)
 
     await send_state(room, ObscureEvents.Reveal.value)
 
@@ -238,16 +243,20 @@ async def handle_update_stage(message: dict, room: Room):
             )
             if winner:
                 state.current_stage = ObscureStages.Results.value
+                clear_stage_timer(room)
             else:
                 _start_round(room, state)
         else:
             _start_round(room, state)
     elif new_stage == ObscureStages.Submitting.value:
         state.current_stage = ObscureStages.Submitting.value
+        start_stage_timer(room, state.duration)
     elif new_stage == ObscureStages.Results.value:
         state.current_stage = ObscureStages.Results.value
+        clear_stage_timer(room)
     elif new_stage == ObscureStages.Lobby.value:
         state.current_stage = ObscureStages.Lobby.value
+        clear_stage_timer(room)
 
     await send_state(room, ObscureEvents.UpdateStage.value)
 
@@ -298,6 +307,7 @@ async def handle_restart(message: dict, room: Room):
     state.guess_history = []
     state.round_number = 0
     state.current_prompt = None
+    state.prompt_bags = {}
     _start_round(room, state)
 
     await send_state(room, ObscureEvents.Restart.value)
@@ -320,6 +330,7 @@ async def handle_player_disconnect(room: Room, player_id: int):
         state.guess_history = []
         state.round_number = 0
         state.used_entities = []
+        clear_stage_timer(room)
         await send_state(room, ObscureEvents.UpdateStage.value)
         return
 

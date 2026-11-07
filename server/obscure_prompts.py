@@ -393,11 +393,58 @@ def _enabled_prompt_groups(enabled: list[str] | None) -> list[list[dict]]:
     return groups
 
 
-def generate_prompt(enabled: list[str] | None) -> dict:
-    """Pick a general descriptor, then a specifier within it if needed."""
+def _draw_from_bag(bag: list[str], options: list[str], last: str | None) -> str:
+    """Draw from a shuffled bag, refilling it when empty.
+
+    Bags are a lightweight "fake random" / knapsack approach: every option is
+    used once before any option can repeat.  The first item of a fresh bag is
+    also swapped if it would repeat the previous draw.
+    """
+    if not bag:
+        bag.extend(options)
+        random.shuffle(bag)
+        if len(bag) > 1 and bag[-1] == last:
+            bag[-1], bag[-2] = bag[-2], bag[-1]
+    return bag.pop()
+
+
+def generate_prompt(enabled: list[str] | None, bags: dict | None = None) -> tuple[dict, dict]:
+    """Pick a general descriptor, then a specifier within it if needed.
+
+    Selection uses per-general and per-specifier bags so the same prompt is
+    not repeated until every other enabled option has had a turn.
+    """
     _index_catalog()
-    leaves = random.choice(_enabled_prompt_groups(enabled))
-    chosen = random.choice(leaves)
+    bags = dict(bags or {})
+    prompt_bags = dict(bags.get("prompts") or {})
+
+    groups = _enabled_prompt_groups(enabled)
+    group_ids = [group[0]["general"] for group in groups]
+    group_by_id = {group[0]["general"]: group for group in groups}
+
+    general_bag = [
+        group_id for group_id in (bags.get("general") or [])
+        if group_id in group_by_id
+    ]
+    general_id = _draw_from_bag(
+        general_bag,
+        group_ids,
+        bags.get("last_general"),
+    )
+    leaves = group_by_id.get(general_id) or random.choice(groups)
+
+    leaf_options = [leaf["id"] for leaf in leaves]
+    leaf_bag = [
+        leaf_id for leaf_id in (prompt_bags.get(general_id) or [])
+        if leaf_id in leaf_options
+    ]
+    leaf_id = _draw_from_bag(
+        leaf_bag,
+        leaf_options,
+        bags.get("last_leaf"),
+    )
+    prompt_bags[general_id] = leaf_bag
+    chosen = next((leaf for leaf in leaves if leaf["id"] == leaf_id), leaves[0])
 
     prompt = {
         "id": chosen["id"],
@@ -409,14 +456,33 @@ def generate_prompt(enabled: list[str] | None) -> dict:
         "rule": dict(chosen["rule"]),
     }
 
+    country_bag = list(bags.get("countries") or [])
     if chosen.get("dynamic_country"):
-        country_id, country_name = random.choice(_get_countries())
+        countries = _get_countries()
+        country_ids = [country[0] for country in countries]
+        country_id = _draw_from_bag(
+            country_bag,
+            country_ids,
+            bags.get("last_country"),
+        )
+        country_name = next(
+            (name for cid, name in countries if cid == country_id),
+            country_id,
+        )
         prompt["country_id"] = country_id
         prompt["country_name"] = country_name
         prompt["text"] = chosen["text"].format(country=country_name)
         prompt["rule"]["country"] = country_id
 
-    return prompt
+    updated_bags = {
+        "general": general_bag,
+        "prompts": prompt_bags,
+        "countries": country_bag,
+        "last_general": general_id,
+        "last_leaf": chosen["id"],
+        "last_country": prompt.get("country_id") or bags.get("last_country"),
+    }
+    return prompt, updated_bags
 
 
 # Country list (for "City in {country}")

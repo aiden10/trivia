@@ -28,7 +28,7 @@ export const createRotanikaEventHandlers = (deps: RotanikaEventDeps) => ({
                 return prev.map(p => {
                     const serverPlayer = state.players.find(sp => sp.playerID === p.playerID);
                     if (serverPlayer) {
-                        return { ...p, score: serverPlayer.score, guess: serverPlayer.guess };
+                        return { ...p, ...serverPlayer };
                     }
                     return p;
                 });

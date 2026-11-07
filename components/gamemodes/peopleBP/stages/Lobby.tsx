@@ -8,9 +8,12 @@ export default function Lobby() {
     const { 
         host, 
         players,
+        roomState,
         submitPeopleBPUpdateStage,
         submitPeopleBPUpdateSettings,
     } = useGameContext();
+
+    const peopleBPState = roomState?.peopleBPState;
 
     const handleSettingsChange = (settings: Partial<PeopleBPSettingsType>) => {
         submitPeopleBPUpdateSettings(settings as PeopleBPSettingsType);
@@ -26,13 +29,20 @@ export default function Lobby() {
 
                 <div className="flex flex-col gap-4 mt-10">
                     <h2 className="heading2">
-                        {host ? "Settings" : "Waiting for host..."}
+                        {host ? "Settings" : "Host Settings"}
                     </h2>
                     
                     <PeopleBPSettings
                         host={host}
+                        settings={peopleBPState?.settings}
                         onSettingsChange={handleSettingsChange}
                     />
+
+                    {!host && (
+                        <p className="text-white/50 text-center font-inter text-sm italic">
+                            Waiting for the host to start the game...
+                        </p>
+                    )}
                 </div>
                 
                 {host && (

@@ -1,17 +1,18 @@
-import { CREATE_ROOM_ENDPOINT } from './constants';
+import { CREATE_ROOM_ENDPOINT, GET_ROOMS_ENDPOINT } from './constants';
+import { PublicRoom } from './types';
 
 export interface CreateRoomResponse {
     room_id: string;
 }
 
-export async function createRoom(): Promise<CreateRoomResponse> {
+export async function createRoom(isPublic: boolean = true): Promise<CreateRoomResponse> {
     try {
         const response = await fetch(CREATE_ROOM_ENDPOINT, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
             },
-            body: JSON.stringify({password: ""})
+            body: JSON.stringify({password: "", is_public: isPublic})
         });
 
         if (!response.ok) {
@@ -23,6 +24,62 @@ export async function createRoom(): Promise<CreateRoomResponse> {
     catch (error) {
         console.error('Error creating room:', error);
         throw error;
+    }
+}
+
+export function sendLeaveRoom(roomID: string, sessionID: string, connectionEpoch: number) {
+    if (!roomID || !sessionID || connectionEpoch <= 0 || typeof navigator === 'undefined') {
+        return;
+    }
+
+    const url = `${GET_ROOMS_ENDPOINT}/${roomID.toLowerCase()}/leave`
+        + `?session_id=${encodeURIComponent(sessionID)}`
+        + `&connection_epoch=${connectionEpoch}`;
+
+    try {
+        if ('sendBeacon' in navigator) {
+            navigator.sendBeacon(url);
+            return;
+        }
+        fetch(url, { method: 'POST', keepalive: true }).catch(() => {});
+    }
+    catch {
+        // Leaving is best-effort; the normal disconnect grace still applies.
+    }
+}
+
+export async function getPublicRooms(): Promise<PublicRoom[]> {
+    const response = await fetch(GET_ROOMS_ENDPOINT, { cache: 'no-store' });
+    if (!response.ok) {
+        throw new Error(`Failed to fetch rooms: ${response.statusText}`);
+    }
+    const data = await response.json();
+    return data.rooms ?? [];
+}
+
+const SESSION_KEY_PREFIX = 'roomgames:session:';
+const memorySessions = new Map<string, string>();
+
+export function getPlayerSessionId(roomID: string): string {
+    if (!roomID) return '';
+
+    const key = `${SESSION_KEY_PREFIX}${roomID.toLowerCase()}`;
+    try {
+        const existing = sessionStorage.getItem(key);
+        if (existing) return existing;
+
+        const generated = typeof crypto !== 'undefined' && 'randomUUID' in crypto
+            ? crypto.randomUUID()
+            : `${Date.now()}-${Math.random().toString(36).slice(2)}`;
+        sessionStorage.setItem(key, generated);
+        return generated;
+    }
+    catch {
+        const existing = memorySessions.get(key);
+        if (existing) return existing;
+        const generated = `${Date.now()}-${Math.random().toString(36).slice(2)}`;
+        memorySessions.set(key, generated);
+        return generated;
     }
 }
 

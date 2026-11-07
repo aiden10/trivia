@@ -4,6 +4,8 @@ import { useState, useEffect, useRef, useMemo } from 'react';
 import { useGameContext } from '@/shared/GameContext';
 import { capitalizeWords } from '@/shared/utils';
 import WikidataSearch from '../../../WikidataSearch';
+import Timer from '@/components/Timer';
+import { useCountdown } from '@/shared/useCountdown';
 
 export default function Game() {
     const { 
@@ -21,57 +23,42 @@ export default function Game() {
     );
     const currentGuesser = peopleBPState?.currentGuesser;
     const settings = peopleBPState?.settings;
-    const minDuration = settings?.minDuration ?? 5;
-    const maxDuration = settings?.maxDuration ?? 15;
+    const duration = peopleBPState?.turnDuration || 10;
+    const remainingTime = useCountdown(
+        peopleBPState?.turnEndsAt,
+        duration,
+        roomState?.serverTime,
+    );
 
     const isMyTurn = playerID === currentGuesser;
     const currentGuesserName = players.find(p => p.playerID === currentGuesser)?.playerName ?? 'Unknown';
     const currentPlayer = players.find(p => p.playerID === playerID);
     const myLives = currentPlayer?.lives ?? 0;
 
-    // Random duration for this turn
-    const [duration, setDuration] = useState(() => 
-        Math.floor(Math.random() * (maxDuration - minDuration + 1)) + minDuration
-    );
     const [searchKey, setSearchKey] = useState(0);
-
-    const endTimeRef = useRef<number>(Date.now() + (duration * 1000));
     const guesserRef = useRef(currentGuesser);
     const propertiesRef = useRef(currentProperties);
+    const expiredTurnRef = useRef<string>("");
 
-    // Reset timer when guesser or properties change
+    // Clear the search bar whenever the turn changes.
     useEffect(() => {
-        if (guesserRef.current !== currentGuesser || 
+        if (guesserRef.current !== currentGuesser ||
             JSON.stringify(propertiesRef.current) !== JSON.stringify(currentProperties)) {
             guesserRef.current = currentGuesser;
             propertiesRef.current = currentProperties;
-            
-            // New random duration for this turn
-            const newDuration = Math.floor(Math.random() * (maxDuration - minDuration + 1)) + minDuration;
-            setDuration(newDuration);
-            endTimeRef.current = Date.now() + (newDuration * 1000);
-            
-            // Clear search bar by remounting component
             setSearchKey(prev => prev + 1);
         }
-    }, [currentGuesser, currentProperties, minDuration, maxDuration]);
+    }, [currentGuesser, currentProperties]);
 
-    // Timer countdown
+    // The server owns the turn deadline; the guesser reports the timeout.
     useEffect(() => {
-        const interval = setInterval(() => {
-            const timeLeft = Math.max(0, Math.ceil((endTimeRef.current - Date.now()) / 1000));
-            
-            if (timeLeft === 0) {
-                clearInterval(interval);
-                // Only the current guesser sends the timeout
-                if (isMyTurn && peopleBPState?.currentGuesser === playerID) {
-                    submitPeopleBPTimeout();
-                }
-            }
-        }, 100);
+        if (!isMyTurn || remainingTime > 0) return;
 
-        return () => clearInterval(interval);
-    }, [currentGuesser, isMyTurn, playerID, submitPeopleBPTimeout, peopleBPState?.currentGuesser]);
+        const key = `${currentGuesser}-${peopleBPState?.turnEndsAt ?? 'local'}`;
+        if (expiredTurnRef.current === key) return;
+        expiredTurnRef.current = key;
+        submitPeopleBPTimeout();
+    }, [isMyTurn, remainingTime, currentGuesser, peopleBPState?.turnEndsAt, submitPeopleBPTimeout]);
 
     const handleSelect = (id: string) => {
         if (isMyTurn) {
@@ -119,6 +106,8 @@ export default function Game() {
                         disabled={!isMyTurn}
                     />
                 </div>
+
+                <Timer remainingTime={remainingTime} duration={duration} />
 
                 {/* My Lives */}
                 <div className="bg-neutral-900 border-2 border-white p-4 w-full max-w-2xl">

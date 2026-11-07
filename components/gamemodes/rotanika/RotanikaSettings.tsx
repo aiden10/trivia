@@ -58,7 +58,7 @@ export default function RotanikaSettings({ host, onSettingsChange }: RotanikaSet
             {/* Max Questions */}
             <div className="flex flex-col gap-2">
                 <label className="settings-label group relative cursor-help">
-                    Maximum Questions: {maxQuestions}
+                    Maximum Questions{host ? `: ${maxQuestions}` : ''}
                     <span className="tooltip">
                         If not guessed by this many questions, the picker wins
                     </span>
@@ -73,7 +73,9 @@ export default function RotanikaSettings({ host, onSettingsChange }: RotanikaSet
                         className="w-full accent-white"
                     />
                 ) : (
-                    <p className="text-white/70 font-inter">{maxQuestions}</p>
+                    <div className="settings-readonly">
+                        <span className="settings-value">{maxQuestions}</span>
+                    </div>
                 )}
             </div>
 
@@ -100,12 +102,14 @@ export default function RotanikaSettings({ host, onSettingsChange }: RotanikaSet
                         ))}
                     </select>
                 ) : (
-                    <p className="text-white/70 font-inter">
-                        {pickerId !== undefined 
-                            ? players.find(p => p.playerID === pickerId)?.playerName ?? 'Unknown'
-                            : 'None'
-                        }
-                    </p>
+                    <div className="settings-readonly">
+                        <span className="settings-value">
+                            {pickerId !== undefined
+                                ? players.find(p => p.playerID === pickerId)?.playerName ?? 'Unknown'
+                                : 'Random'
+                            }
+                        </span>
+                    </div>
                 )}
             </div>
         </div>

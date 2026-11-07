@@ -20,6 +20,12 @@ export const CREATE_ROOM_ENDPOINT =
     ? "http://localhost:8000/rooms/create"
     : "https://132.145.109.45/rooms/create");
 
+export const GET_ROOMS_ENDPOINT =
+  process.env.NEXT_PUBLIC_GET_ROOMS_ENDPOINT ??
+  (isDev
+    ? "http://localhost:8000/rooms"
+    : "https://132.145.109.45/rooms");
+
 export const GET_SONG_ENDPOINT =
   process.env.NEXT_PUBLIC_GET_SONG_ENDPOINT ??
   (isDev ? "http://localhost:8000/songs" : "https://132.145.109.45/songs");

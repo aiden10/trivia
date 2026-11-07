@@ -1,4 +1,7 @@
-from server.utils import broadcast, send_state, get_question, restart_base, strip_parentheses
+from server.utils import (
+    broadcast, send_state, get_question, restart_base, strip_parentheses,
+    start_stage_timer, clear_stage_timer,
+)
 from server.models import (
     Room, TriviaEvents, TriviaStages, QUESTION_VALUE, SONG_VALUE,
     TriviaCategories, ImageCategories, SongCategories
@@ -92,6 +95,7 @@ async def handle_restart(message: dict, room: Room):
     if room.trivia_state:
         room.trivia_state.current_question = get_question(room)
         room.trivia_state.current_stage = TriviaStages.QuestionDisplay.value
+        start_stage_timer(room, room.trivia_state.question_duration)
     
     await send_state(room, TriviaEvents.Restart.value)
 
@@ -156,6 +160,7 @@ async def handle_guess(message: dict, room: Room):
                     return
                 
                 room.trivia_state.current_stage = TriviaStages.Reveal.value
+                start_stage_timer(room, 4)
                 await send_state(room, TriviaEvents.UpdateStage.value)
         else:
             await broadcast({
@@ -190,6 +195,7 @@ async def handle_guess(message: dict, room: Room):
         # Check if all players have guessed correctly
         if all(not p.can_score for p in room.players.values()):
             room.trivia_state.current_stage = TriviaStages.Reveal.value
+            start_stage_timer(room, 4)
             await send_state(room, TriviaEvents.UpdateStage.value)
     
     elif guess not in accepted_answers:
@@ -205,6 +211,12 @@ async def handle_update_stage(message: dict, room: Room):
     
     if room.trivia_state:
         room.trivia_state.current_stage = new_stage
+        if new_stage == TriviaStages.QuestionDisplay.value:
+            start_stage_timer(room, room.trivia_state.question_duration)
+        elif new_stage == TriviaStages.Reveal.value:
+            start_stage_timer(room, 4)
+        else:
+            clear_stage_timer(room)
     
     # Reset player state based on stage
     for p in room.players.values():
@@ -221,6 +233,8 @@ async def handle_update_question(room: Room):
     """Get and broadcast a new question."""
     if room.trivia_state:
         room.trivia_state.current_question = get_question(room)
+        if room.trivia_state.current_stage == TriviaStages.QuestionDisplay.value:
+            start_stage_timer(room, room.trivia_state.question_duration)
     
     await send_state(room, TriviaEvents.UpdateQuestion.value)
 
@@ -265,9 +279,9 @@ async def handle_update_settings(message: dict, room: Room):
         room.trivia_state.current_question = get_question(room)
 
     if "questionDuration" in data:
-        room.trivia_state.question_duration = data["questionDuration"]
+        room.trivia_state.question_duration = max(5, min(180, int(data["questionDuration"])))
     
     if "winningScore" in data:
-        room.trivia_state.winning_score = data["winningScore"]
+        room.trivia_state.winning_score = max(10, min(5000, int(data["winningScore"])))
     
     await send_state(room, TriviaEvents.UpdateSettings.value)

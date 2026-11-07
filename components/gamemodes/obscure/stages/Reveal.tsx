@@ -3,6 +3,7 @@
 import { useEffect, useRef } from "react";
 import { useGameContext } from "@/shared/GameContext";
 import { ObscureStages } from "@/shared/types";
+import { useCountdown } from "@/shared/useCountdown";
 
 const REVEAL_DURATION = 8;
 
@@ -27,15 +28,21 @@ export default function Reveal() {
         player => !results.some(result => result.playerId === player.playerID)
     );
 
+    const remainingTime = useCountdown(
+        roomState?.stageEndsAt,
+        REVEAL_DURATION,
+        roomState?.serverTime,
+    );
+    const expiredStageRef = useRef<string>("");
+
     useEffect(() => {
-        if (!host) return;
+        if (!host || remainingTime > 0) return;
 
-        const timeout = setTimeout(() => {
-            submitStageRef.current(ObscureStages.PromptDisplay);
-        }, REVEAL_DURATION * 1000);
-
-        return () => clearTimeout(timeout);
-    }, [host, roundNumber]);
+        const key = `${roundNumber}-${roomState?.stageEndsAt ?? 'local'}`;
+        if (expiredStageRef.current === key) return;
+        expiredStageRef.current = key;
+        submitStageRef.current(ObscureStages.PromptDisplay);
+    }, [host, roundNumber, remainingTime, roomState?.stageEndsAt]);
 
     return (
         <div className="w-full flex flex-col min-h-screen gap-y-6 p-4 bg-lines">

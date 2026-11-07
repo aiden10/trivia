@@ -3,6 +3,7 @@
 import { useEffect, useRef } from "react";
 import { useGameContext } from "@/shared/GameContext";
 import { ObscureStages } from "@/shared/types";
+import { useCountdown } from "@/shared/useCountdown";
 
 const PROMPT_DISPLAY_DURATION = 2500;
 
@@ -18,16 +19,21 @@ export default function PromptDisplay() {
 
     const obscureState = roomState?.obscureState;
     const prompt = obscureState?.currentPrompt;
+    const remainingTime = useCountdown(
+        roomState?.stageEndsAt,
+        PROMPT_DISPLAY_DURATION / 1000,
+        roomState?.serverTime,
+    );
+    const expiredStageRef = useRef<string>("");
 
     useEffect(() => {
-        if (!host) return;
+        if (!host || remainingTime > 0) return;
 
-        const timeout = setTimeout(() => {
-            submitStageRef.current(ObscureStages.Submitting);
-        }, PROMPT_DISPLAY_DURATION);
-
-        return () => clearTimeout(timeout);
-    }, [host]);
+        const key = `${roomState?.stageEndsAt ?? 'local'}`;
+        if (expiredStageRef.current === key) return;
+        expiredStageRef.current = key;
+        submitStageRef.current(ObscureStages.Submitting);
+    }, [host, remainingTime, roomState?.stageEndsAt]);
 
     if (!prompt) {
         return (

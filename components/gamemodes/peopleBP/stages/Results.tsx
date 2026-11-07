@@ -42,6 +42,7 @@ export default function Results() {
                 <div className="flex flex-col gap-4 md:w-2/3 w-full mt-6">
                     <PeopleBPSettings
                         host={host}
+                        settings={peopleBPState?.settings}
                         onSettingsChange={handleSettingsChange}
                     />
 
@@ -61,9 +62,16 @@ export default function Results() {
                     </>
                 </div>
             ) : (
-                <h2 className="text-2xl font-bold text-white/50 mb-3 animate-pulse mt-6">
-                    Waiting for host...
-                </h2>
+                <div className="flex flex-col gap-4 md:w-2/3 w-full mt-6">
+                    <PeopleBPSettings
+                        host={false}
+                        settings={peopleBPState?.settings}
+                        onSettingsChange={handleSettingsChange}
+                    />
+                    <h2 className="text-2xl font-bold text-white/50 mb-3 animate-pulse text-center">
+                        Waiting for host...
+                    </h2>
+                </div>
             )}
         </div>
     );

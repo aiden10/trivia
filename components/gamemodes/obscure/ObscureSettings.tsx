@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { ObscureSettings as ObscureSettingsType, ObscurePromptGroup } from "@/shared/types";
+import { SettingsSlider } from "@/components/SettingsControls";
 
 interface ObscureSettingsProps {
     host: boolean;
@@ -57,51 +58,28 @@ export default function ObscureSettings({
 
     return (
         <div className="settings-group bg-lines">
-            {/* Timer Duration */}
-            <div className="flex flex-col gap-2">
-                <label className="settings-label group relative cursor-help">
-                    Timer Duration: {duration} seconds
-                    <span className="tooltip">
-                        How long players have to submit an answer each round
-                    </span>
-                </label>
-                {host ? (
-                    <input
-                        type="range"
-                        min={10}
-                        max={180}
-                        step={5}
-                        value={duration}
-                        onChange={(e) => handleDurationChange(parseInt(e.target.value))}
-                        className="w-full accent-white"
-                    />
-                ) : (
-                    <p className="text-white/70 font-inter">{duration} seconds</p>
-                )}
-            </div>
+            <SettingsSlider
+                label="Timer Duration"
+                tooltip="How long players have to submit an answer each round"
+                value={duration}
+                suffix="seconds"
+                min={10}
+                max={180}
+                step={5}
+                host={host}
+                onChange={handleDurationChange}
+            />
 
-            {/* Winning Score */}
-            <div className="flex flex-col gap-2">
-                <label className="settings-label group relative cursor-help">
-                    Winning Score: {winningScore}
-                    <span className="tooltip">
-                        Score needed to win the game.
-                    </span>
-                </label>
-                {host ? (
-                    <input
-                        type="range"
-                        min={10}
-                        max={500}
-                        step={10}
-                        value={winningScore}
-                        onChange={(e) => handleWinningScoreChange(parseInt(e.target.value))}
-                        className="w-full accent-white"
-                    />
-                ) : (
-                    <p className="text-white/70 font-inter">{winningScore}</p>
-                )}
-            </div>
+            <SettingsSlider
+                label="Winning Score"
+                tooltip="Score needed to win the game."
+                value={winningScore}
+                min={10}
+                max={500}
+                step={10}
+                host={host}
+                onChange={handleWinningScoreChange}
+            />
 
             {/* Prompt selection */}
             <div className="flex flex-col gap-2">
@@ -112,32 +90,49 @@ export default function ObscureSettings({
                     </span>
                 </label>
 
-                <div className="flex flex-col gap-4 bg-neutral-900 bg-dots p-4">
-                    {catalog.map(group => {
-                        const groupIds = group.prompts.map(prompt => prompt.id);
-                        const allSelected = groupIds.every(id => selectedPrompts.includes(id));
-                        const someSelected = groupIds.some(id => selectedPrompts.includes(id));
+                {host ? (
+                    <div className="flex flex-col gap-4 bg-neutral-900 bg-dots p-4">
+                        {catalog.map(group => {
+                            const groupIds = group.prompts.map(prompt => prompt.id);
+                            const selectedCount = groupIds.filter(id => selectedPrompts.includes(id)).length;
+                            const allSelected = selectedCount === groupIds.length;
+                            const someSelected = selectedCount > 0;
 
-                        return (
-                            <div key={group.id} className="flex flex-col gap-2">
-                                <label className={`flex items-center gap-3 settings-label ${!host && 'opacity-50'}`}>
-                                    <input
-                                        type="checkbox"
-                                        checked={allSelected}
-                                        ref={(el) => {
-                                            if (el) el.indeterminate = someSelected && !allSelected;
-                                        }}
-                                        onChange={(e) => handleGroupToggle(groupIds, e.target.checked)}
-                                        disabled={!host}
-                                        className="settings-checkbox"
-                                    />
-                                    <span>{group.name}</span>
-                                </label>
-
-                            </div>
-                        );
-                    })}
-                </div>
+                            return (
+                                <div key={group.id} className="flex flex-col gap-2">
+                                    <label className="flex items-center gap-3 settings-label cursor-pointer">
+                                        <input
+                                            type="checkbox"
+                                            checked={allSelected}
+                                            ref={(el) => {
+                                                if (el) el.indeterminate = someSelected && !allSelected;
+                                            }}
+                                            onChange={(e) => handleGroupToggle(groupIds, e.target.checked)}
+                                            className="settings-checkbox"
+                                        />
+                                        <span className="flex-1">{group.name}</span>
+                                        <span className="text-white/40 text-xs">
+                                            {selectedCount}/{groupIds.length}
+                                        </span>
+                                    </label>
+                                </div>
+                            );
+                        })}
+                    </div>
+                ) : (
+                    <div className="settings-readonly flex flex-wrap gap-2">
+                        {catalog.filter(group =>
+                            group.prompts.some(prompt => selectedPrompts.includes(prompt.id))
+                        ).map(group => (
+                            <span key={group.id} className="settings-chip">
+                                {group.name}
+                                <span className="settings-chip-count">
+                                    {group.prompts.filter(prompt => selectedPrompts.includes(prompt.id)).length}
+                                </span>
+                            </span>
+                        ))}
+                    </div>
+                )}
             </div>
         </div>
     );

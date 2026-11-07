@@ -1,9 +1,10 @@
 'use client'
 
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useRef } from "react";
 import { useGameContext } from "@/shared/GameContext";
 import WikidataSearch from "@/components/WikidataSearch";
 import Timer from "@/components/Timer";
+import { useCountdown } from "@/shared/useCountdown";
 
 export default function Submitting() {
     const {
@@ -21,38 +22,22 @@ export default function Submitting() {
     const roundNumber = obscureState?.roundNumber ?? 1;
     const duration = obscureState?.settings.duration ?? 45;
 
-    const [remainingTime, setRemainingTime] = useState(duration);
-    const endTimeRef = useRef<number>(Date.now() + duration * 1000);
-    const revealedRef = useRef(false);
+    const remainingTime = useCountdown(roomState?.stageEndsAt, duration, roomState?.serverTime);
+    const revealedRef = useRef<string>("");
     const submitRevealRef = useRef(submitObscureReveal);
     submitRevealRef.current = submitObscureReveal;
 
     const mySubmission = submissions.find(submission => submission.playerId === playerID);
 
-    // Reset the timer whenever a new round starts (or the duration changes).
+    // The host advances the round when the server countdown reaches zero.
     useEffect(() => {
-        endTimeRef.current = Date.now() + duration * 1000;
-        setRemainingTime(duration);
-        revealedRef.current = false;
-    }, [roundNumber, duration]);
+        if (!host || remainingTime > 0) return;
 
-    // Countdown. The host is responsible for telling the server that time is up.
-    useEffect(() => {
-        const interval = setInterval(() => {
-            const timeLeft = Math.max(0, Math.ceil((endTimeRef.current - Date.now()) / 1000));
-            setRemainingTime(timeLeft);
-
-            if (timeLeft === 0) {
-                clearInterval(interval);
-                if (!revealedRef.current) {
-                    revealedRef.current = true;
-                    if (host) submitRevealRef.current();
-                }
-            }
-        }, 100);
-
-        return () => clearInterval(interval);
-    }, [host, roundNumber, duration]);
+        const key = `${roundNumber}-${roomState?.stageEndsAt ?? 'local'}`;
+        if (revealedRef.current === key) return;
+        revealedRef.current = key;
+        submitRevealRef.current();
+    }, [host, remainingTime, roundNumber, roomState?.stageEndsAt]);
 
     return (
         <div className="w-full flex flex-col min-h-screen gap-y-5 p-4 bg-lines">

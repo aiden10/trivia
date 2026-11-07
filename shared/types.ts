@@ -6,6 +6,8 @@ export interface Player {
     guess: string;
     lives: number;
     host: boolean;
+    connected: boolean;
+    leaving?: boolean;
     correctGuesses: string[];
     guessedCorrectly: boolean;
     guessedSong: boolean;
@@ -15,6 +17,7 @@ export interface Player {
 export interface Message {
     sender: string;
     body: string;
+    system?: boolean;
 }
 
 export enum GameModes {
@@ -57,14 +60,29 @@ export const GamemodeOptions: Array<{ id: GameModes; name: string; description: 
 export interface RoomState {
     roomId: string;
     hostId: number;
+    isPublic?: boolean;
     players: Player[];
     gamemode: string;
     messages: Message[];
+    serverTime?: number;
+    stageEndsAt?: number | null;
+    stageDuration?: number | null;
     triviaState: TriviaState | null; 
     peopleState: PeopleState | null;
     rotanikaState: RotanikaState | null;
     peopleBPState: PeopleBPState | null;
     obscureState: ObscureState | null;
+}
+
+export interface PublicRoom {
+    roomId: string;
+    playerCount: number;
+    connectedPlayerCount: number;
+    gamemode: string;
+    stage: number;
+    stageName: string;
+    hostName: string;
+    createdAt: number;
 }
 
 export enum TriviaStages {
@@ -188,7 +206,7 @@ export interface TriviaSettings {
 
 export interface PeopleSettings {
     properties?: string[];
-    duration?: number;
+    questionDuration?: number;
     winningScore?: number;
     combinationLowerBound?: number;
     combinationUpperBound?: number;
@@ -274,9 +292,16 @@ export interface RotanikaQuestion {
     turnNumber: number;
 }
 
+export interface CategoryCounts {
+    text: Record<string, number>;
+    image: Record<string, number>;
+    songs: Record<string, number>;
+}
+
 export interface TriviaState {
     currentQuestion: TriviaQuestion | null;
     currentStage: number;
+    categoryCounts?: CategoryCounts;
     settings: TriviaSettings;
 }
 
@@ -306,6 +331,8 @@ export interface PeopleBPState {
     currentGuesser: number;
     alreadyGuessed: string[];
     winner: number | null;
+    turnEndsAt?: number | null;
+    turnDuration?: number;
     settings: PeopleBPSettings;
 }
 

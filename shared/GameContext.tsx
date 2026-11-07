@@ -1,6 +1,6 @@
 'use client'
 
-import React, { createContext, useContext, useState, useEffect, ReactNode } from 'react';
+import React, { createContext, useContext, useState, useEffect, useRef, ReactNode } from 'react';
 import { Player, GameModes, RoomState, TriviaStages, 
         TriviaSettings, PeopleStages, PeopleSettings,
         RotanikaStages, RotanikaSettings, PeopleBPSettings, PeopleBPStages,
@@ -36,6 +36,8 @@ interface GameContextType {
     // Generic Events
     submitUpdateGameMode: (gamemode: GameModes) => void;
     submitMessage: (sender: string, body: string) => void;
+    submitTransferHost: (playerID: number) => void;
+    submitRequestState: () => void;
     
     // Trivia Events
     submitTriviaGuess: (guess: string) => void;
@@ -105,14 +107,20 @@ export const GameProvider: React.FC<GameProviderProps> = ({ children }) => {
     const [gamemode, setGamemode] = useState<GameModes>(GameModes.Default);
     const [roomState, setRoomState] = useState<RoomState | null>(null);
 
+    const playerIDRef = useRef(playerID);
+    playerIDRef.current = playerID;
+
     const genericHandlers = createGenericEventHandlers({
-        setPlayerID,
+        setPlayerID: (id: number) => {
+            playerIDRef.current = id;
+            setPlayerID(id);
+        },
         setHost,
         setPlayers,
         setGamemode,
         setRoomState,
         name,
-        playerID
+        getPlayerID: () => playerIDRef.current,
     });
 
     const genericEmitters = createGenericEventEmitters(socket);
@@ -182,12 +190,37 @@ export const GameProvider: React.FC<GameProviderProps> = ({ children }) => {
         setName(randomName);
     }, []);
 
+    const handlersRef = useRef({
+        genericHandlers,
+        triviaHandlers,
+        peopleHandlers,
+        rotanikaHandlers,
+        peopleBPHandlers,
+        obscureHandlers,
+    });
+    handlersRef.current = {
+        genericHandlers,
+        triviaHandlers,
+        peopleHandlers,
+        rotanikaHandlers,
+        peopleBPHandlers,
+        obscureHandlers,
+    };
+
     useEffect(() => {
         if (!socket) return;
 
         const handleMessage = (event: MessageEvent) => {
             const message = JSON.parse(event.data);
             const { type, data, state } = message;
+            const {
+                genericHandlers,
+                triviaHandlers,
+                peopleHandlers,
+                rotanikaHandlers,
+                peopleBPHandlers,
+                obscureHandlers,
+            } = handlersRef.current;
 
             switch (type) {
                 case Events.Join:
@@ -203,7 +236,11 @@ export const GameProvider: React.FC<GameProviderProps> = ({ children }) => {
                     genericHandlers.handleUpdateGameMode(state);
                     return;
                 case Events.UpdateHost:
-                    genericHandlers.handleUpdateHost(data);
+                    genericHandlers.handleUpdateHost(data, state);
+                    return;
+                case Events.UpdatePlayers:
+                case Events.StateSync:
+                    genericHandlers.handleUpdatePlayers(state);
                     return;
                 case Events.ChatMessage:
                     genericHandlers.handleMessage(state);
@@ -304,7 +341,7 @@ export const GameProvider: React.FC<GameProviderProps> = ({ children }) => {
 
         socket.addEventListener('message', handleMessage);
         return () => socket.removeEventListener('message', handleMessage);
-    }, [socket, name, roomState]);
+    }, [socket]);
 
     const getPlayerData = (id: number): Player | undefined => {
         return players.find(player => player.playerID === id);
@@ -334,6 +371,8 @@ export const GameProvider: React.FC<GameProviderProps> = ({ children }) => {
         // Generic Events
         submitUpdateGameMode: genericEmitters.submitUpdateGameMode,
         submitMessage: genericEmitters.submitMessage,
+        submitTransferHost: genericEmitters.submitTransferHost,
+        submitRequestState: genericEmitters.submitRequestState,
         
         // Trivia Events
         submitTriviaGuess: triviaEmitters.submitGuess,

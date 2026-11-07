@@ -29,13 +29,7 @@ export const createPeopleBPEventHandlers = (deps: PeopleBPEventDeps) => ({
                 return prev.map(p => {
                     const serverPlayer = state.players.find(sp => sp.playerID === p.playerID);
                     if (serverPlayer) {
-                        return { 
-                            ...p, 
-                            score: serverPlayer.score, 
-                            guess: serverPlayer.guess, 
-                            lives: serverPlayer.lives,
-                            correctGuesses: serverPlayer.correctGuesses 
-                        };
+                        return { ...p, ...serverPlayer };
                     }
                     return p;
                 });

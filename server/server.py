@@ -1,15 +1,21 @@
 import json
 import random
 import asyncio
+import itertools
 from pathlib import Path
 from contextlib import asynccontextmanager
 from fastapi import FastAPI, WebSocket, WebSocketDisconnect
 from fastapi.responses import JSONResponse, FileResponse
 from fastapi.middleware.cors import CORSMiddleware
 from server.models import Room, Player, Events, TriviaEvents, GameModes, CreateRoomBody, PeopleEvents, RotanikaEvents, PeopleBPEvents, ObscureEvents
-from server.utils import broadcast, generate_room_id, send_state
+from server.utils import (
+    broadcast, generate_room_id, send_state, add_system_message,
+)
 from server.stats import Stats
-from server.events import handle_message, handle_update_gamemode
+from server.events import (
+    handle_message, handle_update_gamemode, handle_transfer_host,
+    handle_request_state,
+)
 from server.trivia_events import (
     handle_restart as handle_trivia_restart,
     handle_guess as handle_trivia_guess,
@@ -56,10 +62,11 @@ SONG_PREVIEWS_DIR = Path(__file__).parent / "song_previews"
 origins = [
     "http://localhost",
     "http://localhost:3000",
+    "http://127.0.0.1:3000",
     "https://mtrivia.vercel.app",
     "https://room-games.vercel.app",
-    "https://trivia.aiden.photo"
-    "*"
+    "https://trivia.aiden.photo",
+    "*",
 ]
 
 stats = Stats()
@@ -97,6 +104,122 @@ app.add_middleware(
 
 rooms: dict[str, Room] = {}
 
+DISCONNECT_GRACE_SECONDS = 20
+LEAVE_CONFIRM_SECONDS = 3
+SESSION_REPLACED_CODE = 4001
+CONNECTION_EPOCHS = itertools.count(1)
+
+
+def choose_new_host(room: Room) -> Player | None:
+    candidates = [p for p in room.players.values() if p.connected]
+    if not candidates:
+        candidates = list(room.players.values())
+    if not candidates:
+        return None
+
+    new_host = random.choice(candidates)
+    for player in room.players.values():
+        player.host = player.id == new_host.id
+    room.host_id = new_host.id
+    add_system_message(room, f"{new_host.name} is now the host")
+    return new_host
+
+
+async def finalize_player_removal(room: Room, player: Player):
+    """Remove a player for good and notify the room."""
+    if room.players.get(player.id) is not player:
+        return
+
+    room.players.pop(player.id, None)
+    socket = player.socket
+    player.socket = None
+    player.connected = False
+    player.leaving = False
+    player.leave_task = None
+
+    if socket is not None:
+        try:
+            await socket.close(code=4000, reason="Left room")
+        except Exception:
+            pass
+
+    await stats.on_exit()
+    await stats.write_to_db()
+
+    if room.gamemode == GameModes.Rotanika.value:
+        await handle_rotanika_player_disconnect(room, player.id)
+    if room.gamemode == GameModes.PeopleBP.value:
+        await handle_peopleBP_player_disconnect(room, player.id)
+    if room.gamemode == GameModes.Obscure.value:
+        await handle_obscure_player_disconnect(room, player.id)
+
+    was_host = player.id == room.host_id
+    if was_host:
+        player.host = False
+
+    add_system_message(room, f"{player.name} left the room")
+    if was_host and room.players:
+        choose_new_host(room)
+
+    if not room.players:
+        rooms.pop(room.id.lower(), None)
+        print(f"Room {room.id} closed - no players remaining")
+        return
+
+    await send_state(room, Events.UpdatePlayers.value)
+
+
+async def remove_player_after_grace(room: Room, player: Player):
+    """Remove a player after an unexpected disconnect, unless they return."""
+    try:
+        await asyncio.sleep(DISCONNECT_GRACE_SECONDS)
+    except asyncio.CancelledError:
+        return
+
+    if player.connected or room.players.get(player.id) is not player:
+        return
+
+    await finalize_player_removal(room, player)
+
+
+async def remove_player_after_leave(room: Room, player: Player):
+    """A page was closed/navigated away; give reloads a short window."""
+    try:
+        await asyncio.sleep(LEAVE_CONFIRM_SECONDS)
+    except asyncio.CancelledError:
+        return
+
+    if room.players.get(player.id) is not player:
+        return
+    if player.connected and not player.leaving:
+        return
+
+    await finalize_player_removal(room, player)
+
+
+async def mark_player_disconnected(room: Room, player: Player, websocket: WebSocket):
+    if player.socket is not websocket or not player.connected:
+        return
+
+    player.connected = False
+    player.socket = None
+
+    # The browser already told us this page was closing. Don't show the
+    # "reconnecting" grace period - the leave task will remove them shortly.
+    if player.leaving:
+        await send_state(room, Events.UpdatePlayers.value)
+        return
+
+    add_system_message(room, f"{player.name} lost connection")
+    await send_state(room, Events.UpdatePlayers.value)
+
+    if player.connected or player.leaving or player.leave_task:
+        return
+    if player.disconnect_task:
+        player.disconnect_task.cancel()
+    player.disconnect_task = asyncio.create_task(remove_player_after_grace(room, player))
+
+
 async def handle_generic_event(message: dict, room: Room, player: Player) -> bool:
     """
     Handle generic (non-gamemode-specific) events.
@@ -110,6 +233,12 @@ async def handle_generic_event(message: dict, room: Room, player: Player) -> boo
             return True
         case Events.ChatMessage.value:
             await handle_message(message, room)
+            return True
+        case Events.TransferHost.value:
+            await handle_transfer_host(message, room, player)
+            return True
+        case Events.RequestState.value:
+            await handle_request_state(room, player)
             return True
     return False
 
@@ -193,8 +322,8 @@ async def handle_obscure_event(message: dict, room: Room):
 @app.websocket("/ws/{room_id}")
 async def websocket_endpoint(websocket: WebSocket, room_id: str):
     await websocket.accept()
-    player = None
-    room: Room = None
+    player: Player | None = None
+    room: Room | None = None
     
     try:
         room_key = room_id.lower()
@@ -210,23 +339,63 @@ async def websocket_endpoint(websocket: WebSocket, room_id: str):
 
         player_info_data = await websocket.receive_text()
         player_info = json.loads(player_info_data)
-        
-        player = Player(player_info["name"], room.player_index, websocket)
-        await stats.on_join()
-        is_host = len(room.players) == 0
-        
-        if is_host:
-            player.host = True
-            room.host_id = room.player_index
+        session_id = str(player_info.get("sessionId") or "")
+        name = str(player_info.get("name") or "Player").strip()[:40] or "Player"
+
+        existing_player = next(
+            (p for p in room.players.values() if session_id and p.session_id == session_id),
+            None,
+        )
+        reconnected = existing_player is not None
+
+        if existing_player:
+            player = existing_player
+            player.name = name
+            player.connected = True
+            player.connection_epoch = next(CONNECTION_EPOCHS)
+            player.leaving = False
+            player.host = player.id == room.host_id
+            if player.disconnect_task:
+                player.disconnect_task.cancel()
+                player.disconnect_task = None
+            if player.leave_task:
+                player.leave_task.cancel()
+                player.leave_task = None
+
+            old_socket = player.socket
+            player.socket = websocket
+            if old_socket is not None and old_socket is not websocket:
+                try:
+                    await old_socket.close(
+                        code=SESSION_REPLACED_CODE,
+                        reason="Session opened in another tab",
+                    )
+                except Exception:
+                    pass
+            add_system_message(room, f"{player.name} reconnected")
+        else:
+            player = Player(name, room.player_index, websocket, session_id)
+            player.connection_epoch = next(CONNECTION_EPOCHS)
+            room.players[player.id] = player
+            room.player_index += 1
+            await stats.on_join()
+
+            if not room.players or room.host_id not in room.players or not any(p.host for p in room.players.values()):
+                player.host = True
+                room.host_id = player.id
             
-        if room.gamemode == GameModes.PeopleBP.value and room.peopleBP_state:
-            player.lives = room.peopleBP_state.starting_lives
+            if room.gamemode == GameModes.PeopleBP.value and room.peopleBP_state:
+                player.lives = room.peopleBP_state.starting_lives
+
+            add_system_message(room, f"{name} joined the room")
         
         await websocket.send_text(json.dumps({
             "type": Events.Join.value,
             "data": {
-                "playerID": room.player_index,
-                "host": is_host,
+                "playerID": player.id,
+                "host": player.host,
+                "reconnected": reconnected,
+                "connectionEpoch": player.connection_epoch,
             },
             "state": room.to_dict()
         }))
@@ -234,13 +403,14 @@ async def websocket_endpoint(websocket: WebSocket, room_id: str):
         await broadcast({
             "type": Events.OtherJoin.value,
             "data": {
-                "playerName": player_info["name"],
-                "playerID": room.player_index
+                "playerName": player.name,
+                "playerID": player.id,
+                "host": player.host,
+                "reconnected": reconnected,
             }
         }, room, websocket)
-        
-        room.players[room.player_index] = player
-        room.player_index += 1
+
+        await send_state(room, Events.UpdatePlayers.value)
 
         while True:
             request_data = await websocket.receive_text()
@@ -265,56 +435,76 @@ async def websocket_endpoint(websocket: WebSocket, room_id: str):
 
     except WebSocketDisconnect:
         if player and room:
-            if player.id in room.players:
-                room.players.pop(player.id)
-                await stats.on_exit()
-                if room.gamemode == GameModes.Rotanika.value:
-                    await handle_rotanika_player_disconnect(room, player.id)
-                if room.gamemode == GameModes.PeopleBP.value:
-                    await handle_peopleBP_player_disconnect(room, player.id)
-                if room.gamemode == GameModes.Obscure.value:
-                    await handle_obscure_player_disconnect(room, player.id)
-
-                if player.id == room.host_id and len(room.players) > 0:
-                    new_host = random.choice(list(room.players.keys()))
-                    await broadcast({
-                        "type": Events.UpdateHost.value,
-                        "data": {"newHostID": new_host}
-                    }, room)
-                    room.players[new_host].host = True
-                    room.host_id = new_host
-                
-                await send_state(room, Events.Quit.value)                
-                
-                if len(room.players) == 0:
-                    print(f"Room {room_id} closed - no players remaining")
-                    rooms.pop(room_id.lower(), None)
-            
+            await mark_player_disconnected(room, player, websocket)
             print(f"Room {room_id}: {len(room.players)} players remaining")
     
     except Exception as e:
         print(f"WebSocket error: {e}")
         import traceback
         traceback.print_exc()
+        if player and room:
+            await mark_player_disconnected(room, player, websocket)
 
 @app.post("/rooms/create")
 async def create_room(create_room_body: CreateRoomBody):    
     room_id = generate_room_id(rooms)
-    new_room = Room(room_id, create_room_body.password)
+    new_room = Room(room_id, create_room_body.password, create_room_body.is_public)
     rooms[room_id] = new_room
     return JSONResponse(
         content={"room_id": room_id}, 
         status_code=200
     )
 
+@app.post("/rooms/{room_id}/leave")
+async def leave_room(room_id: str, session_id: str = "", connection_epoch: int = -1):
+    """Called by sendBeacon when the page is closed or navigated away."""
+    room = rooms.get(room_id.lower())
+    if not room:
+        return {"ok": True}
+
+    player = next(
+        (
+            p for p in room.players.values()
+            if session_id and p.session_id == session_id
+        ),
+        None,
+    )
+    if not player or player.connection_epoch != connection_epoch:
+        return {"ok": True}
+
+    # A reconnect from the next page load wins over the old page's beacon.
+    if player.leave_task:
+        return {"ok": True}
+
+    if player.disconnect_task:
+        player.disconnect_task.cancel()
+        player.disconnect_task = None
+
+    # The socket may have closed before this beacon reached us. Replace the
+    # temporary "lost connection" entry with a clean leave.
+    if (
+        room.messages
+        and room.messages[-1].system
+        and room.messages[-1].body == f"{player.name} lost connection"
+    ):
+        room.messages.pop()
+
+    player.leaving = True
+    player.leave_task = asyncio.create_task(remove_player_after_leave(room, player))
+    await send_state(room, Events.UpdatePlayers.value)
+    return {"ok": True}
+
 @app.get("/rooms")
 async def get_rooms():
-    return {
-        "rooms": {
-            room_id: room.to_dict() 
-            for room_id, room in rooms.items()
-        }
-    }
+    public_rooms = [
+        room.to_public_dict()
+        for room in rooms.values()
+        if room.is_public
+        and room.players
+        and any(player.connected for player in room.players.values())
+    ]
+    public_rooms.sort(key=lambda room: room["createdAt"], reverse=True)
+    return {"rooms": public_rooms}
 
 @app.get("/rooms/{room_id}")
 async def get_room(room_id: str):

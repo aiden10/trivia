@@ -1,12 +1,13 @@
 'use client'
 
-import { useState, useEffect, useRef } from 'react';
+import { useEffect, useRef } from 'react';
 import { useGameContext } from '@/shared/GameContext';
 import { PeopleStages } from '@/shared/types';
 import { capitalizeWords } from '@/shared/utils';
 import PlayerList from '@/components/PlayerList';
 import WikidataSearch from '../../../WikidataSearch';
 import Timer from '@/components/Timer';
+import { useCountdown } from '@/shared/useCountdown';
 
 export default function GuessingPeriod() {
     const { 
@@ -21,41 +22,22 @@ export default function GuessingPeriod() {
 
     const peopleState = roomState?.peopleState;
     const currentProperties = peopleState?.currentProperties;
-    const duration = peopleState?.settings.duration ?? 15;
+    const duration = peopleState?.settings.questionDuration ?? 15;
 
-    const [remainingTime, setRemainingTime] = useState(duration);
-
-    const endTimeRef = useRef<number>(Date.now() + (duration * 1000));
-    const propertiesRef = useRef(currentProperties);
+    const remainingTime = useCountdown(roomState?.stageEndsAt, duration, roomState?.serverTime);
+    const expiredStageRef = useRef<string>("");
 
     const currentPlayer = players.find(p => p.playerID === playerID);
 
-    // Reset state when properties change
     useEffect(() => {
-        if (propertiesRef.current !== currentProperties) {
-            propertiesRef.current = currentProperties;
-            endTimeRef.current = Date.now() + (duration * 1000);
-            setRemainingTime(duration);
-        }
-    }, [currentProperties, duration]);
+        if (!host || remainingTime > 0) return;
 
-    // Timer countdown
-    useEffect(() => {
-        const interval = setInterval(() => {
-            const timeLeft = Math.max(0, Math.ceil((endTimeRef.current - Date.now()) / 1000));
-            setRemainingTime(timeLeft);
-            
-            if (timeLeft === 0) {
-                clearInterval(interval);
-                if (host) {
-                    submitPGUpdateProperties();
-                    submitPGUpdateStage(PeopleStages.PropertiesDisplay);
-                }
-            }
-        }, 100);
-
-        return () => clearInterval(interval);
-    }, [currentProperties, host, submitPGUpdateStage, submitPGUpdateProperties]);
+        const key = `${roomState?.stageEndsAt ?? 'local'}`;
+        if (expiredStageRef.current === key) return;
+        expiredStageRef.current = key;
+        submitPGUpdateProperties();
+        submitPGUpdateStage(PeopleStages.PropertiesDisplay);
+    }, [host, remainingTime, roomState?.stageEndsAt, submitPGUpdateStage, submitPGUpdateProperties]);
 
     const handleSelect = (id: string) => {
         submitPGGuess(id);

@@ -6,6 +6,10 @@ export enum Events {
     Quit = "quit",
     UpdateGameMode = "updateGameMode",
     UpdateHost = "updateHost",
+    TransferHost = "transferHost",
+    UpdatePlayers = "updatePlayers",
+    RequestState = "requestState",
+    StateSync = "stateSync",
     Error = "error",
     ChatMessage = "chatMessage"
 }
@@ -13,11 +17,14 @@ export enum Events {
 export interface JoinResponse {
     playerID: number;
     host: boolean;
+    reconnected?: boolean;
 }
 
 export interface OtherJoinResponse {
     playerName: string;
     playerID: number;
+    host?: boolean;
+    reconnected?: boolean;
 }
 
 export interface GenericEventDeps {
@@ -27,75 +34,79 @@ export interface GenericEventDeps {
     setGamemode: (mode: GameModes) => void;
     setRoomState: (state: RoomState) => void;
     name: string;
-    playerID: number;
+    getPlayerID: () => number;
 }
+
+const applyRoomState = (
+    deps: GenericEventDeps,
+    state: RoomState
+) => {
+    deps.setRoomState(state);
+    deps.setPlayers(state.players);
+    deps.setGamemode(state.gamemode as GameModes);
+    deps.setHost(state.hostId === deps.getPlayerID());
+};
 
 export const createGenericEventHandlers = (deps: GenericEventDeps) => ({
     handleJoin: (data: JoinResponse, state: RoomState) => {
         deps.setPlayerID(data.playerID);
-        deps.setHost(data.host);
+        deps.setHost(data.host || state.hostId === data.playerID);
         deps.setRoomState(state);
-        
-        // Build player list from state + self
-        const existingPlayers: Player[] = state.players.map(p => ({
-            playerID: p.playerID,
-            playerName: p.playerName,
-            score: p.score,
-            guess: p.guess,
-            lives: p.lives,
-            host: p.host,
-            correctGuesses: p.correctGuesses,
-            guessedCorrectly: p.guessedCorrectly,
-            guessedArtist: p.guessedArtist,
-            guessedSong: p.guessedSong
-        }));
-        
-        const myPlayer: Player = {
-            playerID: data.playerID,
-            playerName: deps.name,
-            score: 0,
-            guess: "",
-            lives: 0,
-            host: data.host,
-            correctGuesses: [],
-            guessedCorrectly: false,
-            guessedArtist: false,
-            guessedSong: false
-        };
-        
-        deps.setPlayers([myPlayer, ...existingPlayers]);
+        deps.setPlayers(state.players);
         deps.setGamemode(state.gamemode as GameModes);
     },
 
     handleOtherJoin: (data: OtherJoinResponse) => {
-        const newPlayer: Player = {
-            playerID: data.playerID,
-            playerName: data.playerName,
-            score: 0,
-            guess: "",
-            lives: 0,
-            host: false,
-            correctGuesses: [],
-            guessedCorrectly: false,
-            guessedArtist: false,
-            guessedSong: false
-        };
-        deps.setPlayers(prev => [...prev, newPlayer]);
+        deps.setPlayers(prev => {
+            const existing = prev.find(p => p.playerID === data.playerID);
+            if (existing) {
+                return prev.map(p => p.playerID === data.playerID
+                    ? { ...p, playerName: data.playerName, host: data.host ?? p.host, connected: true }
+                    : p
+                );
+            }
+
+            const newPlayer: Player = {
+                playerID: data.playerID,
+                playerName: data.playerName,
+                score: 0,
+                guess: "",
+                lives: 0,
+                host: data.host ?? false,
+                connected: true,
+                correctGuesses: [],
+                guessedCorrectly: false,
+                guessedArtist: false,
+                guessedSong: false
+            };
+            return [...prev, newPlayer];
+        });
     },
 
     handleQuit: (state: RoomState) => {
-        deps.setPlayers(state.players);
+        applyRoomState(deps, state);
     },
 
     handleUpdateGameMode: (state: RoomState) => {
-        deps.setRoomState(state);
-        deps.setGamemode(state.gamemode as GameModes);
-        deps.setPlayers(state.players);
+        applyRoomState(deps, state);
     },
 
-    handleUpdateHost: (data: {newHostID: number}) => {
-        if (data.newHostID === deps.playerID) deps.setHost(true);
+    handleUpdateHost: (data: {newHostID: number}, state?: RoomState) => {
+        deps.setHost(data.newHostID === deps.getPlayerID());
+        if (state) {
+            applyRoomState(deps, state);
+        } else {
+            deps.setPlayers(prev => prev.map(p => ({
+                ...p,
+                host: p.playerID === data.newHostID,
+            })));
+        }
     },
+
+    handleUpdatePlayers: (state: RoomState) => {
+        applyRoomState(deps, state);
+    },
+
     handleMessage: (state: RoomState) => {
         deps.setRoomState(state);
     }
@@ -117,6 +128,21 @@ export const createGenericEventEmitters = (socket: WebSocket | null) => ({
                 type: Events.ChatMessage,
                 data: { sender: sender, body: body },
             }));
+        }
+    },
+
+    submitTransferHost: (playerID: number) => {
+        if (socket) {
+            socket.send(JSON.stringify({
+                type: Events.TransferHost,
+                data: { playerID },
+            }));
+        }
+    },
+
+    submitRequestState: () => {
+        if (socket) {
+            socket.send(JSON.stringify({ type: Events.RequestState }));
         }
     },
 });

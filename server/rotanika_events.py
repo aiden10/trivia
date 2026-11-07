@@ -1,11 +1,12 @@
 import random
-from server.utils import broadcast, send_state, restart_base
+from server.utils import broadcast, send_state, restart_base, clear_stage_timer
 from server.models import Room, RotanikaEvents, RotanikaStages, RotanikaQuestion
 
 async def handle_restart(message: dict, room: Room):
     restart_base(room)
     
     if room.rotanika_state:
+        clear_stage_timer(room)
         room.rotanika_state.current_stage = RotanikaStages.Lobby.value
         room.rotanika_state.secret_thing = None
         room.rotanika_state.questions = []
@@ -23,6 +24,7 @@ async def handle_update_stage(message: dict, room: Room):
     if not room.rotanika_state:
         return
     
+    clear_stage_timer(room)
     room.rotanika_state.current_stage = new_stage
     
     # When moving to Picking stage, select the picker
@@ -61,6 +63,7 @@ async def handle_set_secret(message: dict, room: Room):
         return
     
     room.rotanika_state.secret_thing = secret
+    clear_stage_timer(room)
     room.rotanika_state.current_stage = RotanikaStages.GuessingPeriod.value
     room.rotanika_state.questions = []
     room.rotanika_state.waiting_for_answer = False
@@ -121,6 +124,7 @@ async def handle_answer_question(message: dict, room: Room):
             room.rotanika_state.winner = last_question.asked_by            
             room.rotanika_state.win_reason = 'guessed'
             
+            clear_stage_timer(room)
             room.rotanika_state.current_stage = RotanikaStages.Results.value
             await broadcast({
                 "type": RotanikaEvents.GuessResult.value,
@@ -138,6 +142,7 @@ async def handle_answer_question(message: dict, room: Room):
     if len(room.rotanika_state.questions) >= room.rotanika_state.max_questions:
         room.rotanika_state.win_reason = 'maxReached'
         room.rotanika_state.winner = None 
+        clear_stage_timer(room)
         room.rotanika_state.current_stage = RotanikaStages.Results.value
         await broadcast({
             "type": RotanikaEvents.GuessResult.value,
@@ -183,6 +188,7 @@ async def handle_player_disconnect(room: Room, player_id: int):
     
     # If picker leaves or only 1 player, reset to lobby
     if player_id == room.rotanika_state.picker_id or len(room.players) == 1:
+        clear_stage_timer(room)
         room.rotanika_state.current_stage = RotanikaStages.Lobby.value
         room.rotanika_state.secret_thing = None
         room.rotanika_state.questions = []
